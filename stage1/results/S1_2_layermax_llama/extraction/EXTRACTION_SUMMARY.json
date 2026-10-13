@@ -1,0 +1,521 @@
+{
+ "role": "llama-axis-extract",
+ "written_utc": "2026-10-08T23:03:30Z",
+ "plan_sha256": "990428e3f29c7ecfba9cf314a45c73c79f0154f86a07520429910d282c0a2fc8",
+ "models": {
+  "huggyllama/llama-13b": {
+   "revision": "bf57045473f207bb1de1ed035ace226f4d9f9bba",
+   "mode": "fp32",
+   "weights_dtype": "float32",
+   "files": {
+    ".npy": {
+     "path": "features/wit1024_llama_axis/huggyllama__llama-13b.npy",
+     "sha256": "8f138d43a2557a64335c59ee59881c13396445460982a4e8c9c40757692d6eb8"
+    },
+    ".lm_aux.npz": {
+     "path": "features/wit1024_llama_axis/huggyllama__llama-13b.lm_aux.npz",
+     "sha256": "1c61e7b20542310a25e49c520d88b3b9d2ae534b783d631cd51b1a9d9824e3e1"
+    },
+    ".json": {
+     "path": "features/wit1024_llama_axis/huggyllama__llama-13b.json",
+     "sha256": "0de3b18ad6bf722deb815bdc25bf9ac1b9683bc67f0e5da351e9eeb28732a464"
+    },
+    ".done": {
+     "path": "features/wit1024_llama_axis/huggyllama__llama-13b.done",
+     "sha256": "3dc8e750213a4caa87de3b86ef61ea59783ebc4d6633390b69595322c7adf28e"
+    }
+   },
+   "shape_items_layers_dim": [
+    1024,
+    41,
+    5120
+   ],
+   "layers_x_items_x_dim": [
+    41,
+    1024,
+    5120
+   ],
+   "n_layers": 40,
+   "hidden_size": 5120,
+   "num_params": 13015864320,
+   "E1": {
+    "pass_": true,
+    "shards_sha256_all_match": true,
+    "small_files_all_match": true,
+    "weight_dtypes": {
+     "F16": 363
+    },
+    "legacy_inv_freq": {
+     "F32": 40
+    },
+    "total_weight_bytes": 26031785400,
+    "download_s": 0.006071567535400391,
+    "verify_s": 30.337199211120605,
+    "download_s_attempt1": 257.15532660484314,
+    "download_rate_MBps_attempt1": 101.2298121283004
+   },
+   "E4_semantics": {
+    "n_hidden_states": 41,
+    "hs0_vs_layer0_input": 0.0,
+    "hs_i_vs_layer_i-1_output_max": 0.0,
+    "hsL_vs_finalnorm(lastlayer)": 0.0,
+    "hsL_vs_lastlayer_raw": 388.7857971191406
+   },
+   "E6_rerun": {
+    "n": 3,
+    "max_abs_diff": 0.0
+   },
+   "array_checks": {
+    "finite": true,
+    "zero_rows": 0,
+    "min_row_norm": 0.17907982857382948,
+    "max_row_norm": 660.1579665695136,
+    "min_layer_item_std": 0.004860170860959884,
+    "max_abs": 651.16015625
+   },
+   "E7": {
+    "num_params": 13015864320,
+    "nll_mean": 3.6220754282322765,
+    "bpb_mean": 1.6223042920218
+   },
+   "sp_check": {
+    "checked": 1024,
+    "mismatches": 0,
+    "rule": "ids (minus leading BOS) == sentencepiece.encode(text)"
+   },
+   "n_tokens": {
+    "min": 3,
+    "median": 15.0,
+    "max": 236
+   },
+   "timings": {
+    "download_s": 0.0006666183471679688,
+    "load_s": 37.20731973648071,
+    "dataset_total_s": 55.1456344127655,
+    "forward_s": 52.85329532623291,
+    "per_item_ms": 51.614546217024326
+   },
+   "gpu_peak_gb": 52.545415168,
+   "primary_checks": {
+    "shape_ok": true,
+    "semantics_ok": true,
+    "rerun_ok": true
+   }
+  },
+  "huggyllama/llama-30b": {
+   "revision": "2b1edcdb3c7ced7bce6c1aa75c94545777c3118b",
+   "mode": "streamed_fp32",
+   "weights_dtype": "float16 storage on the GPU; decoder-layer parameters upcast to float32 before each layer forward and restored after (streamed fp32); embedding, final norm, lm_head and rotary inv_freq float32",
+   "files": {
+    ".npy": {
+     "path": "features/wit1024_llama_axis/huggyllama__llama-30b.npy",
+     "sha256": "460517a5c782ef0bcf0e11a1f320965058659ccbf2c1489ae501b6b1c98eaee1"
+    },
+    ".lm_aux.npz": {
+     "path": "features/wit1024_llama_axis/huggyllama__llama-30b.lm_aux.npz",
+     "sha256": "f6b0c624ef8a1d1be6555172790e9224d754206dab8ae2c79decba370984c7ea"
+    },
+    ".json": {
+     "path": "features/wit1024_llama_axis/huggyllama__llama-30b.json",
+     "sha256": "c11b704bde42d40a7decf80ffd79610b944ea5219f9ca6cfc32d9113a6bedb6d"
+    },
+    ".done": {
+     "path": "features/wit1024_llama_axis/huggyllama__llama-30b.done",
+     "sha256": "c05744393fbfd6c3b4f6452131daa7973b0226673e57a6985fefc68fba03a05e"
+    }
+   },
+   "shape_items_layers_dim": [
+    1024,
+    61,
+    6656
+   ],
+   "layers_x_items_x_dim": [
+    61,
+    1024,
+    6656
+   ],
+   "n_layers": 60,
+   "hidden_size": 6656,
+   "num_params": 32528943616,
+   "E1": {
+    "pass_": true,
+    "shards_sha256_all_match": true,
+    "small_files_all_match": true,
+    "weight_dtypes": {
+     "F16": 543
+    },
+    "legacy_inv_freq": {
+     "F32": 60
+    },
+    "total_weight_bytes": 65057971592,
+    "download_s": 559.7167389392853,
+    "verify_s": 63.77363657951355
+   },
+   "E4_semantics": {
+    "n_hidden_states": 61,
+    "hs0_vs_layer0_input": 0.0,
+    "hs_i_vs_layer_i-1_output_max": 0.0,
+    "hsL_vs_finalnorm(lastlayer)": 0.0,
+    "hsL_vs_lastlayer_raw": 363.7159423828125
+   },
+   "E6_rerun": {
+    "n": 3,
+    "max_abs_diff": 0.0
+   },
+   "array_checks": {
+    "finite": true,
+    "zero_rows": 0,
+    "min_row_norm": 0.1695661580831466,
+    "max_row_norm": 982.8974845650146,
+    "min_layer_item_std": 0.0036743217834622893,
+    "max_abs": 974.6044311523438
+   },
+   "E7": {
+    "num_params": 32528943616,
+    "nll_mean": 3.518316068661518,
+    "bpb_mean": 1.5762610215370376
+   },
+   "sp_check": {
+    "checked": 1024,
+    "mismatches": 0,
+    "rule": "ids (minus leading BOS) == sentencepiece.encode(text)"
+   },
+   "n_tokens": {
+    "min": 3,
+    "median": 15.0,
+    "max": 236
+   },
+   "timings": {
+    "download_s": 0.0007195472717285156,
+    "load_s": 27.256694555282593,
+    "dataset_total_s": 266.9791693687439,
+    "forward_s": 262.8932840824127,
+    "per_item_ms": 256.7317227367312
+   },
+   "gpu_peak_gb": 68.690376704,
+   "primary_checks": {
+    "shape_ok": true,
+    "semantics_ok": true,
+    "rerun_ok": true
+   }
+  }
+ },
+ "E2_llama7b_reextraction": {
+  "pass_": true,
+  "bitwise_equal": true,
+  "max_abs": 0.0,
+  "max_rel": 0.0,
+  "first64_max_abs": 0.0,
+  "first64_max_rel": 0.0,
+  "per_layer_max_abs": [
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "per_layer_max_rel": [
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "lm_aux": {
+   "n_tokens": true,
+   "nll_mean": true,
+   "bpb": true,
+   "last_prenorm": true
+  },
+  "out": "features/_llama_axis_check/fp32/huggyllama__llama-7b.npy",
+  "ref": "features/wit1024/huggyllama__llama-7b.npy",
+  "wall_s": 56.78376793861389
+ },
+ "E3_streamed_vs_fp32": {
+  "llama-7b": {
+   "pass_": true,
+   "bitwise_equal": true,
+   "max_abs": 0.0,
+   "max_rel": 0.0,
+   "first64_max_abs": 0.0,
+   "first64_max_rel": 0.0,
+   "per_layer_max_abs": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "per_layer_max_rel": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "lm_aux": {
+    "n_tokens": true,
+    "nll_mean": true,
+    "bpb": true,
+    "last_prenorm": true
+   },
+   "out": "features/_llama_axis_check/streamed_fp32/huggyllama__llama-7b.npy",
+   "ref": "features/wit1024/huggyllama__llama-7b.npy",
+   "wall_s": 74.71092391014099
+  },
+  "llama-13b": {
+   "pass_": true,
+   "bitwise_equal": true,
+   "max_abs": 0.0,
+   "max_rel": 0.0,
+   "first64_max_abs": 0.0,
+   "first64_max_rel": 0.0,
+   "per_layer_max_abs": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "per_layer_max_rel": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "lm_aux": {
+    "n_tokens": true,
+    "nll_mean": true,
+    "bpb": true,
+    "last_prenorm": true
+   },
+   "out": "features/_llama_axis_check/streamed_fp32/huggyllama__llama-13b.npy",
+   "ref": "features/wit1024_llama_axis/huggyllama__llama-13b.npy",
+   "wall_s": 136.4938452243805
+  }
+ },
+ "E5_tokenizer": {
+  "pass_": true,
+  "n_differ": {
+   "huggyllama/llama-13b": 0,
+   "huggyllama/llama-30b": 0
+  },
+  "consequence": "ids identical: no tokenizer sensitivity extraction is needed (plan section 2 E5)",
+  "sp_check": {
+   "huggyllama/llama-7b": {
+    "checked": 1024,
+    "mismatches": 0
+   },
+   "huggyllama/llama-13b": {
+    "checked": 1024,
+    "mismatches": 0
+   },
+   "huggyllama/llama-30b": {
+    "checked": 1024,
+    "mismatches": 0
+   }
+  }
+ },
+ "deviations_and_incidents": [
+  "Outputs written to features/wit1024_llama_axis/ (frozen plan section 2), not features/wit1024/ as the computed task text said; nothing under features/wit1024/ was written.",
+  "Dtype: the stored llama-7b sidecar says weights and activations float32 (not fp16/bf16 as the task text assumed). llama-13b: standard fp32 load (52.5 GB GPU peak). llama-30b: streamed fp32 per the plan (16-bit weights resident, one decoder layer upcast to fp32 at a time; 68.7 GB GPU peak); no quantisation, no fp16 activations. Gated by E2 and E3 (both bitwise).",
+  "Checker bug (fixed, logged in STATUS): my first E1/streamed-load rule required one dtype over all safetensors tensors; the checkpoints also hold legacy per-layer F32 self_attn.rotary_emb.inv_freq buffers (not weights). E1 for 13b was marked FAIL although every hash matched, and the downloader stopped before 30b; the first E3 7b run stopped at load. Rule fixed, downloads relaunched (13b re-verified from cache). Kept: E1_huggyllama__llama-13b.attempt1_checker_bug.json.",
+  "E2 was run three times: code v1 (PASS, bitwise; kept as E2_llama-7b.codev1.json and features/_llama_axis_check/fp32_codev1/), a rerun that skipped extraction because the v1 output validated (kept as E2_llama-7b.rerun_skipped_existing_output.json), and a real rerun with the final code (PASS, bitwise) after moving the v1 output aside.",
+  "Determinism check: the task asked for the first 64 items; E2 re-extracted all 1024 items (first-64 statistics reported separately).",
+  "No tokenizer sensitivity extraction: token ids identical across the three repos on all 1024 captions (E5)."
+ ],
+ "code_sha256": {
+  "download_llama_axis.py": "7e5e2b81fda71726185a6625d937913101386c75356b4534ff26f6a9df0cbc83",
+  "extract_core_llama.py": "5b26c082314f7ab6b7cbdebf39b332535eaf6f15f9bbc7df21edb323e2f92d50",
+  "llama_axis_common.py": "1e4aef6dc22483117fc9d1ea634093f1e0d56f78f71554ef16e33a1e0946e531",
+  "run_llama_axis.py": "12bcaa29d2091b7466920a4b5f03ec3eacc6b5bc6d65f3ca8ac8ba97d27622f9",
+  "summarize_extraction.py": "7dccbeaef26fb92af27767dc83bfa5ee41ae98473814bb168217fd36b4454525",
+  "registry_llama_axis.py": "1af88e931897a07a1a64c909733b64ffe15d0e84dfd2efe84fbc5b0a9daa7f95",
+  "extract_core_llama.diff": "cc45b8083888f6d8aa8cd5b715d5777ea4520d423d1a0b2306ca65aa60f948af"
+ }
+}

@@ -1,0 +1,9 @@
+7329052ac8bedb2c398690bac9671402c509017f6de052fbaade8795da52fa88  ANALYSIS_PLAN_v1.1.md
+989d2f46eaeb769c290778f697b319bfd31ab49fca62d362fc446ae7eb765e48  analyze_s13a.py
+021d2173d2656d8fc5d5fd8d392c4a8b213a3c2500595301b8c9919826ec1ebf  linae_core.py
+05480b34d2df1abc49e448ceb45395e8d54b161ac568e91db05ebdd65a414355  linae_metrics.py
+c4e074c44500d2f1b7d728ed80cd9b0401f203a3ad647b8d4b904d99185f18bb  run_s13a.py
+95fefbf7c7e9b81530dd1056d6bdbca4d45ab720771337f06f4c7537f48d8e88  test_linae.py
+a583d379e7a4ed64c5793a8493791f810063de7f42d7a48b8b59f96b2831a6c3  run_all.sh
+# r2 (reporting-only revision of analyze_s13a.py at 2026-10-08T00:36:01Z, during the relaunch, before criteria/analysis ran: adds run-integrity and P4 descriptive sections, CP bounds in the md table, skips pre-polish fields for GD arms; no decision or verdict rule changed)
+b98075f5516ef8fb2390c38cbc1405442ca7bfd78e98bf5c9894990e89c2e315  analyze_s13a.py

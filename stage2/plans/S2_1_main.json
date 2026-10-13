@@ -1,0 +1,6341 @@
+{
+"cohort": "S2_1_main",
+"runs": [
+{
+"run_id": "S2.1_A_N50000_r000",
+"kind": "ssl",
+"exp": "S2.1",
+"arm": "A",
+"N": 50000,
+"rep": 0,
+"corpus": null,
+"cfg": {
+"loss": "infonce",
+"tau": 0.2
+},
+"pilot": false
+},
+{
+"run_id": "S2.1_B_N50000_r000",
+"kind": "ssl",
+"exp": "S2.1",
+"arm": "B",
+"N": 50000,
+"rep": 0,
+"corpus": null,
+"cfg": {
+"loss": "spectral",
+"mu": 1.0
+},
+"pilot": false
+},
+{
+"run_id": "S2.1_Atau_N50000_r000",
+"kind": "ssl",
+"exp": "S2.1",
+"arm": "Atau",
+"N": 50000,
+"rep": 0,
+"corpus": null,
+"cfg": {
+"loss": "infonce",
+"tau": 0.5
+},
+"pilot": false
+},
+{
+"run_id": "S2.1_A_N500000_r000",
+"kind": "ssl",
+"exp": "S2.1",
+"arm": "A",
+"N": 500000,
+"rep": 0,
+"corpus": null,
+"cfg": {
+"loss": "infonce",
+"tau": 0.2
+},
+"pilot": false
+},
+{
+"run_id": "S2.1_B_N500000_r000",
+"kind": "ssl",
+"exp": "S2.1",
+"arm": "B",
+"N": 500000,
+"rep": 0,
+"corpus": null,
+"cfg": {
+"loss": "spectral",
+"mu": 1.0
+},
+"pilot": false
+},
+{
+"run_id": "S2.1_Atau_N500000_r000",
+"kind": "ssl",
+"exp": "S2.1",
+"arm": "Atau",
+"N": 500000,
+"rep": 0,
+"corpus": null,
+"cfg": {
+"loss": "infonce",
+"tau": 0.5
+},
+"pilot": false
+},
+{
+"run_id": "S2.1_A_N50000_r001",
+"kind": "ssl",
+"exp": "S2.1",
+"arm": "A",
+"N": 50000,
+"rep": 1,
+"corpus": null,
+"cfg": {
+"loss": "infonce",
+"tau": 0.2
+},
+"pilot": false
+},
+{
+"run_id": "S2.1_B_N50000_r001",
+"kind": "ssl",
+"exp": "S2.1",
+"arm": "B",
+"N": 50000,
+"rep": 1,
+"corpus": null,
+"cfg": {
+"loss": "spectral",
+"mu": 1.0
+},
+"pilot": false
+},
+{
+"run_id": "S2.1_Atau_N50000_r001",
+"kind": "ssl",
+"exp": "S2.1",
+"arm": "Atau",
+"N": 50000,
+"rep": 1,
+"corpus": null,
+"cfg": {
+"loss": "infonce",
+"tau": 0.5
+},
+"pilot": false
+},
+{
+"run_id": "S2.1_A_N500000_r001",
+"kind": "ssl",
+"exp": "S2.1",
+"arm": "A",
+"N": 500000,
+"rep": 1,
+"corpus": null,
+"cfg": {
+"loss": "infonce",
+"tau": 0.2
+},
+"pilot": false
+},
+{
+"run_id": "S2.1_B_N500000_r001",
+"kind": "ssl",
+"exp": "S2.1",
+"arm": "B",
+"N": 500000,
+"rep": 1,
+"corpus": null,
+"cfg": {
+"loss": "spectral",
+"mu": 1.0
+},
+"pilot": false
+},
+{
+"run_id": "S2.1_Atau_N500000_r001",
+"kind": "ssl",
+"exp": "S2.1",
+"arm": "Atau",
+"N": 500000,
+"rep": 1,
+"corpus": null,
+"cfg": {
+"loss": "infonce",
+"tau": 0.5
+},
+"pilot": false
+},
+{
+"run_id": "S2.1_A_N50000_r002",
+"kind": "ssl",
+"exp": "S2.1",
+"arm": "A",
+"N": 50000,
+"rep": 2,
+"corpus": null,
+"cfg": {
+"loss": "infonce",
+"tau": 0.2
+},
+"pilot": false
+},
+{
+"run_id": "S2.1_B_N50000_r002",
+"kind": "ssl",
+"exp": "S2.1",
+"arm": "B",
+"N": 50000,
+"rep": 2,
+"corpus": null,
+"cfg": {
+"loss": "spectral",
+"mu": 1.0
+},
+"pilot": false
+},
+{
+"run_id": "S2.1_Atau_N50000_r002",
+"kind": "ssl",
+"exp": "S2.1",
+"arm": "Atau",
+"N": 50000,
+"rep": 2,
+"corpus": null,
+"cfg": {
+"loss": "infonce",
+"tau": 0.5
+},
+"pilot": false
+},
+{
+"run_id": "S2.1_A_N500000_r002",
+"kind": "ssl",
+"exp": "S2.1",
+"arm": "A",
+"N": 500000,
+"rep": 2,
+"corpus": null,
+"cfg": {
+"loss": "infonce",
+"tau": 0.2
+},
+"pilot": false
+},
+{
+"run_id": "S2.1_B_N500000_r002",
+"kind": "ssl",
+"exp": "S2.1",
+"arm": "B",
+"N": 500000,
+"rep": 2,
+"corpus": null,
+"cfg": {
+"loss": "spectral",
+"mu": 1.0
+},
+"pilot": false
+},
+{
+"run_id": "S2.1_Atau_N500000_r002",
+"kind": "ssl",
+"exp": "S2.1",
+"arm": "Atau",
+"N": 500000,
+"rep": 2,
+"corpus": null,
+"cfg": {
+"loss": "infonce",
+"tau": 0.5
+},
+"pilot": false
+},
+{
+"run_id": "S2.1_A_N50000_r003",
+"kind": "ssl",
+"exp": "S2.1",
+"arm": "A",
+"N": 50000,
+"rep": 3,
+"corpus": null,
+"cfg": {
+"loss": "infonce",
+"tau": 0.2
+},
+"pilot": false
+},
+{
+"run_id": "S2.1_B_N50000_r003",
+"kind": "ssl",
+"exp": "S2.1",
+"arm": "B",
+"N": 50000,
+"rep": 3,
+"corpus": null,
+"cfg": {
+"loss": "spectral",
+"mu": 1.0
+},
+"pilot": false
+},
+{
+"run_id": "S2.1_Atau_N50000_r003",
+"kind": "ssl",
+"exp": "S2.1",
+"arm": "Atau",
+"N": 50000,
+"rep": 3,
+"corpus": null,
+"cfg": {
+"loss": "infonce",
+"tau": 0.5
+},
+"pilot": false
+},
+{
+"run_id": "S2.1_A_N500000_r003",
+"kind": "ssl",
+"exp": "S2.1",
+"arm": "A",
+"N": 500000,
+"rep": 3,
+"corpus": null,
+"cfg": {
+"loss": "infonce",
+"tau": 0.2
+},
+"pilot": false
+},
+{
+"run_id": "S2.1_B_N500000_r003",
+"kind": "ssl",
+"exp": "S2.1",
+"arm": "B",
+"N": 500000,
+"rep": 3,
+"corpus": null,
+"cfg": {
+"loss": "spectral",
+"mu": 1.0
+},
+"pilot": false
+},
+{
+"run_id": "S2.1_Atau_N500000_r003",
+"kind": "ssl",
+"exp": "S2.1",
+"arm": "Atau",
+"N": 500000,
+"rep": 3,
+"corpus": null,
+"cfg": {
+"loss": "infonce",
+"tau": 0.5
+},
+"pilot": false
+},
+{
+"run_id": "S2.1_A_N50000_r004",
+"kind": "ssl",
+"exp": "S2.1",
+"arm": "A",
+"N": 50000,
+"rep": 4,
+"corpus": null,
+"cfg": {
+"loss": "infonce",
+"tau": 0.2
+},
+"pilot": false
+},
+{
+"run_id": "S2.1_B_N50000_r004",
+"kind": "ssl",
+"exp": "S2.1",
+"arm": "B",
+"N": 50000,
+"rep": 4,
+"corpus": null,
+"cfg": {
+"loss": "spectral",
+"mu": 1.0
+},
+"pilot": false
+},
+{
+"run_id": "S2.1_Atau_N50000_r004",
+"kind": "ssl",
+"exp": "S2.1",
+"arm": "Atau",
+"N": 50000,
+"rep": 4,
+"corpus": null,
+"cfg": {
+"loss": "infonce",
+"tau": 0.5
+},
+"pilot": false
+},
+{
+"run_id": "S2.1_A_N500000_r004",
+"kind": "ssl",
+"exp": "S2.1",
+"arm": "A",
+"N": 500000,
+"rep": 4,
+"corpus": null,
+"cfg": {
+"loss": "infonce",
+"tau": 0.2
+},
+"pilot": false
+},
+{
+"run_id": "S2.1_B_N500000_r004",
+"kind": "ssl",
+"exp": "S2.1",
+"arm": "B",
+"N": 500000,
+"rep": 4,
+"corpus": null,
+"cfg": {
+"loss": "spectral",
+"mu": 1.0
+},
+"pilot": false
+},
+{
+"run_id": "S2.1_Atau_N500000_r004",
+"kind": "ssl",
+"exp": "S2.1",
+"arm": "Atau",
+"N": 500000,
+"rep": 4,
+"corpus": null,
+"cfg": {
+"loss": "infonce",
+"tau": 0.5
+},
+"pilot": false
+},
+{
+"run_id": "S2.1_A_N50000_r005",
+"kind": "ssl",
+"exp": "S2.1",
+"arm": "A",
+"N": 50000,
+"rep": 5,
+"corpus": null,
+"cfg": {
+"loss": "infonce",
+"tau": 0.2
+},
+"pilot": false
+},
+{
+"run_id": "S2.1_B_N50000_r005",
+"kind": "ssl",
+"exp": "S2.1",
+"arm": "B",
+"N": 50000,
+"rep": 5,
+"corpus": null,
+"cfg": {
+"loss": "spectral",
+"mu": 1.0
+},
+"pilot": false
+},
+{
+"run_id": "S2.1_Atau_N50000_r005",
+"kind": "ssl",
+"exp": "S2.1",
+"arm": "Atau",
+"N": 50000,
+"rep": 5,
+"corpus": null,
+"cfg": {
+"loss": "infonce",
+"tau": 0.5
+},
+"pilot": false
+},
+{
+"run_id": "S2.1_A_N500000_r005",
+"kind": "ssl",
+"exp": "S2.1",
+"arm": "A",
+"N": 500000,
+"rep": 5,
+"corpus": null,
+"cfg": {
+"loss": "infonce",
+"tau": 0.2
+},
+"pilot": false
+},
+{
+"run_id": "S2.1_B_N500000_r005",
+"kind": "ssl",
+"exp": "S2.1",
+"arm": "B",
+"N": 500000,
+"rep": 5,
+"corpus": null,
+"cfg": {
+"loss": "spectral",
+"mu": 1.0
+},
+"pilot": false
+},
+{
+"run_id": "S2.1_Atau_N500000_r005",
+"kind": "ssl",
+"exp": "S2.1",
+"arm": "Atau",
+"N": 500000,
+"rep": 5,
+"corpus": null,
+"cfg": {
+"loss": "infonce",
+"tau": 0.5
+},
+"pilot": false
+},
+{
+"run_id": "S2.1_A_N50000_r006",
+"kind": "ssl",
+"exp": "S2.1",
+"arm": "A",
+"N": 50000,
+"rep": 6,
+"corpus": null,
+"cfg": {
+"loss": "infonce",
+"tau": 0.2
+},
+"pilot": false
+},
+{
+"run_id": "S2.1_B_N50000_r006",
+"kind": "ssl",
+"exp": "S2.1",
+"arm": "B",
+"N": 50000,
+"rep": 6,
+"corpus": null,
+"cfg": {
+"loss": "spectral",
+"mu": 1.0
+},
+"pilot": false
+},
+{
+"run_id": "S2.1_Atau_N50000_r006",
+"kind": "ssl",
+"exp": "S2.1",
+"arm": "Atau",
+"N": 50000,
+"rep": 6,
+"corpus": null,
+"cfg": {
+"loss": "infonce",
+"tau": 0.5
+},
+"pilot": false
+},
+{
+"run_id": "S2.1_A_N500000_r006",
+"kind": "ssl",
+"exp": "S2.1",
+"arm": "A",
+"N": 500000,
+"rep": 6,
+"corpus": null,
+"cfg": {
+"loss": "infonce",
+"tau": 0.2
+},
+"pilot": false
+},
+{
+"run_id": "S2.1_B_N500000_r006",
+"kind": "ssl",
+"exp": "S2.1",
+"arm": "B",
+"N": 500000,
+"rep": 6,
+"corpus": null,
+"cfg": {
+"loss": "spectral",
+"mu": 1.0
+},
+"pilot": false
+},
+{
+"run_id": "S2.1_Atau_N500000_r006",
+"kind": "ssl",
+"exp": "S2.1",
+"arm": "Atau",
+"N": 500000,
+"rep": 6,
+"corpus": null,
+"cfg": {
+"loss": "infonce",
+"tau": 0.5
+},
+"pilot": false
+},
+{
+"run_id": "S2.1_A_N50000_r007",
+"kind": "ssl",
+"exp": "S2.1",
+"arm": "A",
+"N": 50000,
+"rep": 7,
+"corpus": null,
+"cfg": {
+"loss": "infonce",
+"tau": 0.2
+},
+"pilot": false
+},
+{
+"run_id": "S2.1_B_N50000_r007",
+"kind": "ssl",
+"exp": "S2.1",
+"arm": "B",
+"N": 50000,
+"rep": 7,
+"corpus": null,
+"cfg": {
+"loss": "spectral",
+"mu": 1.0
+},
+"pilot": false
+},
+{
+"run_id": "S2.1_Atau_N50000_r007",
+"kind": "ssl",
+"exp": "S2.1",
+"arm": "Atau",
+"N": 50000,
+"rep": 7,
+"corpus": null,
+"cfg": {
+"loss": "infonce",
+"tau": 0.5
+},
+"pilot": false
+},
+{
+"run_id": "S2.1_A_N500000_r007",
+"kind": "ssl",
+"exp": "S2.1",
+"arm": "A",
+"N": 500000,
+"rep": 7,
+"corpus": null,
+"cfg": {
+"loss": "infonce",
+"tau": 0.2
+},
+"pilot": false
+},
+{
+"run_id": "S2.1_B_N500000_r007",
+"kind": "ssl",
+"exp": "S2.1",
+"arm": "B",
+"N": 500000,
+"rep": 7,
+"corpus": null,
+"cfg": {
+"loss": "spectral",
+"mu": 1.0
+},
+"pilot": false
+},
+{
+"run_id": "S2.1_Atau_N500000_r007",
+"kind": "ssl",
+"exp": "S2.1",
+"arm": "Atau",
+"N": 500000,
+"rep": 7,
+"corpus": null,
+"cfg": {
+"loss": "infonce",
+"tau": 0.5
+},
+"pilot": false
+},
+{
+"run_id": "S2.1_A_N50000_r008",
+"kind": "ssl",
+"exp": "S2.1",
+"arm": "A",
+"N": 50000,
+"rep": 8,
+"corpus": null,
+"cfg": {
+"loss": "infonce",
+"tau": 0.2
+},
+"pilot": false
+},
+{
+"run_id": "S2.1_B_N50000_r008",
+"kind": "ssl",
+"exp": "S2.1",
+"arm": "B",
+"N": 50000,
+"rep": 8,
+"corpus": null,
+"cfg": {
+"loss": "spectral",
+"mu": 1.0
+},
+"pilot": false
+},
+{
+"run_id": "S2.1_Atau_N50000_r008",
+"kind": "ssl",
+"exp": "S2.1",
+"arm": "Atau",
+"N": 50000,
+"rep": 8,
+"corpus": null,
+"cfg": {
+"loss": "infonce",
+"tau": 0.5
+},
+"pilot": false
+},
+{
+"run_id": "S2.1_A_N500000_r008",
+"kind": "ssl",
+"exp": "S2.1",
+"arm": "A",
+"N": 500000,
+"rep": 8,
+"corpus": null,
+"cfg": {
+"loss": "infonce",
+"tau": 0.2
+},
+"pilot": false
+},
+{
+"run_id": "S2.1_B_N500000_r008",
+"kind": "ssl",
+"exp": "S2.1",
+"arm": "B",
+"N": 500000,
+"rep": 8,
+"corpus": null,
+"cfg": {
+"loss": "spectral",
+"mu": 1.0
+},
+"pilot": false
+},
+{
+"run_id": "S2.1_Atau_N500000_r008",
+"kind": "ssl",
+"exp": "S2.1",
+"arm": "Atau",
+"N": 500000,
+"rep": 8,
+"corpus": null,
+"cfg": {
+"loss": "infonce",
+"tau": 0.5
+},
+"pilot": false
+},
+{
+"run_id": "S2.1_A_N50000_r009",
+"kind": "ssl",
+"exp": "S2.1",
+"arm": "A",
+"N": 50000,
+"rep": 9,
+"corpus": null,
+"cfg": {
+"loss": "infonce",
+"tau": 0.2
+},
+"pilot": false
+},
+{
+"run_id": "S2.1_B_N50000_r009",
+"kind": "ssl",
+"exp": "S2.1",
+"arm": "B",
+"N": 50000,
+"rep": 9,
+"corpus": null,
+"cfg": {
+"loss": "spectral",
+"mu": 1.0
+},
+"pilot": false
+},
+{
+"run_id": "S2.1_Atau_N50000_r009",
+"kind": "ssl",
+"exp": "S2.1",
+"arm": "Atau",
+"N": 50000,
+"rep": 9,
+"corpus": null,
+"cfg": {
+"loss": "infonce",
+"tau": 0.5
+},
+"pilot": false
+},
+{
+"run_id": "S2.1_A_N500000_r009",
+"kind": "ssl",
+"exp": "S2.1",
+"arm": "A",
+"N": 500000,
+"rep": 9,
+"corpus": null,
+"cfg": {
+"loss": "infonce",
+"tau": 0.2
+},
+"pilot": false
+},
+{
+"run_id": "S2.1_B_N500000_r009",
+"kind": "ssl",
+"exp": "S2.1",
+"arm": "B",
+"N": 500000,
+"rep": 9,
+"corpus": null,
+"cfg": {
+"loss": "spectral",
+"mu": 1.0
+},
+"pilot": false
+},
+{
+"run_id": "S2.1_Atau_N500000_r009",
+"kind": "ssl",
+"exp": "S2.1",
+"arm": "Atau",
+"N": 500000,
+"rep": 9,
+"corpus": null,
+"cfg": {
+"loss": "infonce",
+"tau": 0.5
+},
+"pilot": false
+},
+{
+"run_id": "S2.1_A_N50000_r010",
+"kind": "ssl",
+"exp": "S2.1",
+"arm": "A",
+"N": 50000,
+"rep": 10,
+"corpus": null,
+"cfg": {
+"loss": "infonce",
+"tau": 0.2
+},
+"pilot": false
+},
+{
+"run_id": "S2.1_B_N50000_r010",
+"kind": "ssl",
+"exp": "S2.1",
+"arm": "B",
+"N": 50000,
+"rep": 10,
+"corpus": null,
+"cfg": {
+"loss": "spectral",
+"mu": 1.0
+},
+"pilot": false
+},
+{
+"run_id": "S2.1_Atau_N50000_r010",
+"kind": "ssl",
+"exp": "S2.1",
+"arm": "Atau",
+"N": 50000,
+"rep": 10,
+"corpus": null,
+"cfg": {
+"loss": "infonce",
+"tau": 0.5
+},
+"pilot": false
+},
+{
+"run_id": "S2.1_A_N500000_r010",
+"kind": "ssl",
+"exp": "S2.1",
+"arm": "A",
+"N": 500000,
+"rep": 10,
+"corpus": null,
+"cfg": {
+"loss": "infonce",
+"tau": 0.2
+},
+"pilot": false
+},
+{
+"run_id": "S2.1_B_N500000_r010",
+"kind": "ssl",
+"exp": "S2.1",
+"arm": "B",
+"N": 500000,
+"rep": 10,
+"corpus": null,
+"cfg": {
+"loss": "spectral",
+"mu": 1.0
+},
+"pilot": false
+},
+{
+"run_id": "S2.1_Atau_N500000_r010",
+"kind": "ssl",
+"exp": "S2.1",
+"arm": "Atau",
+"N": 500000,
+"rep": 10,
+"corpus": null,
+"cfg": {
+"loss": "infonce",
+"tau": 0.5
+},
+"pilot": false
+},
+{
+"run_id": "S2.1_A_N50000_r011",
+"kind": "ssl",
+"exp": "S2.1",
+"arm": "A",
+"N": 50000,
+"rep": 11,
+"corpus": null,
+"cfg": {
+"loss": "infonce",
+"tau": 0.2
+},
+"pilot": false
+},
+{
+"run_id": "S2.1_B_N50000_r011",
+"kind": "ssl",
+"exp": "S2.1",
+"arm": "B",
+"N": 50000,
+"rep": 11,
+"corpus": null,
+"cfg": {
+"loss": "spectral",
+"mu": 1.0
+},
+"pilot": false
+},
+{
+"run_id": "S2.1_Atau_N50000_r011",
+"kind": "ssl",
+"exp": "S2.1",
+"arm": "Atau",
+"N": 50000,
+"rep": 11,
+"corpus": null,
+"cfg": {
+"loss": "infonce",
+"tau": 0.5
+},
+"pilot": false
+},
+{
+"run_id": "S2.1_A_N500000_r011",
+"kind": "ssl",
+"exp": "S2.1",
+"arm": "A",
+"N": 500000,
+"rep": 11,
+"corpus": null,
+"cfg": {
+"loss": "infonce",
+"tau": 0.2
+},
+"pilot": false
+},
+{
+"run_id": "S2.1_B_N500000_r011",
+"kind": "ssl",
+"exp": "S2.1",
+"arm": "B",
+"N": 500000,
+"rep": 11,
+"corpus": null,
+"cfg": {
+"loss": "spectral",
+"mu": 1.0
+},
+"pilot": false
+},
+{
+"run_id": "S2.1_Atau_N500000_r011",
+"kind": "ssl",
+"exp": "S2.1",
+"arm": "Atau",
+"N": 500000,
+"rep": 11,
+"corpus": null,
+"cfg": {
+"loss": "infonce",
+"tau": 0.5
+},
+"pilot": false
+},
+{
+"run_id": "S2.1_A_N50000_r012",
+"kind": "ssl",
+"exp": "S2.1",
+"arm": "A",
+"N": 50000,
+"rep": 12,
+"corpus": null,
+"cfg": {
+"loss": "infonce",
+"tau": 0.2
+},
+"pilot": false
+},
+{
+"run_id": "S2.1_B_N50000_r012",
+"kind": "ssl",
+"exp": "S2.1",
+"arm": "B",
+"N": 50000,
+"rep": 12,
+"corpus": null,
+"cfg": {
+"loss": "spectral",
+"mu": 1.0
+},
+"pilot": false
+},
+{
+"run_id": "S2.1_Atau_N50000_r012",
+"kind": "ssl",
+"exp": "S2.1",
+"arm": "Atau",
+"N": 50000,
+"rep": 12,
+"corpus": null,
+"cfg": {
+"loss": "infonce",
+"tau": 0.5
+},
+"pilot": false
+},
+{
+"run_id": "S2.1_A_N500000_r012",
+"kind": "ssl",
+"exp": "S2.1",
+"arm": "A",
+"N": 500000,
+"rep": 12,
+"corpus": null,
+"cfg": {
+"loss": "infonce",
+"tau": 0.2
+},
+"pilot": false
+},
+{
+"run_id": "S2.1_B_N500000_r012",
+"kind": "ssl",
+"exp": "S2.1",
+"arm": "B",
+"N": 500000,
+"rep": 12,
+"corpus": null,
+"cfg": {
+"loss": "spectral",
+"mu": 1.0
+},
+"pilot": false
+},
+{
+"run_id": "S2.1_Atau_N500000_r012",
+"kind": "ssl",
+"exp": "S2.1",
+"arm": "Atau",
+"N": 500000,
+"rep": 12,
+"corpus": null,
+"cfg": {
+"loss": "infonce",
+"tau": 0.5
+},
+"pilot": false
+},
+{
+"run_id": "S2.1_A_N50000_r013",
+"kind": "ssl",
+"exp": "S2.1",
+"arm": "A",
+"N": 50000,
+"rep": 13,
+"corpus": null,
+"cfg": {
+"loss": "infonce",
+"tau": 0.2
+},
+"pilot": false
+},
+{
+"run_id": "S2.1_B_N50000_r013",
+"kind": "ssl",
+"exp": "S2.1",
+"arm": "B",
+"N": 50000,
+"rep": 13,
+"corpus": null,
+"cfg": {
+"loss": "spectral",
+"mu": 1.0
+},
+"pilot": false
+},
+{
+"run_id": "S2.1_Atau_N50000_r013",
+"kind": "ssl",
+"exp": "S2.1",
+"arm": "Atau",
+"N": 50000,
+"rep": 13,
+"corpus": null,
+"cfg": {
+"loss": "infonce",
+"tau": 0.5
+},
+"pilot": false
+},
+{
+"run_id": "S2.1_A_N500000_r013",
+"kind": "ssl",
+"exp": "S2.1",
+"arm": "A",
+"N": 500000,
+"rep": 13,
+"corpus": null,
+"cfg": {
+"loss": "infonce",
+"tau": 0.2
+},
+"pilot": false
+},
+{
+"run_id": "S2.1_B_N500000_r013",
+"kind": "ssl",
+"exp": "S2.1",
+"arm": "B",
+"N": 500000,
+"rep": 13,
+"corpus": null,
+"cfg": {
+"loss": "spectral",
+"mu": 1.0
+},
+"pilot": false
+},
+{
+"run_id": "S2.1_Atau_N500000_r013",
+"kind": "ssl",
+"exp": "S2.1",
+"arm": "Atau",
+"N": 500000,
+"rep": 13,
+"corpus": null,
+"cfg": {
+"loss": "infonce",
+"tau": 0.5
+},
+"pilot": false
+},
+{
+"run_id": "S2.1_A_N50000_r014",
+"kind": "ssl",
+"exp": "S2.1",
+"arm": "A",
+"N": 50000,
+"rep": 14,
+"corpus": null,
+"cfg": {
+"loss": "infonce",
+"tau": 0.2
+},
+"pilot": false
+},
+{
+"run_id": "S2.1_B_N50000_r014",
+"kind": "ssl",
+"exp": "S2.1",
+"arm": "B",
+"N": 50000,
+"rep": 14,
+"corpus": null,
+"cfg": {
+"loss": "spectral",
+"mu": 1.0
+},
+"pilot": false
+},
+{
+"run_id": "S2.1_Atau_N50000_r014",
+"kind": "ssl",
+"exp": "S2.1",
+"arm": "Atau",
+"N": 50000,
+"rep": 14,
+"corpus": null,
+"cfg": {
+"loss": "infonce",
+"tau": 0.5
+},
+"pilot": false
+},
+{
+"run_id": "S2.1_A_N500000_r014",
+"kind": "ssl",
+"exp": "S2.1",
+"arm": "A",
+"N": 500000,
+"rep": 14,
+"corpus": null,
+"cfg": {
+"loss": "infonce",
+"tau": 0.2
+},
+"pilot": false
+},
+{
+"run_id": "S2.1_B_N500000_r014",
+"kind": "ssl",
+"exp": "S2.1",
+"arm": "B",
+"N": 500000,
+"rep": 14,
+"corpus": null,
+"cfg": {
+"loss": "spectral",
+"mu": 1.0
+},
+"pilot": false
+},
+{
+"run_id": "S2.1_Atau_N500000_r014",
+"kind": "ssl",
+"exp": "S2.1",
+"arm": "Atau",
+"N": 500000,
+"rep": 14,
+"corpus": null,
+"cfg": {
+"loss": "infonce",
+"tau": 0.5
+},
+"pilot": false
+},
+{
+"run_id": "S2.1_A_N50000_r015",
+"kind": "ssl",
+"exp": "S2.1",
+"arm": "A",
+"N": 50000,
+"rep": 15,
+"corpus": null,
+"cfg": {
+"loss": "infonce",
+"tau": 0.2
+},
+"pilot": false
+},
+{
+"run_id": "S2.1_B_N50000_r015",
+"kind": "ssl",
+"exp": "S2.1",
+"arm": "B",
+"N": 50000,
+"rep": 15,
+"corpus": null,
+"cfg": {
+"loss": "spectral",
+"mu": 1.0
+},
+"pilot": false
+},
+{
+"run_id": "S2.1_Atau_N50000_r015",
+"kind": "ssl",
+"exp": "S2.1",
+"arm": "Atau",
+"N": 50000,
+"rep": 15,
+"corpus": null,
+"cfg": {
+"loss": "infonce",
+"tau": 0.5
+},
+"pilot": false
+},
+{
+"run_id": "S2.1_A_N500000_r015",
+"kind": "ssl",
+"exp": "S2.1",
+"arm": "A",
+"N": 500000,
+"rep": 15,
+"corpus": null,
+"cfg": {
+"loss": "infonce",
+"tau": 0.2
+},
+"pilot": false
+},
+{
+"run_id": "S2.1_B_N500000_r015",
+"kind": "ssl",
+"exp": "S2.1",
+"arm": "B",
+"N": 500000,
+"rep": 15,
+"corpus": null,
+"cfg": {
+"loss": "spectral",
+"mu": 1.0
+},
+"pilot": false
+},
+{
+"run_id": "S2.1_Atau_N500000_r015",
+"kind": "ssl",
+"exp": "S2.1",
+"arm": "Atau",
+"N": 500000,
+"rep": 15,
+"corpus": null,
+"cfg": {
+"loss": "infonce",
+"tau": 0.5
+},
+"pilot": false
+},
+{
+"run_id": "S2.1_A_N50000_r016",
+"kind": "ssl",
+"exp": "S2.1",
+"arm": "A",
+"N": 50000,
+"rep": 16,
+"corpus": null,
+"cfg": {
+"loss": "infonce",
+"tau": 0.2
+},
+"pilot": false
+},
+{
+"run_id": "S2.1_B_N50000_r016",
+"kind": "ssl",
+"exp": "S2.1",
+"arm": "B",
+"N": 50000,
+"rep": 16,
+"corpus": null,
+"cfg": {
+"loss": "spectral",
+"mu": 1.0
+},
+"pilot": false
+},
+{
+"run_id": "S2.1_Atau_N50000_r016",
+"kind": "ssl",
+"exp": "S2.1",
+"arm": "Atau",
+"N": 50000,
+"rep": 16,
+"corpus": null,
+"cfg": {
+"loss": "infonce",
+"tau": 0.5
+},
+"pilot": false
+},
+{
+"run_id": "S2.1_A_N500000_r016",
+"kind": "ssl",
+"exp": "S2.1",
+"arm": "A",
+"N": 500000,
+"rep": 16,
+"corpus": null,
+"cfg": {
+"loss": "infonce",
+"tau": 0.2
+},
+"pilot": false
+},
+{
+"run_id": "S2.1_B_N500000_r016",
+"kind": "ssl",
+"exp": "S2.1",
+"arm": "B",
+"N": 500000,
+"rep": 16,
+"corpus": null,
+"cfg": {
+"loss": "spectral",
+"mu": 1.0
+},
+"pilot": false
+},
+{
+"run_id": "S2.1_Atau_N500000_r016",
+"kind": "ssl",
+"exp": "S2.1",
+"arm": "Atau",
+"N": 500000,
+"rep": 16,
+"corpus": null,
+"cfg": {
+"loss": "infonce",
+"tau": 0.5
+},
+"pilot": false
+},
+{
+"run_id": "S2.1_A_N50000_r017",
+"kind": "ssl",
+"exp": "S2.1",
+"arm": "A",
+"N": 50000,
+"rep": 17,
+"corpus": null,
+"cfg": {
+"loss": "infonce",
+"tau": 0.2
+},
+"pilot": false
+},
+{
+"run_id": "S2.1_B_N50000_r017",
+"kind": "ssl",
+"exp": "S2.1",
+"arm": "B",
+"N": 50000,
+"rep": 17,
+"corpus": null,
+"cfg": {
+"loss": "spectral",
+"mu": 1.0
+},
+"pilot": false
+},
+{
+"run_id": "S2.1_Atau_N50000_r017",
+"kind": "ssl",
+"exp": "S2.1",
+"arm": "Atau",
+"N": 50000,
+"rep": 17,
+"corpus": null,
+"cfg": {
+"loss": "infonce",
+"tau": 0.5
+},
+"pilot": false
+},
+{
+"run_id": "S2.1_A_N500000_r017",
+"kind": "ssl",
+"exp": "S2.1",
+"arm": "A",
+"N": 500000,
+"rep": 17,
+"corpus": null,
+"cfg": {
+"loss": "infonce",
+"tau": 0.2
+},
+"pilot": false
+},
+{
+"run_id": "S2.1_B_N500000_r017",
+"kind": "ssl",
+"exp": "S2.1",
+"arm": "B",
+"N": 500000,
+"rep": 17,
+"corpus": null,
+"cfg": {
+"loss": "spectral",
+"mu": 1.0
+},
+"pilot": false
+},
+{
+"run_id": "S2.1_Atau_N500000_r017",
+"kind": "ssl",
+"exp": "S2.1",
+"arm": "Atau",
+"N": 500000,
+"rep": 17,
+"corpus": null,
+"cfg": {
+"loss": "infonce",
+"tau": 0.5
+},
+"pilot": false
+},
+{
+"run_id": "S2.1_A_N50000_r018",
+"kind": "ssl",
+"exp": "S2.1",
+"arm": "A",
+"N": 50000,
+"rep": 18,
+"corpus": null,
+"cfg": {
+"loss": "infonce",
+"tau": 0.2
+},
+"pilot": false
+},
+{
+"run_id": "S2.1_B_N50000_r018",
+"kind": "ssl",
+"exp": "S2.1",
+"arm": "B",
+"N": 50000,
+"rep": 18,
+"corpus": null,
+"cfg": {
+"loss": "spectral",
+"mu": 1.0
+},
+"pilot": false
+},
+{
+"run_id": "S2.1_Atau_N50000_r018",
+"kind": "ssl",
+"exp": "S2.1",
+"arm": "Atau",
+"N": 50000,
+"rep": 18,
+"corpus": null,
+"cfg": {
+"loss": "infonce",
+"tau": 0.5
+},
+"pilot": false
+},
+{
+"run_id": "S2.1_A_N500000_r018",
+"kind": "ssl",
+"exp": "S2.1",
+"arm": "A",
+"N": 500000,
+"rep": 18,
+"corpus": null,
+"cfg": {
+"loss": "infonce",
+"tau": 0.2
+},
+"pilot": false
+},
+{
+"run_id": "S2.1_B_N500000_r018",
+"kind": "ssl",
+"exp": "S2.1",
+"arm": "B",
+"N": 500000,
+"rep": 18,
+"corpus": null,
+"cfg": {
+"loss": "spectral",
+"mu": 1.0
+},
+"pilot": false
+},
+{
+"run_id": "S2.1_Atau_N500000_r018",
+"kind": "ssl",
+"exp": "S2.1",
+"arm": "Atau",
+"N": 500000,
+"rep": 18,
+"corpus": null,
+"cfg": {
+"loss": "infonce",
+"tau": 0.5
+},
+"pilot": false
+},
+{
+"run_id": "S2.1_A_N50000_r019",
+"kind": "ssl",
+"exp": "S2.1",
+"arm": "A",
+"N": 50000,
+"rep": 19,
+"corpus": null,
+"cfg": {
+"loss": "infonce",
+"tau": 0.2
+},
+"pilot": false
+},
+{
+"run_id": "S2.1_B_N50000_r019",
+"kind": "ssl",
+"exp": "S2.1",
+"arm": "B",
+"N": 50000,
+"rep": 19,
+"corpus": null,
+"cfg": {
+"loss": "spectral",
+"mu": 1.0
+},
+"pilot": false
+},
+{
+"run_id": "S2.1_Atau_N50000_r019",
+"kind": "ssl",
+"exp": "S2.1",
+"arm": "Atau",
+"N": 50000,
+"rep": 19,
+"corpus": null,
+"cfg": {
+"loss": "infonce",
+"tau": 0.5
+},
+"pilot": false
+},
+{
+"run_id": "S2.1_A_N500000_r019",
+"kind": "ssl",
+"exp": "S2.1",
+"arm": "A",
+"N": 500000,
+"rep": 19,
+"corpus": null,
+"cfg": {
+"loss": "infonce",
+"tau": 0.2
+},
+"pilot": false
+},
+{
+"run_id": "S2.1_B_N500000_r019",
+"kind": "ssl",
+"exp": "S2.1",
+"arm": "B",
+"N": 500000,
+"rep": 19,
+"corpus": null,
+"cfg": {
+"loss": "spectral",
+"mu": 1.0
+},
+"pilot": false
+},
+{
+"run_id": "S2.1_Atau_N500000_r019",
+"kind": "ssl",
+"exp": "S2.1",
+"arm": "Atau",
+"N": 500000,
+"rep": 19,
+"corpus": null,
+"cfg": {
+"loss": "infonce",
+"tau": 0.5
+},
+"pilot": false
+},
+{
+"run_id": "S2.1_A_N50000_r020",
+"kind": "ssl",
+"exp": "S2.1",
+"arm": "A",
+"N": 50000,
+"rep": 20,
+"corpus": null,
+"cfg": {
+"loss": "infonce",
+"tau": 0.2
+},
+"pilot": false
+},
+{
+"run_id": "S2.1_B_N50000_r020",
+"kind": "ssl",
+"exp": "S2.1",
+"arm": "B",
+"N": 50000,
+"rep": 20,
+"corpus": null,
+"cfg": {
+"loss": "spectral",
+"mu": 1.0
+},
+"pilot": false
+},
+{
+"run_id": "S2.1_Atau_N50000_r020",
+"kind": "ssl",
+"exp": "S2.1",
+"arm": "Atau",
+"N": 50000,
+"rep": 20,
+"corpus": null,
+"cfg": {
+"loss": "infonce",
+"tau": 0.5
+},
+"pilot": false
+},
+{
+"run_id": "S2.1_A_N500000_r020",
+"kind": "ssl",
+"exp": "S2.1",
+"arm": "A",
+"N": 500000,
+"rep": 20,
+"corpus": null,
+"cfg": {
+"loss": "infonce",
+"tau": 0.2
+},
+"pilot": false
+},
+{
+"run_id": "S2.1_B_N500000_r020",
+"kind": "ssl",
+"exp": "S2.1",
+"arm": "B",
+"N": 500000,
+"rep": 20,
+"corpus": null,
+"cfg": {
+"loss": "spectral",
+"mu": 1.0
+},
+"pilot": false
+},
+{
+"run_id": "S2.1_Atau_N500000_r020",
+"kind": "ssl",
+"exp": "S2.1",
+"arm": "Atau",
+"N": 500000,
+"rep": 20,
+"corpus": null,
+"cfg": {
+"loss": "infonce",
+"tau": 0.5
+},
+"pilot": false
+},
+{
+"run_id": "S2.1_A_N50000_r021",
+"kind": "ssl",
+"exp": "S2.1",
+"arm": "A",
+"N": 50000,
+"rep": 21,
+"corpus": null,
+"cfg": {
+"loss": "infonce",
+"tau": 0.2
+},
+"pilot": false
+},
+{
+"run_id": "S2.1_B_N50000_r021",
+"kind": "ssl",
+"exp": "S2.1",
+"arm": "B",
+"N": 50000,
+"rep": 21,
+"corpus": null,
+"cfg": {
+"loss": "spectral",
+"mu": 1.0
+},
+"pilot": false
+},
+{
+"run_id": "S2.1_Atau_N50000_r021",
+"kind": "ssl",
+"exp": "S2.1",
+"arm": "Atau",
+"N": 50000,
+"rep": 21,
+"corpus": null,
+"cfg": {
+"loss": "infonce",
+"tau": 0.5
+},
+"pilot": false
+},
+{
+"run_id": "S2.1_A_N500000_r021",
+"kind": "ssl",
+"exp": "S2.1",
+"arm": "A",
+"N": 500000,
+"rep": 21,
+"corpus": null,
+"cfg": {
+"loss": "infonce",
+"tau": 0.2
+},
+"pilot": false
+},
+{
+"run_id": "S2.1_B_N500000_r021",
+"kind": "ssl",
+"exp": "S2.1",
+"arm": "B",
+"N": 500000,
+"rep": 21,
+"corpus": null,
+"cfg": {
+"loss": "spectral",
+"mu": 1.0
+},
+"pilot": false
+},
+{
+"run_id": "S2.1_Atau_N500000_r021",
+"kind": "ssl",
+"exp": "S2.1",
+"arm": "Atau",
+"N": 500000,
+"rep": 21,
+"corpus": null,
+"cfg": {
+"loss": "infonce",
+"tau": 0.5
+},
+"pilot": false
+},
+{
+"run_id": "S2.1_A_N50000_r022",
+"kind": "ssl",
+"exp": "S2.1",
+"arm": "A",
+"N": 50000,
+"rep": 22,
+"corpus": null,
+"cfg": {
+"loss": "infonce",
+"tau": 0.2
+},
+"pilot": false
+},
+{
+"run_id": "S2.1_B_N50000_r022",
+"kind": "ssl",
+"exp": "S2.1",
+"arm": "B",
+"N": 50000,
+"rep": 22,
+"corpus": null,
+"cfg": {
+"loss": "spectral",
+"mu": 1.0
+},
+"pilot": false
+},
+{
+"run_id": "S2.1_Atau_N50000_r022",
+"kind": "ssl",
+"exp": "S2.1",
+"arm": "Atau",
+"N": 50000,
+"rep": 22,
+"corpus": null,
+"cfg": {
+"loss": "infonce",
+"tau": 0.5
+},
+"pilot": false
+},
+{
+"run_id": "S2.1_A_N500000_r022",
+"kind": "ssl",
+"exp": "S2.1",
+"arm": "A",
+"N": 500000,
+"rep": 22,
+"corpus": null,
+"cfg": {
+"loss": "infonce",
+"tau": 0.2
+},
+"pilot": false
+},
+{
+"run_id": "S2.1_B_N500000_r022",
+"kind": "ssl",
+"exp": "S2.1",
+"arm": "B",
+"N": 500000,
+"rep": 22,
+"corpus": null,
+"cfg": {
+"loss": "spectral",
+"mu": 1.0
+},
+"pilot": false
+},
+{
+"run_id": "S2.1_Atau_N500000_r022",
+"kind": "ssl",
+"exp": "S2.1",
+"arm": "Atau",
+"N": 500000,
+"rep": 22,
+"corpus": null,
+"cfg": {
+"loss": "infonce",
+"tau": 0.5
+},
+"pilot": false
+},
+{
+"run_id": "S2.1_A_N50000_r023",
+"kind": "ssl",
+"exp": "S2.1",
+"arm": "A",
+"N": 50000,
+"rep": 23,
+"corpus": null,
+"cfg": {
+"loss": "infonce",
+"tau": 0.2
+},
+"pilot": false
+},
+{
+"run_id": "S2.1_B_N50000_r023",
+"kind": "ssl",
+"exp": "S2.1",
+"arm": "B",
+"N": 50000,
+"rep": 23,
+"corpus": null,
+"cfg": {
+"loss": "spectral",
+"mu": 1.0
+},
+"pilot": false
+},
+{
+"run_id": "S2.1_Atau_N50000_r023",
+"kind": "ssl",
+"exp": "S2.1",
+"arm": "Atau",
+"N": 50000,
+"rep": 23,
+"corpus": null,
+"cfg": {
+"loss": "infonce",
+"tau": 0.5
+},
+"pilot": false
+},
+{
+"run_id": "S2.1_A_N500000_r023",
+"kind": "ssl",
+"exp": "S2.1",
+"arm": "A",
+"N": 500000,
+"rep": 23,
+"corpus": null,
+"cfg": {
+"loss": "infonce",
+"tau": 0.2
+},
+"pilot": false
+},
+{
+"run_id": "S2.1_B_N500000_r023",
+"kind": "ssl",
+"exp": "S2.1",
+"arm": "B",
+"N": 500000,
+"rep": 23,
+"corpus": null,
+"cfg": {
+"loss": "spectral",
+"mu": 1.0
+},
+"pilot": false
+},
+{
+"run_id": "S2.1_Atau_N500000_r023",
+"kind": "ssl",
+"exp": "S2.1",
+"arm": "Atau",
+"N": 500000,
+"rep": 23,
+"corpus": null,
+"cfg": {
+"loss": "infonce",
+"tau": 0.5
+},
+"pilot": false
+},
+{
+"run_id": "S2.1_A_N50000_r024",
+"kind": "ssl",
+"exp": "S2.1",
+"arm": "A",
+"N": 50000,
+"rep": 24,
+"corpus": null,
+"cfg": {
+"loss": "infonce",
+"tau": 0.2
+},
+"pilot": false
+},
+{
+"run_id": "S2.1_B_N50000_r024",
+"kind": "ssl",
+"exp": "S2.1",
+"arm": "B",
+"N": 50000,
+"rep": 24,
+"corpus": null,
+"cfg": {
+"loss": "spectral",
+"mu": 1.0
+},
+"pilot": false
+},
+{
+"run_id": "S2.1_Atau_N50000_r024",
+"kind": "ssl",
+"exp": "S2.1",
+"arm": "Atau",
+"N": 50000,
+"rep": 24,
+"corpus": null,
+"cfg": {
+"loss": "infonce",
+"tau": 0.5
+},
+"pilot": false
+},
+{
+"run_id": "S2.1_A_N500000_r024",
+"kind": "ssl",
+"exp": "S2.1",
+"arm": "A",
+"N": 500000,
+"rep": 24,
+"corpus": null,
+"cfg": {
+"loss": "infonce",
+"tau": 0.2
+},
+"pilot": false
+},
+{
+"run_id": "S2.1_B_N500000_r024",
+"kind": "ssl",
+"exp": "S2.1",
+"arm": "B",
+"N": 500000,
+"rep": 24,
+"corpus": null,
+"cfg": {
+"loss": "spectral",
+"mu": 1.0
+},
+"pilot": false
+},
+{
+"run_id": "S2.1_Atau_N500000_r024",
+"kind": "ssl",
+"exp": "S2.1",
+"arm": "Atau",
+"N": 500000,
+"rep": 24,
+"corpus": null,
+"cfg": {
+"loss": "infonce",
+"tau": 0.5
+},
+"pilot": false
+},
+{
+"run_id": "S2.1_A_N50000_r025",
+"kind": "ssl",
+"exp": "S2.1",
+"arm": "A",
+"N": 50000,
+"rep": 25,
+"corpus": null,
+"cfg": {
+"loss": "infonce",
+"tau": 0.2
+},
+"pilot": false
+},
+{
+"run_id": "S2.1_B_N50000_r025",
+"kind": "ssl",
+"exp": "S2.1",
+"arm": "B",
+"N": 50000,
+"rep": 25,
+"corpus": null,
+"cfg": {
+"loss": "spectral",
+"mu": 1.0
+},
+"pilot": false
+},
+{
+"run_id": "S2.1_Atau_N50000_r025",
+"kind": "ssl",
+"exp": "S2.1",
+"arm": "Atau",
+"N": 50000,
+"rep": 25,
+"corpus": null,
+"cfg": {
+"loss": "infonce",
+"tau": 0.5
+},
+"pilot": false
+},
+{
+"run_id": "S2.1_A_N500000_r025",
+"kind": "ssl",
+"exp": "S2.1",
+"arm": "A",
+"N": 500000,
+"rep": 25,
+"corpus": null,
+"cfg": {
+"loss": "infonce",
+"tau": 0.2
+},
+"pilot": false
+},
+{
+"run_id": "S2.1_B_N500000_r025",
+"kind": "ssl",
+"exp": "S2.1",
+"arm": "B",
+"N": 500000,
+"rep": 25,
+"corpus": null,
+"cfg": {
+"loss": "spectral",
+"mu": 1.0
+},
+"pilot": false
+},
+{
+"run_id": "S2.1_Atau_N500000_r025",
+"kind": "ssl",
+"exp": "S2.1",
+"arm": "Atau",
+"N": 500000,
+"rep": 25,
+"corpus": null,
+"cfg": {
+"loss": "infonce",
+"tau": 0.5
+},
+"pilot": false
+},
+{
+"run_id": "S2.1_A_N50000_r026",
+"kind": "ssl",
+"exp": "S2.1",
+"arm": "A",
+"N": 50000,
+"rep": 26,
+"corpus": null,
+"cfg": {
+"loss": "infonce",
+"tau": 0.2
+},
+"pilot": false
+},
+{
+"run_id": "S2.1_B_N50000_r026",
+"kind": "ssl",
+"exp": "S2.1",
+"arm": "B",
+"N": 50000,
+"rep": 26,
+"corpus": null,
+"cfg": {
+"loss": "spectral",
+"mu": 1.0
+},
+"pilot": false
+},
+{
+"run_id": "S2.1_Atau_N50000_r026",
+"kind": "ssl",
+"exp": "S2.1",
+"arm": "Atau",
+"N": 50000,
+"rep": 26,
+"corpus": null,
+"cfg": {
+"loss": "infonce",
+"tau": 0.5
+},
+"pilot": false
+},
+{
+"run_id": "S2.1_A_N500000_r026",
+"kind": "ssl",
+"exp": "S2.1",
+"arm": "A",
+"N": 500000,
+"rep": 26,
+"corpus": null,
+"cfg": {
+"loss": "infonce",
+"tau": 0.2
+},
+"pilot": false
+},
+{
+"run_id": "S2.1_B_N500000_r026",
+"kind": "ssl",
+"exp": "S2.1",
+"arm": "B",
+"N": 500000,
+"rep": 26,
+"corpus": null,
+"cfg": {
+"loss": "spectral",
+"mu": 1.0
+},
+"pilot": false
+},
+{
+"run_id": "S2.1_Atau_N500000_r026",
+"kind": "ssl",
+"exp": "S2.1",
+"arm": "Atau",
+"N": 500000,
+"rep": 26,
+"corpus": null,
+"cfg": {
+"loss": "infonce",
+"tau": 0.5
+},
+"pilot": false
+},
+{
+"run_id": "S2.1_A_N50000_r027",
+"kind": "ssl",
+"exp": "S2.1",
+"arm": "A",
+"N": 50000,
+"rep": 27,
+"corpus": null,
+"cfg": {
+"loss": "infonce",
+"tau": 0.2
+},
+"pilot": false
+},
+{
+"run_id": "S2.1_B_N50000_r027",
+"kind": "ssl",
+"exp": "S2.1",
+"arm": "B",
+"N": 50000,
+"rep": 27,
+"corpus": null,
+"cfg": {
+"loss": "spectral",
+"mu": 1.0
+},
+"pilot": false
+},
+{
+"run_id": "S2.1_Atau_N50000_r027",
+"kind": "ssl",
+"exp": "S2.1",
+"arm": "Atau",
+"N": 50000,
+"rep": 27,
+"corpus": null,
+"cfg": {
+"loss": "infonce",
+"tau": 0.5
+},
+"pilot": false
+},
+{
+"run_id": "S2.1_A_N500000_r027",
+"kind": "ssl",
+"exp": "S2.1",
+"arm": "A",
+"N": 500000,
+"rep": 27,
+"corpus": null,
+"cfg": {
+"loss": "infonce",
+"tau": 0.2
+},
+"pilot": false
+},
+{
+"run_id": "S2.1_B_N500000_r027",
+"kind": "ssl",
+"exp": "S2.1",
+"arm": "B",
+"N": 500000,
+"rep": 27,
+"corpus": null,
+"cfg": {
+"loss": "spectral",
+"mu": 1.0
+},
+"pilot": false
+},
+{
+"run_id": "S2.1_Atau_N500000_r027",
+"kind": "ssl",
+"exp": "S2.1",
+"arm": "Atau",
+"N": 500000,
+"rep": 27,
+"corpus": null,
+"cfg": {
+"loss": "infonce",
+"tau": 0.5
+},
+"pilot": false
+},
+{
+"run_id": "S2.1_A_N50000_r028",
+"kind": "ssl",
+"exp": "S2.1",
+"arm": "A",
+"N": 50000,
+"rep": 28,
+"corpus": null,
+"cfg": {
+"loss": "infonce",
+"tau": 0.2
+},
+"pilot": false
+},
+{
+"run_id": "S2.1_B_N50000_r028",
+"kind": "ssl",
+"exp": "S2.1",
+"arm": "B",
+"N": 50000,
+"rep": 28,
+"corpus": null,
+"cfg": {
+"loss": "spectral",
+"mu": 1.0
+},
+"pilot": false
+},
+{
+"run_id": "S2.1_Atau_N50000_r028",
+"kind": "ssl",
+"exp": "S2.1",
+"arm": "Atau",
+"N": 50000,
+"rep": 28,
+"corpus": null,
+"cfg": {
+"loss": "infonce",
+"tau": 0.5
+},
+"pilot": false
+},
+{
+"run_id": "S2.1_A_N500000_r028",
+"kind": "ssl",
+"exp": "S2.1",
+"arm": "A",
+"N": 500000,
+"rep": 28,
+"corpus": null,
+"cfg": {
+"loss": "infonce",
+"tau": 0.2
+},
+"pilot": false
+},
+{
+"run_id": "S2.1_B_N500000_r028",
+"kind": "ssl",
+"exp": "S2.1",
+"arm": "B",
+"N": 500000,
+"rep": 28,
+"corpus": null,
+"cfg": {
+"loss": "spectral",
+"mu": 1.0
+},
+"pilot": false
+},
+{
+"run_id": "S2.1_Atau_N500000_r028",
+"kind": "ssl",
+"exp": "S2.1",
+"arm": "Atau",
+"N": 500000,
+"rep": 28,
+"corpus": null,
+"cfg": {
+"loss": "infonce",
+"tau": 0.5
+},
+"pilot": false
+},
+{
+"run_id": "S2.1_A_N50000_r029",
+"kind": "ssl",
+"exp": "S2.1",
+"arm": "A",
+"N": 50000,
+"rep": 29,
+"corpus": null,
+"cfg": {
+"loss": "infonce",
+"tau": 0.2
+},
+"pilot": false
+},
+{
+"run_id": "S2.1_B_N50000_r029",
+"kind": "ssl",
+"exp": "S2.1",
+"arm": "B",
+"N": 50000,
+"rep": 29,
+"corpus": null,
+"cfg": {
+"loss": "spectral",
+"mu": 1.0
+},
+"pilot": false
+},
+{
+"run_id": "S2.1_Atau_N50000_r029",
+"kind": "ssl",
+"exp": "S2.1",
+"arm": "Atau",
+"N": 50000,
+"rep": 29,
+"corpus": null,
+"cfg": {
+"loss": "infonce",
+"tau": 0.5
+},
+"pilot": false
+},
+{
+"run_id": "S2.1_A_N500000_r029",
+"kind": "ssl",
+"exp": "S2.1",
+"arm": "A",
+"N": 500000,
+"rep": 29,
+"corpus": null,
+"cfg": {
+"loss": "infonce",
+"tau": 0.2
+},
+"pilot": false
+},
+{
+"run_id": "S2.1_B_N500000_r029",
+"kind": "ssl",
+"exp": "S2.1",
+"arm": "B",
+"N": 500000,
+"rep": 29,
+"corpus": null,
+"cfg": {
+"loss": "spectral",
+"mu": 1.0
+},
+"pilot": false
+},
+{
+"run_id": "S2.1_Atau_N500000_r029",
+"kind": "ssl",
+"exp": "S2.1",
+"arm": "Atau",
+"N": 500000,
+"rep": 29,
+"corpus": null,
+"cfg": {
+"loss": "infonce",
+"tau": 0.5
+},
+"pilot": false
+},
+{
+"run_id": "S2.1_A_N50000_r030",
+"kind": "ssl",
+"exp": "S2.1",
+"arm": "A",
+"N": 50000,
+"rep": 30,
+"corpus": null,
+"cfg": {
+"loss": "infonce",
+"tau": 0.2
+},
+"pilot": false
+},
+{
+"run_id": "S2.1_B_N50000_r030",
+"kind": "ssl",
+"exp": "S2.1",
+"arm": "B",
+"N": 50000,
+"rep": 30,
+"corpus": null,
+"cfg": {
+"loss": "spectral",
+"mu": 1.0
+},
+"pilot": false
+},
+{
+"run_id": "S2.1_Atau_N50000_r030",
+"kind": "ssl",
+"exp": "S2.1",
+"arm": "Atau",
+"N": 50000,
+"rep": 30,
+"corpus": null,
+"cfg": {
+"loss": "infonce",
+"tau": 0.5
+},
+"pilot": false
+},
+{
+"run_id": "S2.1_A_N500000_r030",
+"kind": "ssl",
+"exp": "S2.1",
+"arm": "A",
+"N": 500000,
+"rep": 30,
+"corpus": null,
+"cfg": {
+"loss": "infonce",
+"tau": 0.2
+},
+"pilot": false
+},
+{
+"run_id": "S2.1_B_N500000_r030",
+"kind": "ssl",
+"exp": "S2.1",
+"arm": "B",
+"N": 500000,
+"rep": 30,
+"corpus": null,
+"cfg": {
+"loss": "spectral",
+"mu": 1.0
+},
+"pilot": false
+},
+{
+"run_id": "S2.1_Atau_N500000_r030",
+"kind": "ssl",
+"exp": "S2.1",
+"arm": "Atau",
+"N": 500000,
+"rep": 30,
+"corpus": null,
+"cfg": {
+"loss": "infonce",
+"tau": 0.5
+},
+"pilot": false
+},
+{
+"run_id": "S2.1_A_N50000_r031",
+"kind": "ssl",
+"exp": "S2.1",
+"arm": "A",
+"N": 50000,
+"rep": 31,
+"corpus": null,
+"cfg": {
+"loss": "infonce",
+"tau": 0.2
+},
+"pilot": false
+},
+{
+"run_id": "S2.1_B_N50000_r031",
+"kind": "ssl",
+"exp": "S2.1",
+"arm": "B",
+"N": 50000,
+"rep": 31,
+"corpus": null,
+"cfg": {
+"loss": "spectral",
+"mu": 1.0
+},
+"pilot": false
+},
+{
+"run_id": "S2.1_Atau_N50000_r031",
+"kind": "ssl",
+"exp": "S2.1",
+"arm": "Atau",
+"N": 50000,
+"rep": 31,
+"corpus": null,
+"cfg": {
+"loss": "infonce",
+"tau": 0.5
+},
+"pilot": false
+},
+{
+"run_id": "S2.1_A_N500000_r031",
+"kind": "ssl",
+"exp": "S2.1",
+"arm": "A",
+"N": 500000,
+"rep": 31,
+"corpus": null,
+"cfg": {
+"loss": "infonce",
+"tau": 0.2
+},
+"pilot": false
+},
+{
+"run_id": "S2.1_B_N500000_r031",
+"kind": "ssl",
+"exp": "S2.1",
+"arm": "B",
+"N": 500000,
+"rep": 31,
+"corpus": null,
+"cfg": {
+"loss": "spectral",
+"mu": 1.0
+},
+"pilot": false
+},
+{
+"run_id": "S2.1_Atau_N500000_r031",
+"kind": "ssl",
+"exp": "S2.1",
+"arm": "Atau",
+"N": 500000,
+"rep": 31,
+"corpus": null,
+"cfg": {
+"loss": "infonce",
+"tau": 0.5
+},
+"pilot": false
+},
+{
+"run_id": "S2.1_A_N50000_r032",
+"kind": "ssl",
+"exp": "S2.1",
+"arm": "A",
+"N": 50000,
+"rep": 32,
+"corpus": null,
+"cfg": {
+"loss": "infonce",
+"tau": 0.2
+},
+"pilot": false
+},
+{
+"run_id": "S2.1_B_N50000_r032",
+"kind": "ssl",
+"exp": "S2.1",
+"arm": "B",
+"N": 50000,
+"rep": 32,
+"corpus": null,
+"cfg": {
+"loss": "spectral",
+"mu": 1.0
+},
+"pilot": false
+},
+{
+"run_id": "S2.1_Atau_N50000_r032",
+"kind": "ssl",
+"exp": "S2.1",
+"arm": "Atau",
+"N": 50000,
+"rep": 32,
+"corpus": null,
+"cfg": {
+"loss": "infonce",
+"tau": 0.5
+},
+"pilot": false
+},
+{
+"run_id": "S2.1_A_N500000_r032",
+"kind": "ssl",
+"exp": "S2.1",
+"arm": "A",
+"N": 500000,
+"rep": 32,
+"corpus": null,
+"cfg": {
+"loss": "infonce",
+"tau": 0.2
+},
+"pilot": false
+},
+{
+"run_id": "S2.1_B_N500000_r032",
+"kind": "ssl",
+"exp": "S2.1",
+"arm": "B",
+"N": 500000,
+"rep": 32,
+"corpus": null,
+"cfg": {
+"loss": "spectral",
+"mu": 1.0
+},
+"pilot": false
+},
+{
+"run_id": "S2.1_Atau_N500000_r032",
+"kind": "ssl",
+"exp": "S2.1",
+"arm": "Atau",
+"N": 500000,
+"rep": 32,
+"corpus": null,
+"cfg": {
+"loss": "infonce",
+"tau": 0.5
+},
+"pilot": false
+},
+{
+"run_id": "S2.1_A_N50000_r033",
+"kind": "ssl",
+"exp": "S2.1",
+"arm": "A",
+"N": 50000,
+"rep": 33,
+"corpus": null,
+"cfg": {
+"loss": "infonce",
+"tau": 0.2
+},
+"pilot": false
+},
+{
+"run_id": "S2.1_B_N50000_r033",
+"kind": "ssl",
+"exp": "S2.1",
+"arm": "B",
+"N": 50000,
+"rep": 33,
+"corpus": null,
+"cfg": {
+"loss": "spectral",
+"mu": 1.0
+},
+"pilot": false
+},
+{
+"run_id": "S2.1_Atau_N50000_r033",
+"kind": "ssl",
+"exp": "S2.1",
+"arm": "Atau",
+"N": 50000,
+"rep": 33,
+"corpus": null,
+"cfg": {
+"loss": "infonce",
+"tau": 0.5
+},
+"pilot": false
+},
+{
+"run_id": "S2.1_A_N500000_r033",
+"kind": "ssl",
+"exp": "S2.1",
+"arm": "A",
+"N": 500000,
+"rep": 33,
+"corpus": null,
+"cfg": {
+"loss": "infonce",
+"tau": 0.2
+},
+"pilot": false
+},
+{
+"run_id": "S2.1_B_N500000_r033",
+"kind": "ssl",
+"exp": "S2.1",
+"arm": "B",
+"N": 500000,
+"rep": 33,
+"corpus": null,
+"cfg": {
+"loss": "spectral",
+"mu": 1.0
+},
+"pilot": false
+},
+{
+"run_id": "S2.1_Atau_N500000_r033",
+"kind": "ssl",
+"exp": "S2.1",
+"arm": "Atau",
+"N": 500000,
+"rep": 33,
+"corpus": null,
+"cfg": {
+"loss": "infonce",
+"tau": 0.5
+},
+"pilot": false
+},
+{
+"run_id": "S2.1_A_N50000_r034",
+"kind": "ssl",
+"exp": "S2.1",
+"arm": "A",
+"N": 50000,
+"rep": 34,
+"corpus": null,
+"cfg": {
+"loss": "infonce",
+"tau": 0.2
+},
+"pilot": false
+},
+{
+"run_id": "S2.1_B_N50000_r034",
+"kind": "ssl",
+"exp": "S2.1",
+"arm": "B",
+"N": 50000,
+"rep": 34,
+"corpus": null,
+"cfg": {
+"loss": "spectral",
+"mu": 1.0
+},
+"pilot": false
+},
+{
+"run_id": "S2.1_Atau_N50000_r034",
+"kind": "ssl",
+"exp": "S2.1",
+"arm": "Atau",
+"N": 50000,
+"rep": 34,
+"corpus": null,
+"cfg": {
+"loss": "infonce",
+"tau": 0.5
+},
+"pilot": false
+},
+{
+"run_id": "S2.1_A_N500000_r034",
+"kind": "ssl",
+"exp": "S2.1",
+"arm": "A",
+"N": 500000,
+"rep": 34,
+"corpus": null,
+"cfg": {
+"loss": "infonce",
+"tau": 0.2
+},
+"pilot": false
+},
+{
+"run_id": "S2.1_B_N500000_r034",
+"kind": "ssl",
+"exp": "S2.1",
+"arm": "B",
+"N": 500000,
+"rep": 34,
+"corpus": null,
+"cfg": {
+"loss": "spectral",
+"mu": 1.0
+},
+"pilot": false
+},
+{
+"run_id": "S2.1_Atau_N500000_r034",
+"kind": "ssl",
+"exp": "S2.1",
+"arm": "Atau",
+"N": 500000,
+"rep": 34,
+"corpus": null,
+"cfg": {
+"loss": "infonce",
+"tau": 0.5
+},
+"pilot": false
+},
+{
+"run_id": "S2.1_A_N50000_r035",
+"kind": "ssl",
+"exp": "S2.1",
+"arm": "A",
+"N": 50000,
+"rep": 35,
+"corpus": null,
+"cfg": {
+"loss": "infonce",
+"tau": 0.2
+},
+"pilot": false
+},
+{
+"run_id": "S2.1_B_N50000_r035",
+"kind": "ssl",
+"exp": "S2.1",
+"arm": "B",
+"N": 50000,
+"rep": 35,
+"corpus": null,
+"cfg": {
+"loss": "spectral",
+"mu": 1.0
+},
+"pilot": false
+},
+{
+"run_id": "S2.1_Atau_N50000_r035",
+"kind": "ssl",
+"exp": "S2.1",
+"arm": "Atau",
+"N": 50000,
+"rep": 35,
+"corpus": null,
+"cfg": {
+"loss": "infonce",
+"tau": 0.5
+},
+"pilot": false
+},
+{
+"run_id": "S2.1_A_N500000_r035",
+"kind": "ssl",
+"exp": "S2.1",
+"arm": "A",
+"N": 500000,
+"rep": 35,
+"corpus": null,
+"cfg": {
+"loss": "infonce",
+"tau": 0.2
+},
+"pilot": false
+},
+{
+"run_id": "S2.1_B_N500000_r035",
+"kind": "ssl",
+"exp": "S2.1",
+"arm": "B",
+"N": 500000,
+"rep": 35,
+"corpus": null,
+"cfg": {
+"loss": "spectral",
+"mu": 1.0
+},
+"pilot": false
+},
+{
+"run_id": "S2.1_Atau_N500000_r035",
+"kind": "ssl",
+"exp": "S2.1",
+"arm": "Atau",
+"N": 500000,
+"rep": 35,
+"corpus": null,
+"cfg": {
+"loss": "infonce",
+"tau": 0.5
+},
+"pilot": false
+},
+{
+"run_id": "S2.1_A_N50000_r036",
+"kind": "ssl",
+"exp": "S2.1",
+"arm": "A",
+"N": 50000,
+"rep": 36,
+"corpus": null,
+"cfg": {
+"loss": "infonce",
+"tau": 0.2
+},
+"pilot": false
+},
+{
+"run_id": "S2.1_B_N50000_r036",
+"kind": "ssl",
+"exp": "S2.1",
+"arm": "B",
+"N": 50000,
+"rep": 36,
+"corpus": null,
+"cfg": {
+"loss": "spectral",
+"mu": 1.0
+},
+"pilot": false
+},
+{
+"run_id": "S2.1_Atau_N50000_r036",
+"kind": "ssl",
+"exp": "S2.1",
+"arm": "Atau",
+"N": 50000,
+"rep": 36,
+"corpus": null,
+"cfg": {
+"loss": "infonce",
+"tau": 0.5
+},
+"pilot": false
+},
+{
+"run_id": "S2.1_A_N500000_r036",
+"kind": "ssl",
+"exp": "S2.1",
+"arm": "A",
+"N": 500000,
+"rep": 36,
+"corpus": null,
+"cfg": {
+"loss": "infonce",
+"tau": 0.2
+},
+"pilot": false
+},
+{
+"run_id": "S2.1_B_N500000_r036",
+"kind": "ssl",
+"exp": "S2.1",
+"arm": "B",
+"N": 500000,
+"rep": 36,
+"corpus": null,
+"cfg": {
+"loss": "spectral",
+"mu": 1.0
+},
+"pilot": false
+},
+{
+"run_id": "S2.1_Atau_N500000_r036",
+"kind": "ssl",
+"exp": "S2.1",
+"arm": "Atau",
+"N": 500000,
+"rep": 36,
+"corpus": null,
+"cfg": {
+"loss": "infonce",
+"tau": 0.5
+},
+"pilot": false
+},
+{
+"run_id": "S2.1_A_N50000_r037",
+"kind": "ssl",
+"exp": "S2.1",
+"arm": "A",
+"N": 50000,
+"rep": 37,
+"corpus": null,
+"cfg": {
+"loss": "infonce",
+"tau": 0.2
+},
+"pilot": false
+},
+{
+"run_id": "S2.1_B_N50000_r037",
+"kind": "ssl",
+"exp": "S2.1",
+"arm": "B",
+"N": 50000,
+"rep": 37,
+"corpus": null,
+"cfg": {
+"loss": "spectral",
+"mu": 1.0
+},
+"pilot": false
+},
+{
+"run_id": "S2.1_Atau_N50000_r037",
+"kind": "ssl",
+"exp": "S2.1",
+"arm": "Atau",
+"N": 50000,
+"rep": 37,
+"corpus": null,
+"cfg": {
+"loss": "infonce",
+"tau": 0.5
+},
+"pilot": false
+},
+{
+"run_id": "S2.1_A_N500000_r037",
+"kind": "ssl",
+"exp": "S2.1",
+"arm": "A",
+"N": 500000,
+"rep": 37,
+"corpus": null,
+"cfg": {
+"loss": "infonce",
+"tau": 0.2
+},
+"pilot": false
+},
+{
+"run_id": "S2.1_B_N500000_r037",
+"kind": "ssl",
+"exp": "S2.1",
+"arm": "B",
+"N": 500000,
+"rep": 37,
+"corpus": null,
+"cfg": {
+"loss": "spectral",
+"mu": 1.0
+},
+"pilot": false
+},
+{
+"run_id": "S2.1_Atau_N500000_r037",
+"kind": "ssl",
+"exp": "S2.1",
+"arm": "Atau",
+"N": 500000,
+"rep": 37,
+"corpus": null,
+"cfg": {
+"loss": "infonce",
+"tau": 0.5
+},
+"pilot": false
+},
+{
+"run_id": "S2.1_A_N50000_r038",
+"kind": "ssl",
+"exp": "S2.1",
+"arm": "A",
+"N": 50000,
+"rep": 38,
+"corpus": null,
+"cfg": {
+"loss": "infonce",
+"tau": 0.2
+},
+"pilot": false
+},
+{
+"run_id": "S2.1_B_N50000_r038",
+"kind": "ssl",
+"exp": "S2.1",
+"arm": "B",
+"N": 50000,
+"rep": 38,
+"corpus": null,
+"cfg": {
+"loss": "spectral",
+"mu": 1.0
+},
+"pilot": false
+},
+{
+"run_id": "S2.1_Atau_N50000_r038",
+"kind": "ssl",
+"exp": "S2.1",
+"arm": "Atau",
+"N": 50000,
+"rep": 38,
+"corpus": null,
+"cfg": {
+"loss": "infonce",
+"tau": 0.5
+},
+"pilot": false
+},
+{
+"run_id": "S2.1_A_N500000_r038",
+"kind": "ssl",
+"exp": "S2.1",
+"arm": "A",
+"N": 500000,
+"rep": 38,
+"corpus": null,
+"cfg": {
+"loss": "infonce",
+"tau": 0.2
+},
+"pilot": false
+},
+{
+"run_id": "S2.1_B_N500000_r038",
+"kind": "ssl",
+"exp": "S2.1",
+"arm": "B",
+"N": 500000,
+"rep": 38,
+"corpus": null,
+"cfg": {
+"loss": "spectral",
+"mu": 1.0
+},
+"pilot": false
+},
+{
+"run_id": "S2.1_Atau_N500000_r038",
+"kind": "ssl",
+"exp": "S2.1",
+"arm": "Atau",
+"N": 500000,
+"rep": 38,
+"corpus": null,
+"cfg": {
+"loss": "infonce",
+"tau": 0.5
+},
+"pilot": false
+},
+{
+"run_id": "S2.1_A_N50000_r039",
+"kind": "ssl",
+"exp": "S2.1",
+"arm": "A",
+"N": 50000,
+"rep": 39,
+"corpus": null,
+"cfg": {
+"loss": "infonce",
+"tau": 0.2
+},
+"pilot": false
+},
+{
+"run_id": "S2.1_B_N50000_r039",
+"kind": "ssl",
+"exp": "S2.1",
+"arm": "B",
+"N": 50000,
+"rep": 39,
+"corpus": null,
+"cfg": {
+"loss": "spectral",
+"mu": 1.0
+},
+"pilot": false
+},
+{
+"run_id": "S2.1_Atau_N50000_r039",
+"kind": "ssl",
+"exp": "S2.1",
+"arm": "Atau",
+"N": 50000,
+"rep": 39,
+"corpus": null,
+"cfg": {
+"loss": "infonce",
+"tau": 0.5
+},
+"pilot": false
+},
+{
+"run_id": "S2.1_A_N500000_r039",
+"kind": "ssl",
+"exp": "S2.1",
+"arm": "A",
+"N": 500000,
+"rep": 39,
+"corpus": null,
+"cfg": {
+"loss": "infonce",
+"tau": 0.2
+},
+"pilot": false
+},
+{
+"run_id": "S2.1_B_N500000_r039",
+"kind": "ssl",
+"exp": "S2.1",
+"arm": "B",
+"N": 500000,
+"rep": 39,
+"corpus": null,
+"cfg": {
+"loss": "spectral",
+"mu": 1.0
+},
+"pilot": false
+},
+{
+"run_id": "S2.1_Atau_N500000_r039",
+"kind": "ssl",
+"exp": "S2.1",
+"arm": "Atau",
+"N": 500000,
+"rep": 39,
+"corpus": null,
+"cfg": {
+"loss": "infonce",
+"tau": 0.5
+},
+"pilot": false
+},
+{
+"run_id": "S2.1_A_N50000_r040",
+"kind": "ssl",
+"exp": "S2.1",
+"arm": "A",
+"N": 50000,
+"rep": 40,
+"corpus": null,
+"cfg": {
+"loss": "infonce",
+"tau": 0.2
+},
+"pilot": false
+},
+{
+"run_id": "S2.1_B_N50000_r040",
+"kind": "ssl",
+"exp": "S2.1",
+"arm": "B",
+"N": 50000,
+"rep": 40,
+"corpus": null,
+"cfg": {
+"loss": "spectral",
+"mu": 1.0
+},
+"pilot": false
+},
+{
+"run_id": "S2.1_Atau_N50000_r040",
+"kind": "ssl",
+"exp": "S2.1",
+"arm": "Atau",
+"N": 50000,
+"rep": 40,
+"corpus": null,
+"cfg": {
+"loss": "infonce",
+"tau": 0.5
+},
+"pilot": false
+},
+{
+"run_id": "S2.1_A_N500000_r040",
+"kind": "ssl",
+"exp": "S2.1",
+"arm": "A",
+"N": 500000,
+"rep": 40,
+"corpus": null,
+"cfg": {
+"loss": "infonce",
+"tau": 0.2
+},
+"pilot": false
+},
+{
+"run_id": "S2.1_B_N500000_r040",
+"kind": "ssl",
+"exp": "S2.1",
+"arm": "B",
+"N": 500000,
+"rep": 40,
+"corpus": null,
+"cfg": {
+"loss": "spectral",
+"mu": 1.0
+},
+"pilot": false
+},
+{
+"run_id": "S2.1_Atau_N500000_r040",
+"kind": "ssl",
+"exp": "S2.1",
+"arm": "Atau",
+"N": 500000,
+"rep": 40,
+"corpus": null,
+"cfg": {
+"loss": "infonce",
+"tau": 0.5
+},
+"pilot": false
+},
+{
+"run_id": "S2.1_A_N50000_r041",
+"kind": "ssl",
+"exp": "S2.1",
+"arm": "A",
+"N": 50000,
+"rep": 41,
+"corpus": null,
+"cfg": {
+"loss": "infonce",
+"tau": 0.2
+},
+"pilot": false
+},
+{
+"run_id": "S2.1_B_N50000_r041",
+"kind": "ssl",
+"exp": "S2.1",
+"arm": "B",
+"N": 50000,
+"rep": 41,
+"corpus": null,
+"cfg": {
+"loss": "spectral",
+"mu": 1.0
+},
+"pilot": false
+},
+{
+"run_id": "S2.1_Atau_N50000_r041",
+"kind": "ssl",
+"exp": "S2.1",
+"arm": "Atau",
+"N": 50000,
+"rep": 41,
+"corpus": null,
+"cfg": {
+"loss": "infonce",
+"tau": 0.5
+},
+"pilot": false
+},
+{
+"run_id": "S2.1_A_N500000_r041",
+"kind": "ssl",
+"exp": "S2.1",
+"arm": "A",
+"N": 500000,
+"rep": 41,
+"corpus": null,
+"cfg": {
+"loss": "infonce",
+"tau": 0.2
+},
+"pilot": false
+},
+{
+"run_id": "S2.1_B_N500000_r041",
+"kind": "ssl",
+"exp": "S2.1",
+"arm": "B",
+"N": 500000,
+"rep": 41,
+"corpus": null,
+"cfg": {
+"loss": "spectral",
+"mu": 1.0
+},
+"pilot": false
+},
+{
+"run_id": "S2.1_Atau_N500000_r041",
+"kind": "ssl",
+"exp": "S2.1",
+"arm": "Atau",
+"N": 500000,
+"rep": 41,
+"corpus": null,
+"cfg": {
+"loss": "infonce",
+"tau": 0.5
+},
+"pilot": false
+},
+{
+"run_id": "S2.1_A_N50000_r042",
+"kind": "ssl",
+"exp": "S2.1",
+"arm": "A",
+"N": 50000,
+"rep": 42,
+"corpus": null,
+"cfg": {
+"loss": "infonce",
+"tau": 0.2
+},
+"pilot": false
+},
+{
+"run_id": "S2.1_B_N50000_r042",
+"kind": "ssl",
+"exp": "S2.1",
+"arm": "B",
+"N": 50000,
+"rep": 42,
+"corpus": null,
+"cfg": {
+"loss": "spectral",
+"mu": 1.0
+},
+"pilot": false
+},
+{
+"run_id": "S2.1_Atau_N50000_r042",
+"kind": "ssl",
+"exp": "S2.1",
+"arm": "Atau",
+"N": 50000,
+"rep": 42,
+"corpus": null,
+"cfg": {
+"loss": "infonce",
+"tau": 0.5
+},
+"pilot": false
+},
+{
+"run_id": "S2.1_A_N500000_r042",
+"kind": "ssl",
+"exp": "S2.1",
+"arm": "A",
+"N": 500000,
+"rep": 42,
+"corpus": null,
+"cfg": {
+"loss": "infonce",
+"tau": 0.2
+},
+"pilot": false
+},
+{
+"run_id": "S2.1_B_N500000_r042",
+"kind": "ssl",
+"exp": "S2.1",
+"arm": "B",
+"N": 500000,
+"rep": 42,
+"corpus": null,
+"cfg": {
+"loss": "spectral",
+"mu": 1.0
+},
+"pilot": false
+},
+{
+"run_id": "S2.1_Atau_N500000_r042",
+"kind": "ssl",
+"exp": "S2.1",
+"arm": "Atau",
+"N": 500000,
+"rep": 42,
+"corpus": null,
+"cfg": {
+"loss": "infonce",
+"tau": 0.5
+},
+"pilot": false
+},
+{
+"run_id": "S2.1_A_N50000_r043",
+"kind": "ssl",
+"exp": "S2.1",
+"arm": "A",
+"N": 50000,
+"rep": 43,
+"corpus": null,
+"cfg": {
+"loss": "infonce",
+"tau": 0.2
+},
+"pilot": false
+},
+{
+"run_id": "S2.1_B_N50000_r043",
+"kind": "ssl",
+"exp": "S2.1",
+"arm": "B",
+"N": 50000,
+"rep": 43,
+"corpus": null,
+"cfg": {
+"loss": "spectral",
+"mu": 1.0
+},
+"pilot": false
+},
+{
+"run_id": "S2.1_Atau_N50000_r043",
+"kind": "ssl",
+"exp": "S2.1",
+"arm": "Atau",
+"N": 50000,
+"rep": 43,
+"corpus": null,
+"cfg": {
+"loss": "infonce",
+"tau": 0.5
+},
+"pilot": false
+},
+{
+"run_id": "S2.1_A_N500000_r043",
+"kind": "ssl",
+"exp": "S2.1",
+"arm": "A",
+"N": 500000,
+"rep": 43,
+"corpus": null,
+"cfg": {
+"loss": "infonce",
+"tau": 0.2
+},
+"pilot": false
+},
+{
+"run_id": "S2.1_B_N500000_r043",
+"kind": "ssl",
+"exp": "S2.1",
+"arm": "B",
+"N": 500000,
+"rep": 43,
+"corpus": null,
+"cfg": {
+"loss": "spectral",
+"mu": 1.0
+},
+"pilot": false
+},
+{
+"run_id": "S2.1_Atau_N500000_r043",
+"kind": "ssl",
+"exp": "S2.1",
+"arm": "Atau",
+"N": 500000,
+"rep": 43,
+"corpus": null,
+"cfg": {
+"loss": "infonce",
+"tau": 0.5
+},
+"pilot": false
+},
+{
+"run_id": "S2.1_A_N50000_r044",
+"kind": "ssl",
+"exp": "S2.1",
+"arm": "A",
+"N": 50000,
+"rep": 44,
+"corpus": null,
+"cfg": {
+"loss": "infonce",
+"tau": 0.2
+},
+"pilot": false
+},
+{
+"run_id": "S2.1_B_N50000_r044",
+"kind": "ssl",
+"exp": "S2.1",
+"arm": "B",
+"N": 50000,
+"rep": 44,
+"corpus": null,
+"cfg": {
+"loss": "spectral",
+"mu": 1.0
+},
+"pilot": false
+},
+{
+"run_id": "S2.1_Atau_N50000_r044",
+"kind": "ssl",
+"exp": "S2.1",
+"arm": "Atau",
+"N": 50000,
+"rep": 44,
+"corpus": null,
+"cfg": {
+"loss": "infonce",
+"tau": 0.5
+},
+"pilot": false
+},
+{
+"run_id": "S2.1_A_N500000_r044",
+"kind": "ssl",
+"exp": "S2.1",
+"arm": "A",
+"N": 500000,
+"rep": 44,
+"corpus": null,
+"cfg": {
+"loss": "infonce",
+"tau": 0.2
+},
+"pilot": false
+},
+{
+"run_id": "S2.1_B_N500000_r044",
+"kind": "ssl",
+"exp": "S2.1",
+"arm": "B",
+"N": 500000,
+"rep": 44,
+"corpus": null,
+"cfg": {
+"loss": "spectral",
+"mu": 1.0
+},
+"pilot": false
+},
+{
+"run_id": "S2.1_Atau_N500000_r044",
+"kind": "ssl",
+"exp": "S2.1",
+"arm": "Atau",
+"N": 500000,
+"rep": 44,
+"corpus": null,
+"cfg": {
+"loss": "infonce",
+"tau": 0.5
+},
+"pilot": false
+},
+{
+"run_id": "S2.1_A_N50000_r045",
+"kind": "ssl",
+"exp": "S2.1",
+"arm": "A",
+"N": 50000,
+"rep": 45,
+"corpus": null,
+"cfg": {
+"loss": "infonce",
+"tau": 0.2
+},
+"pilot": false
+},
+{
+"run_id": "S2.1_B_N50000_r045",
+"kind": "ssl",
+"exp": "S2.1",
+"arm": "B",
+"N": 50000,
+"rep": 45,
+"corpus": null,
+"cfg": {
+"loss": "spectral",
+"mu": 1.0
+},
+"pilot": false
+},
+{
+"run_id": "S2.1_Atau_N50000_r045",
+"kind": "ssl",
+"exp": "S2.1",
+"arm": "Atau",
+"N": 50000,
+"rep": 45,
+"corpus": null,
+"cfg": {
+"loss": "infonce",
+"tau": 0.5
+},
+"pilot": false
+},
+{
+"run_id": "S2.1_A_N500000_r045",
+"kind": "ssl",
+"exp": "S2.1",
+"arm": "A",
+"N": 500000,
+"rep": 45,
+"corpus": null,
+"cfg": {
+"loss": "infonce",
+"tau": 0.2
+},
+"pilot": false
+},
+{
+"run_id": "S2.1_B_N500000_r045",
+"kind": "ssl",
+"exp": "S2.1",
+"arm": "B",
+"N": 500000,
+"rep": 45,
+"corpus": null,
+"cfg": {
+"loss": "spectral",
+"mu": 1.0
+},
+"pilot": false
+},
+{
+"run_id": "S2.1_Atau_N500000_r045",
+"kind": "ssl",
+"exp": "S2.1",
+"arm": "Atau",
+"N": 500000,
+"rep": 45,
+"corpus": null,
+"cfg": {
+"loss": "infonce",
+"tau": 0.5
+},
+"pilot": false
+},
+{
+"run_id": "S2.1_A_N50000_r046",
+"kind": "ssl",
+"exp": "S2.1",
+"arm": "A",
+"N": 50000,
+"rep": 46,
+"corpus": null,
+"cfg": {
+"loss": "infonce",
+"tau": 0.2
+},
+"pilot": false
+},
+{
+"run_id": "S2.1_B_N50000_r046",
+"kind": "ssl",
+"exp": "S2.1",
+"arm": "B",
+"N": 50000,
+"rep": 46,
+"corpus": null,
+"cfg": {
+"loss": "spectral",
+"mu": 1.0
+},
+"pilot": false
+},
+{
+"run_id": "S2.1_Atau_N50000_r046",
+"kind": "ssl",
+"exp": "S2.1",
+"arm": "Atau",
+"N": 50000,
+"rep": 46,
+"corpus": null,
+"cfg": {
+"loss": "infonce",
+"tau": 0.5
+},
+"pilot": false
+},
+{
+"run_id": "S2.1_A_N500000_r046",
+"kind": "ssl",
+"exp": "S2.1",
+"arm": "A",
+"N": 500000,
+"rep": 46,
+"corpus": null,
+"cfg": {
+"loss": "infonce",
+"tau": 0.2
+},
+"pilot": false
+},
+{
+"run_id": "S2.1_B_N500000_r046",
+"kind": "ssl",
+"exp": "S2.1",
+"arm": "B",
+"N": 500000,
+"rep": 46,
+"corpus": null,
+"cfg": {
+"loss": "spectral",
+"mu": 1.0
+},
+"pilot": false
+},
+{
+"run_id": "S2.1_Atau_N500000_r046",
+"kind": "ssl",
+"exp": "S2.1",
+"arm": "Atau",
+"N": 500000,
+"rep": 46,
+"corpus": null,
+"cfg": {
+"loss": "infonce",
+"tau": 0.5
+},
+"pilot": false
+},
+{
+"run_id": "S2.1_A_N50000_r047",
+"kind": "ssl",
+"exp": "S2.1",
+"arm": "A",
+"N": 50000,
+"rep": 47,
+"corpus": null,
+"cfg": {
+"loss": "infonce",
+"tau": 0.2
+},
+"pilot": false
+},
+{
+"run_id": "S2.1_B_N50000_r047",
+"kind": "ssl",
+"exp": "S2.1",
+"arm": "B",
+"N": 50000,
+"rep": 47,
+"corpus": null,
+"cfg": {
+"loss": "spectral",
+"mu": 1.0
+},
+"pilot": false
+},
+{
+"run_id": "S2.1_Atau_N50000_r047",
+"kind": "ssl",
+"exp": "S2.1",
+"arm": "Atau",
+"N": 50000,
+"rep": 47,
+"corpus": null,
+"cfg": {
+"loss": "infonce",
+"tau": 0.5
+},
+"pilot": false
+},
+{
+"run_id": "S2.1_A_N500000_r047",
+"kind": "ssl",
+"exp": "S2.1",
+"arm": "A",
+"N": 500000,
+"rep": 47,
+"corpus": null,
+"cfg": {
+"loss": "infonce",
+"tau": 0.2
+},
+"pilot": false
+},
+{
+"run_id": "S2.1_B_N500000_r047",
+"kind": "ssl",
+"exp": "S2.1",
+"arm": "B",
+"N": 500000,
+"rep": 47,
+"corpus": null,
+"cfg": {
+"loss": "spectral",
+"mu": 1.0
+},
+"pilot": false
+},
+{
+"run_id": "S2.1_Atau_N500000_r047",
+"kind": "ssl",
+"exp": "S2.1",
+"arm": "Atau",
+"N": 500000,
+"rep": 47,
+"corpus": null,
+"cfg": {
+"loss": "infonce",
+"tau": 0.5
+},
+"pilot": false
+},
+{
+"run_id": "S2.1_A_N50000_r048",
+"kind": "ssl",
+"exp": "S2.1",
+"arm": "A",
+"N": 50000,
+"rep": 48,
+"corpus": null,
+"cfg": {
+"loss": "infonce",
+"tau": 0.2
+},
+"pilot": false
+},
+{
+"run_id": "S2.1_B_N50000_r048",
+"kind": "ssl",
+"exp": "S2.1",
+"arm": "B",
+"N": 50000,
+"rep": 48,
+"corpus": null,
+"cfg": {
+"loss": "spectral",
+"mu": 1.0
+},
+"pilot": false
+},
+{
+"run_id": "S2.1_Atau_N50000_r048",
+"kind": "ssl",
+"exp": "S2.1",
+"arm": "Atau",
+"N": 50000,
+"rep": 48,
+"corpus": null,
+"cfg": {
+"loss": "infonce",
+"tau": 0.5
+},
+"pilot": false
+},
+{
+"run_id": "S2.1_A_N500000_r048",
+"kind": "ssl",
+"exp": "S2.1",
+"arm": "A",
+"N": 500000,
+"rep": 48,
+"corpus": null,
+"cfg": {
+"loss": "infonce",
+"tau": 0.2
+},
+"pilot": false
+},
+{
+"run_id": "S2.1_B_N500000_r048",
+"kind": "ssl",
+"exp": "S2.1",
+"arm": "B",
+"N": 500000,
+"rep": 48,
+"corpus": null,
+"cfg": {
+"loss": "spectral",
+"mu": 1.0
+},
+"pilot": false
+},
+{
+"run_id": "S2.1_Atau_N500000_r048",
+"kind": "ssl",
+"exp": "S2.1",
+"arm": "Atau",
+"N": 500000,
+"rep": 48,
+"corpus": null,
+"cfg": {
+"loss": "infonce",
+"tau": 0.5
+},
+"pilot": false
+},
+{
+"run_id": "S2.1_A_N50000_r049",
+"kind": "ssl",
+"exp": "S2.1",
+"arm": "A",
+"N": 50000,
+"rep": 49,
+"corpus": null,
+"cfg": {
+"loss": "infonce",
+"tau": 0.2
+},
+"pilot": false
+},
+{
+"run_id": "S2.1_B_N50000_r049",
+"kind": "ssl",
+"exp": "S2.1",
+"arm": "B",
+"N": 50000,
+"rep": 49,
+"corpus": null,
+"cfg": {
+"loss": "spectral",
+"mu": 1.0
+},
+"pilot": false
+},
+{
+"run_id": "S2.1_Atau_N50000_r049",
+"kind": "ssl",
+"exp": "S2.1",
+"arm": "Atau",
+"N": 50000,
+"rep": 49,
+"corpus": null,
+"cfg": {
+"loss": "infonce",
+"tau": 0.5
+},
+"pilot": false
+},
+{
+"run_id": "S2.1_A_N500000_r049",
+"kind": "ssl",
+"exp": "S2.1",
+"arm": "A",
+"N": 500000,
+"rep": 49,
+"corpus": null,
+"cfg": {
+"loss": "infonce",
+"tau": 0.2
+},
+"pilot": false
+},
+{
+"run_id": "S2.1_B_N500000_r049",
+"kind": "ssl",
+"exp": "S2.1",
+"arm": "B",
+"N": 500000,
+"rep": 49,
+"corpus": null,
+"cfg": {
+"loss": "spectral",
+"mu": 1.0
+},
+"pilot": false
+},
+{
+"run_id": "S2.1_Atau_N500000_r049",
+"kind": "ssl",
+"exp": "S2.1",
+"arm": "Atau",
+"N": 500000,
+"rep": 49,
+"corpus": null,
+"cfg": {
+"loss": "infonce",
+"tau": 0.5
+},
+"pilot": false
+},
+{
+"run_id": "S2.1_A_N50000_r050",
+"kind": "ssl",
+"exp": "S2.1",
+"arm": "A",
+"N": 50000,
+"rep": 50,
+"corpus": null,
+"cfg": {
+"loss": "infonce",
+"tau": 0.2
+},
+"pilot": false
+},
+{
+"run_id": "S2.1_B_N50000_r050",
+"kind": "ssl",
+"exp": "S2.1",
+"arm": "B",
+"N": 50000,
+"rep": 50,
+"corpus": null,
+"cfg": {
+"loss": "spectral",
+"mu": 1.0
+},
+"pilot": false
+},
+{
+"run_id": "S2.1_Atau_N50000_r050",
+"kind": "ssl",
+"exp": "S2.1",
+"arm": "Atau",
+"N": 50000,
+"rep": 50,
+"corpus": null,
+"cfg": {
+"loss": "infonce",
+"tau": 0.5
+},
+"pilot": false
+},
+{
+"run_id": "S2.1_A_N500000_r050",
+"kind": "ssl",
+"exp": "S2.1",
+"arm": "A",
+"N": 500000,
+"rep": 50,
+"corpus": null,
+"cfg": {
+"loss": "infonce",
+"tau": 0.2
+},
+"pilot": false
+},
+{
+"run_id": "S2.1_B_N500000_r050",
+"kind": "ssl",
+"exp": "S2.1",
+"arm": "B",
+"N": 500000,
+"rep": 50,
+"corpus": null,
+"cfg": {
+"loss": "spectral",
+"mu": 1.0
+},
+"pilot": false
+},
+{
+"run_id": "S2.1_Atau_N500000_r050",
+"kind": "ssl",
+"exp": "S2.1",
+"arm": "Atau",
+"N": 500000,
+"rep": 50,
+"corpus": null,
+"cfg": {
+"loss": "infonce",
+"tau": 0.5
+},
+"pilot": false
+},
+{
+"run_id": "S2.1_A_N50000_r051",
+"kind": "ssl",
+"exp": "S2.1",
+"arm": "A",
+"N": 50000,
+"rep": 51,
+"corpus": null,
+"cfg": {
+"loss": "infonce",
+"tau": 0.2
+},
+"pilot": false
+},
+{
+"run_id": "S2.1_B_N50000_r051",
+"kind": "ssl",
+"exp": "S2.1",
+"arm": "B",
+"N": 50000,
+"rep": 51,
+"corpus": null,
+"cfg": {
+"loss": "spectral",
+"mu": 1.0
+},
+"pilot": false
+},
+{
+"run_id": "S2.1_Atau_N50000_r051",
+"kind": "ssl",
+"exp": "S2.1",
+"arm": "Atau",
+"N": 50000,
+"rep": 51,
+"corpus": null,
+"cfg": {
+"loss": "infonce",
+"tau": 0.5
+},
+"pilot": false
+},
+{
+"run_id": "S2.1_A_N500000_r051",
+"kind": "ssl",
+"exp": "S2.1",
+"arm": "A",
+"N": 500000,
+"rep": 51,
+"corpus": null,
+"cfg": {
+"loss": "infonce",
+"tau": 0.2
+},
+"pilot": false
+},
+{
+"run_id": "S2.1_B_N500000_r051",
+"kind": "ssl",
+"exp": "S2.1",
+"arm": "B",
+"N": 500000,
+"rep": 51,
+"corpus": null,
+"cfg": {
+"loss": "spectral",
+"mu": 1.0
+},
+"pilot": false
+},
+{
+"run_id": "S2.1_Atau_N500000_r051",
+"kind": "ssl",
+"exp": "S2.1",
+"arm": "Atau",
+"N": 500000,
+"rep": 51,
+"corpus": null,
+"cfg": {
+"loss": "infonce",
+"tau": 0.5
+},
+"pilot": false
+},
+{
+"run_id": "S2.1_A_N50000_r052",
+"kind": "ssl",
+"exp": "S2.1",
+"arm": "A",
+"N": 50000,
+"rep": 52,
+"corpus": null,
+"cfg": {
+"loss": "infonce",
+"tau": 0.2
+},
+"pilot": false
+},
+{
+"run_id": "S2.1_B_N50000_r052",
+"kind": "ssl",
+"exp": "S2.1",
+"arm": "B",
+"N": 50000,
+"rep": 52,
+"corpus": null,
+"cfg": {
+"loss": "spectral",
+"mu": 1.0
+},
+"pilot": false
+},
+{
+"run_id": "S2.1_Atau_N50000_r052",
+"kind": "ssl",
+"exp": "S2.1",
+"arm": "Atau",
+"N": 50000,
+"rep": 52,
+"corpus": null,
+"cfg": {
+"loss": "infonce",
+"tau": 0.5
+},
+"pilot": false
+},
+{
+"run_id": "S2.1_A_N500000_r052",
+"kind": "ssl",
+"exp": "S2.1",
+"arm": "A",
+"N": 500000,
+"rep": 52,
+"corpus": null,
+"cfg": {
+"loss": "infonce",
+"tau": 0.2
+},
+"pilot": false
+},
+{
+"run_id": "S2.1_B_N500000_r052",
+"kind": "ssl",
+"exp": "S2.1",
+"arm": "B",
+"N": 500000,
+"rep": 52,
+"corpus": null,
+"cfg": {
+"loss": "spectral",
+"mu": 1.0
+},
+"pilot": false
+},
+{
+"run_id": "S2.1_Atau_N500000_r052",
+"kind": "ssl",
+"exp": "S2.1",
+"arm": "Atau",
+"N": 500000,
+"rep": 52,
+"corpus": null,
+"cfg": {
+"loss": "infonce",
+"tau": 0.5
+},
+"pilot": false
+},
+{
+"run_id": "S2.1_A_N50000_r053",
+"kind": "ssl",
+"exp": "S2.1",
+"arm": "A",
+"N": 50000,
+"rep": 53,
+"corpus": null,
+"cfg": {
+"loss": "infonce",
+"tau": 0.2
+},
+"pilot": false
+},
+{
+"run_id": "S2.1_B_N50000_r053",
+"kind": "ssl",
+"exp": "S2.1",
+"arm": "B",
+"N": 50000,
+"rep": 53,
+"corpus": null,
+"cfg": {
+"loss": "spectral",
+"mu": 1.0
+},
+"pilot": false
+},
+{
+"run_id": "S2.1_Atau_N50000_r053",
+"kind": "ssl",
+"exp": "S2.1",
+"arm": "Atau",
+"N": 50000,
+"rep": 53,
+"corpus": null,
+"cfg": {
+"loss": "infonce",
+"tau": 0.5
+},
+"pilot": false
+},
+{
+"run_id": "S2.1_A_N500000_r053",
+"kind": "ssl",
+"exp": "S2.1",
+"arm": "A",
+"N": 500000,
+"rep": 53,
+"corpus": null,
+"cfg": {
+"loss": "infonce",
+"tau": 0.2
+},
+"pilot": false
+},
+{
+"run_id": "S2.1_B_N500000_r053",
+"kind": "ssl",
+"exp": "S2.1",
+"arm": "B",
+"N": 500000,
+"rep": 53,
+"corpus": null,
+"cfg": {
+"loss": "spectral",
+"mu": 1.0
+},
+"pilot": false
+},
+{
+"run_id": "S2.1_Atau_N500000_r053",
+"kind": "ssl",
+"exp": "S2.1",
+"arm": "Atau",
+"N": 500000,
+"rep": 53,
+"corpus": null,
+"cfg": {
+"loss": "infonce",
+"tau": 0.5
+},
+"pilot": false
+},
+{
+"run_id": "S2.1_A_N50000_r054",
+"kind": "ssl",
+"exp": "S2.1",
+"arm": "A",
+"N": 50000,
+"rep": 54,
+"corpus": null,
+"cfg": {
+"loss": "infonce",
+"tau": 0.2
+},
+"pilot": false
+},
+{
+"run_id": "S2.1_B_N50000_r054",
+"kind": "ssl",
+"exp": "S2.1",
+"arm": "B",
+"N": 50000,
+"rep": 54,
+"corpus": null,
+"cfg": {
+"loss": "spectral",
+"mu": 1.0
+},
+"pilot": false
+},
+{
+"run_id": "S2.1_Atau_N50000_r054",
+"kind": "ssl",
+"exp": "S2.1",
+"arm": "Atau",
+"N": 50000,
+"rep": 54,
+"corpus": null,
+"cfg": {
+"loss": "infonce",
+"tau": 0.5
+},
+"pilot": false
+},
+{
+"run_id": "S2.1_A_N500000_r054",
+"kind": "ssl",
+"exp": "S2.1",
+"arm": "A",
+"N": 500000,
+"rep": 54,
+"corpus": null,
+"cfg": {
+"loss": "infonce",
+"tau": 0.2
+},
+"pilot": false
+},
+{
+"run_id": "S2.1_B_N500000_r054",
+"kind": "ssl",
+"exp": "S2.1",
+"arm": "B",
+"N": 500000,
+"rep": 54,
+"corpus": null,
+"cfg": {
+"loss": "spectral",
+"mu": 1.0
+},
+"pilot": false
+},
+{
+"run_id": "S2.1_Atau_N500000_r054",
+"kind": "ssl",
+"exp": "S2.1",
+"arm": "Atau",
+"N": 500000,
+"rep": 54,
+"corpus": null,
+"cfg": {
+"loss": "infonce",
+"tau": 0.5
+},
+"pilot": false
+},
+{
+"run_id": "S2.1_A_N50000_r055",
+"kind": "ssl",
+"exp": "S2.1",
+"arm": "A",
+"N": 50000,
+"rep": 55,
+"corpus": null,
+"cfg": {
+"loss": "infonce",
+"tau": 0.2
+},
+"pilot": false
+},
+{
+"run_id": "S2.1_B_N50000_r055",
+"kind": "ssl",
+"exp": "S2.1",
+"arm": "B",
+"N": 50000,
+"rep": 55,
+"corpus": null,
+"cfg": {
+"loss": "spectral",
+"mu": 1.0
+},
+"pilot": false
+},
+{
+"run_id": "S2.1_Atau_N50000_r055",
+"kind": "ssl",
+"exp": "S2.1",
+"arm": "Atau",
+"N": 50000,
+"rep": 55,
+"corpus": null,
+"cfg": {
+"loss": "infonce",
+"tau": 0.5
+},
+"pilot": false
+},
+{
+"run_id": "S2.1_A_N500000_r055",
+"kind": "ssl",
+"exp": "S2.1",
+"arm": "A",
+"N": 500000,
+"rep": 55,
+"corpus": null,
+"cfg": {
+"loss": "infonce",
+"tau": 0.2
+},
+"pilot": false
+},
+{
+"run_id": "S2.1_B_N500000_r055",
+"kind": "ssl",
+"exp": "S2.1",
+"arm": "B",
+"N": 500000,
+"rep": 55,
+"corpus": null,
+"cfg": {
+"loss": "spectral",
+"mu": 1.0
+},
+"pilot": false
+},
+{
+"run_id": "S2.1_Atau_N500000_r055",
+"kind": "ssl",
+"exp": "S2.1",
+"arm": "Atau",
+"N": 500000,
+"rep": 55,
+"corpus": null,
+"cfg": {
+"loss": "infonce",
+"tau": 0.5
+},
+"pilot": false
+},
+{
+"run_id": "S2.1_A_N50000_r056",
+"kind": "ssl",
+"exp": "S2.1",
+"arm": "A",
+"N": 50000,
+"rep": 56,
+"corpus": null,
+"cfg": {
+"loss": "infonce",
+"tau": 0.2
+},
+"pilot": false
+},
+{
+"run_id": "S2.1_B_N50000_r056",
+"kind": "ssl",
+"exp": "S2.1",
+"arm": "B",
+"N": 50000,
+"rep": 56,
+"corpus": null,
+"cfg": {
+"loss": "spectral",
+"mu": 1.0
+},
+"pilot": false
+},
+{
+"run_id": "S2.1_Atau_N50000_r056",
+"kind": "ssl",
+"exp": "S2.1",
+"arm": "Atau",
+"N": 50000,
+"rep": 56,
+"corpus": null,
+"cfg": {
+"loss": "infonce",
+"tau": 0.5
+},
+"pilot": false
+},
+{
+"run_id": "S2.1_A_N500000_r056",
+"kind": "ssl",
+"exp": "S2.1",
+"arm": "A",
+"N": 500000,
+"rep": 56,
+"corpus": null,
+"cfg": {
+"loss": "infonce",
+"tau": 0.2
+},
+"pilot": false
+},
+{
+"run_id": "S2.1_B_N500000_r056",
+"kind": "ssl",
+"exp": "S2.1",
+"arm": "B",
+"N": 500000,
+"rep": 56,
+"corpus": null,
+"cfg": {
+"loss": "spectral",
+"mu": 1.0
+},
+"pilot": false
+},
+{
+"run_id": "S2.1_Atau_N500000_r056",
+"kind": "ssl",
+"exp": "S2.1",
+"arm": "Atau",
+"N": 500000,
+"rep": 56,
+"corpus": null,
+"cfg": {
+"loss": "infonce",
+"tau": 0.5
+},
+"pilot": false
+},
+{
+"run_id": "S2.1_A_N50000_r057",
+"kind": "ssl",
+"exp": "S2.1",
+"arm": "A",
+"N": 50000,
+"rep": 57,
+"corpus": null,
+"cfg": {
+"loss": "infonce",
+"tau": 0.2
+},
+"pilot": false
+},
+{
+"run_id": "S2.1_B_N50000_r057",
+"kind": "ssl",
+"exp": "S2.1",
+"arm": "B",
+"N": 50000,
+"rep": 57,
+"corpus": null,
+"cfg": {
+"loss": "spectral",
+"mu": 1.0
+},
+"pilot": false
+},
+{
+"run_id": "S2.1_Atau_N50000_r057",
+"kind": "ssl",
+"exp": "S2.1",
+"arm": "Atau",
+"N": 50000,
+"rep": 57,
+"corpus": null,
+"cfg": {
+"loss": "infonce",
+"tau": 0.5
+},
+"pilot": false
+},
+{
+"run_id": "S2.1_A_N500000_r057",
+"kind": "ssl",
+"exp": "S2.1",
+"arm": "A",
+"N": 500000,
+"rep": 57,
+"corpus": null,
+"cfg": {
+"loss": "infonce",
+"tau": 0.2
+},
+"pilot": false
+},
+{
+"run_id": "S2.1_B_N500000_r057",
+"kind": "ssl",
+"exp": "S2.1",
+"arm": "B",
+"N": 500000,
+"rep": 57,
+"corpus": null,
+"cfg": {
+"loss": "spectral",
+"mu": 1.0
+},
+"pilot": false
+},
+{
+"run_id": "S2.1_Atau_N500000_r057",
+"kind": "ssl",
+"exp": "S2.1",
+"arm": "Atau",
+"N": 500000,
+"rep": 57,
+"corpus": null,
+"cfg": {
+"loss": "infonce",
+"tau": 0.5
+},
+"pilot": false
+},
+{
+"run_id": "S2.1_A_N50000_r058",
+"kind": "ssl",
+"exp": "S2.1",
+"arm": "A",
+"N": 50000,
+"rep": 58,
+"corpus": null,
+"cfg": {
+"loss": "infonce",
+"tau": 0.2
+},
+"pilot": false
+},
+{
+"run_id": "S2.1_B_N50000_r058",
+"kind": "ssl",
+"exp": "S2.1",
+"arm": "B",
+"N": 50000,
+"rep": 58,
+"corpus": null,
+"cfg": {
+"loss": "spectral",
+"mu": 1.0
+},
+"pilot": false
+},
+{
+"run_id": "S2.1_Atau_N50000_r058",
+"kind": "ssl",
+"exp": "S2.1",
+"arm": "Atau",
+"N": 50000,
+"rep": 58,
+"corpus": null,
+"cfg": {
+"loss": "infonce",
+"tau": 0.5
+},
+"pilot": false
+},
+{
+"run_id": "S2.1_A_N500000_r058",
+"kind": "ssl",
+"exp": "S2.1",
+"arm": "A",
+"N": 500000,
+"rep": 58,
+"corpus": null,
+"cfg": {
+"loss": "infonce",
+"tau": 0.2
+},
+"pilot": false
+},
+{
+"run_id": "S2.1_B_N500000_r058",
+"kind": "ssl",
+"exp": "S2.1",
+"arm": "B",
+"N": 500000,
+"rep": 58,
+"corpus": null,
+"cfg": {
+"loss": "spectral",
+"mu": 1.0
+},
+"pilot": false
+},
+{
+"run_id": "S2.1_Atau_N500000_r058",
+"kind": "ssl",
+"exp": "S2.1",
+"arm": "Atau",
+"N": 500000,
+"rep": 58,
+"corpus": null,
+"cfg": {
+"loss": "infonce",
+"tau": 0.5
+},
+"pilot": false
+},
+{
+"run_id": "S2.1_A_N50000_r059",
+"kind": "ssl",
+"exp": "S2.1",
+"arm": "A",
+"N": 50000,
+"rep": 59,
+"corpus": null,
+"cfg": {
+"loss": "infonce",
+"tau": 0.2
+},
+"pilot": false
+},
+{
+"run_id": "S2.1_B_N50000_r059",
+"kind": "ssl",
+"exp": "S2.1",
+"arm": "B",
+"N": 50000,
+"rep": 59,
+"corpus": null,
+"cfg": {
+"loss": "spectral",
+"mu": 1.0
+},
+"pilot": false
+},
+{
+"run_id": "S2.1_Atau_N50000_r059",
+"kind": "ssl",
+"exp": "S2.1",
+"arm": "Atau",
+"N": 50000,
+"rep": 59,
+"corpus": null,
+"cfg": {
+"loss": "infonce",
+"tau": 0.5
+},
+"pilot": false
+},
+{
+"run_id": "S2.1_A_N500000_r059",
+"kind": "ssl",
+"exp": "S2.1",
+"arm": "A",
+"N": 500000,
+"rep": 59,
+"corpus": null,
+"cfg": {
+"loss": "infonce",
+"tau": 0.2
+},
+"pilot": false
+},
+{
+"run_id": "S2.1_B_N500000_r059",
+"kind": "ssl",
+"exp": "S2.1",
+"arm": "B",
+"N": 500000,
+"rep": 59,
+"corpus": null,
+"cfg": {
+"loss": "spectral",
+"mu": 1.0
+},
+"pilot": false
+},
+{
+"run_id": "S2.1_Atau_N500000_r059",
+"kind": "ssl",
+"exp": "S2.1",
+"arm": "Atau",
+"N": 500000,
+"rep": 59,
+"corpus": null,
+"cfg": {
+"loss": "infonce",
+"tau": 0.5
+},
+"pilot": false
+},
+{
+"run_id": "S2.1_A_N50000_r060",
+"kind": "ssl",
+"exp": "S2.1",
+"arm": "A",
+"N": 50000,
+"rep": 60,
+"corpus": null,
+"cfg": {
+"loss": "infonce",
+"tau": 0.2
+},
+"pilot": false
+},
+{
+"run_id": "S2.1_B_N50000_r060",
+"kind": "ssl",
+"exp": "S2.1",
+"arm": "B",
+"N": 50000,
+"rep": 60,
+"corpus": null,
+"cfg": {
+"loss": "spectral",
+"mu": 1.0
+},
+"pilot": false
+},
+{
+"run_id": "S2.1_Atau_N50000_r060",
+"kind": "ssl",
+"exp": "S2.1",
+"arm": "Atau",
+"N": 50000,
+"rep": 60,
+"corpus": null,
+"cfg": {
+"loss": "infonce",
+"tau": 0.5
+},
+"pilot": false
+},
+{
+"run_id": "S2.1_A_N500000_r060",
+"kind": "ssl",
+"exp": "S2.1",
+"arm": "A",
+"N": 500000,
+"rep": 60,
+"corpus": null,
+"cfg": {
+"loss": "infonce",
+"tau": 0.2
+},
+"pilot": false
+},
+{
+"run_id": "S2.1_B_N500000_r060",
+"kind": "ssl",
+"exp": "S2.1",
+"arm": "B",
+"N": 500000,
+"rep": 60,
+"corpus": null,
+"cfg": {
+"loss": "spectral",
+"mu": 1.0
+},
+"pilot": false
+},
+{
+"run_id": "S2.1_Atau_N500000_r060",
+"kind": "ssl",
+"exp": "S2.1",
+"arm": "Atau",
+"N": 500000,
+"rep": 60,
+"corpus": null,
+"cfg": {
+"loss": "infonce",
+"tau": 0.5
+},
+"pilot": false
+},
+{
+"run_id": "S2.1_A_N50000_r061",
+"kind": "ssl",
+"exp": "S2.1",
+"arm": "A",
+"N": 50000,
+"rep": 61,
+"corpus": null,
+"cfg": {
+"loss": "infonce",
+"tau": 0.2
+},
+"pilot": false
+},
+{
+"run_id": "S2.1_B_N50000_r061",
+"kind": "ssl",
+"exp": "S2.1",
+"arm": "B",
+"N": 50000,
+"rep": 61,
+"corpus": null,
+"cfg": {
+"loss": "spectral",
+"mu": 1.0
+},
+"pilot": false
+},
+{
+"run_id": "S2.1_Atau_N50000_r061",
+"kind": "ssl",
+"exp": "S2.1",
+"arm": "Atau",
+"N": 50000,
+"rep": 61,
+"corpus": null,
+"cfg": {
+"loss": "infonce",
+"tau": 0.5
+},
+"pilot": false
+},
+{
+"run_id": "S2.1_A_N500000_r061",
+"kind": "ssl",
+"exp": "S2.1",
+"arm": "A",
+"N": 500000,
+"rep": 61,
+"corpus": null,
+"cfg": {
+"loss": "infonce",
+"tau": 0.2
+},
+"pilot": false
+},
+{
+"run_id": "S2.1_B_N500000_r061",
+"kind": "ssl",
+"exp": "S2.1",
+"arm": "B",
+"N": 500000,
+"rep": 61,
+"corpus": null,
+"cfg": {
+"loss": "spectral",
+"mu": 1.0
+},
+"pilot": false
+},
+{
+"run_id": "S2.1_Atau_N500000_r061",
+"kind": "ssl",
+"exp": "S2.1",
+"arm": "Atau",
+"N": 500000,
+"rep": 61,
+"corpus": null,
+"cfg": {
+"loss": "infonce",
+"tau": 0.5
+},
+"pilot": false
+},
+{
+"run_id": "S2.1_A_N50000_r062",
+"kind": "ssl",
+"exp": "S2.1",
+"arm": "A",
+"N": 50000,
+"rep": 62,
+"corpus": null,
+"cfg": {
+"loss": "infonce",
+"tau": 0.2
+},
+"pilot": false
+},
+{
+"run_id": "S2.1_B_N50000_r062",
+"kind": "ssl",
+"exp": "S2.1",
+"arm": "B",
+"N": 50000,
+"rep": 62,
+"corpus": null,
+"cfg": {
+"loss": "spectral",
+"mu": 1.0
+},
+"pilot": false
+},
+{
+"run_id": "S2.1_Atau_N50000_r062",
+"kind": "ssl",
+"exp": "S2.1",
+"arm": "Atau",
+"N": 50000,
+"rep": 62,
+"corpus": null,
+"cfg": {
+"loss": "infonce",
+"tau": 0.5
+},
+"pilot": false
+},
+{
+"run_id": "S2.1_A_N500000_r062",
+"kind": "ssl",
+"exp": "S2.1",
+"arm": "A",
+"N": 500000,
+"rep": 62,
+"corpus": null,
+"cfg": {
+"loss": "infonce",
+"tau": 0.2
+},
+"pilot": false
+},
+{
+"run_id": "S2.1_B_N500000_r062",
+"kind": "ssl",
+"exp": "S2.1",
+"arm": "B",
+"N": 500000,
+"rep": 62,
+"corpus": null,
+"cfg": {
+"loss": "spectral",
+"mu": 1.0
+},
+"pilot": false
+},
+{
+"run_id": "S2.1_Atau_N500000_r062",
+"kind": "ssl",
+"exp": "S2.1",
+"arm": "Atau",
+"N": 500000,
+"rep": 62,
+"corpus": null,
+"cfg": {
+"loss": "infonce",
+"tau": 0.5
+},
+"pilot": false
+},
+{
+"run_id": "S2.1_A_N50000_r063",
+"kind": "ssl",
+"exp": "S2.1",
+"arm": "A",
+"N": 50000,
+"rep": 63,
+"corpus": null,
+"cfg": {
+"loss": "infonce",
+"tau": 0.2
+},
+"pilot": false
+},
+{
+"run_id": "S2.1_B_N50000_r063",
+"kind": "ssl",
+"exp": "S2.1",
+"arm": "B",
+"N": 50000,
+"rep": 63,
+"corpus": null,
+"cfg": {
+"loss": "spectral",
+"mu": 1.0
+},
+"pilot": false
+},
+{
+"run_id": "S2.1_Atau_N50000_r063",
+"kind": "ssl",
+"exp": "S2.1",
+"arm": "Atau",
+"N": 50000,
+"rep": 63,
+"corpus": null,
+"cfg": {
+"loss": "infonce",
+"tau": 0.5
+},
+"pilot": false
+},
+{
+"run_id": "S2.1_A_N500000_r063",
+"kind": "ssl",
+"exp": "S2.1",
+"arm": "A",
+"N": 500000,
+"rep": 63,
+"corpus": null,
+"cfg": {
+"loss": "infonce",
+"tau": 0.2
+},
+"pilot": false
+},
+{
+"run_id": "S2.1_B_N500000_r063",
+"kind": "ssl",
+"exp": "S2.1",
+"arm": "B",
+"N": 500000,
+"rep": 63,
+"corpus": null,
+"cfg": {
+"loss": "spectral",
+"mu": 1.0
+},
+"pilot": false
+},
+{
+"run_id": "S2.1_Atau_N500000_r063",
+"kind": "ssl",
+"exp": "S2.1",
+"arm": "Atau",
+"N": 500000,
+"rep": 63,
+"corpus": null,
+"cfg": {
+"loss": "infonce",
+"tau": 0.5
+},
+"pilot": false
+},
+{
+"run_id": "S2.1-fixedepoch_A_N50000_r000",
+"kind": "ssl",
+"exp": "S2.1-fixedepoch",
+"arm": "A",
+"N": 50000,
+"rep": 0,
+"corpus": null,
+"cfg": {
+"loss": "infonce",
+"tau": 0.2,
+"budget": 500000
+},
+"pilot": false
+},
+{
+"run_id": "S2.1-fixedepoch_B_N50000_r000",
+"kind": "ssl",
+"exp": "S2.1-fixedepoch",
+"arm": "B",
+"N": 50000,
+"rep": 0,
+"corpus": null,
+"cfg": {
+"loss": "spectral",
+"mu": 1.0,
+"budget": 500000
+},
+"pilot": false
+},
+{
+"run_id": "S2.1-fixedepoch_A_N50000_r001",
+"kind": "ssl",
+"exp": "S2.1-fixedepoch",
+"arm": "A",
+"N": 50000,
+"rep": 1,
+"corpus": null,
+"cfg": {
+"loss": "infonce",
+"tau": 0.2,
+"budget": 500000
+},
+"pilot": false
+},
+{
+"run_id": "S2.1-fixedepoch_B_N50000_r001",
+"kind": "ssl",
+"exp": "S2.1-fixedepoch",
+"arm": "B",
+"N": 50000,
+"rep": 1,
+"corpus": null,
+"cfg": {
+"loss": "spectral",
+"mu": 1.0,
+"budget": 500000
+},
+"pilot": false
+},
+{
+"run_id": "S2.1-fixedepoch_A_N50000_r002",
+"kind": "ssl",
+"exp": "S2.1-fixedepoch",
+"arm": "A",
+"N": 50000,
+"rep": 2,
+"corpus": null,
+"cfg": {
+"loss": "infonce",
+"tau": 0.2,
+"budget": 500000
+},
+"pilot": false
+},
+{
+"run_id": "S2.1-fixedepoch_B_N50000_r002",
+"kind": "ssl",
+"exp": "S2.1-fixedepoch",
+"arm": "B",
+"N": 50000,
+"rep": 2,
+"corpus": null,
+"cfg": {
+"loss": "spectral",
+"mu": 1.0,
+"budget": 500000
+},
+"pilot": false
+},
+{
+"run_id": "S2.1-fixedepoch_A_N50000_r003",
+"kind": "ssl",
+"exp": "S2.1-fixedepoch",
+"arm": "A",
+"N": 50000,
+"rep": 3,
+"corpus": null,
+"cfg": {
+"loss": "infonce",
+"tau": 0.2,
+"budget": 500000
+},
+"pilot": false
+},
+{
+"run_id": "S2.1-fixedepoch_B_N50000_r003",
+"kind": "ssl",
+"exp": "S2.1-fixedepoch",
+"arm": "B",
+"N": 50000,
+"rep": 3,
+"corpus": null,
+"cfg": {
+"loss": "spectral",
+"mu": 1.0,
+"budget": 500000
+},
+"pilot": false
+},
+{
+"run_id": "S2.1-fixedepoch_A_N50000_r004",
+"kind": "ssl",
+"exp": "S2.1-fixedepoch",
+"arm": "A",
+"N": 50000,
+"rep": 4,
+"corpus": null,
+"cfg": {
+"loss": "infonce",
+"tau": 0.2,
+"budget": 500000
+},
+"pilot": false
+},
+{
+"run_id": "S2.1-fixedepoch_B_N50000_r004",
+"kind": "ssl",
+"exp": "S2.1-fixedepoch",
+"arm": "B",
+"N": 50000,
+"rep": 4,
+"corpus": null,
+"cfg": {
+"loss": "spectral",
+"mu": 1.0,
+"budget": 500000
+},
+"pilot": false
+},
+{
+"run_id": "S2.1-fixedepoch_A_N50000_r005",
+"kind": "ssl",
+"exp": "S2.1-fixedepoch",
+"arm": "A",
+"N": 50000,
+"rep": 5,
+"corpus": null,
+"cfg": {
+"loss": "infonce",
+"tau": 0.2,
+"budget": 500000
+},
+"pilot": false
+},
+{
+"run_id": "S2.1-fixedepoch_B_N50000_r005",
+"kind": "ssl",
+"exp": "S2.1-fixedepoch",
+"arm": "B",
+"N": 50000,
+"rep": 5,
+"corpus": null,
+"cfg": {
+"loss": "spectral",
+"mu": 1.0,
+"budget": 500000
+},
+"pilot": false
+},
+{
+"run_id": "S2.1-fixedepoch_A_N50000_r006",
+"kind": "ssl",
+"exp": "S2.1-fixedepoch",
+"arm": "A",
+"N": 50000,
+"rep": 6,
+"corpus": null,
+"cfg": {
+"loss": "infonce",
+"tau": 0.2,
+"budget": 500000
+},
+"pilot": false
+},
+{
+"run_id": "S2.1-fixedepoch_B_N50000_r006",
+"kind": "ssl",
+"exp": "S2.1-fixedepoch",
+"arm": "B",
+"N": 50000,
+"rep": 6,
+"corpus": null,
+"cfg": {
+"loss": "spectral",
+"mu": 1.0,
+"budget": 500000
+},
+"pilot": false
+},
+{
+"run_id": "S2.1-fixedepoch_A_N50000_r007",
+"kind": "ssl",
+"exp": "S2.1-fixedepoch",
+"arm": "A",
+"N": 50000,
+"rep": 7,
+"corpus": null,
+"cfg": {
+"loss": "infonce",
+"tau": 0.2,
+"budget": 500000
+},
+"pilot": false
+},
+{
+"run_id": "S2.1-fixedepoch_B_N50000_r007",
+"kind": "ssl",
+"exp": "S2.1-fixedepoch",
+"arm": "B",
+"N": 50000,
+"rep": 7,
+"corpus": null,
+"cfg": {
+"loss": "spectral",
+"mu": 1.0,
+"budget": 500000
+},
+"pilot": false
+},
+{
+"run_id": "S2.1-fixedepoch_A_N50000_r008",
+"kind": "ssl",
+"exp": "S2.1-fixedepoch",
+"arm": "A",
+"N": 50000,
+"rep": 8,
+"corpus": null,
+"cfg": {
+"loss": "infonce",
+"tau": 0.2,
+"budget": 500000
+},
+"pilot": false
+},
+{
+"run_id": "S2.1-fixedepoch_B_N50000_r008",
+"kind": "ssl",
+"exp": "S2.1-fixedepoch",
+"arm": "B",
+"N": 50000,
+"rep": 8,
+"corpus": null,
+"cfg": {
+"loss": "spectral",
+"mu": 1.0,
+"budget": 500000
+},
+"pilot": false
+},
+{
+"run_id": "S2.1-fixedepoch_A_N50000_r009",
+"kind": "ssl",
+"exp": "S2.1-fixedepoch",
+"arm": "A",
+"N": 50000,
+"rep": 9,
+"corpus": null,
+"cfg": {
+"loss": "infonce",
+"tau": 0.2,
+"budget": 500000
+},
+"pilot": false
+},
+{
+"run_id": "S2.1-fixedepoch_B_N50000_r009",
+"kind": "ssl",
+"exp": "S2.1-fixedepoch",
+"arm": "B",
+"N": 50000,
+"rep": 9,
+"corpus": null,
+"cfg": {
+"loss": "spectral",
+"mu": 1.0,
+"budget": 500000
+},
+"pilot": false
+},
+{
+"run_id": "S2.1-fixedepoch_A_N50000_r010",
+"kind": "ssl",
+"exp": "S2.1-fixedepoch",
+"arm": "A",
+"N": 50000,
+"rep": 10,
+"corpus": null,
+"cfg": {
+"loss": "infonce",
+"tau": 0.2,
+"budget": 500000
+},
+"pilot": false
+},
+{
+"run_id": "S2.1-fixedepoch_B_N50000_r010",
+"kind": "ssl",
+"exp": "S2.1-fixedepoch",
+"arm": "B",
+"N": 50000,
+"rep": 10,
+"corpus": null,
+"cfg": {
+"loss": "spectral",
+"mu": 1.0,
+"budget": 500000
+},
+"pilot": false
+},
+{
+"run_id": "S2.1-fixedepoch_A_N50000_r011",
+"kind": "ssl",
+"exp": "S2.1-fixedepoch",
+"arm": "A",
+"N": 50000,
+"rep": 11,
+"corpus": null,
+"cfg": {
+"loss": "infonce",
+"tau": 0.2,
+"budget": 500000
+},
+"pilot": false
+},
+{
+"run_id": "S2.1-fixedepoch_B_N50000_r011",
+"kind": "ssl",
+"exp": "S2.1-fixedepoch",
+"arm": "B",
+"N": 50000,
+"rep": 11,
+"corpus": null,
+"cfg": {
+"loss": "spectral",
+"mu": 1.0,
+"budget": 500000
+},
+"pilot": false
+},
+{
+"run_id": "S2.1-fixedepoch_A_N50000_r012",
+"kind": "ssl",
+"exp": "S2.1-fixedepoch",
+"arm": "A",
+"N": 50000,
+"rep": 12,
+"corpus": null,
+"cfg": {
+"loss": "infonce",
+"tau": 0.2,
+"budget": 500000
+},
+"pilot": false
+},
+{
+"run_id": "S2.1-fixedepoch_B_N50000_r012",
+"kind": "ssl",
+"exp": "S2.1-fixedepoch",
+"arm": "B",
+"N": 50000,
+"rep": 12,
+"corpus": null,
+"cfg": {
+"loss": "spectral",
+"mu": 1.0,
+"budget": 500000
+},
+"pilot": false
+},
+{
+"run_id": "S2.1-fixedepoch_A_N50000_r013",
+"kind": "ssl",
+"exp": "S2.1-fixedepoch",
+"arm": "A",
+"N": 50000,
+"rep": 13,
+"corpus": null,
+"cfg": {
+"loss": "infonce",
+"tau": 0.2,
+"budget": 500000
+},
+"pilot": false
+},
+{
+"run_id": "S2.1-fixedepoch_B_N50000_r013",
+"kind": "ssl",
+"exp": "S2.1-fixedepoch",
+"arm": "B",
+"N": 50000,
+"rep": 13,
+"corpus": null,
+"cfg": {
+"loss": "spectral",
+"mu": 1.0,
+"budget": 500000
+},
+"pilot": false
+},
+{
+"run_id": "S2.1-fixedepoch_A_N50000_r014",
+"kind": "ssl",
+"exp": "S2.1-fixedepoch",
+"arm": "A",
+"N": 50000,
+"rep": 14,
+"corpus": null,
+"cfg": {
+"loss": "infonce",
+"tau": 0.2,
+"budget": 500000
+},
+"pilot": false
+},
+{
+"run_id": "S2.1-fixedepoch_B_N50000_r014",
+"kind": "ssl",
+"exp": "S2.1-fixedepoch",
+"arm": "B",
+"N": 50000,
+"rep": 14,
+"corpus": null,
+"cfg": {
+"loss": "spectral",
+"mu": 1.0,
+"budget": 500000
+},
+"pilot": false
+},
+{
+"run_id": "S2.1-fixedepoch_A_N50000_r015",
+"kind": "ssl",
+"exp": "S2.1-fixedepoch",
+"arm": "A",
+"N": 50000,
+"rep": 15,
+"corpus": null,
+"cfg": {
+"loss": "infonce",
+"tau": 0.2,
+"budget": 500000
+},
+"pilot": false
+},
+{
+"run_id": "S2.1-fixedepoch_B_N50000_r015",
+"kind": "ssl",
+"exp": "S2.1-fixedepoch",
+"arm": "B",
+"N": 50000,
+"rep": 15,
+"corpus": null,
+"cfg": {
+"loss": "spectral",
+"mu": 1.0,
+"budget": 500000
+},
+"pilot": false
+},
+{
+"run_id": "S2.1-fixedepoch_A_N50000_r016",
+"kind": "ssl",
+"exp": "S2.1-fixedepoch",
+"arm": "A",
+"N": 50000,
+"rep": 16,
+"corpus": null,
+"cfg": {
+"loss": "infonce",
+"tau": 0.2,
+"budget": 500000
+},
+"pilot": false
+},
+{
+"run_id": "S2.1-fixedepoch_B_N50000_r016",
+"kind": "ssl",
+"exp": "S2.1-fixedepoch",
+"arm": "B",
+"N": 50000,
+"rep": 16,
+"corpus": null,
+"cfg": {
+"loss": "spectral",
+"mu": 1.0,
+"budget": 500000
+},
+"pilot": false
+},
+{
+"run_id": "S2.1-fixedepoch_A_N50000_r017",
+"kind": "ssl",
+"exp": "S2.1-fixedepoch",
+"arm": "A",
+"N": 50000,
+"rep": 17,
+"corpus": null,
+"cfg": {
+"loss": "infonce",
+"tau": 0.2,
+"budget": 500000
+},
+"pilot": false
+},
+{
+"run_id": "S2.1-fixedepoch_B_N50000_r017",
+"kind": "ssl",
+"exp": "S2.1-fixedepoch",
+"arm": "B",
+"N": 50000,
+"rep": 17,
+"corpus": null,
+"cfg": {
+"loss": "spectral",
+"mu": 1.0,
+"budget": 500000
+},
+"pilot": false
+},
+{
+"run_id": "S2.1-fixedepoch_A_N50000_r018",
+"kind": "ssl",
+"exp": "S2.1-fixedepoch",
+"arm": "A",
+"N": 50000,
+"rep": 18,
+"corpus": null,
+"cfg": {
+"loss": "infonce",
+"tau": 0.2,
+"budget": 500000
+},
+"pilot": false
+},
+{
+"run_id": "S2.1-fixedepoch_B_N50000_r018",
+"kind": "ssl",
+"exp": "S2.1-fixedepoch",
+"arm": "B",
+"N": 50000,
+"rep": 18,
+"corpus": null,
+"cfg": {
+"loss": "spectral",
+"mu": 1.0,
+"budget": 500000
+},
+"pilot": false
+},
+{
+"run_id": "S2.1-fixedepoch_A_N50000_r019",
+"kind": "ssl",
+"exp": "S2.1-fixedepoch",
+"arm": "A",
+"N": 50000,
+"rep": 19,
+"corpus": null,
+"cfg": {
+"loss": "infonce",
+"tau": 0.2,
+"budget": 500000
+},
+"pilot": false
+},
+{
+"run_id": "S2.1-fixedepoch_B_N50000_r019",
+"kind": "ssl",
+"exp": "S2.1-fixedepoch",
+"arm": "B",
+"N": 50000,
+"rep": 19,
+"corpus": null,
+"cfg": {
+"loss": "spectral",
+"mu": 1.0,
+"budget": 500000
+},
+"pilot": false
+},
+{
+"run_id": "S2.1-fixedepoch_A_N50000_r020",
+"kind": "ssl",
+"exp": "S2.1-fixedepoch",
+"arm": "A",
+"N": 50000,
+"rep": 20,
+"corpus": null,
+"cfg": {
+"loss": "infonce",
+"tau": 0.2,
+"budget": 500000
+},
+"pilot": false
+},
+{
+"run_id": "S2.1-fixedepoch_B_N50000_r020",
+"kind": "ssl",
+"exp": "S2.1-fixedepoch",
+"arm": "B",
+"N": 50000,
+"rep": 20,
+"corpus": null,
+"cfg": {
+"loss": "spectral",
+"mu": 1.0,
+"budget": 500000
+},
+"pilot": false
+},
+{
+"run_id": "S2.1-fixedepoch_A_N50000_r021",
+"kind": "ssl",
+"exp": "S2.1-fixedepoch",
+"arm": "A",
+"N": 50000,
+"rep": 21,
+"corpus": null,
+"cfg": {
+"loss": "infonce",
+"tau": 0.2,
+"budget": 500000
+},
+"pilot": false
+},
+{
+"run_id": "S2.1-fixedepoch_B_N50000_r021",
+"kind": "ssl",
+"exp": "S2.1-fixedepoch",
+"arm": "B",
+"N": 50000,
+"rep": 21,
+"corpus": null,
+"cfg": {
+"loss": "spectral",
+"mu": 1.0,
+"budget": 500000
+},
+"pilot": false
+},
+{
+"run_id": "S2.1-fixedepoch_A_N50000_r022",
+"kind": "ssl",
+"exp": "S2.1-fixedepoch",
+"arm": "A",
+"N": 50000,
+"rep": 22,
+"corpus": null,
+"cfg": {
+"loss": "infonce",
+"tau": 0.2,
+"budget": 500000
+},
+"pilot": false
+},
+{
+"run_id": "S2.1-fixedepoch_B_N50000_r022",
+"kind": "ssl",
+"exp": "S2.1-fixedepoch",
+"arm": "B",
+"N": 50000,
+"rep": 22,
+"corpus": null,
+"cfg": {
+"loss": "spectral",
+"mu": 1.0,
+"budget": 500000
+},
+"pilot": false
+},
+{
+"run_id": "S2.1-fixedepoch_A_N50000_r023",
+"kind": "ssl",
+"exp": "S2.1-fixedepoch",
+"arm": "A",
+"N": 50000,
+"rep": 23,
+"corpus": null,
+"cfg": {
+"loss": "infonce",
+"tau": 0.2,
+"budget": 500000
+},
+"pilot": false
+},
+{
+"run_id": "S2.1-fixedepoch_B_N50000_r023",
+"kind": "ssl",
+"exp": "S2.1-fixedepoch",
+"arm": "B",
+"N": 50000,
+"rep": 23,
+"corpus": null,
+"cfg": {
+"loss": "spectral",
+"mu": 1.0,
+"budget": 500000
+},
+"pilot": false
+},
+{
+"run_id": "S2.1-fixedepoch_A_N50000_r024",
+"kind": "ssl",
+"exp": "S2.1-fixedepoch",
+"arm": "A",
+"N": 50000,
+"rep": 24,
+"corpus": null,
+"cfg": {
+"loss": "infonce",
+"tau": 0.2,
+"budget": 500000
+},
+"pilot": false
+},
+{
+"run_id": "S2.1-fixedepoch_B_N50000_r024",
+"kind": "ssl",
+"exp": "S2.1-fixedepoch",
+"arm": "B",
+"N": 50000,
+"rep": 24,
+"corpus": null,
+"cfg": {
+"loss": "spectral",
+"mu": 1.0,
+"budget": 500000
+},
+"pilot": false
+},
+{
+"run_id": "S2.1-fixedepoch_A_N50000_r025",
+"kind": "ssl",
+"exp": "S2.1-fixedepoch",
+"arm": "A",
+"N": 50000,
+"rep": 25,
+"corpus": null,
+"cfg": {
+"loss": "infonce",
+"tau": 0.2,
+"budget": 500000
+},
+"pilot": false
+},
+{
+"run_id": "S2.1-fixedepoch_B_N50000_r025",
+"kind": "ssl",
+"exp": "S2.1-fixedepoch",
+"arm": "B",
+"N": 50000,
+"rep": 25,
+"corpus": null,
+"cfg": {
+"loss": "spectral",
+"mu": 1.0,
+"budget": 500000
+},
+"pilot": false
+},
+{
+"run_id": "S2.1-fixedepoch_A_N50000_r026",
+"kind": "ssl",
+"exp": "S2.1-fixedepoch",
+"arm": "A",
+"N": 50000,
+"rep": 26,
+"corpus": null,
+"cfg": {
+"loss": "infonce",
+"tau": 0.2,
+"budget": 500000
+},
+"pilot": false
+},
+{
+"run_id": "S2.1-fixedepoch_B_N50000_r026",
+"kind": "ssl",
+"exp": "S2.1-fixedepoch",
+"arm": "B",
+"N": 50000,
+"rep": 26,
+"corpus": null,
+"cfg": {
+"loss": "spectral",
+"mu": 1.0,
+"budget": 500000
+},
+"pilot": false
+},
+{
+"run_id": "S2.1-fixedepoch_A_N50000_r027",
+"kind": "ssl",
+"exp": "S2.1-fixedepoch",
+"arm": "A",
+"N": 50000,
+"rep": 27,
+"corpus": null,
+"cfg": {
+"loss": "infonce",
+"tau": 0.2,
+"budget": 500000
+},
+"pilot": false
+},
+{
+"run_id": "S2.1-fixedepoch_B_N50000_r027",
+"kind": "ssl",
+"exp": "S2.1-fixedepoch",
+"arm": "B",
+"N": 50000,
+"rep": 27,
+"corpus": null,
+"cfg": {
+"loss": "spectral",
+"mu": 1.0,
+"budget": 500000
+},
+"pilot": false
+},
+{
+"run_id": "S2.1-fixedepoch_A_N50000_r028",
+"kind": "ssl",
+"exp": "S2.1-fixedepoch",
+"arm": "A",
+"N": 50000,
+"rep": 28,
+"corpus": null,
+"cfg": {
+"loss": "infonce",
+"tau": 0.2,
+"budget": 500000
+},
+"pilot": false
+},
+{
+"run_id": "S2.1-fixedepoch_B_N50000_r028",
+"kind": "ssl",
+"exp": "S2.1-fixedepoch",
+"arm": "B",
+"N": 50000,
+"rep": 28,
+"corpus": null,
+"cfg": {
+"loss": "spectral",
+"mu": 1.0,
+"budget": 500000
+},
+"pilot": false
+},
+{
+"run_id": "S2.1-fixedepoch_A_N50000_r029",
+"kind": "ssl",
+"exp": "S2.1-fixedepoch",
+"arm": "A",
+"N": 50000,
+"rep": 29,
+"corpus": null,
+"cfg": {
+"loss": "infonce",
+"tau": 0.2,
+"budget": 500000
+},
+"pilot": false
+},
+{
+"run_id": "S2.1-fixedepoch_B_N50000_r029",
+"kind": "ssl",
+"exp": "S2.1-fixedepoch",
+"arm": "B",
+"N": 50000,
+"rep": 29,
+"corpus": null,
+"cfg": {
+"loss": "spectral",
+"mu": 1.0,
+"budget": 500000
+},
+"pilot": false
+},
+{
+"run_id": "S2.1-fixedepoch_A_N50000_r030",
+"kind": "ssl",
+"exp": "S2.1-fixedepoch",
+"arm": "A",
+"N": 50000,
+"rep": 30,
+"corpus": null,
+"cfg": {
+"loss": "infonce",
+"tau": 0.2,
+"budget": 500000
+},
+"pilot": false
+},
+{
+"run_id": "S2.1-fixedepoch_B_N50000_r030",
+"kind": "ssl",
+"exp": "S2.1-fixedepoch",
+"arm": "B",
+"N": 50000,
+"rep": 30,
+"corpus": null,
+"cfg": {
+"loss": "spectral",
+"mu": 1.0,
+"budget": 500000
+},
+"pilot": false
+},
+{
+"run_id": "S2.1-fixedepoch_A_N50000_r031",
+"kind": "ssl",
+"exp": "S2.1-fixedepoch",
+"arm": "A",
+"N": 50000,
+"rep": 31,
+"corpus": null,
+"cfg": {
+"loss": "infonce",
+"tau": 0.2,
+"budget": 500000
+},
+"pilot": false
+},
+{
+"run_id": "S2.1-fixedepoch_B_N50000_r031",
+"kind": "ssl",
+"exp": "S2.1-fixedepoch",
+"arm": "B",
+"N": 50000,
+"rep": 31,
+"corpus": null,
+"cfg": {
+"loss": "spectral",
+"mu": 1.0,
+"budget": 500000
+},
+"pilot": false
+}
+]
+}

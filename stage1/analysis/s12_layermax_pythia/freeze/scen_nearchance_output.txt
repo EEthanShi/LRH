@@ -1,0 +1,4 @@
+# Exploratory, not citable. freeze role, 2026-10-10. design/scen.py with T anchored at c(70m)+0.02 (near chance) instead of +0.18; PR 80->220; seeds as scen.py.
+PR70 PR69 a  | Tr_raw  Tr_cal  dTr  p_one(5040)  flips_c2d
+  80  220 0.008 | +0.98  -0.45  -1.43  0.00020 [0.00020,0.00020]  234/357
+  80  220 0.012 | +0.99  +0.36  -0.63  0.00149 [0.00020,0.00635]  116/357

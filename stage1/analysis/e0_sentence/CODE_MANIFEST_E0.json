@@ -1,0 +1,66 @@
+{
+ "role": "e0-freeze",
+ "created_utc": "2026-10-10T13:28:58Z",
+ "plan": {
+  "path": "analysis/e0_sentence/ANALYSIS_PLAN_E0.md",
+  "sha256": "e859c6ea52f941b18ca27b83150f489dded0085a4d99218d909b36c19603f0ee"
+ },
+ "freeze_constants": {
+  "path": "analysis/e0_sentence/freeze/freeze_constants.json",
+  "sha256": "144d5aef8a322f687f0159efd5566e1d6e89fc39b592ebffa64e8ba565a5410d"
+ },
+ "files": {
+  "analysis/e0_sentence/e0_calib.py": "39fcb8958ed8a9e1637d9d5dc57eaf10fab6a3b55e627c5efede520ba79a0f3f",
+  "analysis/e0_sentence/e0_common.py": "bf44f6958ddca707349706f2a1161661682ada69b45717e544d4cd6298fbc39e",
+  "analysis/e0_sentence/e0_diag.py": "11fad2b72a5e896e0a884e7a4a131a4c0665b23ba69010e3a4a28770d4e92274",
+  "analysis/e0_sentence/e0_evaluate.py": "1a80479f0f6050564a4dbfe4c4df667951ec8bf4941dd065839297550855f544",
+  "analysis/e0_sentence/e0_guard.py": "c379e7d1c57a841a65d4f718a103e6d7f0d4a2e241f0c1ffbd5cbf0ddeba7296",
+  "analysis/e0_sentence/e0_obs.py": "ca910cefd57974a38f81b66c6e8b0ab92c99ce03a3451362357727558981e116",
+  "analysis/e0_sentence/e0_prep.py": "72fe6b807e9c2f6b39d2f3c1f9ad2f975e4389233f0cf39783451921f6a57434",
+  "analysis/e0_sentence/e0_rules.py": "afcc936309369c215ede72cc94b08ded02829bc2a43c1493377531d74778def1",
+  "analysis/e0_sentence/e0_validate.py": "ddb6e896f22800120082da7496042ea185434771c63abdaa08f81ccdcfee7f37",
+  "analysis/e0_sentence/freeze/e0_freeze_constants.py": "d74f032f09e105d0848e4ec3de0a2de71483b07a9e83cfcda7eed40c5a60ec68",
+  "analysis/e0_sentence/s11copy/s11_common.py": "96f079e54e4c01ac1ebb881dcaa1ccca46c464dacfd1150d3d5c5a3b9580eda8",
+  "analysis/e0_sentence/s11copy/s11v11_common.py": "bce615a4069ad63489fd8af01ee5165dc85b0785e45cf3890cab482937f69404",
+  "analysis/e0_sentence/s11copy/s11v11_evaluate.py": "b8ba63224a40c77e518957d25b783a6571d1dbbfa8177f3db5b474208b7bcd45",
+  "analysis/e0_sentence/s11copy/s11v11_obs.py": "b813eb4df70a63f9c32eb67082d42529575f7e1d8b64cb7cd4f5bef95a445165",
+  "analysis/e0_sentence/s11copy/s11v11_prep.py": "499edc5381832375ef5de59c40cd4958e67b40729acbc61ae7e7d17f8dad2ddf",
+  "analysis/e0_sentence/tests/test_e0_analysis.py": "0c40fbd29c66a7f756bd5a0188b279e400c76dc11833630391cb30586a6d0921",
+  "analysis/e0_sentence/tests/test_e0_integration.py": "fb23e03c9d7ac201bc008c29dd4525866d21d1e09c65056964c9e1e3bb79849f",
+  "extract/e0_sentence/e0_captions.py": "1865529bde17cfc01982f729c6d771f56cae5e48ed45e0718ec46ba20d522f4b",
+  "extract/e0_sentence/e0_extract.py": "5da33f8ec988a08208dcc11671aad8cb438100e07a812aae0a12129612d08448",
+  "extract/e0_sentence/e0_membership.py": "d3d89c42fc2debb65f9d65fd27a28463324abc05ebd5737be89dfc79bf7d5dbf",
+  "extract/e0_sentence/e0x_common.py": "09859818aa681d17074e99ac295e793d439326c64da23092a427f77997170c05",
+  "extract/e0_sentence/tests/test_e0_extract.py": "44aa2a49c388d04a469a5aa5160e92b96f55ff2b34241593520d5b99b131177b"
+ },
+ "s11copy_originals": {
+  "analysis/s11/s11v11_evaluate.py": "b8ba63224a40c77e518957d25b783a6571d1dbbfa8177f3db5b474208b7bcd45",
+  "analysis/s11/s11v11_prep.py": "499edc5381832375ef5de59c40cd4958e67b40729acbc61ae7e7d17f8dad2ddf",
+  "analysis/s11/s11v11_obs.py": "b813eb4df70a63f9c32eb67082d42529575f7e1d8b64cb7cd4f5bef95a445165",
+  "analysis/s11/s11_common.py": "96f079e54e4c01ac1ebb881dcaa1ccca46c464dacfd1150d3d5c5a3b9580eda8",
+  "analysis/s11/s11v11_common.py": "bce615a4069ad63489fd8af01ee5165dc85b0785e45cf3890cab482937f69404"
+ },
+ "validation": {
+  "file": "results/E0_sentence/validation/VALIDATION_20261010T132450Z.json",
+  "sha256": "1d1fc370be414ea8d3368920ae9c3337ef294c362f5d778baccf92f4c5ea1f28",
+  "log": "results/E0_sentence/logs/validate_20261010T132450Z.log",
+  "log_sha256": "3c4c16a0e67e2236f44a1e054677f2ff5af4c3a21f93d822ba5c17d4d4887169",
+  "result": "V-a0, V-a, V-b (dinov2_b, bloomz_1b7: knn arrays, rows/fit sha256, median_D bitwise), V-c (3045 obs rows bitwise; drawmean obs, slope_obs, all-k sums max |diff| 0.0) all pass"
+ },
+ "pytest": {
+  "log": "results/E0_sentence/logs/pytest_20261010T132450Z.log",
+  "log_sha256": "57e96e9fd5032881d7894176a7f2167180020c7d90e111db5cec6dee4778d12e",
+  "result": "extract 17 passed; analysis 31 passed (25 unit incl. planted plants for every outcome label of P1/P2b/P2c and 3 planted end-to-end worlds; 6 full-size synthetic integration)"
+ },
+ "not_in_manifest": [
+  "exploratory X1-X3 code (written after the verdicts, plan \u00a77.6)",
+  "V-f independent implementation (role e0-indep)",
+  "analysis/e0_sentence/design/* (role e0-design) and critic/* (role e0-critic), exploratory"
+ ],
+ "data_used_for_tests": "S1.1 features of dinov2_b and bloomz_1b7, S1.1 caches/obs/cells/slopes (read only), synthetic arrays and tiny random-init models; no E0 extraction exists, no sentence-encoder score was computed",
+ "compute": {
+  "gpu_hours": 0.0,
+  "cpu_hours_approx": 0.4,
+  "max_threads": 6
+ }
+}

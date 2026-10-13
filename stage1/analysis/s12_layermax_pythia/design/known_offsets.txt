@@ -1,0 +1,24 @@
+== prh_clip+l2
+bigscience__bloomz-560m            Lst=25 PR*= 133.9 n=17 off med 0.00219 [0.00172,0.00280] null_sd med 0.00118 [0.00102,0.00129] nullmean-B med +0.000131
+bigscience__bloomz-1b1             Lst=25 PR*= 124.5 n=17 off med 0.00223 [0.00203,0.00281] null_sd med 0.00116 [0.00107,0.00129] nullmean-B med +0.000286
+bigscience__bloomz-1b7             Lst=25 PR*= 242.4 n=17 off med 0.00195 [0.00173,0.00213] null_sd med 0.00113 [0.00104,0.00119] nullmean-B med +0.000004
+bigscience__bloomz-3b              Lst=31 PR*= 248.2 n=17 off med 0.00190 [0.00171,0.00226] null_sd med 0.00110 [0.00103,0.00124] nullmean-B med +0.000007
+bigscience__bloomz-7b1             Lst=31 PR*= 249.3 n=17 off med 0.00194 [0.00170,0.00226] null_sd med 0.00112 [0.00102,0.00123] nullmean-B med +0.000043
+openlm-research__open_llama_3b     Lst=27 PR*= 201.9 n=17 off med 0.00190 [0.00169,0.00211] null_sd med 0.00112 [0.00102,0.00123] nullmean-B med -0.000002
+openlm-research__open_llama_7b     Lst=33 PR*= 228.6 n=17 off med 0.00193 [0.00162,0.00213] null_sd med 0.00109 [0.00102,0.00118] nullmean-B med -0.000002
+huggyllama__llama-7b               Lst=33 PR*= 257.3 n=17 off med 0.00184 [0.00161,0.00214] null_sd med 0.00111 [0.00100,0.00123] nullmean-B med -0.000005
+huggyllama__llama-13b              Lst=41 PR*= 308.6 n=17 off med 0.00182 [0.00155,0.00212] null_sd med 0.00107 [0.00097,0.00120] nullmean-B med -0.000008
+huggyllama__llama-30b              Lst=61 PR*= 359.2 n=17 off med 0.00171 [0.00155,0.00190] null_sd med 0.00103 [0.00096,0.00112] nullmean-B med +0.000012
+== l2
+bigscience__bloomz-560m            Lst=25 PR*=  79.6 n=17 off med 0.00231 [0.00173,0.00246] null_sd med 0.00128 [0.00106,0.00141] nullmean-B med +0.000014
+bigscience__bloomz-1b1             Lst=25 PR*=  93.2 n=17 off med 0.00221 [0.00180,0.00250] null_sd med 0.00123 [0.00114,0.00137] nullmean-B med +0.000016
+bigscience__bloomz-1b7             Lst=25 PR*= 115.7 n=17 off med 0.00228 [0.00200,0.00295] null_sd med 0.00126 [0.00113,0.00156] nullmean-B med +0.000025
+bigscience__bloomz-3b              Lst=31 PR*= 157.2 n=17 off med 0.00207 [0.00171,0.00363] null_sd med 0.00117 [0.00102,0.00185] nullmean-B med +0.000006
+bigscience__bloomz-7b1             Lst=31 PR*= 141.9 n=17 off med 0.00219 [0.00183,0.00321] null_sd med 0.00124 [0.00106,0.00171] nullmean-B med +0.000011
+openlm-research__open_llama_3b     Lst=27 PR*= 160.1 n=17 off med 0.00202 [0.00184,0.00241] null_sd med 0.00119 [0.00113,0.00130] nullmean-B med +0.000003
+openlm-research__open_llama_7b     Lst=33 PR*= 180.0 n=17 off med 0.00204 [0.00189,0.00239] null_sd med 0.00117 [0.00112,0.00124] nullmean-B med +0.000015
+huggyllama__llama-7b               Lst=33 PR*= 131.4 n=17 off med 0.00214 [0.00181,0.00246] null_sd med 0.00122 [0.00112,0.00127] nullmean-B med +0.000003
+huggyllama__llama-13b              Lst=41 PR*= 157.0 n=17 off med 0.00210 [0.00186,0.00243] null_sd med 0.00118 [0.00109,0.00131] nullmean-B med +0.000014
+huggyllama__llama-30b              Lst=61 PR*= 162.4 n=17 off med 0.00209 [0.00172,0.00243] null_sd med 0.00121 [0.00108,0.00134] nullmean-B med +0.000003
+prh_clip+l2 n 187 (13b 17 ) offset med 0.00192 range [0.00155, 0.00281] nullmean-B range [-0.000101, 0.000463] null_sd range [0.00096, 0.00129]
+l2 n 187 (13b 17 ) offset med 0.00212 range [0.00171, 0.00363] nullmean-B range [-0.000105, 0.000219] null_sd range [0.00102, 0.00185]

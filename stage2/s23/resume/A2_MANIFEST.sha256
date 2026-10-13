@@ -1,0 +1,9 @@
+# S2.3 AMENDMENT A2 manifest (sha256  tagged path; S23/ = ~/hrh_v2_stage2_20261008/s23, ROOT/ = the output root = S23); written 2026-10-10T08:31:54Z
+435260f60abeba90c5874d5633b32ce76c9d60c74ce372bce2fd5173c625bed6  S23/prereg/AMENDMENT_A2_complete.md
+97cc4fb10d354b33f6b89a738fb299f26b723c1c31eb45679129a8599cb2078b  S23/resume/a2_complete.py
+9570c6bfd1fc8ca961a618b23f54891b23b6fe10bce088ed0d064e846f147122  S23/resume/a2_worker.py
+53ec4c71e53d98e27ddc5e1223b602961a22c56507340776c15b57bb01e82e2b  S23/resume/launch_stageA_A2.sh
+99fb31501e4576b506fc1b25d1e81cc88aba50cc0599237f7331c1db23051f96  S23/resume/tests_A2/run_a2_tests.sh
+f33f2960416dc596cd59cb8f94b19d6402133e1c49a322d47a1e5d148a30dcd2  S23/resume/tests_A2/a2_make_test_state.py
+7a44bb48fdbee4c6d082b29acef59630a28509a99c1c8f3c120b14d5b2261998  S23/resume/tests_A2/a2_check_test_state.py
+672288a772d2809a649d9951c489dd9c965491991a66478aba399bbe2aa2c660  ROOT/resume/A2_finished_items.sha256

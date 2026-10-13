@@ -1,0 +1,14 @@
+prh fit med = 0.00106 + 0.01300/sqrt(PR*) resid sd 0.00004 max(pair max - LM median) 0.00061 corr 0.97
+   PR*= 20  median 0.00397  pair max ~ 0.00458
+   PR*= 30  median 0.00344  pair max ~ 0.00405
+   PR*= 40  median 0.00312  pair max ~ 0.00373
+   PR*= 60  median 0.00274  pair max ~ 0.00335
+   PR*= 80  median 0.00252  pair max ~ 0.00313
+   PR*=120  median 0.00225  pair max ~ 0.00286
+l2 fit med = 0.00153 + 0.00708/sqrt(PR*) resid sd 0.00005 max(pair max - LM median) 0.00156 corr 0.87
+   PR*= 20  median 0.00311  pair max ~ 0.00467
+   PR*= 30  median 0.00282  pair max ~ 0.00438
+   PR*= 40  median 0.00265  pair max ~ 0.00421
+   PR*= 60  median 0.00244  pair max ~ 0.00400
+   PR*= 80  median 0.00232  pair max ~ 0.00388
+   PR*=120  median 0.00217  pair max ~ 0.00373

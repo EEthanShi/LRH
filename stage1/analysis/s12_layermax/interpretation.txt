@@ -1,0 +1,44 @@
+**Answer to the question (primary pre `prh_clip+l2`, biased CKA).** The answer depends on the trend axis.
+
+- **ARH's own statistic (cross-family Pearson r with LLM rank).** It does **not** reproduce ARH's contrast on this subpanel.
+  - CKA goes 0.49 → 0.43 (Δ = 0.07); mKNN goes 0.52 → 0.52.
+  - Δ_CKA − Δ_mKNN = 0.07 [−0.04, 0.20]. The preregistered reading is "ARH pattern absent".
+  - The 8-LM subpanel cannot carry ARH's Table 2. Its raw CKA r is 0.49, not 0.86. Three family levels (BLOOMZ vs OpenLLaMA vs LLaMA) dominate it, and that contrast survives calibration. The CI does not exclude a moderate drop.
+- **Within-family axes.** Here ARH's pattern does reappear under layer-max.
+  - Within BLOOMZ, raw layer-max CKA has Tr = 0.89 (p = 0.042). After calibration Tr is −0.29 uncensored and −0.02 for s_cal. mKNN stays at 0.99 / 1.00 (p = 0.008).
+  - At fixed depth the same pipeline keeps the CKA trend: 0.69 / 0.92 with this run's permutations, reproducing S1.2's 0.70 / 0.92.
+  - On the vision axis, layer-max CKA has raw Tr 0.89 → 0.11 uncensored / 0.34 s_cal. mKNN stays at 0.76. At fixed r = 1.0 the vision-axis CKA trend was already absent (S1.2: −0.04).
+
+**Attribution: neither depth selection, nor the number of layer pairs, nor the ceiling.**
+- **Not depth selection.** The observed max sits at late LM layers (mean relative depth 0.93–0.99 within BLOOMZ) and late ViT layers. The selected depth does not trend with BLOOMZ size (Tr −0.24, p = 0.94), and T itself keeps the trend (0.89).
+- **Not the ceiling.** Censoring never binds: no s_cal is 0. The division by (1 − c_α) slightly softens the loss (−0.02 vs −0.29 for T − c_α).
+- **Not multiplicity.**
+  - For biased CKA, the null mean of the layer-max equals the highest single-entry null level to 6e-5 (0.1659 vs 0.1658), so the max over 300–1320 comparisons adds essentially nothing.
+  - Across pairs, Spearman(c_α, L_A·L_B) is only 0.30.
+  - A 4-pair grid (LM {embedding, last} × ViT {first, last}) already loses the trend (Tr −0.25). The 21-pair grid (last LM layer × all ViT layers) keeps it (0.92).
+- **It is null-level heterogeneity across LM layers.**
+  - The biased-CKA null level differs strongly between layers of one LM: 0.08–0.18.
+  - c_α(max) is set by the LM layer with the highest null. For BLOOMZ-560m/1b7/3b this is the embedding output and for 7b1 layer 1 (null 0.13–0.18). The observed max is never there: the embedding layer is selected in 0/136 pairs, yet it holds 33% of the permutation maxima.
+  - Within BLOOMZ that highest null level rises with size (per-LM max level 0.133, 0.129, 0.179, 0.181, 0.182; c_α Tr = 0.90). Subtracting it removes the trend.
+  - Calibrating the observed max against the null of its own selected entry recovers Tr = 0.76.
+  - Post hoc, restricting the max to LM layers at relative depth ≥ 0.5 restores the calibrated trend (uncensored 0.89, s_cal 0.90). Excluding only the embedding layer does not (−0.29). In BLOOMZ the null level is highest throughout the first ~5 layers, not only at the embedding (bloomz-7b1: 0.158 at the embedding, 0.182 at layers 1–2), and that early-layer level rises with size.
+  - In OpenLLaMA/LLaMA the null level instead rises with depth, to 0.16–0.18 at relative depth 0.8–0.9. That is where their observed max sits (mean selected depth 0.83–0.96). So for those families selection and null level coincide, which feeds the cross-family raw r.
+- **Why mKNN and debiased CKA are immune.**
+  - For mKNN, every layer pair has the same null level, k/(m−1) = 0.0098. Its c_α(max) = 0.0139 is a genuine but small and near-constant multiplicity term.
+  - For debiased CKA, the null level is ≈ 0 at every layer (c_α(max) = 0.005), so calibration changes nothing (Tr 0.84; r 0.40 → 0.40). ARH's unbiased-CKA collapse (0.65 → −0.01) is not reproduced here.
+
+**Reading.** On this subpanel, ARH's "calibrated CKA loses its trend, mKNN keeps it" reappears under layer-max only along within-family size axes. There it is an artifact of combining a max-aggregate with a criterion whose null level is layer-dependent.
+- The aggregation-aware calibration subtracts the null level of the most null-inflated layer pair, which is a different pair from the one that carries the observed maximum.
+- That offset trends with model size.
+- It is a property of the biased-CKA null (its dependence on each layer's spectrum), not evidence that global geometry stops converging.
+- Criteria with layer-invariant nulls are unaffected: mKNN, whose null is distribution-free by rank invariance, and debiased CKA, whose null level is ≈ 0.
+
+This fits the lattice reading: the structural rung's null depends only on (m, k), while the biased-CKA rung's null depends on each layer's spectrum.
+
+**Caveats.**
+- The LM-size axis is BLOOMZ only: 5 sizes, smallest exact p = 1/120. No Holm correction; this is replication only.
+- Under `l2` the same mechanism operates, and more strongly: the embedding layer is the highest-null LM layer for 6/8 LMs, at null 0.09–0.14 vs 0.01–0.03 at mid depth.
+  - Biased CKA has raw Tr 0.43 → −0.09.
+  - The "loss" label for debiased CKA under l2 (Tr 0.34) is not a calibration effect: its raw layer-max trend is already 0.34.
+- The leave-layers-out analysis is post hoc, as is the level-vs-multiplicity split.
+- The full 204-pair numeric replication of ARH Table 2 (± 0.05) remains Stage 3.

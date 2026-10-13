@@ -1,0 +1,52 @@
+cff-version: 1.2.0
+message: "If you use this code or these results, please cite the paper given under preferred-citation."
+type: software
+title: "LRH: Lattice Representation Hypothesis"
+abstract: >-
+  Code, frozen preregistrations, and result summaries for the paper
+  "From Plato to Aristotle: Toward a General Theory of Representation Hypotheses".
+authors:
+  - given-names: Dai
+    family-names: Shi
+    affiliation: University of Cambridge
+  - given-names: Andi
+    family-names: Han
+    affiliation: University of Sydney
+  - given-names: Xiaoyu
+    family-names: Li
+    affiliation: University of New South Wales
+  - given-names: Luke
+    family-names: Thompson
+    affiliation: University of Sydney
+  - given-names: José Miguel
+    family-names: Hernández-Lobato
+    affiliation: University of Cambridge
+license: MIT
+repository-code: "https://github.com/EEthanShi/LRH"
+keywords:
+  - representation learning
+  - representation similarity
+  - platonic representation hypothesis
+  - CKA
+  - preregistration
+preferred-citation:
+  type: article
+  title: "From Plato to Aristotle: Toward a General Theory of Representation Hypotheses"
+  authors:
+    - given-names: Dai
+      family-names: Shi
+      affiliation: University of Cambridge
+    - given-names: Andi
+      family-names: Han
+      affiliation: University of Sydney
+    - given-names: Xiaoyu
+      family-names: Li
+      affiliation: University of New South Wales
+    - given-names: Luke
+      family-names: Thompson
+      affiliation: University of Sydney
+    - given-names: José Miguel
+      family-names: Hernández-Lobato
+      affiliation: University of Cambridge
+  year: 2026
+  status: in-preparation

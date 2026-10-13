@@ -1,0 +1,4512 @@
+{
+ "figure": {
+  "id": "F_aggregation_app",
+  "label": "fig:app-aggregation",
+  "tex_include": "figures/exp_v8/F_aggregation_app.pdf",
+  "size_in": [
+   5.5,
+   4.458
+  ],
+  "min_text_pt": 7.5,
+  "min_glyph_pt": 7.0,
+  "n_type3": 0,
+  "check": {
+   "style": "hrh_style_v8",
+   "style_sha256": "fe994067dfefba8c0fe34309a67609e85f82288f0f785e69d2bef98e33fc79a8",
+   "size_in": [
+    5.5,
+    4.458
+   ],
+   "min_text_pt": 7.5,
+   "min_glyph_pt": 7.0,
+   "pdf_glyph_size_counts": {
+    "7": 2,
+    "7.5": 57,
+    "8": 11,
+    "10": 9
+   },
+   "smallest_layout_glyphs": {
+    "$c_\\alpha\\;\\approx\\;$largest baseline": 7.0,
+    "$s_{\\rm cal}$": 7.0,
+    "\u22121": 7.5,
+    "0": 7.5,
+    "1": 7.5,
+    "observed max": 7.5
+   },
+   "mathtext_shrink_factor": 0.875,
+   "n_type3": 0,
+   "fonts": [
+    "BURTDQ+Cmmi10 (CID TrueType, emb yes)",
+    "GUHCRK+Cmr10 (CID TrueType, emb yes)",
+    "FHEOIK+LiberationSerif-Bold (CID TrueType, emb yes)",
+    "BHHYYM+LiberationSerif-BoldItalic (CID TrueType, emb yes)",
+    "BBTBGH+LiberationSerif (CID TrueType, emb yes)"
+   ],
+   "low_contrast_text": [],
+   "n_tick_labels_checked": 36,
+   "n_axis_titles_checked": 0,
+   "not_bold_tick_or_axis_labels": [],
+   "bold_text_with_regular_math": [],
+   "data_colours": [
+    "#0077BB",
+    "#222222",
+    "#332288",
+    "#4F3C96",
+    "#5A5A1E",
+    "#6956A5",
+    "#707070",
+    "#797930",
+    "#8172B4",
+    "#882255",
+    "#8CC2E0",
+    "#988DC2",
+    "#999842",
+    "#A35579",
+    "#BC849F",
+    "#CC3311",
+    "#DDDDDD",
+    "#E8A394",
+    "#EE3377",
+    "#F4D2CB",
+    "#F7A3C2",
+    "#FFFFFF"
+   ],
+   "chromatic_data_colours": [
+    "#0077BB",
+    "#332288",
+    "#4F3C96",
+    "#5A5A1E",
+    "#6956A5",
+    "#797930",
+    "#8172B4",
+    "#882255",
+    "#8CC2E0",
+    "#988DC2",
+    "#999842",
+    "#A35579",
+    "#BC849F",
+    "#CC3311",
+    "#E8A394",
+    "#EE3377",
+    "#F7A3C2"
+   ],
+   "off_palette_colours": [
+    "#4F3C96",
+    "#6956A5",
+    "#797930",
+    "#8172B4",
+    "#988DC2",
+    "#999842",
+    "#A35579",
+    "#BC849F"
+   ]
+  },
+  "text_overlaps": [],
+  "text_outside_figure": [],
+  "pdf_sha256": "afc2fa4897e2967eae87367613c0a0d4105c557e6558a6a4392509e654cd629a",
+  "png_sha256": "05e476a3b7f140d38e6d9596b29e363bae75200bad659d6e45859f5f56cfadc5",
+  "script_sha256": "ed0fec279a4e8557335c6c9387fb086ad9a527e23d19bef30034ff88d9379f0e",
+  "ol_data_sha256": "e1272e92ad0e4d14de66d24def37b404f08ad2c173adf09f53b14012804323f5",
+  "f1_data_sha256": "4053e6041792db7c33ad5213b63bf6aa3b44ae234b795e19b2dccba071940164",
+  "f1_llama_data_sha256": "1543df4415757043bc9e60ff662aab585e9bedadc82cf6cef520bf4d7b65a87f",
+  "style_sha256": "fe994067dfefba8c0fe34309a67609e85f82288f0f785e69d2bef98e33fc79a8",
+  "style_version": "v8",
+  "version": "v8 (hrh_style_v8, Tol palette, bold ticks; layout of Figure 4 v7 with six score rows; no status lines, tags, endpoint numbers, p note or relabelling bands; v5.1 data unchanged)",
+  "revision_v8": [
+   "style hrh_style_v8 (Tol): CKA #CC3311, mKNN #0077BB, debiased CKA #EE3377 (v5.1 #D55E00, #0072B2, #CC79A7); tick labels, axis titles, score names and shared axis labels bold (S.finalize)",
+   "layout of Figure 4 v7: gutter 1.00 -> 0.42 in, columns 1.36 -> 1.637 in, figure 5.12 -> FIG_H in; score names one line from the figure edge, running into the empty left part of (a); key one line across the top",
+   "not drawn any more: status lines under the family names, 'expl.' and '(expl.)', 'post hoc' tags in (d) and (g), the six endpoint numbers of row 1, '(b, c) exact one-sided p >= 1/6', the grey relabelling bands of (a) and their key entry; every value stays in numbers.json",
+   "labels: 'c_alpha ~ largest baseline' in (d) beside the squares (v6: two-line label with leader in (e)); 'selected pair' in (e) (v6: 'threshold of the selected pair' in (d)); one 'largest baseline' leader in (g) (v6: one per panel); 'depths of observed max' in (h) (v6: (g)); y label 'baseline' (v6: 'random-pairing baseline')",
+   "row 2 keeps one continuous CKA axis from 0 with ticks 0, 0.25, 0.5 (v6: 0 to 0.5 every 0.1)",
+   "outputs: staged PNG = pdftoppm 200 dpi render of the PDF; 100 dpi print view; CVD and greyscale views",
+   "critic-v8: encodings of Figure 4 v8: c_alpha squares (d-f) and peak squares (g-i) INK -> CKA #CC3311; largest baseline from features grey solid -> INK dashed (theory, LW theory); threshold of the selected pair INK dotted -> NULL_LINE dotted with a MUTED regular 'selected pair' label",
+   "critic-v8: family names over (a)-(c) removed (author rule 1; Figure 4 v8 likewise); the caption names the columns",
+   "family-names pass (2026-10-10): family names drawn again after the letters (a)-(c), bold, in S.FAM_TEXT (SHOW_FAMILY_HEADERS = True; author: the names identify the columns); caption sentence 'Columns show BLOOMZ, LLaMA-1, and OpenLLaMA.' removed; size, data and every other mark unchanged"
+  ],
+  "row1_name_geometry": {
+   "cka_biased|full": {
+    "text": "CKA, layer max",
+    "x_in": [
+     0.02,
+     0.758
+    ],
+    "guide_starts_at_Tr": -0.5895,
+    "gap_to_nearest_mark_or_zero_line_pt": 12.83
+   },
+   "cka_biased|ctm": {
+    "text": "CKA, calibrate then max",
+    "x_in": [
+     0.02,
+     1.153
+    ],
+    "guide_starts_at_Tr": -0.0582,
+    "gap_to_nearest_mark_or_zero_line_pt": 5.72
+   },
+   "cka_biased|fixed_r1.0": {
+    "text": "CKA, last layer",
+    "x_in": [
+     0.02,
+     0.72
+    ],
+    "guide_starts_at_Tr": -0.6407,
+    "gap_to_nearest_mark_or_zero_line_pt": 36.92
+   },
+   "cka_biased|fixed_r0.5": {
+    "text": "CKA, mid depth",
+    "x_in": [
+     0.02,
+     0.773
+    ],
+    "guide_starts_at_Tr": -0.569,
+    "gap_to_nearest_mark_or_zero_line_pt": 33.08
+   },
+   "mknn|full": {
+    "text": "mKNN, layer max",
+    "x_in": [
+     0.02,
+     0.845
+    ],
+    "guide_starts_at_Tr": -0.473,
+    "gap_to_nearest_mark_or_zero_line_pt": 27.94
+   },
+   "cka_debiased|full": {
+    "text": "debiased CKA, layer max",
+    "x_in": [
+     0.02,
+     1.178
+    ],
+    "guide_starts_at_Tr": -0.0249,
+    "gap_to_nearest_mark_or_zero_line_pt": 3.94
+   }
+  },
+  "key_line_items": [
+   "raw",
+   "after subtraction",
+   "$s_{\\rm cal}$",
+   "95% interval"
+  ],
+  "key_line_right_in": 2.542,
+  "finalize_texts_changed": 102,
+  "revision_v6_2": [
+   "BLOOMZ largest baseline from features drawn solid as in the other families and in Figure 3 v6.1; post hoc status as MUTED 'post hoc' tags in (d) and (g)",
+   "threshold of the selected pair: dotted INK line without open circles, as in Figure 3 v6.1 (an INK open circle means 'raw' in the row-1 key)",
+   "(g) 'depths of observed max' on two lines, so the 'post hoc' tag fits top left",
+   "caption: grey line solid everywhere, tag named; diagnostics 'squares_over_circles' and row2_se 'selse' describe the v6.1 circles, kept for the record"
+  ],
+  "revision_v6_1": [
+   "key: fourth line '95% interval' (CKA tint swatch, as Figure 3 v6); figure 5.00 -> 5.12 in",
+   "(e): one direct label 'threshold c_alpha ~ largest baseline from features' with a leader to the 13B square; replaces 'largest baseline from features' (e) and 'threshold c_alpha' (f)",
+   "(d-f): threshold of the selected pair in INK (Figure 3 v6); label 'threshold of the selected pair'",
+   "(g-i): INK square on the peak of each size (Figure 3 v6); 'largest baseline' leader ends off the square of the largest size",
+   "caption: encodings defined (dot = after subtraction of the permutation mean; squares; grey line dashed/solid; dotted line); no result numbers"
+  ],
+  "v5_1_source": {
+   "script": {
+    "path": "~/hrh_v2_figs/v5/F_aggregation_app/make_F_aggregation_app.py",
+    "sha256": "0cd051c168fb061a79d3c6e92b9f26a7250fcf95abf4c7d3ce4ab39c06b847d5"
+   },
+   "pdf": {
+    "path": "~/hrh_v2_figs/v5/F_aggregation_app/F_aggregation_app.pdf",
+    "sha256": "f83e6f5a3b690a370395bb74d379cfe9e16f9d702a4aa1c7e0131584d54a5586"
+   },
+   "png": {
+    "path": "~/hrh_v2_figs/v5/F_aggregation_app/F_aggregation_app.png",
+    "sha256": "40901a10bd40bb91b0feec571f7484f605490fd4f78dd2d078025bd58416431a"
+   },
+   "numbers": {
+    "path": "~/hrh_v2_figs/v5/F_aggregation_app/numbers.json",
+    "sha256": "0ac3ea4c24403fd59f816226a3fcfc35433b8071879993d90a490d42d289549c"
+   },
+   "ol_data": {
+    "path": "~/hrh_v2_figs/v5/F_aggregation_app/ol_data.py",
+    "sha256": "e1272e92ad0e4d14de66d24def37b404f08ad2c173adf09f53b14012804323f5"
+   }
+  },
+  "staged_to": "build/figs_v8_staging/F_aggregation_app/",
+  "consistency_v5": "v5.2: (a-c) Tr axes without minor ticks, as Figure 3 (a-c)",
+  "revision_v5_3": "c_alpha squares above the selected-pair circles in (d-f); key band swatch outlined as in Figure 4 (a) and F.5 (a); caption names the selected pair, the LLaMA-1 30B gap and the mKNN baseline of (g-i)",
+  "style_spec": "build/figs_v5_staging/_research/STYLE_V5_SPEC.md, section 5 'Figure F.3'",
+  "v4_source": "~/hrh_v2_figs/v4/F_aggregation_app/ (untouched)",
+  "v5_elements": {
+   "trend_rows": {
+    "ci_bar_lw": 3.6,
+    "ci_tint": {
+     "cka": "#e8a394",
+     "mknn": "#8cc2e0",
+     "ckad": "#f7a3c2"
+    },
+    "connector_lw": 1.2,
+    "raw_ring": [
+     5.5,
+     1.3
+    ],
+    "after_dot": [
+     4.6,
+     0.5
+    ],
+    "s_cal_tick": [
+     8.5,
+     1.4
+    ],
+    "zero_lw": 0.8,
+    "guide": [
+     "#DDDDDD",
+     0.6
+    ],
+    "band": "v8: not drawn (v6: NULL_FILL boxes over the one-sided 5% critical values in (a), with an outlined key swatch)"
+   },
+   "level_panels": {
+    "observed_max": [
+     1.5,
+     4.8,
+     1.1
+    ],
+    "largest_baseline": [
+     1.6,
+     "#222222",
+     "dashed (critic-v8, theory, as Figure 4 v8; v8 maker and v6.2: 1.5 pt NULL_LINE solid)"
+    ],
+    "c_alpha_square": [
+     4.0,
+     0.6,
+     "#CC3311",
+     "critic-v8 CKA red (v8 maker INK)"
+    ],
+    "selected_pair": [
+     1.0,
+     "dotted",
+     "#707070",
+     "critic-v8: NULL_LINE reference as Figure 4 v8 (v8 maker and v6.2 INK; v6.2: no circles, v6.1 drew open circles 3.0 pt; v5.1 NULL_LINE)"
+    ],
+    "layering": "v5.3: c_alpha squares (Z data + 0.6) above the selected-pair circles (Z data + 0.5); v2-v5.2 had the circles on top",
+    "squares_over_circles": {
+     "bloomz": [
+      {
+       "size": "0.56B",
+       "c_alpha_minus_sel": 0.0264,
+       "centre_gap_pt": 3.61,
+       "circle_height_hidden_pt": 0.64,
+       "circle_height_visible_pt": 3.26
+      },
+      {
+       "size": "1.1B",
+       "c_alpha_minus_sel": 0.023,
+       "centre_gap_pt": 3.14,
+       "circle_height_hidden_pt": 1.11,
+       "circle_height_visible_pt": 2.79
+      },
+      {
+       "size": "1.7B",
+       "c_alpha_minus_sel": 0.0743,
+       "centre_gap_pt": 10.17,
+       "circle_height_hidden_pt": 0.0,
+       "circle_height_visible_pt": 3.9
+      },
+      {
+       "size": "3B",
+       "c_alpha_minus_sel": 0.0735,
+       "centre_gap_pt": 10.06,
+       "circle_height_hidden_pt": 0.0,
+       "circle_height_visible_pt": 3.9
+      },
+      {
+       "size": "7.1B",
+       "c_alpha_minus_sel": 0.0625,
+       "centre_gap_pt": 8.55,
+       "circle_height_hidden_pt": 0.0,
+       "circle_height_visible_pt": 3.9
+      }
+     ],
+     "llama1": [
+      {
+       "size": "7B",
+       "c_alpha_minus_sel": 0.0169,
+       "centre_gap_pt": 2.31,
+       "circle_height_hidden_pt": 1.94,
+       "circle_height_visible_pt": 1.96
+      },
+      {
+       "size": "13B",
+       "c_alpha_minus_sel": 0.0117,
+       "centre_gap_pt": 1.61,
+       "circle_height_hidden_pt": 2.64,
+       "circle_height_visible_pt": 1.26
+      },
+      {
+       "size": "30B",
+       "c_alpha_minus_sel": 0.0043,
+       "centre_gap_pt": 0.59,
+       "circle_height_hidden_pt": 3.66,
+       "circle_height_visible_pt": 0.24
+      }
+     ],
+     "openllama": [
+      {
+       "size": "3B",
+       "c_alpha_minus_sel": 0.02,
+       "centre_gap_pt": 2.74,
+       "circle_height_hidden_pt": 1.51,
+       "circle_height_visible_pt": 2.39
+      },
+      {
+       "size": "7B",
+       "c_alpha_minus_sel": 0.0232,
+       "centre_gap_pt": 3.17,
+       "circle_height_hidden_pt": 1.08,
+       "circle_height_visible_pt": 2.82
+      },
+      {
+       "size": "13B",
+       "c_alpha_minus_sel": 0.0162,
+       "centre_gap_pt": 2.21,
+       "circle_height_hidden_pt": 2.04,
+       "circle_height_visible_pt": 1.86
+      }
+     ]
+    },
+    "error_bars": "not drawn (v5.1); s.e. kept in row2_thresholds, the largest in the Results text (v6; v5.1 put it in the caption) (row2_se)",
+    "leader_lw": 0.7,
+    "leader_gap_pt": 1.2,
+    "leaders_shrinkB_and_length_pt": {
+     "row3 bloomz": [
+      3.58,
+      18.49
+     ],
+     "row3 shading label (h)": {
+      "xy": [
+       0.8625,
+       0.262
+      ],
+      "band": [
+       0.75,
+       0.975
+      ],
+      "length_pt": 16.18
+     }
+    },
+    "threshold_of_selected_pair_label": "v8: 'selected pair' in (e), no leader, under the dotted line",
+    "label_clearance_from_marks_pt": {
+     "(d) observed max": 2.11,
+     "(d) c_alpha ~ largest baseline": 3.01,
+     "(e) selected pair": 5.11,
+     "(g) largest baseline": 11.21,
+     "(g) mKNN": 1.41,
+     "(h) depths of observed max": 1.76
+    }
+   },
+   "profile_panels": {
+    "line_lw": 1.2,
+    "largest_size_lw": 1.6,
+    "dot": [
+     2.4,
+     0.3
+    ],
+    "mknn_baseline_lw": 1.5,
+    "shading": "#f4d2cb",
+    "peak_squares": [
+     4.0,
+     0.6,
+     "#CC3311",
+     "v6.1; critic-v8 CKA red (v8 maker INK)"
+    ],
+    "peak_square_gaps_pt": {
+     "bloomz": {
+      "0.56B-1.1B": 111.17,
+      "0.56B-1.7B": 9.06,
+      "0.56B-3B": 9.48,
+      "0.56B-7.1B": 10.26,
+      "1.1B-1.7B": 111.62,
+      "1.1B-3B": 111.66,
+      "1.1B-7.1B": 107.98,
+      "1.7B-3B": 0.42,
+      "1.7B-7.1B": 3.74,
+      "3B-7.1B": 3.71
+     },
+     "llama1": {
+      "7B-13B": 4.44,
+      "7B-30B": 10.63,
+      "13B-30B": 6.39
+     },
+     "openllama": {
+      "3B-7B": 3.38,
+      "3B-13B": 4.6,
+      "7B-13B": 2.73
+     }
+    }
+   },
+   "text": {
+    "letters_pt": 10.0,
+    "bold_roles": "family headers, endpoint numbers, direct labels (observed max, threshold of the selected pair, threshold c_alpha ~ largest baseline from features, mKNN, largest baseline)",
+    "regular_roles": "axis and tick labels, row labels, status lines, key entries, 'expl.', p note, 'depths of observed max'"
+   }
+  },
+  "size_ramps": {
+   "bloomz": {
+    "colours": [
+     "#988dc2",
+     "#8172b4",
+     "#6956a5",
+     "#4f3c96",
+     "#332288"
+    ],
+    "contrast_on_white": [
+     3.03,
+     4.2,
+     6.04,
+     8.68,
+     12.17
+    ],
+    "adjacent_dE76": [
+     12.9,
+     13.7,
+     13.0,
+     13.4
+    ]
+   },
+   "llama1": {
+    "colours": [
+     "#bc849f",
+     "#a35579",
+     "#882255"
+    ],
+    "contrast_on_white": [
+     3.03,
+     5.08,
+     8.73
+    ],
+    "adjacent_dE76": [
+     18.4,
+     18.0
+    ]
+   },
+   "openllama": {
+    "colours": [
+     "#999842",
+     "#797930",
+     "#5A5A1E"
+    ],
+    "contrast_on_white": [
+     3.03,
+     4.57,
+     7.2
+    ],
+    "adjacent_dE76": [
+     13.1,
+     13.6
+    ]
+   }
+  },
+  "size_ramp_rule_v8c": "v8 c: the ramps of Figure 4 v8 (ramp_3to1: S.FAM_RAMP light end darkened to >= 3.0:1 along its CIELAB path, even L* steps), asserted equal to ~/hrh_v2_figs/v8/F_aggregation/numbers.json; critic-v8 and before: the rule below",
+  "size_ramp_rule": "S.FAM_RAMP of hrh_style_v5: even CIELAB L* steps, light = small, lightest >= 2.6:1 on white; the largest size's prediction line at S.LW['profile_emph'] and drawn on top",
+  "connector_rule": "connector raw -> after subtraction in every row (no arrowheads, 1.2 pt), as in Figure 3; s_cal tick 8.5 pt tall with edge 1.4 pt, drawn above both circles",
+  "headers": {
+   "bloomz": "5 sizes, replication",
+   "llama1": "3 sizes, predictions frozen",
+   "openllama": "3 sizes, descriptive"
+  },
+  "status": {
+   "bloomz": "panel (a): replication with reading rules fixed in a frozen plan (tab:exp-verdicts row 'WIT, layer max'); calibrate-then-max and debiased CKA rows EXPLORATORY; panels (d) and (g) post hoc readings of the frozen run; tagged 'post hoc' in (d) and (g) (v6.2)",
+   "llama1": "Part B predictions frozen from features before any cross-model score",
+   "openllama": "every outcome descriptive (plan R.1.2); B-bar frozen before any 13B score"
+  },
+  "x_ticks_row2": "log scale; tick labels are the nominal model names placed at the actual parameter counts (x_params_B)",
+  "ci_note_row1": "opaque tinted bars (S.ci_color, 0.55 white; v4 drew them at alpha 0.35) = 95% bootstrap intervals over the 17 vision models (frozen CIs; BLOOMZ calibrate-then-max: recomputed, B = 4000, seed 20261009)",
+  "subscripts": "mathtext SHRINK_FACTOR 7/8 set by S.use(); texts with a subscript at 8 pt, so subscripts are 7.0 pt (checked from the PDF Tf operators by S.check)",
+  "row2_se": {
+   "max": 0.0176,
+   "max_by_family_and_series": {
+    "bloomz": {
+     "Tse": 0.013273763772957288,
+     "case": 0.013412145167152122,
+     "selse": 0.01219289592212496
+    },
+    "llama1": {
+     "Tse": 0.017628175191876753,
+     "case": 0.01612488798056094,
+     "selse": 0.01691235776126059
+    },
+    "openllama": {
+     "Tse": 0.016817904108196943,
+     "case": 0.013744841229961832,
+     "selse": 0.014100371510795183
+    }
+   },
+   "pt_per_cka_unit": 136.8,
+   "marker_outer_half_pt": {
+    "Tse": 2.95,
+    "case": 2.3,
+    "selse": 1.95
+   },
+   "note": "Tse = observed max (ring), case = c_alpha (square), selse = threshold of the selected pair (small ring); at 1.0 pt the bars hid behind the rings and almost every square, so v5.1 draws none"
+  },
+  "row3_dot_spacing": {
+   "outer_diameter_pt": 2.6999999999999997,
+   "pt_per_rel_depth": 111.17,
+   "by_model": {
+    "bigscience__bloomz-560m": {
+     "model": "BLOOMZ 0.56B",
+     "n_layers": 25,
+     "spacing_pt": 4.63,
+     "overlap": false
+    },
+    "bigscience__bloomz-1b1": {
+     "model": "BLOOMZ 1.1B",
+     "n_layers": 25,
+     "spacing_pt": 4.63,
+     "overlap": false
+    },
+    "bigscience__bloomz-1b7": {
+     "model": "BLOOMZ 1.7B",
+     "n_layers": 25,
+     "spacing_pt": 4.63,
+     "overlap": false
+    },
+    "bigscience__bloomz-3b": {
+     "model": "BLOOMZ 3B",
+     "n_layers": 31,
+     "spacing_pt": 3.71,
+     "overlap": false
+    },
+    "bigscience__bloomz-7b1": {
+     "model": "BLOOMZ 7.1B",
+     "n_layers": 31,
+     "spacing_pt": 3.71,
+     "overlap": false
+    },
+    "huggyllama__llama-7b": {
+     "model": "LLaMA-1 7B",
+     "n_layers": 33,
+     "spacing_pt": 3.47,
+     "overlap": false
+    },
+    "huggyllama__llama-13b": {
+     "model": "LLaMA-1 13B",
+     "n_layers": 41,
+     "spacing_pt": 2.78,
+     "overlap": false
+    },
+    "huggyllama__llama-30b": {
+     "model": "LLaMA-1 30B",
+     "n_layers": 61,
+     "spacing_pt": 1.85,
+     "overlap": true
+    },
+    "openlm-research__open_llama_3b": {
+     "model": "OpenLLaMA 3B",
+     "n_layers": 27,
+     "spacing_pt": 4.28,
+     "overlap": false
+    },
+    "openlm-research__open_llama_7b": {
+     "model": "OpenLLaMA 7B",
+     "n_layers": 33,
+     "spacing_pt": 3.47,
+     "overlap": false
+    },
+    "openlm-research__open_llama_13b": {
+     "model": "OpenLLaMA 13B",
+     "n_layers": 41,
+     "spacing_pt": 2.78,
+     "overlap": false
+    }
+   }
+  },
+  "known_limits": [
+   "row 3: the permutation-mean dots (2.4 pt with a 0.3 pt white edge, the module size; v4 drew 1.9 pt for BLOOMZ and 1.7 pt for the others) overlap on the models with 41 or more layers (LLaMA-1 13B, LLaMA-1 30B, OpenLLaMA 13B), whose neighbouring dots are 1.9-2.8 pt apart, and there cover the proposition lines (relative error <= 4.4e-4) except on steep stretches; on the 33-layer models (LLaMA-1 7B, OpenLLaMA 7B) the dots are 3.5 pt apart and nearly touch; the BLOOMZ lines (25 and 31 layers) stay visible between the dots",
+   "row 2: at LLaMA-1 30B the threshold of the selected pair lies 0.0043 (0.59 pt) below c_alpha, so the c_alpha square covers its circle but for 0.24 pt; the Results text gives this gap (v6; v5.1: the caption)",
+   "row 3 (v6.1): peak squares of different sizes closer than one square (4.6 pt) overlap: bloomz 1.7B-3B 0.42 pt; bloomz 1.7B-7.1B 3.74 pt; bloomz 3B-7.1B 3.71 pt; llama1 7B-13B 4.44 pt; openllama 3B-7B 3.38 pt; openllama 7B-13B 2.73 pt; the squares stack, small sizes below"
+  ]
+ },
+ "inputs": {
+  "f1_data:panel_layermax": {
+   "path": "~/hrh_v2_stage1_20261008/results/S1_2_layermax/panel_layermax.parquet",
+   "sha256": "58c941e02dba51543fa222a54f8664802b2697d776f97dea307e95a328869eca"
+  },
+  "f1_data:diag_null_profile": {
+   "path": "~/hrh_v2_stage1_20261008/results/S1_2_layermax/indep/diag_null_profile.json",
+   "sha256": "efd30594dfa5eea69f8704bf4315e87bcf085f6269a71cf43e55ae5e3ed5a93f"
+  },
+  "f1_data:posthoc_null_structure": {
+   "path": "~/hrh_v2_stage1_20261008/results/S1_2_layermax/posthoc_null_structure.json",
+   "sha256": "947a25e9b3ffe6cca87fccaef5c2d956f227f55274c4eed12a01b1827792ec0f"
+  },
+  "f1_data:partB_retro_checks": {
+   "path": "~/hrh_v2_stage1_20261008/results/S1_2_layermax_llama/partB/partB_retro_checks.json",
+   "sha256": "1f599c362518aea66bb998f95877dc03ffbda88969c9779d93e9e35224520948"
+  },
+  "f1_data:layermax_summary": {
+   "path": "~/hrh_v2_stage1_20261008/results/S1_2_layermax/layermax_summary.json",
+   "sha256": "0dddd17a588dda2be47b19ec30b182f61f01dcfb5f791f237b39bf421d2c5613"
+  },
+  "f1_llama_data:E_summary": {
+   "path": "~/hrh_v2_stage1_20261008/results/S1_2_layermax_llama/early/summary.json",
+   "sha256": "cdbd3819ab82808c9779e10dd474fed0a2cb4c655fa45b4a4e42d0ba41d7d3b5"
+  },
+  "f1_llama_data:I_summary": {
+   "path": "~/hrh_v2_stage1_20261008/results/S1_2_layermax_llama/indep/summary.json",
+   "sha256": "5ee3ed87c7ed5db7fbcbc34d4505f49a191d0893221fc4d9d71364d5d521b695"
+  },
+  "f1_llama_data:review_verdicts": {
+   "path": "~/hrh_v2_stage1_20261008/results/S1_2_layermax_llama/review/recomputed_verdicts.json",
+   "sha256": "4ed53698aaf9ddd9861738f48c582c974c29a9df4a5e9ed44e4ce4d86b37dcfe"
+  },
+  "f1_llama_data:partB_features": {
+   "path": "~/hrh_v2_stage1_20261008/results/S1_2_layermax_llama/partB/partB_features.json",
+   "sha256": "ede0127589a02037427b343e9c3593ee427d430e9746d7f4942b15f76a3031bf"
+  },
+  "f1_llama_data:diag_null_profile": {
+   "path": "~/hrh_v2_stage1_20261008/results/S1_2_layermax/indep/diag_null_profile.json",
+   "sha256": "efd30594dfa5eea69f8704bf4315e87bcf085f6269a71cf43e55ae5e3ed5a93f"
+  },
+  "f1_llama_data:E_pairs_llama": {
+   "path": "~/hrh_v2_stage1_20261008/results/S1_2_layermax_llama/early/pairs/prh_clip+l2/",
+   "n_pairs": 51,
+   "sha256_of_member_sha256s": "8d5d7e94e5f16dddb847ba4c30d8f551ad63886e2328a73769be6619606e326c"
+  },
+  "ol_data:layermax_openllama_summary": {
+   "path": "~/hrh_v2_stage1_20261008/results/S1_2_layermax_openllama/layermax_openllama_summary.json",
+   "sha256": "2777dadf287dfc02433eb07e84cefad0ec67381258a199b9d306b6c7d32aebaa"
+  },
+  "ol_data:partB_features_ol": {
+   "path": "~/hrh_v2_stage1_20261008/results/S1_2_layermax_openllama/partB/partB_features_ol.json",
+   "sha256": "e1104bd71e5eff9ced65ed402a61c187590bce5dee306c25ee2f64b18fdd7e51"
+  },
+  "ol_data:E_pairs_openllama": {
+   "path": "~/hrh_v2_stage1_20261008/results/S1_2_layermax_openllama/early/pairs/prh_clip+l2/",
+   "n_pairs": 51,
+   "sha256_of_member_sha256s": "f316a45008d6eb11186a46d91ae262c5a982118f355479a135f25ee37c5b162e",
+   "sha256_note": "sha256 over the member (json, npz) sha256 hex strings, OL x vits order"
+  }
+ },
+ "vits": [
+  "vit_base_patch14_dinov2.lvd142m",
+  "vit_base_patch16_224.augreg_in21k",
+  "vit_base_patch16_224.mae",
+  "vit_base_patch16_clip_224.laion2b",
+  "vit_base_patch16_clip_224.laion2b_ft_in12k",
+  "vit_giant_patch14_dinov2.lvd142m",
+  "vit_huge_patch14_224.mae",
+  "vit_huge_patch14_clip_224.laion2b",
+  "vit_huge_patch14_clip_224.laion2b_ft_in12k",
+  "vit_large_patch14_clip_224.laion2b",
+  "vit_large_patch14_clip_224.laion2b_ft_in12k",
+  "vit_large_patch14_dinov2.lvd142m",
+  "vit_large_patch16_224.augreg_in21k",
+  "vit_large_patch16_224.mae",
+  "vit_small_patch14_dinov2.lvd142m",
+  "vit_small_patch16_224.augreg_in21k",
+  "vit_tiny_patch16_224.augreg_in21k"
+ ],
+ "row1_trends": {
+  "bloomz": {
+   "panel": "a",
+   "rows": {
+    "cka_biased|full": {
+     "label": "CKA, layer max",
+     "colour": "#CC3311",
+     "ci_tint": "#e8a394",
+     "raw": {
+      "Tr": 0.888235294117647,
+      "ci95": [
+       0.864705882352941,
+       0.8999999999999998
+      ],
+      "p_one_sided_exact": 0.041666666666666664,
+      "path": "~/hrh_v2_stage1_20261008/results/S1_2_layermax/layermax_summary.json",
+      "sha256": "0dddd17a588dda2be47b19ec30b182f61f01dcfb5f791f237b39bf421d2c5613",
+      "key": "per_pre/prh_clip+l2/trends/cka_biased/full|s_obs/tr_lm"
+     },
+     "after_subtraction": {
+      "Tr": -0.29411764705882354,
+      "ci95": [
+       -0.40588235294117636,
+       -0.18235294117647058
+      ],
+      "p_one_sided_exact": 0.6833333333333333,
+      "path": "~/hrh_v2_stage1_20261008/results/S1_2_layermax/layermax_summary.json",
+      "sha256": "0dddd17a588dda2be47b19ec30b182f61f01dcfb5f791f237b39bf421d2c5613",
+      "key": "per_pre/prh_clip+l2/trends/cka_biased/full|uncensored/tr_lm",
+      "band_5pct": [
+       -0.7999999999999999,
+       0.7999999999999999
+      ],
+      "band_note": "one-sided 5% critical values of the exact relabelling null (120 relabellings of the 5 sizes), recomputed from the per-pair scores (f1_data.trend_stats / f1_llama_data.trend)"
+     },
+     "s_cal": {
+      "Tr": -0.0235294117647059,
+      "ci95": [
+       -0.18823529411764706,
+       0.12352941176470586
+      ],
+      "p_one_sided_exact": 0.5083333333333333,
+      "path": "~/hrh_v2_stage1_20261008/results/S1_2_layermax/layermax_summary.json",
+      "sha256": "0dddd17a588dda2be47b19ec30b182f61f01dcfb5f791f237b39bf421d2c5613",
+      "key": "per_pre/prh_clip+l2/trends/cka_biased/full|s_cal/tr_lm"
+     },
+     "connector_visible_pt": 57.38,
+     "annotated": {
+      "raw": "0.89",
+      "after": "\u22120.29"
+     }
+    },
+    "cka_biased|ctm": {
+     "label": "CKA, calibrate then max",
+     "colour": "#CC3311",
+     "ci_tint": "#e8a394",
+     "raw": {
+      "Tr": 0.888235294117647,
+      "ci95": [
+       0.864705882352941,
+       0.8999999999999998
+      ],
+      "p_one_sided_exact": 0.041666666666666664,
+      "path": "~/hrh_v2_stage1_20261008/results/S1_2_layermax/layermax_summary.json",
+      "sha256": "0dddd17a588dda2be47b19ec30b182f61f01dcfb5f791f237b39bf421d2c5613",
+      "key": "per_pre/prh_clip+l2/trends/cka_biased/full|s_obs/tr_lm"
+     },
+     "after_subtraction": {
+      "Tr": 0.723529411764706,
+      "ci95": [
+       0.623529411764706,
+       0.811764705882353
+      ],
+      "p_one_sided_exact": 0.075,
+      "path": "~/hrh_v2_stage1_20261008/results/S1_2_layermax_llama/indep/summary.json",
+      "sha256": "5ee3ed87c7ed5db7fbcbc34d4505f49a191d0893221fc4d9d71364d5d521b695",
+      "key": "per_pre/prh_clip+l2/blocks/cka_b/ctm/bloomz_axis/uncensored (Tr, p_one); recomputed from S1_2_layermax/pairs/prh_clip+l2/<lm>__<vit>.npz entry arrays",
+      "ci_note": "no frozen CI; ViT bootstrap recomputed in f1_llama_data (B = 4000, seed 20261009)",
+      "band_5pct": [
+       -0.7823529411764706,
+       0.7823529411764706
+      ],
+      "band_note": "one-sided 5% critical values of the exact relabelling null (120 relabellings of the 5 sizes), recomputed from the per-pair scores (f1_data.trend_stats / f1_llama_data.trend)"
+     },
+     "s_cal": {
+      "Tr": 0.7999999999999999,
+      "ci95": [
+       0.711764705882353,
+       0.8764705882352941
+      ],
+      "p_one_sided_exact": 0.03333333333333333,
+      "path": "~/hrh_v2_stage1_20261008/results/S1_2_layermax_llama/indep/summary.json",
+      "sha256": "5ee3ed87c7ed5db7fbcbc34d4505f49a191d0893221fc4d9d71364d5d521b695",
+      "key": "per_pre/prh_clip+l2/blocks/cka_b/ctm/bloomz_axis/s_cal (Tr, p_one); recomputed from entry arrays",
+      "ci_note": "no frozen CI; ViT bootstrap recomputed in f1_llama_data (B = 4000, seed 20261009)"
+     },
+     "connector_visible_pt": 2.87
+    },
+    "cka_biased|fixed_r1.0": {
+     "label": "CKA, last layer",
+     "colour": "#CC3311",
+     "ci_tint": "#e8a394",
+     "raw": {
+      "Tr": 0.7647058823529412,
+      "ci95": [
+       0.7,
+       0.8176470588235293
+      ],
+      "p_one_sided_exact": 0.06666666666666667,
+      "path": "~/hrh_v2_stage1_20261008/results/S1_2_layermax/layermax_summary.json",
+      "sha256": "0dddd17a588dda2be47b19ec30b182f61f01dcfb5f791f237b39bf421d2c5613",
+      "key": "per_pre/prh_clip+l2/trends/cka_biased/fixed_r1.0|s_obs/tr_lm"
+     },
+     "after_subtraction": {
+      "Tr": 0.9235294117647059,
+      "ci95": [
+       0.9058823529411762,
+       0.9470588235294114
+      ],
+      "p_one_sided_exact": 0.016666666666666666,
+      "path": "~/hrh_v2_stage1_20261008/results/S1_2_layermax/layermax_summary.json",
+      "sha256": "0dddd17a588dda2be47b19ec30b182f61f01dcfb5f791f237b39bf421d2c5613",
+      "key": "per_pre/prh_clip+l2/trends/cka_biased/fixed_r1.0|uncensored/tr_lm",
+      "band_5pct": [
+       -0.823529411764706,
+       0.823529411764706
+      ],
+      "band_note": "one-sided 5% critical values of the exact relabelling null (120 relabellings of the 5 sizes), recomputed from the per-pair scores (f1_data.trend_stats / f1_llama_data.trend)"
+     },
+     "s_cal": {
+      "Tr": 0.9176470588235295,
+      "ci95": [
+       0.8941176470588234,
+       0.9411764705882351
+      ],
+      "p_one_sided_exact": 0.016666666666666666,
+      "path": "~/hrh_v2_stage1_20261008/results/S1_2_layermax/layermax_summary.json",
+      "sha256": "0dddd17a588dda2be47b19ec30b182f61f01dcfb5f791f237b39bf421d2c5613",
+      "key": "per_pre/prh_clip+l2/trends/cka_biased/fixed_r1.0|s_cal/tr_lm"
+     },
+     "connector_visible_pt": 2.56
+    },
+    "cka_biased|fixed_r0.5": {
+     "label": "CKA, mid depth",
+     "colour": "#CC3311",
+     "ci_tint": "#e8a394",
+     "raw": {
+      "Tr": 0.876470588235294,
+      "ci95": [
+       0.8411764705882351,
+       0.8999999999999998
+      ],
+      "p_one_sided_exact": 0.041666666666666664,
+      "path": "~/hrh_v2_stage1_20261008/results/S1_2_layermax/layermax_summary.json",
+      "sha256": "0dddd17a588dda2be47b19ec30b182f61f01dcfb5f791f237b39bf421d2c5613",
+      "key": "per_pre/prh_clip+l2/trends/cka_biased/fixed_r0.5|s_obs/tr_lm"
+     },
+     "after_subtraction": {
+      "Tr": 0.6941176470588236,
+      "ci95": [
+       0.6823529411764704,
+       0.6999999999999998
+      ],
+      "p_one_sided_exact": 0.1,
+      "path": "~/hrh_v2_stage1_20261008/results/S1_2_layermax/layermax_summary.json",
+      "sha256": "0dddd17a588dda2be47b19ec30b182f61f01dcfb5f791f237b39bf421d2c5613",
+      "key": "per_pre/prh_clip+l2/trends/cka_biased/fixed_r0.5|uncensored/tr_lm",
+      "band_5pct": [
+       -0.8058823529411765,
+       0.8058823529411765
+      ],
+      "band_note": "one-sided 5% critical values of the exact relabelling null (120 relabellings of the 5 sizes), recomputed from the per-pair scores (f1_data.trend_stats / f1_llama_data.trend)"
+     },
+     "s_cal": {
+      "Tr": 0.7000000000000001,
+      "ci95": [
+       0.6999999999999998,
+       0.6999999999999998
+      ],
+      "p_one_sided_exact": 0.11666666666666667,
+      "path": "~/hrh_v2_stage1_20261008/results/S1_2_layermax/layermax_summary.json",
+      "sha256": "0dddd17a588dda2be47b19ec30b182f61f01dcfb5f791f237b39bf421d2c5613",
+      "key": "per_pre/prh_clip+l2/trends/cka_biased/fixed_r0.5|s_cal/tr_lm"
+     },
+     "connector_visible_pt": 3.82
+    },
+    "mknn|full": {
+     "label": "mKNN, layer max",
+     "colour": "#0077BB",
+     "ci_tint": "#8cc2e0",
+     "raw": {
+      "Tr": 1.0,
+      "ci95": [
+       0.9999999999999998,
+       0.9999999999999998
+      ],
+      "p_one_sided_exact": 0.008333333333333333,
+      "path": "~/hrh_v2_stage1_20261008/results/S1_2_layermax/layermax_summary.json",
+      "sha256": "0dddd17a588dda2be47b19ec30b182f61f01dcfb5f791f237b39bf421d2c5613",
+      "key": "per_pre/prh_clip+l2/trends/mknn/full|s_obs/tr_lm"
+     },
+     "after_subtraction": {
+      "Tr": 0.9941176470588234,
+      "ci95": [
+       0.9823529411764703,
+       0.9999999999999998
+      ],
+      "p_one_sided_exact": 0.008333333333333333,
+      "path": "~/hrh_v2_stage1_20261008/results/S1_2_layermax/layermax_summary.json",
+      "sha256": "0dddd17a588dda2be47b19ec30b182f61f01dcfb5f791f237b39bf421d2c5613",
+      "key": "per_pre/prh_clip+l2/trends/mknn/full|uncensored/tr_lm",
+      "band_5pct": [
+       -0.8058823529411765,
+       0.8058823529411765
+      ],
+      "band_note": "one-sided 5% critical values of the exact relabelling null (120 relabellings of the 5 sizes), recomputed from the per-pair scores (f1_data.trend_stats / f1_llama_data.trend)"
+     },
+     "s_cal": {
+      "Tr": 1.0,
+      "ci95": [
+       0.9999999999999998,
+       0.9999999999999998
+      ],
+      "p_one_sided_exact": 0.008333333333333333,
+      "path": "~/hrh_v2_stage1_20261008/results/S1_2_layermax/layermax_summary.json",
+      "sha256": "0dddd17a588dda2be47b19ec30b182f61f01dcfb5f791f237b39bf421d2c5613",
+      "key": "per_pre/prh_clip+l2/trends/mknn/full|s_cal/tr_lm"
+     },
+     "connector_visible_pt": 0.0
+    },
+    "cka_debiased|full": {
+     "label": "debiased CKA, layer max",
+     "colour": "#EE3377",
+     "ci_tint": "#f7a3c2",
+     "raw": {
+      "Tr": 0.8294117647058824,
+      "ci95": [
+       0.7823529411764705,
+       0.8764705882352939
+      ],
+      "p_one_sided_exact": 0.05,
+      "path": "~/hrh_v2_stage1_20261008/results/S1_2_layermax/layermax_summary.json",
+      "sha256": "0dddd17a588dda2be47b19ec30b182f61f01dcfb5f791f237b39bf421d2c5613",
+      "key": "per_pre/prh_clip+l2/trends/cka_debiased/full|s_obs/tr_lm"
+     },
+     "after_subtraction": {
+      "Tr": 0.8352941176470587,
+      "ci95": [
+       0.7823529411764705,
+       0.8823529411764703
+      ],
+      "p_one_sided_exact": 0.03333333333333333,
+      "path": "~/hrh_v2_stage1_20261008/results/S1_2_layermax/layermax_summary.json",
+      "sha256": "0dddd17a588dda2be47b19ec30b182f61f01dcfb5f791f237b39bf421d2c5613",
+      "key": "per_pre/prh_clip+l2/trends/cka_debiased/full|uncensored/tr_lm",
+      "band_5pct": [
+       -0.8176470588235295,
+       0.8176470588235295
+      ],
+      "band_note": "one-sided 5% critical values of the exact relabelling null (120 relabellings of the 5 sizes), recomputed from the per-pair scores (f1_data.trend_stats / f1_llama_data.trend)"
+     },
+     "s_cal": {
+      "Tr": 0.8352941176470587,
+      "ci95": [
+       0.7823529411764705,
+       0.8823529411764703
+      ],
+      "p_one_sided_exact": 0.03333333333333333,
+      "path": "~/hrh_v2_stage1_20261008/results/S1_2_layermax/layermax_summary.json",
+      "sha256": "0dddd17a588dda2be47b19ec30b182f61f01dcfb5f791f237b39bf421d2c5613",
+      "key": "per_pre/prh_clip+l2/trends/cka_debiased/full|s_cal/tr_lm"
+     },
+     "connector_visible_pt": 0.0
+    }
+   },
+   "band": "v8: not drawn; band_5pct values kept under after_subtraction (v6: grey 5% relabelling band drawn)"
+  },
+  "llama1": {
+   "panel": "b",
+   "rows": {
+    "cka_biased|full": {
+     "label": "CKA, layer max",
+     "colour": "#CC3311",
+     "ci_tint": "#e8a394",
+     "raw": {
+      "Tr": 0.6764705882352939,
+      "ci95": [
+       0.3235294117647058,
+       0.9411764705882351
+      ],
+      "p_one_sided_exact": 0.16666666666666666,
+      "path": "~/hrh_v2_stage1_20261008/results/S1_2_layermax_llama/early/summary.json",
+      "sha256": "cdbd3819ab82808c9779e10dd474fed0a2cb4c655fa45b4a4e42d0ba41d7d3b5",
+      "key": "per_pre/prh_clip+l2/trends_L/cka_biased|full|s_obs"
+     },
+     "after_subtraction": {
+      "Tr": -0.9999999999999998,
+      "ci95": [
+       -0.9999999999999998,
+       -0.9999999999999998
+      ],
+      "p_one_sided_exact": 1.0,
+      "path": "~/hrh_v2_stage1_20261008/results/S1_2_layermax_llama/early/summary.json",
+      "sha256": "cdbd3819ab82808c9779e10dd474fed0a2cb4c655fa45b4a4e42d0ba41d7d3b5",
+      "key": "per_pre/prh_clip+l2/trends_L/cka_biased|full|uncensored"
+     },
+     "s_cal": {
+      "Tr": -0.852941176470588,
+      "ci95": [
+       -0.9999999999999998,
+       -0.6470588235294116
+      ],
+      "p_one_sided_exact": 1.0,
+      "path": "~/hrh_v2_stage1_20261008/results/S1_2_layermax_llama/early/summary.json",
+      "sha256": "cdbd3819ab82808c9779e10dd474fed0a2cb4c655fa45b4a4e42d0ba41d7d3b5",
+      "key": "per_pre/prh_clip+l2/trends_L/cka_biased|full|s_cal"
+     },
+     "connector_visible_pt": 83.85,
+     "annotated": {
+      "raw": "0.68",
+      "after": "\u22121.00"
+     }
+    },
+    "cka_biased|ctm": {
+     "label": "CKA, calibrate then max",
+     "colour": "#CC3311",
+     "ci_tint": "#e8a394",
+     "raw": {
+      "Tr": 0.6764705882352939,
+      "ci95": [
+       0.3235294117647058,
+       0.9411764705882351
+      ],
+      "p_one_sided_exact": 0.16666666666666666,
+      "path": "~/hrh_v2_stage1_20261008/results/S1_2_layermax_llama/early/summary.json",
+      "sha256": "cdbd3819ab82808c9779e10dd474fed0a2cb4c655fa45b4a4e42d0ba41d7d3b5",
+      "key": "per_pre/prh_clip+l2/trends_L/cka_biased|full|s_obs"
+     },
+     "after_subtraction": {
+      "Tr": -0.8823529411764703,
+      "ci95": [
+       -0.9705882352941174,
+       -0.7941176470588234
+      ],
+      "p_one_sided_exact": 1.0,
+      "path": "~/hrh_v2_stage1_20261008/results/S1_2_layermax_llama/early/summary.json",
+      "sha256": "cdbd3819ab82808c9779e10dd474fed0a2cb4c655fa45b4a4e42d0ba41d7d3b5",
+      "key": "per_pre/prh_clip+l2/trends_L/cka_biased|ctm|M_unc"
+     },
+     "s_cal": {
+      "Tr": -0.8823529411764703,
+      "ci95": [
+       -0.9705882352941174,
+       -0.764705882352941
+      ],
+      "p_one_sided_exact": 1.0,
+      "path": "~/hrh_v2_stage1_20261008/results/S1_2_layermax_llama/early/summary.json",
+      "sha256": "cdbd3819ab82808c9779e10dd474fed0a2cb4c655fa45b4a4e42d0ba41d7d3b5",
+      "key": "per_pre/prh_clip+l2/trends_L/cka_biased|ctm|M"
+     },
+     "connector_visible_pt": 77.55
+    },
+    "cka_biased|fixed_r1.0": {
+     "label": "CKA, last layer",
+     "colour": "#CC3311",
+     "ci_tint": "#e8a394",
+     "raw": {
+      "Tr": 0.9999999999999998,
+      "ci95": [
+       0.9999999999999998,
+       0.9999999999999998
+      ],
+      "p_one_sided_exact": 0.16666666666666666,
+      "path": "~/hrh_v2_stage1_20261008/results/S1_2_layermax_llama/early/summary.json",
+      "sha256": "cdbd3819ab82808c9779e10dd474fed0a2cb4c655fa45b4a4e42d0ba41d7d3b5",
+      "key": "per_pre/prh_clip+l2/trends_L/cka_biased|fixed_r1.0|s_obs"
+     },
+     "after_subtraction": {
+      "Tr": 0.9999999999999998,
+      "ci95": [
+       0.9999999999999998,
+       0.9999999999999998
+      ],
+      "p_one_sided_exact": 0.16666666666666666,
+      "path": "~/hrh_v2_stage1_20261008/results/S1_2_layermax_llama/early/summary.json",
+      "sha256": "cdbd3819ab82808c9779e10dd474fed0a2cb4c655fa45b4a4e42d0ba41d7d3b5",
+      "key": "per_pre/prh_clip+l2/trends_L/cka_biased|fixed_r1.0|uncensored"
+     },
+     "s_cal": {
+      "Tr": 0.9999999999999998,
+      "ci95": [
+       0.9999999999999998,
+       0.9999999999999998
+      ],
+      "p_one_sided_exact": 0.16666666666666666,
+      "path": "~/hrh_v2_stage1_20261008/results/S1_2_layermax_llama/early/summary.json",
+      "sha256": "cdbd3819ab82808c9779e10dd474fed0a2cb4c655fa45b4a4e42d0ba41d7d3b5",
+      "key": "per_pre/prh_clip+l2/trends_L/cka_biased|fixed_r1.0|s_cal"
+     },
+     "connector_visible_pt": 0.0
+    },
+    "cka_biased|fixed_r0.5": {
+     "label": "CKA, mid depth",
+     "colour": "#CC3311",
+     "ci_tint": "#e8a394",
+     "raw": {
+      "Tr": 0.9999999999999998,
+      "ci95": [
+       0.9999999999999998,
+       0.9999999999999998
+      ],
+      "p_one_sided_exact": 0.16666666666666666,
+      "path": "~/hrh_v2_stage1_20261008/results/S1_2_layermax_llama/early/summary.json",
+      "sha256": "cdbd3819ab82808c9779e10dd474fed0a2cb4c655fa45b4a4e42d0ba41d7d3b5",
+      "key": "per_pre/prh_clip+l2/trends_L/cka_biased|fixed_r0.5|s_obs"
+     },
+     "after_subtraction": {
+      "Tr": 0.6470588235294116,
+      "ci95": [
+       0.5588235294117645,
+       0.764705882352941
+      ],
+      "p_one_sided_exact": 0.3333333333333333,
+      "path": "~/hrh_v2_stage1_20261008/results/S1_2_layermax_llama/early/summary.json",
+      "sha256": "cdbd3819ab82808c9779e10dd474fed0a2cb4c655fa45b4a4e42d0ba41d7d3b5",
+      "key": "per_pre/prh_clip+l2/trends_L/cka_biased|fixed_r0.5|uncensored"
+     },
+     "s_cal": {
+      "Tr": 0.9705882352941174,
+      "ci95": [
+       0.9117647058823527,
+       0.9999999999999998
+      ],
+      "p_one_sided_exact": 0.16666666666666666,
+      "path": "~/hrh_v2_stage1_20261008/results/S1_2_layermax_llama/early/summary.json",
+      "sha256": "cdbd3819ab82808c9779e10dd474fed0a2cb4c655fa45b4a4e42d0ba41d7d3b5",
+      "key": "per_pre/prh_clip+l2/trends_L/cka_biased|fixed_r0.5|s_cal"
+     },
+     "connector_visible_pt": 12.95
+    },
+    "mknn|full": {
+     "label": "mKNN, layer max",
+     "colour": "#0077BB",
+     "ci_tint": "#8cc2e0",
+     "raw": {
+      "Tr": 0.4117647058823528,
+      "ci95": [
+       0.08823529411764704,
+       0.6764705882352939
+      ],
+      "p_one_sided_exact": 0.3333333333333333,
+      "path": "~/hrh_v2_stage1_20261008/results/S1_2_layermax_llama/early/summary.json",
+      "sha256": "cdbd3819ab82808c9779e10dd474fed0a2cb4c655fa45b4a4e42d0ba41d7d3b5",
+      "key": "per_pre/prh_clip+l2/trends_L/mknn|full|s_obs"
+     },
+     "after_subtraction": {
+      "Tr": 0.3823529411764705,
+      "ci95": [
+       0.05882352941176468,
+       0.6764705882352939
+      ],
+      "p_one_sided_exact": 0.3333333333333333,
+      "path": "~/hrh_v2_stage1_20261008/results/S1_2_layermax_llama/early/summary.json",
+      "sha256": "cdbd3819ab82808c9779e10dd474fed0a2cb4c655fa45b4a4e42d0ba41d7d3b5",
+      "key": "per_pre/prh_clip+l2/trends_L/mknn|full|uncensored"
+     },
+     "s_cal": {
+      "Tr": 0.3823529411764705,
+      "ci95": [
+       0.029411764705882346,
+       0.6764705882352939
+      ],
+      "p_one_sided_exact": 0.3333333333333333,
+      "path": "~/hrh_v2_stage1_20261008/results/S1_2_layermax_llama/early/summary.json",
+      "sha256": "cdbd3819ab82808c9779e10dd474fed0a2cb4c655fa45b4a4e42d0ba41d7d3b5",
+      "key": "per_pre/prh_clip+l2/trends_L/mknn|full|s_cal"
+     },
+     "connector_visible_pt": 0.0
+    },
+    "cka_debiased|full": {
+     "label": "debiased CKA, layer max",
+     "colour": "#EE3377",
+     "ci_tint": "#f7a3c2",
+     "raw": {
+      "Tr": -0.3823529411764705,
+      "ci95": [
+       -0.6176470588235292,
+       -0.11764705882352938
+      ],
+      "p_one_sided_exact": 1.0,
+      "path": "~/hrh_v2_stage1_20261008/results/S1_2_layermax_llama/early/summary.json",
+      "sha256": "cdbd3819ab82808c9779e10dd474fed0a2cb4c655fa45b4a4e42d0ba41d7d3b5",
+      "key": "per_pre/prh_clip+l2/trends_L/cka_debiased|full|s_obs"
+     },
+     "after_subtraction": {
+      "Tr": -0.3823529411764705,
+      "ci95": [
+       -0.6176470588235292,
+       -0.11764705882352938
+      ],
+      "p_one_sided_exact": 1.0,
+      "path": "~/hrh_v2_stage1_20261008/results/S1_2_layermax_llama/early/summary.json",
+      "sha256": "cdbd3819ab82808c9779e10dd474fed0a2cb4c655fa45b4a4e42d0ba41d7d3b5",
+      "key": "per_pre/prh_clip+l2/trends_L/cka_debiased|full|uncensored"
+     },
+     "s_cal": {
+      "Tr": -0.3823529411764705,
+      "ci95": [
+       -0.6176470588235292,
+       -0.11764705882352935
+      ],
+      "p_one_sided_exact": 1.0,
+      "path": "~/hrh_v2_stage1_20261008/results/S1_2_layermax_llama/early/summary.json",
+      "sha256": "cdbd3819ab82808c9779e10dd474fed0a2cb4c655fa45b4a4e42d0ba41d7d3b5",
+      "key": "per_pre/prh_clip+l2/trends_L/cka_debiased|full|s_cal"
+     },
+     "connector_visible_pt": 0.0
+    }
+   },
+   "band": "no band (6 relabellings)"
+  },
+  "openllama": {
+   "panel": "c",
+   "rows": {
+    "cka_biased|full": {
+     "label": "CKA, layer max",
+     "colour": "#CC3311",
+     "ci_tint": "#e8a394",
+     "raw": {
+      "Tr": 0.8823529411764703,
+      "ci95": [
+       0.764705882352941,
+       0.9705882352941174
+      ],
+      "p_one_sided_exact": 0.16666666666666666,
+      "path": "~/hrh_v2_stage1_20261008/results/S1_2_layermax_openllama/layermax_openllama_summary.json",
+      "sha256": "2777dadf287dfc02433eb07e84cefad0ec67381258a199b9d306b6c7d32aebaa",
+      "key": "embedded/E_summary/v/tr|prh_clip+l2|cka_biased|full|raw",
+      "key_p": "embedded/E_summary/v/tr_pge|prh_clip+l2|cka_biased|full|raw",
+      "key_ci": "embedded/E_summary/v/x|tr_ci|prh_clip+l2|cka_biased|full|raw"
+     },
+     "after_subtraction": {
+      "Tr": -0.5882352941176469,
+      "ci95": [
+       -0.6764705882352939,
+       -0.4999999999999999
+      ],
+      "p_one_sided_exact": 0.8333333333333334,
+      "path": "~/hrh_v2_stage1_20261008/results/S1_2_layermax_openllama/layermax_openllama_summary.json",
+      "sha256": "2777dadf287dfc02433eb07e84cefad0ec67381258a199b9d306b6c7d32aebaa",
+      "key": "embedded/E_summary/v/tr|prh_clip+l2|cka_biased|full|unc",
+      "key_p": "embedded/E_summary/v/tr_pge|prh_clip+l2|cka_biased|full|unc",
+      "key_ci": "embedded/E_summary/v/x|tr_ci|prh_clip+l2|cka_biased|full|unc"
+     },
+     "s_cal": {
+      "Tr": 0.1764705882352941,
+      "ci95": [
+       -0.11764705882352938,
+       0.44117647058823517
+      ],
+      "p_one_sided_exact": 0.5,
+      "path": "~/hrh_v2_stage1_20261008/results/S1_2_layermax_openllama/layermax_openllama_summary.json",
+      "sha256": "2777dadf287dfc02433eb07e84cefad0ec67381258a199b9d306b6c7d32aebaa",
+      "key": "embedded/E_summary/v/tr|prh_clip+l2|cka_biased|full|s_cal",
+      "key_p": "embedded/E_summary/v/tr_pge|prh_clip+l2|cka_biased|full|s_cal",
+      "key_ci": "embedded/E_summary/v/x|tr_ci|prh_clip+l2|cka_biased|full|s_cal"
+     },
+     "connector_visible_pt": 72.82,
+     "annotated": {
+      "raw": "0.88",
+      "after": "\u22120.59"
+     }
+    },
+    "cka_biased|ctm": {
+     "label": "CKA, calibrate then max",
+     "colour": "#CC3311",
+     "ci_tint": "#e8a394",
+     "raw": {
+      "Tr": 0.8823529411764703,
+      "ci95": [
+       0.764705882352941,
+       0.9705882352941174
+      ],
+      "p_one_sided_exact": 0.16666666666666666,
+      "path": "~/hrh_v2_stage1_20261008/results/S1_2_layermax_openllama/layermax_openllama_summary.json",
+      "sha256": "2777dadf287dfc02433eb07e84cefad0ec67381258a199b9d306b6c7d32aebaa",
+      "key": "embedded/E_summary/v/tr|prh_clip+l2|cka_biased|full|raw",
+      "key_p": "embedded/E_summary/v/tr_pge|prh_clip+l2|cka_biased|full|raw",
+      "key_ci": "embedded/E_summary/v/x|tr_ci|prh_clip+l2|cka_biased|full|raw"
+     },
+     "after_subtraction": {
+      "Tr": -0.14705882352941174,
+      "ci95": [
+       -0.3823529411764705,
+       0.08823529411764704
+      ],
+      "p_one_sided_exact": 0.6666666666666666,
+      "path": "~/hrh_v2_stage1_20261008/results/S1_2_layermax_openllama/layermax_openllama_summary.json",
+      "sha256": "2777dadf287dfc02433eb07e84cefad0ec67381258a199b9d306b6c7d32aebaa",
+      "key": "embedded/E_summary/v/tr|prh_clip+l2|cka_biased|ctm|M_unc",
+      "key_p": "embedded/E_summary/v/tr_pge|prh_clip+l2|cka_biased|ctm|M_unc",
+      "key_ci": "embedded/E_summary/v/x|tr_ci|prh_clip+l2|cka_biased|ctm|M_unc"
+     },
+     "s_cal": {
+      "Tr": 0.2058823529411764,
+      "ci95": [
+       -0.029411764705882346,
+       0.44117647058823517
+      ],
+      "p_one_sided_exact": 0.5,
+      "path": "~/hrh_v2_stage1_20261008/results/S1_2_layermax_openllama/layermax_openllama_summary.json",
+      "sha256": "2777dadf287dfc02433eb07e84cefad0ec67381258a199b9d306b6c7d32aebaa",
+      "key": "embedded/E_summary/v/tr|prh_clip+l2|cka_biased|ctm|M",
+      "key_p": "embedded/E_summary/v/tr_pge|prh_clip+l2|cka_biased|ctm|M",
+      "key_ci": "embedded/E_summary/v/x|tr_ci|prh_clip+l2|cka_biased|ctm|M"
+     },
+     "connector_visible_pt": 49.19
+    },
+    "cka_biased|fixed_r1.0": {
+     "label": "CKA, last layer",
+     "colour": "#CC3311",
+     "ci_tint": "#e8a394",
+     "raw": {
+      "Tr": 0.4999999999999999,
+      "ci95": [
+       0.4999999999999999,
+       0.4999999999999999
+      ],
+      "p_one_sided_exact": 0.5,
+      "path": "~/hrh_v2_stage1_20261008/results/S1_2_layermax_openllama/layermax_openllama_summary.json",
+      "sha256": "2777dadf287dfc02433eb07e84cefad0ec67381258a199b9d306b6c7d32aebaa",
+      "key": "embedded/E_summary/v/tr|prh_clip+l2|cka_biased|fixed_r1.0|raw",
+      "key_p": "embedded/E_summary/v/tr_pge|prh_clip+l2|cka_biased|fixed_r1.0|raw",
+      "key_ci": "embedded/E_summary/v/x|tr_ci|prh_clip+l2|cka_biased|fixed_r1.0|raw"
+     },
+     "after_subtraction": {
+      "Tr": 0.6470588235294116,
+      "ci95": [
+       0.5588235294117645,
+       0.764705882352941
+      ],
+      "p_one_sided_exact": 0.3333333333333333,
+      "path": "~/hrh_v2_stage1_20261008/results/S1_2_layermax_openllama/layermax_openllama_summary.json",
+      "sha256": "2777dadf287dfc02433eb07e84cefad0ec67381258a199b9d306b6c7d32aebaa",
+      "key": "embedded/E_summary/v/tr|prh_clip+l2|cka_biased|fixed_r1.0|unc",
+      "key_p": "embedded/E_summary/v/tr_pge|prh_clip+l2|cka_biased|fixed_r1.0|unc",
+      "key_ci": "embedded/E_summary/v/x|tr_ci|prh_clip+l2|cka_biased|fixed_r1.0|unc"
+     },
+     "s_cal": {
+      "Tr": 0.5588235294117645,
+      "ci95": [
+       0.4999999999999999,
+       0.6470588235294116
+      ],
+      "p_one_sided_exact": 0.3333333333333333,
+      "path": "~/hrh_v2_stage1_20261008/results/S1_2_layermax_openllama/layermax_openllama_summary.json",
+      "sha256": "2777dadf287dfc02433eb07e84cefad0ec67381258a199b9d306b6c7d32aebaa",
+      "key": "embedded/E_summary/v/tr|prh_clip+l2|cka_biased|fixed_r1.0|s_cal",
+      "key_p": "embedded/E_summary/v/tr_pge|prh_clip+l2|cka_biased|fixed_r1.0|s_cal",
+      "key_ci": "embedded/E_summary/v/x|tr_ci|prh_clip+l2|cka_biased|fixed_r1.0|s_cal"
+     },
+     "connector_visible_pt": 1.93
+    },
+    "cka_biased|fixed_r0.5": {
+     "label": "CKA, mid depth",
+     "colour": "#CC3311",
+     "ci_tint": "#e8a394",
+     "raw": {
+      "Tr": 0.6764705882352939,
+      "ci95": [
+       0.5588235294117645,
+       0.7941176470588234
+      ],
+      "p_one_sided_exact": 0.3333333333333333,
+      "path": "~/hrh_v2_stage1_20261008/results/S1_2_layermax_openllama/layermax_openllama_summary.json",
+      "sha256": "2777dadf287dfc02433eb07e84cefad0ec67381258a199b9d306b6c7d32aebaa",
+      "key": "embedded/E_summary/v/tr|prh_clip+l2|cka_biased|fixed_r0.5|raw",
+      "key_p": "embedded/E_summary/v/tr_pge|prh_clip+l2|cka_biased|fixed_r0.5|raw",
+      "key_ci": "embedded/E_summary/v/x|tr_ci|prh_clip+l2|cka_biased|fixed_r0.5|raw"
+     },
+     "after_subtraction": {
+      "Tr": 0.4999999999999999,
+      "ci95": [
+       0.4999999999999999,
+       0.4999999999999999
+      ],
+      "p_one_sided_exact": 0.5,
+      "path": "~/hrh_v2_stage1_20261008/results/S1_2_layermax_openllama/layermax_openllama_summary.json",
+      "sha256": "2777dadf287dfc02433eb07e84cefad0ec67381258a199b9d306b6c7d32aebaa",
+      "key": "embedded/E_summary/v/tr|prh_clip+l2|cka_biased|fixed_r0.5|unc",
+      "key_p": "embedded/E_summary/v/tr_pge|prh_clip+l2|cka_biased|fixed_r0.5|unc",
+      "key_ci": "embedded/E_summary/v/x|tr_ci|prh_clip+l2|cka_biased|fixed_r0.5|unc"
+     },
+     "s_cal": {
+      "Tr": 0.4999999999999999,
+      "ci95": [
+       0.4999999999999999,
+       0.4999999999999999
+      ],
+      "p_one_sided_exact": 0.5,
+      "path": "~/hrh_v2_stage1_20261008/results/S1_2_layermax_openllama/layermax_openllama_summary.json",
+      "sha256": "2777dadf287dfc02433eb07e84cefad0ec67381258a199b9d306b6c7d32aebaa",
+      "key": "embedded/E_summary/v/tr|prh_clip+l2|cka_biased|fixed_r0.5|s_cal",
+      "key_p": "embedded/E_summary/v/tr_pge|prh_clip+l2|cka_biased|fixed_r0.5|s_cal",
+      "key_ci": "embedded/E_summary/v/x|tr_ci|prh_clip+l2|cka_biased|fixed_r0.5|s_cal"
+     },
+     "connector_visible_pt": 3.5
+    },
+    "mknn|full": {
+     "label": "mKNN, layer max",
+     "colour": "#0077BB",
+     "ci_tint": "#8cc2e0",
+     "raw": {
+      "Tr": 0.9999999999999998,
+      "ci95": [
+       0.9999999999999998,
+       0.9999999999999998
+      ],
+      "p_one_sided_exact": 0.16666666666666666,
+      "path": "~/hrh_v2_stage1_20261008/results/S1_2_layermax_openllama/layermax_openllama_summary.json",
+      "sha256": "2777dadf287dfc02433eb07e84cefad0ec67381258a199b9d306b6c7d32aebaa",
+      "key": "embedded/E_summary/v/tr|prh_clip+l2|mknn|full|raw",
+      "key_p": "embedded/E_summary/v/tr_pge|prh_clip+l2|mknn|full|raw",
+      "key_ci": "embedded/E_summary/v/x|tr_ci|prh_clip+l2|mknn|full|raw"
+     },
+     "after_subtraction": {
+      "Tr": 0.9999999999999998,
+      "ci95": [
+       0.9999999999999998,
+       0.9999999999999998
+      ],
+      "p_one_sided_exact": 0.16666666666666666,
+      "path": "~/hrh_v2_stage1_20261008/results/S1_2_layermax_openllama/layermax_openllama_summary.json",
+      "sha256": "2777dadf287dfc02433eb07e84cefad0ec67381258a199b9d306b6c7d32aebaa",
+      "key": "embedded/E_summary/v/tr|prh_clip+l2|mknn|full|unc",
+      "key_p": "embedded/E_summary/v/tr_pge|prh_clip+l2|mknn|full|unc",
+      "key_ci": "embedded/E_summary/v/x|tr_ci|prh_clip+l2|mknn|full|unc"
+     },
+     "s_cal": {
+      "Tr": 0.9999999999999998,
+      "ci95": [
+       0.9999999999999998,
+       0.9999999999999998
+      ],
+      "p_one_sided_exact": 0.16666666666666666,
+      "path": "~/hrh_v2_stage1_20261008/results/S1_2_layermax_openllama/layermax_openllama_summary.json",
+      "sha256": "2777dadf287dfc02433eb07e84cefad0ec67381258a199b9d306b6c7d32aebaa",
+      "key": "embedded/E_summary/v/tr|prh_clip+l2|mknn|full|s_cal",
+      "key_p": "embedded/E_summary/v/tr_pge|prh_clip+l2|mknn|full|s_cal",
+      "key_ci": "embedded/E_summary/v/x|tr_ci|prh_clip+l2|mknn|full|s_cal"
+     },
+     "connector_visible_pt": 0.0
+    },
+    "cka_debiased|full": {
+     "label": "debiased CKA, layer max",
+     "colour": "#EE3377",
+     "ci_tint": "#f7a3c2",
+     "raw": {
+      "Tr": 0.3823529411764705,
+      "ci95": [
+       0.2058823529411764,
+       0.4999999999999999
+      ],
+      "p_one_sided_exact": 0.5,
+      "path": "~/hrh_v2_stage1_20261008/results/S1_2_layermax_openllama/layermax_openllama_summary.json",
+      "sha256": "2777dadf287dfc02433eb07e84cefad0ec67381258a199b9d306b6c7d32aebaa",
+      "key": "embedded/E_summary/v/tr|prh_clip+l2|cka_debiased|full|raw",
+      "key_p": "embedded/E_summary/v/tr_pge|prh_clip+l2|cka_debiased|full|raw",
+      "key_ci": "embedded/E_summary/v/x|tr_ci|prh_clip+l2|cka_debiased|full|raw"
+     },
+     "after_subtraction": {
+      "Tr": 0.3823529411764705,
+      "ci95": [
+       0.2058823529411764,
+       0.4999999999999999
+      ],
+      "p_one_sided_exact": 0.5,
+      "path": "~/hrh_v2_stage1_20261008/results/S1_2_layermax_openllama/layermax_openllama_summary.json",
+      "sha256": "2777dadf287dfc02433eb07e84cefad0ec67381258a199b9d306b6c7d32aebaa",
+      "key": "embedded/E_summary/v/tr|prh_clip+l2|cka_debiased|full|unc",
+      "key_p": "embedded/E_summary/v/tr_pge|prh_clip+l2|cka_debiased|full|unc",
+      "key_ci": "embedded/E_summary/v/x|tr_ci|prh_clip+l2|cka_debiased|full|unc"
+     },
+     "s_cal": {
+      "Tr": 0.44117647058823517,
+      "ci95": [
+       0.3235294117647058,
+       0.4999999999999999
+      ],
+      "p_one_sided_exact": 0.5,
+      "path": "~/hrh_v2_stage1_20261008/results/S1_2_layermax_openllama/layermax_openllama_summary.json",
+      "sha256": "2777dadf287dfc02433eb07e84cefad0ec67381258a199b9d306b6c7d32aebaa",
+      "key": "embedded/E_summary/v/tr|prh_clip+l2|cka_debiased|full|s_cal",
+      "key_p": "embedded/E_summary/v/tr_pge|prh_clip+l2|cka_debiased|full|s_cal",
+      "key_ci": "embedded/E_summary/v/x|tr_ci|prh_clip+l2|cka_debiased|full|s_cal"
+     },
+     "connector_visible_pt": 0.0
+    }
+   },
+   "band": "no band (6 relabellings)"
+  }
+ },
+ "row2_thresholds": {
+  "bloomz": {
+   "panel": "d",
+   "lms": [
+    "bigscience__bloomz-560m",
+    "bigscience__bloomz-1b1",
+    "bigscience__bloomz-1b7",
+    "bigscience__bloomz-3b",
+    "bigscience__bloomz-7b1"
+   ],
+   "x_params_B": [
+    0.559214592,
+    1.065314304,
+    1.72240896,
+    3.00255744,
+    7.069016064
+   ],
+   "x_tick_labels": [
+    "0.56",
+    "1.1",
+    "1.7",
+    "3",
+    "7.1"
+   ],
+   "observed_layermax_cka_T": {
+    "mean": [
+     0.33628908229717874,
+     0.3591867821222813,
+     0.35464669669383186,
+     0.36646670968460693,
+     0.38411857713707054
+    ],
+    "se": [
+     0.010291805467256237,
+     0.01120561721896639,
+     0.011631064739904398,
+     0.012144028321287068,
+     0.013273763772957288
+    ]
+   },
+   "c_alpha_of_max": {
+    "mean": [
+     0.13543032630968077,
+     0.13079880247397235,
+     0.18120493253441006,
+     0.18333189158381308,
+     0.1837990704889747
+    ],
+    "se": [
+     0.009809359239847187,
+     0.009451850219673697,
+     0.013250602651907568,
+     0.013388903709849175,
+     0.013412145167152122
+    ]
+   },
+   "largest_baseline_Bbar_from_features": {
+    "mean": [
+     0.1332508060441779,
+     0.12848077690701204,
+     0.17926446367621543,
+     0.18139574852956075,
+     0.18181817356370528
+    ],
+    "style": "INK dashed (critic-v8; v8 maker solid NULL_LINE); the BLOOMZ reading is post hoc (Results text; v8 draws no tag)"
+   },
+   "threshold_of_selected_pair": {
+    "mean": [
+     0.10901302185419884,
+     0.10783022939544802,
+     0.10685954303315487,
+     0.10982631760384297,
+     0.12126686478353887
+    ],
+    "se": [
+     0.01219289592212496,
+     0.011804708485881577,
+     0.010473355333099794,
+     0.010308863184359647,
+     0.011433797803839425
+    ]
+   },
+   "rel_depth_of_argmax_LM_mean": [
+    0.9705882352941176,
+    0.9852941176470589,
+    0.9754901960784313,
+    0.9431372549019607,
+    0.9274509803921569
+   ],
+   "offset_calpha_minus_Bbar": {
+    "n": 85,
+    "mean": 0.002071010934035906,
+    "min": 0.001698789568125747,
+    "max": 0.0028087362731665927
+   },
+   "sources": {
+    "T": "~/hrh_v2_stage1_20261008/results/S1_2_layermax/panel_layermax.parquet rows pre=prh_clip+l2, metric=cka_biased, subset=full, column s_obs (f1_data b_thresholds)",
+    "c_alpha": "~/hrh_v2_stage1_20261008/results/S1_2_layermax/panel_layermax.parquet column c_alpha",
+    "sel": "~/hrh_v2_stage1_20261008/results/S1_2_layermax/panel_layermax.parquet column entry_c_alpha_at_argmax",
+    "Bbar": "~/hrh_v2_stage1_20261008/results/S1_2_layermax/indep/diag_null_profile.json prh_clip+l2/PR_profile; sqrt(max_u PR_lm,u * max_v PR_vit,v)/(m-1) (f1_data b_thresholds pred_largest_baseline)",
+    "x": "~/hrh_v2_stage1_20261008/results/S1_2_layermax/panel_layermax.parquet column lm_params"
+   }
+  },
+  "llama1": {
+   "panel": "e",
+   "lms": [
+    "huggyllama__llama-7b",
+    "huggyllama__llama-13b",
+    "huggyllama__llama-30b"
+   ],
+   "x_params_B": [
+    6.738415616,
+    13.01586432,
+    32.528943616
+   ],
+   "x_tick_labels": [
+    "7",
+    "13",
+    "30"
+   ],
+   "observed_layermax_cka_T": {
+    "mean": [
+     0.42679023982120323,
+     0.43314982807293084,
+     0.4407971062146769
+    ],
+    "se": [
+     0.016819704813901923,
+     0.017075034183239846,
+     0.017628175191876753
+    ]
+   },
+   "c_alpha_of_max": {
+    "mean": [
+     0.18659585103138673,
+     0.20409386072251537,
+     0.21995294890876896
+    ],
+    "se": [
+     0.013634391089345155,
+     0.014938858928491712,
+     0.01612488798056094
+    ]
+   },
+   "largest_baseline_Bbar_from_features": {
+    "mean": [
+     0.18471476844186957,
+     0.20226806909339412,
+     0.21824067401228245
+    ],
+    "style": "solid (frozen from features before any cross-model score, Part B)"
+   },
+   "threshold_of_selected_pair": {
+    "mean": [
+     0.16968588782544444,
+     0.19235882679247449,
+     0.21567060843829747
+    ],
+    "se": [
+     0.013490691854887988,
+     0.015164387685308535,
+     0.01691235776126059
+    ]
+   },
+   "rel_depth_of_argmax_LM_mean": [
+    0.8253676470588235,
+    0.8117647058823528,
+    0.8176470588235294
+   ],
+   "offset_calpha_minus_Bbar": {
+    "mean": 0.0018063830383749462,
+    "median_abs": 0.0017952445652623106,
+    "min": 0.0015480920065000237,
+    "max": 0.0021354789515074246,
+    "pearson": 0.9999982984144454,
+    "n_calpha_larger_size_higher": "51/51"
+   },
+   "sources": {
+    "T": "~/hrh_v2_stage1_20261008/results/S1_2_layermax_llama/early/pairs/prh_clip+l2/<lm>__<vit>.json summaries/cka_biased/full/s_obs (means asserted against early/summary.json means/cka_biased/full|s_obs)",
+    "c_alpha": "same files, summaries/cka_biased/full/c_alpha (asserted against early/summary.json)",
+    "sel": "same files, summaries/cka_biased/full/entry_c_alpha_at_argmax",
+    "Bbar": "~/hrh_v2_stage1_20261008/results/S1_2_layermax_llama/partB/partB_features.json per_pre/prh_clip+l2/Bbar/<lm>/<vit> (mean asserted against pooled/mean_Bbar_by_lm)",
+    "x": "~/hrh_v2_stage1_20261008/results/S1_2_layermax_llama/partB/partB_features.json meta/inputs/<lm>/num_params"
+   }
+  },
+  "openllama": {
+   "panel": "f",
+   "lms": [
+    "openlm-research__open_llama_3b",
+    "openlm-research__open_llama_7b",
+    "openlm-research__open_llama_13b"
+   ],
+   "x_params_B": [
+    3.4264736,
+    6.738415616,
+    13.01586432
+   ],
+   "x_tick_labels": [
+    "3",
+    "7",
+    "13"
+   ],
+   "observed_layermax_cka_T": {
+    "mean": [
+     0.41333169526702684,
+     0.42576382581312666,
+     0.42910414836740257
+    ],
+    "se": [
+     0.01522260341422315,
+     0.0161198389992835,
+     0.016817904108196943
+    ]
+   },
+   "c_alpha_of_max": {
+    "mean": [
+     0.16551791808184987,
+     0.17597187536501055,
+     0.18790612072141893
+    ],
+    "se": [
+     0.012076391056335022,
+     0.012852975485295222,
+     0.013744841229961832
+    ]
+   },
+   "largest_baseline_Bbar_from_features": {
+    "mean": [
+     0.16360822630307634,
+     0.17408615788085222,
+     0.18603097411434302
+    ],
+    "style": "solid (frozen from features before any 13B cross-model score, Part B)"
+   },
+   "threshold_of_selected_pair": {
+    "mean": [
+     0.14551775861827865,
+     0.15278963448451968,
+     0.1717149494816563
+    ],
+    "se": [
+     0.012880455704713056,
+     0.014100371510795183,
+     0.013423085875298597
+    ]
+   },
+   "rel_depth_of_argmax_LM_mean": [
+    0.9615384615384616,
+    0.8731617647058824,
+    0.9279411764705883
+   ],
+   "offset_calpha_minus_Bbar": {
+    "all_51_pairs": {
+     "min": 0.0016174659277665981,
+     "max": 0.0022572850574089365,
+     "median": 0.0019001203610493345,
+     "mean": 0.0018901852900025972
+    },
+    "new_13b_17_pairs": {
+     "min": 0.0016442493008479997,
+     "max": 0.0022572850574089365,
+     "median": 0.0018844044983174768,
+     "src_median": "~/hrh_v2_stage1_20261008/results/S1_2_layermax_openllama/layermax_openllama_summary.json headline/PO2ai|prh_clip+l2|median",
+     "src_range": "~/hrh_v2_stage1_20261008/results/S1_2_layermax_openllama/layermax_openllama_summary.json reviewer_posthoc/PO2ai_range/prh_clip+l2"
+    },
+    "n_calpha_larger_size_higher_recomputed": "51/51",
+    "PO2aii": {
+     "x": 33,
+     "n": 33,
+     "verdict": "holds",
+     "src": "~/hrh_v2_stage1_20261008/results/S1_2_layermax_openllama/layermax_openllama_summary.json embedded/E_summary/v/PO2aii|prh_clip+l2|{x,n,verdict}"
+    }
+   },
+   "sources": {
+    "T": "early/pairs/prh_clip+l2/<lm>__<vit>.json summaries/cka_biased/full/s_obs",
+    "c_alpha": "early/pairs/prh_clip+l2/<lm>__<vit>.json summaries/cka_biased/full/c_alpha",
+    "c_alpha_entry_at_argmax": "early/pairs/prh_clip+l2/<lm>__<vit>.json summaries/cka_biased/full/entry_c_alpha_at_argmax",
+    "Bbar_partB": "partB/partB_features_ol.json per_pre/prh_clip+l2/Bbar/<lm>/<vit>",
+    "num_params": "partB/partB_features_ol.json num_params/<lm>",
+    "path_root": "~/hrh_v2_stage1_20261008/results/S1_2_layermax_openllama"
+   }
+  }
+ },
+ "row3_profiles": {
+  "bloomz": {
+   "panel": "g",
+   "profiles": {
+    "bigscience__bloomz-560m": {
+     "colour": "#988dc2",
+     "line_width_pt": 1.2,
+     "rel_depth": [
+      0.0,
+      0.041666666666666664,
+      0.08333333333333333,
+      0.125,
+      0.16666666666666666,
+      0.20833333333333334,
+      0.25,
+      0.2916666666666667,
+      0.3333333333333333,
+      0.375,
+      0.4166666666666667,
+      0.4583333333333333,
+      0.5,
+      0.5416666666666666,
+      0.5833333333333334,
+      0.625,
+      0.6666666666666666,
+      0.7083333333333334,
+      0.75,
+      0.7916666666666666,
+      0.8333333333333334,
+      0.875,
+      0.9166666666666666,
+      0.9583333333333334,
+      1.0
+     ],
+     "measured_permutation_mean": [
+      0.1332407080838058,
+      0.13297740516942833,
+      0.12963027588992804,
+      0.12672463667599926,
+      0.11949113841631197,
+      0.10537652005129051,
+      0.10111132510925802,
+      0.09832835241942794,
+      0.09398500169883095,
+      0.09108201669446798,
+      0.08976168807338229,
+      0.09127709584962068,
+      0.09417101358076298,
+      0.0958952273185517,
+      0.09788233515850757,
+      0.09845504559121326,
+      0.09979035154487684,
+      0.09855119852885631,
+      0.09870711303597768,
+      0.09878454611168762,
+      0.09825180740034069,
+      0.09899139159801529,
+      0.10188926801614757,
+      0.10064628321782491,
+      0.12999180625066034
+     ],
+     "predicted_proposition": [
+      0.13325080604417788,
+      0.13298562610055506,
+      0.12963616596583905,
+      0.126730382417245,
+      0.11949905382062898,
+      0.10539064967460736,
+      0.10112550289466109,
+      0.09834279454361905,
+      0.09399766729447265,
+      0.09109405404534927,
+      0.08977101079227794,
+      0.09128611108878275,
+      0.09418065098348362,
+      0.09590511986369143,
+      0.0978921298695064,
+      0.09846557402125877,
+      0.09980154092291287,
+      0.0985611836537389,
+      0.09871776743561979,
+      0.09879482239134318,
+      0.09826097632056474,
+      0.0990000552198275,
+      0.10189672050519893,
+      0.10065577034105777,
+      0.1300035150476882
+     ],
+     "max_abs_rel_err": 0.00014685492982102755,
+     "argmax_rel": 0.0,
+     "max_measured": 0.1332407080838058
+    },
+    "bigscience__bloomz-1b1": {
+     "colour": "#8172b4",
+     "line_width_pt": 1.2,
+     "rel_depth": [
+      0.0,
+      0.041666666666666664,
+      0.08333333333333333,
+      0.125,
+      0.16666666666666666,
+      0.20833333333333334,
+      0.25,
+      0.2916666666666667,
+      0.3333333333333333,
+      0.375,
+      0.4166666666666667,
+      0.4583333333333333,
+      0.5,
+      0.5416666666666666,
+      0.5833333333333334,
+      0.625,
+      0.6666666666666666,
+      0.7083333333333334,
+      0.75,
+      0.7916666666666666,
+      0.8333333333333334,
+      0.875,
+      0.9166666666666666,
+      0.9583333333333334,
+      1.0
+     ],
+     "measured_permutation_mean": [
+      0.12493705701890402,
+      0.1201917745766341,
+      0.12611129136329155,
+      0.12812924239122647,
+      0.12718842135623998,
+      0.11797270441053319,
+      0.11353108447065813,
+      0.11076431108009033,
+      0.10657981504155323,
+      0.10499583777762922,
+      0.10381840399753418,
+      0.10407484570854415,
+      0.10607944812054723,
+      0.10915333548744789,
+      0.11139443272654213,
+      0.11025548050355669,
+      0.11109094628731651,
+      0.11065594065988718,
+      0.11052006763466732,
+      0.10974513272074801,
+      0.10864895557486201,
+      0.10743784445251493,
+      0.10521011299799793,
+      0.10295910020204183,
+      0.12848044205213172
+     ],
+     "predicted_proposition": [
+      0.12493919060526137,
+      0.12019289227296316,
+      0.1261080252422515,
+      0.12812612934495035,
+      0.12718797899842907,
+      0.11797639022025569,
+      0.11353443879526981,
+      0.1107691032856607,
+      0.10658391225992353,
+      0.10500124574913242,
+      0.10382129802980067,
+      0.10407695747122474,
+      0.10608206686355044,
+      0.10915508588454309,
+      0.11139783602826225,
+      0.11026106914473315,
+      0.11109645907932303,
+      0.11066239180111113,
+      0.11052605600101803,
+      0.10974901758074798,
+      0.1086528712122788,
+      0.10744121273762687,
+      0.10521082696054178,
+      0.10295997749713959,
+      0.12848077690701204
+     ],
+     "max_abs_rel_err": 5.829569665860568e-05,
+     "argmax_rel": 1.0,
+     "max_measured": 0.12848044205213172
+    },
+    "bigscience__bloomz-1b7": {
+     "colour": "#6956a5",
+     "line_width_pt": 1.2,
+     "rel_depth": [
+      0.0,
+      0.041666666666666664,
+      0.08333333333333333,
+      0.125,
+      0.16666666666666666,
+      0.20833333333333334,
+      0.25,
+      0.2916666666666667,
+      0.3333333333333333,
+      0.375,
+      0.4166666666666667,
+      0.4583333333333333,
+      0.5,
+      0.5416666666666666,
+      0.5833333333333334,
+      0.625,
+      0.6666666666666666,
+      0.7083333333333334,
+      0.75,
+      0.7916666666666666,
+      0.8333333333333334,
+      0.875,
+      0.9166666666666666,
+      0.9583333333333334,
+      1.0
+     ],
+     "measured_permutation_mean": [
+      0.17927992862113917,
+      0.1564318382287379,
+      0.15453457542377705,
+      0.1488141780365415,
+      0.1382767856852851,
+      0.12558583194216355,
+      0.1207304516614981,
+      0.11868702660126844,
+      0.11990969640782403,
+      0.11970726490494839,
+      0.11774173657588397,
+      0.11670313138738558,
+      0.11935932190723543,
+      0.11968603937993197,
+      0.11867096273165464,
+      0.1193649799194042,
+      0.12038008427832245,
+      0.12057973623683174,
+      0.12150812496595972,
+      0.12205597052126575,
+      0.12095286791749234,
+      0.1197045615110509,
+      0.11772843757632749,
+      0.1156697928294398,
+      0.12579250963259325
+     ],
+     "predicted_proposition": [
+      0.17926446367621546,
+      0.15642038944838652,
+      0.15452694912102366,
+      0.1488033904601843,
+      0.13826965334666844,
+      0.12557142801891194,
+      0.12071556079090462,
+      0.11867438340295597,
+      0.11989868945891083,
+      0.11969957320308587,
+      0.11773569877218326,
+      0.11669789715912134,
+      0.11935339863282628,
+      0.11968096954167423,
+      0.11866708111299537,
+      0.11936293782409202,
+      0.12037784485690789,
+      0.12057864383279136,
+      0.12150603550190668,
+      0.12205179930051484,
+      0.12094930449185957,
+      0.11969961002495587,
+      0.11772285751275437,
+      0.11566411856735286,
+      0.12578561808819813
+     ],
+     "max_abs_rel_err": 0.00012335502147298172,
+     "argmax_rel": 0.0,
+     "max_measured": 0.17927992862113917
+    },
+    "bigscience__bloomz-3b": {
+     "colour": "#4f3c96",
+     "line_width_pt": 1.2,
+     "rel_depth": [
+      0.0,
+      0.03333333333333333,
+      0.06666666666666667,
+      0.1,
+      0.13333333333333333,
+      0.16666666666666666,
+      0.2,
+      0.23333333333333334,
+      0.26666666666666666,
+      0.3,
+      0.3333333333333333,
+      0.36666666666666664,
+      0.4,
+      0.43333333333333335,
+      0.4666666666666667,
+      0.5,
+      0.5333333333333333,
+      0.5666666666666667,
+      0.6,
+      0.6333333333333333,
+      0.6666666666666666,
+      0.7,
+      0.7333333333333333,
+      0.7666666666666667,
+      0.8,
+      0.8333333333333334,
+      0.8666666666666667,
+      0.9,
+      0.9333333333333333,
+      0.9666666666666667,
+      1.0
+     ],
+     "measured_permutation_mean": [
+      0.18139659269098088,
+      0.17725836970646364,
+      0.1699605192217476,
+      0.1608907789870031,
+      0.15733549321648668,
+      0.14848796146677892,
+      0.14015198056260364,
+      0.13239921771156624,
+      0.12855013464307904,
+      0.1281218435990684,
+      0.12924100790604975,
+      0.12838911925861998,
+      0.12697325754603936,
+      0.12471931149811309,
+      0.12149362833634214,
+      0.12010597980445678,
+      0.12131656765175443,
+      0.12376560414975696,
+      0.12505550802611093,
+      0.12595417665826728,
+      0.12731583310006178,
+      0.12902374510282955,
+      0.12871077572649745,
+      0.12844953834571798,
+      0.1273594990281857,
+      0.12783545987532222,
+      0.12746249288253783,
+      0.127402854632836,
+      0.12523472659621535,
+      0.1215475384220721,
+      0.1262227413358489
+     ],
+     "predicted_proposition": [
+      0.18139574852956078,
+      0.17725548695628376,
+      0.1699610119346742,
+      0.1608931002527874,
+      0.15733735076136923,
+      0.14849206963689085,
+      0.14015711013852802,
+      0.13240551073336906,
+      0.1285550602538191,
+      0.12812439718610713,
+      0.1292442845029941,
+      0.12839201640988174,
+      0.1269775054227378,
+      0.12472345566766266,
+      0.12149791112391173,
+      0.12011054375257527,
+      0.12132078938740284,
+      0.12376945555078753,
+      0.12506044272854078,
+      0.12596011197855164,
+      0.12732381141048407,
+      0.12903129909337915,
+      0.1287186917096769,
+      0.1284583249746542,
+      0.12736863593667389,
+      0.12784454120213848,
+      0.12747428214170853,
+      0.1274143464139842,
+      0.1252486051131763,
+      0.12156189494837788,
+      0.12623608220418206
+     ],
+     "max_abs_rel_err": 0.00011810054714822549,
+     "argmax_rel": 0.0,
+     "max_measured": 0.18139659269098088
+    },
+    "bigscience__bloomz-7b1": {
+     "colour": "#332288",
+     "line_width_pt": 1.6,
+     "rel_depth": [
+      0.0,
+      0.03333333333333333,
+      0.06666666666666667,
+      0.1,
+      0.13333333333333333,
+      0.16666666666666666,
+      0.2,
+      0.23333333333333334,
+      0.26666666666666666,
+      0.3,
+      0.3333333333333333,
+      0.36666666666666664,
+      0.4,
+      0.43333333333333335,
+      0.4666666666666667,
+      0.5,
+      0.5333333333333333,
+      0.5666666666666667,
+      0.6,
+      0.6333333333333333,
+      0.6666666666666666,
+      0.7,
+      0.7333333333333333,
+      0.7666666666666667,
+      0.8,
+      0.8333333333333334,
+      0.8666666666666667,
+      0.9,
+      0.9333333333333333,
+      0.9666666666666667,
+      1.0
+     ],
+     "measured_permutation_mean": [
+      0.1584425283106152,
+      0.1818366306400782,
+      0.18156373739169698,
+      0.1760204055247138,
+      0.1684952309007685,
+      0.160997883447904,
+      0.1571650372187635,
+      0.15029502857277577,
+      0.1408595900411476,
+      0.13977985508580315,
+      0.14161949096583465,
+      0.14248287538233145,
+      0.14015801330210398,
+      0.13847643343107932,
+      0.13760201707319578,
+      0.13683750403594977,
+      0.13836441206501282,
+      0.13931981407199395,
+      0.14045576858266623,
+      0.14179629234894017,
+      0.1426274715437727,
+      0.14336942055211738,
+      0.14286829579345672,
+      0.1424356386023991,
+      0.14136462417149911,
+      0.14198610391367866,
+      0.14118772998179155,
+      0.1394312179581961,
+      0.1377924900823759,
+      0.13236175766842792,
+      0.12105996222873143
+     ],
+     "predicted_proposition": [
+      0.15842977530725633,
+      0.18181817356370528,
+      0.18154283126910556,
+      0.17600088233411418,
+      0.16847615997919047,
+      0.160979229846119,
+      0.15714593910369243,
+      0.1502769012981029,
+      0.14084188502071032,
+      0.1397616121408015,
+      0.1415995560695286,
+      0.14246483136295518,
+      0.14014157190108548,
+      0.13846007503345867,
+      0.13758579684004674,
+      0.13682186554802017,
+      0.13834908681716937,
+      0.13930481708720754,
+      0.1404404975341643,
+      0.14178178112714376,
+      0.14261257200456567,
+      0.14335527338049656,
+      0.1428536980693547,
+      0.14242053388067444,
+      0.14135177982849234,
+      0.14197431356705212,
+      0.14117466184041588,
+      0.13941827111929872,
+      0.13777954008882465,
+      0.13234951131978426,
+      0.12104595567869625
+     ],
+     "max_abs_rel_err": 0.00014078360737412865,
+     "argmax_rel": 0.03333333333333333,
+     "max_measured": 0.1818366306400782
+    }
+   },
+   "shading_observed_argmax_rel_depth": [
+    0.9,
+    1.0
+   ],
+   "shading_colour": "#f4d2cb",
+   "n_pairs_shading": 85,
+   "mknn_baseline_k_over_m_minus_1": 0.009775171065493646,
+   "largest_baseline_leader_to": {
+    "lm": "bigscience__bloomz-7b1",
+    "rel_depth": 0.03333333333333333,
+    "value": 0.1818366306400782
+   },
+   "peak_squares": {
+    "bigscience__bloomz-560m": [
+     0.0,
+     0.1332407080838058
+    ],
+    "bigscience__bloomz-1b1": [
+     1.0,
+     0.12848044205213172
+    ],
+    "bigscience__bloomz-1b7": [
+     0.0,
+     0.17927992862113917
+    ],
+    "bigscience__bloomz-3b": [
+     0.0,
+     0.18139659269098088
+    ],
+    "bigscience__bloomz-7b1": [
+     0.03333333333333333,
+     0.1818366306400782
+    ]
+   },
+   "meta": {
+    "measured": "mean over 17 ViTs of max over ViT layers of the entry-wise permutation null mean (K=500); equals posthoc_null_structure.json profile (EXPLORATORY file) to 1e-12",
+    "predicted": "mean over 17 ViTs of max over ViT layers of sqrt(PR_A,u PR_B,v)/(m-1), Prop. 5 part 2",
+    "mknn_baseline": 0.009775171065493646
+   }
+  },
+  "llama1": {
+   "panel": "h",
+   "profiles": {
+    "huggyllama__llama-7b": {
+     "colour": "#bc849f",
+     "line_width_pt": 1.2,
+     "rel_depth": [
+      0.0,
+      0.03125,
+      0.0625,
+      0.09375,
+      0.125,
+      0.15625,
+      0.1875,
+      0.21875,
+      0.25,
+      0.28125,
+      0.3125,
+      0.34375,
+      0.375,
+      0.40625,
+      0.4375,
+      0.46875,
+      0.5,
+      0.53125,
+      0.5625,
+      0.59375,
+      0.625,
+      0.65625,
+      0.6875,
+      0.71875,
+      0.75,
+      0.78125,
+      0.8125,
+      0.84375,
+      0.875,
+      0.90625,
+      0.9375,
+      0.96875,
+      1.0
+     ],
+     "measured_permutation_mean": [
+      0.13197027165377742,
+      0.05362461724815231,
+      0.0606995978829286,
+      0.03069250465690804,
+      0.03639440797254143,
+      0.044618649739291104,
+      0.05036899350502582,
+      0.05568283712426788,
+      0.06280859422031257,
+      0.06835689981480508,
+      0.07218828025462368,
+      0.07655600823833066,
+      0.08788513807248133,
+      0.09935603024049175,
+      0.10585931966049576,
+      0.11572479860580168,
+      0.1260674069758354,
+      0.13710761470920482,
+      0.14772516247116993,
+      0.1580834079522205,
+      0.16251003132888475,
+      0.1661438903038819,
+      0.17020193108068965,
+      0.17458503954178833,
+      0.17713423105806098,
+      0.1812059413269176,
+      0.18343444680942278,
+      0.1843161634821638,
+      0.18469807622595827,
+      0.18388532348901757,
+      0.17954080523344262,
+      0.16746158353067786,
+      0.07295193297309696
+     ],
+     "predicted_proposition": [
+      0.13198482471196962,
+      0.05363071542463432,
+      0.06070465790183817,
+      0.030688305672782794,
+      0.03638880382602964,
+      0.044614723634094064,
+      0.050366003708482834,
+      0.0556817119864539,
+      0.06280874462490782,
+      0.06835608129199473,
+      0.07218653494648868,
+      0.0765544615222857,
+      0.08788404878774354,
+      0.09935669351905173,
+      0.10586113081824655,
+      0.1157279480088215,
+      0.12607338957236974,
+      0.13711622169137236,
+      0.14773528489479312,
+      0.15809118050054058,
+      0.162520071371618,
+      0.1661552094042265,
+      0.17021621688204253,
+      0.1746018952939438,
+      0.17715206000182976,
+      0.1812224534017988,
+      0.1834501959122725,
+      0.18433419882987973,
+      0.18471476844186957,
+      0.18390101390113262,
+      0.17955536440827258,
+      0.16747524382159742,
+      0.07293035840005102
+     ],
+     "max_abs_rel_err": 0.0002958243112916037,
+     "argmax_rel": 0.875,
+     "max_measured": 0.18469807622595827
+    },
+    "huggyllama__llama-13b": {
+     "colour": "#a35579",
+     "line_width_pt": 1.2,
+     "rel_depth": [
+      0.0,
+      0.025,
+      0.05,
+      0.075,
+      0.1,
+      0.125,
+      0.15,
+      0.175,
+      0.2,
+      0.225,
+      0.25,
+      0.275,
+      0.3,
+      0.325,
+      0.35,
+      0.375,
+      0.4,
+      0.425,
+      0.45,
+      0.475,
+      0.5,
+      0.525,
+      0.55,
+      0.575,
+      0.6,
+      0.625,
+      0.65,
+      0.675,
+      0.7,
+      0.725,
+      0.75,
+      0.775,
+      0.8,
+      0.825,
+      0.85,
+      0.875,
+      0.9,
+      0.925,
+      0.95,
+      0.975,
+      1.0
+     ],
+     "measured_permutation_mean": [
+      0.14429187706358174,
+      0.05153927468097813,
+      0.07164743233644409,
+      0.031040365715337793,
+      0.038115376649135245,
+      0.047412433975514694,
+      0.05309541426742372,
+      0.06222677401635255,
+      0.0676682691821904,
+      0.07170335181116497,
+      0.07553588829071313,
+      0.08100899771974862,
+      0.09017251333250191,
+      0.09940468914954695,
+      0.11304935675585902,
+      0.12225108816383654,
+      0.1353852916035559,
+      0.14429926411997618,
+      0.15319336105487347,
+      0.1604937101170166,
+      0.1648662265572169,
+      0.16943877113862763,
+      0.17376215412667073,
+      0.1788648877032842,
+      0.1805795919309785,
+      0.18523744398604272,
+      0.18794111221414964,
+      0.19064905941344096,
+      0.19370025136359398,
+      0.1963363547286415,
+      0.19800464393104922,
+      0.20038543113587903,
+      0.20118944886167361,
+      0.20146719201358798,
+      0.2022717914543738,
+      0.20114115980935848,
+      0.19790749392360654,
+      0.19411899352468673,
+      0.18633643005745423,
+      0.17033052568436402,
+      0.08098455440007446
+     ],
+     "predicted_proposition": [
+      0.1442697641190927,
+      0.051526608703814994,
+      0.07163373903627773,
+      0.031035242497397916,
+      0.03811311712897464,
+      0.04741080829188199,
+      0.05309397014150691,
+      0.0622254475084134,
+      0.06766560284313497,
+      0.07170099066823078,
+      0.07553304964440491,
+      0.08100516212451246,
+      0.09016685949571684,
+      0.09939891265434919,
+      0.11304324315428861,
+      0.12224351137118197,
+      0.13537990273410513,
+      0.14429387552170184,
+      0.1531873381588667,
+      0.16048730639775347,
+      0.164858408686439,
+      0.16943252933108602,
+      0.1737576605758629,
+      0.17886162721562157,
+      0.1805758902074522,
+      0.18523058354839453,
+      0.18793542554277765,
+      0.19064351623171383,
+      0.19369579540585247,
+      0.1963306946936296,
+      0.19799873267274096,
+      0.20038012207285572,
+      0.20118441312557742,
+      0.20146349489223936,
+      0.20226806909339412,
+      0.2011378082116526,
+      0.19790478504937128,
+      0.19411535442078107,
+      0.18633101637783026,
+      0.17032353137853112,
+      0.08098714514631136
+     ],
+     "max_abs_rel_err": 0.0002458142983161604,
+     "argmax_rel": 0.85,
+     "max_measured": 0.2022717914543738
+    },
+    "huggyllama__llama-30b": {
+     "colour": "#882255",
+     "line_width_pt": 1.6,
+     "rel_depth": [
+      0.0,
+      0.016666666666666666,
+      0.03333333333333333,
+      0.05,
+      0.06666666666666667,
+      0.08333333333333333,
+      0.1,
+      0.11666666666666667,
+      0.13333333333333333,
+      0.15,
+      0.16666666666666666,
+      0.18333333333333332,
+      0.2,
+      0.21666666666666667,
+      0.23333333333333334,
+      0.25,
+      0.26666666666666666,
+      0.2833333333333333,
+      0.3,
+      0.31666666666666665,
+      0.3333333333333333,
+      0.35,
+      0.36666666666666664,
+      0.38333333333333336,
+      0.4,
+      0.4166666666666667,
+      0.43333333333333335,
+      0.45,
+      0.4666666666666667,
+      0.48333333333333334,
+      0.5,
+      0.5166666666666667,
+      0.5333333333333333,
+      0.55,
+      0.5666666666666667,
+      0.5833333333333334,
+      0.6,
+      0.6166666666666667,
+      0.6333333333333333,
+      0.65,
+      0.6666666666666666,
+      0.6833333333333333,
+      0.7,
+      0.7166666666666667,
+      0.7333333333333333,
+      0.75,
+      0.7666666666666667,
+      0.7833333333333333,
+      0.8,
+      0.8166666666666667,
+      0.8333333333333334,
+      0.85,
+      0.8666666666666667,
+      0.8833333333333333,
+      0.9,
+      0.9166666666666666,
+      0.9333333333333333,
+      0.95,
+      0.9666666666666667,
+      0.9833333333333333,
+      1.0
+     ],
+     "measured_permutation_mean": [
+      0.14675055235994802,
+      0.0471545866472647,
+      0.06389956995072137,
+      0.09575202484900282,
+      0.036932161623993966,
+      0.043013388267054885,
+      0.048990683129598596,
+      0.05239961407681857,
+      0.05659358995270885,
+      0.06231278763708131,
+      0.06935442104166069,
+      0.06562111138174055,
+      0.06990449156968541,
+      0.07550647537275698,
+      0.08043720038863784,
+      0.085623572624468,
+      0.09584387895505272,
+      0.099446752620265,
+      0.10268409985820343,
+      0.10965468173482219,
+      0.11548269238785636,
+      0.12381243052811416,
+      0.1286471446811271,
+      0.13791717685116173,
+      0.14795573904752676,
+      0.15452163924564963,
+      0.1671213799859475,
+      0.17535035296691082,
+      0.18220263369096187,
+      0.18714264133924424,
+      0.18989801450407595,
+      0.19348500586077097,
+      0.19748638474585917,
+      0.19924993523162784,
+      0.20147142848393906,
+      0.20426468620849725,
+      0.2041130452314019,
+      0.20617808203885962,
+      0.20828161846216026,
+      0.2097674983180434,
+      0.21107817458541597,
+      0.21293423342159626,
+      0.21435228459920205,
+      0.2153845779498592,
+      0.21607353010998598,
+      0.21668244523086133,
+      0.2173736227481674,
+      0.21809349537681466,
+      0.21824004040954992,
+      0.21777692640153326,
+      0.21755275740942775,
+      0.21715084308808594,
+      0.215742230138685,
+      0.21392708234147584,
+      0.20986187406583193,
+      0.20766221235451604,
+      0.204422111894235,
+      0.19974218868987825,
+      0.19243903956354835,
+      0.1790967815805333,
+      0.1149439704477107
+     ],
+     "predicted_proposition": [
+      0.14673369071075262,
+      0.04714922207472425,
+      0.06389549279883232,
+      0.09574883670545567,
+      0.03692389511117274,
+      0.043005482983917355,
+      0.04898152438376694,
+      0.05239205796452162,
+      0.056588129338052344,
+      0.06230999319854901,
+      0.06935360114896498,
+      0.06561924170882895,
+      0.06990190494231008,
+      0.07550342629380039,
+      0.08043539635653875,
+      0.08562188716721116,
+      0.09584657438539576,
+      0.09944947057818783,
+      0.1026876358705562,
+      0.1096582976637442,
+      0.11548697324365836,
+      0.12381639457948837,
+      0.12865212636698897,
+      0.13792325309166212,
+      0.1479622183264671,
+      0.1545267491460666,
+      0.16712589990877838,
+      0.17535427407061105,
+      0.18220649275024614,
+      0.1871462344105859,
+      0.18990383522635468,
+      0.19348973358985566,
+      0.19749054964004187,
+      0.19925669115194988,
+      0.2014780503896273,
+      0.20427109143348066,
+      0.20411809611328893,
+      0.2061828838255724,
+      0.2082867289283614,
+      0.20977159063911352,
+      0.21108202038381654,
+      0.21293706839493798,
+      0.2143549204638619,
+      0.2153871249612607,
+      0.21607620977488698,
+      0.21668346217701953,
+      0.21737421570629728,
+      0.2180936520915221,
+      0.21824067401228245,
+      0.21777808584828107,
+      0.21755364342758193,
+      0.21715056782040362,
+      0.2157422105576948,
+      0.2139260705416536,
+      0.2098610476801842,
+      0.207662247082032,
+      0.20442274675093125,
+      0.19974495430245343,
+      0.19244215847717894,
+      0.17909908881359365,
+      0.11493522854823712
+     ],
+     "max_abs_rel_err": 0.00022387976123150466,
+     "argmax_rel": 0.8,
+     "max_measured": 0.21824004040954992
+    }
+   },
+   "shading_observed_argmax_rel_depth": [
+    0.75,
+    0.975
+   ],
+   "shading_colour": "#f4d2cb",
+   "n_pairs_shading": 51,
+   "mknn_baseline_k_over_m_minus_1": 0.009775171065493646,
+   "largest_baseline_leader_to": {
+    "lm": "huggyllama__llama-30b",
+    "rel_depth": 0.8,
+    "value": 0.21824004040954992
+   },
+   "peak_squares": {
+    "huggyllama__llama-7b": [
+     0.875,
+     0.18469807622595827
+    ],
+    "huggyllama__llama-13b": [
+     0.85,
+     0.2022717914543738
+    ],
+    "huggyllama__llama-30b": [
+     0.8,
+     0.21824004040954992
+    ]
+   },
+   "meta": {
+    "measured": "mean over 17 ViTs of max over ViT layers of the entry-wise permutation null mean (K=500, E npz); equals early/summary.json attribution/null_profile/cka_biased to 1e-12",
+    "predicted": "mean over 17 ViTs of max over ViT layers of sqrt(PR_A,u PR_B,v)/(m-1), PR from partB_features.json",
+    "mknn_baseline": 0.009775171065493646
+   }
+  },
+  "openllama": {
+   "panel": "i",
+   "profiles": {
+    "openlm-research__open_llama_3b": {
+     "colour": "#999842",
+     "line_width_pt": 1.2,
+     "rel_depth": [
+      0.0,
+      0.038461538461538464,
+      0.07692307692307693,
+      0.11538461538461539,
+      0.15384615384615385,
+      0.19230769230769232,
+      0.23076923076923078,
+      0.2692307692307692,
+      0.3076923076923077,
+      0.34615384615384615,
+      0.38461538461538464,
+      0.4230769230769231,
+      0.46153846153846156,
+      0.5,
+      0.5384615384615384,
+      0.5769230769230769,
+      0.6153846153846154,
+      0.6538461538461539,
+      0.6923076923076923,
+      0.7307692307692307,
+      0.7692307692307693,
+      0.8076923076923077,
+      0.8461538461538461,
+      0.8846153846153846,
+      0.9230769230769231,
+      0.9615384615384616,
+      1.0
+     ],
+     "measured_permutation_mean": [
+      0.1457037233706075,
+      0.06875246692052492,
+      0.06958181620083813,
+      0.05486321389137285,
+      0.07139745637090032,
+      0.08055990325171654,
+      0.03777238058411921,
+      0.044922506646564164,
+      0.05274131657692809,
+      0.05678664191536747,
+      0.061931588885012566,
+      0.0676035124223157,
+      0.0730102825419339,
+      0.07987878098891786,
+      0.08965629309535472,
+      0.09963756726237634,
+      0.11097400127472833,
+      0.12152459036555922,
+      0.12869283955693486,
+      0.13602777518956508,
+      0.142733711245317,
+      0.14657118926091725,
+      0.15109970297108336,
+      0.15571109715880815,
+      0.15926217462121262,
+      0.16359753999028923,
+      0.1216814976625014
+     ],
+     "predicted_proposition": [
+      0.1457163130765667,
+      0.06875068633747473,
+      0.06958722681773033,
+      0.0548685191240952,
+      0.07140260182201767,
+      0.08056305072409274,
+      0.03775997038382528,
+      0.04491027898855335,
+      0.05273034058788224,
+      0.05677669430765309,
+      0.061922239463155296,
+      0.06759513744259704,
+      0.07300385275759479,
+      0.07987096761063296,
+      0.08965081769882743,
+      0.09963697828236905,
+      0.11097723319397956,
+      0.12152909122564041,
+      0.12869488186872086,
+      0.13603177457397014,
+      0.14273809613794056,
+      0.14657645110429868,
+      0.15110377710959458,
+      0.15571557293046534,
+      0.1592689285981058,
+      0.16360822630307634,
+      0.12170225223291885
+     ],
+     "max_abs_rel_err": 0.0003286602231882263,
+     "argmax_rel": 0.9615384615384616,
+     "max_measured": 0.16359753999028923
+    },
+    "openlm-research__open_llama_7b": {
+     "colour": "#797930",
+     "line_width_pt": 1.2,
+     "rel_depth": [
+      0.0,
+      0.03125,
+      0.0625,
+      0.09375,
+      0.125,
+      0.15625,
+      0.1875,
+      0.21875,
+      0.25,
+      0.28125,
+      0.3125,
+      0.34375,
+      0.375,
+      0.40625,
+      0.4375,
+      0.46875,
+      0.5,
+      0.53125,
+      0.5625,
+      0.59375,
+      0.625,
+      0.65625,
+      0.6875,
+      0.71875,
+      0.75,
+      0.78125,
+      0.8125,
+      0.84375,
+      0.875,
+      0.90625,
+      0.9375,
+      0.96875,
+      1.0
+     ],
+     "measured_permutation_mean": [
+      0.15449498675568327,
+      0.06243258342519398,
+      0.049499344468738445,
+      0.030641139368849032,
+      0.039999881505799036,
+      0.05079010066220614,
+      0.06275790218958086,
+      0.07385286896271458,
+      0.06182391569545529,
+      0.04227673200348431,
+      0.05010589768263687,
+      0.05782035261893072,
+      0.06361593100734922,
+      0.06828297804028373,
+      0.07520395552942057,
+      0.08204408282778548,
+      0.08878674498401926,
+      0.09904936015257451,
+      0.11113390730396178,
+      0.1221803298756197,
+      0.13180501566683234,
+      0.13864743232318763,
+      0.1446790800932068,
+      0.1506577602021723,
+      0.15402727749317918,
+      0.15886493601106902,
+      0.16303738017617625,
+      0.16664601643399973,
+      0.1698031546737896,
+      0.17337690000397887,
+      0.1740865103694936,
+      0.17369674252519118,
+      0.12087140572335811
+     ],
+     "predicted_proposition": [
+      0.15449484708908168,
+      0.06242175100842823,
+      0.04948989264581266,
+      0.03063158424528573,
+      0.0399902724941393,
+      0.05078067621113452,
+      0.06274852002036699,
+      0.07384275422864651,
+      0.06181189974908783,
+      0.042267595613832476,
+      0.05009652909122291,
+      0.05780853813237416,
+      0.0636032044539176,
+      0.0682677064586739,
+      0.07518972413845551,
+      0.08202911620977953,
+      0.08877047820557997,
+      0.09903527538879514,
+      0.11112096499372981,
+      0.12216619866159906,
+      0.1317912883359903,
+      0.13863687261274618,
+      0.1446718447274083,
+      0.15064869618938648,
+      0.1540204805600489,
+      0.15886318849327805,
+      0.16303580233360176,
+      0.16664371816165452,
+      0.16980155618809362,
+      0.17337484791848354,
+      0.17408615788085224,
+      0.17369496920076863,
+      0.12086858946014836
+     ],
+     "max_abs_rel_err": 0.0003119369695929741,
+     "argmax_rel": 0.9375,
+     "max_measured": 0.1740865103694936
+    },
+    "openlm-research__open_llama_13b": {
+     "colour": "#5A5A1E",
+     "line_width_pt": 1.6,
+     "rel_depth": [
+      0.0,
+      0.025,
+      0.05,
+      0.075,
+      0.1,
+      0.125,
+      0.15,
+      0.175,
+      0.2,
+      0.225,
+      0.25,
+      0.275,
+      0.3,
+      0.325,
+      0.35,
+      0.375,
+      0.4,
+      0.425,
+      0.45,
+      0.475,
+      0.5,
+      0.525,
+      0.55,
+      0.575,
+      0.6,
+      0.625,
+      0.65,
+      0.675,
+      0.7,
+      0.725,
+      0.75,
+      0.775,
+      0.8,
+      0.825,
+      0.85,
+      0.875,
+      0.9,
+      0.925,
+      0.95,
+      0.975,
+      1.0
+     ],
+     "measured_permutation_mean": [
+      0.15381896446133891,
+      0.05787910018224815,
+      0.05337769163202813,
+      0.046513004423624556,
+      0.041332809410072925,
+      0.05121398546348738,
+      0.06436891806538758,
+      0.07757869658286419,
+      0.09329869141807412,
+      0.10793396761698297,
+      0.1104772719967465,
+      0.04916837381665923,
+      0.05540938450593076,
+      0.06401643597346017,
+      0.060859663086651715,
+      0.06723572094709239,
+      0.07262538124667191,
+      0.07749132322877271,
+      0.081759968717836,
+      0.08962919012993706,
+      0.09456399403624925,
+      0.10425268124656412,
+      0.11406482234103461,
+      0.12139338364483905,
+      0.13012569440203142,
+      0.13566195735862846,
+      0.14774149402988385,
+      0.1524076525955662,
+      0.1559442019400286,
+      0.15984301048680924,
+      0.16385078402821293,
+      0.166218249803867,
+      0.16968336199205514,
+      0.17412669162982247,
+      0.17679605994923478,
+      0.17947009530752364,
+      0.18148140046709474,
+      0.1830935421304452,
+      0.18604039582756024,
+      0.1821343662778074,
+      0.13047043468399114
+     ],
+     "predicted_proposition": [
+      0.1538189386705959,
+      0.057884427733613145,
+      0.05338030727054181,
+      0.04650284972418836,
+      0.04131462542123553,
+      0.05119650630913868,
+      0.06435136759764036,
+      0.07755965742695294,
+      0.0932802798500051,
+      0.10791785204107622,
+      0.11046590915089198,
+      0.049155681578257955,
+      0.055395600027985444,
+      0.06400296278163353,
+      0.06085027798387584,
+      0.06722522864471363,
+      0.0726143795750724,
+      0.07748112903419249,
+      0.08175029170916605,
+      0.08961810520482943,
+      0.09455337471768967,
+      0.10424139442672872,
+      0.1140542892738396,
+      0.12138451735136092,
+      0.13011558456429764,
+      0.1356518519488046,
+      0.14772931722341057,
+      0.1523961122413557,
+      0.15593230871897917,
+      0.15983020605143117,
+      0.16383772891088833,
+      0.16620631871832475,
+      0.16966987788985147,
+      0.17411473767059582,
+      0.17678433398849233,
+      0.17945958098389628,
+      0.18147171778253435,
+      0.18308450397524,
+      0.186030974114343,
+      0.18212431618609723,
+      0.13046413329898576
+     ],
+     "max_abs_rel_err": 0.0004401344233910809,
+     "argmax_rel": 0.95,
+     "max_measured": 0.18604039582756024
+    }
+   },
+   "shading_observed_argmax_rel_depth": [
+    0.84375,
+    0.9615384615384616
+   ],
+   "shading_colour": "#f4d2cb",
+   "n_pairs_shading": 51,
+   "mknn_baseline_k_over_m_minus_1": 0.009775171065493646,
+   "largest_baseline_leader_to": {
+    "lm": "openlm-research__open_llama_13b",
+    "rel_depth": 0.95,
+    "value": 0.18604039582756024
+   },
+   "peak_squares": {
+    "openlm-research__open_llama_3b": [
+     0.9615384615384616,
+     0.16359753999028923
+    ],
+    "openlm-research__open_llama_7b": [
+     0.9375,
+     0.1740865103694936
+    ],
+    "openlm-research__open_llama_13b": [
+     0.95,
+     0.18604039582756024
+    ]
+   },
+   "meta": {
+    "measured": "mean over 17 ViTs of max over ViT layers of the entry-wise permutation null mean (K=500, E npz key cka_biased.entry_null_mean)",
+    "predicted": "mean over 17 ViTs of max over ViT layers of sqrt(PR_A,u PR_B,v)/(m-1), PR from partB_features_ol.json per_pre/prh_clip+l2/lm/<lm>/PR and vit/<vit>/PR",
+    "check": "argmax over layers equals x|nullprof|...|argmax_rel of the merged summary to 1e-12",
+    "mknn_baseline": 0.009775171065493646
+   }
+  }
+ },
+ "moved_to_text": {
+  "bloomz": {
+   "cka_layermax_Tr": {
+    "raw": 0.888,
+    "after": -0.294,
+    "s_cal": -0.024
+   },
+   "cka_layermax_p": {
+    "raw": 0.041666666666666664,
+    "after": 0.6833333333333333,
+    "s_cal": 0.5083333333333333
+   },
+   "cka_ctm_Tr": {
+    "after": 0.724,
+    "s_cal": 0.8
+   },
+   "cka_fixed_r1_Tr": {
+    "raw": 0.765,
+    "after": 0.924,
+    "s_cal": 0.918
+   },
+   "cka_fixed_r05_Tr": {
+    "raw": 0.876,
+    "after": 0.694,
+    "s_cal": 0.7
+   },
+   "mknn_Tr": {
+    "raw": 1.0,
+    "after": 0.994,
+    "s_cal": 1.0
+   },
+   "mknn_max_abs_change": 0.0059,
+   "debiased_Tr": {
+    "raw": 0.829,
+    "after": 0.835,
+    "s_cal": 0.835
+   },
+   "debiased_max_abs_change": 0.0059,
+   "rise_smallest_to_largest": {
+    "c_alpha": 0.0484,
+    "observed_T": 0.0478,
+    "Bbar": 0.0486
+   },
+   "sel_pair_threshold_range": [
+    0.1069,
+    0.1213
+   ],
+   "c_alpha_minus_sel_pair_at_largest": 0.0625,
+   "offset_calpha_minus_Bbar": {
+    "n": 85,
+    "mean": 0.002071010934035906,
+    "min": 0.001698789568125747,
+    "max": 0.0028087362731665927
+   },
+   "largest_baseline_rel_depth_by_size": {
+    "bigscience__bloomz-560m": 0.0,
+    "bigscience__bloomz-1b1": 1.0,
+    "bigscience__bloomz-1b7": 0.0,
+    "bigscience__bloomz-3b": 0.0,
+    "bigscience__bloomz-7b1": 0.0333
+   },
+   "observed_argmax_rel_depth_range": [
+    0.9,
+    1.0
+   ],
+   "max_abs_rel_err_measured_vs_prop": 0.00014685492982102755
+  },
+  "llama1": {
+   "cka_layermax_Tr": {
+    "raw": 0.676,
+    "after": -1.0,
+    "s_cal": -0.853
+   },
+   "cka_layermax_p": {
+    "raw": 0.16666666666666666,
+    "after": 1.0,
+    "s_cal": 1.0
+   },
+   "cka_ctm_Tr": {
+    "after": -0.882,
+    "s_cal": -0.882
+   },
+   "cka_fixed_r1_Tr": {
+    "raw": 1.0,
+    "after": 1.0,
+    "s_cal": 1.0
+   },
+   "cka_fixed_r05_Tr": {
+    "raw": 1.0,
+    "after": 0.647,
+    "s_cal": 0.971
+   },
+   "mknn_Tr": {
+    "raw": 0.412,
+    "after": 0.382,
+    "s_cal": 0.382
+   },
+   "mknn_max_abs_change": 0.0294,
+   "debiased_Tr": {
+    "raw": -0.382,
+    "after": -0.382,
+    "s_cal": -0.382
+   },
+   "debiased_max_abs_change": 0.0,
+   "rise_smallest_to_largest": {
+    "c_alpha": 0.0334,
+    "observed_T": 0.014,
+    "Bbar": 0.0335
+   },
+   "sel_pair_threshold_range": [
+    0.1697,
+    0.2157
+   ],
+   "c_alpha_minus_sel_pair_at_largest": 0.0043,
+   "offset_calpha_minus_Bbar": {
+    "mean": 0.0018063830383749462,
+    "median_abs": 0.0017952445652623106,
+    "min": 0.0015480920065000237,
+    "max": 0.0021354789515074246,
+    "pearson": 0.9999982984144454,
+    "n_calpha_larger_size_higher": "51/51"
+   },
+   "largest_baseline_rel_depth_by_size": {
+    "huggyllama__llama-7b": 0.875,
+    "huggyllama__llama-13b": 0.85,
+    "huggyllama__llama-30b": 0.8
+   },
+   "observed_argmax_rel_depth_range": [
+    0.75,
+    0.975
+   ],
+   "max_abs_rel_err_measured_vs_prop": 0.0002958243112916037
+  },
+  "openllama": {
+   "cka_layermax_Tr": {
+    "raw": 0.882,
+    "after": -0.588,
+    "s_cal": 0.176
+   },
+   "cka_layermax_p": {
+    "raw": 0.16666666666666666,
+    "after": 0.8333333333333334,
+    "s_cal": 0.5
+   },
+   "cka_ctm_Tr": {
+    "after": -0.147,
+    "s_cal": 0.206
+   },
+   "cka_fixed_r1_Tr": {
+    "raw": 0.5,
+    "after": 0.647,
+    "s_cal": 0.559
+   },
+   "cka_fixed_r05_Tr": {
+    "raw": 0.676,
+    "after": 0.5,
+    "s_cal": 0.5
+   },
+   "mknn_Tr": {
+    "raw": 1.0,
+    "after": 1.0,
+    "s_cal": 1.0
+   },
+   "mknn_max_abs_change": 0.0,
+   "debiased_Tr": {
+    "raw": 0.382,
+    "after": 0.382,
+    "s_cal": 0.441
+   },
+   "debiased_max_abs_change": 0.0588,
+   "rise_smallest_to_largest": {
+    "c_alpha": 0.0224,
+    "observed_T": 0.0158,
+    "Bbar": 0.0224
+   },
+   "sel_pair_threshold_range": [
+    0.1455,
+    0.1717
+   ],
+   "c_alpha_minus_sel_pair_at_largest": 0.0162,
+   "offset_calpha_minus_Bbar": {
+    "all_51_pairs": {
+     "min": 0.0016174659277665981,
+     "max": 0.0022572850574089365,
+     "median": 0.0019001203610493345,
+     "mean": 0.0018901852900025972
+    },
+    "new_13b_17_pairs": {
+     "min": 0.0016442493008479997,
+     "max": 0.0022572850574089365,
+     "median": 0.0018844044983174768,
+     "src_median": "~/hrh_v2_stage1_20261008/results/S1_2_layermax_openllama/layermax_openllama_summary.json headline/PO2ai|prh_clip+l2|median",
+     "src_range": "~/hrh_v2_stage1_20261008/results/S1_2_layermax_openllama/layermax_openllama_summary.json reviewer_posthoc/PO2ai_range/prh_clip+l2"
+    },
+    "n_calpha_larger_size_higher_recomputed": "51/51",
+    "PO2aii": {
+     "x": 33,
+     "n": 33,
+     "verdict": "holds",
+     "src": "~/hrh_v2_stage1_20261008/results/S1_2_layermax_openllama/layermax_openllama_summary.json embedded/E_summary/v/PO2aii|prh_clip+l2|{x,n,verdict}"
+    }
+   },
+   "largest_baseline_rel_depth_by_size": {
+    "openlm-research__open_llama_3b": 0.9615,
+    "openlm-research__open_llama_7b": 0.9375,
+    "openlm-research__open_llama_13b": 0.95
+   },
+   "observed_argmax_rel_depth_range": [
+    0.8438,
+    0.9615
+   ],
+   "max_abs_rel_err_measured_vs_prop": 0.0004401344233910809,
+   "P-O2a(ii)_order": {
+    "x": 33,
+    "n": 33,
+    "verdict": "holds",
+    "src": "~/hrh_v2_stage1_20261008/results/S1_2_layermax_openllama/layermax_openllama_summary.json embedded/E_summary/v/PO2aii|prh_clip+l2|{x,n,verdict}"
+   }
+  },
+  "pooled": {
+   "max_abs_change_mknn_all_families": 0.0294,
+   "max_abs_change_debiased_all_families": 0.0588,
+   "max_rel_err_all_families": 0.0004401344233910809,
+   "row2_max_se_not_drawn": 0.0176,
+   "mknn_baseline_k_over_m_minus_1": {
+    "value": 0.0098,
+    "k": 10,
+    "m": 1024,
+    "source": "Proposition 4 (E_pi s_N = k/(m-1)); drawn as the blue line of (g-i), row3_profiles.<fam>.mknn_baseline_k_over_m_minus_1"
+   },
+   "min_layers_where_dots_overlap": 61,
+   "bloomz_band_5pct_layermax_after": [
+    -0.7999999999999999,
+    0.7999999999999999
+   ]
+  }
+ },
+ "on_panel_numbers_v6_removed": {
+  "endpoints_bloomz": {
+   "panel": "a",
+   "printed_in_v6_not_drawn_in_v8": {
+    "raw": "0.89",
+    "after": "\u22120.29"
+   },
+   "what": "layer-max CKA trend Tr before calibration (raw ring) and after subtraction of the permutation mean (dot), printed above the top row",
+   "numbers_json_key": "row1_trends.bloomz.rows.cka_biased|full.{raw,after_subtraction}.Tr",
+   "source": {
+    "raw": "~/hrh_v2_stage1_20261008/results/S1_2_layermax/layermax_summary.json :: per_pre/prh_clip+l2/trends/cka_biased/full|s_obs/tr_lm",
+    "after": "~/hrh_v2_stage1_20261008/results/S1_2_layermax/layermax_summary.json :: per_pre/prh_clip+l2/trends/cka_biased/full|uncensored/tr_lm"
+   }
+  },
+  "endpoints_llama1": {
+   "panel": "b",
+   "printed_in_v6_not_drawn_in_v8": {
+    "raw": "0.68",
+    "after": "\u22121.00"
+   },
+   "what": "layer-max CKA trend Tr before calibration (raw ring) and after subtraction of the permutation mean (dot), printed above the top row",
+   "numbers_json_key": "row1_trends.llama1.rows.cka_biased|full.{raw,after_subtraction}.Tr",
+   "source": {
+    "raw": "~/hrh_v2_stage1_20261008/results/S1_2_layermax_llama/early/summary.json :: per_pre/prh_clip+l2/trends_L/cka_biased|full|s_obs",
+    "after": "~/hrh_v2_stage1_20261008/results/S1_2_layermax_llama/early/summary.json :: per_pre/prh_clip+l2/trends_L/cka_biased|full|uncensored"
+   }
+  },
+  "endpoints_openllama": {
+   "panel": "c",
+   "printed_in_v6_not_drawn_in_v8": {
+    "raw": "0.88",
+    "after": "\u22120.59"
+   },
+   "what": "layer-max CKA trend Tr before calibration (raw ring) and after subtraction of the permutation mean (dot), printed above the top row",
+   "numbers_json_key": "row1_trends.openllama.rows.cka_biased|full.{raw,after_subtraction}.Tr",
+   "source": {
+    "raw": "~/hrh_v2_stage1_20261008/results/S1_2_layermax_openllama/layermax_openllama_summary.json :: embedded/E_summary/v/tr|prh_clip+l2|cka_biased|full|raw",
+    "after": "~/hrh_v2_stage1_20261008/results/S1_2_layermax_openllama/layermax_openllama_summary.json :: embedded/E_summary/v/tr|prh_clip+l2|cka_biased|full|unc"
+   }
+  },
+  "p_note_bc": {
+   "panel": "x label of (c)",
+   "printed_in_v6_not_drawn_in_v8": "(b, c) exact one-sided p >= 1/6",
+   "what": "smallest attainable one-sided p with three sizes (3! = 6 orderings); a design bound, asserted equal to the smallest p over every LLaMA-1 and OpenLLaMA trend",
+   "value": 0.16666666666666666,
+   "numbers_json_key": "row1_trends.{llama1,openllama}.rows.*.*.p_one_sided_exact"
+  }
+ },
+ "on_panel_numbers": {
+  "note": "v8: no result number is drawn (tick labels and the size keys only); the v6 on-panel numbers are listed under on_panel_numbers_v6_removed with sources"
+ },
+ "results_text_numbers": [
+  {
+   "id": "tr_layermax_bloomz",
+   "statement": "BLOOMZ: layer-max CKA trend Tr before calibration, after subtraction of the permutation mean, under s_cal; 95% interval and exact one-sided p after subtraction",
+   "value": {
+    "raw": 0.888,
+    "after": -0.294,
+    "s_cal": -0.024,
+    "after_ci95": [
+     -0.406,
+     -0.182
+    ],
+    "after_p": 0.6833333333333333,
+    "raw_p": 0.041666666666666664
+   },
+   "numbers_json_key": "row1_trends.bloomz.rows.cka_biased|full.{raw,after_subtraction,s_cal}",
+   "source": {
+    "raw": "~/hrh_v2_stage1_20261008/results/S1_2_layermax/layermax_summary.json :: per_pre/prh_clip+l2/trends/cka_biased/full|s_obs/tr_lm",
+    "after": "~/hrh_v2_stage1_20261008/results/S1_2_layermax/layermax_summary.json :: per_pre/prh_clip+l2/trends/cka_biased/full|uncensored/tr_lm",
+    "s_cal": "~/hrh_v2_stage1_20261008/results/S1_2_layermax/layermax_summary.json :: per_pre/prh_clip+l2/trends/cka_biased/full|s_cal/tr_lm"
+   },
+   "in_v4_text": "Sec. 5.4 text and Figure 3 caption (0.89/-0.29/-0.02, 0.68/-1.00/-0.85, 0.88/-0.59/0.18)"
+  },
+  {
+   "id": "tr_layermax_llama1",
+   "statement": "LLaMA-1: layer-max CKA trend Tr before calibration, after subtraction of the permutation mean, under s_cal; 95% interval and exact one-sided p after subtraction",
+   "value": {
+    "raw": 0.676,
+    "after": -1.0,
+    "s_cal": -0.853,
+    "after_ci95": [
+     -1.0,
+     -1.0
+    ],
+    "after_p": 1.0,
+    "raw_p": 0.16666666666666666
+   },
+   "numbers_json_key": "row1_trends.llama1.rows.cka_biased|full.{raw,after_subtraction,s_cal}",
+   "source": {
+    "raw": "~/hrh_v2_stage1_20261008/results/S1_2_layermax_llama/early/summary.json :: per_pre/prh_clip+l2/trends_L/cka_biased|full|s_obs",
+    "after": "~/hrh_v2_stage1_20261008/results/S1_2_layermax_llama/early/summary.json :: per_pre/prh_clip+l2/trends_L/cka_biased|full|uncensored",
+    "s_cal": "~/hrh_v2_stage1_20261008/results/S1_2_layermax_llama/early/summary.json :: per_pre/prh_clip+l2/trends_L/cka_biased|full|s_cal"
+   },
+   "in_v4_text": "Sec. 5.4 text and Figure 3 caption (0.89/-0.29/-0.02, 0.68/-1.00/-0.85, 0.88/-0.59/0.18)"
+  },
+  {
+   "id": "tr_layermax_openllama",
+   "statement": "OpenLLaMA: layer-max CKA trend Tr before calibration, after subtraction of the permutation mean, under s_cal; 95% interval and exact one-sided p after subtraction",
+   "value": {
+    "raw": 0.882,
+    "after": -0.588,
+    "s_cal": 0.176,
+    "after_ci95": [
+     -0.676,
+     -0.5
+    ],
+    "after_p": 0.8333333333333334,
+    "raw_p": 0.16666666666666666
+   },
+   "numbers_json_key": "row1_trends.openllama.rows.cka_biased|full.{raw,after_subtraction,s_cal}",
+   "source": {
+    "raw": "~/hrh_v2_stage1_20261008/results/S1_2_layermax_openllama/layermax_openllama_summary.json :: embedded/E_summary/v/tr|prh_clip+l2|cka_biased|full|raw",
+    "after": "~/hrh_v2_stage1_20261008/results/S1_2_layermax_openllama/layermax_openllama_summary.json :: embedded/E_summary/v/tr|prh_clip+l2|cka_biased|full|unc",
+    "s_cal": "~/hrh_v2_stage1_20261008/results/S1_2_layermax_openllama/layermax_openllama_summary.json :: embedded/E_summary/v/tr|prh_clip+l2|cka_biased|full|s_cal"
+   },
+   "in_v4_text": "Sec. 5.4 text and Figure 3 caption (0.89/-0.29/-0.02, 0.68/-1.00/-0.85, 0.88/-0.59/0.18)"
+  },
+  {
+   "id": "tr_ctm_bloomz",
+   "statement": "BLOOMZ: CKA calibrated per layer pair before the maximum, Tr after subtraction and under s_cal, 95% interval after subtraction",
+   "value": {
+    "after": 0.724,
+    "s_cal": 0.8,
+    "after_ci95": [
+     0.624,
+     0.812
+    ],
+    "after_p": 0.075
+   },
+   "numbers_json_key": "row1_trends.bloomz.rows.cka_biased|ctm.{after_subtraction,s_cal}",
+   "source": {
+    "after": "~/hrh_v2_stage1_20261008/results/S1_2_layermax_llama/indep/summary.json :: per_pre/prh_clip+l2/blocks/cka_b/ctm/bloomz_axis/uncensored (Tr, p_one); recomputed from S1_2_layermax/pairs/prh_clip+l2/<lm>__<vit>.npz entry arrays; no frozen CI; ViT bootstrap recomputed in f1_llama_data (B = 4000, seed 20261009)",
+    "s_cal": "~/hrh_v2_stage1_20261008/results/S1_2_layermax_llama/indep/summary.json :: per_pre/prh_clip+l2/blocks/cka_b/ctm/bloomz_axis/s_cal (Tr, p_one); recomputed from entry arrays; no frozen CI; ViT bootstrap recomputed in f1_llama_data (B = 4000, seed 20261009)"
+   },
+   "in_v4_text": "caption only (v5.1 F.3 caption: 0.72)",
+   "status": "exploratory (row label expl.)"
+  },
+  {
+   "id": "tr_ctm_llama1",
+   "statement": "LLaMA-1: CKA calibrated per layer pair before the maximum, Tr after subtraction and under s_cal, 95% interval after subtraction",
+   "value": {
+    "after": -0.882,
+    "s_cal": -0.882,
+    "after_ci95": [
+     -0.971,
+     -0.794
+    ],
+    "after_p": 1.0
+   },
+   "numbers_json_key": "row1_trends.llama1.rows.cka_biased|ctm.{after_subtraction,s_cal}",
+   "source": {
+    "after": "~/hrh_v2_stage1_20261008/results/S1_2_layermax_llama/early/summary.json :: per_pre/prh_clip+l2/trends_L/cka_biased|ctm|M_unc",
+    "s_cal": "~/hrh_v2_stage1_20261008/results/S1_2_layermax_llama/early/summary.json :: per_pre/prh_clip+l2/trends_L/cka_biased|ctm|M"
+   },
+   "in_v4_text": "Sec. 5.4 text (-0.88, P-L5)",
+   "status": "against frozen prediction P-L5 (failed)"
+  },
+  {
+   "id": "tr_ctm_openllama",
+   "statement": "OpenLLaMA: CKA calibrated per layer pair before the maximum, Tr after subtraction and under s_cal, 95% interval after subtraction",
+   "value": {
+    "after": -0.147,
+    "s_cal": 0.206,
+    "after_ci95": [
+     -0.382,
+     0.088
+    ],
+    "after_p": 0.6666666666666666
+   },
+   "numbers_json_key": "row1_trends.openllama.rows.cka_biased|ctm.{after_subtraction,s_cal}",
+   "source": {
+    "after": "~/hrh_v2_stage1_20261008/results/S1_2_layermax_openllama/layermax_openllama_summary.json :: embedded/E_summary/v/tr|prh_clip+l2|cka_biased|ctm|M_unc",
+    "s_cal": "~/hrh_v2_stage1_20261008/results/S1_2_layermax_openllama/layermax_openllama_summary.json :: embedded/E_summary/v/tr|prh_clip+l2|cka_biased|ctm|M"
+   },
+   "in_v4_text": "caption only (v5.1 F.3 caption: -0.15)",
+   "status": "descriptive"
+  },
+  {
+   "id": "tr_fixed_depth",
+   "statement": "CKA at a fixed depth (last layer, mid depth): every trend keeps its positive sign after subtraction and under s_cal (smallest value given)",
+   "value": {
+    "smallest": 0.5,
+    "by_family_and_row": {
+     "bloomz|cka_biased|fixed_r1.0": {
+      "raw": 0.765,
+      "after": 0.924,
+      "s_cal": 0.918
+     },
+     "bloomz|cka_biased|fixed_r0.5": {
+      "raw": 0.876,
+      "after": 0.694,
+      "s_cal": 0.7
+     },
+     "llama1|cka_biased|fixed_r1.0": {
+      "raw": 1.0,
+      "after": 1.0,
+      "s_cal": 1.0
+     },
+     "llama1|cka_biased|fixed_r0.5": {
+      "raw": 1.0,
+      "after": 0.647,
+      "s_cal": 0.971
+     },
+     "openllama|cka_biased|fixed_r1.0": {
+      "raw": 0.5,
+      "after": 0.647,
+      "s_cal": 0.559
+     },
+     "openllama|cka_biased|fixed_r0.5": {
+      "raw": 0.676,
+      "after": 0.5,
+      "s_cal": 0.5
+     }
+    }
+   },
+   "numbers_json_key": "row1_trends.<fam>.rows.cka_biased|fixed_r{1.0,0.5}.{raw,after_subtraction,s_cal}.Tr",
+   "source": {
+    "bloomz": "~/hrh_v2_stage1_20261008/results/S1_2_layermax/layermax_summary.json",
+    "llama1": "~/hrh_v2_stage1_20261008/results/S1_2_layermax_llama/early/summary.json",
+    "openllama": "~/hrh_v2_stage1_20261008/results/S1_2_layermax_openllama/layermax_openllama_summary.json"
+   },
+   "in_v4_text": "BLOOMZ in App. F 'BLOOMZ Trends' (0.88 -> 0.69, 0.76 -> 0.92); LLaMA-1 s_cal 0.97, 1.00 in Sec. 5.4; OpenLLaMA caption only"
+  },
+  {
+   "id": "mknn_debiased_change",
+   "statement": "largest change of the mKNN and debiased-CKA layer-max trends under calibration (after subtraction or s_cal against raw), per family and pooled",
+   "value": {
+    "mknn": {
+     "bloomz": 0.0059,
+     "llama1": 0.0294,
+     "openllama": 0.0
+    },
+    "debiased": {
+     "bloomz": 0.0059,
+     "llama1": 0.0,
+     "openllama": 0.0588
+    },
+    "pooled_mknn": 0.0294,
+    "pooled_debiased": 0.0588
+   },
+   "numbers_json_key": "moved_to_text.<fam>.{mknn,debiased}_max_abs_change; moved_to_text.pooled",
+   "source": {
+    "bloomz": {
+     "mknn": "~/hrh_v2_stage1_20261008/results/S1_2_layermax/layermax_summary.json"
+    },
+    "llama1": {
+     "mknn": "~/hrh_v2_stage1_20261008/results/S1_2_layermax_llama/early/summary.json"
+    },
+    "openllama": {
+     "mknn": "~/hrh_v2_stage1_20261008/results/S1_2_layermax_openllama/layermax_openllama_summary.json"
+    }
+   },
+   "in_v4_text": "LLaMA-1 mKNN 0.41 -> 0.38 and OpenLLaMA debiased <= 0.06 in Sec. 5.4; pooled 0.03 / 0.06 caption only",
+   "status": "debiased CKA rows exploratory"
+  },
+  {
+   "id": "bloomz_relabelling_band",
+   "statement": "BLOOMZ: one-sided 5% critical values of the exact relabelling null (120 relabellings of the five sizes) for the layer-max trend after subtraction; the observed -0.29 lies inside",
+   "value": {
+    "band": [
+     -0.8,
+     0.8
+    ],
+    "after": -0.294,
+    "p": 0.6833333333333333
+   },
+   "numbers_json_key": "row1_trends.bloomz.rows.cka_biased|full.after_subtraction.band_5pct",
+   "source": "~/hrh_v2_stage1_20261008/results/S1_2_layermax/layermax_summary.json :: per_pre/prh_clip+l2/trends/cka_biased/full|uncensored/tr_lm; one-sided 5% critical values of the exact relabelling null (120 relabellings of the 5 sizes), recomputed from the per-pair scores (f1_data.trend_stats / f1_llama_data.trend)",
+   "in_v4_text": "p = 0.68 in App. F 'BLOOMZ Trends'; band values nowhere (drawn only)"
+  },
+  {
+   "id": "p_three_sizes",
+   "statement": "LLaMA-1 and OpenLLaMA: with three sizes every trend has exact one-sided p >= 1/6",
+   "value": 0.16666666666666666,
+   "numbers_json_key": "on_panel_numbers_v6_removed.p_note_bc",
+   "source": "design bound (3! orderings), asserted against every p_one_sided_exact of (b, c)",
+   "in_v4_text": "Sec. 5.4 text and Figure 3 caption"
+  },
+  {
+   "id": "offset_calpha_minus_Bbar",
+   "statement": "threshold c_alpha of the maximum minus the largest baseline predicted from features, per pair: range per family and pooled",
+   "value": {
+    "by_family": {
+     "bloomz": {
+      "n": 85,
+      "min": 0.0017,
+      "max": 0.0028,
+      "mean": 0.0021
+     },
+     "llama1": {
+      "min": 0.0015,
+      "max": 0.0021,
+      "median_abs": 0.0018,
+      "mean": 0.0018
+     },
+     "openllama": {
+      "min": 0.0016,
+      "max": 0.0023,
+      "median": 0.0019,
+      "mean": 0.0019
+     }
+    },
+    "pooled_range": [
+     0.0015,
+     0.0028
+    ]
+   },
+   "numbers_json_key": "row2_thresholds.<fam>.offset_calpha_minus_Bbar",
+   "source": {
+    "bloomz": {
+     "c_alpha": "~/hrh_v2_stage1_20261008/results/S1_2_layermax/panel_layermax.parquet column c_alpha",
+     "Bbar": "~/hrh_v2_stage1_20261008/results/S1_2_layermax/indep/diag_null_profile.json prh_clip+l2/PR_profile; sqrt(max_u PR_lm,u * max_v PR_vit,v)/(m-1) (f1_data b_thresholds pred_largest_baseline)"
+    },
+    "llama1": {
+     "c_alpha": "same files, summaries/cka_biased/full/c_alpha (asserted against early/summary.json)",
+     "Bbar": "~/hrh_v2_stage1_20261008/results/S1_2_layermax_llama/partB/partB_features.json per_pre/prh_clip+l2/Bbar/<lm>/<vit> (mean asserted against pooled/mean_Bbar_by_lm)"
+    },
+    "openllama": {
+     "c_alpha": "early/pairs/prh_clip+l2/<lm>__<vit>.json summaries/cka_biased/full/c_alpha",
+     "Bbar": "partB/partB_features_ol.json per_pre/prh_clip+l2/Bbar/<lm>/<vit>",
+     "path_root": "~/hrh_v2_stage1_20261008/results/S1_2_layermax_openllama"
+    }
+   },
+   "in_v4_text": "BLOOMZ 0.0017-0.0028 in App. F 'BLOOMZ Thresholds'; LLaMA-1 median 0.0018 and OpenLLaMA median 0.0019 in Sec. 5.4; pooled 0.0015-0.0028 caption only"
+  },
+  {
+   "id": "calpha_order",
+   "statement": "c_alpha follows the order of the predicted largest baselines across sizes",
+   "value": {
+    "llama1": "51/51",
+    "openllama_PO2aii": "33/33"
+   },
+   "numbers_json_key": "row2_thresholds.llama1.offset_calpha_minus_Bbar.n_calpha_larger_size_higher; moved_to_text.openllama.P-O2a(ii)_order",
+   "source": {
+    "llama1": "recomputed from early/pairs and partB_features.json (f1_llama_data)",
+    "openllama": "~/hrh_v2_stage1_20261008/results/S1_2_layermax_openllama/layermax_openllama_summary.json embedded/E_summary/v/PO2aii|prh_clip+l2|{x,n,verdict}"
+   },
+   "in_v4_text": "Sec. 5.4 text (51 of 51, 33 of 33)"
+  },
+  {
+   "id": "levels_bloomz",
+   "statement": "BLOOMZ: means over vision models of the observed layer maximum, c_alpha and the largest baseline from features, by size, and their rise from the smallest to the largest size",
+   "value": {
+    "sizes": [
+     "0.56B",
+     "1.1B",
+     "1.7B",
+     "3B",
+     "7.1B"
+    ],
+    "observed_max": [
+     0.3363,
+     0.3592,
+     0.3546,
+     0.3665,
+     0.3841
+    ],
+    "c_alpha": [
+     0.1354,
+     0.1308,
+     0.1812,
+     0.1833,
+     0.1838
+    ],
+    "Bbar_from_features": [
+     0.1333,
+     0.1285,
+     0.1793,
+     0.1814,
+     0.1818
+    ],
+    "rise_smallest_to_largest": {
+     "c_alpha": 0.0484,
+     "observed_T": 0.0478,
+     "Bbar": 0.0486
+    },
+    "jump_1.1B_to_1.7B": {
+     "c_alpha": [
+      0.1308,
+      0.1812
+     ],
+     "observed_max": [
+      0.3592,
+      0.3546
+     ]
+    }
+   },
+   "numbers_json_key": "row2_thresholds.bloomz.{observed_layermax_cka_T,c_alpha_of_max,largest_baseline_Bbar_from_features}.mean; moved_to_text.bloomz.rise_smallest_to_largest",
+   "source": {
+    "T": "~/hrh_v2_stage1_20261008/results/S1_2_layermax/panel_layermax.parquet rows pre=prh_clip+l2, metric=cka_biased, subset=full, column s_obs (f1_data b_thresholds)",
+    "c_alpha": "~/hrh_v2_stage1_20261008/results/S1_2_layermax/panel_layermax.parquet column c_alpha",
+    "Bbar": "~/hrh_v2_stage1_20261008/results/S1_2_layermax/indep/diag_null_profile.json prh_clip+l2/PR_profile; sqrt(max_u PR_lm,u * max_v PR_vit,v)/(m-1) (f1_data b_thresholds pred_largest_baseline)"
+   },
+   "in_v4_text": "App. F 'BLOOMZ Thresholds' (0.135 -> 0.184, 0.336 -> 0.384, 0.131 -> 0.181)",
+   "status": "BLOOMZ: post hoc reading of the frozen run"
+  },
+  {
+   "id": "levels_llama1",
+   "statement": "LLaMA-1: means over vision models of the observed layer maximum, c_alpha and the largest baseline from features, by size, and their rise from the smallest to the largest size",
+   "value": {
+    "sizes": [
+     "7B",
+     "13B",
+     "30B"
+    ],
+    "observed_max": [
+     0.4268,
+     0.4331,
+     0.4408
+    ],
+    "c_alpha": [
+     0.1866,
+     0.2041,
+     0.22
+    ],
+    "Bbar_from_features": [
+     0.1847,
+     0.2023,
+     0.2182
+    ],
+    "rise_smallest_to_largest": {
+     "c_alpha": 0.0334,
+     "observed_T": 0.014,
+     "Bbar": 0.0335
+    }
+   },
+   "numbers_json_key": "row2_thresholds.llama1.{observed_layermax_cka_T,c_alpha_of_max,largest_baseline_Bbar_from_features}.mean; moved_to_text.llama1.rise_smallest_to_largest",
+   "source": {
+    "T": "~/hrh_v2_stage1_20261008/results/S1_2_layermax_llama/early/pairs/prh_clip+l2/<lm>__<vit>.json summaries/cka_biased/full/s_obs (means asserted against early/summary.json means/cka_biased/full|s_obs)",
+    "c_alpha": "same files, summaries/cka_biased/full/c_alpha (asserted against early/summary.json)",
+    "Bbar": "~/hrh_v2_stage1_20261008/results/S1_2_layermax_llama/partB/partB_features.json per_pre/prh_clip+l2/Bbar/<lm>/<vit> (mean asserted against pooled/mean_Bbar_by_lm)"
+   },
+   "in_v4_text": "Sec. 5.4 (Bbar 0.1847, 0.2023, 0.2182); rises in the Figure 3 caption only"
+  },
+  {
+   "id": "levels_openllama",
+   "statement": "OpenLLaMA: means over vision models of the observed layer maximum, c_alpha and the largest baseline from features, by size, and their rise from the smallest to the largest size",
+   "value": {
+    "sizes": [
+     "3B",
+     "7B",
+     "13B"
+    ],
+    "observed_max": [
+     0.4133,
+     0.4258,
+     0.4291
+    ],
+    "c_alpha": [
+     0.1655,
+     0.176,
+     0.1879
+    ],
+    "Bbar_from_features": [
+     0.1636,
+     0.1741,
+     0.186
+    ],
+    "rise_smallest_to_largest": {
+     "c_alpha": 0.0224,
+     "observed_T": 0.0158,
+     "Bbar": 0.0224
+    }
+   },
+   "numbers_json_key": "row2_thresholds.openllama.{observed_layermax_cka_T,c_alpha_of_max,largest_baseline_Bbar_from_features}.mean; moved_to_text.openllama.rise_smallest_to_largest",
+   "source": {
+    "T": "early/pairs/prh_clip+l2/<lm>__<vit>.json summaries/cka_biased/full/s_obs",
+    "c_alpha": "early/pairs/prh_clip+l2/<lm>__<vit>.json summaries/cka_biased/full/c_alpha",
+    "Bbar_partB": "partB/partB_features_ol.json per_pre/prh_clip+l2/Bbar/<lm>/<vit>",
+    "path_root": "~/hrh_v2_stage1_20261008/results/S1_2_layermax_openllama"
+   },
+   "in_v4_text": "App. 'OpenLLaMA' (Bbar ... 0.1860); rises in the Figure 3 caption only"
+  },
+  {
+   "id": "selected_pair_threshold",
+   "statement": "threshold of the layer pair attaining the maximum: range over sizes, and its gap below c_alpha at the largest size",
+   "value": {
+    "bloomz": {
+     "range": [
+      0.1069,
+      0.1213
+     ],
+     "c_alpha_minus_sel_at_largest": 0.0625
+    },
+    "llama1": {
+     "range": [
+      0.1697,
+      0.2157
+     ],
+     "c_alpha_minus_sel_at_largest": 0.0043
+    },
+    "openllama": {
+     "range": [
+      0.1455,
+      0.1717
+     ],
+     "c_alpha_minus_sel_at_largest": 0.0162
+    }
+   },
+   "numbers_json_key": "moved_to_text.<fam>.{sel_pair_threshold_range,c_alpha_minus_sel_pair_at_largest}; row2_thresholds.<fam>.threshold_of_selected_pair.mean",
+   "source": {
+    "bloomz": "~/hrh_v2_stage1_20261008/results/S1_2_layermax/panel_layermax.parquet column entry_c_alpha_at_argmax",
+    "llama1": "same files, summaries/cka_biased/full/entry_c_alpha_at_argmax",
+    "openllama": "early/pairs/prh_clip+l2/<lm>__<vit>.json summaries/cka_biased/full/entry_c_alpha_at_argmax"
+   },
+   "in_v4_text": "BLOOMZ 0.107-0.121 in App. F 'BLOOMZ Thresholds'; LLaMA-1 0.170-0.216 in App. F 'LLaMA-1 Axis'; OpenLLaMA 0.146-0.172 and the LLaMA-1 30B gap 0.004 caption only"
+  },
+  {
+   "id": "largest_baseline_depth",
+   "statement": "relative depth (language model) of the largest CKA baseline by size, and the range of depths of the observed maximum over all pairs (shading)",
+   "value": {
+    "bloomz": {
+     "largest_baseline_by_size": {
+      "0.56B": 0.0,
+      "1.1B": 1.0,
+      "1.7B": 0.0,
+      "3B": 0.0,
+      "7.1B": 0.0333
+     },
+     "observed_max_depths": [
+      0.9,
+      1.0
+     ],
+     "n_pairs": 85
+    },
+    "llama1": {
+     "largest_baseline_by_size": {
+      "7B": 0.875,
+      "13B": 0.85,
+      "30B": 0.8
+     },
+     "observed_max_depths": [
+      0.75,
+      0.975
+     ],
+     "n_pairs": 51
+    },
+    "openllama": {
+     "largest_baseline_by_size": {
+      "3B": 0.9615,
+      "7B": 0.9375,
+      "13B": 0.95
+     },
+     "observed_max_depths": [
+      0.8438,
+      0.9615
+     ],
+     "n_pairs": 51
+    }
+   },
+   "numbers_json_key": "moved_to_text.<fam>.{largest_baseline_rel_depth_by_size,observed_argmax_rel_depth_range}; row3_profiles.<fam>.{profiles.<lm>.argmax_rel,shading_observed_argmax_rel_depth}",
+   "source": {
+    "bloomz": "S1_2_layermax/pairs/prh_clip+l2/<lm>__<vit>.npz cka_biased.entry_null_mean (profile); panel_layermax.parquet column rel_A (shading)",
+    "llama1": "S1_2_layermax_llama/early/pairs/prh_clip+l2/<lm>__<vit>.npz cka_biased.entry_null_mean; <lm>__<vit>.json summaries/cka_biased/full/argmax_A / (L_A - 1)",
+    "openllama": "S1_2_layermax_openllama/early/pairs/prh_clip+l2/<lm>__<vit>.npz cka_biased.entry_null_mean (argmax asserted against layermax_openllama_summary.json embedded/E_summary/v/x|nullprof|prh_clip+l2|cka_biased|<size>|argmax_rel); json argmax_A / (L_A - 1)"
+   },
+   "in_v4_text": "BLOOMZ 'first two layers at four of five sizes' and 112 of 136 maxima >= 0.9 in Sec. 5.4; LLaMA-1 0.80-0.88 in App. F 'LLaMA-1 Axis'; OpenLLaMA 0.94 in App. 'OpenLLaMA'"
+  },
+  {
+   "id": "proposition_vs_permutation",
+   "statement": "largest relative error between the permutation means (dots) and Proposition baselines (lines) over every layer of every size; the dots cover the lines on models with this many layers or more",
+   "value": {
+    "by_family": {
+     "bloomz": 0.000147,
+     "llama1": 0.000296,
+     "openllama": 0.00044
+    },
+    "pooled": 0.00044,
+    "min_layers_where_dots_overlap": 61
+   },
+   "numbers_json_key": "moved_to_text.<fam>.max_abs_rel_err_measured_vs_prop; moved_to_text.pooled",
+   "source": "row3_profiles.<fam>.profiles.<lm>.{measured_permutation_mean,predicted_proposition} (sources in row3_profiles.<fam>.meta)",
+   "in_v4_text": "Sec. 5.4 gives the BLOOMZ median 0.078% over 80,960 layer pairs; the maximum 4.4e-4 caption only"
+  },
+  {
+   "id": "mknn_baseline",
+   "statement": "mKNN random-pairing baseline k/(m-1), the same at every layer and size (Proposition baselines)",
+   "value": {
+    "value": 0.0098,
+    "k": 10,
+    "m": 1024,
+    "source": "Proposition 4 (E_pi s_N = k/(m-1)); drawn as the blue line of (g-i), row3_profiles.<fam>.mknn_baseline_k_over_m_minus_1"
+   },
+   "numbers_json_key": "moved_to_text.pooled.mknn_baseline_k_over_m_minus_1",
+   "source": "k = 10, m = 1024 (design)",
+   "in_v4_text": "Table of chance k/(m-1) in App. (0.0098 column); caption only for this figure"
+  },
+  {
+   "id": "row2_se_not_drawn",
+   "statement": "largest s.e. over vision models of any mean in (d-f) (not drawn)",
+   "value": {
+    "max": 0.0176,
+    "where": "llama1 observed max, largest size",
+    "by_family_and_series": {
+     "bloomz": {
+      "Tse": 0.0133,
+      "case": 0.0134,
+      "selse": 0.0122
+     },
+     "llama1": {
+      "Tse": 0.0176,
+      "case": 0.0161,
+      "selse": 0.0169
+     },
+     "openllama": {
+      "Tse": 0.0168,
+      "case": 0.0137,
+      "selse": 0.0141
+     }
+    }
+   },
+   "numbers_json_key": "figure.row2_se; row2_thresholds.<fam>.*.se",
+   "source": "s.e. (ddof 1)/sqrt(17) over the 17 vision models of the per-pair values in row2_thresholds.<fam>.sources",
+   "in_v4_text": "caption only"
+  },
+  {
+   "id": "design_constants",
+   "statement": "design of the runs behind the figure (not results; may stay in the Appendix F text)",
+   "value": {
+    "dataset": "WIT",
+    "m": 1024,
+    "preprocessing": "prh_clip+l2",
+    "n_perm": 500,
+    "n_vision_models": 17,
+    "relabellings_bloomz": 120,
+    "boot_B_seed_bloomz_ctm": [
+     4000,
+     20261009
+    ],
+    "pairs": {
+     "bloomz": 85,
+     "llama1": 51,
+     "openllama": 51
+    }
+   },
+   "numbers_json_key": "inputs; vits",
+   "source": "App. F 'Layer Aggregation' first paragraph (m = 1024, n_pi = 500, 80,960 layer pairs)",
+   "in_v4_text": "already in App. F text (m, n_pi)"
+  }
+ ],
+ "caption_v6_tex": "\\textbf{Calibration after a maximum over layers subtracts a threshold that follows the largest random-pairing\nbaseline, in all three families (Proposition~\\ref{prop:baselines}, Corollary~\\ref{cor:aggregation}).}\nThis full version of Figure~\\ref{fig:exp-aggregation} has one column per language-model family.\n(a--c) Size trend $\\mathrm{Tr}$ of each score before calibration (ring), after subtraction of the permutation mean\n(dot) and under $s_{\\rm cal}$ (tick), with $95\\%$ intervals over vision models (tints). The grey bands in (a) span the\none-sided $5\\%$ critical values of the relabelling null over the BLOOMZ sizes.\n(d--f) Means over vision models of the observed layer maximum of CKA, of its threshold $c_\\alpha$ (squares), of the\nlargest baseline predicted from single-model features (grey line) and of the threshold of the layer pair attaining the\nmaximum (dotted line). On BLOOMZ the readings of (d) and (g) are post hoc (tag), whereas in the other two families\nthe grey line was frozen from features before scoring. Where the squares sit well above the dotted line, the threshold comes from layer\npairs other than the pair attaining the maximum.\n(g--i) CKA baseline of each language-model layer under random pairing, predicted from features by\nProposition~\\ref{prop:baselines} (one line per size) and measured by permutation (dots), with a square on the largest\nbaseline of each size and shading over the depths of the observed maximum. The mKNN baseline (blue) is the same at\nevery layer. Rows marked expl.\\ are exploratory.\nAppendices~\\ref{app:exp-layermax} and~\\ref{app:exp-openllama} give the values, the tests and the standard errors.",
+ "caption_v8": {
+  "tex": "\\caption{\\textbf{After a maximum over layers, the calibration threshold follows the largest random-pairing baseline in all three families (Proposition~\\ref{prop:baselines}, Corollary~\\ref{cor:aggregation}).} This full version of Figure~\\ref{fig:exp-aggregation} adds the rows for calibration before the maximum, CKA at the last layer, and debiased CKA. (a--c) The subtraction removes the permutation mean. (d--f) Squares give the threshold $c_\\alpha$, dashed lines the largest baseline predicted from features, and dotted lines the threshold of the selected layer pair. (g--i) CKA baseline of each language-model layer, predicted (lines) and measured (dots). Appendices~\\ref{app:exp-layermax} and~\\ref{app:exp-openllama} give the values.}",
+  "sha256": "84cb82a2dd9e960348dd9d05c497880a37dcc8ebe0f043da2da9313d3fbed26e",
+  "rule": "bold claim, decoding only, no result numbers",
+  "digit_check": {
+   "digits_found": [],
+   "allowed": {
+    "95": "interval level (design constant)",
+    "5": "level of the relabelling null (design)"
+   },
+   "result_numbers": [],
+   "chars_without_tex_markup": 595
+  },
+  "checks": {
+   "bold_sentence": "After a maximum over layers, the calibration threshold follows the largest random-pairing baseline in all three families (Proposition~\\ref{prop:baselines}, Corollary~\\ref{cor:aggregation}).",
+   "bold_words": 17,
+   "caption_words": 88,
+   "max_words": 100,
+   "max_bold_words": 26,
+   "digits_in_bold_outside_names_and_refs": [],
+   "digits_outside_math_and_refs": [],
+   "em_dash": false,
+   "colon_outside_math_and_refs": false,
+   "sentence_ending_on_it": [],
+   "sentence_opening_on_negation": [],
+   "allowed_digits": [
+    "95",
+    "5"
+   ]
+  }
+ },
+ "identity_vs_v5_1": {
+  "numbers_vs_v5_1": {
+   "compared": "row1_trends, row2_thresholds, row3_profiles (every v5.1 leaf)",
+   "leaves": 1529,
+   "max_abs_diff": 0.0,
+   "new_keys": [
+    "row3_profiles.bloomz.peak_squares",
+    "row3_profiles.llama1.peak_squares",
+    "row3_profiles.openllama.peak_squares"
+   ],
+   "style_strings_changed_v8": [
+    [
+     "row1_trends.bloomz.rows.cka_biased|full.colour",
+     "#D55E00",
+     "#CC3311"
+    ],
+    [
+     "row1_trends.bloomz.rows.cka_biased|full.ci_tint",
+     "#ecb78c",
+     "#e8a394"
+    ],
+    [
+     "row1_trends.bloomz.rows.cka_biased|ctm.colour",
+     "#D55E00",
+     "#CC3311"
+    ],
+    [
+     "row1_trends.bloomz.rows.cka_biased|ctm.ci_tint",
+     "#ecb78c",
+     "#e8a394"
+    ],
+    [
+     "row1_trends.bloomz.rows.cka_biased|fixed_r1.0.colour",
+     "#D55E00",
+     "#CC3311"
+    ],
+    [
+     "row1_trends.bloomz.rows.cka_biased|fixed_r1.0.ci_tint",
+     "#ecb78c",
+     "#e8a394"
+    ],
+    [
+     "row1_trends.bloomz.rows.cka_biased|fixed_r0.5.colour",
+     "#D55E00",
+     "#CC3311"
+    ],
+    [
+     "row1_trends.bloomz.rows.cka_biased|fixed_r0.5.ci_tint",
+     "#ecb78c",
+     "#e8a394"
+    ],
+    [
+     "row1_trends.bloomz.rows.mknn|full.colour",
+     "#0072B2",
+     "#0077BB"
+    ],
+    [
+     "row1_trends.bloomz.rows.mknn|full.ci_tint",
+     "#8cc0dc",
+     "#8cc2e0"
+    ],
+    [
+     "row1_trends.bloomz.rows.cka_debiased|full.label",
+     "debiased CKA, layer max (expl.)",
+     "debiased CKA, layer max"
+    ],
+    [
+     "row1_trends.bloomz.rows.cka_debiased|full.colour",
+     "#CC79A7",
+     "#EE3377"
+    ],
+    [
+     "row1_trends.bloomz.rows.cka_debiased|full.ci_tint",
+     "#e8c3d7",
+     "#f7a3c2"
+    ],
+    [
+     "row1_trends.bloomz.band",
+     "grey 5% relabelling band drawn",
+     "v8: not drawn; band_5pct values kept under after_subtraction (v6: grey 5% relabelling band drawn)"
+    ],
+    [
+     "row1_trends.llama1.rows.cka_biased|full.colour",
+     "#D55E00",
+     "#CC3311"
+    ],
+    [
+     "row1_trends.llama1.rows.cka_biased|full.ci_tint",
+     "#ecb78c",
+     "#e8a394"
+    ],
+    [
+     "row1_trends.llama1.rows.cka_biased|ctm.colour",
+     "#D55E00",
+     "#CC3311"
+    ],
+    [
+     "row1_trends.llama1.rows.cka_biased|ctm.ci_tint",
+     "#ecb78c",
+     "#e8a394"
+    ],
+    [
+     "row1_trends.llama1.rows.cka_biased|fixed_r1.0.colour",
+     "#D55E00",
+     "#CC3311"
+    ],
+    [
+     "row1_trends.llama1.rows.cka_biased|fixed_r1.0.ci_tint",
+     "#ecb78c",
+     "#e8a394"
+    ],
+    [
+     "row1_trends.llama1.rows.cka_biased|fixed_r0.5.colour",
+     "#D55E00",
+     "#CC3311"
+    ],
+    [
+     "row1_trends.llama1.rows.cka_biased|fixed_r0.5.ci_tint",
+     "#ecb78c",
+     "#e8a394"
+    ],
+    [
+     "row1_trends.llama1.rows.mknn|full.colour",
+     "#0072B2",
+     "#0077BB"
+    ],
+    [
+     "row1_trends.llama1.rows.mknn|full.ci_tint",
+     "#8cc0dc",
+     "#8cc2e0"
+    ],
+    [
+     "row1_trends.llama1.rows.cka_debiased|full.label",
+     "debiased CKA, layer max (expl.)",
+     "debiased CKA, layer max"
+    ],
+    [
+     "row1_trends.llama1.rows.cka_debiased|full.colour",
+     "#CC79A7",
+     "#EE3377"
+    ],
+    [
+     "row1_trends.llama1.rows.cka_debiased|full.ci_tint",
+     "#e8c3d7",
+     "#f7a3c2"
+    ],
+    [
+     "row1_trends.openllama.rows.cka_biased|full.colour",
+     "#D55E00",
+     "#CC3311"
+    ],
+    [
+     "row1_trends.openllama.rows.cka_biased|full.ci_tint",
+     "#ecb78c",
+     "#e8a394"
+    ],
+    [
+     "row1_trends.openllama.rows.cka_biased|ctm.colour",
+     "#D55E00",
+     "#CC3311"
+    ],
+    [
+     "row1_trends.openllama.rows.cka_biased|ctm.ci_tint",
+     "#ecb78c",
+     "#e8a394"
+    ],
+    [
+     "row1_trends.openllama.rows.cka_biased|fixed_r1.0.colour",
+     "#D55E00",
+     "#CC3311"
+    ],
+    [
+     "row1_trends.openllama.rows.cka_biased|fixed_r1.0.ci_tint",
+     "#ecb78c",
+     "#e8a394"
+    ],
+    [
+     "row1_trends.openllama.rows.cka_biased|fixed_r0.5.colour",
+     "#D55E00",
+     "#CC3311"
+    ],
+    [
+     "row1_trends.openllama.rows.cka_biased|fixed_r0.5.ci_tint",
+     "#ecb78c",
+     "#e8a394"
+    ],
+    [
+     "row1_trends.openllama.rows.mknn|full.colour",
+     "#0072B2",
+     "#0077BB"
+    ],
+    [
+     "row1_trends.openllama.rows.mknn|full.ci_tint",
+     "#8cc0dc",
+     "#8cc2e0"
+    ],
+    [
+     "row1_trends.openllama.rows.cka_debiased|full.label",
+     "debiased CKA, layer max (expl.)",
+     "debiased CKA, layer max"
+    ],
+    [
+     "row1_trends.openllama.rows.cka_debiased|full.colour",
+     "#CC79A7",
+     "#EE3377"
+    ],
+    [
+     "row1_trends.openllama.rows.cka_debiased|full.ci_tint",
+     "#e8c3d7",
+     "#f7a3c2"
+    ],
+    [
+     "row2_thresholds.bloomz.largest_baseline_Bbar_from_features.style",
+     "dashed (post hoc retrodiction from features)",
+     "INK dashed (critic-v8; v8 maker solid NULL_LINE); the BLOOMZ reading is post hoc (Results text; v8 draws no tag)"
+    ],
+    [
+     "row3_profiles.bloomz.profiles.bigscience__bloomz-560m.colour",
+     "#A199C8",
+     "#988dc2"
+    ],
+    [
+     "row3_profiles.bloomz.profiles.bigscience__bloomz-1b1.colour",
+     "#887AB8",
+     "#8172b4"
+    ],
+    [
+     "row3_profiles.bloomz.profiles.bigscience__bloomz-1b7.colour",
+     "#6E5CA8",
+     "#6956a5"
+    ],
+    [
+     "row3_profiles.bloomz.profiles.bigscience__bloomz-3b.colour",
+     "#523F98",
+     "#4f3c96"
+    ],
+    [
+     "row3_profiles.bloomz.shading_colour",
+     "#f6dcc7",
+     "#f4d2cb"
+    ],
+    [
+     "row3_profiles.llama1.profiles.huggyllama__llama-7b.colour",
+     "#C390AA",
+     "#bc849f"
+    ],
+    [
+     "row3_profiles.llama1.profiles.huggyllama__llama-13b.colour",
+     "#A75C7E",
+     "#a35579"
+    ],
+    [
+     "row3_profiles.llama1.shading_colour",
+     "#f6dcc7",
+     "#f4d2cb"
+    ],
+    [
+     "row3_profiles.openllama.profiles.openlm-research__open_llama_3b.colour",
+     "#A4A449",
+     "#999842"
+    ],
+    [
+     "row3_profiles.openllama.profiles.openlm-research__open_llama_7b.colour",
+     "#7E7E33",
+     "#797930"
+    ],
+    [
+     "row3_profiles.openllama.shading_colour",
+     "#f6dcc7",
+     "#f4d2cb"
+    ]
+   ],
+   "layout_values_changed_v8": [
+    [
+     "row1_trends.bloomz.rows.cka_biased|full.connector_visible_pt",
+     48.66,
+     57.38
+    ],
+    [
+     "row1_trends.bloomz.rows.cka_biased|ctm.connector_visible_pt",
+     1.66,
+     2.87
+    ],
+    [
+     "row1_trends.bloomz.rows.cka_biased|fixed_r1.0.connector_visible_pt",
+     1.39,
+     2.56
+    ],
+    [
+     "row1_trends.bloomz.rows.cka_biased|fixed_r0.5.connector_visible_pt",
+     2.47,
+     3.82
+    ],
+    [
+     "row1_trends.llama1.rows.cka_biased|full.connector_visible_pt",
+     71.48,
+     83.85
+    ],
+    [
+     "row1_trends.llama1.rows.cka_biased|ctm.connector_visible_pt",
+     66.05,
+     77.55
+    ],
+    [
+     "row1_trends.llama1.rows.cka_biased|fixed_r0.5.connector_visible_pt",
+     10.35,
+     12.95
+    ],
+    [
+     "row1_trends.openllama.rows.cka_biased|full.connector_visible_pt",
+     61.97,
+     72.82
+    ],
+    [
+     "row1_trends.openllama.rows.cka_biased|ctm.connector_visible_pt",
+     41.6,
+     49.19
+    ],
+    [
+     "row1_trends.openllama.rows.cka_biased|fixed_r1.0.connector_visible_pt",
+     0.84,
+     1.93
+    ],
+    [
+     "row1_trends.openllama.rows.cka_biased|fixed_r0.5.connector_visible_pt",
+     2.2,
+     3.5
+    ]
+   ]
+  },
+  "numbers_vs_figure3_v6": {
+   "compared": "row2 means (4 series) and row3 peak squares",
+   "leaves": 66,
+   "max_abs_diff": 0.0,
+   "path": "~/hrh_v2_figs/v6/F_aggregation/numbers.json",
+   "sha256": "57e44eefe664fe763c0b4cece2c2b27e9cceb904da26819cf69e506ef921e174"
+  },
+  "render_vs_v5_1": "not compared: v8 changes palette, weights and layout (revision_v8)",
+  "v5_1_pdf_sha256": "f83e6f5a3b690a370395bb74d379cfe9e16f9d702a4aa1c7e0131584d54a5586",
+  "v8_pdf_sha256": "afc2fa4897e2967eae87367613c0a0d4105c557e6558a6a4392509e654cd629a",
+  "v8_png_sha256": "05e476a3b7f140d38e6d9596b29e363bae75200bad659d6e45859f5f56cfadc5"
+ },
+ "asserts_v8": {
+  "style hrh_style_v8 sha256 asserted": true,
+  "tick labels and axis titles bold (S.check)": true,
+  "bold math in bold texts (S.check)": true,
+  "score names, shared axis labels and direct labels bold": true,
+  "critic-v8: c_alpha squares (d-f) and peak squares (g-i) CKA red": true,
+  "critic-v8: largest baseline from features INK dashed (theory), one line per family": true,
+  "critic-v8: threshold of the selected pair NULL_LINE dotted, label MUTED regular": true,
+  "critic-v8: no INK or grey data marker in rows 2-3 (only theory INK dashed and the dotted reference)": true,
+  "critic-v8: no family name drawn (SHOW_FAMILY_HEADERS off)": true,
+  "criterion hues drawn (CKA, mKNN, debiased CKA)": true,
+  "texts with a digit are tick labels, size keys, family names or '95% interval'": true,
+  "no status line, tag, p note or Tr value drawn": true,
+  "no relabelling band in (a)": true,
+  "six score names, as ROWS": true,
+  "panels fill the row (gutter <= 0.45 in, right edge 5.47 in)": true,
+  "figure lower than v6": true,
+  "min glyph >= 7 pt": true,
+  "Type 42 only": true,
+  "data values unchanged (identity vs v5.1 and Figure 3 v6 asserted in identity_vs_v51)": true
+ },
+ "texts_with_digits_besides_ticks": [
+  "0.56B",
+  "13B",
+  "30B",
+  "3B",
+  "7.1B",
+  "7B",
+  "95% interval",
+  "LLaMA-1"
+ ],
+ "consistency_v8c": {
+  "date": "2026-10-10",
+  "role": "consistency checker across the v8 figures",
+  "changes": [
+   "(g)-(i) size ramps S.FAM_RAMP -> ramp_3to1 of Figure 4 v8"
+  ],
+  "figure4_numbers": {
+   "path": "~/hrh_v2_figs/v8/F_aggregation/numbers.json",
+   "sha256": "3e89f6f955b9cb3dae3a0b076b95560ffbfe639ee004b2f4f4341fa41657d654"
+  },
+  "ramps_before": {
+   "bloomz": [
+    "#A199C8",
+    "#887AB8",
+    "#6E5CA8",
+    "#523F98",
+    "#332288"
+   ],
+   "llama1": [
+    "#C390AA",
+    "#A75C7E",
+    "#882255"
+   ],
+   "openllama": [
+    "#A4A449",
+    "#7E7E33",
+    "#5A5A1E"
+   ]
+  },
+  "ramps_now": {
+   "bloomz": [
+    "#988dc2",
+    "#8172b4",
+    "#6956a5",
+    "#4f3c96",
+    "#332288"
+   ],
+   "llama1": [
+    "#bc849f",
+    "#a35579",
+    "#882255"
+   ],
+   "openllama": [
+    "#999842",
+    "#797930",
+    "#5A5A1E"
+   ]
+  },
+  "asserts": {
+   "(g)-(i) size ramps equal those of Figure 4 v8 (its numbers.json, read only)": true,
+   "every ramp step >= 3:1 on white": true,
+   "profile lines and size keys drawn in the ramp colours": true,
+   "darkest step unchanged (= the darkest step of S.FAM_RAMP)": true,
+   "data values unchanged (identity_vs_v51 asserted above)": true
+  },
+  "critic_v8_files": "./_prev_consistency/"
+ },
+ "outputs": {
+  "~/hrh_v2_figs/v8/F_aggregation_app/F_aggregation_app.pdf": "afc2fa4897e2967eae87367613c0a0d4105c557e6558a6a4392509e654cd629a",
+  "~/hrh_v2_figs/v8/F_aggregation_app/F_aggregation_app.png": "05e476a3b7f140d38e6d9596b29e363bae75200bad659d6e45859f5f56cfadc5",
+  "~/hrh_v2_figs/v8/F_aggregation_app/_view_print_100dpi.png": "6dc67acc3fcd43b865f869562795e9f0a01e9bf9ef03906858a1e880da6a2fb0",
+  "~/hrh_v2_figs/v8/F_aggregation_app/_views_cvd_grey.png": "78fc308d4bfe20b857bed20d7148eefdc3a840229e98be609ed1cad7f4643489"
+ }
+}

@@ -1,0 +1,33 @@
+{
+ "authorized_by": "lead (file written by role s11-run on the lead workflow's explicit instruction; LEAD_DECISIONS_v1.1 'Authorisation' section)",
+ "utc": "2026-10-08T10:33:53Z",
+ "prereg_version": "v1.1",
+ "lead_decisions_v1_1": "prereg/LEAD_DECISIONS_v1.1.md",
+ "lead_decisions_v1_1_sha256": "eaebd68787a7111f87bdac87a58ff565c0364bae64416dc9203eff913d2f12c3",
+ "prereg_v1_0_sha256": "bee0583c2bfd3ea941526c90c5eb879753a58f2c5b823e9b2444abb5697d5fcc",
+ "D4": "b-v1.1: no eligible estimator (descriptive)",
+ "D4_recorded_in_STATUS": "2026-10-08T10:17:44Z [s11-select] D4 step 7: NO ELIGIBLE ESTIMATOR (D4.7) -> S1.1 descriptive only",
+ "predictor_choice_path": "hrhv2/PREDICTOR_CHOICE_v1.1.md (FROZEN: no eligible estimator)",
+ "predictor_choice_sha256": "f83b13a9e2a78f42ad0aa959f95e1b2a7adcbe763f81f99c9805e6a5ba6aa948",
+ "predict_v11_py_sha256": "a031b2136fb651340ff0589b7ed584e553b5b42c1de35fd64d9deb53ca5cd31e",
+ "predict_py_sha256": "a17964b4dc4a04673eda1a0798fa5d27afb3ea5c61ea8a9b251a2a2d5777b74c",
+ "predict_py_note": "frozen v1.0 hrhv2/predict.py; imported by predict_v11.py and used unchanged for the exploratory P2/N2 (plan V3)",
+ "plan_path": "analysis/s11/ANALYSIS_PLAN_S11_v1.1.md (verbatim copy of analysis/s11_select/ANALYSIS_PLAN_S11_v1.1.md)",
+ "plan_sha256": "736ec1d4c9d20a843fc895ab895babfc13871aadf4e32d1410707e98d8b5c391",
+ "plan_frozen_in_STATUS": "2026-10-08T10:20:55Z [s11-select] ANALYSIS_PLAN_S11_v1.1.md FROZEN ... sha256 736ec1d4...",
+ "D1_D2_recorded": "prereg/LEAD_DECISIONS_v1.1.md D1, D2 (STATUS 2026-10-08T06:26:32Z [lead])",
+ "G1": "not run as a confirmatory test (PREREG v1.1 D4.7; plan V1)",
+ "unvalidated_predictor": "iii-LSlog-EB",
+ "unvalidated_predictor_note": "plan V4: the crossing law reported as an unvalidated predictor; no frozen v1.1 P1 exists",
+ "clip_mode": "pool-stored",
+ "clip_mode_note": "Primary prh_clip+l2 threshold = one per model, pooled over all 4 stored layers, computed on all 16384 pool rows: the D5 definition text, which the plan V6 implements as the draft's 'pool-stored'. The workflow instruction's '(pool-layer clip)' repeats D5's parenthetical label for that same definition; it is read as the D5 definition, NOT as an override of plan V6. The draft's single-layer scope ('pool-layer' in s11_common.CLIP_MODES) runs as the V6 sensitivity (config 'cliplayer').",
+ "configs": {
+  "clip": "primary: prh_clip+l2, pool-stored threshold, duplicates kept (SPEC tie rule); all 61 pairs (29 primary first)",
+  "l2": "secondary preprocessing (D5, plan V6); all 61 pairs",
+  "cliplayer": "sensitivity (plan V6): prh_clip+l2 with the single-layer threshold; 29 primary pairs",
+  "dedup": "sensitivity (D5): primary configuration with the 54 surplus duplicate-text items dropped (lowest stored position kept); 29 primary pairs"
+ },
+ "design": "plan V2/V7: 5 nested draws, H1/H2 by hrhv2.util.hash_half('hrhv2-halves'), m_f = 1024, m in {256..16384}, k in {1,10,100}, both directions (mean primary), relative depth 0.5 (O2 sidecar layer rule)",
+ "compute_priority": "nulls (N0, N0H1, N1 d2+mu, P2, N2) for every configuration first; then the unvalidated predictor: clip primary, l2 primary, dedup primary, clip secondary seed pairs, l2 secondary, cliplayer primary; stop near ~20 h wall and record what ran",
+ "no_selection_on_COCO": true
+}

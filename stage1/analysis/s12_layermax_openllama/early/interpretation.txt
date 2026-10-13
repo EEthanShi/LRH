@@ -1,0 +1,24 @@
+This section was written by role `oll-axis-run-early` on 2026-10-09, after the numbers below were seen (post hoc, plan F8). It adds no rule and changes no category: every outcome is the one set by the frozen rules of plan section 9 and Part B (`PARTB_PREDICTIONS_OL.md` f3527d09…), and every number is repeated from sections 1–6. Every OpenLLaMA-axis result is descriptive (no confirmatory endpoint, R.1.2). Primary instance: prh_clip+l2, biased CKA, layer-max, s_cal.
+
+1. **The sentence of the paper that changes (l.2752, plan section 7(a), pre-committed by the author).**
+   - Pooled 11-LM ARH panel: CKA r 0.503 → 0.401, mKNN r 0.511 → 0.512, so ΔΔ = 0.103.
+   - Its ViT-bootstrap 95% interval is [−0.017, 0.239]. It contains 0, so the rule gives **"direction not established"**. The exact LM-relabelling p of ΔΔ is 0.12 (descriptive; 10 of 11 LMs were known).
+   - ARH's ΔΔ of 0.40 lies above the upper bound 0.239, so "size not reproduced" still holds.
+   - The design scenarios had put the lower bound at −0.018 to −0.005, so this outcome was foreseen as likely; adding 13B moved ΔΔ from 0.116 (10 LMs) to 0.103.
+   - The FP section 6 category is a knife edge ("not decidable at this panel size").
+   - Secondary l2 only: ΔΔ 0.081 [0.006, 0.165], "replicated the direction". Secondary readings do not decide the sentence.
+2. **Features predicted the new thresholds and flips (the premise and P-O2b).**
+   - The 13B offsets c_α − B̄ were 0.00164–0.00226 (median 0.00188), inside the pilot band [0.0009, 0.0029] in 17 of 17 pairs.
+   - The c_α order matched the B̄ order in 33 of 33 qualifying new comparisons.
+   - P-O2b: the features-only boundaries decided 30 of 34 new comparisons (20 forecast flips, 10 forecast keeps). All 30 were right; 4 were undecided. Uncensored: 33 of 33 right.
+   - As the plan said in advance, this is close to an identity (Prop. 5 plus "the threshold sits at the largest baseline"). It is the decidable form of l.1229–1231, not an independent test.
+3. **The calibrated trend was lost on a third family (category "loss reproduced"; counts for nothing, plan section 10).**
+   - Raw layer-max CKA rose only a little from 7B to 13B (means 0.4258 → 0.4291). Its threshold rose about 3.6 times as much (c_α 0.1760 → 0.1879; B̄ 0.1741 → 0.1860).
+   - So 17 of 34 new comparisons turned discordant under s_cal, and none turned concordant. Tr_O went 0.88 → 0.18 (ΔTr −0.71); uncensored went to −0.59 (ΔTr −1.47). With 3 sizes the smallest p is 1/6.
+   - No theorem predicts this magnitude. It changes only the scope sentence of section 7.3 ("both families" → "all three").
+   - Calibrate-then-max lost the trend as well (P-O5: Tr 0.88 → 0.21; P-O5a premise 30/33). That is the empirical reading of "the same condition governs them".
+4. **The equal-baseline controls held.**
+   - mKNN Tr_O stayed 1.00 → 1.00 / 1.00.
+   - Debiased CKA ΔTr_O was +0.06 / 0.00, and its 11-LM r moved 0.367 → 0.363.
+   - All deductive checks were zero: keep identity, sign rule, D3 and the P-O1 ζ check.
+5. **l2 (secondary).** Here B̄ is set by the embedding layer and is not material (Tr_pred +0.5), so P-O2 and P-O5 get no category. P-O2a and P-O2b hold under l2 as well.

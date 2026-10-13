@@ -1,0 +1,36 @@
+# Environments and the path workspace of scripts/lrh_env.sh
+stage1/venv/
+figures/venv/
+.lrh_home/
+
+# Reference code fetched by scripts/fetch_vendor.sh (not redistributed)
+stage1/vendor/
+
+# Data, features, model caches and run outputs written by the pipelines
+stage1/features/
+stage1/extract/*/hf_home/
+stage1/extract/e0_sentence/coco_captions/
+stage2/data/
+stage2/runs/
+stage2/runs_v11/
+stage2/s23/runs/
+stage2/s23/dev/
+**/cache/
+**/logs/
+
+# Internal run log that several launchers append to
+STATUS.md
+
+# Run markers and thread-slot lock files
+*.done
+*.started
+*.failed
+*.lock
+**/run/token.*
+
+# Python and OS clutter
+__pycache__/
+*.pyc
+.pytest_cache/
+.DS_Store
+._*

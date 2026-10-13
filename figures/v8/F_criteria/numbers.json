@@ -1,0 +1,3984 @@
+{
+ "figure": {
+  "id": "F_criteria",
+  "label": "fig:exp-criteria",
+  "section": "5.3 sec:exp-criteria",
+  "version": "v8",
+  "status": "v8 proposal (staged in build/figs_v8_staging/F_criteria); arxiv_v4.tex untouched",
+  "trial": "",
+  "png": "poppler (pdftoppm) render of the PDF at 200 dpi",
+  "png_px": [
+   1100,
+   296
+  ],
+  "views": {
+   "print_100dpi": "~/hrh_v2_figs/v8/F_criteria/_view_print_100dpi.png",
+   "cvd_grey": "~/hrh_v2_figs/v8/F_criteria/_views_cvd_grey.png"
+  },
+  "size_in": [
+   5.5,
+   1.48
+  ],
+  "height_v6_in": 1.75,
+  "min_text_pt": 7.5,
+  "min_glyph_pt": 7.5,
+  "n_type3": 0,
+  "check": {
+   "style": "hrh_style_v8",
+   "style_sha256": "fe994067dfefba8c0fe34309a67609e85f82288f0f785e69d2bef98e33fc79a8",
+   "size_in": [
+    5.5,
+    1.48
+   ],
+   "min_text_pt": 7.5,
+   "min_glyph_pt": 7.5,
+   "pdf_glyph_size_counts": {
+    "7.5": 22,
+    "8": 6,
+    "10": 3
+   },
+   "smallest_layout_glyphs": {
+    "monotone link": 7.5,
+    "residual": 7.5,
+    "scale": 7.5,
+    "+ affine": 7.5,
+    "+ global\nmonotone": 7.5,
+    "+ per-row\nmonotone": 7.5
+   },
+   "mathtext_shrink_factor": 0.875,
+   "n_type3": 0,
+   "fonts": [
+    "EVIZTO+LiberationSerif-Bold (CID TrueType, emb yes)",
+    "FMJTXG+LiberationSerif (CID TrueType, emb yes)"
+   ],
+   "low_contrast_text": [],
+   "n_tick_labels_checked": 16,
+   "n_axis_titles_checked": 1,
+   "not_bold_tick_or_axis_labels": [],
+   "bold_text_with_regular_math": [],
+   "data_colours": [
+    "#0077BB",
+    "#222222",
+    "#707070",
+    "#CC3311",
+    "#F4D2CB",
+    "#FFFFFF"
+   ],
+   "chromatic_data_colours": [
+    "#0077BB",
+    "#CC3311"
+   ],
+   "off_palette_colours": []
+  },
+  "pdffonts": [
+   "name                                 type              encoding         emb sub uni object ID",
+   "------------------------------------ ----------------- ---------------- --- --- --- ---------",
+   "EVIZTO+LiberationSerif-Bold          CID TrueType      Identity-H       yes yes yes     20  0",
+   "FMJTXG+LiberationSerif               CID TrueType      Identity-H       yes yes yes     27  0"
+  ],
+  "layout": {
+   "size_in": [
+    5.5,
+    1.48
+   ],
+   "height_v6_in": 1.75,
+   "axes_in": {
+    "a": [
+     0.4,
+     0.34,
+     2.1717120916193178,
+     0.9799999999999999
+    ],
+    "b": [
+     3.3199999999999994,
+     0.34,
+     1.0,
+     0.9799999999999999
+    ],
+    "c": [
+     4.47,
+     0.34,
+     1.0,
+     0.9799999999999999
+    ]
+   },
+   "data_width_share_of_row": 0.7584931075671487,
+   "row_fill": {
+    "left_margin_in": 0.05583333333333336,
+    "right_margin_in": 0.03000000000000025
+   },
+   "ylim_b_c_shared_log": [
+    0.44434041201609525,
+    1.3528474473676293
+   ],
+   "inches_per_decade_b_and_c": 2.0267488948519103,
+   "panel_letters_in": {
+    "a": [
+     0.1972222222222223,
+     1.46
+    ],
+    "b": [
+     3.1172222222222215,
+     1.46
+    ],
+    "c": [
+     4.45,
+     1.46
+    ]
+   },
+   "header_baseline_in": 1.3599999999999999,
+   "panel_extents_in": {
+    "a": [
+     0.05583333333333336,
+     2.8582421874999993
+    ],
+    "b": [
+     2.9782421874999994,
+     4.32
+    ],
+    "c": [
+     4.428333333333333,
+     5.47
+    ]
+   },
+   "panel_gaps_in": {
+    "a|b": 0.1200000000000001,
+    "b|c": 0.1083333333333325
+   },
+   "min_text_to_figure_edge_in": 0.005242456896551673,
+   "x_ticklabel_min_gap_in": {
+    "a": 0.14948878432765111,
+    "b": 0.1994921946779673,
+    "c": 0.1994921946779673
+   },
+   "theory_label_clearance_pt": 2.4331034482758493,
+   "theory_label_centre_minus_bend_in": 0.0,
+   "in_per_step_a": 0.596624200994318,
+   "key_c": {
+    "inset_from_y_spine_pt": 4.99999999999995,
+    "handle_pt": 19.800000000000004,
+    "handles": "line only",
+    "dash_on_off_pt": [
+     4.800000000000001,
+     2.7
+    ],
+    "full_dashes_in_dashed_handle": 3,
+    "gap_to_lowest_mknn_point_in": 0.22267389579624486,
+    "extent_in": [
+     4.5394444444444435,
+     0.3816666666666667,
+     5.234652777777777,
+     0.5962125651041668
+    ]
+   },
+   "key_a_handle_pt": null,
+   "key_a": "none (v8: one depth drawn in (a))",
+   "text_text_overlaps": [],
+   "text_marker_overlaps": [],
+   "text_line_overlaps": []
+  },
+  "visible_texts": [
+   "(a)",
+   "(b)",
+   "(c)",
+   "+ affine",
+   "+ global\nmonotone",
+   "+ per-row\nmonotone",
+   "0",
+   "0.5",
+   "0.56",
+   "0.7",
+   "1",
+   "1.7",
+   "7.1",
+   "BLOOMZ",
+   "CKA",
+   "clip + \u21132",
+   "mKNN",
+   "monotone link",
+   "parameters (B)",
+   "plain \u21132",
+   "relative to 0.56B",
+   "residual",
+   "scale",
+   "share explained (cumulative)"
+  ]
+ },
+ "inputs": {
+  "~/hrh_v2_stage1_20261008/results/S1_2/panel_main.parquet": "93163acf9348f71caeccbb99e9f08b257bfc95f9c4ff9b1019a190edb3653c2a",
+  "~/hrh_v2_stage1_20261008/results/S1_2/s12_summary.json": "55908043b6f58a7205e6d2c3da016aa27c2360b7c886ec8774a72e87d7109946"
+ },
+ "style": {
+  "path": "~/hrh_v2_figs/v8/_style/hrh_style_v8.py",
+  "sha256": "fe994067dfefba8c0fe34309a67609e85f82288f0f785e69d2bef98e33fc79a8",
+  "version": "v8",
+  "semantic_map_used": {
+   "criterion.CKA": "#CC3311",
+   "criterion.mKNN": "#0077BB",
+   "family.BLOOMZ": "#332288",
+   "theory": "#222222",
+   "reference.line": "#707070",
+   "thin_lines_(a)": "#f4d2cb",
+   "text.CKA": "#CC3311",
+   "text.mKNN": "#0077BB"
+  },
+  "fw": {
+   "label": "bold",
+   "tick": "bold",
+   "header": "bold",
+   "direct": "bold",
+   "theory_label": "bold",
+   "key": "normal"
+  },
+  "v7_style_copy_kept": {
+   "path": "~/hrh_v2_figs/v8/F_criteria/hrh_style_v5_1.py",
+   "sha256": "97d0ed5388b2b7a06829ce42645bc545070ecbd3e65549b5020568fecc9f41a6",
+   "version": "v5_1",
+   "copied_from": "~/hrh_v2_figs/v5/_style/hrh_style_v5_1.py (identical sha256)"
+  }
+ },
+ "script_sha256": "a54c5bcc6770700a6f17c5211e0c80f65c5de096f9f782fa8140f1f725426e23",
+ "v6_maker_sha256": "8fd2dc24aa0814dbf79219724ae8a2ff298d473cee3d8a97f505b3abe79bfe82",
+ "staircase_module_sha256": "56214a368e83179068a3a92a247d4140e9d137d2262d6bcf5c4d12c138291e4e",
+ "deviation_from_spec": {
+  "b_c_column": "spec named cal.<crit>.s_cal; plotted cal.<crit>.uncensored (s_obs - permutation-null mean), the score whose BLOOMZ trend is the PE3 Tr quoted in the text (s12_summary.json pe3[...]['Tr_raw'/'Tr_mKNN'], computed on .uncensored in analysis/s12/aggregate.py l.304-306; arxiv_v4 l.4232). Tr of the censored s_cal under l2 would be \u22120.97 (CKA) and \u22120.91 (mKNN), not the quoted -1.00 / -0.92.",
+  "b_c_axis_v7": "one shared log y axis for (b) and (c); each line (mean and +-1 s.e.) divided by its own mean at 0.56B, a vertical shift on the log axis (asserted), replacing the v6 two-segment axis of (b)"
+ },
+ "v7_changes": {
+  "removed_texts_v6": [
+   "a monotone link / would reach 1 here",
+   "median, mid depth",
+   "median, last layer",
+   "Tr (x2)",
+   "0.70",
+   "\u22121.00",
+   "0.84",
+   "\u22120.92",
+   "CKA \u2212 null mean",
+   "mKNN \u2212 null mean",
+   "BLOOMZ parameters (B) (second copy)",
+   "y tick labels 0.11 0.14 0.008 0.012 0.02 0.03 0.04"
+  ],
+  "new_texts_v7": [
+   "monotone link",
+   "mid depth",
+   "last layer",
+   "CKA (header of b)",
+   "mKNN (header of c)",
+   "relative to 0.56B",
+   "y tick labels 0.5 0.7 1"
+  ],
+  "removed_marks_v6": [
+   "axis-break marks of (b)",
+   "second y axis of (c) and of the lower segment of (b)"
+  ],
+  "new_marks_v7": [
+   "dotted NULL_LINE at 1 in (b) and (c) (no change from 0.56B)"
+  ],
+  "panels": "three panels kept; (b) and (c) keep their letters and messages, so the text references 'Figure fig:exp-criteria b,c' (arxiv_v4 l.1352, l.4302) stay valid"
+ },
+ "asserts_adapted": {
+  "size": "v6 asserted 5.5 x 1.75 in; v7 asserts 5.5 x H with H < 1.75",
+  "key_c_vs_Tr_header": "v6 asserted the key top >= 0.05 in below the 'Tr' header, which v7 removes; v7 asserts the key top >= 0.05 in below the lowest drawn point minus s.e. of (c), and the key inside (c)",
+  "panel_boxes": "v6 counted the Tr column and both x labels in the panel boxes; v7 counts the y label and header of (b), the header of (c); the shared x label spans (b, c) and is checked against the right margin",
+  "y_label_b_c": "v6 placed one y label per panel; v7 one y label on (b), and (c) has no y tick labels (asserted)"
+ },
+ "panel_a": {
+  "source": {
+   "path": "~/hrh_v2_stage1_20261008/results/S1_2/panel_main.parquet",
+   "filter": "pre == 'prh_clip+l2', r in {0.5, 1.0} (136 rows each; L.m == 1024)",
+   "columns": [
+    "L.warpshare_expl_scale",
+    "L.warpshare_expl_affine_extra",
+    "L.warpshare_expl_iso_extra",
+    "L.warpshare_expl_row_extra",
+    "L.warpshare_expl_residual"
+   ],
+   "fit": "in-sample"
+  },
+  "summary_check": "~/hrh_v2_stage1_20261008/results/S1_2/s12_summary.json warp['r=<r>|prh_clip+l2']['expl'][<step>][0] == median (1e-12, asserted)",
+  "steps": [
+   "scale",
+   "+ affine",
+   "+ global\nmonotone",
+   "+ per-row\nmonotone"
+  ],
+  "dodge_steps": {
+   "mid depth": 0.0
+  },
+  "plotted_depths": [
+   "mid depth"
+  ],
+  "not_plotted_v8": {
+   "last layer": "values kept in median_parts, median_cumulative, per_pair_*; stated in the Results of Section 5.3 and in Appendix app:exp-s12 (Warps and Margins)"
+  },
+  "median_parts": {
+   "mid depth": {
+    "scale": 0.6811236743173368,
+    "affine_extra": 0.18957494899991595,
+    "iso_extra": 0.00044382446224533467,
+    "row_extra": 0.028868405770301808,
+    "residual": 0.10239560716374613
+   },
+   "last layer": {
+    "scale": 0.6828015770477524,
+    "affine_extra": 0.1474559577876618,
+    "iso_extra": 0.0011729867706377628,
+    "row_extra": 0.03397793289315898,
+    "residual": 0.1233863924128425
+   }
+  },
+  "median_cumulative": {
+   "mid depth": [
+    0.6811236743173368,
+    0.8720983383873333,
+    0.8726546646310178,
+    0.8976043928362538
+   ],
+   "last layer": [
+    0.6828015770477524,
+    0.8434184027381314,
+    0.8446423806200001,
+    0.8766136075871576
+   ]
+  },
+  "per_pair_extremes": {
+   "mid depth": {
+    "iso_extra": 0.002222769626796517,
+    "row_extra": 0.14370107465069581,
+    "min_residual": 0.0070596746703671664,
+    "max_residual": 0.45332224219704065,
+    "frac_iso_extra_ge_0.10": 0.0
+   },
+   "last layer": {
+    "iso_extra": 0.007341632237289952,
+    "row_extra": 0.1588670607980905,
+    "min_residual": 0.006421844698889956,
+    "max_residual": 0.4974598951272048,
+    "frac_iso_extra_ge_0.10": 0.0
+   }
+  },
+  "quantiles_cumulative_10_50_90": {
+   "mid depth": [
+    [
+     0.074242,
+     0.495618,
+     0.497205,
+     0.588837
+    ],
+    [
+     0.681124,
+     0.872098,
+     0.872655,
+     0.897604
+    ],
+    [
+     0.880729,
+     0.982221,
+     0.982307,
+     0.986175
+    ]
+   ],
+   "last layer": [
+    [
+     0.30108,
+     0.598609,
+     0.602249,
+     0.692838
+    ],
+    [
+     0.682802,
+     0.843418,
+     0.844642,
+     0.876614
+    ],
+    [
+     0.938332,
+     0.989253,
+     0.989453,
+     0.992311
+    ]
+   ]
+  },
+  "drawn": {
+   "mid depth": {
+    "x": [
+     1.0,
+     2.0,
+     3.0,
+     4.0
+    ],
+    "n": 136,
+    "thin_color": "#f4d2cb",
+    "median_cumulative": [
+     0.6811236743173368,
+     0.8720983383873333,
+     0.8726546646310178,
+     0.8976043928362538
+    ],
+    "marker": {
+     "marker": "o",
+     "ms": 4.8,
+     "mfc": "white",
+     "mec": "#CC3311",
+     "mew": 1.1
+    }
+   }
+  },
+  "theory_reference": {
+   "polyline": [
+    [
+     2.0,
+     3.0
+    ],
+    [
+     0.8720983383873333,
+     1.0
+    ]
+   ],
+   "label": "monotone link"
+  },
+  "full_share_line": {
+   "y": 1.0,
+   "x": [
+    0.68,
+    4.14
+   ],
+   "style": "NULL_LINE dotted, LW ref"
+  },
+  "residual_bracket": {
+   "x": 4.14,
+   "y_lo": 0.8976043928362538,
+   "y_hi": 1.0,
+   "label": "residual"
+  },
+  "thin_tint_share_of_white": 0.78,
+  "key_labels": [],
+  "per_pair_cumulative": {
+   "mid depth": [
+    {
+     "lm": "bigscience__bloomz-1b1",
+     "vit": "vit_base_patch14_dinov2.lvd142m",
+     "cum": [
+      0.7129924265271261,
+      0.8823393232276329,
+      0.8827664456184497,
+      0.9092899499450897
+     ]
+    },
+    {
+     "lm": "bigscience__bloomz-1b1",
+     "vit": "vit_base_patch16_224.augreg_in21k",
+     "cum": [
+      0.38621117381464337,
+      0.6893450848551214,
+      0.6901858140141333,
+      0.7626661156868386
+     ]
+    },
+    {
+     "lm": "bigscience__bloomz-1b1",
+     "vit": "vit_base_patch16_224.mae",
+     "cum": [
+      0.7576128870244141,
+      0.9530717576920672,
+      0.9532371258682553,
+      0.9665435792295056
+     ]
+    },
+    {
+     "lm": "bigscience__bloomz-1b1",
+     "vit": "vit_base_patch16_clip_224.laion2b",
+     "cum": [
+      0.038326127428864154,
+      0.49372161935474473,
+      0.494767650834988,
+      0.6350400267719639
+     ]
+    },
+    {
+     "lm": "bigscience__bloomz-1b1",
+     "vit": "vit_base_patch16_clip_224.laion2b_ft_in12k",
+     "cum": [
+      0.25170571059549396,
+      0.5507248291616511,
+      0.5520039620901621,
+      0.6279267548185326
+     ]
+    },
+    {
+     "lm": "bigscience__bloomz-1b1",
+     "vit": "vit_giant_patch14_dinov2.lvd142m",
+     "cum": [
+      0.5001672170852445,
+      0.7661661732594103,
+      0.7668153820750827,
+      0.8275262359760052
+     ]
+    },
+    {
+     "lm": "bigscience__bloomz-1b1",
+     "vit": "vit_huge_patch14_224.mae",
+     "cum": [
+      0.7532183243278577,
+      0.8810635570100893,
+      0.8814331623082208,
+      0.9121359159193487
+     ]
+    },
+    {
+     "lm": "bigscience__bloomz-1b1",
+     "vit": "vit_huge_patch14_clip_224.laion2b",
+     "cum": [
+      0.6177663860858439,
+      0.7665727477665514,
+      0.7671969501820048,
+      0.8322924938322903
+     ]
+    },
+    {
+     "lm": "bigscience__bloomz-1b1",
+     "vit": "vit_huge_patch14_clip_224.laion2b_ft_in12k",
+     "cum": [
+      0.53061434591685,
+      0.7243281627890509,
+      0.7252376519142117,
+      0.7752093349294822
+     ]
+    },
+    {
+     "lm": "bigscience__bloomz-1b1",
+     "vit": "vit_large_patch14_clip_224.laion2b",
+     "cum": [
+      0.48775065100414045,
+      0.7681383769236436,
+      0.7686163044052289,
+      0.8352911902553988
+     ]
+    },
+    {
+     "lm": "bigscience__bloomz-1b1",
+     "vit": "vit_large_patch14_clip_224.laion2b_ft_in12k",
+     "cum": [
+      0.16459202189090993,
+      0.5263648010283215,
+      0.5276116612130697,
+      0.6069115673426153
+     ]
+    },
+    {
+     "lm": "bigscience__bloomz-1b1",
+     "vit": "vit_large_patch14_dinov2.lvd142m",
+     "cum": [
+      0.8615167147008032,
+      0.9757291811911084,
+      0.9758209577905044,
+      0.9823043933512593
+     ]
+    },
+    {
+     "lm": "bigscience__bloomz-1b1",
+     "vit": "vit_large_patch16_224.augreg_in21k",
+     "cum": [
+      0.5986731670895123,
+      0.7641201505936382,
+      0.7645793772524783,
+      0.8112328800973937
+     ]
+    },
+    {
+     "lm": "bigscience__bloomz-1b1",
+     "vit": "vit_large_patch16_224.mae",
+     "cum": [
+      0.8901398441248598,
+      0.970801457327022,
+      0.9709001241382131,
+      0.9790792972428909
+     ]
+    },
+    {
+     "lm": "bigscience__bloomz-1b1",
+     "vit": "vit_small_patch14_dinov2.lvd142m",
+     "cum": [
+      0.8448312516481793,
+      0.9782171333896763,
+      0.9783154492172219,
+      0.9845229162638308
+     ]
+    },
+    {
+     "lm": "bigscience__bloomz-1b1",
+     "vit": "vit_small_patch16_224.augreg_in21k",
+     "cum": [
+      0.02974761143464172,
+      0.4453823966789595,
+      0.44658386681283246,
+      0.548267586947575
+     ]
+    },
+    {
+     "lm": "bigscience__bloomz-1b1",
+     "vit": "vit_tiny_patch16_224.augreg_in21k",
+     "cum": [
+      0.3002271016213859,
+      0.651448485102801,
+      0.6525077935302196,
+      0.725939178226004
+     ]
+    },
+    {
+     "lm": "bigscience__bloomz-1b7",
+     "vit": "vit_base_patch14_dinov2.lvd142m",
+     "cum": [
+      0.8079673037884278,
+      0.9372234226415623,
+      0.9375082130186874,
+      0.9506930538683168
+     ]
+    },
+    {
+     "lm": "bigscience__bloomz-1b7",
+     "vit": "vit_base_patch16_224.augreg_in21k",
+     "cum": [
+      0.6631572431802173,
+      0.8538920038202098,
+      0.8544188490657402,
+      0.8865331792041071
+     ]
+    },
+    {
+     "lm": "bigscience__bloomz-1b7",
+     "vit": "vit_base_patch16_224.mae",
+     "cum": [
+      0.7906735111392976,
+      0.9703578966631288,
+      0.9704913000085424,
+      0.9784323579097336
+     ]
+    },
+    {
+     "lm": "bigscience__bloomz-1b7",
+     "vit": "vit_base_patch16_clip_224.laion2b",
+     "cum": [
+      0.2262497529774566,
+      0.6492393872716393,
+      0.6502042288861639,
+      0.7453530013541314
+     ]
+    },
+    {
+     "lm": "bigscience__bloomz-1b7",
+     "vit": "vit_base_patch16_clip_224.laion2b_ft_in12k",
+     "cum": [
+      0.017170781279933822,
+      0.4579358485518237,
+      0.46005868074012973,
+      0.5466777578029594
+     ]
+    },
+    {
+     "lm": "bigscience__bloomz-1b7",
+     "vit": "vit_giant_patch14_dinov2.lvd142m",
+     "cum": [
+      0.6939896963027564,
+      0.8824048336625958,
+      0.8828465935921991,
+      0.9119935182452336
+     ]
+    },
+    {
+     "lm": "bigscience__bloomz-1b7",
+     "vit": "vit_huge_patch14_224.mae",
+     "cum": [
+      0.8503609533480241,
+      0.9406429241772196,
+      0.9409008252273116,
+      0.9551234427581913
+     ]
+    },
+    {
+     "lm": "bigscience__bloomz-1b7",
+     "vit": "vit_huge_patch14_clip_224.laion2b",
+     "cum": [
+      0.3170864307694297,
+      0.5966385423449136,
+      0.597979000565741,
+      0.7075680123237037
+     ]
+    },
+    {
+     "lm": "bigscience__bloomz-1b7",
+     "vit": "vit_huge_patch14_clip_224.laion2b_ft_in12k",
+     "cum": [
+      0.12681138619004095,
+      0.49751425394357784,
+      0.4996415877493056,
+      0.5844677507120032
+     ]
+    },
+    {
+     "lm": "bigscience__bloomz-1b7",
+     "vit": "vit_large_patch14_clip_224.laion2b",
+     "cum": [
+      0.6912146034113624,
+      0.8832488805810609,
+      0.8835597911397601,
+      0.9157680191242346
+     ]
+    },
+    {
+     "lm": "bigscience__bloomz-1b7",
+     "vit": "vit_large_patch14_clip_224.laion2b_ft_in12k",
+     "cum": [
+      0.065352967639764,
+      0.5037907709466265,
+      0.5054974518771087,
+      0.582402460381665
+     ]
+    },
+    {
+     "lm": "bigscience__bloomz-1b7",
+     "vit": "vit_large_patch14_dinov2.lvd142m",
+     "cum": [
+      0.8763944442918319,
+      0.9845058923234844,
+      0.9845808257004014,
+      0.9883244134811348
+     ]
+    },
+    {
+     "lm": "bigscience__bloomz-1b7",
+     "vit": "vit_large_patch16_224.augreg_in21k",
+     "cum": [
+      0.22029423395050063,
+      0.5469562780551769,
+      0.5481513827028163,
+      0.6322225881741219
+     ]
+    },
+    {
+     "lm": "bigscience__bloomz-1b7",
+     "vit": "vit_large_patch16_224.mae",
+     "cum": [
+      0.907184264560589,
+      0.9819546423460184,
+      0.9820432137037733,
+      0.9866577352755708
+     ]
+    },
+    {
+     "lm": "bigscience__bloomz-1b7",
+     "vit": "vit_small_patch14_dinov2.lvd142m",
+     "cum": [
+      0.8571623991936073,
+      0.9859009441522886,
+      0.9859875461330743,
+      0.9896595224927223
+     ]
+    },
+    {
+     "lm": "bigscience__bloomz-1b7",
+     "vit": "vit_small_patch16_224.augreg_in21k",
+     "cum": [
+      0.20157531953530328,
+      0.592876392299247,
+      0.5940333002044791,
+      0.6646317932888328
+     ]
+    },
+    {
+     "lm": "bigscience__bloomz-1b7",
+     "vit": "vit_tiny_patch16_224.augreg_in21k",
+     "cum": [
+      0.570896347312863,
+      0.8214270180294837,
+      0.8221680488349588,
+      0.8579130822858404
+     ]
+    },
+    {
+     "lm": "bigscience__bloomz-3b",
+     "vit": "vit_base_patch14_dinov2.lvd142m",
+     "cum": [
+      0.8211748814500469,
+      0.9429808723678592,
+      0.943252523478822,
+      0.9554244569552094
+     ]
+    },
+    {
+     "lm": "bigscience__bloomz-3b",
+     "vit": "vit_base_patch16_224.augreg_in21k",
+     "cum": [
+      0.7020198461368242,
+      0.8736124077189906,
+      0.8740699080838403,
+      0.9022709971205869
+     ]
+    },
+    {
+     "lm": "bigscience__bloomz-3b",
+     "vit": "vit_base_patch16_224.mae",
+     "cum": [
+      0.7966264885353997,
+      0.9719853596395929,
+      0.9721047705929873,
+      0.9796944097210489
+     ]
+    },
+    {
+     "lm": "bigscience__bloomz-3b",
+     "vit": "vit_base_patch16_clip_224.laion2b",
+     "cum": [
+      0.28951062641731484,
+      0.6889497489949901,
+      0.6898409842566101,
+      0.7745479475450279
+     ]
+    },
+    {
+     "lm": "bigscience__bloomz-3b",
+     "vit": "vit_base_patch16_clip_224.laion2b_ft_in12k",
+     "cum": [
+      0.04270646539507039,
+      0.48635174548404203,
+      0.48843776567741287,
+      0.5721127797564798
+     ]
+    },
+    {
+     "lm": "bigscience__bloomz-3b",
+     "vit": "vit_giant_patch14_dinov2.lvd142m",
+     "cum": [
+      0.7229086794958814,
+      0.896361708048874,
+      0.8967609879112453,
+      0.9226442493848007
+     ]
+    },
+    {
+     "lm": "bigscience__bloomz-3b",
+     "vit": "vit_huge_patch14_224.mae",
+     "cum": [
+      0.8620192546660681,
+      0.9462018158991159,
+      0.9464377583835122,
+      0.9595292841962213
+     ]
+    },
+    {
+     "lm": "bigscience__bloomz-3b",
+     "vit": "vit_huge_patch14_clip_224.laion2b",
+     "cum": [
+      0.21075694876653595,
+      0.5428359763167043,
+      0.5442941709580152,
+      0.6691155085592291
+     ]
+    },
+    {
+     "lm": "bigscience__bloomz-3b",
+     "vit": "vit_huge_patch14_clip_224.laion2b_ft_in12k",
+     "cum": [
+      0.039833163448410425,
+      0.4570963065306394,
+      0.4593190761574359,
+      0.5533919220968009
+     ]
+    },
+    {
+     "lm": "bigscience__bloomz-3b",
+     "vit": "vit_large_patch14_clip_224.laion2b",
+     "cum": [
+      0.7209414924930491,
+      0.8971357936646022,
+      0.8973964610122864,
+      0.9259863478998556
+     ]
+    },
+    {
+     "lm": "bigscience__bloomz-3b",
+     "vit": "vit_large_patch14_clip_224.laion2b_ft_in12k",
+     "cum": [
+      0.15038219892505877,
+      0.5580287631334171,
+      0.5595496193154004,
+      0.630205944387791
+     ]
+    },
+    {
+     "lm": "bigscience__bloomz-3b",
+     "vit": "vit_large_patch14_dinov2.lvd142m",
+     "cum": [
+      0.8787648350913622,
+      0.9848608748895956,
+      0.9849261030108138,
+      0.9886792083152443
+     ]
+    },
+    {
+     "lm": "bigscience__bloomz-3b",
+     "vit": "vit_large_patch16_224.augreg_in21k",
+     "cum": [
+      0.10361714747309575,
+      0.4870348612944749,
+      0.48836770773438865,
+      0.5856600123190278
+     ]
+    },
+    {
+     "lm": "bigscience__bloomz-3b",
+     "vit": "vit_large_patch16_224.mae",
+     "cum": [
+      0.9094776250260048,
+      0.9824880752274741,
+      0.9825702990778339,
+      0.9871360091154135
+     ]
+    },
+    {
+     "lm": "bigscience__bloomz-3b",
+     "vit": "vit_small_patch14_dinov2.lvd142m",
+     "cum": [
+      0.8591091441466299,
+      0.9861516360351328,
+      0.9862334341906106,
+      0.9899021644491565
+     ]
+    },
+    {
+     "lm": "bigscience__bloomz-3b",
+     "vit": "vit_small_patch16_224.augreg_in21k",
+     "cum": [
+      0.2914669375765348,
+      0.64707450084803,
+      0.648048738835532,
+      0.7104019777763296
+     ]
+    },
+    {
+     "lm": "bigscience__bloomz-3b",
+     "vit": "vit_tiny_patch16_224.augreg_in21k",
+     "cum": [
+      0.614973050525591,
+      0.8446578902067896,
+      0.8453446931704851,
+      0.8768323392740924
+     ]
+    },
+    {
+     "lm": "bigscience__bloomz-560m",
+     "vit": "vit_base_patch14_dinov2.lvd142m",
+     "cum": [
+      0.7373495382556022,
+      0.8908587083624981,
+      0.891286841214626,
+      0.9150688576499715
+     ]
+    },
+    {
+     "lm": "bigscience__bloomz-560m",
+     "vit": "vit_base_patch16_224.augreg_in21k",
+     "cum": [
+      0.4669981803315003,
+      0.7315594838315416,
+      0.7323080900921947,
+      0.7929727509963669
+     ]
+    },
+    {
+     "lm": "bigscience__bloomz-560m",
+     "vit": "vit_base_patch16_224.mae",
+     "cum": [
+      0.7669381172265068,
+      0.9534205115904719,
+      0.9535893888404166,
+      0.9661437375520655
+     ]
+    },
+    {
+     "lm": "bigscience__bloomz-560m",
+     "vit": "vit_base_patch16_clip_224.laion2b",
+     "cum": [
+      0.06899534173028621,
+      0.5230212384363135,
+      0.5241436205307997,
+      0.6535941891654447
+     ]
+    },
+    {
+     "lm": "bigscience__bloomz-560m",
+     "vit": "vit_base_patch16_clip_224.laion2b_ft_in12k",
+     "cum": [
+      0.14278517918483336,
+      0.5010594723190918,
+      0.5028364961401641,
+      0.5862910147027707
+     ]
+    },
+    {
+     "lm": "bigscience__bloomz-560m",
+     "vit": "vit_giant_patch14_dinov2.lvd142m",
+     "cum": [
+      0.5573481982173227,
+      0.7936413979596416,
+      0.7943805228507033,
+      0.8460171152522075
+     ]
+    },
+    {
+     "lm": "bigscience__bloomz-560m",
+     "vit": "vit_huge_patch14_224.mae",
+     "cum": [
+      0.7766317697356586,
+      0.889708720157004,
+      0.8900842176154758,
+      0.9170933081139536
+     ]
+    },
+    {
+     "lm": "bigscience__bloomz-560m",
+     "vit": "vit_huge_patch14_clip_224.laion2b",
+     "cum": [
+      0.5293938248970566,
+      0.7207608258511193,
+      0.721500820709462,
+      0.7973651805364079
+     ]
+    },
+    {
+     "lm": "bigscience__bloomz-560m",
+     "vit": "vit_huge_patch14_clip_224.laion2b_ft_in12k",
+     "cum": [
+      0.4055250709869563,
+      0.659804980775361,
+      0.6610105933700068,
+      0.7217734439833021
+     ]
+    },
+    {
+     "lm": "bigscience__bloomz-560m",
+     "vit": "vit_large_patch14_clip_224.laion2b",
+     "cum": [
+      0.5472032486170485,
+      0.7951177877226584,
+      0.7955584537320126,
+      0.8520454201928713
+     ]
+    },
+    {
+     "lm": "bigscience__bloomz-560m",
+     "vit": "vit_large_patch14_clip_224.laion2b_ft_in12k",
+     "cum": [
+      0.06352772644736498,
+      0.481784808831398,
+      0.4833449119633681,
+      0.5694029936653207
+     ]
+    },
+    {
+     "lm": "bigscience__bloomz-560m",
+     "vit": "vit_large_patch14_dinov2.lvd142m",
+     "cum": [
+      0.8630386811746641,
+      0.9739742264826865,
+      0.9740784711082856,
+      0.9805450188014002
+     ]
+    },
+    {
+     "lm": "bigscience__bloomz-560m",
+     "vit": "vit_large_patch16_224.augreg_in21k",
+     "cum": [
+      0.48550898292579325,
+      0.7059014137743396,
+      0.7065380827439675,
+      0.7637584791917982
+     ]
+    },
+    {
+     "lm": "bigscience__bloomz-560m",
+     "vit": "vit_large_patch16_224.mae",
+     "cum": [
+      0.8921023374281115,
+      0.9690919219717605,
+      0.9691884965964636,
+      0.9772309715436694
+     ]
+    },
+    {
+     "lm": "bigscience__bloomz-560m",
+     "vit": "vit_small_patch14_dinov2.lvd142m",
+     "cum": [
+      0.8468686355889715,
+      0.9764808483730798,
+      0.9765938944567414,
+      0.982790249070592
+     ]
+    },
+    {
+     "lm": "bigscience__bloomz-560m",
+     "vit": "vit_small_patch16_224.augreg_in21k",
+     "cum": [
+      0.023270182857420607,
+      0.45365258105501716,
+      0.45497747790731824,
+      0.5540889900596392
+     ]
+    },
+    {
+     "lm": "bigscience__bloomz-560m",
+     "vit": "vit_tiny_patch16_224.augreg_in21k",
+     "cum": [
+      0.3790612260352174,
+      0.6954831617780827,
+      0.6966596365411928,
+      0.7592949240500082
+     ]
+    },
+    {
+     "lm": "bigscience__bloomz-7b1",
+     "vit": "vit_base_patch14_dinov2.lvd142m",
+     "cum": [
+      0.8439466713463808,
+      0.9569311497870512,
+      0.9571387218758501,
+      0.9662147891673591
+     ]
+    },
+    {
+     "lm": "bigscience__bloomz-7b1",
+     "vit": "vit_base_patch16_224.augreg_in21k",
+     "cum": [
+      0.7595184715715213,
+      0.9078111614913691,
+      0.9081710177641542,
+      0.9285694044288964
+     ]
+    },
+    {
+     "lm": "bigscience__bloomz-7b1",
+     "vit": "vit_base_patch16_224.mae",
+     "cum": [
+      0.8071606779146276,
+      0.9779741439355472,
+      0.978071696660417,
+      0.9840417707209514
+     ]
+    },
+    {
+     "lm": "bigscience__bloomz-7b1",
+     "vit": "vit_base_patch16_clip_224.laion2b",
+     "cum": [
+      0.3867562011164091,
+      0.7508004992800503,
+      0.7514035681762895,
+      0.819562900964121
+     ]
+    },
+    {
+     "lm": "bigscience__bloomz-7b1",
+     "vit": "vit_base_patch16_clip_224.laion2b_ft_in12k",
+     "cum": [
+      0.14447123622096109,
+      0.5633939014764773,
+      0.5650355348437941,
+      0.634853025673803
+     ]
+    },
+    {
+     "lm": "bigscience__bloomz-7b1",
+     "vit": "vit_giant_patch14_dinov2.lvd142m",
+     "cum": [
+      0.7660088284594851,
+      0.9222016762950079,
+      0.9224563560154722,
+      0.9418813639566359
+     ]
+    },
+    {
+     "lm": "bigscience__bloomz-7b1",
+     "vit": "vit_huge_patch14_224.mae",
+     "cum": [
+      0.8845230040006244,
+      0.9607863078920675,
+      0.9609663193002138,
+      0.9704227550272249
+     ]
+    },
+    {
+     "lm": "bigscience__bloomz-7b1",
+     "vit": "vit_huge_patch14_clip_224.laion2b",
+     "cum": [
+      0.07948809612931634,
+      0.47631615354872403,
+      0.4777286657356733,
+      0.6214297403863691
+     ]
+    },
+    {
+     "lm": "bigscience__bloomz-7b1",
+     "vit": "vit_huge_patch14_clip_224.laion2b_ft_in12k",
+     "cum": [
+      0.02011868853843457,
+      0.4577664425867822,
+      0.45989543062624866,
+      0.5513440192636128
+     ]
+    },
+    {
+     "lm": "bigscience__bloomz-7b1",
+     "vit": "vit_large_patch14_clip_224.laion2b",
+     "cum": [
+      0.7663231652659366,
+      0.9227335746330849,
+      0.9228975484179882,
+      0.9444826498209734
+     ]
+    },
+    {
+     "lm": "bigscience__bloomz-7b1",
+     "vit": "vit_large_patch14_clip_224.laion2b_ft_in12k",
+     "cum": [
+      0.31704016442289634,
+      0.6616568342770801,
+      0.6627656674314127,
+      0.7151649456563154
+     ]
+    },
+    {
+     "lm": "bigscience__bloomz-7b1",
+     "vit": "vit_large_patch14_dinov2.lvd142m",
+     "cum": [
+      0.8842163279768537,
+      0.988606458813108,
+      0.9886629244341569,
+      0.9914484280555864
+     ]
+    },
+    {
+     "lm": "bigscience__bloomz-7b1",
+     "vit": "vit_large_patch16_224.augreg_in21k",
+     "cum": [
+      0.010735296635684621,
+      0.44440676402203444,
+      0.4459131594648377,
+      0.5496044279301395
+     ]
+    },
+    {
+     "lm": "bigscience__bloomz-7b1",
+     "vit": "vit_large_patch16_224.mae",
+     "cum": [
+      0.9157307960257972,
+      0.9869649503783732,
+      0.9870344455078064,
+      0.9904094796190412
+     ]
+    },
+    {
+     "lm": "bigscience__bloomz-7b1",
+     "vit": "vit_small_patch14_dinov2.lvd142m",
+     "cum": [
+      0.8640153755325201,
+      0.9895918965653885,
+      0.9896602750591078,
+      0.9924039777828475
+     ]
+    },
+    {
+     "lm": "bigscience__bloomz-7b1",
+     "vit": "vit_small_patch16_224.augreg_in21k",
+     "cum": [
+      0.4279680664509167,
+      0.7347121523173771,
+      0.7354871755267367,
+      0.7815856546823339
+     ]
+    },
+    {
+     "lm": "bigscience__bloomz-7b1",
+     "vit": "vit_tiny_patch16_224.augreg_in21k",
+     "cum": [
+      0.677998854475406,
+      0.8830254752484701,
+      0.8835554616895132,
+      0.907028017692409
+     ]
+    },
+    {
+     "lm": "huggyllama__llama-7b",
+     "vit": "vit_base_patch14_dinov2.lvd142m",
+     "cum": [
+      0.8747467590622926,
+      0.9697849441944808,
+      0.9701187526460134,
+      0.9757641859837688
+     ]
+    },
+    {
+     "lm": "huggyllama__llama-7b",
+     "vit": "vit_base_patch16_224.augreg_in21k",
+     "cum": [
+      0.8352246682334479,
+      0.9436569000883976,
+      0.9440412089859407,
+      0.9552763750964328
+     ]
+    },
+    {
+     "lm": "huggyllama__llama-7b",
+     "vit": "vit_base_patch16_224.mae",
+     "cum": [
+      0.8215798927625391,
+      0.9825923813726447,
+      0.9827260956330647,
+      0.9868249542544643
+     ]
+    },
+    {
+     "lm": "huggyllama__llama-7b",
+     "vit": "vit_base_patch16_clip_224.laion2b",
+     "cum": [
+      0.5692061620278258,
+      0.848572381364654,
+      0.8490677877298074,
+      0.8887925475692436
+     ]
+    },
+    {
+     "lm": "huggyllama__llama-7b",
+     "vit": "vit_base_patch16_clip_224.laion2b_ft_in12k",
+     "cum": [
+      0.4674843654907578,
+      0.7558793363644942,
+      0.7575549330495321,
+      0.794317747709273
+     ]
+    },
+    {
+     "lm": "huggyllama__llama-7b",
+     "vit": "vit_giant_patch14_dinov2.lvd142m",
+     "cum": [
+      0.8253172251004264,
+      0.9496574171549744,
+      0.9500896485545408,
+      0.9615218415605162
+     ]
+    },
+    {
+     "lm": "huggyllama__llama-7b",
+     "vit": "vit_huge_patch14_224.mae",
+     "cum": [
+      0.9102647300034543,
+      0.9726554430660654,
+      0.9729220261026621,
+      0.9785682955072235
+     ]
+    },
+    {
+     "lm": "huggyllama__llama-7b",
+     "vit": "vit_huge_patch14_clip_224.laion2b",
+     "cum": [
+      0.11973742102666546,
+      0.5422609317742171,
+      0.5441529842238304,
+      0.6631951920318366
+     ]
+    },
+    {
+     "lm": "huggyllama__llama-7b",
+     "vit": "vit_huge_patch14_clip_224.laion2b_ft_in12k",
+     "cum": [
+      0.4044495321937192,
+      0.6928920110559343,
+      0.6949904520932393,
+      0.742689711037662
+     ]
+    },
+    {
+     "lm": "huggyllama__llama-7b",
+     "vit": "vit_large_patch14_clip_224.laion2b",
+     "cum": [
+      0.827734285074184,
+      0.9502089321518574,
+      0.9503678443025665,
+      0.9629969660371411
+     ]
+    },
+    {
+     "lm": "huggyllama__llama-7b",
+     "vit": "vit_large_patch14_clip_224.laion2b_ft_in12k",
+     "cum": [
+      0.625421100167644,
+      0.8301429420253036,
+      0.8310024932618898,
+      0.8551392377444713
+     ]
+    },
+    {
+     "lm": "huggyllama__llama-7b",
+     "vit": "vit_large_patch14_dinov2.lvd142m",
+     "cum": [
+      0.8900195998472312,
+      0.9902145600253361,
+      0.9902916296113035,
+      0.9922008218324699
+     ]
+    },
+    {
+     "lm": "huggyllama__llama-7b",
+     "vit": "vit_large_patch16_224.augreg_in21k",
+     "cum": [
+      0.32982920102423435,
+      0.6459458060790177,
+      0.647851248336752,
+      0.7085230160712923
+     ]
+    },
+    {
+     "lm": "huggyllama__llama-7b",
+     "vit": "vit_large_patch16_224.mae",
+     "cum": [
+      0.9219389591368798,
+      0.9890442993376569,
+      0.989148897534064,
+      0.9914205076467077
+     ]
+    },
+    {
+     "lm": "huggyllama__llama-7b",
+     "vit": "vit_small_patch14_dinov2.lvd142m",
+     "cum": [
+      0.868651075489091,
+      0.9909040295000519,
+      0.9910132121565813,
+      0.9929403253296328
+     ]
+    },
+    {
+     "lm": "huggyllama__llama-7b",
+     "vit": "vit_small_patch16_224.augreg_in21k",
+     "cum": [
+      0.6543886753847257,
+      0.8568618030807323,
+      0.8577003289663382,
+      0.8809096060666108
+     ]
+    },
+    {
+     "lm": "huggyllama__llama-7b",
+     "vit": "vit_tiny_patch16_224.augreg_in21k",
+     "cum": [
+      0.772356819804698,
+      0.9281442608485924,
+      0.9287518383913321,
+      0.9421479938108291
+     ]
+    },
+    {
+     "lm": "openlm-research__open_llama_3b",
+     "vit": "vit_base_patch14_dinov2.lvd142m",
+     "cum": [
+      0.8331490590762657,
+      0.9408654801795444,
+      0.9411659983050088,
+      0.950688646566646
+     ]
+    },
+    {
+     "lm": "openlm-research__open_llama_3b",
+     "vit": "vit_base_patch16_224.augreg_in21k",
+     "cum": [
+      0.7531954494748545,
+      0.8897781915939045,
+      0.890161604797763,
+      0.9092524066365262
+     ]
+    },
+    {
+     "lm": "openlm-research__open_llama_3b",
+     "vit": "vit_base_patch16_224.mae",
+     "cum": [
+      0.8007962474794394,
+      0.9671808481470674,
+      0.9672888002354381,
+      0.9737029798458849
+     ]
+    },
+    {
+     "lm": "openlm-research__open_llama_3b",
+     "vit": "vit_base_patch16_clip_224.laion2b",
+     "cum": [
+      0.43381595253026006,
+      0.7611673471385099,
+      0.7616809375015576,
+      0.8182720266456704
+     ]
+    },
+    {
+     "lm": "openlm-research__open_llama_3b",
+     "vit": "vit_base_patch16_clip_224.laion2b_ft_in12k",
+     "cum": [
+      0.22887339224774023,
+      0.6041629360420089,
+      0.6060085949595648,
+      0.6615821913321139
+     ]
+    },
+    {
+     "lm": "openlm-research__open_llama_3b",
+     "vit": "vit_giant_patch14_dinov2.lvd142m",
+     "cum": [
+      0.7597144153451467,
+      0.9061463937620637,
+      0.9065252299220974,
+      0.9248737424424854
+     ]
+    },
+    {
+     "lm": "openlm-research__open_llama_3b",
+     "vit": "vit_huge_patch14_224.mae",
+     "cum": [
+      0.8678913699281658,
+      0.9417519348706226,
+      0.9420108331027439,
+      0.9520750619368322
+     ]
+    },
+    {
+     "lm": "openlm-research__open_llama_3b",
+     "vit": "vit_huge_patch14_clip_224.laion2b",
+     "cum": [
+      0.0176376027616712,
+      0.46780099777591294,
+      0.4692030003695383,
+      0.5913825236798902
+     ]
+    },
+    {
+     "lm": "openlm-research__open_llama_3b",
+     "vit": "vit_huge_patch14_clip_224.laion2b_ft_in12k",
+     "cum": [
+      0.09714250845817013,
+      0.5093749505913228,
+      0.5113087151265746,
+      0.5813668330621296
+     ]
+    },
+    {
+     "lm": "openlm-research__open_llama_3b",
+     "vit": "vit_large_patch14_clip_224.laion2b",
+     "cum": [
+      0.761890831617425,
+      0.9069334463687191,
+      0.9071086706307983,
+      0.92697781820736
+     ]
+    },
+    {
+     "lm": "openlm-research__open_llama_3b",
+     "vit": "vit_large_patch14_clip_224.laion2b_ft_in12k",
+     "cum": [
+      0.38498688245191415,
+      0.6842517704127367,
+      0.6852766223855896,
+      0.7270741807546472
+     ]
+    },
+    {
+     "lm": "openlm-research__open_llama_3b",
+     "vit": "vit_large_patch14_dinov2.lvd142m",
+     "cum": [
+      0.876275480847376,
+      0.9783825306057856,
+      0.9784412757498908,
+      0.9818936065455732
+     ]
+    },
+    {
+     "lm": "openlm-research__open_llama_3b",
+     "vit": "vit_large_patch16_224.augreg_in21k",
+     "cum": [
+      0.045919129467655806,
+      0.4785787550923165,
+      0.4801648603336283,
+      0.5606311200492272
+     ]
+    },
+    {
+     "lm": "openlm-research__open_llama_3b",
+     "vit": "vit_large_patch16_224.mae",
+     "cum": [
+      0.9054173762977984,
+      0.9754055156075612,
+      0.9754933415640151,
+      0.9796037215908001
+     ]
+    },
+    {
+     "lm": "openlm-research__open_llama_3b",
+     "vit": "vit_small_patch14_dinov2.lvd142m",
+     "cum": [
+      0.8555025893946222,
+      0.9797827043854239,
+      0.979871782300953,
+      0.9833005545405202
+     ]
+    },
+    {
+     "lm": "openlm-research__open_llama_3b",
+     "vit": "vit_small_patch16_224.augreg_in21k",
+     "cum": [
+      0.47547627804269016,
+      0.7427781914107001,
+      0.7436484189192729,
+      0.782195004935726
+     ]
+    },
+    {
+     "lm": "openlm-research__open_llama_3b",
+     "vit": "vit_tiny_patch16_224.augreg_in21k",
+     "cum": [
+      0.6842484941592675,
+      0.8705842690556761,
+      0.8712394211781954,
+      0.8929377885519209
+     ]
+    },
+    {
+     "lm": "openlm-research__open_llama_7b",
+     "vit": "vit_base_patch14_dinov2.lvd142m",
+     "cum": [
+      0.854173436047746,
+      0.9534901395929292,
+      0.9536403234582455,
+      0.9613892646593403
+     ]
+    },
+    {
+     "lm": "openlm-research__open_llama_7b",
+     "vit": "vit_base_patch16_224.augreg_in21k",
+     "cum": [
+      0.7953643517597514,
+      0.9151409215270803,
+      0.9153063019924508,
+      0.9302714515327142
+     ]
+    },
+    {
+     "lm": "openlm-research__open_llama_7b",
+     "vit": "vit_base_patch16_224.mae",
+     "cum": [
+      0.8100865072112176,
+      0.9733718591176569,
+      0.9734752086608779,
+      0.9787460226151756
+     ]
+    },
+    {
+     "lm": "openlm-research__open_llama_7b",
+     "vit": "vit_base_patch16_clip_224.laion2b",
+     "cum": [
+      0.5064658994600681,
+      0.805694464638549,
+      0.8060033786665028,
+      0.8529695576445648
+     ]
+    },
+    {
+     "lm": "openlm-research__open_llama_7b",
+     "vit": "vit_base_patch16_clip_224.laion2b_ft_in12k",
+     "cum": [
+      0.35164178762798365,
+      0.6794710506021491,
+      0.6801520730087267,
+      0.7261720307778778
+     ]
+    },
+    {
+     "lm": "openlm-research__open_llama_7b",
+     "vit": "vit_giant_patch14_dinov2.lvd142m",
+     "cum": [
+      0.7930181982470234,
+      0.9262550122604307,
+      0.9264341045027393,
+      0.9413213745998449
+     ]
+    },
+    {
+     "lm": "openlm-research__open_llama_7b",
+     "vit": "vit_huge_patch14_224.mae",
+     "cum": [
+      0.8876684843067822,
+      0.9550778858431197,
+      0.9552252446718057,
+      0.9632120597876823
+     ]
+    },
+    {
+     "lm": "openlm-research__open_llama_7b",
+     "vit": "vit_huge_patch14_clip_224.laion2b",
+     "cum": [
+      0.0400959830684568,
+      0.485371541793116,
+      0.4861509319163536,
+      0.6075159887906243
+     ]
+    },
+    {
+     "lm": "openlm-research__open_llama_7b",
+     "vit": "vit_huge_patch14_clip_224.laion2b_ft_in12k",
+     "cum": [
+      0.23972227792122663,
+      0.5912399376656193,
+      0.5921397203426625,
+      0.6510789777059716
+     ]
+    },
+    {
+     "lm": "openlm-research__open_llama_7b",
+     "vit": "vit_large_patch14_clip_224.laion2b",
+     "cum": [
+      0.795227513456439,
+      0.9270045453279548,
+      0.9271189066524544,
+      0.9430567331283287
+     ]
+    },
+    {
+     "lm": "openlm-research__open_llama_7b",
+     "vit": "vit_large_patch14_clip_224.laion2b_ft_in12k",
+     "cum": [
+      0.5116028465886328,
+      0.7578933330541126,
+      0.758339222049,
+      0.7905519988508695
+     ]
+    },
+    {
+     "lm": "openlm-research__open_llama_7b",
+     "vit": "vit_large_patch14_dinov2.lvd142m",
+     "cum": [
+      0.8826925090001612,
+      0.9828508773879006,
+      0.9829101438273007,
+      0.9856923722313684
+     ]
+    },
+    {
+     "lm": "openlm-research__open_llama_7b",
+     "vit": "vit_large_patch16_224.augreg_in21k",
+     "cum": [
+      0.16610386611568073,
+      0.5438989628918728,
+      0.5445826665173819,
+      0.6154161220186569
+     ]
+    },
+    {
+     "lm": "openlm-research__open_llama_7b",
+     "vit": "vit_large_patch16_224.mae",
+     "cum": [
+      0.912567145154464,
+      0.9806285549448155,
+      0.98071922630085,
+      0.983991360723917
+     ]
+    },
+    {
+     "lm": "openlm-research__open_llama_7b",
+     "vit": "vit_small_patch14_dinov2.lvd142m",
+     "cum": [
+      0.8611257875792819,
+      0.983926114155676,
+      0.9840121050089812,
+      0.9867909677946622
+     ]
+    },
+    {
+     "lm": "openlm-research__open_llama_7b",
+     "vit": "vit_small_patch16_224.augreg_in21k",
+     "cum": [
+      0.5711459043741802,
+      0.800397633922787,
+      0.8006753028257871,
+      0.8311224729143198
+     ]
+    },
+    {
+     "lm": "openlm-research__open_llama_7b",
+     "vit": "vit_tiny_patch16_224.augreg_in21k",
+     "cum": [
+      0.7303659121263741,
+      0.898157021326786,
+      0.8983806109083239,
+      0.9160020752860969
+     ]
+    }
+   ],
+   "last layer": [
+    {
+     "lm": "bigscience__bloomz-1b1",
+     "vit": "vit_base_patch14_dinov2.lvd142m",
+     "cum": [
+      0.5372905563995057,
+      0.755148526128522,
+      0.7569017009960375,
+      0.8079043539124555
+     ]
+    },
+    {
+     "lm": "bigscience__bloomz-1b1",
+     "vit": "vit_base_patch16_224.augreg_in21k",
+     "cum": [
+      0.6876761931698732,
+      0.830562823929204,
+      0.8318534866893077,
+      0.8654593432076463
+     ]
+    },
+    {
+     "lm": "bigscience__bloomz-1b1",
+     "vit": "vit_base_patch16_224.mae",
+     "cum": [
+      0.9431566691479204,
+      0.9913169956214134,
+      0.9914213790574795,
+      0.99357815530111
+     ]
+    },
+    {
+     "lm": "bigscience__bloomz-1b1",
+     "vit": "vit_base_patch16_clip_224.laion2b",
+     "cum": [
+      0.005060151930416479,
+      0.34892438030769946,
+      0.3545594031604912,
+      0.5025401048727952
+     ]
+    },
+    {
+     "lm": "bigscience__bloomz-1b1",
+     "vit": "vit_base_patch16_clip_224.laion2b_ft_in12k",
+     "cum": [
+      0.3591311274154875,
+      0.6399687337810538,
+      0.6432539924517724,
+      0.724086973085105
+     ]
+    },
+    {
+     "lm": "bigscience__bloomz-1b1",
+     "vit": "vit_giant_patch14_dinov2.lvd142m",
+     "cum": [
+      0.6712738964384981,
+      0.8279658286954836,
+      0.82980649599609,
+      0.8655724483856045
+     ]
+    },
+    {
+     "lm": "bigscience__bloomz-1b1",
+     "vit": "vit_huge_patch14_224.mae",
+     "cum": [
+      0.9391279588844476,
+      0.9910661213790805,
+      0.9912317071028588,
+      0.9935503527639422
+     ]
+    },
+    {
+     "lm": "bigscience__bloomz-1b1",
+     "vit": "vit_huge_patch14_clip_224.laion2b",
+     "cum": [
+      0.35867807022325715,
+      0.5968769817927836,
+      0.6009878329878069,
+      0.6900058490207653
+     ]
+    },
+    {
+     "lm": "bigscience__bloomz-1b1",
+     "vit": "vit_huge_patch14_clip_224.laion2b_ft_in12k",
+     "cum": [
+      0.6429307564359009,
+      0.8109587325730392,
+      0.8130437811526983,
+      0.8544835063237903
+     ]
+    },
+    {
+     "lm": "bigscience__bloomz-1b1",
+     "vit": "vit_large_patch14_clip_224.laion2b",
+     "cum": [
+      0.07117781903030707,
+      0.3905636799136651,
+      0.3972920534029006,
+      0.5373719354703326
+     ]
+    },
+    {
+     "lm": "bigscience__bloomz-1b1",
+     "vit": "vit_large_patch14_clip_224.laion2b_ft_in12k",
+     "cum": [
+      0.22239770514809099,
+      0.5614494999799056,
+      0.565845636453677,
+      0.6684420285956013
+     ]
+    },
+    {
+     "lm": "bigscience__bloomz-1b1",
+     "vit": "vit_large_patch14_dinov2.lvd142m",
+     "cum": [
+      0.5293615130489479,
+      0.7555868420576816,
+      0.7572203270459621,
+      0.8096761130396914
+     ]
+    },
+    {
+     "lm": "bigscience__bloomz-1b1",
+     "vit": "vit_large_patch16_224.augreg_in21k",
+     "cum": [
+      0.69695431034908,
+      0.844086676327096,
+      0.8453533898944824,
+      0.8776538850432394
+     ]
+    },
+    {
+     "lm": "bigscience__bloomz-1b1",
+     "vit": "vit_large_patch16_224.mae",
+     "cum": [
+      0.9479304903965023,
+      0.9907571037771579,
+      0.9909267730769713,
+      0.9932738780823827
+     ]
+    },
+    {
+     "lm": "bigscience__bloomz-1b1",
+     "vit": "vit_small_patch14_dinov2.lvd142m",
+     "cum": [
+      0.5942259242720851,
+      0.7753986769426678,
+      0.7766811027077427,
+      0.8187153710074703
+     ]
+    },
+    {
+     "lm": "bigscience__bloomz-1b1",
+     "vit": "vit_small_patch16_224.augreg_in21k",
+     "cum": [
+      0.5639349624772851,
+      0.7418035012116315,
+      0.7433703795144079,
+      0.7933585061742434
+     ]
+    },
+    {
+     "lm": "bigscience__bloomz-1b1",
+     "vit": "vit_tiny_patch16_224.augreg_in21k",
+     "cum": [
+      0.4525486830905261,
+      0.6580837958667758,
+      0.659825563156414,
+      0.7228434746888739
+     ]
+    },
+    {
+     "lm": "bigscience__bloomz-1b7",
+     "vit": "vit_base_patch14_dinov2.lvd142m",
+     "cum": [
+      0.6421722718452993,
+      0.8156898896728779,
+      0.8169590708186407,
+      0.85603341038617
+     ]
+    },
+    {
+     "lm": "bigscience__bloomz-1b7",
+     "vit": "vit_base_patch16_224.augreg_in21k",
+     "cum": [
+      0.7515297526612255,
+      0.869929545551142,
+      0.8709337218270758,
+      0.8972882180386079
+     ]
+    },
+    {
+     "lm": "bigscience__bloomz-1b7",
+     "vit": "vit_base_patch16_224.mae",
+     "cum": [
+      0.9416786342211401,
+      0.9905128663221456,
+      0.9906089005318856,
+      0.9930160804895989
+     ]
+    },
+    {
+     "lm": "bigscience__bloomz-1b7",
+     "vit": "vit_base_patch16_clip_224.laion2b",
+     "cum": [
+      0.06888901711295453,
+      0.4049206692481582,
+      0.41018215890121246,
+      0.5495354804590818
+     ]
+    },
+    {
+     "lm": "bigscience__bloomz-1b7",
+     "vit": "vit_base_patch16_clip_224.laion2b_ft_in12k",
+     "cum": [
+      0.5089993205288346,
+      0.7342430579724224,
+      0.7369590558203202,
+      0.7977025108092717
+     ]
+    },
+    {
+     "lm": "bigscience__bloomz-1b7",
+     "vit": "vit_giant_patch14_dinov2.lvd142m",
+     "cum": [
+      0.7388289451423755,
+      0.8675238154085142,
+      0.8689326568375397,
+      0.896899028493922
+     ]
+    },
+    {
+     "lm": "bigscience__bloomz-1b7",
+     "vit": "vit_huge_patch14_224.mae",
+     "cum": [
+      0.9371167512693835,
+      0.9901989523750577,
+      0.9903715517148799,
+      0.9929667184760302
+     ]
+    },
+    {
+     "lm": "bigscience__bloomz-1b7",
+     "vit": "vit_huge_patch14_clip_224.laion2b",
+     "cum": [
+      0.5165095746284627,
+      0.7066281134164766,
+      0.709746481664014,
+      0.7767658442637788
+     ]
+    },
+    {
+     "lm": "bigscience__bloomz-1b7",
+     "vit": "vit_huge_patch14_clip_224.laion2b_ft_in12k",
+     "cum": [
+      0.7205858063228429,
+      0.8575460548470061,
+      0.859112913579199,
+      0.8910507911784489
+     ]
+    },
+    {
+     "lm": "bigscience__bloomz-1b7",
+     "vit": "vit_large_patch14_clip_224.laion2b",
+     "cum": [
+      0.0060351245741868675,
+      0.36351760013112805,
+      0.37035966186136793,
+      0.5211342655794347
+     ]
+    },
+    {
+     "lm": "bigscience__bloomz-1b7",
+     "vit": "vit_large_patch14_clip_224.laion2b_ft_in12k",
+     "cum": [
+      0.39910044845068854,
+      0.6728774084630404,
+      0.6763604009670426,
+      0.7544033572095091
+     ]
+    },
+    {
+     "lm": "bigscience__bloomz-1b7",
+     "vit": "vit_large_patch14_dinov2.lvd142m",
+     "cum": [
+      0.638880191524698,
+      0.8181046705581028,
+      0.81929360915874,
+      0.85898664914848
+     ]
+    },
+    {
+     "lm": "bigscience__bloomz-1b7",
+     "vit": "vit_large_patch16_224.augreg_in21k",
+     "cum": [
+      0.7578957376534848,
+      0.8805772014156288,
+      0.8815549274972166,
+      0.9069290432053134
+     ]
+    },
+    {
+     "lm": "bigscience__bloomz-1b7",
+     "vit": "vit_large_patch16_224.mae",
+     "cum": [
+      0.9458871882778483,
+      0.9898102499248651,
+      0.9899828373131714,
+      0.99262873095804
+     ]
+    },
+    {
+     "lm": "bigscience__bloomz-1b7",
+     "vit": "vit_small_patch14_dinov2.lvd142m",
+     "cum": [
+      0.6779269609256315,
+      0.8257065105229391,
+      0.8267415985042468,
+      0.8597903941024977
+     ]
+    },
+    {
+     "lm": "bigscience__bloomz-1b7",
+     "vit": "vit_small_patch16_224.augreg_in21k",
+     "cum": [
+      0.6552435381074208,
+      0.8021984402509466,
+      0.8035686911961278,
+      0.8427204692695387
+     ]
+    },
+    {
+     "lm": "bigscience__bloomz-1b7",
+     "vit": "vit_tiny_patch16_224.augreg_in21k",
+     "cum": [
+      0.5595268501143571,
+      0.7293017812753426,
+      0.7309509331228357,
+      0.7817698790147691
+     ]
+    },
+    {
+     "lm": "bigscience__bloomz-3b",
+     "vit": "vit_base_patch14_dinov2.lvd142m",
+     "cum": [
+      0.571753804108083,
+      0.7734124688458958,
+      0.7750609387817466,
+      0.822458465337663
+     ]
+    },
+    {
+     "lm": "bigscience__bloomz-3b",
+     "vit": "vit_base_patch16_224.augreg_in21k",
+     "cum": [
+      0.7084630907032088,
+      0.8427501291491668,
+      0.8439313713455178,
+      0.8751605620143779
+     ]
+    },
+    {
+     "lm": "bigscience__bloomz-3b",
+     "vit": "vit_base_patch16_224.mae",
+     "cum": [
+      0.9423329151749398,
+      0.9909654704834563,
+      0.9910742351006105,
+      0.993311073882611
+     ]
+    },
+    {
+     "lm": "bigscience__bloomz-3b",
+     "vit": "vit_base_patch16_clip_224.laion2b",
+     "cum": [
+      0.00624879925339078,
+      0.3491006963490155,
+      0.35452003868495924,
+      0.5044277669508159
+     ]
+    },
+    {
+     "lm": "bigscience__bloomz-3b",
+     "vit": "vit_base_patch16_clip_224.laion2b_ft_in12k",
+     "cum": [
+      0.40652517593728615,
+      0.6683926945363019,
+      0.6715434928126935,
+      0.7462105481087562
+     ]
+    },
+    {
+     "lm": "bigscience__bloomz-3b",
+     "vit": "vit_giant_patch14_dinov2.lvd142m",
+     "cum": [
+      0.6938526965756804,
+      0.8400039397577315,
+      0.8417575056737633,
+      0.8752794833017192
+     ]
+    },
+    {
+     "lm": "bigscience__bloomz-3b",
+     "vit": "vit_huge_patch14_224.mae",
+     "cum": [
+      0.9380796035780284,
+      0.9906902773058355,
+      0.9908742958186076,
+      0.9932875079742796
+     ]
+    },
+    {
+     "lm": "bigscience__bloomz-3b",
+     "vit": "vit_huge_patch14_clip_224.laion2b",
+     "cum": [
+      0.4104500481568057,
+      0.6309059492257114,
+      0.6346229875420413,
+      0.7175167400992029
+     ]
+    },
+    {
+     "lm": "bigscience__bloomz-3b",
+     "vit": "vit_huge_patch14_clip_224.laion2b_ft_in12k",
+     "cum": [
+      0.6686689684970163,
+      0.8254661609964568,
+      0.8274062246122859,
+      0.865817839532848
+     ]
+    },
+    {
+     "lm": "bigscience__bloomz-3b",
+     "vit": "vit_large_patch14_clip_224.laion2b",
+     "cum": [
+      0.034037084747853996,
+      0.3654353246962487,
+      0.3722639111995768,
+      0.5201462949453041
+     ]
+    },
+    {
+     "lm": "bigscience__bloomz-3b",
+     "vit": "vit_large_patch14_clip_224.laion2b_ft_in12k",
+     "cum": [
+      0.2762312431494082,
+      0.5928233765751413,
+      0.596973278083014,
+      0.6925857521917609
+     ]
+    },
+    {
+     "lm": "bigscience__bloomz-3b",
+     "vit": "vit_large_patch14_dinov2.lvd142m",
+     "cum": [
+      0.56502194435725,
+      0.7745721996139383,
+      0.7761130303771537,
+      0.8245641038670076
+     ]
+    },
+    {
+     "lm": "bigscience__bloomz-3b",
+     "vit": "vit_large_patch16_224.augreg_in21k",
+     "cum": [
+      0.7160507532202228,
+      0.8552609542294133,
+      0.8564665577361301,
+      0.8864694368462376
+     ]
+    },
+    {
+     "lm": "bigscience__bloomz-3b",
+     "vit": "vit_large_patch16_224.mae",
+     "cum": [
+      0.9469007356938993,
+      0.9903466515090077,
+      0.9905301801767638,
+      0.9929782472028654
+     ]
+    },
+    {
+     "lm": "bigscience__bloomz-3b",
+     "vit": "vit_small_patch14_dinov2.lvd142m",
+     "cum": [
+      0.6224892463830209,
+      0.7905091278134946,
+      0.7917150759390897,
+      0.8311765506032085
+     ]
+    },
+    {
+     "lm": "bigscience__bloomz-3b",
+     "vit": "vit_small_patch16_224.augreg_in21k",
+     "cum": [
+      0.5932440433312369,
+      0.7604650618205528,
+      0.7619535428297821,
+      0.8087055438154543
+     ]
+    },
+    {
+     "lm": "bigscience__bloomz-3b",
+     "vit": "vit_tiny_patch16_224.augreg_in21k",
+     "cum": [
+      0.4863267768958228,
+      0.6795818261498027,
+      0.6811210178726804,
+      0.7408200370307587
+     ]
+    },
+    {
+     "lm": "bigscience__bloomz-560m",
+     "vit": "vit_base_patch14_dinov2.lvd142m",
+     "cum": [
+      0.7126895129757369,
+      0.8507223402890927,
+      0.8517498435999085,
+      0.8803420081361452
+     ]
+    },
+    {
+     "lm": "bigscience__bloomz-560m",
+     "vit": "vit_base_patch16_224.augreg_in21k",
+     "cum": [
+      0.7989277485216236,
+      0.8945116133316398,
+      0.8952671088583362,
+      0.9142646421046965
+     ]
+    },
+    {
+     "lm": "bigscience__bloomz-560m",
+     "vit": "vit_base_patch16_224.mae",
+     "cum": [
+      0.9413846556893213,
+      0.9915143791663465,
+      0.9915883034227413,
+      0.9935779462793387
+     ]
+    },
+    {
+     "lm": "bigscience__bloomz-560m",
+     "vit": "vit_base_patch16_clip_224.laion2b",
+     "cum": [
+      0.1613652481679621,
+      0.46983078768467607,
+      0.4742766145835028,
+      0.5869292102064001
+     ]
+    },
+    {
+     "lm": "bigscience__bloomz-560m",
+     "vit": "vit_base_patch16_clip_224.laion2b_ft_in12k",
+     "cum": [
+      0.6022731016172737,
+      0.7848399447443418,
+      0.7867851816764797,
+      0.8315739579215562
+     ]
+    },
+    {
+     "lm": "bigscience__bloomz-560m",
+     "vit": "vit_giant_patch14_dinov2.lvd142m",
+     "cum": [
+      0.7886728862728885,
+      0.8923843588246334,
+      0.8935112962807262,
+      0.9138049970141973
+     ]
+    },
+    {
+     "lm": "bigscience__bloomz-560m",
+     "vit": "vit_huge_patch14_224.mae",
+     "cum": [
+      0.9362302298321259,
+      0.991170873434705,
+      0.991310533708965,
+      0.9935161139630813
+     ]
+    },
+    {
+     "lm": "bigscience__bloomz-560m",
+     "vit": "vit_huge_patch14_clip_224.laion2b",
+     "cum": [
+      0.608679696908323,
+      0.7626662947307048,
+      0.7649032835823903,
+      0.8132621662836812
+     ]
+    },
+    {
+     "lm": "bigscience__bloomz-560m",
+     "vit": "vit_huge_patch14_clip_224.laion2b_ft_in12k",
+     "cum": [
+      0.7760342403187601,
+      0.8860818920583375,
+      0.88729947454328,
+      0.9101480282508339
+     ]
+    },
+    {
+     "lm": "bigscience__bloomz-560m",
+     "vit": "vit_large_patch14_clip_224.laion2b",
+     "cum": [
+      0.047965420552522786,
+      0.3978215042192153,
+      0.40380971937995636,
+      0.5326023545641078
+     ]
+    },
+    {
+     "lm": "bigscience__bloomz-560m",
+     "vit": "vit_large_patch14_clip_224.laion2b_ft_in12k",
+     "cum": [
+      0.5087860416659693,
+      0.7339511463650581,
+      0.7365479001546201,
+      0.7946104963680544
+     ]
+    },
+    {
+     "lm": "bigscience__bloomz-560m",
+     "vit": "vit_large_patch14_dinov2.lvd142m",
+     "cum": [
+      0.7115049318968323,
+      0.8546252067255565,
+      0.8556194129788433,
+      0.8844035401224205
+     ]
+    },
+    {
+     "lm": "bigscience__bloomz-560m",
+     "vit": "vit_large_patch16_224.augreg_in21k",
+     "cum": [
+      0.8063187051459455,
+      0.9044209957483759,
+      0.9051312701938924,
+      0.9232343244243542
+     ]
+    },
+    {
+     "lm": "bigscience__bloomz-560m",
+     "vit": "vit_large_patch16_224.mae",
+     "cum": [
+      0.9451026250652279,
+      0.9907863417531558,
+      0.990922795842631,
+      0.9931651516740345
+     ]
+    },
+    {
+     "lm": "bigscience__bloomz-560m",
+     "vit": "vit_small_patch14_dinov2.lvd142m",
+     "cum": [
+      0.7350930765385708,
+      0.8547482234883659,
+      0.8555692545339614,
+      0.8803384452297065
+     ]
+    },
+    {
+     "lm": "bigscience__bloomz-560m",
+     "vit": "vit_small_patch16_224.augreg_in21k",
+     "cum": [
+      0.7154636503697528,
+      0.8356295536067029,
+      0.8366538650645134,
+      0.8659147938446484
+     ]
+    },
+    {
+     "lm": "bigscience__bloomz-560m",
+     "vit": "vit_tiny_patch16_224.augreg_in21k",
+     "cum": [
+      0.6231150903652346,
+      0.7668010735985529,
+      0.7680739712667098,
+      0.8081613625187166
+     ]
+    },
+    {
+     "lm": "bigscience__bloomz-7b1",
+     "vit": "vit_base_patch14_dinov2.lvd142m",
+     "cum": [
+      0.5900441186501069,
+      0.788303800218001,
+      0.7898729500352726,
+      0.8370298982088387
+     ]
+    },
+    {
+     "lm": "bigscience__bloomz-7b1",
+     "vit": "vit_base_patch16_224.augreg_in21k",
+     "cum": [
+      0.7149649212744354,
+      0.8504189456549424,
+      0.8515939770159999,
+      0.8835665199208941
+     ]
+    },
+    {
+     "lm": "bigscience__bloomz-7b1",
+     "vit": "vit_base_patch16_224.mae",
+     "cum": [
+      0.9418614028984453,
+      0.9896652438340714,
+      0.989797252458516,
+      0.9924795276432795
+     ]
+    },
+    {
+     "lm": "bigscience__bloomz-7b1",
+     "vit": "vit_base_patch16_clip_224.laion2b",
+     "cum": [
+      0.029832876963280297,
+      0.36995258407663795,
+      0.3757596646769156,
+      0.5284811253927022
+     ]
+    },
+    {
+     "lm": "bigscience__bloomz-7b1",
+     "vit": "vit_base_patch16_clip_224.laion2b_ft_in12k",
+     "cum": [
+      0.4459547927758505,
+      0.6955008210006799,
+      0.6983822769399477,
+      0.7710281778390026
+     ]
+    },
+    {
+     "lm": "bigscience__bloomz-7b1",
+     "vit": "vit_giant_patch14_dinov2.lvd142m",
+     "cum": [
+      0.7009708377140021,
+      0.8477198503374005,
+      0.8494295705798083,
+      0.883594100071865
+     ]
+    },
+    {
+     "lm": "bigscience__bloomz-7b1",
+     "vit": "vit_huge_patch14_224.mae",
+     "cum": [
+      0.9385835983017048,
+      0.9894571237267583,
+      0.9896536095530705,
+      0.9924877937616204
+     ]
+    },
+    {
+     "lm": "bigscience__bloomz-7b1",
+     "vit": "vit_huge_patch14_clip_224.laion2b",
+     "cum": [
+      0.4538683295134238,
+      0.665207065999478,
+      0.6687151068362354,
+      0.7483897914220922
+     ]
+    },
+    {
+     "lm": "bigscience__bloomz-7b1",
+     "vit": "vit_huge_patch14_clip_224.laion2b_ft_in12k",
+     "cum": [
+      0.6774422369567648,
+      0.8348423183955186,
+      0.836739506658957,
+      0.8755733301310756
+     ]
+    },
+    {
+     "lm": "bigscience__bloomz-7b1",
+     "vit": "vit_large_patch14_clip_224.laion2b",
+     "cum": [
+      0.0065288610544775305,
+      0.35255215932012074,
+      0.3598937915574107,
+      0.5187608523555012
+     ]
+    },
+    {
+     "lm": "bigscience__bloomz-7b1",
+     "vit": "vit_large_patch14_clip_224.laion2b_ft_in12k",
+     "cum": [
+      0.3259286788398696,
+      0.628789860926184,
+      0.6326395198829328,
+      0.7247496262589384
+     ]
+    },
+    {
+     "lm": "bigscience__bloomz-7b1",
+     "vit": "vit_large_patch14_dinov2.lvd142m",
+     "cum": [
+      0.5838125643693082,
+      0.7894872625192136,
+      0.7909166732642239,
+      0.8390881251770282
+     ]
+    },
+    {
+     "lm": "bigscience__bloomz-7b1",
+     "vit": "vit_large_patch16_224.augreg_in21k",
+     "cum": [
+      0.7205347714953323,
+      0.8614951466781016,
+      0.8626660888583195,
+      0.893540456966194
+     ]
+    },
+    {
+     "lm": "bigscience__bloomz-7b1",
+     "vit": "vit_large_patch16_224.mae",
+     "cum": [
+      0.9469639080424239,
+      0.9890494347984212,
+      0.9892521549445588,
+      0.99214263636601
+     ]
+    },
+    {
+     "lm": "bigscience__bloomz-7b1",
+     "vit": "vit_small_patch14_dinov2.lvd142m",
+     "cum": [
+      0.6369533569478898,
+      0.8030348550654887,
+      0.8041955984996786,
+      0.8438473863807682
+     ]
+    },
+    {
+     "lm": "bigscience__bloomz-7b1",
+     "vit": "vit_small_patch16_224.augreg_in21k",
+     "cum": [
+      0.6133794238529079,
+      0.7763930693215308,
+      0.7778116227084401,
+      0.8243396755549701
+     ]
+    },
+    {
+     "lm": "bigscience__bloomz-7b1",
+     "vit": "vit_tiny_patch16_224.augreg_in21k",
+     "cum": [
+      0.5193461441451692,
+      0.7008039466491408,
+      0.702265959910602,
+      0.7610555510773662
+     ]
+    },
+    {
+     "lm": "huggyllama__llama-7b",
+     "vit": "vit_base_patch14_dinov2.lvd142m",
+     "cum": [
+      0.587162146852754,
+      0.8244594384711832,
+      0.8251108004018033,
+      0.8633545143960994
+     ]
+    },
+    {
+     "lm": "huggyllama__llama-7b",
+     "vit": "vit_base_patch16_224.augreg_in21k",
+     "cum": [
+      0.6641792453002353,
+      0.8611365372702084,
+      0.8617974886328263,
+      0.8911541013455406
+     ]
+    },
+    {
+     "lm": "huggyllama__llama-7b",
+     "vit": "vit_base_patch16_224.mae",
+     "cum": [
+      0.9243611590107346,
+      0.9715338571530857,
+      0.9717356548189933,
+      0.9784030633048495
+     ]
+    },
+    {
+     "lm": "huggyllama__llama-7b",
+     "vit": "vit_base_patch16_clip_224.laion2b",
+     "cum": [
+      0.23930318485865276,
+      0.6003416200940047,
+      0.6035102027633631,
+      0.693090637376576
+     ]
+    },
+    {
+     "lm": "huggyllama__llama-7b",
+     "vit": "vit_base_patch16_clip_224.laion2b_ft_in12k",
+     "cum": [
+      0.5021233384865167,
+      0.7758112980156404,
+      0.7769149295464137,
+      0.8272541828227271
+     ]
+    },
+    {
+     "lm": "huggyllama__llama-7b",
+     "vit": "vit_giant_patch14_dinov2.lvd142m",
+     "cum": [
+      0.6572807780125973,
+      0.8599695824876187,
+      0.8607805482893542,
+      0.8912281703696738
+     ]
+    },
+    {
+     "lm": "huggyllama__llama-7b",
+     "vit": "vit_huge_patch14_224.mae",
+     "cum": [
+      0.9219157480330824,
+      0.9711537872246663,
+      0.9714034327941773,
+      0.9782627260185592
+     ]
+    },
+    {
+     "lm": "huggyllama__llama-7b",
+     "vit": "vit_huge_patch14_clip_224.laion2b",
+     "cum": [
+      0.49904119943790315,
+      0.7625582320126898,
+      0.7646495861251648,
+      0.8173447373940175
+     ]
+    },
+    {
+     "lm": "huggyllama__llama-7b",
+     "vit": "vit_huge_patch14_clip_224.laion2b_ft_in12k",
+     "cum": [
+      0.6353867314364374,
+      0.8502559167137538,
+      0.8511489738177755,
+      0.8844551469677044
+     ]
+    },
+    {
+     "lm": "huggyllama__llama-7b",
+     "vit": "vit_large_patch14_clip_224.laion2b",
+     "cum": [
+      0.1594111404397927,
+      0.5557006993175715,
+      0.5595769779843572,
+      0.6598245644631644
+     ]
+    },
+    {
+     "lm": "huggyllama__llama-7b",
+     "vit": "vit_large_patch14_clip_224.laion2b_ft_in12k",
+     "cum": [
+      0.4364420599574055,
+      0.7425475495828364,
+      0.7439562012623229,
+      0.8028291889496137
+     ]
+    },
+    {
+     "lm": "huggyllama__llama-7b",
+     "vit": "vit_large_patch14_dinov2.lvd142m",
+     "cum": [
+      0.5787870225548686,
+      0.8242637927239318,
+      0.8248437974359455,
+      0.8637654680155253
+     ]
+    },
+    {
+     "lm": "huggyllama__llama-7b",
+     "vit": "vit_large_patch16_224.augreg_in21k",
+     "cum": [
+      0.6672056507495927,
+      0.8670510582322966,
+      0.8676177420238487,
+      0.8963595303148729
+     ]
+    },
+    {
+     "lm": "huggyllama__llama-7b",
+     "vit": "vit_large_patch16_224.mae",
+     "cum": [
+      0.9290754278674087,
+      0.9697627279360124,
+      0.9700261466711511,
+      0.9771335709136395
+     ]
+    },
+    {
+     "lm": "huggyllama__llama-7b",
+     "vit": "vit_small_patch14_dinov2.lvd142m",
+     "cum": [
+      0.6235143189267398,
+      0.8350995811271267,
+      0.8357071008855186,
+      0.8694984371797798
+     ]
+    },
+    {
+     "lm": "huggyllama__llama-7b",
+     "vit": "vit_small_patch16_224.augreg_in21k",
+     "cum": [
+      0.6063932602281574,
+      0.8196550407471892,
+      0.820593369549577,
+      0.8577880464055692
+     ]
+    },
+    {
+     "lm": "huggyllama__llama-7b",
+     "vit": "vit_tiny_patch16_224.augreg_in21k",
+     "cum": [
+      0.5612432661008355,
+      0.7767556286960076,
+      0.7780464097619697,
+      0.8217635892697104
+     ]
+    },
+    {
+     "lm": "openlm-research__open_llama_3b",
+     "vit": "vit_base_patch14_dinov2.lvd142m",
+     "cum": [
+      0.7924742367194684,
+      0.9035916412286268,
+      0.9041898545656636,
+      0.9294200711626045
+     ]
+    },
+    {
+     "lm": "openlm-research__open_llama_3b",
+     "vit": "vit_base_patch16_224.augreg_in21k",
+     "cum": [
+      0.840308531735235,
+      0.9268978608121752,
+      0.9272689568203352,
+      0.9457203895814934
+     ]
+    },
+    {
+     "lm": "openlm-research__open_llama_3b",
+     "vit": "vit_base_patch16_224.mae",
+     "cum": [
+      0.9363674833469615,
+      0.9861813586940871,
+      0.9863308470465392,
+      0.9905681354039182
+     ]
+    },
+    {
+     "lm": "openlm-research__open_llama_3b",
+     "vit": "vit_base_patch16_clip_224.laion2b",
+     "cum": [
+      0.5265761451373574,
+      0.7185812425393937,
+      0.7200491184911841,
+      0.798033167352177
+     ]
+    },
+    {
+     "lm": "openlm-research__open_llama_3b",
+     "vit": "vit_base_patch16_clip_224.laion2b_ft_in12k",
+     "cum": [
+      0.7398429605542142,
+      0.8725361949552508,
+      0.8734078138190344,
+      0.9086047216614199
+     ]
+    },
+    {
+     "lm": "openlm-research__open_llama_3b",
+     "vit": "vit_giant_patch14_dinov2.lvd142m",
+     "cum": [
+      0.8349787263504651,
+      0.9254929548772721,
+      0.9262040654031002,
+      0.9457575335837878
+     ]
+    },
+    {
+     "lm": "openlm-research__open_llama_3b",
+     "vit": "vit_huge_patch14_224.mae",
+     "cum": [
+      0.9326862335293786,
+      0.98584317841676,
+      0.9860153467164143,
+      0.990552614612918
+     ]
+    },
+    {
+     "lm": "openlm-research__open_llama_3b",
+     "vit": "vit_huge_patch14_clip_224.laion2b",
+     "cum": [
+      0.7518782051830359,
+      0.8649086150257868,
+      0.8656927665046702,
+      0.9027133850786193
+     ]
+    },
+    {
+     "lm": "openlm-research__open_llama_3b",
+     "vit": "vit_huge_patch14_clip_224.laion2b_ft_in12k",
+     "cum": [
+      0.8270980648432853,
+      0.9229885702706472,
+      0.9236444058932194,
+      0.9448428045251134
+     ]
+    },
+    {
+     "lm": "openlm-research__open_llama_3b",
+     "vit": "vit_large_patch14_clip_224.laion2b",
+     "cum": [
+      0.4362036398970877,
+      0.6672285576073402,
+      0.6693569081791138,
+      0.7636449193244407
+     ]
+    },
+    {
+     "lm": "openlm-research__open_llama_3b",
+     "vit": "vit_large_patch14_clip_224.laion2b_ft_in12k",
+     "cum": [
+      0.6929633115034348,
+      0.8500404922718783,
+      0.851236280640512,
+      0.8941200036159311
+     ]
+    },
+    {
+     "lm": "openlm-research__open_llama_3b",
+     "vit": "vit_large_patch14_dinov2.lvd142m",
+     "cum": [
+      0.7907257349574706,
+      0.9064850020650461,
+      0.9070436208587115,
+      0.9324548190939423
+     ]
+    },
+    {
+     "lm": "openlm-research__open_llama_3b",
+     "vit": "vit_large_patch16_224.augreg_in21k",
+     "cum": [
+      0.8429172981176389,
+      0.9326742736266966,
+      0.933021367861032,
+      0.9508922593605555
+     ]
+    },
+    {
+     "lm": "openlm-research__open_llama_3b",
+     "vit": "vit_large_patch16_224.mae",
+     "cum": [
+      0.9403671453132998,
+      0.985074764645725,
+      0.9852290753828405,
+      0.9899424039324144
+     ]
+    },
+    {
+     "lm": "openlm-research__open_llama_3b",
+     "vit": "vit_small_patch14_dinov2.lvd142m",
+     "cum": [
+      0.8058121810991559,
+      0.9030740976951864,
+      0.9035248212695388,
+      0.9260246023240117
+     ]
+    },
+    {
+     "lm": "openlm-research__open_llama_3b",
+     "vit": "vit_small_patch16_224.augreg_in21k",
+     "cum": [
+      0.7965239676849444,
+      0.8933988473198238,
+      0.8938589855160044,
+      0.9191962227170145
+     ]
+    },
+    {
+     "lm": "openlm-research__open_llama_3b",
+     "vit": "vit_tiny_patch16_224.augreg_in21k",
+     "cum": [
+      0.7455620150775527,
+      0.8496821932674589,
+      0.8501600011735396,
+      0.8827677881291496
+     ]
+    },
+    {
+     "lm": "openlm-research__open_llama_7b",
+     "vit": "vit_base_patch14_dinov2.lvd142m",
+     "cum": [
+      0.7999860071372074,
+      0.9081634967909109,
+      0.9087351560649994,
+      0.93262083923285
+     ]
+    },
+    {
+     "lm": "openlm-research__open_llama_7b",
+     "vit": "vit_base_patch16_224.augreg_in21k",
+     "cum": [
+      0.8455870392786751,
+      0.9300592626662614,
+      0.9304366883466215,
+      0.9479525891450232
+     ]
+    },
+    {
+     "lm": "openlm-research__open_llama_7b",
+     "vit": "vit_base_patch16_224.mae",
+     "cum": [
+      0.936814698798998,
+      0.9861057559347832,
+      0.9862379268300774,
+      0.9904816221507001
+     ]
+    },
+    {
+     "lm": "openlm-research__open_llama_7b",
+     "vit": "vit_base_patch16_clip_224.laion2b",
+     "cum": [
+      0.5532240200383852,
+      0.7356840786464431,
+      0.7371448407676464,
+      0.8095614061057328
+     ]
+    },
+    {
+     "lm": "openlm-research__open_llama_7b",
+     "vit": "vit_base_patch16_clip_224.laion2b_ft_in12k",
+     "cum": [
+      0.7493033507799483,
+      0.8791038875491166,
+      0.8799600550735927,
+      0.9131398505543927
+     ]
+    },
+    {
+     "lm": "openlm-research__open_llama_7b",
+     "vit": "vit_giant_patch14_dinov2.lvd142m",
+     "cum": [
+      0.840015053557048,
+      0.928693084866438,
+      0.9293453482015657,
+      0.9479799562296889
+     ]
+    },
+    {
+     "lm": "openlm-research__open_llama_7b",
+     "vit": "vit_huge_patch14_224.mae",
+     "cum": [
+      0.9328460467996625,
+      0.985737469395864,
+      0.9859068469231,
+      0.9904563324628997
+     ]
+    },
+    {
+     "lm": "openlm-research__open_llama_7b",
+     "vit": "vit_huge_patch14_clip_224.laion2b",
+     "cum": [
+      0.7631158218150731,
+      0.8720416031014413,
+      0.8728408354752147,
+      0.9074864833456727
+     ]
+    },
+    {
+     "lm": "openlm-research__open_llama_7b",
+     "vit": "vit_huge_patch14_clip_224.laion2b_ft_in12k",
+     "cum": [
+      0.832740970361998,
+      0.9264625764069276,
+      0.9271085382171864,
+      0.9472091910883118
+     ]
+    },
+    {
+     "lm": "openlm-research__open_llama_7b",
+     "vit": "vit_large_patch14_clip_224.laion2b",
+     "cum": [
+      0.46952627407742253,
+      0.6880613107178265,
+      0.6900180913221352,
+      0.7773051246404363
+     ]
+    },
+    {
+     "lm": "openlm-research__open_llama_7b",
+     "vit": "vit_large_patch14_clip_224.laion2b_ft_in12k",
+     "cum": [
+      0.706477828066455,
+      0.8583691129075419,
+      0.8595122074726994,
+      0.8997079049124332
+     ]
+    },
+    {
+     "lm": "openlm-research__open_llama_7b",
+     "vit": "vit_large_patch14_dinov2.lvd142m",
+     "cum": [
+      0.7988879426431863,
+      0.9110863464266914,
+      0.9116368332410272,
+      0.9356551016054548
+     ]
+    },
+    {
+     "lm": "openlm-research__open_llama_7b",
+     "vit": "vit_large_patch16_224.augreg_in21k",
+     "cum": [
+      0.8485891367848761,
+      0.93570434860407,
+      0.9360475577727618,
+      0.9529750998172253
+     ]
+    },
+    {
+     "lm": "openlm-research__open_llama_7b",
+     "vit": "vit_large_patch16_224.mae",
+     "cum": [
+      0.9406967887401217,
+      0.9849835742360664,
+      0.9851220393253599,
+      0.9898431074833023
+     ]
+    },
+    {
+     "lm": "openlm-research__open_llama_7b",
+     "vit": "vit_small_patch14_dinov2.lvd142m",
+     "cum": [
+      0.8119468901901972,
+      0.9071965999677936,
+      0.9076290573121193,
+      0.9290781168656976
+     ]
+    },
+    {
+     "lm": "openlm-research__open_llama_7b",
+     "vit": "vit_small_patch16_224.augreg_in21k",
+     "cum": [
+      0.8029632294489075,
+      0.8980027975567533,
+      0.8984788384922324,
+      0.922592155074041
+     ]
+    },
+    {
+     "lm": "openlm-research__open_llama_7b",
+     "vit": "vit_tiny_patch16_224.augreg_in21k",
+     "cum": [
+      0.75295092336585,
+      0.855773859021868,
+      0.856295220283672,
+      0.8875054784126418
+     ]
+    }
+   ]
+  }
+ },
+ "panels_b_c": {
+  "source": {
+   "path": "~/hrh_v2_stage1_20261008/results/S1_2/panel_main.parquet",
+   "filter": "r == 0.5, lm_family == 'BLOOMZ', pre in {'prh_clip+l2', 'l2'} (85 rows each)",
+   "columns": {
+    "cka": "cal.cka_biased.uncensored",
+    "mknn": "cal.s_N_k10.uncensored",
+    "x": "lm_params"
+   }
+  },
+  "depth": "mid depth (r = 0.5)",
+  "lm_order": [
+   "bigscience__bloomz-560m",
+   "bigscience__bloomz-1b1",
+   "bigscience__bloomz-1b7",
+   "bigscience__bloomz-3b",
+   "bigscience__bloomz-7b1"
+  ],
+  "lm_params": [
+   559214592.0,
+   1065314304.0,
+   1722408960.0,
+   3002557440.0,
+   7069016064.0
+  ],
+  "vits": [
+   "vit_base_patch14_dinov2.lvd142m",
+   "vit_base_patch16_224.augreg_in21k",
+   "vit_base_patch16_224.mae",
+   "vit_base_patch16_clip_224.laion2b",
+   "vit_base_patch16_clip_224.laion2b_ft_in12k",
+   "vit_giant_patch14_dinov2.lvd142m",
+   "vit_huge_patch14_224.mae",
+   "vit_huge_patch14_clip_224.laion2b",
+   "vit_huge_patch14_clip_224.laion2b_ft_in12k",
+   "vit_large_patch14_clip_224.laion2b",
+   "vit_large_patch14_clip_224.laion2b_ft_in12k",
+   "vit_large_patch14_dinov2.lvd142m",
+   "vit_large_patch16_224.augreg_in21k",
+   "vit_large_patch16_224.mae",
+   "vit_small_patch14_dinov2.lvd142m",
+   "vit_small_patch16_224.augreg_in21k",
+   "vit_tiny_patch16_224.augreg_in21k"
+  ],
+  "summary_check": "~/hrh_v2_stage1_20261008/results/S1_2/s12_summary.json pe3['r=0.5|<pre>|biased'][Tr_raw (CKA) | Tr_mKNN] Tr, p_one, p_two equal (1e-12, asserted)",
+  "encoding": {
+   "marker": "open circle (mid depth) for every line",
+   "line_style": {
+    "prh_clip+l2": "solid",
+    "l2": "dashed"
+   },
+   "colour": {
+    "cka": "CRIT cka (b)",
+    "mknn": "CRIT mknn (c)"
+   },
+   "y": "mean over the 17 vision models divided by its value at 0.56B (log axis shared by b and c); error bars +-1 s.e. over vision models divided by the same value",
+   "reference": "dotted NULL_LINE at 1"
+  },
+  "y_ticks": [
+   0.5,
+   0.7,
+   1.0
+  ],
+  "ylim": [
+   0.44434041201609525,
+   1.3528474473676293
+  ],
+  "lines": {
+   "cka|prh_clip+l2": {
+    "plotted_ratio_to_0.56B": [
+     1.0,
+     1.0973979447000932,
+     1.1111039318901983,
+     1.0615619517384753,
+     1.148688659558495
+    ],
+    "plotted_se_ratio": [
+     0.05509694751968567,
+     0.06032323385176848,
+     0.061946839323797735,
+     0.05820975734636734,
+     0.06293867349600425
+    ],
+    "mean_over_17_vits": [
+     0.11294810869444272,
+     0.12394902233904416,
+     0.1254970876699568,
+     0.11990141471084206,
+     0.1297422115758866
+    ],
+    "se_over_17_vits": [
+     0.006223096017185463,
+     0.006813395173889833,
+     0.006996778341221485,
+     0.006574681999834633,
+     0.007108804135110729
+    ],
+    "divisor_mean_at_0.56B": 0.11294810869444272,
+    "Tr": 0.7,
+    "p_one_exact": 0.11666666666666667,
+    "p_two_exact": 0.23333333333333334,
+    "n_perm": 120,
+    "EXPLORATORY_Tr_of_censored_s_cal": 0.7,
+    "n_vits_strictly_rising": 0,
+    "n_vits_strictly_falling": 0,
+    "ratio_mean_7.1B_over_0.56B": 1.148688659558495,
+    "range_of_mean": [
+     0.11294810869444272,
+     0.1297422115758866
+    ],
+    "per_vit_grid_rows_lm_cols_vit": [
+     [
+      0.1561971819033053,
+      0.12444297220271064,
+      0.07710977573900163,
+      0.07763236476001015,
+      0.11513635199876657,
+      0.13472244431291758,
+      0.1514066082988358,
+      0.09211320235643974,
+      0.1018477124701492,
+      0.07750727670794957,
+      0.09317888733938637,
+      0.0936998386812485,
+      0.11429009609632418,
+      0.11476636663289848,
+      0.12359761024335725,
+      0.12474906710095901,
+      0.1477200909612663
+     ],
+     [
+      0.17014529180666732,
+      0.1370631234883134,
+      0.08308604666715984,
+      0.08536692356937256,
+      0.12638334881227922,
+      0.14687225356060496,
+      0.166064174960176,
+      0.10253568375253727,
+      0.11316538530524464,
+      0.08622188144857777,
+      0.10283586822285457,
+      0.10103792707135278,
+      0.12532877566019707,
+      0.1258660482155098,
+      0.1337490895049045,
+      0.13738191105766473,
+      0.16402964666033434
+     ],
+     [
+      0.1745058507355794,
+      0.13864224689497212,
+      0.08326076408969937,
+      0.08553428941487047,
+      0.1279231145259863,
+      0.14916178611468195,
+      0.1686277067720467,
+      0.10378688493588233,
+      0.11502570293210083,
+      0.08642901815771234,
+      0.10367812930270645,
+      0.10373632277656726,
+      0.126345906797958,
+      0.12725768901287254,
+      0.1349681130565134,
+      0.13908201603828962,
+      0.16548494883082643
+     ],
+     [
+      0.16582694562203407,
+      0.13229810452845964,
+      0.08008717757181763,
+      0.08276328235436925,
+      0.12148776685916352,
+      0.14208298845159134,
+      0.16027761806001178,
+      0.09946031659425275,
+      0.10983020347286773,
+      0.08314260425629408,
+      0.10009010178938624,
+      0.09919832292522304,
+      0.12099727622490825,
+      0.1214877101361839,
+      0.12820524339716902,
+      0.13277293148834796,
+      0.15831545635223493
+     ],
+     [
+      0.17943981826248018,
+      0.14368378852631178,
+      0.08510191762329572,
+      0.08941384271862401,
+      0.13132320701527167,
+      0.15429050003898284,
+      0.17304967993634257,
+      0.10821605463715268,
+      0.11974835177019821,
+      0.09005580628657711,
+      0.10861612159323,
+      0.10775157227635185,
+      0.1319214612207863,
+      0.13040059025646825,
+      0.138607263157198,
+      0.1438885278140717,
+      0.17010909365672916
+     ]
+    ]
+   },
+   "mknn|prh_clip+l2": {
+    "plotted_ratio_to_0.56B": [
+     1.0,
+     1.0577578073033151,
+     1.1734786818374334,
+     1.127383309731223,
+     1.2036582325418088
+    ],
+    "plotted_se_ratio": [
+     0.04522702000661781,
+     0.04838438126724866,
+     0.05801089800375522,
+     0.053060200880482994,
+     0.05889246603626226
+    ],
+    "mean_over_17_vits": [
+     0.034423265165441176,
+     0.036411477481617646,
+     0.04039496783088235,
+     0.03880821461397058,
+     0.04143384650735294
+    ],
+    "se_over_17_vits": [
+     0.001556861702330518,
+     0.0016655483862283054,
+     0.001996924524468628,
+     0.0018265053646404415,
+     0.0020272709746129943
+    ],
+    "divisor_mean_at_0.56B": 0.034423265165441176,
+    "Tr": 0.8411764705882352,
+    "p_one_exact": 0.025,
+    "p_two_exact": 0.05,
+    "n_perm": 120,
+    "EXPLORATORY_Tr_of_censored_s_cal": 0.8411764705882352,
+    "n_vits_strictly_rising": 2,
+    "n_vits_strictly_falling": 0,
+    "ratio_mean_7.1B_over_0.56B": 1.2036582325418088,
+    "range_of_mean": [
+     0.034423265165441176,
+     0.04143384650735294
+    ],
+    "per_vit_grid_rows_lm_cols_vit": [
+     [
+      0.045119140625000005,
+      0.0346509765625,
+      0.03123359375,
+      0.0246490234375,
+      0.03286953125,
+      0.0373771484375,
+      0.04642265625,
+      0.030660937500000002,
+      0.03515546875,
+      0.023936328125,
+      0.0269984375,
+      0.028200390625,
+      0.0380806640625,
+      0.03568984375,
+      0.0376517578125,
+      0.0359279296875,
+      0.0405716796875
+     ],
+     [
+      0.047828710937500005,
+      0.0367703125,
+      0.0341263671875,
+      0.0249634765625,
+      0.0359953125,
+      0.038531640625,
+      0.0486443359375,
+      0.032021484375,
+      0.0372212890625,
+      0.024413085937500002,
+      0.0287447265625,
+      0.030203710937499996,
+      0.04021171875,
+      0.037533789062499996,
+      0.0402470703125,
+      0.039376953124999996,
+      0.0421611328125
+     ],
+     [
+      0.0526865234375,
+      0.043512890625,
+      0.032436718749999996,
+      0.0274384765625,
+      0.0391611328125,
+      0.0438533203125,
+      0.05412109375,
+      0.034338085937500006,
+      0.04236875,
+      0.024599218750000002,
+      0.0341892578125,
+      0.0338306640625,
+      0.0453517578125,
+      0.042127734375,
+      0.043706640625,
+      0.044751953125,
+      0.048240234374999996
+     ],
+     [
+      0.051009179687499996,
+      0.039749609374999995,
+      0.033030859375,
+      0.0276837890625,
+      0.038423046875,
+      0.0428283203125,
+      0.0521751953125,
+      0.033171484375000004,
+      0.040647265625,
+      0.0250484375,
+      0.032244921875,
+      0.0320759765625,
+      0.042969140625,
+      0.03883906250000001,
+      0.042586328125,
+      0.040925390625,
+      0.046331640624999997
+     ],
+     [
+      0.054150000000000004,
+      0.0433744140625,
+      0.037036914062499995,
+      0.0280583984375,
+      0.0413765625,
+      0.0463302734375,
+      0.05582148437500001,
+      0.03401875,
+      0.0412259765625,
+      0.0262814453125,
+      0.0352716796875,
+      0.032169140625,
+      0.046941601562500004,
+      0.04384765625,
+      0.0453189453125,
+      0.044271875,
+      0.0488802734375
+     ]
+    ]
+   },
+   "cka|l2": {
+    "plotted_ratio_to_0.56B": [
+     1.0,
+     0.9730352852898666,
+     0.6435929874634149,
+     0.5880481291289017,
+     0.5141528543299122
+    ],
+    "plotted_se_ratio": [
+     0.06050407914320704,
+     0.05885556450967472,
+     0.043110280364642005,
+     0.04077171317685825,
+     0.038033524757434066
+    ],
+    "mean_over_17_vits": [
+     0.013898362019096056,
+     0.013523596652312977,
+     0.008944888332718089,
+     0.00817290578328562,
+     0.007145882502628679
+    ],
+    "se_over_17_vits": [
+     0.0008409075955643305,
+     0.0008179959423937209,
+     0.0005991622832525229,
+     0.0005666600298707249,
+     0.0005286036959410711
+    ],
+    "divisor_mean_at_0.56B": 0.013898362019096056,
+    "Tr": -0.9999999999999998,
+    "p_one_exact": 1.0,
+    "p_two_exact": 0.016666666666666666,
+    "n_perm": 120,
+    "EXPLORATORY_Tr_of_censored_s_cal": -0.9705882352941174,
+    "n_vits_strictly_rising": 0,
+    "n_vits_strictly_falling": 17,
+    "ratio_mean_7.1B_over_0.56B": 0.5141528543299122,
+    "range_of_mean": [
+     0.007145882502628679,
+     0.013898362019096056
+    ],
+    "per_vit_grid_rows_lm_cols_vit": [
+     [
+      0.017480607949366442,
+      0.016515350329759534,
+      0.006490850640584375,
+      0.009251235320268746,
+      0.014459129004487883,
+      0.016468498570254363,
+      0.01946727790293781,
+      0.01315263411748433,
+      0.014221725816912913,
+      0.010926459815578765,
+      0.011351144612103105,
+      0.011454230190540576,
+      0.016046086194803466,
+      0.011524338324533498,
+      0.012732597011928623,
+      0.01679080769349074,
+      0.01793918082959777
+     ],
+     [
+      0.016616067802272507,
+      0.015976467488859426,
+      0.006236887552610315,
+      0.009033383209555174,
+      0.01409759332593165,
+      0.01606393925357815,
+      0.018966537355575144,
+      0.01275122456125619,
+      0.0137922974067221,
+      0.010806155390879476,
+      0.011164226172981658,
+      0.011103038017140684,
+      0.01567409133456956,
+      0.01122627454104096,
+      0.012245142755787768,
+      0.01655998270730613,
+      0.017587834213253738
+     ],
+     [
+      0.010222033086402117,
+      0.010809250094964883,
+      0.003661989585468184,
+      0.005743506892734501,
+      0.009310304986153522,
+      0.010456867710958585,
+      0.013563203085997514,
+      0.008972555594657889,
+      0.009353091790517448,
+      0.007464221450950767,
+      0.007314141832940185,
+      0.007138869953727402,
+      0.0106186146103043,
+      0.007226472865265073,
+      0.007157260582298977,
+      0.011319050680362257,
+      0.011731666852503896
+     ],
+     [
+      0.008916056864135134,
+      0.010160054460171004,
+      0.0032075509447225775,
+      0.00518870733457137,
+      0.00838107848717496,
+      0.009383621877478569,
+      0.012467038646752183,
+      0.008507479277042262,
+      0.008775538340691098,
+      0.007196950233148385,
+      0.006836092159068754,
+      0.006465522669297714,
+      0.009944385499657767,
+      0.006362808335298463,
+      0.005941708561047546,
+      0.010638762338027928,
+      0.010566042287569787
+     ],
+     [
+      0.007925412116664771,
+      0.009050499534442117,
+      0.0024470909081452893,
+      0.004041640661895478,
+      0.0070529322474067735,
+      0.008661535237661033,
+      0.011243714915416123,
+      0.007433607186830048,
+      0.007534238870541856,
+      0.006278591511538942,
+      0.005850340915737574,
+      0.0061523716001742074,
+      0.00873397981521093,
+      0.005599296074873213,
+      0.005122705906141524,
+      0.0093388525565735,
+      0.009013192485434168
+     ]
+    ]
+   },
+   "mknn|l2": {
+    "plotted_ratio_to_0.56B": [
+     1.0,
+     1.0125792133492724,
+     0.9328452733027406,
+     0.8487854365101731,
+     0.7942044848919911
+    ],
+    "plotted_se_ratio": [
+     0.03948035703698217,
+     0.038484660207290154,
+     0.04215490872134972,
+     0.030364255984584906,
+     0.02860983777496727
+    ],
+    "mean_over_17_vits": [
+     0.023238763786764705,
+     0.023531089154411763,
+     0.021678170955882353,
+     0.019724724264705885,
+     0.01845633042279412
+    ],
+    "se_over_17_vits": [
+     0.0009174746913995623,
+     0.0008943359279711191,
+     0.0009796279662280735,
+     0.0007056277723866252,
+     0.0006648572620301222
+    ],
+    "divisor_mean_at_0.56B": 0.023238763786764705,
+    "Tr": -0.9235294117647057,
+    "p_one_exact": 1.0,
+    "p_two_exact": 0.03333333333333333,
+    "n_perm": 120,
+    "EXPLORATORY_Tr_of_censored_s_cal": -0.9117647058823527,
+    "n_vits_strictly_rising": 0,
+    "n_vits_strictly_falling": 8,
+    "ratio_mean_7.1B_over_0.56B": 0.7942044848919911,
+    "range_of_mean": [
+     0.01845633042279412,
+     0.023531089154411763
+    ],
+    "per_vit_grid_rows_lm_cols_vit": [
+     [
+      0.0311373046875,
+      0.022307421874999997,
+      0.0216095703125,
+      0.019133789062500003,
+      0.021849414062499996,
+      0.026716015625,
+      0.0296548828125,
+      0.0198369140625,
+      0.022356249999999998,
+      0.0183103515625,
+      0.019039257812499998,
+      0.019880078125,
+      0.025743164062499997,
+      0.021958789062499998,
+      0.02512890625,
+      0.023425,
+      0.026971875000000003
+     ],
+     [
+      0.0301267578125,
+      0.022185546874999997,
+      0.023215429687499997,
+      0.018865625000000004,
+      0.022678320312500003,
+      0.026598632812499995,
+      0.0302556640625,
+      0.020738867187499996,
+      0.021900390625,
+      0.0170298828125,
+      0.0188505859375,
+      0.022378320312499998,
+      0.024999218750000003,
+      0.02348515625,
+      0.026231054687499998,
+      0.023876562499999997,
+      0.026612499999999997
+     ],
+     [
+      0.029689257812499995,
+      0.021358203125,
+      0.0195845703125,
+      0.01603203125,
+      0.01915,
+      0.024703125,
+      0.0267453125,
+      0.0182900390625,
+      0.021739453125,
+      0.014301757812500001,
+      0.018008203124999997,
+      0.0208876953125,
+      0.024068359375,
+      0.020429296875,
+      0.024680664062499996,
+      0.022449999999999998,
+      0.026410937500000002
+     ],
+     [
+      0.026028906250000004,
+      0.018669140625,
+      0.01784375,
+      0.015270703125,
+      0.0182365234375,
+      0.0227912109375,
+      0.0235888671875,
+      0.017140625,
+      0.020076757812500002,
+      0.016326953125,
+      0.0163310546875,
+      0.0187279296875,
+      0.0220484375,
+      0.0188298828125,
+      0.02091640625,
+      0.0203693359375,
+      0.022123828125
+     ],
+     [
+      0.02401875,
+      0.0172939453125,
+      0.016326953124999998,
+      0.015071679687499999,
+      0.0160556640625,
+      0.021383984374999998,
+      0.0222142578125,
+      0.0157068359375,
+      0.019801953125,
+      0.015608203125,
+      0.0161974609375,
+      0.016158984375000005,
+      0.019912109375,
+      0.0180189453125,
+      0.0207560546875,
+      0.017981249999999997,
+      0.021250585937500004
+     ]
+    ]
+   }
+  }
+ },
+ "on_panel_numbers": {},
+ "on_panel_numbers_note": "v8 (as v7) prints no result number on the figure; the four Tr values that v6 printed are quoted in the Results paragraph of Section 5.3 (arxiv_v4 l.1420-1423 as read 2026-10-10 22:40).",
+ "results_paragraph_numbers": {
+  "a: median share explained by scale (mid / last)": {
+   "value": [
+    0.6811236743173368,
+    0.6828015770477524
+   ],
+   "key": "panel_a.median_parts.<depth>.scale"
+  },
+  "a: median cumulative after + affine (mid / last)": {
+   "value": [
+    0.8720983383873333,
+    0.8434184027381314
+   ],
+   "key": "panel_a.median_cumulative.<depth>[1]"
+  },
+  "a: median iso extra (mid / last)": {
+   "value": [
+    0.00044382446224533467,
+    0.0011729867706377628
+   ],
+   "key": "panel_a.median_parts.<depth>.iso_extra; S1_2_report.md 6.1"
+  },
+  "a: largest iso extra in any pair (mid / last)": {
+   "value": [
+    0.002222769626796517,
+    0.007341632237289952
+   ],
+   "key": "panel_a.per_pair_extremes.<depth>.iso_extra"
+  },
+  "a: median row extra (mid / last)": {
+   "value": [
+    0.028868405770301808,
+    0.03397793289315898
+   ],
+   "key": "panel_a.median_parts.<depth>.row_extra"
+  },
+  "a: median residual (mid / last)": {
+   "value": [
+    0.10239560716374613,
+    0.1233863924128425
+   ],
+   "key": "panel_a.median_parts.<depth>.residual; S1_2_report.md 6.1"
+  },
+  "a: residual range over pairs (mid / last)": {
+   "value": [
+    [
+     0.0070596746703671664,
+     0.45332224219704065
+    ],
+    [
+     0.006421844698889956,
+     0.4974598951272048
+    ]
+   ],
+   "key": "panel_a.per_pair_extremes"
+  },
+  "b, c: Tr clip CKA / mKNN": {
+   "value": [
+    0.7,
+    0.8411764705882352
+   ],
+   "key": "panels_b_c.lines.<crit>|prh_clip+l2.Tr"
+  },
+  "b, c: Tr l2 CKA / mKNN": {
+   "value": [
+    -0.9999999999999998,
+    -0.9235294117647057
+   ],
+   "key": "panels_b_c.lines.<crit>|l2.Tr"
+  },
+  "b, c: exact one-sided p, clip CKA / mKNN": {
+   "value": [
+    0.11666666666666667,
+    0.025
+   ],
+   "key": "panels_b_c.lines.<crit>|prh_clip+l2.p_one_exact"
+  },
+  "b, c: exact two-sided p, l2 CKA / mKNN": {
+   "value": [
+    0.016666666666666666,
+    0.03333333333333333
+   ],
+   "key": "panels_b_c.lines.<crit>|l2.p_two_exact"
+  },
+  "b, c: vision models with a strictly falling line under l2, CKA / mKNN (of 17)": {
+   "value": [
+    17,
+    8
+   ],
+   "key": "panels_b_c.lines.<crit>|l2.n_vits_strictly_falling"
+  },
+  "b, c: mean at 7.1B / mean at 0.56B, clip CKA / l2 CKA / clip mKNN / l2 mKNN": {
+   "value": [
+    1.148688659558495,
+    0.5141528543299122,
+    1.2036582325418088,
+    0.7942044848919911
+   ],
+   "key": "panels_b_c.lines.<crit>|<pre>.ratio_mean_7.1B_over_0.56B"
+  },
+  "b, c (v7, levels no longer on the axis): range over sizes of the mean, clip CKA / l2 CKA / clip mKNN / l2 mKNN": {
+   "value": [
+    [
+     0.11294810869444272,
+     0.1297422115758866
+    ],
+    [
+     0.007145882502628679,
+     0.013898362019096056
+    ],
+    [
+     0.034423265165441176,
+     0.04143384650735294
+    ],
+    [
+     0.01845633042279412,
+     0.023531089154411763
+    ]
+   ],
+   "key": "panels_b_c.lines.<crit>|<pre>.range_of_mean"
+  }
+ },
+ "caption_v7": "\\caption{\\textbf{Beyond an affine change of scale, pretrained vision and language models differ by a residual, not a monotone link, and preprocessing can reverse size trends (Proposition~\\ref{prop:cka}, Theorem~\\ref{thm:link}).} (a)~Share of the squared-distance discrepancy explained by the nested fits, per pair (thin), median (thick), and under a monotone link (dashed). (b,~c)~CKA and mKNN minus their permutation-null means, relative to the smallest size, as mean $\\pm$ s.e.\\ over vision models on log axes. Appendix~\\ref{app:exp-s12} gives the shares and the exact $p$-values.}",
+ "caption_v8": "\\caption{\\textbf{Beyond an affine change of scale, pretrained vision and language models differ by a residual, not a monotone link, and preprocessing can reverse size trends (Proposition~\\ref{prop:cka}, Theorem~\\ref{thm:link}).} (a)~Share of the squared-distance discrepancy at mid depth explained by the nested fits, per pair (thin), median (thick), and under a monotone link (dashed). (b,~c)~CKA and mKNN minus their permutation-null means, as mean $\\pm$ s.e.\\ over vision models on log axes. Appendix~\\ref{app:exp-s12} gives the shares and the exact $p$-values.}",
+ "caption_v8_sha256": "ce191958267aef4e10024b249c8b969f732862d6fc5879f1acd66fb153ba3adc",
+ "caption_words": {
+  "v8": {
+   "total_incl_bold_tags_and_refs": 83,
+   "without_panel_tags": 80,
+   "bold_claim_without_refs": 25
+  },
+  "v7": {
+   "total_incl_bold_tags_and_refs": 85,
+   "without_panel_tags": 82,
+   "bold_claim_without_refs": 25
+  },
+  "how": "each \\ref and each inline formula one token; panel tags (a), (b, c) = 3 tokens"
+ },
+ "height_trials_v8": {
+  "1.44": "fails: the bold y label of (a) ends 0.018 in past the top edge (_trials/t0)",
+  "1.46": "fails: 0.006 in past the top (_trials/h1.46)",
+  "1.47": "fails: 0.0004 in past the top, below the 0.002 in inside margin (_trials/h1.47)",
+  "1.48": "passes every check; adopted (_trials/h1.48 identical settings)"
+ },
+ "v8_changes": {
+  "style": "hrh_style_v5_1 -> hrh_style_v8 (sha256 fe994067dfef...): CKA #D55E00 -> #CC3311, mKNN #0072B2 -> #0077BB, thin lines of (a) #f6dcc7 -> #f4d2cb, CKA text #C25604 -> #CC3311, mKNN text #0072B2 -> #0077BB, BLOOMZ word #332288 (unchanged)",
+  "bold": "tick labels, the axis title of (a), the y label of (b) and the shared x label bold (S.finalize and the v8 'label' role)",
+  "panel_a_depths": "plotted ['mid depth'] (v7: mid depth and last layer, dodged by 0.10 step, with a key)",
+  "removed_texts_v7": [
+   "last layer",
+   "mid depth"
+  ],
+  "added_texts_v8": [],
+  "removed_marks_v7": [
+   "last-layer median line with its filled circles",
+   "136 last-layer thin lines",
+   "the depth key handles"
+  ],
+  "png": "poppler 200 dpi render of the PDF (v7: matplotlib 300 dpi)",
+  "caption": "'at mid depth' added to (a); 'relative to the smallest size,' dropped from (b, c) (the y label reads 'relative to 0.56B')",
+  "height": "1.48 in (v7 1.44 in)"
+ },
+ "asserts_adapted_v8": {
+  "style_sha": "v7 asserted the imported style = hrh_style_v5_1; v8 asserts the imported style = hrh_style_v8 (fe994067...) and keeps the v7 assert on the v5.1 copy (S51), which stays next to this file",
+  "png": "v7 wrote the PNG with matplotlib at 300 dpi; v8 renders the PDF with poppler at 200 dpi and asserts its size",
+  "key_a": "v7 recorded the handle length of the depth key of (a); v8 records None when one depth is drawn",
+  "new": "v8 style sha; v7 maker, render, caption and numbers frozen; Results numbers, panel_a medians, per-pair shares and the (b, c) lines equal v7; inputs unchanged since v7; figure words = v7 minus the depth key; S.check v8 rules (bold ticks and axis titles, bold math, chromatic data, no off-palette data colour); v8 caption rules"
+ }
+}

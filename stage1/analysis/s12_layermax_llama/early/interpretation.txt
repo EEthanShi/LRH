@@ -1,0 +1,31 @@
+This section was written by role `llama-axis-run-early` on 2026-10-09, after the numbers below were seen. It adds no rule. Every outcome category is the one set by the frozen Part B file, and every number is repeated from sections 2–7. Primary instance: prh_clip+l2, layer-max, biased CKA, s_cal.
+
+1. **P-L2 is confirmed.**
+   - The raw layer-max score rises slightly with LLaMA size: means 0.427 / 0.433 / 0.441, Tr_L +0.68.
+   - Its threshold rises about twice as fast: c_α 0.187 / 0.204 / 0.220.
+   - After calibration the trend reverses: s_cal Tr_L −0.85 (ΔTr_L −1.53), and uncensored −1.00.
+   - Both the direction and the threshold order were fixed from features alone, before any score existed (B̄ 0.185 / 0.202 / 0.218).
+   - The premise P-L2a holds: median |c_α − B̄| = 0.0018, and the c_α order matches the B̄ order in 51 of 51 comparisons.
+   - This is the reversal condition of Corollary 2, seen on a second model family. With 3 sizes the smallest attainable p is 1/6, so this is a directional result with ViT-only uncertainty.
+2. **The equal-baseline controls hold.**
+   - mKNN: ΔTr_L −0.03 (s_cal) and −0.03 (uncensored).
+   - Debiased CKA: ΔTr_L 0.00, and its pooled 10-LM r moves only from 0.37 to 0.36.
+   - The P-L1 deductive check is empty here: no mKNN size gap exceeds ζ_j + ζ_j′.
+3. **Fixed-depth calibration keeps the sign at both depths (P-L3)**, although Part B had flagged it at risk.
+   - r = 0.5: Tr_L +1.00 → +0.97.
+   - r = 1.0: Tr_L +1.00 → +1.00.
+   - At these layers the raw scores rise faster than their own rising baselines.
+4. **Calibrate-then-max is reversed (P-L5, secondary).**
+   - Tr_L(M) is −0.88, against a raw +0.68. This counts under plan §10 item 4. It goes against the remedy sentence after Corollary 2 in `arxiv_v3.tex`: "calibration of each layer pair against its own baseline before the maximum ... avoid[s] this interaction".
+   - The diagnostics show why. The selected layers stay on the late-block plateau, where each entry's own threshold rises with size. Tr_L of c_α^entry(a*, b*) is +0.97, and Tr_L of T − c_α^entry(a*, b*) is −0.91.
+   - Comparing each score with its own baseline therefore removes the multiplicity term and the mismatch between layer pairs, but not a baseline trend shared by the layers that get selected.
+   - That remedy sentence needs to be qualified. The fixed-depth remedy survived here only because its raw gaps were larger.
+5. **ARH-style pooled reading, 10 LMs × 17 ViTs.**
+   - Biased CKA r falls from 0.51 to 0.40 after calibration, while mKNN stays at 0.52 → 0.52.
+   - Δ_CKA − Δ_mKNN = 0.12 (ViT-bootstrap CI 0.003 to 0.26), and the r_after gap is 0.12. The plan's reading is "partial"; the 8-LM panel was "absent".
+   - The LLaMA-axis reading is "intermediate": Tr_L,unc(CKA) −1.00, but Tr_L,unc(mKNN) is only 0.38, below the 0.60 that the "loses" category requires.
+6. **Secondary l2.**
+   - The B̄ trend was not material, so there is no directional prediction.
+   - Raw Tr_L −0.50 → s_cal −0.56.
+   - The premise holds: 32 of 32 comparisons, median |c_α − B̄| 0.0021.
+   - P-L1, P-L4, P-L3 (r = 1.0) and P-L5 hold or keep sign; P-L3 at r = 0.5 is not applicable.

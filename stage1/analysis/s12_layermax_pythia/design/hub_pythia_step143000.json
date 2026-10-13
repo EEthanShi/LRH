@@ -1,0 +1,798 @@
+{
+ "EleutherAI/pythia-70m": {
+  "step_sha": "de3e4e2d6cbb3b1a51f90fe153ea51fcd8c7c852",
+  "step_siblings": [
+   [
+    ".gitattributes",
+    1477,
+    "c7d9f3332a950355d5a77d85000f05e6f45435ea"
+   ],
+   [
+    "config.json",
+    567,
+    "d7a9196e329eaf06d6e2802fed376e7459834236"
+   ],
+   [
+    "model.safetensors",
+    281715176,
+    "737de0ce1e32a9559925b452921cdea0b12d3932133b6b0b70b61a351b9f6272"
+   ],
+   [
+    "pytorch_model.bin",
+    166049099,
+    "f629437d6fe950ffda3ef94f6a956a1bb63a2e79e03c296c92fe208999aeb092"
+   ],
+   [
+    "special_tokens_map.json",
+    99,
+    "0204ed10c186a4c7c68f55dff8f26087a45898d6"
+   ],
+   [
+    "tokenizer.json",
+    2113710,
+    "f74dfbfab8f97770a87769c739fb080c21c8bacc"
+   ],
+   [
+    "tokenizer_config.json",
+    396,
+    "f1860edb10f80bcaf7b023fce47c68a23b724c23"
+   ]
+  ],
+  "commits": [
+   [
+    "a39f36b100fe",
+    "2023-11-21 19:04:09+00:00",
+    "Update README.md"
+   ],
+   [
+    "da9a70ec3e15",
+    "2023-11-21 19:02:02+00:00",
+    "Update README.md"
+   ],
+   [
+    "301b2c9bdf4d",
+    "2023-11-21 19:01:34+00:00",
+    "Update README.md"
+   ],
+   [
+    "c1ccce9d6c41",
+    "2023-11-21 19:01:11+00:00",
+    "Adding Evaluation Results (#3)"
+   ],
+   [
+    "2ab25ed47af7",
+    "2023-07-09 16:07:12+00:00",
+    "Adding `safetensors` variant of this model (#2)"
+   ],
+   [
+    "d32083609b90",
+    "2023-06-08 10:06:14+00:00",
+    "fix batch size and add paper"
+   ],
+   [
+    "495869efd2e4",
+    "2023-04-03 18:40:41+00:00",
+    "Upload config.json"
+   ],
+   [
+    "799d2c47aa92",
+    "2023-04-03 18:40:40+00:00",
+    "Upload tokenizer_config.json"
+   ],
+   [
+    "b01126ce5a6d",
+    "2023-04-03 18:40:40+00:00",
+    "Upload tokenizer.json"
+   ],
+   [
+    "78aff45dc8b9",
+    "2023-04-03 18:40:40+00:00",
+    "Upload pytorch_model.bin"
+   ],
+   [
+    "185083cc1b74",
+    "2023-04-03 18:40:39+00:00",
+    "Upload special_tokens_map.json"
+   ],
+   [
+    "0b718dff40be",
+    "2023-03-29 22:33:58+00:00",
+    "create updated readme"
+   ]
+  ],
+  "n_commits": 13
+ },
+ "EleutherAI/pythia-160m": {
+  "step_sha": "b56d9bee36300031aeea723b73c4d62ac7fa71a2",
+  "step_siblings": [
+   [
+    ".gitattributes",
+    1477,
+    "c7d9f3332a950355d5a77d85000f05e6f45435ea"
+   ],
+   [
+    "config.json",
+    569,
+    "b8368ff94f3bcf3088de5e9912251fc0208ae524"
+   ],
+   [
+    "model.safetensors",
+    649308728,
+    "d829d1a5cf66032491679d64c5b18e85b82d37833a99c346905668b8553084d5"
+   ],
+   [
+    "pytorch_model.bin",
+    375036845,
+    "8d856725c4a8266f10568cc1269948fc851e2aed1fb230036af2eac68e9df072"
+   ],
+   [
+    "special_tokens_map.json",
+    99,
+    "0204ed10c186a4c7c68f55dff8f26087a45898d6"
+   ],
+   [
+    "tokenizer.json",
+    2113710,
+    "f74dfbfab8f97770a87769c739fb080c21c8bacc"
+   ],
+   [
+    "tokenizer_config.json",
+    396,
+    "f1860edb10f80bcaf7b023fce47c68a23b724c23"
+   ]
+  ],
+  "commits": [
+   [
+    "50f5173d932e",
+    "2023-07-09 15:52:09+00:00",
+    "Adding `safetensors` variant of this model (#2)"
+   ],
+   [
+    "26b94a336e56",
+    "2023-06-08 10:14:17+00:00",
+    "fix batch size and add paper"
+   ],
+   [
+    "57c4cbf52429",
+    "2023-04-03 18:39:06+00:00",
+    "Upload pytorch_model.bin"
+   ],
+   [
+    "40f6318ecb18",
+    "2023-04-03 18:39:04+00:00",
+    "Upload tokenizer.json"
+   ],
+   [
+    "4560d92fe0f8",
+    "2023-04-03 18:39:04+00:00",
+    "Upload tokenizer_config.json"
+   ],
+   [
+    "521f765c954e",
+    "2023-04-03 18:39:03+00:00",
+    "Upload config.json"
+   ],
+   [
+    "7e30bb881aae",
+    "2023-04-03 18:39:03+00:00",
+    "Upload special_tokens_map.json"
+   ],
+   [
+    "64a5b916d312",
+    "2023-03-29 22:32:40+00:00",
+    "create updated readme"
+   ],
+   [
+    "e0a025176cca",
+    "2023-03-23 13:46:02+00:00",
+    "Upload config.json"
+   ],
+   [
+    "5c39738c097f",
+    "2023-03-23 13:46:01+00:00",
+    "Upload special_tokens_map.json"
+   ],
+   [
+    "4c6801ba24e2",
+    "2023-03-23 13:46:01+00:00",
+    "Upload tokenizer.json"
+   ],
+   [
+    "0243faf126df",
+    "2023-03-23 13:46:01+00:00",
+    "Upload pytorch_model.bin"
+   ]
+  ],
+  "n_commits": 43
+ },
+ "EleutherAI/pythia-410m": {
+  "step_sha": "bba6a464f54bbf08fc174cfb351d9794d58af21d",
+  "step_siblings": [
+   [
+    ".gitattributes",
+    1477,
+    "c7d9f3332a950355d5a77d85000f05e6f45435ea"
+   ],
+   [
+    "config.json",
+    570,
+    "0425fa136ba3f95d9428d832cfd7bfd82c78bf1f"
+   ],
+   [
+    "model.safetensors",
+    1621370224,
+    "1c88b0bf18293fae0e09c1d978b14b1adb08cb6a83154463133982fe460fcea4"
+   ],
+   [
+    "pytorch_model.bin",
+    911449213,
+    "786bd9bcde112a970e1614807cbb23999482de65fc05c3e0795198719b5e1543"
+   ],
+   [
+    "special_tokens_map.json",
+    99,
+    "0204ed10c186a4c7c68f55dff8f26087a45898d6"
+   ],
+   [
+    "tokenizer.json",
+    2113710,
+    "f74dfbfab8f97770a87769c739fb080c21c8bacc"
+   ],
+   [
+    "tokenizer_config.json",
+    396,
+    "f1860edb10f80bcaf7b023fce47c68a23b724c23"
+   ]
+  ],
+  "commits": [
+   [
+    "9879c9b5f8be",
+    "2023-07-09 16:01:42+00:00",
+    "Adding `safetensors` variant of this model (#2)"
+   ],
+   [
+    "b39c68dd46bb",
+    "2023-06-08 10:19:23+00:00",
+    "fix batch size and add paper"
+   ],
+   [
+    "33fc2fdda3ea",
+    "2023-04-04 02:32:23+00:00",
+    "Upload pytorch_model.bin"
+   ],
+   [
+    "81e530ff3907",
+    "2023-04-04 02:32:19+00:00",
+    "Upload tokenizer_config.json"
+   ],
+   [
+    "e5abfb6f65b9",
+    "2023-04-04 02:32:19+00:00",
+    "Upload tokenizer.json"
+   ],
+   [
+    "cc0d452cd50b",
+    "2023-04-04 02:32:19+00:00",
+    "Upload special_tokens_map.json"
+   ],
+   [
+    "0ba91340ca04",
+    "2023-04-04 02:32:18+00:00",
+    "Upload config.json"
+   ],
+   [
+    "fdbf11afd1b3",
+    "2023-03-29 22:30:48+00:00",
+    "Create README.md"
+   ],
+   [
+    "b878107c3aa3",
+    "2023-02-13 18:45:00+00:00",
+    "initial commit"
+   ]
+  ],
+  "n_commits": 9
+ },
+ "EleutherAI/pythia-1b": {
+  "step_sha": "c0fea4b917615c60370c0aeb76877f18fef30ab3",
+  "step_siblings": [
+   [
+    ".gitattributes",
+    1477,
+    "c7d9f3332a950355d5a77d85000f05e6f45435ea"
+   ],
+   [
+    "config.json",
+    569,
+    "631d0e859247ad69414b72e657e7471a07403090"
+   ],
+   [
+    "configs/1B.yml",
+    2229,
+    "19a4cbcf46ba1341b7bd527a0109414b88a573a5"
+   ],
+   [
+    "layer_00-model_00-model_states.pt",
+    206046128,
+    "2a9fd290dae3b86e22235896c7252877254bee309ea9d0757c72cef810c314e6"
+   ],
+   [
+    "layer_02-model_00-model_states.pt",
+    100721111,
+    "049430c186e849d6e76d03fc1a8b032405c15158c66e151e718df1872f092674"
+   ],
+   [
+    "layer_03-model_00-model_states.pt",
+    100721111,
+    "2950e3f823ed6e1d217270922896273e09d4aad6851adbbdbe855e1b0bbcbe75"
+   ],
+   [
+    "layer_04-model_00-model_states.pt",
+    100721111,
+    "cc67f06a5b3b9a45850017549d99b6dc0c544945899d5207c4269cfe2b37c8c8"
+   ],
+   [
+    "layer_05-model_00-model_states.pt",
+    100721111,
+    "31598082d69bd89516a3b1972f5d6ba452baaacdfabc306a2d8d8a22d92f8cb8"
+   ],
+   [
+    "layer_06-model_00-model_states.pt",
+    100721111,
+    "a4983caaea410925d36c047ff1f9362ea921de13dd4324ac5c7b2afb3b16e8fa"
+   ],
+   [
+    "layer_07-model_00-model_states.pt",
+    100721111,
+    "e38f0c986f468ec877a7589ed6416e036f445a95021b4994b599672dcb7b8108"
+   ],
+   [
+    "layer_08-model_00-model_states.pt",
+    100721111,
+    "db1967430594be2587324d79174296bb68ea3a58bb11ebc7a430704ca733bd60"
+   ],
+   [
+    "layer_09-model_00-model_states.pt",
+    100721111,
+    "a273d45c91b7bf7e0f9ed5e844f61a5d194035ddf4ea09e7064cc72adfb708d1"
+   ],
+   [
+    "layer_10-model_00-model_states.pt",
+    100721111,
+    "85813dff99b26522230094359eb5026f96cb0670cf2fa69bb4129bb500dac455"
+   ],
+   [
+    "layer_11-model_00-model_states.pt",
+    100721111,
+    "15155e288e5da900e05f781f80bdc1191bc65c73a7f2bed5e79ef26ee40c47f4"
+   ],
+   [
+    "layer_12-model_00-model_states.pt",
+    100721111,
+    "0ffe13003d23339d6fba8277b02aaa341120581db6a9636695b94427724002df"
+   ],
+   [
+    "layer_13-model_00-model_states.pt",
+    100721111,
+    "13aaffeda00cd031420b0198144e67f9cad0b7424b072ced5ff2527707e38c8b"
+   ],
+   [
+    "layer_14-model_00-model_states.pt",
+    100721111,
+    "03381b50a130f8df658d143de29066048c0ee2b9f72428ee84522a5cdc462c8d"
+   ],
+   [
+    "layer_15-model_00-model_states.pt",
+    100721111,
+    "5ed9c6f9a9767f6afb2b5779f348b9b1aec422c736f05ee4515a6911132d4092"
+   ],
+   [
+    "layer_16-model_00-model_states.pt",
+    100721111,
+    "7fa56a349e41f0878c1d5af0691a86d0cc572cc78b090176c87617ef2951fdac"
+   ],
+   [
+    "layer_17-model_00-model_states.pt",
+    100721111,
+    "8149ed28d8d75786a571ae4da6bbe85ba9632ec6185de6cb9760265caf0db670"
+   ],
+   [
+    "layer_19-model_00-model_states.pt",
+    9411,
+    "fd4963755234c394e87b857e4b713be6952da5eea43bdcba317c32dcba63db69"
+   ],
+   [
+    "layer_20-model_00-model_states.pt",
+    206046128,
+    "025e5790c93501de2cadaf651a4ef04d30a73b057a908aad8614d2a3ff9f51b0"
+   ],
+   [
+    "model.safetensors",
+    4047149576,
+    "53edd414f39552e632e37f2b8e8c29baf59e36a7a6cf8d8aafd2e13c22989cd7"
+   ],
+   [
+    "mp_rank_00_model_states.pt",
+    12141398435,
+    "8671459eed0dc17b9ae302f872c73334720b9525deaacc3b9396900352556e30"
+   ],
+   [
+    "pytorch_model.bin",
+    2090751965,
+    "d2523eec75f5c1236ed7787bde500935c1f87874119c528cedc9f445476d38c2"
+   ],
+   [
+    "special_tokens_map.json",
+    99,
+    "0204ed10c186a4c7c68f55dff8f26087a45898d6"
+   ],
+   [
+    "tokenizer.json",
+    2113710,
+    "f74dfbfab8f97770a87769c739fb080c21c8bacc"
+   ],
+   [
+    "tokenizer_config.json",
+    396,
+    "f1860edb10f80bcaf7b023fce47c68a23b724c23"
+   ]
+  ],
+  "commits": [
+   [
+    "f73d7dcc545c",
+    "2023-07-09 16:05:58+00:00",
+    "Adding `safetensors` variant of this model (#2)"
+   ],
+   [
+    "84f532cc788a",
+    "2023-06-08 09:57:10+00:00",
+    "fix batch size and link paper"
+   ],
+   [
+    "4c96d81536e9",
+    "2023-04-03 19:16:31+00:00",
+    "Upload config.json"
+   ],
+   [
+    "2468ecbd8cd3",
+    "2023-04-03 19:16:31+00:00",
+    "Upload tokenizer.json"
+   ],
+   [
+    "b1a09819c2e2",
+    "2023-04-03 19:16:30+00:00",
+    "Upload tokenizer_config.json"
+   ],
+   [
+    "8e2700100685",
+    "2023-04-03 19:16:30+00:00",
+    "Upload special_tokens_map.json"
+   ],
+   [
+    "4847402c2054",
+    "2023-04-03 19:16:30+00:00",
+    "Upload pytorch_model.bin"
+   ],
+   [
+    "a7bb3ac2589a",
+    "2023-03-29 22:29:11+00:00",
+    "Create README.md"
+   ],
+   [
+    "6e9284a43144",
+    "2023-03-12 18:01:13+00:00",
+    "Upload tokenizer.json"
+   ],
+   [
+    "0965b65174f3",
+    "2023-03-12 18:01:12+00:00",
+    "Upload tokenizer_config.json"
+   ],
+   [
+    "820a98e146d4",
+    "2023-03-12 18:01:12+00:00",
+    "Upload pytorch_model.bin"
+   ],
+   [
+    "23ab234c48dd",
+    "2023-03-12 18:01:04+00:00",
+    "Upload config.json"
+   ]
+  ],
+  "n_commits": 14
+ },
+ "EleutherAI/pythia-1.4b": {
+  "step_sha": "9cc5c8c8148a4e0115d9e29c6b4f21124cfe748a",
+  "step_siblings": [
+   [
+    ".gitattributes",
+    1477,
+    "c7d9f3332a950355d5a77d85000f05e6f45435ea"
+   ],
+   [
+    "config.json",
+    570,
+    "76f45dd29f6ae40ae5d4960a8df6386aa9cd8d5a"
+   ],
+   [
+    "model-00001-of-00002.safetensors",
+    4987196512,
+    "2066abb3d75f8938ecac701b0982ed24fdbabaa3924967b583affa8fafdc62eb"
+   ],
+   [
+    "model-00002-of-00002.safetensors",
+    671429088,
+    "d18df8a16798bb6d069c665c79a7589d3434b33fe2f18bf2637cbe2b35690565"
+   ],
+   [
+    "model.safetensors.index.json",
+    25565,
+    "0a687f7f2a867fa2e2622a1aa984a3fc230c4635"
+   ],
+   [
+    "pytorch_model.bin",
+    2930076797,
+    "056766b124a4ac70afcc722084d7c2b6cab80581e0d066709d72ae5c1a8640d8"
+   ],
+   [
+    "special_tokens_map.json",
+    99,
+    "0204ed10c186a4c7c68f55dff8f26087a45898d6"
+   ],
+   [
+    "tokenizer.json",
+    2113710,
+    "f74dfbfab8f97770a87769c739fb080c21c8bacc"
+   ],
+   [
+    "tokenizer_config.json",
+    396,
+    "f1860edb10f80bcaf7b023fce47c68a23b724c23"
+   ]
+  ],
+  "commits": [
+   [
+    "fedc38a16eea",
+    "2023-07-09 16:01:57+00:00",
+    "Adding `safetensors` variant of this model (#2)"
+   ],
+   [
+    "0f5d15909d7b",
+    "2023-06-08 10:15:34+00:00",
+    "fix batch size and add paper"
+   ],
+   [
+    "8f0af839162d",
+    "2023-04-03 18:33:31+00:00",
+    "Upload tokenizer_config.json"
+   ],
+   [
+    "029df5f65eaf",
+    "2023-04-03 18:33:31+00:00",
+    "Upload special_tokens_map.json"
+   ],
+   [
+    "1f1a91fb469e",
+    "2023-04-03 18:33:31+00:00",
+    "Upload tokenizer.json"
+   ],
+   [
+    "0da31d8fb309",
+    "2023-04-03 18:33:30+00:00",
+    "Upload pytorch_model.bin"
+   ],
+   [
+    "4b31af75a4d7",
+    "2023-04-03 18:33:15+00:00",
+    "Upload config.json"
+   ],
+   [
+    "7e4e774f46d0",
+    "2023-03-29 22:28:16+00:00",
+    "create updated readme"
+   ],
+   [
+    "2209d9929bc5",
+    "2023-02-09 14:08:20+00:00",
+    "initial commit"
+   ]
+  ],
+  "n_commits": 9
+ },
+ "EleutherAI/pythia-2.8b": {
+  "step_sha": "dbe7ae300a54abcdc475a33907b3dff81d25709f",
+  "step_siblings": [
+   [
+    ".gitattributes",
+    1477,
+    "c7d9f3332a950355d5a77d85000f05e6f45435ea"
+   ],
+   [
+    "README.md",
+    13593,
+    "3c0c6f5a7cad87f8d947f8470885501a4f40374b"
+   ],
+   [
+    "config.json",
+    571,
+    "490234a04b8fc9587db08c7dbc7d73f99152f697"
+   ],
+   [
+    "model.safetensors",
+    5550463728,
+    "462f2b960062159c3779eb1cfe5829783ea72da66b020bcbabf86bc6dd33063c"
+   ],
+   [
+    "pytorch_model.bin",
+    5550545787,
+    "a294bfcf6ff2c091091d04489a3f1c233b4106d74201e152a01f492d24e6fbaf"
+   ],
+   [
+    "special_tokens_map.json",
+    99,
+    "0204ed10c186a4c7c68f55dff8f26087a45898d6"
+   ],
+   [
+    "tokenizer.json",
+    2113710,
+    "f74dfbfab8f97770a87769c739fb080c21c8bacc"
+   ],
+   [
+    "tokenizer_config.json",
+    396,
+    "f1860edb10f80bcaf7b023fce47c68a23b724c23"
+   ]
+  ],
+  "commits": [
+   [
+    "2a259cdd96a4",
+    "2023-06-09 00:35:37+00:00",
+    "Adding `safetensors` variant of this model (#2)"
+   ],
+   [
+    "d37e168787d7",
+    "2023-06-08 10:17:26+00:00",
+    "fix batch sizes and add paper"
+   ],
+   [
+    "f20536c52a97",
+    "2023-04-03 18:51:39+00:00",
+    "Upload tokenizer_config.json"
+   ],
+   [
+    "0c802a14f379",
+    "2023-04-03 18:51:39+00:00",
+    "Upload special_tokens_map.json"
+   ],
+   [
+    "6bfa5112f405",
+    "2023-04-03 18:51:38+00:00",
+    "Upload config.json"
+   ],
+   [
+    "68a7388c2529",
+    "2023-04-03 18:51:38+00:00",
+    "Upload pytorch_model.bin"
+   ],
+   [
+    "1ffe7dfc708c",
+    "2023-04-03 18:51:08+00:00",
+    "Upload tokenizer.json"
+   ],
+   [
+    "f42d929bd81e",
+    "2023-03-29 22:27:07+00:00",
+    "create updated readme"
+   ],
+   [
+    "f71102c9bde9",
+    "2023-02-13 14:37:12+00:00",
+    "initial commit"
+   ]
+  ],
+  "n_commits": 9
+ },
+ "EleutherAI/pythia-6.9b": {
+  "step_sha": "21bfa02e806e253fe453702c29c81d9f83617255",
+  "step_siblings": [
+   [
+    ".gitattributes",
+    1477,
+    "c7d9f3332a950355d5a77d85000f05e6f45435ea"
+   ],
+   [
+    "config.json",
+    571,
+    "16300e33aceb80d021ab84256b555a23e4a0309a"
+   ],
+   [
+    "pytorch_model-00001-of-00002.bin",
+    9911682774,
+    "753cc06e909d686fa6b1c096a3f8474794e5d72fa7163d20fa645fff94743b58"
+   ],
+   [
+    "pytorch_model-00002-of-00002.bin",
+    3937306520,
+    "1fde0bc4136f8f4cfe4ed79ffc09cce3f887b56d6f1998fc52b6f92e3942837d"
+   ],
+   [
+    "pytorch_model.bin.index.json",
+    42028,
+    "94ed2a228c079e755b17a87f07c83f6bcaa24181"
+   ],
+   [
+    "special_tokens_map.json",
+    99,
+    "0204ed10c186a4c7c68f55dff8f26087a45898d6"
+   ],
+   [
+    "tokenizer.json",
+    2113710,
+    "f74dfbfab8f97770a87769c739fb080c21c8bacc"
+   ],
+   [
+    "tokenizer_config.json",
+    396,
+    "f1860edb10f80bcaf7b023fce47c68a23b724c23"
+   ]
+  ],
+  "commits": [
+   [
+    "c0e3eee36dc4",
+    "2025-03-10 18:30:39+00:00",
+    "Adding `safetensors` variant of this model (#4)"
+   ],
+   [
+    "f271943e880e",
+    "2023-06-08 10:20:26+00:00",
+    "fix batch size and add paper"
+   ],
+   [
+    "0b4fc522e9ae",
+    "2023-04-03 18:59:47+00:00",
+    "Upload pytorch_model-00002-of-00002.bin"
+   ],
+   [
+    "648145311914",
+    "2023-04-03 18:59:33+00:00",
+    "Upload pytorch_model-00001-of-00002.bin"
+   ],
+   [
+    "17e2a160c1c3",
+    "2023-04-03 18:58:59+00:00",
+    "Upload tokenizer_config.json"
+   ],
+   [
+    "04c9c76a5753",
+    "2023-04-03 18:58:58+00:00",
+    "Upload pytorch_model.bin.index.json"
+   ],
+   [
+    "a7715e45ef77",
+    "2023-04-03 18:58:58+00:00",
+    "Upload tokenizer.json"
+   ],
+   [
+    "b8a5bb6cb0f3",
+    "2023-04-03 18:58:58+00:00",
+    "Upload config.json"
+   ],
+   [
+    "99a475796967",
+    "2023-04-03 18:58:58+00:00",
+    "Upload special_tokens_map.json"
+   ],
+   [
+    "b720e4b4cb30",
+    "2023-03-29 22:10:50+00:00",
+    "create updated readme"
+   ],
+   [
+    "dad2706c922b",
+    "2023-02-14 04:18:48+00:00",
+    "initial commit"
+   ]
+  ],
+  "n_commits": 11
+ }
+}

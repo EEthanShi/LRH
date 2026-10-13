@@ -1,0 +1,10 @@
+# S2.3 AMENDMENT A1 manifest (sha256  tagged path; S23/ = ~/hrh_v2_stage2_20261008/s23, ROOT/ = the output root = S23); written 2026-10-09T23:52:08Z
+8a858f5394c4be17a5162374992585f405a9cfc75fff8c38074860da9761948d  S23/prereg/AMENDMENT_A1_resume.md
+6530a8f548db11956eff8c906b9cb44732ea32653d8726726b568829d37b81f9  S23/resume/a1_resume.py
+7ae17b3111c9384caa13230c91ec10bf0ef189ba7ecfa84e847db8f4321222c3  S23/resume/launch_stageA_resume.sh
+58c69e2572a43133bfbddc6fe926fdf8058f0f21c326d1f2beb5056bfdb75b58  S23/resume/gate_then_launch.sh
+c2716e20bfdfe1f577523897753e9aef6211ef87747d9ea9447c491c3a6afe40  S23/resume/tests/a1_make_test_root.py
+ab57adb285b30b377f52a75a2642e2c9dc014561ad508da784241598ce2453f6  S23/resume/tests/a1_check_test_root.py
+0507bdebbe56506638c7b7f86528634190e79de0357617c7a08f9935657cd3b6  S23/resume/tests/run_a1_tests.sh
+b4a4767e0019defa07902a3394043b9ba1ee2a6bdba1788f3912269c8691e0a0  ROOT/resume/A1_finished_items.sha256
+d0336650b6fae1486f0a8d91c0bfa62ccf8571615becea8de8606c4f28a9b170  ROOT/logs/gpu_ledger/A1_ledger_correction.tsv

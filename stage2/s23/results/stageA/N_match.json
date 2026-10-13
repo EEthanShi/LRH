@@ -1,0 +1,39 @@
+{
+ "log2N_match": 20,
+ "note": "computed from within-A pairs only; no cross statistic opened",
+ "table": {
+  "20": {
+   "mean_sN10_withinA": 0.8055867513020832,
+   "n_pairs": 96
+  },
+  "22": {
+   "mean_sN10_withinA": 0.8781982421875,
+   "n_pairs": 96
+  },
+  "25": {
+   "mean_sN10_withinA": 0.9452921549479166,
+   "n_pairs": 96
+  },
+  "28": {
+   "mean_sN10_withinA": 0.9777628580729166,
+   "n_pairs": 96
+  },
+  "31": {
+   "mean_sN10_withinA": 0.9919840494791666,
+   "n_pairs": 96
+  },
+  "34": {
+   "mean_sN10_withinA": 0.99739990234375,
+   "n_pairs": 96
+  },
+  "37": {
+   "mean_sN10_withinA": 0.9990804036458334,
+   "n_pairs": 96
+  },
+  "40": {
+   "mean_sN10_withinA": 0.9998087565104168,
+   "n_pairs": 96
+  }
+ },
+ "target_sN10": 0.715
+}

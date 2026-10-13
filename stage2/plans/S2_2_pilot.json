@@ -1,0 +1,677 @@
+{
+"cohort": "S2_2_pilot",
+"runs": [
+{
+"run_id": "S2.2-pilot_noWD_N100000_r000",
+"kind": "gauge",
+"exp": "S2.2-pilot",
+"arm": "noWD",
+"N": 100000,
+"rep": 0,
+"corpus": null,
+"cfg": {
+"head_wd": false,
+"small_init": null
+},
+"pilot": true
+},
+{
+"run_id": "S2.2-pilot_WD_N100000_r000",
+"kind": "gauge",
+"exp": "S2.2-pilot",
+"arm": "WD",
+"N": 100000,
+"rep": 0,
+"corpus": null,
+"cfg": {
+"head_wd": true,
+"small_init": null
+},
+"pilot": true
+},
+{
+"run_id": "S2.2-pilot_smallinit_N100000_r000",
+"kind": "gauge",
+"exp": "S2.2-pilot",
+"arm": "smallinit",
+"N": 100000,
+"rep": 0,
+"corpus": null,
+"cfg": {
+"head_wd": false,
+"small_init": 0.1
+},
+"pilot": true
+},
+{
+"run_id": "S2.2-pilot_noWD_N100000_r001",
+"kind": "gauge",
+"exp": "S2.2-pilot",
+"arm": "noWD",
+"N": 100000,
+"rep": 1,
+"corpus": null,
+"cfg": {
+"head_wd": false,
+"small_init": null
+},
+"pilot": true
+},
+{
+"run_id": "S2.2-pilot_WD_N100000_r001",
+"kind": "gauge",
+"exp": "S2.2-pilot",
+"arm": "WD",
+"N": 100000,
+"rep": 1,
+"corpus": null,
+"cfg": {
+"head_wd": true,
+"small_init": null
+},
+"pilot": true
+},
+{
+"run_id": "S2.2-pilot_smallinit_N100000_r001",
+"kind": "gauge",
+"exp": "S2.2-pilot",
+"arm": "smallinit",
+"N": 100000,
+"rep": 1,
+"corpus": null,
+"cfg": {
+"head_wd": false,
+"small_init": 0.1
+},
+"pilot": true
+},
+{
+"run_id": "S2.2-pilot_noWD_N100000_r002",
+"kind": "gauge",
+"exp": "S2.2-pilot",
+"arm": "noWD",
+"N": 100000,
+"rep": 2,
+"corpus": null,
+"cfg": {
+"head_wd": false,
+"small_init": null
+},
+"pilot": true
+},
+{
+"run_id": "S2.2-pilot_WD_N100000_r002",
+"kind": "gauge",
+"exp": "S2.2-pilot",
+"arm": "WD",
+"N": 100000,
+"rep": 2,
+"corpus": null,
+"cfg": {
+"head_wd": true,
+"small_init": null
+},
+"pilot": true
+},
+{
+"run_id": "S2.2-pilot_smallinit_N100000_r002",
+"kind": "gauge",
+"exp": "S2.2-pilot",
+"arm": "smallinit",
+"N": 100000,
+"rep": 2,
+"corpus": null,
+"cfg": {
+"head_wd": false,
+"small_init": 0.1
+},
+"pilot": true
+},
+{
+"run_id": "S2.2-pilot_noWD_N100000_r003",
+"kind": "gauge",
+"exp": "S2.2-pilot",
+"arm": "noWD",
+"N": 100000,
+"rep": 3,
+"corpus": null,
+"cfg": {
+"head_wd": false,
+"small_init": null
+},
+"pilot": true
+},
+{
+"run_id": "S2.2-pilot_WD_N100000_r003",
+"kind": "gauge",
+"exp": "S2.2-pilot",
+"arm": "WD",
+"N": 100000,
+"rep": 3,
+"corpus": null,
+"cfg": {
+"head_wd": true,
+"small_init": null
+},
+"pilot": true
+},
+{
+"run_id": "S2.2-pilot_smallinit_N100000_r003",
+"kind": "gauge",
+"exp": "S2.2-pilot",
+"arm": "smallinit",
+"N": 100000,
+"rep": 3,
+"corpus": null,
+"cfg": {
+"head_wd": false,
+"small_init": 0.1
+},
+"pilot": true
+},
+{
+"run_id": "S2.2-pilot_noWD_N100000_r004",
+"kind": "gauge",
+"exp": "S2.2-pilot",
+"arm": "noWD",
+"N": 100000,
+"rep": 4,
+"corpus": null,
+"cfg": {
+"head_wd": false,
+"small_init": null
+},
+"pilot": true
+},
+{
+"run_id": "S2.2-pilot_WD_N100000_r004",
+"kind": "gauge",
+"exp": "S2.2-pilot",
+"arm": "WD",
+"N": 100000,
+"rep": 4,
+"corpus": null,
+"cfg": {
+"head_wd": true,
+"small_init": null
+},
+"pilot": true
+},
+{
+"run_id": "S2.2-pilot_smallinit_N100000_r004",
+"kind": "gauge",
+"exp": "S2.2-pilot",
+"arm": "smallinit",
+"N": 100000,
+"rep": 4,
+"corpus": null,
+"cfg": {
+"head_wd": false,
+"small_init": 0.1
+},
+"pilot": true
+},
+{
+"run_id": "S2.2-pilot_noWD_N100000_r005",
+"kind": "gauge",
+"exp": "S2.2-pilot",
+"arm": "noWD",
+"N": 100000,
+"rep": 5,
+"corpus": null,
+"cfg": {
+"head_wd": false,
+"small_init": null
+},
+"pilot": true
+},
+{
+"run_id": "S2.2-pilot_WD_N100000_r005",
+"kind": "gauge",
+"exp": "S2.2-pilot",
+"arm": "WD",
+"N": 100000,
+"rep": 5,
+"corpus": null,
+"cfg": {
+"head_wd": true,
+"small_init": null
+},
+"pilot": true
+},
+{
+"run_id": "S2.2-pilot_smallinit_N100000_r005",
+"kind": "gauge",
+"exp": "S2.2-pilot",
+"arm": "smallinit",
+"N": 100000,
+"rep": 5,
+"corpus": null,
+"cfg": {
+"head_wd": false,
+"small_init": 0.1
+},
+"pilot": true
+},
+{
+"run_id": "S2.2-pilot_noWD_N100000_r006",
+"kind": "gauge",
+"exp": "S2.2-pilot",
+"arm": "noWD",
+"N": 100000,
+"rep": 6,
+"corpus": null,
+"cfg": {
+"head_wd": false,
+"small_init": null
+},
+"pilot": true
+},
+{
+"run_id": "S2.2-pilot_WD_N100000_r006",
+"kind": "gauge",
+"exp": "S2.2-pilot",
+"arm": "WD",
+"N": 100000,
+"rep": 6,
+"corpus": null,
+"cfg": {
+"head_wd": true,
+"small_init": null
+},
+"pilot": true
+},
+{
+"run_id": "S2.2-pilot_smallinit_N100000_r006",
+"kind": "gauge",
+"exp": "S2.2-pilot",
+"arm": "smallinit",
+"N": 100000,
+"rep": 6,
+"corpus": null,
+"cfg": {
+"head_wd": false,
+"small_init": 0.1
+},
+"pilot": true
+},
+{
+"run_id": "S2.2-pilot_noWD_N100000_r007",
+"kind": "gauge",
+"exp": "S2.2-pilot",
+"arm": "noWD",
+"N": 100000,
+"rep": 7,
+"corpus": null,
+"cfg": {
+"head_wd": false,
+"small_init": null
+},
+"pilot": true
+},
+{
+"run_id": "S2.2-pilot_WD_N100000_r007",
+"kind": "gauge",
+"exp": "S2.2-pilot",
+"arm": "WD",
+"N": 100000,
+"rep": 7,
+"corpus": null,
+"cfg": {
+"head_wd": true,
+"small_init": null
+},
+"pilot": true
+},
+{
+"run_id": "S2.2-pilot_smallinit_N100000_r007",
+"kind": "gauge",
+"exp": "S2.2-pilot",
+"arm": "smallinit",
+"N": 100000,
+"rep": 7,
+"corpus": null,
+"cfg": {
+"head_wd": false,
+"small_init": 0.1
+},
+"pilot": true
+},
+{
+"run_id": "S2.2-pilot_noWD_N100000_r008",
+"kind": "gauge",
+"exp": "S2.2-pilot",
+"arm": "noWD",
+"N": 100000,
+"rep": 8,
+"corpus": null,
+"cfg": {
+"head_wd": false,
+"small_init": null
+},
+"pilot": true
+},
+{
+"run_id": "S2.2-pilot_WD_N100000_r008",
+"kind": "gauge",
+"exp": "S2.2-pilot",
+"arm": "WD",
+"N": 100000,
+"rep": 8,
+"corpus": null,
+"cfg": {
+"head_wd": true,
+"small_init": null
+},
+"pilot": true
+},
+{
+"run_id": "S2.2-pilot_smallinit_N100000_r008",
+"kind": "gauge",
+"exp": "S2.2-pilot",
+"arm": "smallinit",
+"N": 100000,
+"rep": 8,
+"corpus": null,
+"cfg": {
+"head_wd": false,
+"small_init": 0.1
+},
+"pilot": true
+},
+{
+"run_id": "S2.2-pilot_noWD_N100000_r009",
+"kind": "gauge",
+"exp": "S2.2-pilot",
+"arm": "noWD",
+"N": 100000,
+"rep": 9,
+"corpus": null,
+"cfg": {
+"head_wd": false,
+"small_init": null
+},
+"pilot": true
+},
+{
+"run_id": "S2.2-pilot_WD_N100000_r009",
+"kind": "gauge",
+"exp": "S2.2-pilot",
+"arm": "WD",
+"N": 100000,
+"rep": 9,
+"corpus": null,
+"cfg": {
+"head_wd": true,
+"small_init": null
+},
+"pilot": true
+},
+{
+"run_id": "S2.2-pilot_smallinit_N100000_r009",
+"kind": "gauge",
+"exp": "S2.2-pilot",
+"arm": "smallinit",
+"N": 100000,
+"rep": 9,
+"corpus": null,
+"cfg": {
+"head_wd": false,
+"small_init": 0.1
+},
+"pilot": true
+},
+{
+"run_id": "S2.2-pilot_noWD_N100000_r010",
+"kind": "gauge",
+"exp": "S2.2-pilot",
+"arm": "noWD",
+"N": 100000,
+"rep": 10,
+"corpus": null,
+"cfg": {
+"head_wd": false,
+"small_init": null
+},
+"pilot": true
+},
+{
+"run_id": "S2.2-pilot_WD_N100000_r010",
+"kind": "gauge",
+"exp": "S2.2-pilot",
+"arm": "WD",
+"N": 100000,
+"rep": 10,
+"corpus": null,
+"cfg": {
+"head_wd": true,
+"small_init": null
+},
+"pilot": true
+},
+{
+"run_id": "S2.2-pilot_smallinit_N100000_r010",
+"kind": "gauge",
+"exp": "S2.2-pilot",
+"arm": "smallinit",
+"N": 100000,
+"rep": 10,
+"corpus": null,
+"cfg": {
+"head_wd": false,
+"small_init": 0.1
+},
+"pilot": true
+},
+{
+"run_id": "S2.2-pilot_noWD_N100000_r011",
+"kind": "gauge",
+"exp": "S2.2-pilot",
+"arm": "noWD",
+"N": 100000,
+"rep": 11,
+"corpus": null,
+"cfg": {
+"head_wd": false,
+"small_init": null
+},
+"pilot": true
+},
+{
+"run_id": "S2.2-pilot_WD_N100000_r011",
+"kind": "gauge",
+"exp": "S2.2-pilot",
+"arm": "WD",
+"N": 100000,
+"rep": 11,
+"corpus": null,
+"cfg": {
+"head_wd": true,
+"small_init": null
+},
+"pilot": true
+},
+{
+"run_id": "S2.2-pilot_smallinit_N100000_r011",
+"kind": "gauge",
+"exp": "S2.2-pilot",
+"arm": "smallinit",
+"N": 100000,
+"rep": 11,
+"corpus": null,
+"cfg": {
+"head_wd": false,
+"small_init": 0.1
+},
+"pilot": true
+},
+{
+"run_id": "S2.2-pilot_noWD_N100000_r012",
+"kind": "gauge",
+"exp": "S2.2-pilot",
+"arm": "noWD",
+"N": 100000,
+"rep": 12,
+"corpus": null,
+"cfg": {
+"head_wd": false,
+"small_init": null
+},
+"pilot": true
+},
+{
+"run_id": "S2.2-pilot_WD_N100000_r012",
+"kind": "gauge",
+"exp": "S2.2-pilot",
+"arm": "WD",
+"N": 100000,
+"rep": 12,
+"corpus": null,
+"cfg": {
+"head_wd": true,
+"small_init": null
+},
+"pilot": true
+},
+{
+"run_id": "S2.2-pilot_smallinit_N100000_r012",
+"kind": "gauge",
+"exp": "S2.2-pilot",
+"arm": "smallinit",
+"N": 100000,
+"rep": 12,
+"corpus": null,
+"cfg": {
+"head_wd": false,
+"small_init": 0.1
+},
+"pilot": true
+},
+{
+"run_id": "S2.2-pilot_noWD_N100000_r013",
+"kind": "gauge",
+"exp": "S2.2-pilot",
+"arm": "noWD",
+"N": 100000,
+"rep": 13,
+"corpus": null,
+"cfg": {
+"head_wd": false,
+"small_init": null
+},
+"pilot": true
+},
+{
+"run_id": "S2.2-pilot_WD_N100000_r013",
+"kind": "gauge",
+"exp": "S2.2-pilot",
+"arm": "WD",
+"N": 100000,
+"rep": 13,
+"corpus": null,
+"cfg": {
+"head_wd": true,
+"small_init": null
+},
+"pilot": true
+},
+{
+"run_id": "S2.2-pilot_smallinit_N100000_r013",
+"kind": "gauge",
+"exp": "S2.2-pilot",
+"arm": "smallinit",
+"N": 100000,
+"rep": 13,
+"corpus": null,
+"cfg": {
+"head_wd": false,
+"small_init": 0.1
+},
+"pilot": true
+},
+{
+"run_id": "S2.2-pilot_noWD_N100000_r014",
+"kind": "gauge",
+"exp": "S2.2-pilot",
+"arm": "noWD",
+"N": 100000,
+"rep": 14,
+"corpus": null,
+"cfg": {
+"head_wd": false,
+"small_init": null
+},
+"pilot": true
+},
+{
+"run_id": "S2.2-pilot_WD_N100000_r014",
+"kind": "gauge",
+"exp": "S2.2-pilot",
+"arm": "WD",
+"N": 100000,
+"rep": 14,
+"corpus": null,
+"cfg": {
+"head_wd": true,
+"small_init": null
+},
+"pilot": true
+},
+{
+"run_id": "S2.2-pilot_smallinit_N100000_r014",
+"kind": "gauge",
+"exp": "S2.2-pilot",
+"arm": "smallinit",
+"N": 100000,
+"rep": 14,
+"corpus": null,
+"cfg": {
+"head_wd": false,
+"small_init": 0.1
+},
+"pilot": true
+},
+{
+"run_id": "S2.2-pilot_noWD_N100000_r015",
+"kind": "gauge",
+"exp": "S2.2-pilot",
+"arm": "noWD",
+"N": 100000,
+"rep": 15,
+"corpus": null,
+"cfg": {
+"head_wd": false,
+"small_init": null
+},
+"pilot": true
+},
+{
+"run_id": "S2.2-pilot_WD_N100000_r015",
+"kind": "gauge",
+"exp": "S2.2-pilot",
+"arm": "WD",
+"N": 100000,
+"rep": 15,
+"corpus": null,
+"cfg": {
+"head_wd": true,
+"small_init": null
+},
+"pilot": true
+},
+{
+"run_id": "S2.2-pilot_smallinit_N100000_r015",
+"kind": "gauge",
+"exp": "S2.2-pilot",
+"arm": "smallinit",
+"N": 100000,
+"rep": 15,
+"corpus": null,
+"cfg": {
+"head_wd": false,
+"small_init": 0.1
+},
+"pilot": true
+}
+]
+}

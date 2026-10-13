@@ -1,0 +1,125 @@
+{
+"cohort": "S2_2v11_eng",
+"runs": [
+{
+"run_id": "S2.2v11-eng_HEUN-K64_N12500_r000",
+"kind": "gauge_v11",
+"exp": "S2.2v11-eng",
+"arm": "HEUN-K64",
+"N": 12500,
+"rep": 0,
+"cfg": {
+"head_opt": "heun",
+"K": 64,
+"init": "def",
+"head_wd": false
+},
+"pilot": true
+},
+{
+"run_id": "S2.2v11-eng_HEUN-K64_N100000_r000",
+"kind": "gauge_v11",
+"exp": "S2.2v11-eng",
+"arm": "HEUN-K64",
+"N": 100000,
+"rep": 0,
+"cfg": {
+"head_opt": "heun",
+"K": 64,
+"init": "def",
+"head_wd": false
+},
+"pilot": true
+},
+{
+"run_id": "S2.2v11-eng_HEUN-K64_N12500_r001",
+"kind": "gauge_v11",
+"exp": "S2.2v11-eng",
+"arm": "HEUN-K64",
+"N": 12500,
+"rep": 1,
+"cfg": {
+"head_opt": "heun",
+"K": 64,
+"init": "def",
+"head_wd": false
+},
+"pilot": true
+},
+{
+"run_id": "S2.2v11-eng_HEUN-K64_N100000_r001",
+"kind": "gauge_v11",
+"exp": "S2.2v11-eng",
+"arm": "HEUN-K64",
+"N": 100000,
+"rep": 1,
+"cfg": {
+"head_opt": "heun",
+"K": 64,
+"init": "def",
+"head_wd": false
+},
+"pilot": true
+},
+{
+"run_id": "S2.2v11-eng_HEUN-K64_N12500_r002",
+"kind": "gauge_v11",
+"exp": "S2.2v11-eng",
+"arm": "HEUN-K64",
+"N": 12500,
+"rep": 2,
+"cfg": {
+"head_opt": "heun",
+"K": 64,
+"init": "def",
+"head_wd": false
+},
+"pilot": true
+},
+{
+"run_id": "S2.2v11-eng_HEUN-K64_N100000_r002",
+"kind": "gauge_v11",
+"exp": "S2.2v11-eng",
+"arm": "HEUN-K64",
+"N": 100000,
+"rep": 2,
+"cfg": {
+"head_opt": "heun",
+"K": 64,
+"init": "def",
+"head_wd": false
+},
+"pilot": true
+},
+{
+"run_id": "S2.2v11-eng_HEUN-K64_N12500_r003",
+"kind": "gauge_v11",
+"exp": "S2.2v11-eng",
+"arm": "HEUN-K64",
+"N": 12500,
+"rep": 3,
+"cfg": {
+"head_opt": "heun",
+"K": 64,
+"init": "def",
+"head_wd": false
+},
+"pilot": true
+},
+{
+"run_id": "S2.2v11-eng_HEUN-K64_N100000_r003",
+"kind": "gauge_v11",
+"exp": "S2.2v11-eng",
+"arm": "HEUN-K64",
+"N": 100000,
+"rep": 3,
+"cfg": {
+"head_opt": "heun",
+"K": 64,
+"init": "def",
+"head_wd": false
+},
+"pilot": true
+}
+]
+}

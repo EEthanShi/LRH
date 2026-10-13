@@ -1,0 +1,749 @@
+{
+ "hub_version": "1.27.0",
+ "EleutherAI/pythia-70m": {
+  "sha": "a39f36b100fe8a5377810d56c3f4789b9c53ac42",
+  "gated": false,
+  "private": false,
+  "disabled": false,
+  "lastModified": "2023-11-21 19:04:09+00:00",
+  "license": "apache-2.0",
+  "datasets": [
+   "EleutherAI/pile"
+  ],
+  "tags": [
+   "pytorch",
+   "safetensors",
+   "gpt_neox",
+   "license:apache-2.0"
+  ],
+  "config": {
+   "architectures": [
+    "GPTNeoXForCausalLM"
+   ],
+   "model_type": "gpt_neox",
+   "tokenizer_config": {
+    "bos_token": "<|endoftext|>",
+    "eos_token": "<|endoftext|>",
+    "unk_token": "<|endoftext|>"
+   }
+  },
+  "siblings": [
+   {
+    "f": ".gitattributes",
+    "size": 1477,
+    "blob": "c7d9f3332a950355d5a77d85000f05e6f45435ea"
+   },
+   {
+    "f": "README.md",
+    "size": 14256,
+    "blob": "df0253c0ab197de15c12fa7fbb7edcca9b6848a3"
+   },
+   {
+    "f": "config.json",
+    "size": 567,
+    "blob": "d7a9196e329eaf06d6e2802fed376e7459834236"
+   },
+   {
+    "f": "model.safetensors",
+    "size": 166029852,
+    "blob": "dc22a265ac0a56d7d600eb5e704a949c8e37a044",
+    "lfs_sha256": "ebfa4e2f18696ebd83716a0d39fe2c025f2ff8483f72a83ca59c475692fc9d15"
+   },
+   {
+    "f": "pytorch_model.bin",
+    "size": 166049099,
+    "blob": "d5c06cbd15ef7f71bd883c3ecca4f618c0dfb88b",
+    "lfs_sha256": "f629437d6fe950ffda3ef94f6a956a1bb63a2e79e03c296c92fe208999aeb092"
+   },
+   {
+    "f": "special_tokens_map.json",
+    "size": 99,
+    "blob": "0204ed10c186a4c7c68f55dff8f26087a45898d6"
+   },
+   {
+    "f": "tokenizer.json",
+    "size": 2113710,
+    "blob": "f74dfbfab8f97770a87769c739fb080c21c8bacc"
+   },
+   {
+    "f": "tokenizer_config.json",
+    "size": 396,
+    "blob": "f1860edb10f80bcaf7b023fce47c68a23b724c23"
+   }
+  ],
+  "safetensors_meta": {
+   "F16": 70426672,
+   "U8": 25165824
+  },
+  "n_branches": 155,
+  "main": "a39f36b100fe8a5377810d56c3f4789b9c53ac42",
+  "step143000": "de3e4e2d6cbb3b1a51f90fe153ea51fcd8c7c852",
+  "converts": []
+ },
+ "EleutherAI/pythia-160m": {
+  "sha": "50f5173d932e8e61f858120bcb800b97af589f46",
+  "gated": false,
+  "private": false,
+  "disabled": false,
+  "lastModified": "2023-07-09 15:52:09+00:00",
+  "license": "apache-2.0",
+  "datasets": [
+   "EleutherAI/pile"
+  ],
+  "tags": [
+   "pytorch",
+   "safetensors",
+   "gpt_neox",
+   "license:apache-2.0"
+  ],
+  "config": {
+   "architectures": [
+    "GPTNeoXForCausalLM"
+   ],
+   "model_type": "gpt_neox",
+   "tokenizer_config": {
+    "bos_token": "<|endoftext|>",
+    "eos_token": "<|endoftext|>",
+    "unk_token": "<|endoftext|>"
+   }
+  },
+  "siblings": [
+   {
+    "f": ".gitattributes",
+    "size": 1477,
+    "blob": "c7d9f3332a950355d5a77d85000f05e6f45435ea"
+   },
+   {
+    "f": "README.md",
+    "size": 13593,
+    "blob": "2e8b2b93bf534833600f862c90c0b53fc6f76a46"
+   },
+   {
+    "f": "config.json",
+    "size": 569,
+    "blob": "b8368ff94f3bcf3088de5e9912251fc0208ae524"
+   },
+   {
+    "f": "model.safetensors",
+    "size": 374998696,
+    "blob": "681c808e9bf6584885528a34c52d5204bcc78d25",
+    "lfs_sha256": "29d2e457a664e41c12c735f20a36dc0956a665f614a54ce5db21a32e75965270"
+   },
+   {
+    "f": "pytorch_model.bin",
+    "size": 375036845,
+    "blob": "c059474641eb1d8f26a7446ebe403bc0cf90fb9d",
+    "lfs_sha256": "8d856725c4a8266f10568cc1269948fc851e2aed1fb230036af2eac68e9df072"
+   },
+   {
+    "f": "special_tokens_map.json",
+    "size": 99,
+    "blob": "0204ed10c186a4c7c68f55dff8f26087a45898d6"
+   },
+   {
+    "f": "tokenizer.json",
+    "size": 2113710,
+    "blob": "f74dfbfab8f97770a87769c739fb080c21c8bacc"
+   },
+   {
+    "f": "tokenizer_config.json",
+    "size": 396,
+    "blob": "f1860edb10f80bcaf7b023fce47c68a23b724c23"
+   }
+  ],
+  "safetensors_meta": {
+   "F16": 162323040,
+   "U8": 50331648
+  },
+  "n_branches": 155,
+  "main": "50f5173d932e8e61f858120bcb800b97af589f46",
+  "step143000": "b56d9bee36300031aeea723b73c4d62ac7fa71a2",
+  "converts": []
+ },
+ "EleutherAI/pythia-410m": {
+  "sha": "9879c9b5f8bea9051dcb0e68dff21493d67e9d4f",
+  "gated": false,
+  "private": false,
+  "disabled": false,
+  "lastModified": "2023-07-09 16:01:42+00:00",
+  "license": "apache-2.0",
+  "datasets": [
+   "EleutherAI/pile"
+  ],
+  "tags": [
+   "pytorch",
+   "safetensors",
+   "gpt_neox",
+   "license:apache-2.0"
+  ],
+  "config": {
+   "architectures": [
+    "GPTNeoXForCausalLM"
+   ],
+   "model_type": "gpt_neox",
+   "tokenizer_config": {
+    "bos_token": "<|endoftext|>",
+    "eos_token": "<|endoftext|>",
+    "unk_token": "<|endoftext|>"
+   }
+  },
+  "siblings": [
+   {
+    "f": ".gitattributes",
+    "size": 1477,
+    "blob": "c7d9f3332a950355d5a77d85000f05e6f45435ea"
+   },
+   {
+    "f": "README.md",
+    "size": 13593,
+    "blob": "d4751d90f46c8c5fff4b7eaa8e6308189da48153"
+   },
+   {
+    "f": "config.json",
+    "size": 570,
+    "blob": "0425fa136ba3f95d9428d832cfd7bfd82c78bf1f"
+   },
+   {
+    "f": "model.safetensors",
+    "size": 911373632,
+    "blob": "49140779ecc7235263a7029d8669c4c6b3dabd2c",
+    "lfs_sha256": "3e09001631bb18ec8a6f4522f8e6ab26a53099e69228f9822adc91bfbe27511b"
+   },
+   {
+    "f": "pytorch_model.bin",
+    "size": 911449213,
+    "blob": "d32ae582204ed6389517f527440a178669279600",
+    "lfs_sha256": "786bd9bcde112a970e1614807cbb23999482de65fc05c3e0795198719b5e1543"
+   },
+   {
+    "f": "special_tokens_map.json",
+    "size": 99,
+    "blob": "0204ed10c186a4c7c68f55dff8f26087a45898d6"
+   },
+   {
+    "f": "tokenizer.json",
+    "size": 2113710,
+    "blob": "f74dfbfab8f97770a87769c739fb080c21c8bacc"
+   },
+   {
+    "f": "tokenizer_config.json",
+    "size": 396,
+    "blob": "f1860edb10f80bcaf7b023fce47c68a23b724c23"
+   }
+  ],
+  "safetensors_meta": {
+   "F16": 405334208,
+   "U8": 100663296
+  },
+  "n_branches": 155,
+  "main": "9879c9b5f8bea9051dcb0e68dff21493d67e9d4f",
+  "step143000": "bba6a464f54bbf08fc174cfb351d9794d58af21d",
+  "converts": []
+ },
+ "EleutherAI/pythia-1b": {
+  "sha": "f73d7dcc545c8bd326d8559c8ef84ffe92fea6b2",
+  "gated": false,
+  "private": false,
+  "disabled": false,
+  "lastModified": "2023-07-09 16:05:58+00:00",
+  "license": "apache-2.0",
+  "datasets": [
+   "the_pile"
+  ],
+  "tags": [
+   "pytorch",
+   "safetensors",
+   "gpt_neox",
+   "license:apache-2.0"
+  ],
+  "config": {
+   "architectures": [
+    "GPTNeoXForCausalLM"
+   ],
+   "model_type": "gpt_neox",
+   "tokenizer_config": {
+    "bos_token": "<|endoftext|>",
+    "eos_token": "<|endoftext|>",
+    "unk_token": "<|endoftext|>"
+   }
+  },
+  "siblings": [
+   {
+    "f": ".gitattributes",
+    "size": 1477,
+    "blob": "c7d9f3332a950355d5a77d85000f05e6f45435ea"
+   },
+   {
+    "f": "README.md",
+    "size": 13568,
+    "blob": "9e9f3a77336c4887f46ab5d0642016e70ae0c416"
+   },
+   {
+    "f": "config.json",
+    "size": 569,
+    "blob": "631d0e859247ad69414b72e657e7471a07403090"
+   },
+   {
+    "f": "model.safetensors",
+    "size": 2090701528,
+    "blob": "321cf4560d73caf37ea9f2a47b7486cd46798dc8",
+    "lfs_sha256": "7e6dff44849e036a73296368e663bd9420009977f03a8d4d747b234264f37107"
+   },
+   {
+    "f": "pytorch_model.bin",
+    "size": 2090751965,
+    "blob": "51e4902e22be49bd9057b47f04d7c9b94616f984",
+    "lfs_sha256": "d2523eec75f5c1236ed7787bde500935c1f87874119c528cedc9f445476d38c2"
+   },
+   {
+    "f": "special_tokens_map.json",
+    "size": 99,
+    "blob": "0204ed10c186a4c7c68f55dff8f26087a45898d6"
+   },
+   {
+    "f": "tokenizer.json",
+    "size": 2113710,
+    "blob": "f74dfbfab8f97770a87769c739fb080c21c8bacc"
+   },
+   {
+    "f": "tokenizer_config.json",
+    "size": 396,
+    "blob": "f1860edb10f80bcaf7b023fce47c68a23b724c23"
+   }
+  ],
+  "safetensors_meta": {
+   "F16": 1011782144,
+   "U8": 67108864
+  },
+  "n_branches": 155,
+  "main": "f73d7dcc545c8bd326d8559c8ef84ffe92fea6b2",
+  "step143000": "c0fea4b917615c60370c0aeb76877f18fef30ab3",
+  "converts": []
+ },
+ "EleutherAI/pythia-1.4b": {
+  "sha": "fedc38a16eea3bd36a96b906d78d11d2ce18ed79",
+  "gated": false,
+  "private": false,
+  "disabled": false,
+  "lastModified": "2023-07-09 16:01:57+00:00",
+  "license": "apache-2.0",
+  "datasets": [
+   "EleutherAI/the_pile"
+  ],
+  "tags": [
+   "pytorch",
+   "safetensors",
+   "gpt_neox",
+   "license:apache-2.0"
+  ],
+  "config": {
+   "architectures": [
+    "GPTNeoXForCausalLM"
+   ],
+   "model_type": "gpt_neox",
+   "tokenizer_config": {
+    "bos_token": "<|endoftext|>",
+    "eos_token": "<|endoftext|>",
+    "unk_token": "<|endoftext|>"
+   }
+  },
+  "siblings": [
+   {
+    "f": ".gitattributes",
+    "size": 1477,
+    "blob": "c7d9f3332a950355d5a77d85000f05e6f45435ea"
+   },
+   {
+    "f": "README.md",
+    "size": 13597,
+    "blob": "57b72646ed3f7feb4b037e07c67b3c63fbe72742"
+   },
+   {
+    "f": "config.json",
+    "size": 570,
+    "blob": "76f45dd29f6ae40ae5d4960a8df6386aa9cd8d5a"
+   },
+   {
+    "f": "model.safetensors",
+    "size": 2930002184,
+    "blob": "be74c916167d4499a0792fe64304aba516acf9a5",
+    "lfs_sha256": "ad4388632e922d0c58c23cb315292d516deb70af0573f9c1543ce84158bff59c"
+   },
+   {
+    "f": "pytorch_model.bin",
+    "size": 2930076797,
+    "blob": "9569eafa37b7feeca29240c20072d17b026e2521",
+    "lfs_sha256": "056766b124a4ac70afcc722084d7c2b6cab80581e0d066709d72ae5c1a8640d8"
+   },
+   {
+    "f": "special_tokens_map.json",
+    "size": 99,
+    "blob": "0204ed10c186a4c7c68f55dff8f26087a45898d6"
+   },
+   {
+    "f": "tokenizer.json",
+    "size": 2113710,
+    "blob": "f74dfbfab8f97770a87769c739fb080c21c8bacc"
+   },
+   {
+    "f": "tokenizer_config.json",
+    "size": 396,
+    "blob": "f1860edb10f80bcaf7b023fce47c68a23b724c23"
+   }
+  ],
+  "safetensors_meta": {
+   "F16": 1414648192,
+   "U8": 100663296
+  },
+  "n_branches": 155,
+  "main": "fedc38a16eea3bd36a96b906d78d11d2ce18ed79",
+  "step143000": "9cc5c8c8148a4e0115d9e29c6b4f21124cfe748a",
+  "converts": []
+ },
+ "EleutherAI/pythia-2.8b": {
+  "sha": "2a259cdd96a4beb1cdf467512e3904197345f6a9",
+  "gated": false,
+  "private": false,
+  "disabled": false,
+  "lastModified": "2023-06-09 00:35:37+00:00",
+  "license": "apache-2.0",
+  "datasets": [
+   "EleutherAI/pile"
+  ],
+  "tags": [
+   "pytorch",
+   "safetensors",
+   "gpt_neox",
+   "license:apache-2.0"
+  ],
+  "config": {
+   "architectures": [
+    "GPTNeoXForCausalLM"
+   ],
+   "model_type": "gpt_neox",
+   "tokenizer_config": {
+    "bos_token": "<|endoftext|>",
+    "eos_token": "<|endoftext|>",
+    "unk_token": "<|endoftext|>"
+   }
+  },
+  "siblings": [
+   {
+    "f": ".gitattributes",
+    "size": 1477,
+    "blob": "c7d9f3332a950355d5a77d85000f05e6f45435ea"
+   },
+   {
+    "f": "README.md",
+    "size": 13593,
+    "blob": "3c0c6f5a7cad87f8d947f8470885501a4f40374b"
+   },
+   {
+    "f": "config.json",
+    "size": 571,
+    "blob": "490234a04b8fc9587db08c7dbc7d73f99152f697"
+   },
+   {
+    "f": "model.safetensors",
+    "size": 5684693096,
+    "blob": "b3eb45739de8b830037f14882322170ebab29bfa",
+    "lfs_sha256": "ab496f1c3fd79e3c749a9d5414136a2c8e4224f94eecb261970315cdb0f813fe"
+   },
+   {
+    "f": "pytorch_model.bin",
+    "size": 5684793945,
+    "blob": "638b8d123113205f03cb8e10591b8120e5baacc7",
+    "lfs_sha256": "36f0f93d1f5d44ca9c48a602c0788001a36ec10db9d1b84a40b81799d724c4f6"
+   },
+   {
+    "f": "special_tokens_map.json",
+    "size": 99,
+    "blob": "0204ed10c186a4c7c68f55dff8f26087a45898d6"
+   },
+   {
+    "f": "tokenizer.json",
+    "size": 2113710,
+    "blob": "f74dfbfab8f97770a87769c739fb080c21c8bacc"
+   },
+   {
+    "f": "tokenizer_config.json",
+    "size": 396,
+    "blob": "f1860edb10f80bcaf7b023fce47c68a23b724c23"
+   }
+  ],
+  "safetensors_meta": {
+   "F16": 2775209280,
+   "U8": 134217728
+  },
+  "n_branches": 155,
+  "main": "2a259cdd96a4beb1cdf467512e3904197345f6a9",
+  "step143000": "dbe7ae300a54abcdc475a33907b3dff81d25709f",
+  "converts": []
+ },
+ "EleutherAI/pythia-6.9b": {
+  "sha": "c0e3eee36dc47af0c49f361c74cfe459c09f7f23",
+  "gated": false,
+  "private": false,
+  "disabled": false,
+  "lastModified": "2025-03-10 18:30:39+00:00",
+  "license": "apache-2.0",
+  "datasets": [
+   "EleutherAI/pile"
+  ],
+  "tags": [
+   "pytorch",
+   "safetensors",
+   "gpt_neox",
+   "license:apache-2.0"
+  ],
+  "config": {
+   "architectures": [
+    "GPTNeoXForCausalLM"
+   ],
+   "model_type": "gpt_neox",
+   "tokenizer_config": {
+    "bos_token": "<|endoftext|>",
+    "eos_token": "<|endoftext|>",
+    "unk_token": "<|endoftext|>"
+   }
+  },
+  "siblings": [
+   {
+    "f": ".gitattributes",
+    "size": 1477,
+    "blob": "c7d9f3332a950355d5a77d85000f05e6f45435ea"
+   },
+   {
+    "f": "README.md",
+    "size": 13593,
+    "blob": "89f57d3f5a6cd5c81450da42316a9d0d63fa3808"
+   },
+   {
+    "f": "config.json",
+    "size": 571,
+    "blob": "16300e33aceb80d021ab84256b555a23e4a0309a"
+   },
+   {
+    "f": "model-00001-of-00002.safetensors",
+    "size": 9911600880,
+    "blob": "e4670f01d3c4fd3746b585ac9b6446eba72306ef",
+    "lfs_sha256": "34782c3cf3cd80d1eae11d42f1b23c024226651da9c3f2ad61e35afbd724f62b"
+   },
+   {
+    "f": "model-00002-of-00002.safetensors",
+    "size": 3937278816,
+    "blob": "7a59e51975497d192bab77e17de7b08fd8a2ffc5",
+    "lfs_sha256": "f73019e3a2ce46f8a57f3a35509900df3bb21051da3d28408c646487e6c4451c"
+   },
+   {
+    "f": "model.safetensors.index.json",
+    "size": 43975,
+    "blob": "e0aea5301715084adbc165ef71b69d40594accea"
+   },
+   {
+    "f": "pytorch_model-00001-of-00002.bin",
+    "size": 9911682774,
+    "blob": "c1ab1fb11c89c1e06a2dce4440f4d1351cced492",
+    "lfs_sha256": "753cc06e909d686fa6b1c096a3f8474794e5d72fa7163d20fa645fff94743b58"
+   },
+   {
+    "f": "pytorch_model-00002-of-00002.bin",
+    "size": 3937306520,
+    "blob": "2eec5e7348c80160eb4636d24d0f07a59c0d239d",
+    "lfs_sha256": "1fde0bc4136f8f4cfe4ed79ffc09cce3f887b56d6f1998fc52b6f92e3942837d"
+   },
+   {
+    "f": "pytorch_model.bin.index.json",
+    "size": 42028,
+    "blob": "94ed2a228c079e755b17a87f07c83f6bcaa24181"
+   },
+   {
+    "f": "special_tokens_map.json",
+    "size": 99,
+    "blob": "0204ed10c186a4c7c68f55dff8f26087a45898d6"
+   },
+   {
+    "f": "tokenizer.json",
+    "size": 2113710,
+    "blob": "f74dfbfab8f97770a87769c739fb080c21c8bacc"
+   },
+   {
+    "f": "tokenizer_config.json",
+    "size": 396,
+    "blob": "f1860edb10f80bcaf7b023fce47c68a23b724c23"
+   }
+  ],
+  "safetensors_meta": {
+   "F16": 6857302528,
+   "U8": 134217728
+  },
+  "n_branches": 155,
+  "main": "c0e3eee36dc47af0c49f361c74cfe459c09f7f23",
+  "step143000": "21bfa02e806e253fe453702c29c81d9f83617255",
+  "converts": []
+ },
+ "EleutherAI/pythia-12b": {
+  "sha": "bb1e3e710cdf6b524461d543cfb5ba773f0a81b6",
+  "gated": false,
+  "private": false,
+  "disabled": false,
+  "lastModified": "2024-07-09 15:50:54+00:00",
+  "license": "apache-2.0",
+  "datasets": [
+   "EleutherAI/pile"
+  ],
+  "tags": [
+   "pytorch",
+   "safetensors",
+   "gpt_neox",
+   "license:apache-2.0"
+  ],
+  "config": {
+   "architectures": [
+    "GPTNeoXForCausalLM"
+   ],
+   "model_type": "gpt_neox",
+   "tokenizer_config": {
+    "bos_token": "<|endoftext|>",
+    "eos_token": "<|endoftext|>",
+    "unk_token": "<|endoftext|>"
+   }
+  },
+  "siblings": [
+   {
+    "f": ".gitattributes",
+    "size": 1477,
+    "blob": "c7d9f3332a950355d5a77d85000f05e6f45435ea"
+   },
+   {
+    "f": "README.md",
+    "size": 13570,
+    "blob": "29d22d964e9c9f7dbd470125baf50f5c161086db"
+   },
+   {
+    "f": "config.json",
+    "size": 571,
+    "blob": "830f0b5d30d27ee679a64bdd4f8857a581a24959"
+   },
+   {
+    "f": "eval_plots/arc_challenge.png",
+    "size": 75629,
+    "blob": "d0a1f4bdb28adc4933df71f585340631be721fc8"
+   },
+   {
+    "f": "eval_plots/arc_easy_v1.png",
+    "size": 76611,
+    "blob": "3810a4a85d9232804d41766dc8a0eb14bb270506"
+   },
+   {
+    "f": "eval_plots/lambada_openai.png",
+    "size": 77347,
+    "blob": "c37fac63b0ee4dcbac26a129933397496d7edbda"
+   },
+   {
+    "f": "eval_plots/lambada_openai_v1.png",
+    "size": 76906,
+    "blob": "0d9428571c8e8565c84ac3156d3dddf93a47cc7d"
+   },
+   {
+    "f": "eval_plots/piqa.png",
+    "size": 73050,
+    "blob": "7621e7e0ac45173c65328d329ca43d078a7591e7"
+   },
+   {
+    "f": "eval_plots/piqa_v1.png",
+    "size": 70960,
+    "blob": "46fae146200bbff234a598d5746ecd4bf2dae362"
+   },
+   {
+    "f": "eval_plots/sciq.png",
+    "size": 73358,
+    "blob": "080b37790fa929da7c9a9900c000935aeb10162d"
+   },
+   {
+    "f": "eval_plots/sciq_v1.png",
+    "size": 71528,
+    "blob": "78327c9433f3a15069b13f5bb8eeebf58dbb16e9"
+   },
+   {
+    "f": "eval_plots/winogrande.png",
+    "size": 73535,
+    "blob": "55aae2f7c60c54b4645402775a443120bae36565"
+   },
+   {
+    "f": "eval_plots/winogrande_v1.png",
+    "size": 71945,
+    "blob": "b253a79578b93d846b2d38ed4d04a44ada8fe0b6"
+   },
+   {
+    "f": "model-00001-of-00003.safetensors",
+    "size": 9811441814,
+    "blob": "03ffced83f5dca767180637c90d589e48da20c2e",
+    "lfs_sha256": "962f068c6b1c898d6bafec43a394ea64f0d5fc5f8215da651606955d418dfbff"
+   },
+   {
+    "f": "model-00002-of-00003.safetensors",
+    "size": 9925840824,
+    "blob": "e8342001c9005b27fa4dd0850e717093e272b46a",
+    "lfs_sha256": "1af79279e8946de577ae27d7d71136e9dde72581048023b5073014e91ef9e810"
+   },
+   {
+    "f": "model-00003-of-00003.safetensors",
+    "size": 4105922122,
+    "blob": "fe1c51ee87b4635a40b87b8e1a140817a33a0803",
+    "lfs_sha256": "78e64bf62882c9fa1d853a30f47bdff919012a27e433a80ffd25606a1a784d51"
+   },
+   {
+    "f": "model.safetensors.index.json",
+    "size": 49443,
+    "blob": "b8a2425f41a037651617be3ed8cbd46d3550b600"
+   },
+   {
+    "f": "pytorch_model-00001-of-00003.bin",
+    "size": 9811493183,
+    "blob": "732abf3a8374c4b40f264d45fd019ff7adbfcb57",
+    "lfs_sha256": "9d21715462588073675eca9c65ba55a47d911da460a6083938d04acd4589f542"
+   },
+   {
+    "f": "pytorch_model-00002-of-00003.bin",
+    "size": 9925895489,
+    "blob": "f1a09b442460178ad1aa6981403110e8e7356911",
+    "lfs_sha256": "4ce3319dbdf23e96b36ab4be6517bab2cac1b0578c5bde6005547b8bb657c11f"
+   },
+   {
+    "f": "pytorch_model-00003-of-00003.bin",
+    "size": 4105939923,
+    "blob": "b398d1f16cd50f75c193e02870ac141e64a843b7",
+    "lfs_sha256": "eb82155af2c813a9aac8bcbe12266af8a1b0be084a3d6c0d244a745e0993cca4"
+   },
+   {
+    "f": "pytorch_model.bin.index.json",
+    "size": 47256,
+    "blob": "c0b87950fff7d760a7bc9e0d761d54cc010ad310"
+   },
+   {
+    "f": "special_tokens_map.json",
+    "size": 99,
+    "blob": "0204ed10c186a4c7c68f55dff8f26087a45898d6"
+   },
+   {
+    "f": "tokenizer.json",
+    "size": 2113710,
+    "blob": "f74dfbfab8f97770a87769c739fb080c21c8bacc"
+   },
+   {
+    "f": "tokenizer_config.json",
+    "size": 396,
+    "blob": "f1860edb10f80bcaf7b023fce47c68a23b724c23"
+   }
+  ],
+  "safetensors_meta": {
+   "F16": 11846072896,
+   "U8": 150994944
+  },
+  "n_branches": 155,
+  "main": "bb1e3e710cdf6b524461d543cfb5ba773f0a81b6",
+  "step143000": "9c5f35826eb1a9558fb4414c033f58e30322a092",
+  "converts": []
+ }
+}

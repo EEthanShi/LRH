@@ -1,0 +1,2225 @@
+{
+ "figure": "F_e0_app",
+ "tex_label_proposed": "fig:app-e0",
+ "tex_include": "figures/exp_v6/F_e0_app.pdf",
+ "version": "v8.1 (critic: panel (c) = X3b medians for both text sides; v8 maker: Tol palette, bold ticks and axis titles, no setting text, new panel (c) for X3)",
+ "created_utc": "2026-10-10T22:48:47Z",
+ "script": "~/hrh_v2_figs/v8/F_e0_app/make_F_e0_app.py",
+ "script_sha256": "86654934a7f04eaf3a6182cd9dbfc4e0a837d60dcd8c9bc832b3353965c73345",
+ "inputs_sha256": {
+  "~/hrh_v2_stage1_20261008/results/E0_sentence/obs/obs_P.parquet": "1e13c7df10571a250de0faf44f9767ca4a835f7d9aff960a96f5b51ea68c6cbc",
+  "~/hrh_v2_stage1_20261008/results/E0_sentence/eval/E0_cells_P.parquet": "9a97d417b13ee56d7ce9f3082398ccb4ccb0d2b57e642caf1e247d0fc41f29cd",
+  "~/hrh_v2_stage1_20261008/results/E0_sentence/eval/E0_elasticity_P.parquet": "9931c646304a32533a520c00e02632cf9dc81a8245171f46211d488f47af0f24",
+  "~/hrh_v2_stage1_20261008/results/E0_sentence/eval/E0_levels_P.parquet": "dd85ec63123b2c837d4102066486383f710ac2d70efef74a1461edbf0e88aae4",
+  "~/hrh_v2_stage1_20261008/results/E0_sentence/eval/E0_slopes_P.parquet": "8d5f0c29c9336d103b2aac28d2c9c18d17c2f1bf43a14c5525aaf68d65789a04",
+  "~/hrh_v2_stage1_20261008/results/E0_sentence/VERDICTS_E0.json": "5b04e46098e39056f6e9b2d534d53fa54777b1670ccfa68442cb7ef3fd1568a7",
+  "~/hrh_v2_stage1_20261008/analysis/e0_sentence/review/review_paper_numbers_20261010T142548Z.json": "4bbe71cd0206c612ff58bd1c4c4b23ce065c971c4a15cb934e4091a706843286",
+  "~/hrh_v2_stage1_20261008/results/S1_1/v11/S1_1_v11_cells_clip.parquet": "878abf0b98e6bb480892c61f2672816ff30b6524a277b81c0c448bb8bc0bcf20",
+  "~/hrh_v2_stage1_20261008/results/S1_1/v11/S1_1_v11_slopes_clip.parquet": "41292e65ff67ddf3b9c4fa0673d7b250a0f1959e3337e0e6660cea2b2834b5f1",
+  "~/hrh_v2_stage1_20261008/results/S1_1/v11/S1_1_v11_summary.json": "324f6ce3a8efcbe95aecaac8c240f500b08da99613e20836cd3a216459e4bdb2",
+  "~/hrh_v2_figs/v5/F_neighbors/numbers.json": "19c007bdb392f4cafdb714048be56447fc0f60bd01767914eb347876301335f9",
+  "~/hrh_v2_figs/v6/F_neighbors/numbers.json": "bd9ca368b6f2f0002ec81dc74e694f4b66c25b0561d681d6f1d9043a28629f94",
+  "~/hrh_v2_figs/v8/_style/cvdlib.py": "562cca0ecb8d218cac9baa6e2e7c550d21be66857c05707f91944e863891e653",
+  "~/hrh_v2_stage1_20261008/results/E0_sentence/x3/X3_results.json": "4945d75d4102ff7598c9d9672a782d49f20aa34e4d8c2bf3ae44dc4fd6b767b3",
+  "~/hrh_v2_stage1_20261008/results/E0_sentence/x3/X3_REVIEW.md": "39421ac0867a1a9a03d5eda82e0babc160337612d0cfa1494585823a9381a258",
+  "~/hrh_v2_stage1_20261008/analysis/e0_sentence/x3/X3_READINGS.md": "0151bf9ac26dd718652d69c72912445fb9fd15d770ae829db8a052e085d8663e",
+  "~/hrh_v2_stage1_20261008/results/E0_sentence/x3/eval/X3_cells.parquet": "179c89fe96dc5bb0464ebf2ee6a46c6ec887a948c98280536f3bf1cb93070729",
+  "~/hrh_v2_stage1_20261008/results/E0_sentence/x3/eval/X3_levels.parquet": "cb5312f9870f169e0e24d5c356e8c0529060cf5f83c5383c39f6726e5f487eff",
+  "~/hrh_v2_stage1_20261008/results/E0_sentence/eval/E0_cells_CA.parquet": "a04bc4e7efd86cf214dc995223fdcab3f668dad392901bd29712d619f73ecc5e",
+  "~/hrh_v2_stage1_20261008/results/E0_sentence/x3b/X3B_results.json": "118a49bf7fd15d14d69fdcf0f2b8adadacd573330961d3c8353ed5fec2c1d767",
+  "~/hrh_v2_stage1_20261008/results/E0_sentence/x3b/X3B_REVIEW.md": "2bccaad88049e96ec6d4aa36ff3de51ad05d0353633d4809742d138b66ceed6c",
+  "~/hrh_v2_stage1_20261008/results/E0_sentence/x3b/eval/X3B_cells.parquet": "b517082960bf05dc71ec07c1052e0f53123bbdb72576ab8149c459ce836fa344",
+  "~/hrh_v2_stage1_20261008/results/E0_sentence/x3b/review/X3B_review_checks.json": "2c8d0fcb4f5f303a93733650a57a613a21237d5a3935b8a130e1f55ee3c96ce0",
+  "~/hrh_v2_stage1_20261008/analysis/e0_sentence/x3b/X3B_READINGS.md": "fef078b8058a0bbb19f25697014130f60b5f8d83a8e93d6b8b61900ecb2dd34e"
+ },
+ "inputs_expected_sha256_checked": {
+  "~/hrh_v2_stage1_20261008/results/E0_sentence/VERDICTS_E0.json": "5b04e46098e39056f6e9b2d534d53fa54777b1670ccfa68442cb7ef3fd1568a7",
+  "~/hrh_v2_stage1_20261008/analysis/e0_sentence/review/review_paper_numbers_20261010T142548Z.json": "4bbe71cd0206c612ff58bd1c4c4b23ce065c971c4a15cb934e4091a706843286",
+  "~/hrh_v2_stage1_20261008/results/E0_sentence/obs/obs_P.parquet": "1e13c7df10571a250de0faf44f9767ca4a835f7d9aff960a96f5b51ea68c6cbc",
+  "~/hrh_v2_figs/v5/F_neighbors/numbers.json": "19c007bdb392f4cafdb714048be56447fc0f60bd01767914eb347876301335f9"
+ },
+ "input_modes": {
+  "~/hrh_v2_stage1_20261008/results/E0_sentence/obs/obs_P.parquet": "0o444",
+  "~/hrh_v2_stage1_20261008/results/E0_sentence/eval/E0_cells_P.parquet": "0o444",
+  "~/hrh_v2_stage1_20261008/results/E0_sentence/eval/E0_elasticity_P.parquet": "0o444",
+  "~/hrh_v2_stage1_20261008/results/E0_sentence/eval/E0_levels_P.parquet": "0o444",
+  "~/hrh_v2_stage1_20261008/results/E0_sentence/eval/E0_slopes_P.parquet": "0o444",
+  "~/hrh_v2_stage1_20261008/results/E0_sentence/VERDICTS_E0.json": "0o444",
+  "~/hrh_v2_stage1_20261008/analysis/e0_sentence/review/review_paper_numbers_20261010T142548Z.json": "0o444",
+  "~/hrh_v2_stage1_20261008/results/S1_1/v11/S1_1_v11_cells_clip.parquet": "0o664",
+  "~/hrh_v2_stage1_20261008/results/S1_1/v11/S1_1_v11_slopes_clip.parquet": "0o664",
+  "~/hrh_v2_stage1_20261008/results/S1_1/v11/S1_1_v11_summary.json": "0o664",
+  "~/hrh_v2_figs/v5/F_neighbors/numbers.json": "0o664",
+  "~/hrh_v2_figs/v6/F_neighbors/numbers.json": "0o664",
+  "~/hrh_v2_figs/v8/_style/cvdlib.py": "0o644",
+  "~/hrh_v2_stage1_20261008/results/E0_sentence/x3/X3_results.json": "0o444",
+  "~/hrh_v2_stage1_20261008/results/E0_sentence/x3/X3_REVIEW.md": "0o444",
+  "~/hrh_v2_stage1_20261008/analysis/e0_sentence/x3/X3_READINGS.md": "0o444",
+  "~/hrh_v2_stage1_20261008/results/E0_sentence/x3/eval/X3_cells.parquet": "0o444",
+  "~/hrh_v2_stage1_20261008/results/E0_sentence/x3/eval/X3_levels.parquet": "0o444",
+  "~/hrh_v2_stage1_20261008/results/E0_sentence/eval/E0_cells_CA.parquet": "0o444",
+  "~/hrh_v2_stage1_20261008/results/E0_sentence/x3b/X3B_results.json": "0o444",
+  "~/hrh_v2_stage1_20261008/results/E0_sentence/x3b/X3B_REVIEW.md": "0o444",
+  "~/hrh_v2_stage1_20261008/results/E0_sentence/x3b/eval/X3B_cells.parquet": "0o444",
+  "~/hrh_v2_stage1_20261008/results/E0_sentence/x3b/review/X3B_review_checks.json": "0o444",
+  "~/hrh_v2_stage1_20261008/analysis/e0_sentence/x3b/X3B_READINGS.md": "0o444"
+ },
+ "font_text": "/usr/share/fonts/truetype/liberation/LiberationSerif-Regular.ttf",
+ "message": "With sentence encoders as the text side, vision-language agreement still falls with the evaluation size and stays stable at a fixed k/m for k >= 10 (P1 holds); its level lies between the vision-language pairs with language-model tokens and the vision pairs.",
+ "panel_a": {
+  "per_pair_obs_k10_sentence": {
+   "values": {
+    "augreg_b__contriever": {
+     "256": 0.135081851571763,
+     "512": 0.10406217507239543,
+     "1024": 0.07148910916993015,
+     "2048": 0.04827074038694755,
+     "4096": 0.031147934358609807,
+     "8192": 0.020620543146040476,
+     "16384": 0.015290728905935849
+    },
+    "augreg_b__mpnet": {
+     "256": 0.15184446429156076,
+     "512": 0.11253730191517686,
+     "1024": 0.07751286190634171,
+     "2048": 0.05376929284309619,
+     "4096": 0.03609394222837668,
+     "8192": 0.025480029964109106,
+     "16384": 0.019595329785488922
+    },
+    "augreg_b__qwen3emb06": {
+     "256": 0.15417228255933965,
+     "512": 0.11186788082957178,
+     "1024": 0.07612861732728511,
+     "2048": 0.05343587297406064,
+     "4096": 0.037005735780110724,
+     "8192": 0.02532132054051205,
+     "16384": 0.0179617486592886
+    },
+    "clip_b__contriever": {
+     "256": 0.09012436497672718,
+     "512": 0.067133592394358,
+     "1024": 0.04602492814044891,
+     "2048": 0.030774557379377933,
+     "4096": 0.02047563881362411,
+     "8192": 0.013794170329890304,
+     "16384": 0.009937875762920803
+    },
+    "clip_b__mpnet": {
+     "256": 0.09429487557071219,
+     "512": 0.06952021343009669,
+     "1024": 0.05019214961255185,
+     "2048": 0.03405104143428405,
+     "4096": 0.022981384071109997,
+     "8192": 0.015298194512656165,
+     "16384": 0.01101400791987272
+    },
+    "clip_b__qwen3emb06": {
+     "256": 0.096825866694223,
+     "512": 0.07027229843814162,
+     "1024": 0.049829371177137774,
+     "2048": 0.03383433782377099,
+     "4096": 0.023367431390513543,
+     "8192": 0.01590499946197554,
+     "16384": 0.011241732568165304
+    },
+    "dinov2_b__contriever": {
+     "256": 0.10518678254160538,
+     "512": 0.0811106721791303,
+     "1024": 0.05614749142622155,
+     "2048": 0.03863611686491122,
+     "4096": 0.02580812448801372,
+     "8192": 0.016921700186481363,
+     "16384": 0.011045142128336207
+    },
+    "dinov2_b__mpnet": {
+     "256": 0.103642288184611,
+     "512": 0.08918185883863936,
+     "1024": 0.06128927972631028,
+     "2048": 0.0420758507581792,
+     "4096": 0.029373355102297237,
+     "8192": 0.01987800143409884,
+     "16384": 0.01315677230943132
+    },
+    "dinov2_b__qwen3emb06": {
+     "256": 0.10768280317123821,
+     "512": 0.08389623676725776,
+     "1024": 0.059366025151831224,
+     "2048": 0.04160962448272667,
+     "4096": 0.029034849965339338,
+     "8192": 0.019917635858920278,
+     "16384": 0.0132892956142306
+    },
+    "mae_b__contriever": {
+     "256": 0.09187880093145842,
+     "512": 0.06692290309709155,
+     "1024": 0.047442991924373276,
+     "2048": 0.03156096627379576,
+     "4096": 0.018903954395800615,
+     "8192": 0.011460568101590836,
+     "16384": 0.007939461032979163
+    },
+    "mae_b__mpnet": {
+     "256": 0.09820246757746758,
+     "512": 0.07129345604526453,
+     "1024": 0.049096891153302825,
+     "2048": 0.03402161519905901,
+     "4096": 0.020976994609374466,
+     "8192": 0.014077022177517867,
+     "16384": 0.009133842829449224
+    },
+    "mae_b__qwen3emb06": {
+     "256": 0.10167059293166576,
+     "512": 0.07260364593818006,
+     "1024": 0.048942609695848974,
+     "2048": 0.03295425909027953,
+     "4096": 0.021114443840750445,
+     "8192": 0.01431571181376961,
+     "16384": 0.009104991964818777
+    },
+    "siglip_b__contriever": {
+     "256": 0.18815305157086654,
+     "512": 0.15217868834351583,
+     "1024": 0.11631422438625186,
+     "2048": 0.08264720456682437,
+     "4096": 0.057345077841156236,
+     "8192": 0.03964146301524992,
+     "16384": 0.027258523665416996
+    },
+    "siglip_b__mpnet": {
+     "256": 0.21345184064180128,
+     "512": 0.17617876248408476,
+     "1024": 0.1371828589916188,
+     "2048": 0.10086050156096393,
+     "4096": 0.06998857574652437,
+     "8192": 0.05017957880151262,
+     "16384": 0.03515221061627276
+    },
+    "siglip_b__qwen3emb06": {
+     "256": 0.21049015268134363,
+     "512": 0.17509461945542854,
+     "1024": 0.13747925389787138,
+     "2048": 0.09932065783590996,
+     "4096": 0.06916175785666145,
+     "8192": 0.04993363696320552,
+     "16384": 0.03560311819684941
+    }
+   },
+   "source": "~/hrh_v2_stage1_20261008/results/E0_sentence/eval/E0_cells_P.parquet",
+   "sha256": "9a97d417b13ee56d7ce9f3082398ccb4ccb0d2b57e642caf1e247d0fc41f29cd",
+   "key": "cells[k==10].obs by (pair, m): mean over the 5 nested orderings of obs_P.parquet obs",
+   "check_draw_mean_max_abs_diff": 0.0,
+   "check_vs_E0_levels_P_max_abs_diff": 0.0
+  },
+  "class_median_obs_k10": {
+   "values": {
+    "sent": {
+     "256": 0.10518678254160538,
+     "512": 0.08389623676725776,
+     "1024": 0.059366025151831224,
+     "2048": 0.04160962448272667,
+     "4096": 0.029034849965339338,
+     "8192": 0.01987800143409884,
+     "16384": 0.01315677230943132
+    },
+    "seed": {
+     "256": 0.5476400345316438,
+     "512": 0.5372385807831557,
+     "1024": 0.5253462900725909,
+     "2048": 0.5265353071844524,
+     "4096": 0.5266401963936307,
+     "8192": 0.5307532167208687,
+     "16384": 0.535229493140528
+    },
+    "vision": {
+     "256": 0.2556308216150736,
+     "512": 0.21727444158719428,
+     "1024": 0.18851616701579738,
+     "2048": 0.16283848466975132,
+     "4096": 0.1407353048500124,
+     "8192": 0.12302003476277258,
+     "16384": 0.1088306919577285
+    },
+    "vl": {
+     "256": 0.09051670317295317,
+     "512": 0.06640859351277545,
+     "1024": 0.04295406802450704,
+     "2048": 0.02773622362939877,
+     "4096": 0.018489972631710143,
+     "8192": 0.01315635662594101,
+     "16384": 0.008464958972223977
+    }
+   },
+   "sources": {
+    "sent": {
+     "source": "~/hrh_v2_stage1_20261008/results/E0_sentence/eval/E0_cells_P.parquet",
+     "sha256": "9a97d417b13ee56d7ce9f3082398ccb4ccb0d2b57e642caf1e247d0fc41f29cd",
+     "key": "median over the 15 pairs of cells[k==10].obs by m"
+    },
+    "seed|vision|vl": {
+     "source": "~/hrh_v2_stage1_20261008/results/S1_1/v11/S1_1_v11_cells_clip.parquet",
+     "sha256": "878abf0b98e6bb480892c61f2672816ff30b6524a277b81c0c448bb8bc0bcf20",
+     "key": "median over pairs of cells[primary & k==10 & cls].obs by m (Figure 2 a)"
+    }
+   }
+  },
+  "asserts": [
+   "sentence and vl class medians at every m equal review_paper_numbers class_median_k10 (sentence_m*, lm_token_m*) to 1e-12",
+   "seed, vision, vl class medians at every m equal ~/hrh_v2_figs/v5/F_neighbors/numbers.json panel_a.class_median_obs_k10 (Figure 2 a) to 1e-12",
+   "all four class medians at m = 1024 equal VERDICTS descriptive.P3a_level.<arm>.<cls>.L_k10_m1024[0] to 1e-12",
+   "per-pair new-pair cells equal the 5-draw mean of obs_P.parquet and E0_levels_P.parquet L_m* to 1e-12"
+  ],
+  "median_slope_by_k": {
+   "values": {
+    "1": {
+     "cross-modal-sentence": -0.39344030570296173,
+     "seed-seed": 0.009334589406875891,
+     "cross-vision": -0.07646085529389784,
+     "cross-modal": -0.5221416850541962
+    },
+    "10": {
+     "cross-modal-sentence": -0.524812002083516,
+     "seed-seed": -0.013789813454244973,
+     "cross-vision": -0.2136123108232031,
+     "cross-modal": -0.570555396995647
+    },
+    "100": {
+     "cross-modal-sentence": -0.5221818637654828,
+     "seed-seed": -0.05480879507845953,
+     "cross-vision": -0.27814674194091726,
+     "cross-modal": -0.5984105469392162
+    }
+   },
+   "source": "~/hrh_v2_stage1_20261008/results/E0_sentence/VERDICTS_E0.json",
+   "sha256": "5b04e46098e39056f6e9b2d534d53fa54777b1670ccfa68442cb7ef3fd1568a7",
+   "key": "descriptive.P3f_ordering.<k>.median_slope (recomputed from E0_slopes_P / S1_1_v11_slopes_clip slope_obs medians, equal to 1e-12)",
+   "not_plotted": true
+  }
+ },
+ "panel_b": {
+  "per_pair_sentence": {
+   "values": {
+    "augreg_b__contriever": {
+     "vit": "augreg_b",
+     "text": "contriever",
+     "e_k": 0.5147800405937848,
+     "e_m": -0.521214458389188,
+     "sum": -0.006434417795403213
+    },
+    "augreg_b__mpnet": {
+     "vit": "augreg_b",
+     "text": "mpnet",
+     "e_k": 0.487146569368248,
+     "e_m": -0.49264580385860585,
+     "sum": -0.005499234490357829
+    },
+    "augreg_b__qwen3emb06": {
+     "vit": "augreg_b",
+     "text": "qwen3emb06",
+     "e_k": 0.49085365532940484,
+     "e_m": -0.4994537892352704,
+     "sum": -0.008600133905865559
+    },
+    "clip_b__contriever": {
+     "vit": "clip_b",
+     "text": "contriever",
+     "e_k": 0.5765948089453551,
+     "e_m": -0.5706090548945982,
+     "sum": 0.005985754050756853
+    },
+    "clip_b__mpnet": {
+     "vit": "clip_b",
+     "text": "mpnet",
+     "e_k": 0.5664685864737653,
+     "e_m": -0.5509377494156559,
+     "sum": 0.015530837058109426
+    },
+    "clip_b__qwen3emb06": {
+     "vit": "clip_b",
+     "text": "qwen3emb06",
+     "e_k": 0.5602129686515338,
+     "e_m": -0.54799738171465,
+     "sum": 0.012215586936883849
+    },
+    "dinov2_b__contriever": {
+     "vit": "dinov2_b",
+     "text": "contriever",
+     "e_k": 0.5400369886849963,
+     "e_m": -0.5443717818726103,
+     "sum": -0.004334793187613983
+    },
+    "dinov2_b__mpnet": {
+     "vit": "dinov2_b",
+     "text": "mpnet",
+     "e_k": 0.5283753823691102,
+     "e_m": -0.516831208939398,
+     "sum": 0.011544173429712146
+    },
+    "dinov2_b__qwen3emb06": {
+     "vit": "dinov2_b",
+     "text": "qwen3emb06",
+     "e_k": 0.526943853312008,
+     "e_m": -0.5146999811344054,
+     "sum": 0.012243872177602588
+    },
+    "mae_b__contriever": {
+     "vit": "mae_b",
+     "text": "contriever",
+     "e_k": 0.6084324753623548,
+     "e_m": -0.6021542753307583,
+     "sum": 0.006278200031596515
+    },
+    "mae_b__mpnet": {
+     "vit": "mae_b",
+     "text": "mpnet",
+     "e_k": 0.592588379929408,
+     "e_m": -0.5773786390881973,
+     "sum": 0.01520974084121074
+    },
+    "mae_b__qwen3emb06": {
+     "vit": "mae_b",
+     "text": "qwen3emb06",
+     "e_k": 0.5863997229777116,
+     "e_m": -0.5806198628990287,
+     "sum": 0.005779860078682919
+    },
+    "siglip_b__contriever": {
+     "vit": "siglip_b",
+     "text": "contriever",
+     "e_k": 0.4341250903382077,
+     "e_m": -0.42573980112451526,
+     "sum": 0.008385289213692415
+    },
+    "siglip_b__mpnet": {
+     "vit": "siglip_b",
+     "text": "mpnet",
+     "e_k": 0.3941917990830981,
+     "e_m": -0.39134181872710816,
+     "sum": 0.002849980355989934
+    },
+    "siglip_b__qwen3emb06": {
+     "vit": "siglip_b",
+     "text": "qwen3emb06",
+     "e_k": 0.3952565148151672,
+     "e_m": -0.3897293229738241,
+     "sum": 0.005527191841343093
+    }
+   },
+   "source": "~/hrh_v2_stage1_20261008/results/E0_sentence/VERDICTS_E0.json",
+   "sha256": "5b04e46098e39056f6e9b2d534d53fa54777b1670ccfa68442cb7ef3fd1568a7",
+   "key": "P1.per_pair[*].{e_k,e_m,sum} (equal to E0_elasticity_P.parquet k_set k10_100 and to an OLS refit on E0_cells_P.parquet, 1e-12)",
+   "max_abs_diff_vs_elasticity_parquet": 0.0,
+   "max_abs_diff_vs_ols_refit": 1.3322676295501878e-15
+  },
+  "per_pair_lm_tokens_S11": {
+   "values": {
+    "augreg_b__bloomz_1b7": {
+     "vit": "augreg_b",
+     "text": "bloomz_1b7",
+     "e_k": 0.5489979134234807,
+     "e_m": -0.5548600482007326,
+     "sum": -0.005862134777251948
+    },
+    "augreg_b__openllama_3b": {
+     "vit": "augreg_b",
+     "text": "openllama_3b",
+     "e_k": 0.5620872635594183,
+     "e_m": -0.5740240323064466,
+     "sum": -0.011936768747028315
+    },
+    "augreg_b__pythia410m_s1": {
+     "vit": "augreg_b",
+     "text": "pythia410m_s1",
+     "e_k": 0.5785750182183287,
+     "e_m": -0.5798035789230407,
+     "sum": -0.0012285607047120006
+    },
+    "clip_b__bloomz_1b7": {
+     "vit": "clip_b",
+     "text": "bloomz_1b7",
+     "e_k": 0.601448006478543,
+     "e_m": -0.5898607331614828,
+     "sum": 0.01158727331706022
+    },
+    "clip_b__openllama_3b": {
+     "vit": "clip_b",
+     "text": "openllama_3b",
+     "e_k": 0.6107914285116665,
+     "e_m": -0.5977321170524872,
+     "sum": 0.013059311459179268
+    },
+    "clip_b__pythia410m_s1": {
+     "vit": "clip_b",
+     "text": "pythia410m_s1",
+     "e_k": 0.6213478803138712,
+     "e_m": -0.6089338273541876,
+     "sum": 0.012414052959683675
+    },
+    "dinov2_b__bloomz_1b7": {
+     "vit": "dinov2_b",
+     "text": "bloomz_1b7",
+     "e_k": 0.5720559879392733,
+     "e_m": -0.5674648689932382,
+     "sum": 0.004591118946035033
+    },
+    "dinov2_b__openllama_3b": {
+     "vit": "dinov2_b",
+     "text": "openllama_3b",
+     "e_k": 0.6056427608665224,
+     "e_m": -0.6006159869576626,
+     "sum": 0.00502677390885975
+    },
+    "dinov2_b__pythia410m_s1": {
+     "vit": "dinov2_b",
+     "text": "pythia410m_s1",
+     "e_k": 0.5993920418084195,
+     "e_m": -0.6017417298214127,
+     "sum": -0.0023496880129931785
+    },
+    "mae_b__bloomz_1b7": {
+     "vit": "mae_b",
+     "text": "bloomz_1b7",
+     "e_k": 0.6344744154134159,
+     "e_m": -0.6301229230559537,
+     "sum": 0.004351492357462128
+    },
+    "mae_b__openllama_3b": {
+     "vit": "mae_b",
+     "text": "openllama_3b",
+     "e_k": 0.6567072852589919,
+     "e_m": -0.6598356610033873,
+     "sum": -0.0031283757443953952
+    },
+    "mae_b__pythia410m_s1": {
+     "vit": "mae_b",
+     "text": "pythia410m_s1",
+     "e_k": 0.6668501744342288,
+     "e_m": -0.6545437371937107,
+     "sum": 0.012306437240518053
+    },
+    "siglip_b__bloomz_1b7": {
+     "vit": "siglip_b",
+     "text": "bloomz_1b7",
+     "e_k": 0.47258699136685467,
+     "e_m": -0.4707324609633572,
+     "sum": 0.0018545304034974786
+    },
+    "siglip_b__openllama_3b": {
+     "vit": "siglip_b",
+     "text": "openllama_3b",
+     "e_k": 0.48062336530433203,
+     "e_m": -0.48581010772284916,
+     "sum": -0.005186742418517132
+    },
+    "siglip_b__pythia410m_s1": {
+     "vit": "siglip_b",
+     "text": "pythia410m_s1",
+     "e_k": 0.5011082194126657,
+     "e_m": -0.4962997261860478,
+     "sum": 0.004808493226617916
+    }
+   },
+   "source": "~/hrh_v2_stage1_20261008/results/S1_1/v11/S1_1_v11_cells_clip.parquet",
+   "sha256": "878abf0b98e6bb480892c61f2672816ff30b6524a277b81c0c448bb8bc0bcf20",
+   "key": "OLS of ln obs on (1, ln k, ln m) over cells[primary & cls=='cross-modal' & k in {10,100}] (14 cells per pair); computed here (descriptive)",
+   "median_asserted_vs": "VERDICTS descriptive.P3a_level.S1.1-clip.cross-modal.median_sum_k10_100 (1e-12)"
+  },
+  "group_median_bars": {
+   "sentence": 0.005985754050756853,
+   "lm_tokens": 0.004351492357462128,
+   "sources": {
+    "sentence": "VERDICTS P1.median_sum",
+    "lm_tokens": "VERDICTS descriptive.P3a_level.S1.1-clip.cross-modal.median_sum_k10_100"
+   }
+  },
+  "band": {
+   "half_width": 0.05,
+   "source": "~/hrh_v2_stage1_20261008/results/E0_sentence/VERDICTS_E0.json",
+   "sha256": "5b04e46098e39056f6e9b2d534d53fa54777b1670ccfa68442cb7ef3fd1568a7",
+   "key": "P1.thresholds.abs_sum (frozen)"
+  },
+  "zero_line": 0.0
+ },
+ "asserts_max_abs_diff": {
+  "tolerance": 1e-12,
+  "values": {
+   "a: sentence class medians vs review_paper_numbers class_median_k10.sentence_m* (7 m)": 0.0,
+   "a: language-model-token class medians vs review_paper_numbers class_median_k10.lm_token_m* (7 m)": 0.0,
+   "a: seed/vision/vl class medians vs Figure 2 numbers.json panel_a.class_median_obs_k10 (21 values)": 0.0,
+   "a: four class medians at m = 1024 vs VERDICTS descriptive.P3a_level L_k10_m1024[0]": 0.0,
+   "a: new-pair cells vs 5-draw mean of obs_P.parquet (105 cells at k = 10, 315 in all)": 0.0,
+   "a: new-pair cells at k = 10 vs E0_levels_P.parquet L_m*": 0.0,
+   "a (text): median slopes at k = 1, 10, 100 vs VERDICTS descriptive.P3f_ordering.<k>.median_slope": 0.0,
+   "b: per-pair e_k, e_m, sum (E0_elasticity_P k10_100) vs VERDICTS P1.per_pair": 0.0,
+   "b: per-pair e_k, e_m, sum (own OLS refit on E0_cells_P, 14 cells) vs VERDICTS P1.per_pair": 1.3322676295501878e-15,
+   "b: median of the 15 plotted sums vs VERDICTS P1.median_sum": 0.0,
+   "b: per-encoder medians vs VERDICTS P1.per_encoder_median_sum": 0.0,
+   "b: share of |sum| <= 0.05 vs VERDICTS P1.frac_abs_sum_le": 0.0,
+   "b: sum range vs review_paper_numbers sentence_sum_range_k10_100": 0.0,
+   "b: median of the 15 S1.1 sums vs VERDICTS descriptive.P3a_level.S1.1-clip.cross-modal.median_sum_k10_100": 6.661338147750939e-16
+  },
+  "exact": [
+   "VERDICTS labels.P1 == P1.label == 'holds'",
+   "P1.k_set == [10, 100]",
+   "P1.thresholds.abs_sum == 0.05 (the shaded band)",
+   "informative pairs (|e_m| >= 0.10) == P1.informative_pairs, 15 of 15",
+   "|median| <= P1.thresholds.hold_abs_median",
+   "P1_per_draw_labels all 'holds'; secondary.P1 all 'holds' (12 cells)",
+   "P3f slope_order == level_order at k = 1, 10, 100",
+   "15 of 15 new pairs falling at k = 1, 10, 100 (E0_slopes_P, VERDICTS P3a)"
+  ]
+ },
+ "scope_notes": [
+  "(a) and (b) use arm P only: the S1.1 config clip with the single pool caption C1 per image, the arm where encoders and language models compare cleanly (plan 13.3: without Q1 no level difference in the five-caption-average arms is attributed to the encoder); no AVG arm is plotted",
+  "(b) plots the preregistered P1 statistic for k in {10, 100}; the k >= 10 restriction was chosen after seeing S1.1 (VERDICTS P1.disclosure) and the k = 1 departure is exploratory, so neither is drawn",
+  "nothing about P2b / P2c (uninformative) is drawn; the slopes are not printed on the panel, so the figure does not suggest that the level sets the slope",
+  "the S1.1 per-pair sums of (b) are computed here (descriptive); only their median is a VERDICTS statistic"
+ ],
+ "started_from_v6_maker_sha256": "53f3bb8ea8faa90fe87ff4e1da36e1a99eea2691586a0690695fe2b226732350",
+ "panel_c": {
+  "status": "EXPLORATORY (ANALYSIS_PLAN_E0.md v1.0 section 7.6 X3); no confirmatory claim",
+  "pair": "DINOv2-B x MPNet, E0 arm CA (centering x five-caption average)",
+  "k": 10,
+  "curves": {
+   "dinov2_b": {
+    "pair": "dinov2_b__mpnet",
+    "depth": "mid",
+    "token": "cls",
+    "description": "CLS token, block 5 of 12 (mid depth; the E0 feature)",
+    "m": [
+     256,
+     512,
+     1024,
+     2048,
+     4096,
+     8192,
+     16384
+    ],
+    "s_k10": [
+     0.13055646435567697,
+     0.10292426300102393,
+     0.07396597754992014,
+     0.05525953567132848,
+     0.04112148142602673,
+     0.030857951716739922,
+     0.023320299658562672
+    ],
+    "L_10_1024": 0.07396597754992014,
+    "L_100_10000": 0.07715427364361675,
+    "ln_L10_1024_minus_ln_L100_10000": -0.042201746587919864,
+    "b10": -0.4212820127700196,
+    "b10_class": "falling",
+    "b100": -0.4728906593234976,
+    "sum_k10_100": 0.015452105875082833,
+    "L_10_10000": 0.028468971940399428,
+    "gap_label": "closes little of the gap",
+    "share_of_log_gap_0.38": 0.0
+   },
+   "x3_tok_r05": {
+    "pair": "x3_tok_r05__mpnet",
+    "depth": "mid",
+    "token": "patch",
+    "description": "patch-token mean, block 5 (mid depth)",
+    "m": [
+     256,
+     512,
+     1024,
+     2048,
+     4096,
+     8192,
+     16384
+    ],
+    "s_k10": [
+     0.20948724733050525,
+     0.16669214752031775,
+     0.13253143049234578,
+     0.09650438100047173,
+     0.07381118634407349,
+     0.05245538028236309,
+     0.041999445139814115
+    ],
+    "L_10_1024": 0.13253143049234578,
+    "L_100_10000": 0.13154890861499424,
+    "ln_L10_1024_minus_ln_L100_10000": 0.007441117458474977,
+    "b10": -0.3979034702817136,
+    "b10_class": "falling",
+    "b100": -0.3790167901786321,
+    "sum_k10_100": 0.009383182818752056,
+    "L_10_10000": 0.04920536076881997,
+    "gap_label": "closes part of the gap",
+    "share_of_log_gap_0.38": 0.33466112234524464
+   },
+   "x3_cls_r10": {
+    "pair": "x3_cls_r10__mpnet",
+    "depth": "last",
+    "token": "cls",
+    "description": "CLS token, block 11 (last layer)",
+    "m": [
+     256,
+     512,
+     1024,
+     2048,
+     4096,
+     8192,
+     16384
+    ],
+    "s_k10": [
+     0.44286366726573423,
+     0.4806978495608317,
+     0.42655157955634787,
+     0.3365221506009741,
+     0.25467540900679275,
+     0.1969725080191145,
+     0.152393545634752
+    ],
+    "L_10_1024": 0.42655157955634787,
+    "L_100_10000": 0.4288967403560592,
+    "ln_L10_1024_minus_ln_L100_10000": -0.005482895039162883,
+    "b10": -0.28340585740700536,
+    "b10_class": "falling",
+    "b100": -0.0008921014097962312,
+    "sum_k10_100": 0.0016915949100295702,
+    "L_10_10000": 0.18295455352692738,
+    "gap_label": "closes the whole gap (reaches or passes Schnaus' reading)",
+    "share_of_log_gap_0.38": 1.075920503343921
+   },
+   "x3_tok_r10": {
+    "pair": "x3_tok_r10__mpnet",
+    "depth": "last",
+    "token": "patch",
+    "description": "patch-token mean, block 11 (last layer)",
+    "m": [
+     256,
+     512,
+     1024,
+     2048,
+     4096,
+     8192,
+     16384
+    ],
+    "s_k10": [
+     0.5000186647098557,
+     0.4784324952321922,
+     0.4028356381249333,
+     0.3217226471834889,
+     0.25230023883422914,
+     0.19646360275082625,
+     0.15398888817665943
+    ],
+    "L_10_1024": 0.4028356381249333,
+    "L_100_10000": 0.4063639369122189,
+    "ln_L10_1024_minus_ln_L100_10000": -0.008720521502875056,
+    "b10": -0.297889461150757,
+    "b10_class": "falling",
+    "b100": -0.12759042787420516,
+    "sum_k10_100": 0.00494839134136138,
+    "L_10_10000": 0.18316573309667694,
+    "gap_label": "closes the whole gap (reaches or passes Schnaus' reading)",
+    "share_of_log_gap_0.38": 1.0420718793517123
+   },
+   "x3add_schnaus224": {
+    "pair": "x3add_schnaus224__mpnet",
+    "depth": "last",
+    "token": "schnaus",
+    "description": "mean of all output tokens after the final norm, 224 px (Schnaus et al.)",
+    "m": [
+     256,
+     512,
+     1024,
+     2048,
+     4096,
+     8192,
+     16384
+    ],
+    "s_k10": [
+     0.49552903847810337,
+     0.4796604684464487,
+     0.4042766667120635,
+     0.32038547515667914,
+     0.24848542838278326,
+     0.19375625551611328,
+     0.15296680763946185
+    ],
+    "L_10_1024": 0.4042766667120635,
+    "L_100_10000": 0.40980649278236214,
+    "ln_L10_1024_minus_ln_L100_10000": -0.013585617288391694,
+    "b10": -0.30015105188071056,
+    "b10_class": "falling",
+    "b100": -0.12013669900897658,
+    "sum_k10_100": 0.007790967568921947,
+    "L_10_10000": 0.181017100009012,
+    "gap_label": "closes the whole gap (reaches or passes Schnaus' reading)",
+    "share_of_log_gap_0.38": 1.0473629694410076
+   }
+  },
+  "sources": {
+   "curves": {
+    "source": "~/hrh_v2_stage1_20261008/results/E0_sentence/x3/X3_results.json",
+    "sha256": "4945d75d4102ff7598c9d9672a782d49f20aa34e4d8c2bf3ae44dc4fd6b767b3",
+    "key": "curves.<feature>__mpnet.10[*].s (5-draw means)"
+   },
+   "check_x3_cells": {
+    "source": "~/hrh_v2_stage1_20261008/results/E0_sentence/x3/eval/X3_cells.parquet",
+    "sha256": "179c89fe96dc5bb0464ebf2ee6a46c6ec887a948c98280536f3bf1cb93070729",
+    "key": "obs at k = 10, equal to 1e-12"
+   },
+   "check_E0_cells_CA": {
+    "source": "~/hrh_v2_stage1_20261008/results/E0_sentence/eval/E0_cells_CA.parquet",
+    "sha256": "a04bc4e7efd86cf214dc995223fdcab3f668dad392901bd29712d619f73ecc5e",
+    "key": "obs of dinov2_b__mpnet at k = 10 (the E0 reference), equal to 1e-12"
+   },
+   "levels": {
+    "source": "~/hrh_v2_stage1_20261008/results/E0_sentence/x3/eval/X3_levels.parquet",
+    "sha256": "cb5312f9870f169e0e24d5c356e8c0529060cf5f83c5383c39f6726e5f487eff",
+    "key": "L_m10000 at k = 100 (log-linear between m = 8192 and 16384)"
+   },
+   "readings": {
+    "source": "~/hrh_v2_stage1_20261008/analysis/e0_sentence/x3/X3_READINGS.md",
+    "sha256": "0151bf9ac26dd718652d69c72912445fb9fd15d770ae829db8a052e085d8663e",
+    "key": "frozen reading rule, before any X3 score"
+   }
+  },
+  "max_abs_diff_curves_vs_cells": 0.0,
+  "max_abs_diff_levels": 0.0,
+  "depth_ratio_min_last_over_max_mid_by_m": {
+   "256": 2.1140364051231915,
+   "512": 2.8701561672176377,
+   "1024": 3.0395479519720316,
+   "2048": 3.3199060170658266,
+   "4096": 3.3665009423430687,
+   "8192": 3.693734645962701,
+   "16384": 3.628465688711869
+  },
+  "schnaus": {
+   "value": 0.38490259373800745,
+   "plotted_at_m": 1000.0,
+   "k": 10,
+   "reading": "Fig. 23 p. 48, dotted 'full space' line, MPNet panel; ticks 0 / 0.2 / 0.4 at y = 371.720 / 349.570 / 327.421 pt, line at 329.093 pt (X3_REVIEW.md section 2.2); run reading 0.38",
+   "their_setting": "k = max(1, floor(n/100)) = 100 on n = 10,000 COCO points, DINOv2 ViT-B/14 x MPNet",
+   "placement": "drawn at k/m = 0.01 on the k = 10 axis (m = 1000); |ln L(10,1024) - ln L(100,10000)| < 0.05 for every plotted feature (scale reading, asserted)",
+   "source": {
+    "source": "~/hrh_v2_stage1_20261008/results/E0_sentence/x3/X3_REVIEW.md",
+    "sha256": "39421ac0867a1a9a03d5eda82e0babc160337612d0cfa1494585823a9381a258",
+    "key": "section 2.2"
+   }
+  },
+  "scale_dev_ln": {
+   "dinov2_b": 0.042201746587919864,
+   "x3_tok_r05": 0.007441117458474977,
+   "x3_cls_r10": 0.005482895039162883,
+   "x3_tok_r10": 0.008720521502875056,
+   "x3add_schnaus224": 0.013585617288391694
+  },
+  "other_encoders_max_abs_dL_100_10000": {
+   "dinov2_b": 0.0008144794946283868,
+   "x3_tok_r05": 0.0018170920852347838,
+   "x3_cls_r10": 0.0033962999344230305,
+   "x3_tok_r10": 0.008224121529388395,
+   "x3add_schnaus224": 0.007390760941818564
+  },
+  "L_10_10000_last_layer_all_encoders_range": [
+   0.17196265160702937,
+   0.18316573309667694
+  ],
+  "p1_type_descriptive_all_12": {
+   "median_sum": 0.007762939581726386,
+   "n_abs_le_0.05": 12,
+   "n_informative": 12,
+   "n": 12,
+   "max_abs_sum": 0.013736708167018219,
+   "plan_thresholds_descriptive": {
+    "abs_median_le_0.03": true,
+    "frac_abs_le_0.05_ge_0.8": true
+   }
+  },
+  "contrasts_ln_L_100_10000_mpnet": {
+   "depth only: x3_cls_r10 vs ref (ln L(100,10000))": 1.715409220254934,
+   "token set only: x3_tok_r05 vs ref": 0.5335717398708134,
+   "depth and token set: x3_tok_r10 vs ref": 1.661442183184151,
+   "added (norm + all tokens + 224 px): x3add_schnaus224 vs ref": 1.6698781082326721,
+   "added vs x3_tok_r10 (norm + CLS in the mean + 224 px)": 0.008435925048521087
+  },
+  "not_drawn": [
+   "Contriever and Qwen3-Embedding-0.6B pairs (within 0.01 of MPNet at L(100, 10000))",
+   "k = 1 and k = 100 curves",
+   "the level-slope line of P-S2b (Results text)",
+   "v8.1: the five X3 features of DINOv2-B x MPNet (their three last-layer curves overlapped; Results text)",
+   "v8.1: single X3b pairs, the other X3b sets (A2, A3, A4) and k = 1, 100"
+  ],
+  "drawn_v8_1": {
+   "what": "X3b medians over 15 pairs at k = 10 (mid depth open, last layer filled; sentence encoders squares, language models circles); the five X3 features of DINOv2-B x MPNet are no longer drawn (Results text)",
+   "curves": {
+    "sent_last": {
+     "set": "B",
+     "text_side": "sent",
+     "depth": "last",
+     "m": [
+      256,
+      512,
+      1024,
+      2048,
+      4096,
+      8192,
+      16384
+     ],
+     "median_s_k10": [
+      0.4748319403892731,
+      0.48157320974875606,
+      0.41946179717474175,
+      0.3285793299284359,
+      0.25039798896235615,
+      0.19097086725546172,
+      0.14759905440772814
+     ],
+     "n_pairs": 15,
+     "pairs": [
+      "augreg_b.r10__contriever.n5",
+      "augreg_b.r10__mpnet.n5",
+      "augreg_b.r10__qwen3emb06.n5",
+      "clip_b.r10__contriever.n5",
+      "clip_b.r10__mpnet.n5",
+      "clip_b.r10__qwen3emb06.n5",
+      "dinov2_b.r10__contriever.n5",
+      "dinov2_b.r10__mpnet.n5",
+      "dinov2_b.r10__qwen3emb06.n5",
+      "mae_b.r10__contriever.n5",
+      "mae_b.r10__mpnet.n5",
+      "mae_b.r10__qwen3emb06.n5",
+      "siglip_b.r10__contriever.n5",
+      "siglip_b.r10__mpnet.n5",
+      "siglip_b.r10__qwen3emb06.n5"
+     ]
+    },
+    "sent_mid": {
+     "set": "Bref",
+     "text_side": "sent",
+     "depth": "mid",
+     "m": [
+      256,
+      512,
+      1024,
+      2048,
+      4096,
+      8192,
+      16384
+     ],
+     "median_s_k10": [
+      0.1335839039480772,
+      0.10243916500833986,
+      0.07397754861172179,
+      0.054127507315776556,
+      0.040911424294013336,
+      0.030935343548341848,
+      0.023320299658562672
+     ],
+     "n_pairs": 15,
+     "pairs": [
+      "augreg_b.r05__contriever.n5",
+      "augreg_b.r05__mpnet.n5",
+      "augreg_b.r05__qwen3emb06.n5",
+      "clip_b.r05__contriever.n5",
+      "clip_b.r05__mpnet.n5",
+      "clip_b.r05__qwen3emb06.n5",
+      "dinov2_b.r05__contriever.n5",
+      "dinov2_b.r05__mpnet.n5",
+      "dinov2_b.r05__qwen3emb06.n5",
+      "mae_b.r05__contriever.n5",
+      "mae_b.r05__mpnet.n5",
+      "mae_b.r05__qwen3emb06.n5",
+      "siglip_b.r05__contriever.n5",
+      "siglip_b.r05__mpnet.n5",
+      "siglip_b.r05__qwen3emb06.n5"
+     ]
+    },
+    "vl_last": {
+     "set": "A1",
+     "text_side": "vl",
+     "depth": "last",
+     "m": [
+      256,
+      512,
+      1024,
+      2048,
+      4096,
+      8192,
+      16384
+     ],
+     "median_s_k10": [
+      0.2075330780670348,
+      0.17196180992650553,
+      0.14434356908973597,
+      0.1054379649208839,
+      0.07598089662246024,
+      0.05603405407341085,
+      0.03931529157760129
+     ],
+     "n_pairs": 15,
+     "pairs": [
+      "augreg_b.r10__bloomz_1b7.r05",
+      "augreg_b.r10__openllama_3b.r05",
+      "augreg_b.r10__pythia410m_s1.r05",
+      "clip_b.r10__bloomz_1b7.r05",
+      "clip_b.r10__openllama_3b.r05",
+      "clip_b.r10__pythia410m_s1.r05",
+      "dinov2_b.r10__bloomz_1b7.r05",
+      "dinov2_b.r10__openllama_3b.r05",
+      "dinov2_b.r10__pythia410m_s1.r05",
+      "mae_b.r10__bloomz_1b7.r05",
+      "mae_b.r10__openllama_3b.r05",
+      "mae_b.r10__pythia410m_s1.r05",
+      "siglip_b.r10__bloomz_1b7.r05",
+      "siglip_b.r10__openllama_3b.r05",
+      "siglip_b.r10__pythia410m_s1.r05"
+     ]
+    },
+    "vl_mid": {
+     "set": "A1ref",
+     "text_side": "vl",
+     "depth": "mid",
+     "m": [
+      256,
+      512,
+      1024,
+      2048,
+      4096,
+      8192,
+      16384
+     ],
+     "median_s_k10": [
+      0.09051670317295317,
+      0.06640859351277545,
+      0.04295406802450704,
+      0.02773622362939877,
+      0.018489972631710143,
+      0.01315635662594101,
+      0.008464958972223977
+     ],
+     "n_pairs": 15,
+     "pairs": [
+      "augreg_b.r05__bloomz_1b7.r05",
+      "augreg_b.r05__openllama_3b.r05",
+      "augreg_b.r05__pythia410m_s1.r05",
+      "clip_b.r05__bloomz_1b7.r05",
+      "clip_b.r05__openllama_3b.r05",
+      "clip_b.r05__pythia410m_s1.r05",
+      "dinov2_b.r05__bloomz_1b7.r05",
+      "dinov2_b.r05__openllama_3b.r05",
+      "dinov2_b.r05__pythia410m_s1.r05",
+      "mae_b.r05__bloomz_1b7.r05",
+      "mae_b.r05__openllama_3b.r05",
+      "mae_b.r05__pythia410m_s1.r05",
+      "siglip_b.r05__bloomz_1b7.r05",
+      "siglip_b.r05__openllama_3b.r05",
+      "siglip_b.r05__pythia410m_s1.r05"
+     ]
+    }
+   },
+   "max_abs_diff_checks": {
+    "vl_mid_vs_panel_a_vl": 0.0,
+    "sent_mid_vs_E0_CA": 0.0,
+    "B_last_L10_1024": 0.0,
+    "B_mid_L10_1024": 0.0,
+    "A1_last_L10_1024": 0.0,
+    "A1_mid_L10_1024": 0.0
+   },
+   "depth_ratio_last_over_mid_by_m": {
+    "sent": [
+     3.5545595416483398,
+     4.701065356297563,
+     5.670122963607877,
+     6.070468532968353,
+     6.120490627821957,
+     6.173226004651817,
+     6.329209168353597
+    ],
+    "vl": [
+     2.292760018783436,
+     2.589451166337744,
+     3.3604167364865676,
+     3.8014535190409213,
+     4.109302817038986,
+     4.259085981519067,
+     4.644475148267858
+    ]
+   },
+   "top_to_bottom": [
+    "sent_last",
+    "vl_last",
+    "sent_mid",
+    "vl_mid"
+   ],
+   "matched_km_max_ln_diff_last_layer": 0.08060998707037359,
+   "star_over_sent_last_median_m1024": 0.9176106056153251,
+   "sources": {
+    "curves": {
+     "source": "~/hrh_v2_stage1_20261008/results/E0_sentence/x3b/eval/X3B_cells.parquet",
+     "sha256": "b517082960bf05dc71ec07c1052e0f53123bbdb72576ab8149c459ce836fa344",
+     "key": "median over pairs of cells[set in {B, Bref, A1, A1ref} & k == 10].obs by m"
+    },
+    "sets": {
+     "source": "~/hrh_v2_stage1_20261008/results/E0_sentence/x3b/X3B_results.json",
+     "sha256": "118a49bf7fd15d14d69fdcf0f2b8adadacd573330961d3c8353ed5fec2c1d767",
+     "key": "sets.<B|A1>.median_<last|mid>_L10_1024 (equal to 1e-12); per_pair.<A1|B>"
+    },
+    "matched_km": {
+     "source": "~/hrh_v2_stage1_20261008/results/E0_sentence/x3b/review/X3B_review_checks.json",
+     "sha256": "2c8d0fcb4f5f303a93733650a57a613a21237d5a3935b8a130e1f55ee3c96ce0",
+     "key": "matched_km.<set>|last.max_maxabs_10_100"
+    },
+    "readings": {
+     "source": "~/hrh_v2_stage1_20261008/analysis/e0_sentence/x3b/X3B_READINGS.md",
+     "sha256": "fef078b8058a0bbb19f25697014130f60b5f8d83a8e93d6b8b61900ecb2dd34e",
+     "key": "frozen reading rule, before any X3b score"
+    },
+    "review": {
+     "source": "~/hrh_v2_stage1_20261008/results/E0_sentence/x3b/X3B_REVIEW.md",
+     "sha256": "2bccaad88049e96ec6d4aa36ff3de51ad05d0353633d4809742d138b66ceed6c",
+     "key": "section 3, proposals P1 and P2 (manuscript text)"
+    }
+   }
+  }
+ },
+ "palette_check": {
+  "colour": "#994455",
+  "text_tone": "#994455",
+  "line_contrast_white": 6.34,
+  "contrast_on_NULL_FILL": 5.03,
+  "method": "CIEDE2000 on CIELAB (D65) after Machado et al. 2009 severity-1.0 simulation (cvdlib.py of ~/hrh_v2_figs/v8/_style, sha256 562cca0ecb8d218cac9baa6e2e7c550d21be66857c05707f91944e863891e653)",
+  "nearest_paper_colour_by_view": {
+   "normal": {
+    "colour": "arm_text:sgd",
+    "dE00": 8.8
+   },
+   "deutan": {
+    "colour": "arm:tied",
+    "dE00": 8.1
+   },
+   "protan": {
+    "colour": "MUTED",
+    "dE00": 0.2
+   },
+   "tritan": {
+    "colour": "fam:llama1",
+    "dE00": 7.3
+   }
+  },
+  "in_figure_dE00": {
+   "seed": [
+    46.0,
+    37.7,
+    37.5,
+    65.5
+   ],
+   "vision": [
+    41.0,
+    34.8,
+    25.3,
+    60.3
+   ],
+   "vl": [
+    34.3,
+    36.9,
+    21.5,
+    49.9
+   ],
+   "NULL_LINE": [
+    24.3,
+    10.0,
+    10.0,
+    25.4
+   ],
+   "INK": [
+    31.1,
+    24.4,
+    16.7,
+    32.0
+   ]
+  },
+  "MUTED_vs_SENT_by_view": [
+   23.8,
+   11.0,
+   0.2,
+   25.0
+  ],
+  "views_order": [
+   "normal",
+   "deutan",
+   "protan",
+   "tritan"
+  ],
+  "v6_colour_replaced": "#8D1608 (maker's own) -> S.PAIR['sent'] #994455 (style designer, v8)"
+ },
+ "ink_extents_in": {
+  "a": [
+   0.037,
+   0.066,
+   1.942,
+   2.202
+  ],
+  "b": [
+   2.07,
+   0.068,
+   3.681,
+   2.165
+  ],
+  "c": [
+   3.827,
+   0.066,
+   5.434,
+   2.202
+  ]
+ },
+ "gap_ink_in": {
+  "a_to_b": 0.128,
+  "b_to_c": 0.147
+ },
+ "letters_x_in": {
+  "a": 0.027,
+  "b": 2.06,
+  "c": 3.817
+ },
+ "pdf_checks": {
+  "style": "hrh_style_v8",
+  "style_sha256": "fe994067dfefba8c0fe34309a67609e85f82288f0f785e69d2bef98e33fc79a8",
+  "size_in": [
+   5.5,
+   2.4
+  ],
+  "min_text_pt": 7.5,
+  "min_glyph_pt": 7.0,
+  "pdf_glyph_size_counts": {
+   "7": 4,
+   "7.5": 29,
+   "8": 12,
+   "10": 3
+  },
+  "smallest_layout_glyphs": {
+   "mKNN $s_N$": 7.0,
+   "sum $e_k+e_m$": 7.0,
+   "seed": 7.5,
+   "vision": 7.5,
+   "sentence encoders": 7.5,
+   "language models": 7.5
+  },
+  "mathtext_shrink_factor": 0.875,
+  "n_type3": 0,
+  "fonts": [
+   "CFZAAR+LiberationSerif-Bold (CID TrueType, emb yes)",
+   "GHNKGR+LiberationSerif-BoldItalic (CID TrueType, emb yes)"
+  ],
+  "low_contrast_text": [],
+  "n_tick_labels_checked": 23,
+  "n_axis_titles_checked": 5,
+  "not_bold_tick_or_axis_labels": [],
+  "bold_text_with_regular_math": [],
+  "data_colours": [
+   "#004488",
+   "#0077BB",
+   "#222222",
+   "#707070",
+   "#77AADD",
+   "#994455",
+   "#E5E5E5",
+   "#FFFFFF"
+  ],
+  "chromatic_data_colours": [
+   "#004488",
+   "#0077BB",
+   "#77AADD",
+   "#994455"
+  ],
+  "off_palette_colours": [],
+  "pdffonts": [
+   "name                                 type              encoding         emb sub uni object ID",
+   "------------------------------------ ----------------- ---------------- --- --- --- ---------",
+   "CFZAAR+LiberationSerif-Bold          CID TrueType      Identity-H       yes yes yes     25  0",
+   "GHNKGR+LiberationSerif-BoldItalic    CID TrueType      Identity-H       yes yes yes     32  0"
+  ],
+  "page_size_in": [
+   5.5,
+   2.4
+  ],
+  "png_px": [
+   1100,
+   480
+  ],
+  "view100_png_px": [
+   550,
+   240
+  ],
+  "view": "pdftoppm -r 200 (PNG) and -r 100 (print view) of the PDF"
+ },
+ "layout_audit": {
+  "dpi": 300,
+  "dilation_px": 3,
+  "text_vs_data": {
+   "(a) seed": 0,
+   "(a) vision": 0,
+   "(a) sentence encoders": 0,
+   "(a) language models": 0,
+   "(c) last layer": 0,
+   "(c) mid depth": 0
+  },
+  "text_vs_frame": {
+   "(a) seed": 0,
+   "(a) vision": 0,
+   "(a) sentence encoders": 0,
+   "(a) language models": 0,
+   "(c) last layer": 0,
+   "(c) mid depth": 0
+  },
+  "text_vs_text": [],
+  "on_fill_labels": {},
+  "clearance_pt": {
+   "(a) seed": {
+    "data": 1.92,
+    "frame": 43.92
+   },
+   "(a) vision": {
+    "data": 1.7,
+    "frame": 34.88
+   },
+   "(a) sentence encoders": {
+    "data": 2.15,
+    "frame": 36.48
+   },
+   "(a) language models": {
+    "data": 2.15,
+    "frame": 4.32
+   },
+   "(c) last layer": {
+    "data": 1.61,
+    "frame": 44.64
+   },
+   "(c) mid depth": {
+    "data": 3.04,
+    "frame": 1.68
+   }
+  },
+  "frame_text_box_overlaps": [],
+  "frame_text_vs_annotations_px": {
+   "(a) seed": 0,
+   "(a) vision": 0,
+   "(a) sentence encoders": 0,
+   "(a) language models": 0,
+   "(c) last layer": 0,
+   "(c) mid depth": 0
+  },
+  "text_outside_figure": [],
+  "pdf_ink_margin_pt": {
+   "dpi": 1200,
+   "ink_px_outside": 0,
+   "margin_pt": {
+    "left": 2.34,
+    "right": 5.1,
+    "top": 1.44,
+    "bottom": 5.58
+   },
+   "words_near_edge": [
+    {
+     "word": "(a)",
+     "nearest_side": "top",
+     "ink_margin_pt": 1.44
+    },
+    {
+     "word": "(b)",
+     "nearest_side": "top",
+     "ink_margin_pt": 1.44
+    },
+    {
+     "word": "(c)",
+     "nearest_side": "top",
+     "ink_margin_pt": 1.44
+    },
+    {
+     "word": "mKNN",
+     "nearest_side": "left",
+     "ink_margin_pt": 2.34
+    },
+    {
+     "word": "s",
+     "nearest_side": "left",
+     "ink_margin_pt": 3.78
+    },
+    {
+     "word": "N",
+     "nearest_side": "left",
+     "ink_margin_pt": 3.78
+    }
+   ],
+   "n_words_in_pdf": 70
+  },
+  "result": "clean"
+ },
+ "annotations": [
+  {
+   "text": "seed",
+   "rotation_deg": 0.11,
+   "color": "#222222",
+   "size_pt": 7.5,
+   "weight": "bold"
+  },
+  {
+   "text": "vision",
+   "rotation_deg": 349.15,
+   "color": "#0077BB",
+   "size_pt": 7.5,
+   "weight": "bold"
+  },
+  {
+   "text": "sentence encoders",
+   "rotation_deg": 331.8,
+   "color": "#994455",
+   "size_pt": 7.5,
+   "weight": "bold"
+  },
+  {
+   "text": "language models",
+   "rotation_deg": 327.33,
+   "color": "#004488",
+   "size_pt": 7.5,
+   "weight": "bold"
+  },
+  {
+   "text": "last layer",
+   "rotation_deg": 331.92,
+   "color": "#222222",
+   "size_pt": 7.5,
+   "weight": "bold"
+  },
+  {
+   "text": "mid depth",
+   "rotation_deg": 322.0,
+   "color": "#222222",
+   "size_pt": 7.5,
+   "weight": "bold"
+  }
+ ],
+ "swarm_b": {
+  "rule": "deterministic beeswarm per row, offsets in pt (up = positive), outer diameter 4.0 pt + 0.4 pt clearance",
+  "points": {
+   "mpnet": {
+    "augreg_b__mpnet": {
+     "x": -0.005499234490357829,
+     "y_row": 0.0,
+     "offset_pt": 0.0
+    },
+    "clip_b__mpnet": {
+     "x": 0.015530837058109426,
+     "y_row": 0.0,
+     "offset_pt": -3.85
+    },
+    "dinov2_b__mpnet": {
+     "x": 0.011544173429712146,
+     "y_row": 0.0,
+     "offset_pt": 0.0
+    },
+    "mae_b__mpnet": {
+     "x": 0.01520974084121074,
+     "y_row": 0.0,
+     "offset_pt": 3.95
+    },
+    "siglip_b__mpnet": {
+     "x": 0.002849980355989934,
+     "y_row": 0.0,
+     "offset_pt": 0.0
+    }
+   },
+   "contriever": {
+    "augreg_b__contriever": {
+     "x": -0.006434417795403213,
+     "y_row": 1.0,
+     "offset_pt": 0.0
+    },
+    "clip_b__contriever": {
+     "x": 0.005985754050756853,
+     "y_row": 1.0,
+     "offset_pt": 0.0
+    },
+    "dinov2_b__contriever": {
+     "x": -0.004334793187613983,
+     "y_row": 1.0,
+     "offset_pt": 4.25
+    },
+    "mae_b__contriever": {
+     "x": 0.006278200031596515,
+     "y_row": 1.0,
+     "offset_pt": 4.4
+    },
+    "siglip_b__contriever": {
+     "x": 0.008385289213692415,
+     "y_row": 1.0,
+     "offset_pt": -4.25
+    }
+   },
+   "qwen3emb06": {
+    "augreg_b__qwen3emb06": {
+     "x": -0.008600133905865559,
+     "y_row": 2.0,
+     "offset_pt": 0.0
+    },
+    "clip_b__qwen3emb06": {
+     "x": 0.012215586936883849,
+     "y_row": 2.0,
+     "offset_pt": -2.5
+    },
+    "dinov2_b__qwen3emb06": {
+     "x": 0.012243872177602588,
+     "y_row": 2.0,
+     "offset_pt": -6.9
+    },
+    "mae_b__qwen3emb06": {
+     "x": 0.005779860078682919,
+     "y_row": 2.0,
+     "offset_pt": 4.4
+    },
+    "siglip_b__qwen3emb06": {
+     "x": 0.005527191841343093,
+     "y_row": 2.0,
+     "offset_pt": 0.0
+    }
+   },
+   "pythia410m_s1": {
+    "augreg_b__pythia410m_s1": {
+     "x": -0.0012285607047120006,
+     "y_row": 3.6,
+     "offset_pt": 4.4
+    },
+    "clip_b__pythia410m_s1": {
+     "x": 0.012414052959683675,
+     "y_row": 3.6,
+     "offset_pt": 4.4
+    },
+    "dinov2_b__pythia410m_s1": {
+     "x": -0.0023496880129931785,
+     "y_row": 3.6,
+     "offset_pt": 0.0
+    },
+    "mae_b__pythia410m_s1": {
+     "x": 0.012306437240518053,
+     "y_row": 3.6,
+     "offset_pt": 0.0
+    },
+    "siglip_b__pythia410m_s1": {
+     "x": 0.004808493226617916,
+     "y_row": 3.6,
+     "offset_pt": -2.1
+    }
+   },
+   "bloomz_1b7": {
+    "augreg_b__bloomz_1b7": {
+     "x": -0.005862134777251948,
+     "y_row": 4.6,
+     "offset_pt": 0.0
+    },
+    "clip_b__bloomz_1b7": {
+     "x": 0.01158727331706022,
+     "y_row": 4.6,
+     "offset_pt": 0.0
+    },
+    "dinov2_b__bloomz_1b7": {
+     "x": 0.004591118946035033,
+     "y_row": 4.6,
+     "offset_pt": 5.5
+    },
+    "mae_b__bloomz_1b7": {
+     "x": 0.004351492357462128,
+     "y_row": 4.6,
+     "offset_pt": -2.85
+    },
+    "siglip_b__bloomz_1b7": {
+     "x": 0.0018545304034974786,
+     "y_row": 4.6,
+     "offset_pt": 1.35
+    }
+   },
+   "openllama_3b": {
+    "augreg_b__openllama_3b": {
+     "x": -0.011936768747028315,
+     "y_row": 5.6,
+     "offset_pt": 0.0
+    },
+    "clip_b__openllama_3b": {
+     "x": 0.013059311459179268,
+     "y_row": 5.6,
+     "offset_pt": 0.6000000000000001
+    },
+    "dinov2_b__openllama_3b": {
+     "x": 0.00502677390885975,
+     "y_row": 5.6,
+     "offset_pt": 0.0
+    },
+    "mae_b__openllama_3b": {
+     "x": -0.0031283757443953952,
+     "y_row": 5.6,
+     "offset_pt": -1.85
+    },
+    "siglip_b__openllama_3b": {
+     "x": -0.005186742418517132,
+     "y_row": 5.6,
+     "offset_pt": 2.45
+    }
+   }
+  }
+ },
+ "geometry_in": {
+  "figure": [
+   5.5,
+   2.4
+  ],
+  "a": [
+   0.43,
+   0.37,
+   1.42,
+   1.795
+  ],
+  "b": [
+   2.78,
+   0.37,
+   0.86,
+   1.795
+  ],
+  "c": [
+   4.22,
+   0.37,
+   1.11,
+   1.795
+  ],
+  "ylim_a": [
+   0.005,
+   1.0
+  ],
+  "xlim_a": [
+   215.0,
+   19500.0
+  ],
+  "xlim_b": [
+   -0.057,
+   0.057
+  ],
+  "ylim_b": [
+   6.15,
+   -0.55
+  ],
+  "rows_b": {
+   "sent|mpnet": 0.0,
+   "sent|contriever": 1.0,
+   "sent|qwen3emb06": 2.0,
+   "vl|pythia410m_s1": 3.6,
+   "vl|bloomz_1b7": 4.6,
+   "vl|openllama_3b": 5.6
+  },
+  "heads_b": "none (v8: row labels in the group colour; v8 c: row labels INK)",
+  "group_spans_b": {
+   "sent": [
+    -0.45,
+    2.45
+   ],
+   "vl": [
+    3.15,
+    6.05
+   ]
+  },
+  "schnaus_star_c": [
+   1000.0,
+   0.38490259373800745
+  ]
+ },
+ "style": {
+  "module": "hrh_style_v8",
+  "sha256": "fe994067dfefba8c0fe34309a67609e85f82288f0f785e69d2bef98e33fc79a8",
+  "c_markers": {
+   "text_side": {
+    "sent": {
+     "marker": "s",
+     "ms": 3.6
+    },
+    "vl": {
+     "marker": "o",
+     "ms": 4.0
+    }
+   },
+   "depth": {
+    "mid": {
+     "mfc": "white",
+     "mew": 0.9
+    },
+    "last": {
+     "mec": "white",
+     "mew": 0.6
+    }
+   },
+   "star": {
+    "marker": "*",
+    "ms": 10.0,
+    "mfc": "white",
+    "mec": "#707070",
+    "mew": 1.0
+   }
+  },
+  "class_colours": {
+   "seed": "#77AADD",
+   "vision": "#0077BB",
+   "vl": "#004488",
+   "sent": "#994455"
+  },
+  "class_text": {
+   "seed": "#222222",
+   "vision": "#0077BB",
+   "vl": "#004488",
+   "sent": "#994455"
+  },
+  "class_names": {
+   "seed": "seed",
+   "vision": "vision",
+   "vl": "language models (vision-language, tokens)",
+   "sent": "sentence encoders (vision-language)"
+  },
+  "figure2_reuse": "seed/vision/vl colours S.PAIR, text S.PAIR_TEXT; medians thick (LW data_emph) on a white underlay without markers (v8 c; v8.1 drew filled circles); single pairs LW data_thin opaque, as ~/hrh_v2_figs/v5/F_neighbors/make_F_neighbors.py (a)",
+  "b_dots": [
+   3.6,
+   0.4
+  ],
+  "b_median_bar": [
+   2.2,
+   1.0
+  ],
+  "band_fill": "#E5E5E5",
+  "zero_line": [
+   "#707070",
+   0.8,
+   "dashed"
+  ]
+ },
+ "results_text_numbers": [
+  {
+   "panel": "a",
+   "id": "class_median_k10_ends",
+   "value": {
+    "sent": [
+     0.10518678254160538,
+     0.01315677230943132
+    ],
+    "seed": [
+     0.5476400345316438,
+     0.535229493140528
+    ],
+    "vision": [
+     0.2556308216150736,
+     0.1088306919577285
+    ],
+    "vl": [
+     0.09051670317295317,
+     0.008464958972223977
+    ]
+   },
+   "printed": "sentence encoders 0.105 -> 0.0132; language-model tokens 0.091 -> 0.0085 (m = 256 -> 16,384); seed 0.548 -> 0.535; vision 0.256 -> 0.109 (Figure 2)",
+   "source": "panel_a.class_median_obs_k10 (= review_paper_numbers class_median_k10)"
+  },
+  {
+   "panel": "a",
+   "id": "class_median_k10_m1024",
+   "value": {
+    "sent": 0.059366025151831224,
+    "seed": 0.5253462900725909,
+    "vision": 0.18851616701579738,
+    "vl": 0.04295406802450704
+   },
+   "printed": "0.059 (sentence encoders) between 0.043 (language-model tokens) and 0.189 (vision); seed 0.525",
+   "source": "VERDICTS descriptive.P3a_level / review levels_13_3; plan 13.3 wording 'between'"
+  },
+  {
+   "panel": "a",
+   "id": "within_vit",
+   "value": {
+    "dinov2_b": {
+     "encoders": [
+      0.05614749142622155,
+      0.06128927972631028
+     ],
+     "language_models": [
+      0.04144104111215817,
+      0.05034788986377402
+     ],
+     "every_encoder_above_every_lm": true
+    },
+    "clip_b": {
+     "encoders": [
+      0.04602492814044891,
+      0.05019214961255185
+     ],
+     "language_models": [
+      0.03271977339119958,
+      0.03911467143314519
+     ],
+     "every_encoder_above_every_lm": true
+    },
+    "mae_b": {
+     "encoders": [
+      0.047442991924373276,
+      0.049096891153302825
+     ],
+     "language_models": [
+      0.03278245203138985,
+      0.039397743648645935
+     ],
+     "every_encoder_above_every_lm": true
+    },
+    "augreg_b": {
+     "encoders": [
+      0.07148910916993015,
+      0.07751286190634171
+     ],
+     "language_models": [
+      0.047822569414498535,
+      0.06016585576258453
+     ],
+     "every_encoder_above_every_lm": true
+    },
+    "siglip_b": {
+     "encoders": [
+      0.11631422438625186,
+      0.13747925389787138
+     ],
+     "language_models": [
+      0.07432459227931923,
+      0.09805325871837263
+     ],
+     "every_encoder_above_every_lm": true
+    }
+   },
+   "printed": "for each of the 5 vision models every sentence encoder lies above every language model at k = 10, m = 1024 (e.g. SigLIP-B/16: 0.116-0.137 against 0.074-0.098)",
+   "source": "E0_cells_P / S1_1_v11_cells_clip (single-caption arm P: the clean encoder comparison)"
+  },
+  {
+   "panel": "a",
+   "id": "median_slope_k10",
+   "value": {
+    "cross-modal-sentence": -0.524812002083516,
+    "seed-seed": -0.013789813454244973,
+    "cross-vision": -0.2136123108232031,
+    "cross-modal": -0.570555396995647
+   },
+   "printed": "-0.52 (sentence encoders), -0.57 (language-model tokens), -0.21 (vision), -0.01 (seed)",
+   "source": "VERDICTS descriptive.P3f_ordering.10.median_slope"
+  },
+  {
+   "panel": "a",
+   "id": "falling_every_k",
+   "value": {
+    "1": 15,
+    "10": 15,
+    "100": 15
+   },
+   "printed": "all 15 new pairs fall at k = 1, 10 and 100 (45 of 45)",
+   "source": "E0_slopes_P slope_class; VERDICTS P3a"
+  },
+  {
+   "panel": "b",
+   "id": "P1_label_and_median",
+   "value": {
+    "label": "holds",
+    "median_sum": 0.005985754050756853,
+    "threshold_abs_median": 0.03
+   },
+   "printed": "P1 holds: median e_k + e_m = 0.0060 (frozen: |median| <= 0.03)",
+   "source": "VERDICTS P1"
+  },
+  {
+   "panel": "b",
+   "id": "P1_within_band",
+   "value": {
+    "frac": 1.0,
+    "range": [
+     -0.008600133905865559,
+     0.015530837058109426
+    ]
+   },
+   "printed": "15 of 15 pairs within +-0.05 (frozen: >= 80%); sums from -0.0086 to 0.0155",
+   "source": "VERDICTS P1.frac_abs_sum_le, P1.per_pair"
+  },
+  {
+   "panel": "b",
+   "id": "P1_informative",
+   "value": {
+    "n": 15,
+    "e_m_range": [
+     -0.6021542753307583,
+     -0.3897293229738241
+    ]
+   },
+   "printed": "15 of 15 pairs informative (|e_m| >= 0.10; e_m from -0.60 to -0.39)",
+   "source": "VERDICTS P1"
+  },
+  {
+   "panel": "b",
+   "id": "P1_per_encoder",
+   "value": {
+    "contriever": 0.005985754050756853,
+    "mpnet": 0.011544173429712146,
+    "qwen3emb06": 0.005779860078682919
+   },
+   "printed": "per encoder: MPNet 0.0115, Contriever 0.0060, Qwen3-Embedding-0.6B 0.0058",
+   "source": "VERDICTS P1.per_encoder_median_sum"
+  },
+  {
+   "panel": "b",
+   "id": "P1_leave_mpnet_out",
+   "value": 0.005882807064719886,
+   "printed": "without MPNet (trained on data including COCO caption pairs) the median over the 10 other pairs is 0.0059",
+   "source": "derived here from VERDICTS P1.per_pair (descriptive; not a VERDICTS statistic)"
+  },
+  {
+   "panel": "b",
+   "id": "P1_draws_and_arms",
+   "value": {
+    "per_draw": {
+     "0": "holds",
+     "1": "holds",
+     "2": "holds",
+     "3": "holds",
+     "4": "holds"
+    },
+    "per_draw_median_sum": "-0.0108 to 0.0257 (E0_summary 3.2; review_recompute per_draw_median_sum)",
+    "secondary": {
+     "ctrold": {
+      "label": "holds",
+      "median_sum": 0.010785435144612138
+     },
+     "D1": {
+      "label": "holds",
+      "median_sum": 0.01216979449974609
+     },
+     "D2": {
+      "label": "holds",
+      "median_sum": 0.009051124588955961
+     },
+     "D3": {
+      "label": "holds",
+      "median_sum": 0.01104631327048633
+     },
+     "D4": {
+      "label": "holds",
+      "median_sum": 0.011626395502961628
+     },
+     "A": {
+      "label": "holds",
+      "median_sum": 0.011914072358616912
+     },
+     "Aall": {
+      "label": "holds",
+      "median_sum": 0.011961919779181263
+     },
+     "C": {
+      "label": "holds",
+      "median_sum": 0.006846201562771936
+     },
+     "CA": {
+      "label": "holds",
+      "median_sum": 0.015079916109829727
+     },
+     "CAall": {
+      "label": "holds",
+      "median_sum": 0.015113884066134564
+     },
+     "L": {
+      "label": "holds",
+      "median_sum": 0.006080927346798437
+     },
+     "Pdd": {
+      "label": "holds",
+      "median_sum": 0.004453410992240725
+     }
+    }
+   },
+   "printed": "holds in each of the 5 orderings and in all 12 secondary cells: the 11 secondary arms of the new pairs (caption ladder D1-D4, five-caption averages A/Aall, centering C/CA/CAall, l2 L, dedup Pdd; median sums 0.0045 to 0.0151) and the 29 S1.1 pairs centered (ctrold, 0.0108)",
+   "source": "VERDICTS descriptive.robustness.P1_per_draw_labels, secondary.P1"
+  },
+  {
+   "panel": "b",
+   "id": "reference_lm_tokens",
+   "value": {
+    "median": 0.004351492357462128,
+    "range": [
+     -0.011936768747028315,
+     0.013059311459179268
+    ]
+   },
+   "printed": "S1.1 vision-language pairs with language-model tokens, same statistic: median 0.0044, range -0.0119 to 0.0131",
+   "source": "panel_b.per_pair_lm_tokens_S11 (median = VERDICTS P3a S1.1-clip)"
+  },
+  {
+   "panel": "b",
+   "id": "disclosures",
+   "printed": "k >= 10 restriction chosen after seeing S1.1 (VERDICTS P1.disclosure); with k = 1 included the median sum is 0.058 (k in {1,10,100}) and 0.091 (k in {1,10}) against 0.030 and 0.055 for language-model tokens (exploratory, review_explore_20261010T142122Z.json)",
+   "value": {
+    "disclosure": "k >= 10 restriction chosen after seeing S1.1, 2026-10-10, before any E0 score"
+   },
+   "source": "VERDICTS P1.disclosure; review_explore (exploratory)"
+  },
+  {
+   "panel": "a",
+   "id": "k_value",
+   "value": 10,
+   "printed": "k = 10 (was the on-figure note '$k=10$'; now in the caption)",
+   "source": "design constant"
+  },
+  {
+   "panel": "c",
+   "id": "x3_levels_L100_10000_mpnet",
+   "value": {
+    "dinov2_b": 0.07715427364361675,
+    "x3_tok_r05": 0.13154890861499424,
+    "x3_cls_r10": 0.4288967403560592,
+    "x3_tok_r10": 0.4063639369122189,
+    "x3add_schnaus224": 0.40980649278236214
+   },
+   "printed": "L(100, 10000) for DINOv2-B x MPNet: mid-depth CLS 0.077, mid-depth patch mean 0.132, last-layer CLS 0.429, last-layer patch mean 0.406, pooling of Schnaus et al. 0.410; Schnaus et al. about 0.38 (0.385)",
+   "source": "X3_results.json pairs[*].L_100_10000 (= X3_levels.parquet L_m10000, k = 100)"
+  },
+  {
+   "panel": "c",
+   "id": "x3_depth_factor",
+   "value": 5.558949881858467,
+   "printed": "the last-layer CLS token raises the level 5.6-fold over the mid-depth CLS token (patch mean 5.3-fold)",
+   "source": "X3_results.json"
+  },
+  {
+   "panel": "c",
+   "id": "x3_shares",
+   "value": {
+    "dinov2_b": 0.0,
+    "x3_tok_r05": 0.33466112234524464,
+    "x3_cls_r10": 1.075920503343921,
+    "x3_tok_r10": 1.0420718793517123,
+    "x3add_schnaus224": 1.0473629694410076
+   },
+   "printed": "shares of the log gap closed: 1.08 (last CLS), 1.04 (last patch mean), 1.05 (Schnaus pooling), 0.33 (mid patch mean); reading rule fixed before the scores: whole gap / part of the gap",
+   "source": "X3_results.json binding_gap_reading_mpnet"
+  },
+  {
+   "panel": "c",
+   "id": "x3_slopes_k10",
+   "value": {
+    "dinov2_b": -0.4212820127700196,
+    "x3_tok_r05": -0.3979034702817136,
+    "x3_cls_r10": -0.28340585740700536,
+    "x3_tok_r10": -0.297889461150757,
+    "x3add_schnaus224": -0.30015105188071056
+   },
+   "printed": "slopes of ln s_N on ln m at k = 10: -0.28 to -0.30 at the last layer, -0.42 (mid CLS) and -0.40 (mid patch mean)",
+   "source": "X3_results.json pairs[*].b10"
+  },
+  {
+   "panel": "c",
+   "id": "x3_scale_reading",
+   "value": {
+    "median_sum": 0.007762939581726386,
+    "n_abs_le_0.05": 12,
+    "n_informative": 12,
+    "n": 12,
+    "max_abs_sum": 0.013736708167018219,
+    "plan_thresholds_descriptive": {
+     "abs_median_le_0.03": true,
+     "frac_abs_le_0.05_ge_0.8": true
+    }
+   },
+   "printed": "e_k + e_m on k in {10, 100}: 0.002 to 0.014 for all 12 X3 pairs (median 0.008)",
+   "source": "X3_results.json p1_type_descriptive"
+  },
+  {
+   "panel": "c",
+   "id": "x3_placement",
+   "value": {
+    "dinov2_b": 0.042201746587919864,
+    "x3_tok_r05": 0.007441117458474977,
+    "x3_cls_r10": 0.005482895039162883,
+    "x3_tok_r10": 0.008720521502875056,
+    "x3add_schnaus224": 0.013585617288391694
+   },
+   "printed": "on each of the five X3 features of DINOv2-B (MPNet), L(10, 1024) lies within 5% of L(100, 10000) (ln difference < 0.05), so the star is drawn at k/m = 0.01 on the k = 10 axis",
+   "source": "X3_results.json pairs[*].L_10_1024"
+  },
+  {
+   "panel": "c",
+   "id": "x3_other_encoders",
+   "value": {
+    "dinov2_b": 0.0008144794946283868,
+    "x3_tok_r05": 0.0018170920852347838,
+    "x3_cls_r10": 0.0033962999344230305,
+    "x3_tok_r10": 0.008224121529388395,
+    "x3add_schnaus224": 0.007390760941818564
+   },
+   "printed": "Contriever and Qwen3-Embedding-0.6B in place of MPNet change each L(100, 10000) by less than 0.01",
+   "source": "X3_results.json pairs"
+  },
+  {
+   "panel": "c",
+   "id": "x3_level_slope_line",
+   "value": {
+    "dinov2_b": 0.034430737781819765,
+    "x3_tok_r05": -0.07992336401466082,
+    "x3_cls_r10": -0.2414777254745323,
+    "x3_tok_r10": -0.24245180884429482,
+    "x3add_schnaus224": -0.2455566907973758
+   },
+   "printed": "the centered level-slope line of P-S2b predicts about -0.05 at k = 10 for the last-layer pairs, against -0.28 to -0.31 observed (failure anticipated by the plan, B6)",
+   "source": "X3_results.json pairs"
+  },
+  {
+   "panel": "c",
+   "id": "x3b_medians_k10_m1024",
+   "value": {
+    "sent_last": 0.41946179717474175,
+    "sent_mid": 0.07397754861172179,
+    "vl_last": 0.14434356908973597,
+    "vl_mid": 0.04295406802450704
+   },
+   "printed": "median agreement at k = 10, m = 1024 (15 pairs each): language models 0.043 (mid depth) -> 0.144 (last layer); sentence encoders under centering and five averaged captions 0.074 -> 0.419",
+   "source": "X3B_cells.parquet (= X3B_results.json sets.A1 / sets.B median_<mid|last>_L10_1024)"
+  },
+  {
+   "panel": "c",
+   "id": "x3b_rise_factors",
+   "value": {
+    "A1_R_L10_1024": [
+     2.8206303758350555,
+     [
+      1.7565073185032087,
+      5.140724413582384
+     ]
+    ],
+    "B_R_L100_10000": [
+     4.335438298093952,
+     [
+      2.331461127767453,
+      7.425887910702563
+     ]
+    ],
+    "B_R_L100_10000_non_dinov2": [
+     3.3849723714816484,
+     [
+      2.331461127767453,
+      7.425887910702563
+     ]
+    ]
+   },
+   "printed": "the last layer raises every pair: median factor 2.8 (1.8 to 5.1) with language models at k = 10, m = 1024, and 4.3 (2.3 to 7.4) with sentence encoders at k = 100, m = 10,000 (3.4 without DINOv2-B)",
+   "source": "X3B_results.json sets.A1, sets.B, Q_b"
+  },
+  {
+   "panel": "c",
+   "id": "x3b_per_vit_last_L100_10000",
+   "value": {
+    "dinov2_b": 0.4288967403560592,
+    "clip_b": 0.4469583468417858,
+    "mae_b": 0.14693829702067568,
+    "augreg_b": 0.4243410806416014,
+    "siglip_b": 0.3955870005000169
+   },
+   "printed": "last-layer medians with the sentence encoders at k = 100, m = 10,000: OpenCLIP 0.447, DINOv2-B 0.429, AugReg 0.424, SigLIP 0.396, MAE 0.147",
+   "source": "X3B_results.json sets.B.per_vit_median_last.<vit>.L100_10000"
+  },
+  {
+   "panel": "c",
+   "id": "x3b_slopes_b10",
+   "value": {
+    "A1": [
+     -0.41863784376147883,
+     -0.570555396995647
+    ],
+    "B": [
+     -0.29651745136858504,
+     -0.43293958436097296
+    ]
+   },
+   "printed": "median slope b(10) last / mid: language models -0.42 / -0.57, sentence encoders -0.30 / -0.43; all 30 last-layer pairs <= -0.1",
+   "source": "X3B_results.json per_pair.<A1|B>.b10, b10_mid"
+  },
+  {
+   "panel": "c",
+   "id": "x3b_sums",
+   "value": {
+    "A1": 0.01614050552273044,
+    "B": 0.019055253754967194
+   },
+   "printed": "|e_k + e_m| on k in {10, 100} at most 0.016 (language models) and 0.019 (sentence encoders) over the 30 last-layer pairs (at most 0.021 over all 105 last-layer pairs, X3b review)",
+   "source": "X3B_results.json per_pair.<A1|B>.sum"
+  },
+  {
+   "panel": "c",
+   "id": "x3b_matched_km",
+   "value": 0.08060998707037359,
+   "printed": "at a shared k/m, ln L(100, 10 m') and ln L(10, m') differ by at most 0.081 at the last layer (within 9%), which also places the star of Schnaus et al. at k/m = 0.01 on the k = 10 axis",
+   "source": "X3B_review_checks.json matched_km.<set>|last.max_maxabs_10_100"
+  }
+ ],
+ "caption_proposed": "\\caption{\\textbf{Vision--language agreement with sentence encoders falls with the evaluation size but stays close to stable at a fixed $k/m$ (Conjecture~\\ref{conj:scale}), and deeper vision features raise its level.} (a)~Class medians at $k=10$ as in Figure~\\ref{fig:exp-neighbors}a, with sentence-encoder pairs as thin lines. (b)~Sums of the elasticities in $k$ and $m$ on $k\\in\\{10,100\\}$, with group medians as bars and the preregistered tolerance in grey. (c)~Medians at $k=10$ with the middle (open) or last (filled) vision layer, for sentence encoders (squares) and language models (circles); the star marks the value of \\citet{schnaus2026rosetta} for DINOv2-B and MPNet at equal $k/m$ (exploratory).}",
+ "caption_word_count_approx": 103,
+ "caption_bold_word_count_approx": 19,
+ "caption_bold_word_count_whole_claim": 29,
+ "caption_numbers_check": {
+  "digits_outside_refs": [
+   "10",
+   "100"
+  ],
+  "meaning": "k = 10 and k = 100 (design)"
+ },
+ "consistency_v8c": {
+  "date": "2026-10-10",
+  "role": "consistency checker across the v8 figures",
+  "changes": [
+   "(a) class medians without markers (v8.1: filled circles; filled means last layer in (c), Figure 2 (c) and F.3, and (a) holds mid-depth curves)",
+   "(b) row labels INK (v8.1: group colour, so the family names read in the vision-language blue; Figure 3 and F.3 write BLOOMZ in S.FAM_TEXT indigo)"
+  ],
+  "asserts": {
+   "(a) no marker on any line (class medians and single pairs are lines; filled = last layer in (c))": true,
+   "(a) thick class medians still drawn, four of them": true,
+   "(b) six row labels, all INK": true,
+   "(b) dots keep the group colours": true,
+   "(c) mid depth open (white face), last layer filled, as Figure 2 (c) and F.3": true,
+   "caption unchanged from v8.1": true,
+   "layout audit clean (asserted above)": true
+  },
+  "c_face_colours": {
+   "vl_mid": "#FFFFFF",
+   "sent_mid": "#FFFFFF",
+   "vl_last": "#004488",
+   "sent_last": "#994455"
+  },
+  "b_row_labels": [
+   [
+    "MPNet",
+    "#222222"
+   ],
+   [
+    "Contriever",
+    "#222222"
+   ],
+   [
+    "Qwen3",
+    "#222222"
+   ],
+   [
+    "Pythia",
+    "#222222"
+   ],
+   [
+    "BLOOMZ",
+    "#222222"
+   ],
+   [
+    "OpenLLaMA",
+    "#222222"
+   ]
+  ],
+  "v8_1_files": "./_prev_consistency/ (maker, outputs, MOVED.md, caption of v8.1)"
+ },
+ "outputs": {
+  "~/hrh_v2_figs/v8/F_e0_app/F_e0_app.pdf": "a145c3a8993acf83e7ffc3dfbfa9e593646f2427ff666a0234ed89f7ccb952b9",
+  "~/hrh_v2_figs/v8/F_e0_app/F_e0_app.png": "c1ac1a0ddf524d26114c63b07708fcf72b6268c7a09488e442bab5aa89cb350e",
+  "~/hrh_v2_figs/v8/F_e0_app/_view_print_100dpi.png": "85edbdb5d15febb08ea14436b26af5454dc8eaefddef53c012e191b84704c40f",
+  "~/hrh_v2_figs/v8/F_e0_app/_views_cvd_grey.png": "11e5e81c782851cca17f2cf97d047de09016c5e4f0fcbf770e1122a71ff353f7",
+  "~/hrh_v2_figs/v8/F_e0_app/caption_v8.tex": "d052cbf2cf33f46c3468d290d21ba33f0280a1c31f591badb2287749f78d5677"
+ }
+}

@@ -1,0 +1,3211 @@
+{
+ "figure": {
+  "id": "F_linae_app",
+  "label": "fig:exp-linae",
+  "version": "v8",
+  "v4": "arxiv_v4.tex, figure environment with \\label{fig:exp-linae} (appendix F); locate by label",
+  "message": "Gradient descent without a regularizer stays unreliable at every sample size on the criteria that see the gauge, whereas weight decay, tied weights, and small initialization become reliable (Theorem thm:gauge).",
+  "size_in": [
+   5.5,
+   3.2172222222222215
+  ],
+  "min_text_pt": 7.5,
+  "min_glyph_pt_from_pdf_Tf": 7.0,
+  "pdf_glyph_size_counts": {
+   "7": 17,
+   "7.5": 29,
+   "8": 23,
+   "10": 5
+  },
+  "smallest_layout_glyphs": {
+   "$2^{8}$": 7.0,
+   "$2^{12}$": 7.0,
+   "$2^{16}$": 7.0,
+   "$\\mathrm{cond}(EE^{\\mathrm{T}})$": 7.0,
+   "$T_{N,10}$": 7.0,
+   "$G_s$": 7.0
+  },
+  "mathtext_script_scale": 0.875,
+  "n_type3": 0,
+  "fonts": [
+   "HBLBKT+LiberationSerif-Bold (CID TrueType, emb yes)",
+   "FCVYPE+LiberationSerif-BoldItalic (CID TrueType, emb yes)",
+   "CVJSFV+LiberationSerif (CID TrueType, emb yes)"
+  ],
+  "pdffonts": [
+   "name                                 type              encoding         emb sub uni object ID",
+   "------------------------------------ ----------------- ---------------- --- --- --- ---------",
+   "HBLBKT+LiberationSerif-Bold          CID TrueType      Identity-H       yes yes yes     43  0",
+   "FCVYPE+LiberationSerif-BoldItalic    CID TrueType      Identity-H       yes yes yes     50  0",
+   "CVJSFV+LiberationSerif               CID TrueType      Identity-H       yes yes yes     57  0"
+  ],
+  "low_contrast_text": [],
+  "text_on_fill_declared": {},
+  "text_overlaps_gt_0.005in": [],
+  "text_vs_data_overlaps": [],
+  "closest_text_to_data_in": [
+   [
+    "GD, step 0.002",
+    0.0346
+   ],
+   [
+    "small init.",
+    0.0346
+   ],
+   [
+    "weight decay",
+    0.0346
+   ],
+   [
+    "tied weights",
+    0.0346
+   ],
+   [
+    "GD, step 0.05",
+    0.0346
+   ],
+   [
+    "SGD",
+    0.0346
+   ],
+   [
+    "Adam",
+    0.0346
+   ],
+   [
+    "(c)",
+    0.0574
+   ],
+   [
+    "(d)",
+    0.0574
+   ],
+   [
+    "$\\Delta_\\Pi$",
+    0.0615
+   ],
+   [
+    "$1-\\mathrm{CKA}$",
+    0.0634
+   ],
+   [
+    "$2^{8}$",
+    0.0679
+   ]
+  ],
+  "e_prediction_triangle_gap_to_median_marks_pt": {
+   "P-GD-flow": {
+    "P-GD-flow": 0.6,
+    "small-init": 229.78,
+    "WD": 226.59,
+    "TIED": 232.24,
+    "P-GD": 74.85,
+    "P-SGD": 209.78,
+    "P-Adam": 175.17
+   },
+   "small-init": {
+    "P-GD-flow": 229.84,
+    "small-init": 0.6,
+    "WD": 12.48,
+    "TIED": 23.09,
+    "P-GD": 169.28,
+    "P-SGD": 47.93,
+    "P-Adam": 79.9
+   },
+   "WD": {
+    "P-GD-flow": 225.5,
+    "small-init": 1.25,
+    "WD": 0.6,
+    "TIED": 11.21,
+    "P-GD": 162.61,
+    "P-SGD": 35.23,
+    "P-Adam": 68.93
+   },
+   "TIED": {
+    "P-GD-flow": 231.25,
+    "small-init": 11.86,
+    "WD": 1.1,
+    "TIED": 0.6,
+    "P-GD": 166.4,
+    "P-SGD": 29.92,
+    "P-Adam": 67.88
+   }
+  },
+  "e_triangle_to_axes_top_pt": {
+   "P-GD-flow": 1.07,
+   "small-init": 11.55,
+   "WD": 23.43,
+   "TIED": 34.04
+  },
+  "a_to_d_xlabel_gaps_pt_layout_boxes": {
+   "to_top_of_e_axes_pt": 9.6,
+   "to_a_to_d_tick_labels_pt": 3.59,
+   "top_text_headroom_pt": 1.2
+  },
+  "heads_to_data_top_gap_pt": 4.03,
+  "key_to_heads_gap_pt": 4.5,
+  "drawn_texts": [
+   "$1-\\mathrm{CKA}$",
+   "$2^{12}$",
+   "$2^{16}$",
+   "$2^{8}$",
+   "$G_s$",
+   "$T_{N,10}$",
+   "$\\Delta_\\Pi$",
+   "$\\infty$",
+   "$\\mathrm{cond}(EE^{\\mathrm{T}})$",
+   "(a)",
+   "(b)",
+   "(c)",
+   "(d)",
+   "(e)",
+   "0",
+   "0.2",
+   "0.4",
+   "0.6",
+   "0.8",
+   "1",
+   "1.5",
+   "2",
+   "3",
+   "5",
+   "Adam",
+   "GD, step 0.002",
+   "GD, step 0.05",
+   "SGD",
+   "fraction of pairs\nwithin tolerance",
+   "sample size $N$",
+   "small init.",
+   "tied weights",
+   "weight decay"
+  ],
+  "n_texts_set_bold_by_finalize": 136,
+  "generated_utc": "2026-10-10T22:48:43Z"
+ },
+ "inputs": {
+  "~/hrh_v2_stage1_20261008/results/S1_3a_linae_summary.json": "7650e6b9c3da19b6700e2366e850222b95f22c21c9dea4a352a40783f8ccfca6",
+  "~/hrh_v2_stage1_20261008/linae/linae_core.py": "021d2173d2656d8fc5d5fd8d392c4a8b213a3c2500595301b8c9919826ec1ebf",
+  "~/hrh_v2_figs/F5/numbers.json": "d7fcaeee12492486a0f780dcd354d734eca7c793aea046c441fe29d8405a8d32",
+  "~/hrh_v2_figs/v4/F_linae_app/numbers.json": "f76a00b23f0e402934eaaa4770dd82753c4ff08628017d40a7bb2492274fe9ef",
+  "~/hrh_v2_figs/v5_1/F_linae_app/numbers.json": "7c6fda32cfcc6d713a372afd0c7df67c140bbc131c1985c274bd00034c63dacf",
+  "~/hrh_v2_figs/v6/F_linae_app/numbers.json": "c38c0307d5982be6e82bac353c1e2b2288e2a4611bde6e69089c0bb4c2c0b724",
+  "~/hrh_v2_figs/v6/F_linae_app/make_F_linae_app.py": "c724662d1e25f598beeb23da4bef0a76fd9f4fd71ebd291583c4808c06a99614",
+  "~/hrh_v2_stage1_20261008/linae/criteria/P-GD-flow_Ninf_runs.csv": "f02f98604f688a8f4fafe8a292a5a9a71e9652dc7cffaafc1f31c9807fd79832",
+  "~/hrh_v2_stage1_20261008/linae/criteria/small-init_Ninf_runs.csv": "94153b731015e032cc9899b3bb2fdd199d6e3594b2e445e13dc7faaf5bd68b81",
+  "~/hrh_v2_stage1_20261008/linae/criteria/WD_Ninf_runs.csv": "2c3814dc03b26272b2b22cfc39f12e4e7cd023a6de7efc259b229776e55bbff0",
+  "~/hrh_v2_stage1_20261008/linae/criteria/TIED_Ninf_runs.csv": "2edcc128082d217a26ca00f27be795781bedc7b6ad8d19f1d9e96310ed0bc02b",
+  "~/hrh_v2_stage1_20261008/linae/criteria/P-GD_Ninf_runs.csv": "ee7dd99197b097f6bfbc33a5da5b289eddce80e571c4552035693cea970d3602",
+  "~/hrh_v2_stage1_20261008/linae/criteria/P-SGD_Ninf_runs.csv": "52937f4a0b8e4d36766672eb6d08342d431f2088e6d9baa3fcadf6a5d5df18eb",
+  "~/hrh_v2_stage1_20261008/linae/criteria/P-Adam_Ninf_runs.csv": "7958c9c6c6df9f955313f236f82732b596af9fa58da40ab58e987de69dad3881",
+  "~/hrh_v2_stage1_20261008/linae/runs/WD/Ninf/chunk0.npz": "615c5b5bc844dcfa2a9512450967db0848a06a5fd858d04efcf94c2c9c442a08",
+  "~/hrh_v2_stage1_20261008/linae/runs/WD/Ninf/chunk1.npz": "1bd0416ba79368a9d3b5ac8257274ad65a8535afe38d1012173c66972855abe0",
+  "~/hrh_v2_stage1_20261008/linae/runs/WD/Ninf/chunk2.npz": "2fa44fba9a3da301903b6de28fc56f9b5dd4adbdff910cc264a041027de16060",
+  "~/hrh_v2_stage1_20261008/linae/runs/WD/Ninf/chunk3.npz": "22239af1f4d62b070081eadba1b9d722d0563f93d3188e38579ef76adeda5c5c",
+  "~/hrh_v2_stage1_20261008/linae/runs/WD/Ninf/chunk4.npz": "3708b73c77f660ebb76b8752702be8cff0daf3857e84eb621028db3737348476",
+  "~/hrh_v2_stage1_20261008/linae/runs/WD/Ninf/chunk5.npz": "6ad28fe422f4e9665b0a5b8994a10efbe8bcc263da1fcf335d6c73bbcc633a50",
+  "~/hrh_v2_stage1_20261008/linae/runs/WD/Ninf/chunk6.npz": "57443d4bfc7b4556424e0a5164e7ff3bc698cb583ccd7e5cf6816290b0a50d12",
+  "~/hrh_v2_stage1_20261008/linae/runs/WD/Ninf/chunk7.npz": "25d42ef3b7b8b4fb82da2e310ff70c3a7717fb60d0845b8519aa2ff6fa7953f7"
+ },
+ "style": {
+  "path": "~/hrh_v2_figs/v8/_style/hrh_style_v8.py",
+  "sha256": "fe994067dfefba8c0fe34309a67609e85f82288f0f785e69d2bef98e33fc79a8",
+  "version": "v8",
+  "elements_pt": {
+   "rule_lines_a_to_d": 1.5,
+   "break_segments_dotted": 1.0,
+   "cp_bars": 1.0,
+   "decision_levels": 0.8,
+   "axis_break": 0.8,
+   "markers_a_to_d_across_with_edge": 4.0,
+   "marker_edge_in_rule_colour": 0.6,
+   "open_marker_edge_a_to_d": 0.9,
+   "range_bars_e": 2.2,
+   "median_marks_e_across_with_edge": 5.0,
+   "open_marker_edge_e": 1.1,
+   "marker_kw": {
+    "ad": {
+     "P-GD-flow": {
+      "marker": "o",
+      "ms": 3.4,
+      "mfc": "#222255",
+      "mec": "#222255",
+      "mew": 0.6
+     },
+     "small-init": {
+      "marker": "^",
+      "ms": 3.91,
+      "mfc": "#AA4499",
+      "mec": "#AA4499",
+      "mew": 0.6
+     },
+     "WD": {
+      "marker": "s",
+      "ms": 3.4,
+      "mfc": "#44AA99",
+      "mec": "#44AA99",
+      "mew": 0.6
+     },
+     "TIED": {
+      "marker": "D",
+      "ms": 2.89,
+      "mfc": "#117733",
+      "mec": "#117733",
+      "mew": 0.6
+     },
+     "P-GD": {
+      "marker": "o",
+      "ms": 3.1,
+      "mfc": "white",
+      "mec": "#222255",
+      "mew": 0.9
+     },
+     "P-SGD": {
+      "marker": "X",
+      "ms": 3.808,
+      "mfc": "#CC6677",
+      "mec": "#CC6677",
+      "mew": 0.6
+     },
+     "P-Adam": {
+      "marker": "P",
+      "ms": 3.808,
+      "mfc": "#663333",
+      "mec": "#663333",
+      "mew": 0.6
+     }
+    },
+    "e": {
+     "P-GD-flow": {
+      "marker": "o",
+      "ms": 4.4,
+      "mfc": "#222255",
+      "mec": "#222255",
+      "mew": 0.6
+     },
+     "small-init": {
+      "marker": "^",
+      "ms": 5.06,
+      "mfc": "#AA4499",
+      "mec": "#AA4499",
+      "mew": 0.6
+     },
+     "WD": {
+      "marker": "s",
+      "ms": 4.4,
+      "mfc": "#44AA99",
+      "mec": "#44AA99",
+      "mew": 0.6
+     },
+     "TIED": {
+      "marker": "D",
+      "ms": 3.74,
+      "mfc": "#117733",
+      "mec": "#117733",
+      "mew": 0.6
+     },
+     "P-GD": {
+      "marker": "o",
+      "ms": 3.9,
+      "mfc": "white",
+      "mec": "#222255",
+      "mew": 1.1
+     },
+     "P-SGD": {
+      "marker": "X",
+      "ms": 4.928,
+      "mfc": "#CC6677",
+      "mec": "#CC6677",
+      "mew": 0.6
+     },
+     "P-Adam": {
+      "marker": "P",
+      "ms": 4.928,
+      "mfc": "#663333",
+      "mec": "#663333",
+      "mew": 0.6
+     }
+    }
+   },
+   "x_and_plus_arm_width_with_edge": {
+    "ad": {
+     "P-SGD": 1.946,
+     "P-Adam": 1.869
+    },
+    "e": {
+     "P-SGD": 2.342,
+     "P-Adam": 2.243
+    }
+   },
+   "white_underlay_e_extra_edge": 1.0,
+   "predicted_triangle_e": 4.0,
+   "cond_1_line_e": "not drawn (v8 c, as Figure 5 c)",
+   "group_separator_e": 0.6,
+   "marker_shape_scale": {
+    "P": 1.12,
+    "X": 1.12,
+    "D": 0.85,
+    "^": 1.15
+   }
+  },
+  "check": {
+   "style": "hrh_style_v8",
+   "style_sha256": "fe994067dfefba8c0fe34309a67609e85f82288f0f785e69d2bef98e33fc79a8",
+   "size_in": [
+    5.5,
+    3.2172222222222215
+   ],
+   "min_text_pt": 7.5,
+   "min_glyph_pt": 7.0,
+   "pdf_glyph_size_counts": {
+    "7": 17,
+    "7.5": 29,
+    "8": 23,
+    "10": 5
+   },
+   "smallest_layout_glyphs": {
+    "$2^{8}$": 7.0,
+    "$2^{12}$": 7.0,
+    "$2^{16}$": 7.0,
+    "$\\mathrm{cond}(EE^{\\mathrm{T}})$": 7.0,
+    "$T_{N,10}$": 7.0,
+    "$G_s$": 7.0
+   },
+   "mathtext_shrink_factor": 0.875,
+   "n_type3": 0,
+   "fonts": [
+    "HBLBKT+LiberationSerif-Bold (CID TrueType, emb yes)",
+    "FCVYPE+LiberationSerif-BoldItalic (CID TrueType, emb yes)",
+    "CVJSFV+LiberationSerif (CID TrueType, emb yes)"
+   ],
+   "low_contrast_text": [],
+   "n_tick_labels_checked": 34,
+   "n_axis_titles_checked": 2,
+   "not_bold_tick_or_axis_labels": [],
+   "bold_text_with_regular_math": [],
+   "data_colours": [
+    "#117733",
+    "#222222",
+    "#222255",
+    "#44AA99",
+    "#663333",
+    "#707070",
+    "#AA4499",
+    "#CC6677",
+    "#F2F2F2",
+    "#FFFFFF"
+   ],
+   "chromatic_data_colours": [
+    "#117733",
+    "#222255",
+    "#44AA99",
+    "#663333",
+    "#AA4499",
+    "#CC6677"
+   ],
+   "off_palette_colours": []
+  }
+ },
+ "script_sha256": "b7aef9f8339169c149b6732c730564d411eb59f95594f7e8d734a4502f86751a",
+ "crosscheck_v3": {
+  "path": "~/hrh_v2_figs/F5/numbers.json",
+  "sha256": "d7fcaeee12492486a0f780dcd354d734eca7c793aea046c441fe29d8405a8d32",
+  "result": "panels_a_to_d (passes, n_pairs, p_hat, cp bounds, decision, divergences), panel_e cond quantiles, prediction markers, flow band, CRN check and the weight-decay check equal F5/numbers.json exactly (asserted)"
+ },
+ "crosscheck_v4": {
+  "path": "~/hrh_v2_figs/v4/F_linae_app/numbers.json",
+  "sha256": "f76a00b23f0e402934eaaa4770dd82753c4ff08628017d40a7bb2492274fe9ef",
+  "result": "panels_a_to_d entries and panel_e entries (y_row, row_label and the prediction range excepted) equal the v4 numbers.json exactly (asserted)"
+ },
+ "summary_meta": {
+  "prereg_sha256": "bee0583c2bfd3ea941526c90c5eb879753a58f2c5b823e9b2444abb5697d5fcc",
+  "spec_sha256": "e781e44f6b809e90af758ac8a08e78c8ef192f1b4d6927d4694a729eca15a7a3",
+  "analysis_plan_sha256": {
+   "ANALYSIS_PLAN.md": "bccacb10d1d2549484fe9dfb9f61bb5256a0d516e6b6447107ad0a62e652d765",
+   "ANALYSIS_PLAN_v1.1.md": "7329052ac8bedb2c398690bac9671402c509017f6de052fbaade8795da52fa88"
+  },
+  "eps": {
+   "kNN": 0.05,
+   "Gs": 0.02,
+   "CKA": 0.01,
+   "proj": 0.01
+  },
+  "wd_lambda": 0.07500000000000001,
+  "small_sigma0": 0.01,
+  "arms": {
+   "P-GD-flow": {
+    "opt": "gd",
+    "lr": 0.002,
+    "init": "default",
+    "wd": 0.0,
+    "tied": false,
+    "primary": false
+   },
+   "small-init": {
+    "opt": "gd",
+    "lr": 0.05,
+    "init": "small",
+    "wd": 0.0,
+    "tied": false,
+    "primary": true
+   },
+   "WD": {
+    "opt": "gd",
+    "lr": 0.05,
+    "init": "default",
+    "wd": 0.07500000000000001,
+    "tied": false,
+    "primary": true
+   },
+   "TIED": {
+    "opt": "gd",
+    "lr": 0.05,
+    "init": "default",
+    "wd": 0.0,
+    "tied": true,
+    "primary": true
+   },
+   "P-GD": {
+    "opt": "gd",
+    "lr": 0.05,
+    "init": "default",
+    "wd": 0.0,
+    "tied": false,
+    "primary": true
+   },
+   "P-SGD": {
+    "opt": "sgd",
+    "lr": 0.02,
+    "init": "default",
+    "wd": 0.0,
+    "tied": false,
+    "batch": 16,
+    "primary": true
+   },
+   "P-Adam": {
+    "opt": "adam",
+    "lr": 0.001,
+    "init": "default",
+    "wd": 0.0,
+    "tied": false,
+    "batch": 16,
+    "primary": true
+   }
+  },
+  "source": "~/hrh_v2_stage1_20261008/results/S1_3a_linae_summary.json :: meta"
+ },
+ "encoding": {
+  "x_a_to_d": "log2 N (tick labels 2^8, 2^12, 2^16 at 8 pt); N = inf drawn at 20.5 after an axis break at 18.25; light column (S.REF_FILL) of half-width 1.66 behind each N; per-rule offset in log2 N = {\"P-GD-flow\": -1.38, \"small-init\": -0.92, \"WD\": -0.46, \"TIED\": 0.0, \"P-GD\": 0.46, \"P-SGD\": 0.92, \"P-Adam\": 1.38}",
+  "lines_a_to_d": "solid = covered by the theorem, dashed = outside it; dotted = the segment across the axis break (2^16 to infinity), in the rule colour",
+  "bars_a_to_d": "one-sided 95% Clopper-Pearson lower and upper bounds (preregistered decision bounds); reliable if lower > 0.9, unreliable if upper < 0.8",
+  "grey_lines_a_to_d": [
+   0.9,
+   0.8
+  ],
+  "e": "v8: one row per rule, labelled by the rule's name; measured: segment = 10th to 90th percentile over non-diverged runs at N = inf, mark = median (rule colour); predicted (covered rules): INK down-triangle = median over runs of the per-run predicted value ({\"P-GD-flow\": \"part 1\", \"small-init\": \"part 1\", \"WD\": \"part 3\", \"TIED\": \"part 3\"}), its tip 0.6 pt above the median mark, on an INK line (1 pt) over the 10th to 90th percentile of the per-run predictions; rows of the covered rules 1.3 apart, a gap of 0.25 and a thin line before the rules outside the theorem (8.600 pt per row); x axis log, 0.93 to 8.6, labelled ticks [1, 1.5, 2, 3, 5], minor ticks [4, 6, 7, 8]; no title, no key (the caption decodes the marks)",
+  "colours": {
+   "P-GD-flow": "#222255",
+   "small-init": "#AA4499",
+   "WD": "#44AA99",
+   "TIED": "#117733",
+   "P-GD": "#222255",
+   "P-SGD": "#CC6677",
+   "P-Adam": "#663333"
+  },
+  "text_tones": {
+   "P-GD-flow": "#222255",
+   "small-init": "#AA4499",
+   "WD": "#108576",
+   "TIED": "#117733",
+   "P-GD": "#222255",
+   "P-SGD": "#BA5668",
+   "P-Adam": "#663333"
+  },
+  "markers": {
+   "P-GD-flow": "o",
+   "small-init": "^",
+   "WD": "s",
+   "TIED": "D",
+   "P-GD": "o(open)",
+   "P-SGD": "X",
+   "P-Adam": "P"
+  }
+ },
+ "panels_a_to_d": {
+  "kNN": {
+   "P-GD-flow": {
+    "256": {
+     "x_log2N_plotted": 6.62,
+     "passes": 0,
+     "n_pairs": 48,
+     "p_hat": 0.0,
+     "cp_lower": 0.0,
+     "cp_upper": 0.0605034093488943,
+     "decision": "unreliable",
+     "n_fail_by_divergence": 0,
+     "source": "~/hrh_v2_stage1_20261008/results/S1_3a_linae_summary.json :: cells['P-GD-flow|256']['primary']['kNN']"
+    },
+    "4096": {
+     "x_log2N_plotted": 10.620000000000001,
+     "passes": 0,
+     "n_pairs": 48,
+     "p_hat": 0.0,
+     "cp_lower": 0.0,
+     "cp_upper": 0.0605034093488943,
+     "decision": "unreliable",
+     "n_fail_by_divergence": 0,
+     "source": "~/hrh_v2_stage1_20261008/results/S1_3a_linae_summary.json :: cells['P-GD-flow|4096']['primary']['kNN']"
+    },
+    "65536": {
+     "x_log2N_plotted": 14.620000000000001,
+     "passes": 0,
+     "n_pairs": 48,
+     "p_hat": 0.0,
+     "cp_lower": 0.0,
+     "cp_upper": 0.0605034093488943,
+     "decision": "unreliable",
+     "n_fail_by_divergence": 0,
+     "source": "~/hrh_v2_stage1_20261008/results/S1_3a_linae_summary.json :: cells['P-GD-flow|65536']['primary']['kNN']"
+    },
+    "inf": {
+     "x_log2N_plotted": 19.12,
+     "passes": 0,
+     "n_pairs": 500,
+     "p_hat": 0.0,
+     "cp_lower": 0.0,
+     "cp_upper": 0.005973551516349557,
+     "decision": "unreliable",
+     "n_fail_by_divergence": 0,
+     "source": "~/hrh_v2_stage1_20261008/results/S1_3a_linae_summary.json :: cells['P-GD-flow|inf']['primary']['kNN']"
+    }
+   },
+   "small-init": {
+    "256": {
+     "x_log2N_plotted": 7.08,
+     "passes": 0,
+     "n_pairs": 48,
+     "p_hat": 0.0,
+     "cp_lower": 0.0,
+     "cp_upper": 0.0605034093488943,
+     "decision": "unreliable",
+     "n_fail_by_divergence": 0,
+     "source": "~/hrh_v2_stage1_20261008/results/S1_3a_linae_summary.json :: cells['small-init|256']['primary']['kNN']"
+    },
+    "4096": {
+     "x_log2N_plotted": 11.08,
+     "passes": 48,
+     "n_pairs": 48,
+     "p_hat": 1.0,
+     "cp_lower": 0.9394965906511057,
+     "cp_upper": 1.0,
+     "decision": "reliable",
+     "n_fail_by_divergence": 0,
+     "source": "~/hrh_v2_stage1_20261008/results/S1_3a_linae_summary.json :: cells['small-init|4096']['primary']['kNN']"
+    },
+    "65536": {
+     "x_log2N_plotted": 15.08,
+     "passes": 48,
+     "n_pairs": 48,
+     "p_hat": 1.0,
+     "cp_lower": 0.9394965906511057,
+     "cp_upper": 1.0,
+     "decision": "reliable",
+     "n_fail_by_divergence": 0,
+     "source": "~/hrh_v2_stage1_20261008/results/S1_3a_linae_summary.json :: cells['small-init|65536']['primary']['kNN']"
+    },
+    "inf": {
+     "x_log2N_plotted": 19.58,
+     "passes": 500,
+     "n_pairs": 500,
+     "p_hat": 1.0,
+     "cp_lower": 0.9940264484836504,
+     "cp_upper": 1.0,
+     "decision": "reliable",
+     "n_fail_by_divergence": 0,
+     "source": "~/hrh_v2_stage1_20261008/results/S1_3a_linae_summary.json :: cells['small-init|inf']['primary']['kNN']"
+    }
+   },
+   "WD": {
+    "256": {
+     "x_log2N_plotted": 7.54,
+     "passes": 0,
+     "n_pairs": 48,
+     "p_hat": 0.0,
+     "cp_lower": 0.0,
+     "cp_upper": 0.0605034093488943,
+     "decision": "unreliable",
+     "n_fail_by_divergence": 2,
+     "source": "~/hrh_v2_stage1_20261008/results/S1_3a_linae_summary.json :: cells['WD|256']['primary']['kNN']"
+    },
+    "4096": {
+     "x_log2N_plotted": 11.54,
+     "passes": 47,
+     "n_pairs": 48,
+     "p_hat": 0.9791666666666666,
+     "cp_lower": 0.9049413753758644,
+     "cp_upper": 0.9989319604609207,
+     "decision": "reliable",
+     "n_fail_by_divergence": 1,
+     "source": "~/hrh_v2_stage1_20261008/results/S1_3a_linae_summary.json :: cells['WD|4096']['primary']['kNN']"
+    },
+    "65536": {
+     "x_log2N_plotted": 15.54,
+     "passes": 47,
+     "n_pairs": 48,
+     "p_hat": 0.9791666666666666,
+     "cp_lower": 0.9049413753758644,
+     "cp_upper": 0.9989319604609207,
+     "decision": "reliable",
+     "n_fail_by_divergence": 1,
+     "source": "~/hrh_v2_stage1_20261008/results/S1_3a_linae_summary.json :: cells['WD|65536']['primary']['kNN']"
+    },
+    "inf": {
+     "x_log2N_plotted": 20.04,
+     "passes": 488,
+     "n_pairs": 500,
+     "p_hat": 0.976,
+     "cp_lower": 0.9614044211601033,
+     "cp_upper": 0.986094610671322,
+     "decision": "reliable",
+     "n_fail_by_divergence": 12,
+     "source": "~/hrh_v2_stage1_20261008/results/S1_3a_linae_summary.json :: cells['WD|inf']['primary']['kNN']"
+    }
+   },
+   "TIED": {
+    "256": {
+     "x_log2N_plotted": 8.0,
+     "passes": 0,
+     "n_pairs": 48,
+     "p_hat": 0.0,
+     "cp_lower": 0.0,
+     "cp_upper": 0.0605034093488943,
+     "decision": "unreliable",
+     "n_fail_by_divergence": 0,
+     "source": "~/hrh_v2_stage1_20261008/results/S1_3a_linae_summary.json :: cells['TIED|256']['primary']['kNN']"
+    },
+    "4096": {
+     "x_log2N_plotted": 12.0,
+     "passes": 48,
+     "n_pairs": 48,
+     "p_hat": 1.0,
+     "cp_lower": 0.9394965906511057,
+     "cp_upper": 1.0,
+     "decision": "reliable",
+     "n_fail_by_divergence": 0,
+     "source": "~/hrh_v2_stage1_20261008/results/S1_3a_linae_summary.json :: cells['TIED|4096']['primary']['kNN']"
+    },
+    "65536": {
+     "x_log2N_plotted": 16.0,
+     "passes": 48,
+     "n_pairs": 48,
+     "p_hat": 1.0,
+     "cp_lower": 0.9394965906511057,
+     "cp_upper": 1.0,
+     "decision": "reliable",
+     "n_fail_by_divergence": 0,
+     "source": "~/hrh_v2_stage1_20261008/results/S1_3a_linae_summary.json :: cells['TIED|65536']['primary']['kNN']"
+    },
+    "inf": {
+     "x_log2N_plotted": 20.5,
+     "passes": 500,
+     "n_pairs": 500,
+     "p_hat": 1.0,
+     "cp_lower": 0.9940264484836504,
+     "cp_upper": 1.0,
+     "decision": "reliable",
+     "n_fail_by_divergence": 0,
+     "source": "~/hrh_v2_stage1_20261008/results/S1_3a_linae_summary.json :: cells['TIED|inf']['primary']['kNN']"
+    }
+   },
+   "P-GD": {
+    "256": {
+     "x_log2N_plotted": 8.46,
+     "passes": 0,
+     "n_pairs": 48,
+     "p_hat": 0.0,
+     "cp_lower": 0.0,
+     "cp_upper": 0.0605034093488943,
+     "decision": "unreliable",
+     "n_fail_by_divergence": 2,
+     "source": "~/hrh_v2_stage1_20261008/results/S1_3a_linae_summary.json :: cells['P-GD|256']['primary']['kNN']"
+    },
+    "4096": {
+     "x_log2N_plotted": 12.46,
+     "passes": 0,
+     "n_pairs": 48,
+     "p_hat": 0.0,
+     "cp_lower": 0.0,
+     "cp_upper": 0.0605034093488943,
+     "decision": "unreliable",
+     "n_fail_by_divergence": 1,
+     "source": "~/hrh_v2_stage1_20261008/results/S1_3a_linae_summary.json :: cells['P-GD|4096']['primary']['kNN']"
+    },
+    "65536": {
+     "x_log2N_plotted": 16.46,
+     "passes": 0,
+     "n_pairs": 48,
+     "p_hat": 0.0,
+     "cp_lower": 0.0,
+     "cp_upper": 0.0605034093488943,
+     "decision": "unreliable",
+     "n_fail_by_divergence": 1,
+     "source": "~/hrh_v2_stage1_20261008/results/S1_3a_linae_summary.json :: cells['P-GD|65536']['primary']['kNN']"
+    },
+    "inf": {
+     "x_log2N_plotted": 20.96,
+     "passes": 0,
+     "n_pairs": 500,
+     "p_hat": 0.0,
+     "cp_lower": 0.0,
+     "cp_upper": 0.005973551516349557,
+     "decision": "unreliable",
+     "n_fail_by_divergence": 14,
+     "source": "~/hrh_v2_stage1_20261008/results/S1_3a_linae_summary.json :: cells['P-GD|inf']['primary']['kNN']"
+    }
+   },
+   "P-SGD": {
+    "256": {
+     "x_log2N_plotted": 8.92,
+     "passes": 0,
+     "n_pairs": 48,
+     "p_hat": 0.0,
+     "cp_lower": 0.0,
+     "cp_upper": 0.0605034093488943,
+     "decision": "unreliable",
+     "n_fail_by_divergence": 0,
+     "source": "~/hrh_v2_stage1_20261008/results/S1_3a_linae_summary.json :: cells['P-SGD|256']['primary']['kNN']"
+    },
+    "4096": {
+     "x_log2N_plotted": 12.92,
+     "passes": 14,
+     "n_pairs": 48,
+     "p_hat": 0.2916666666666667,
+     "cp_lower": 0.18574108515005744,
+     "cp_upper": 0.4178311587720131,
+     "decision": "unreliable",
+     "n_fail_by_divergence": 0,
+     "source": "~/hrh_v2_stage1_20261008/results/S1_3a_linae_summary.json :: cells['P-SGD|4096']['primary']['kNN']"
+    },
+    "65536": {
+     "x_log2N_plotted": 16.92,
+     "passes": 16,
+     "n_pairs": 48,
+     "p_hat": 0.3333333333333333,
+     "cp_lower": 0.22151478160669374,
+     "cp_upper": 0.4612853927960252,
+     "decision": "unreliable",
+     "n_fail_by_divergence": 0,
+     "source": "~/hrh_v2_stage1_20261008/results/S1_3a_linae_summary.json :: cells['P-SGD|65536']['primary']['kNN']"
+    },
+    "inf": {
+     "x_log2N_plotted": 21.42,
+     "passes": 164,
+     "n_pairs": 500,
+     "p_hat": 0.328,
+     "cp_lower": 0.2932881601220242,
+     "cp_upper": 0.364232095185183,
+     "decision": "unreliable",
+     "n_fail_by_divergence": 2,
+     "source": "~/hrh_v2_stage1_20261008/results/S1_3a_linae_summary.json :: cells['P-SGD|inf']['primary']['kNN']"
+    }
+   },
+   "P-Adam": {
+    "256": {
+     "x_log2N_plotted": 9.379999999999999,
+     "passes": 0,
+     "n_pairs": 48,
+     "p_hat": 0.0,
+     "cp_lower": 0.0,
+     "cp_upper": 0.0605034093488943,
+     "decision": "unreliable",
+     "n_fail_by_divergence": 0,
+     "source": "~/hrh_v2_stage1_20261008/results/S1_3a_linae_summary.json :: cells['P-Adam|256']['primary']['kNN']"
+    },
+    "4096": {
+     "x_log2N_plotted": 13.379999999999999,
+     "passes": 0,
+     "n_pairs": 48,
+     "p_hat": 0.0,
+     "cp_lower": 0.0,
+     "cp_upper": 0.0605034093488943,
+     "decision": "unreliable",
+     "n_fail_by_divergence": 0,
+     "source": "~/hrh_v2_stage1_20261008/results/S1_3a_linae_summary.json :: cells['P-Adam|4096']['primary']['kNN']"
+    },
+    "65536": {
+     "x_log2N_plotted": 17.38,
+     "passes": 1,
+     "n_pairs": 48,
+     "p_hat": 0.020833333333333332,
+     "cp_lower": 0.0010680395390792908,
+     "cp_upper": 0.09505862462413558,
+     "decision": "unreliable",
+     "n_fail_by_divergence": 0,
+     "source": "~/hrh_v2_stage1_20261008/results/S1_3a_linae_summary.json :: cells['P-Adam|65536']['primary']['kNN']"
+    },
+    "inf": {
+     "x_log2N_plotted": 21.88,
+     "passes": 13,
+     "n_pairs": 500,
+     "p_hat": 0.026,
+     "cp_lower": 0.015446105866904956,
+     "cp_upper": 0.041019868160438115,
+     "decision": "unreliable",
+     "n_fail_by_divergence": 0,
+     "source": "~/hrh_v2_stage1_20261008/results/S1_3a_linae_summary.json :: cells['P-Adam|inf']['primary']['kNN']"
+    }
+   }
+  },
+  "Gs": {
+   "P-GD-flow": {
+    "256": {
+     "x_log2N_plotted": 6.62,
+     "passes": 0,
+     "n_pairs": 48,
+     "p_hat": 0.0,
+     "cp_lower": 0.0,
+     "cp_upper": 0.0605034093488943,
+     "decision": "unreliable",
+     "n_fail_by_divergence": 0,
+     "source": "~/hrh_v2_stage1_20261008/results/S1_3a_linae_summary.json :: cells['P-GD-flow|256']['primary']['Gs']"
+    },
+    "4096": {
+     "x_log2N_plotted": 10.620000000000001,
+     "passes": 0,
+     "n_pairs": 48,
+     "p_hat": 0.0,
+     "cp_lower": 0.0,
+     "cp_upper": 0.0605034093488943,
+     "decision": "unreliable",
+     "n_fail_by_divergence": 0,
+     "source": "~/hrh_v2_stage1_20261008/results/S1_3a_linae_summary.json :: cells['P-GD-flow|4096']['primary']['Gs']"
+    },
+    "65536": {
+     "x_log2N_plotted": 14.620000000000001,
+     "passes": 0,
+     "n_pairs": 48,
+     "p_hat": 0.0,
+     "cp_lower": 0.0,
+     "cp_upper": 0.0605034093488943,
+     "decision": "unreliable",
+     "n_fail_by_divergence": 0,
+     "source": "~/hrh_v2_stage1_20261008/results/S1_3a_linae_summary.json :: cells['P-GD-flow|65536']['primary']['Gs']"
+    },
+    "inf": {
+     "x_log2N_plotted": 19.12,
+     "passes": 0,
+     "n_pairs": 500,
+     "p_hat": 0.0,
+     "cp_lower": 0.0,
+     "cp_upper": 0.005973551516349557,
+     "decision": "unreliable",
+     "n_fail_by_divergence": 0,
+     "source": "~/hrh_v2_stage1_20261008/results/S1_3a_linae_summary.json :: cells['P-GD-flow|inf']['primary']['Gs']"
+    }
+   },
+   "small-init": {
+    "256": {
+     "x_log2N_plotted": 7.08,
+     "passes": 0,
+     "n_pairs": 48,
+     "p_hat": 0.0,
+     "cp_lower": 0.0,
+     "cp_upper": 0.0605034093488943,
+     "decision": "unreliable",
+     "n_fail_by_divergence": 0,
+     "source": "~/hrh_v2_stage1_20261008/results/S1_3a_linae_summary.json :: cells['small-init|256']['primary']['Gs']"
+    },
+    "4096": {
+     "x_log2N_plotted": 11.08,
+     "passes": 48,
+     "n_pairs": 48,
+     "p_hat": 1.0,
+     "cp_lower": 0.9394965906511057,
+     "cp_upper": 1.0,
+     "decision": "reliable",
+     "n_fail_by_divergence": 0,
+     "source": "~/hrh_v2_stage1_20261008/results/S1_3a_linae_summary.json :: cells['small-init|4096']['primary']['Gs']"
+    },
+    "65536": {
+     "x_log2N_plotted": 15.08,
+     "passes": 48,
+     "n_pairs": 48,
+     "p_hat": 1.0,
+     "cp_lower": 0.9394965906511057,
+     "cp_upper": 1.0,
+     "decision": "reliable",
+     "n_fail_by_divergence": 0,
+     "source": "~/hrh_v2_stage1_20261008/results/S1_3a_linae_summary.json :: cells['small-init|65536']['primary']['Gs']"
+    },
+    "inf": {
+     "x_log2N_plotted": 19.58,
+     "passes": 500,
+     "n_pairs": 500,
+     "p_hat": 1.0,
+     "cp_lower": 0.9940264484836504,
+     "cp_upper": 1.0,
+     "decision": "reliable",
+     "n_fail_by_divergence": 0,
+     "source": "~/hrh_v2_stage1_20261008/results/S1_3a_linae_summary.json :: cells['small-init|inf']['primary']['Gs']"
+    }
+   },
+   "WD": {
+    "256": {
+     "x_log2N_plotted": 7.54,
+     "passes": 0,
+     "n_pairs": 48,
+     "p_hat": 0.0,
+     "cp_lower": 0.0,
+     "cp_upper": 0.0605034093488943,
+     "decision": "unreliable",
+     "n_fail_by_divergence": 2,
+     "source": "~/hrh_v2_stage1_20261008/results/S1_3a_linae_summary.json :: cells['WD|256']['primary']['Gs']"
+    },
+    "4096": {
+     "x_log2N_plotted": 11.54,
+     "passes": 47,
+     "n_pairs": 48,
+     "p_hat": 0.9791666666666666,
+     "cp_lower": 0.9049413753758644,
+     "cp_upper": 0.9989319604609207,
+     "decision": "reliable",
+     "n_fail_by_divergence": 1,
+     "source": "~/hrh_v2_stage1_20261008/results/S1_3a_linae_summary.json :: cells['WD|4096']['primary']['Gs']"
+    },
+    "65536": {
+     "x_log2N_plotted": 15.54,
+     "passes": 47,
+     "n_pairs": 48,
+     "p_hat": 0.9791666666666666,
+     "cp_lower": 0.9049413753758644,
+     "cp_upper": 0.9989319604609207,
+     "decision": "reliable",
+     "n_fail_by_divergence": 1,
+     "source": "~/hrh_v2_stage1_20261008/results/S1_3a_linae_summary.json :: cells['WD|65536']['primary']['Gs']"
+    },
+    "inf": {
+     "x_log2N_plotted": 20.04,
+     "passes": 488,
+     "n_pairs": 500,
+     "p_hat": 0.976,
+     "cp_lower": 0.9614044211601033,
+     "cp_upper": 0.986094610671322,
+     "decision": "reliable",
+     "n_fail_by_divergence": 12,
+     "source": "~/hrh_v2_stage1_20261008/results/S1_3a_linae_summary.json :: cells['WD|inf']['primary']['Gs']"
+    }
+   },
+   "TIED": {
+    "256": {
+     "x_log2N_plotted": 8.0,
+     "passes": 0,
+     "n_pairs": 48,
+     "p_hat": 0.0,
+     "cp_lower": 0.0,
+     "cp_upper": 0.0605034093488943,
+     "decision": "unreliable",
+     "n_fail_by_divergence": 0,
+     "source": "~/hrh_v2_stage1_20261008/results/S1_3a_linae_summary.json :: cells['TIED|256']['primary']['Gs']"
+    },
+    "4096": {
+     "x_log2N_plotted": 12.0,
+     "passes": 48,
+     "n_pairs": 48,
+     "p_hat": 1.0,
+     "cp_lower": 0.9394965906511057,
+     "cp_upper": 1.0,
+     "decision": "reliable",
+     "n_fail_by_divergence": 0,
+     "source": "~/hrh_v2_stage1_20261008/results/S1_3a_linae_summary.json :: cells['TIED|4096']['primary']['Gs']"
+    },
+    "65536": {
+     "x_log2N_plotted": 16.0,
+     "passes": 48,
+     "n_pairs": 48,
+     "p_hat": 1.0,
+     "cp_lower": 0.9394965906511057,
+     "cp_upper": 1.0,
+     "decision": "reliable",
+     "n_fail_by_divergence": 0,
+     "source": "~/hrh_v2_stage1_20261008/results/S1_3a_linae_summary.json :: cells['TIED|65536']['primary']['Gs']"
+    },
+    "inf": {
+     "x_log2N_plotted": 20.5,
+     "passes": 500,
+     "n_pairs": 500,
+     "p_hat": 1.0,
+     "cp_lower": 0.9940264484836504,
+     "cp_upper": 1.0,
+     "decision": "reliable",
+     "n_fail_by_divergence": 0,
+     "source": "~/hrh_v2_stage1_20261008/results/S1_3a_linae_summary.json :: cells['TIED|inf']['primary']['Gs']"
+    }
+   },
+   "P-GD": {
+    "256": {
+     "x_log2N_plotted": 8.46,
+     "passes": 0,
+     "n_pairs": 48,
+     "p_hat": 0.0,
+     "cp_lower": 0.0,
+     "cp_upper": 0.0605034093488943,
+     "decision": "unreliable",
+     "n_fail_by_divergence": 2,
+     "source": "~/hrh_v2_stage1_20261008/results/S1_3a_linae_summary.json :: cells['P-GD|256']['primary']['Gs']"
+    },
+    "4096": {
+     "x_log2N_plotted": 12.46,
+     "passes": 0,
+     "n_pairs": 48,
+     "p_hat": 0.0,
+     "cp_lower": 0.0,
+     "cp_upper": 0.0605034093488943,
+     "decision": "unreliable",
+     "n_fail_by_divergence": 1,
+     "source": "~/hrh_v2_stage1_20261008/results/S1_3a_linae_summary.json :: cells['P-GD|4096']['primary']['Gs']"
+    },
+    "65536": {
+     "x_log2N_plotted": 16.46,
+     "passes": 0,
+     "n_pairs": 48,
+     "p_hat": 0.0,
+     "cp_lower": 0.0,
+     "cp_upper": 0.0605034093488943,
+     "decision": "unreliable",
+     "n_fail_by_divergence": 1,
+     "source": "~/hrh_v2_stage1_20261008/results/S1_3a_linae_summary.json :: cells['P-GD|65536']['primary']['Gs']"
+    },
+    "inf": {
+     "x_log2N_plotted": 20.96,
+     "passes": 0,
+     "n_pairs": 500,
+     "p_hat": 0.0,
+     "cp_lower": 0.0,
+     "cp_upper": 0.005973551516349557,
+     "decision": "unreliable",
+     "n_fail_by_divergence": 14,
+     "source": "~/hrh_v2_stage1_20261008/results/S1_3a_linae_summary.json :: cells['P-GD|inf']['primary']['Gs']"
+    }
+   },
+   "P-SGD": {
+    "256": {
+     "x_log2N_plotted": 8.92,
+     "passes": 0,
+     "n_pairs": 48,
+     "p_hat": 0.0,
+     "cp_lower": 0.0,
+     "cp_upper": 0.0605034093488943,
+     "decision": "unreliable",
+     "n_fail_by_divergence": 0,
+     "source": "~/hrh_v2_stage1_20261008/results/S1_3a_linae_summary.json :: cells['P-SGD|256']['primary']['Gs']"
+    },
+    "4096": {
+     "x_log2N_plotted": 12.92,
+     "passes": 1,
+     "n_pairs": 48,
+     "p_hat": 0.020833333333333332,
+     "cp_lower": 0.0010680395390792908,
+     "cp_upper": 0.09505862462413558,
+     "decision": "unreliable",
+     "n_fail_by_divergence": 0,
+     "source": "~/hrh_v2_stage1_20261008/results/S1_3a_linae_summary.json :: cells['P-SGD|4096']['primary']['Gs']"
+    },
+    "65536": {
+     "x_log2N_plotted": 16.92,
+     "passes": 0,
+     "n_pairs": 48,
+     "p_hat": 0.0,
+     "cp_lower": 0.0,
+     "cp_upper": 0.0605034093488943,
+     "decision": "unreliable",
+     "n_fail_by_divergence": 0,
+     "source": "~/hrh_v2_stage1_20261008/results/S1_3a_linae_summary.json :: cells['P-SGD|65536']['primary']['Gs']"
+    },
+    "inf": {
+     "x_log2N_plotted": 21.42,
+     "passes": 12,
+     "n_pairs": 500,
+     "p_hat": 0.024,
+     "cp_lower": 0.013905389328677974,
+     "cp_upper": 0.038595578839896755,
+     "decision": "unreliable",
+     "n_fail_by_divergence": 2,
+     "source": "~/hrh_v2_stage1_20261008/results/S1_3a_linae_summary.json :: cells['P-SGD|inf']['primary']['Gs']"
+    }
+   },
+   "P-Adam": {
+    "256": {
+     "x_log2N_plotted": 9.379999999999999,
+     "passes": 0,
+     "n_pairs": 48,
+     "p_hat": 0.0,
+     "cp_lower": 0.0,
+     "cp_upper": 0.0605034093488943,
+     "decision": "unreliable",
+     "n_fail_by_divergence": 0,
+     "source": "~/hrh_v2_stage1_20261008/results/S1_3a_linae_summary.json :: cells['P-Adam|256']['primary']['Gs']"
+    },
+    "4096": {
+     "x_log2N_plotted": 13.379999999999999,
+     "passes": 0,
+     "n_pairs": 48,
+     "p_hat": 0.0,
+     "cp_lower": 0.0,
+     "cp_upper": 0.0605034093488943,
+     "decision": "unreliable",
+     "n_fail_by_divergence": 0,
+     "source": "~/hrh_v2_stage1_20261008/results/S1_3a_linae_summary.json :: cells['P-Adam|4096']['primary']['Gs']"
+    },
+    "65536": {
+     "x_log2N_plotted": 17.38,
+     "passes": 0,
+     "n_pairs": 48,
+     "p_hat": 0.0,
+     "cp_lower": 0.0,
+     "cp_upper": 0.0605034093488943,
+     "decision": "unreliable",
+     "n_fail_by_divergence": 0,
+     "source": "~/hrh_v2_stage1_20261008/results/S1_3a_linae_summary.json :: cells['P-Adam|65536']['primary']['Gs']"
+    },
+    "inf": {
+     "x_log2N_plotted": 21.88,
+     "passes": 0,
+     "n_pairs": 500,
+     "p_hat": 0.0,
+     "cp_lower": 0.0,
+     "cp_upper": 0.005973551516349557,
+     "decision": "unreliable",
+     "n_fail_by_divergence": 0,
+     "source": "~/hrh_v2_stage1_20261008/results/S1_3a_linae_summary.json :: cells['P-Adam|inf']['primary']['Gs']"
+    }
+   }
+  },
+  "CKA": {
+   "P-GD-flow": {
+    "256": {
+     "x_log2N_plotted": 6.62,
+     "passes": 0,
+     "n_pairs": 48,
+     "p_hat": 0.0,
+     "cp_lower": 0.0,
+     "cp_upper": 0.0605034093488943,
+     "decision": "unreliable",
+     "n_fail_by_divergence": 0,
+     "source": "~/hrh_v2_stage1_20261008/results/S1_3a_linae_summary.json :: cells['P-GD-flow|256']['primary']['CKA']"
+    },
+    "4096": {
+     "x_log2N_plotted": 10.620000000000001,
+     "passes": 0,
+     "n_pairs": 48,
+     "p_hat": 0.0,
+     "cp_lower": 0.0,
+     "cp_upper": 0.0605034093488943,
+     "decision": "unreliable",
+     "n_fail_by_divergence": 0,
+     "source": "~/hrh_v2_stage1_20261008/results/S1_3a_linae_summary.json :: cells['P-GD-flow|4096']['primary']['CKA']"
+    },
+    "65536": {
+     "x_log2N_plotted": 14.620000000000001,
+     "passes": 0,
+     "n_pairs": 48,
+     "p_hat": 0.0,
+     "cp_lower": 0.0,
+     "cp_upper": 0.0605034093488943,
+     "decision": "unreliable",
+     "n_fail_by_divergence": 0,
+     "source": "~/hrh_v2_stage1_20261008/results/S1_3a_linae_summary.json :: cells['P-GD-flow|65536']['primary']['CKA']"
+    },
+    "inf": {
+     "x_log2N_plotted": 19.12,
+     "passes": 0,
+     "n_pairs": 500,
+     "p_hat": 0.0,
+     "cp_lower": 0.0,
+     "cp_upper": 0.005973551516349557,
+     "decision": "unreliable",
+     "n_fail_by_divergence": 0,
+     "source": "~/hrh_v2_stage1_20261008/results/S1_3a_linae_summary.json :: cells['P-GD-flow|inf']['primary']['CKA']"
+    }
+   },
+   "small-init": {
+    "256": {
+     "x_log2N_plotted": 7.08,
+     "passes": 48,
+     "n_pairs": 48,
+     "p_hat": 1.0,
+     "cp_lower": 0.9394965906511057,
+     "cp_upper": 1.0,
+     "decision": "reliable",
+     "n_fail_by_divergence": 0,
+     "source": "~/hrh_v2_stage1_20261008/results/S1_3a_linae_summary.json :: cells['small-init|256']['primary']['CKA']"
+    },
+    "4096": {
+     "x_log2N_plotted": 11.08,
+     "passes": 48,
+     "n_pairs": 48,
+     "p_hat": 1.0,
+     "cp_lower": 0.9394965906511057,
+     "cp_upper": 1.0,
+     "decision": "reliable",
+     "n_fail_by_divergence": 0,
+     "source": "~/hrh_v2_stage1_20261008/results/S1_3a_linae_summary.json :: cells['small-init|4096']['primary']['CKA']"
+    },
+    "65536": {
+     "x_log2N_plotted": 15.08,
+     "passes": 48,
+     "n_pairs": 48,
+     "p_hat": 1.0,
+     "cp_lower": 0.9394965906511057,
+     "cp_upper": 1.0,
+     "decision": "reliable",
+     "n_fail_by_divergence": 0,
+     "source": "~/hrh_v2_stage1_20261008/results/S1_3a_linae_summary.json :: cells['small-init|65536']['primary']['CKA']"
+    },
+    "inf": {
+     "x_log2N_plotted": 19.58,
+     "passes": 500,
+     "n_pairs": 500,
+     "p_hat": 1.0,
+     "cp_lower": 0.9940264484836504,
+     "cp_upper": 1.0,
+     "decision": "reliable",
+     "n_fail_by_divergence": 0,
+     "source": "~/hrh_v2_stage1_20261008/results/S1_3a_linae_summary.json :: cells['small-init|inf']['primary']['CKA']"
+    }
+   },
+   "WD": {
+    "256": {
+     "x_log2N_plotted": 7.54,
+     "passes": 46,
+     "n_pairs": 48,
+     "p_hat": 0.9583333333333334,
+     "cp_lower": 0.8745855955255197,
+     "cp_upper": 0.9925461601092587,
+     "decision": "inconclusive",
+     "n_fail_by_divergence": 2,
+     "source": "~/hrh_v2_stage1_20261008/results/S1_3a_linae_summary.json :: cells['WD|256']['primary']['CKA']"
+    },
+    "4096": {
+     "x_log2N_plotted": 11.54,
+     "passes": 47,
+     "n_pairs": 48,
+     "p_hat": 0.9791666666666666,
+     "cp_lower": 0.9049413753758644,
+     "cp_upper": 0.9989319604609207,
+     "decision": "reliable",
+     "n_fail_by_divergence": 1,
+     "source": "~/hrh_v2_stage1_20261008/results/S1_3a_linae_summary.json :: cells['WD|4096']['primary']['CKA']"
+    },
+    "65536": {
+     "x_log2N_plotted": 15.54,
+     "passes": 47,
+     "n_pairs": 48,
+     "p_hat": 0.9791666666666666,
+     "cp_lower": 0.9049413753758644,
+     "cp_upper": 0.9989319604609207,
+     "decision": "reliable",
+     "n_fail_by_divergence": 1,
+     "source": "~/hrh_v2_stage1_20261008/results/S1_3a_linae_summary.json :: cells['WD|65536']['primary']['CKA']"
+    },
+    "inf": {
+     "x_log2N_plotted": 20.04,
+     "passes": 488,
+     "n_pairs": 500,
+     "p_hat": 0.976,
+     "cp_lower": 0.9614044211601033,
+     "cp_upper": 0.986094610671322,
+     "decision": "reliable",
+     "n_fail_by_divergence": 12,
+     "source": "~/hrh_v2_stage1_20261008/results/S1_3a_linae_summary.json :: cells['WD|inf']['primary']['CKA']"
+    }
+   },
+   "TIED": {
+    "256": {
+     "x_log2N_plotted": 8.0,
+     "passes": 48,
+     "n_pairs": 48,
+     "p_hat": 1.0,
+     "cp_lower": 0.9394965906511057,
+     "cp_upper": 1.0,
+     "decision": "reliable",
+     "n_fail_by_divergence": 0,
+     "source": "~/hrh_v2_stage1_20261008/results/S1_3a_linae_summary.json :: cells['TIED|256']['primary']['CKA']"
+    },
+    "4096": {
+     "x_log2N_plotted": 12.0,
+     "passes": 48,
+     "n_pairs": 48,
+     "p_hat": 1.0,
+     "cp_lower": 0.9394965906511057,
+     "cp_upper": 1.0,
+     "decision": "reliable",
+     "n_fail_by_divergence": 0,
+     "source": "~/hrh_v2_stage1_20261008/results/S1_3a_linae_summary.json :: cells['TIED|4096']['primary']['CKA']"
+    },
+    "65536": {
+     "x_log2N_plotted": 16.0,
+     "passes": 48,
+     "n_pairs": 48,
+     "p_hat": 1.0,
+     "cp_lower": 0.9394965906511057,
+     "cp_upper": 1.0,
+     "decision": "reliable",
+     "n_fail_by_divergence": 0,
+     "source": "~/hrh_v2_stage1_20261008/results/S1_3a_linae_summary.json :: cells['TIED|65536']['primary']['CKA']"
+    },
+    "inf": {
+     "x_log2N_plotted": 20.5,
+     "passes": 500,
+     "n_pairs": 500,
+     "p_hat": 1.0,
+     "cp_lower": 0.9940264484836504,
+     "cp_upper": 1.0,
+     "decision": "reliable",
+     "n_fail_by_divergence": 0,
+     "source": "~/hrh_v2_stage1_20261008/results/S1_3a_linae_summary.json :: cells['TIED|inf']['primary']['CKA']"
+    }
+   },
+   "P-GD": {
+    "256": {
+     "x_log2N_plotted": 8.46,
+     "passes": 0,
+     "n_pairs": 48,
+     "p_hat": 0.0,
+     "cp_lower": 0.0,
+     "cp_upper": 0.0605034093488943,
+     "decision": "unreliable",
+     "n_fail_by_divergence": 2,
+     "source": "~/hrh_v2_stage1_20261008/results/S1_3a_linae_summary.json :: cells['P-GD|256']['primary']['CKA']"
+    },
+    "4096": {
+     "x_log2N_plotted": 12.46,
+     "passes": 0,
+     "n_pairs": 48,
+     "p_hat": 0.0,
+     "cp_lower": 0.0,
+     "cp_upper": 0.0605034093488943,
+     "decision": "unreliable",
+     "n_fail_by_divergence": 1,
+     "source": "~/hrh_v2_stage1_20261008/results/S1_3a_linae_summary.json :: cells['P-GD|4096']['primary']['CKA']"
+    },
+    "65536": {
+     "x_log2N_plotted": 16.46,
+     "passes": 0,
+     "n_pairs": 48,
+     "p_hat": 0.0,
+     "cp_lower": 0.0,
+     "cp_upper": 0.0605034093488943,
+     "decision": "unreliable",
+     "n_fail_by_divergence": 1,
+     "source": "~/hrh_v2_stage1_20261008/results/S1_3a_linae_summary.json :: cells['P-GD|65536']['primary']['CKA']"
+    },
+    "inf": {
+     "x_log2N_plotted": 20.96,
+     "passes": 0,
+     "n_pairs": 500,
+     "p_hat": 0.0,
+     "cp_lower": 0.0,
+     "cp_upper": 0.005973551516349557,
+     "decision": "unreliable",
+     "n_fail_by_divergence": 14,
+     "source": "~/hrh_v2_stage1_20261008/results/S1_3a_linae_summary.json :: cells['P-GD|inf']['primary']['CKA']"
+    }
+   },
+   "P-SGD": {
+    "256": {
+     "x_log2N_plotted": 8.92,
+     "passes": 26,
+     "n_pairs": 48,
+     "p_hat": 0.5416666666666666,
+     "cp_lower": 0.4136570022080721,
+     "cp_upper": 0.6656639905477437,
+     "decision": "unreliable",
+     "n_fail_by_divergence": 0,
+     "source": "~/hrh_v2_stage1_20261008/results/S1_3a_linae_summary.json :: cells['P-SGD|256']['primary']['CKA']"
+    },
+    "4096": {
+     "x_log2N_plotted": 12.92,
+     "passes": 30,
+     "n_pairs": 48,
+     "p_hat": 0.625,
+     "cp_lower": 0.4961835042903378,
+     "cp_upper": 0.7417470705913592,
+     "decision": "unreliable",
+     "n_fail_by_divergence": 0,
+     "source": "~/hrh_v2_stage1_20261008/results/S1_3a_linae_summary.json :: cells['P-SGD|4096']['primary']['CKA']"
+    },
+    "65536": {
+     "x_log2N_plotted": 16.92,
+     "passes": 28,
+     "n_pairs": 48,
+     "p_hat": 0.5833333333333334,
+     "cp_lower": 0.4545110959886905,
+     "cp_upper": 0.7041229972817885,
+     "decision": "unreliable",
+     "n_fail_by_divergence": 0,
+     "source": "~/hrh_v2_stage1_20261008/results/S1_3a_linae_summary.json :: cells['P-SGD|65536']['primary']['CKA']"
+    },
+    "inf": {
+     "x_log2N_plotted": 21.42,
+     "passes": 322,
+     "n_pairs": 500,
+     "p_hat": 0.644,
+     "cp_lower": 0.6072085116054537,
+     "cp_upper": 0.6795195778404732,
+     "decision": "unreliable",
+     "n_fail_by_divergence": 2,
+     "source": "~/hrh_v2_stage1_20261008/results/S1_3a_linae_summary.json :: cells['P-SGD|inf']['primary']['CKA']"
+    }
+   },
+   "P-Adam": {
+    "256": {
+     "x_log2N_plotted": 9.379999999999999,
+     "passes": 7,
+     "n_pairs": 48,
+     "p_hat": 0.14583333333333334,
+     "cp_lower": 0.07050049764259382,
+     "cp_upper": 0.2565339722535966,
+     "decision": "unreliable",
+     "n_fail_by_divergence": 0,
+     "source": "~/hrh_v2_stage1_20261008/results/S1_3a_linae_summary.json :: cells['P-Adam|256']['primary']['CKA']"
+    },
+    "4096": {
+     "x_log2N_plotted": 13.379999999999999,
+     "passes": 16,
+     "n_pairs": 48,
+     "p_hat": 0.3333333333333333,
+     "cp_lower": 0.22151478160669374,
+     "cp_upper": 0.4612853927960252,
+     "decision": "unreliable",
+     "n_fail_by_divergence": 0,
+     "source": "~/hrh_v2_stage1_20261008/results/S1_3a_linae_summary.json :: cells['P-Adam|4096']['primary']['CKA']"
+    },
+    "65536": {
+     "x_log2N_plotted": 17.38,
+     "passes": 20,
+     "n_pairs": 48,
+     "p_hat": 0.4166666666666667,
+     "cp_lower": 0.2958770027182114,
+     "cp_upper": 0.5454889040113096,
+     "decision": "unreliable",
+     "n_fail_by_divergence": 0,
+     "source": "~/hrh_v2_stage1_20261008/results/S1_3a_linae_summary.json :: cells['P-Adam|65536']['primary']['CKA']"
+    },
+    "inf": {
+     "x_log2N_plotted": 21.88,
+     "passes": 172,
+     "n_pairs": 500,
+     "p_hat": 0.344,
+     "cp_lower": 0.30881011205991743,
+     "cp_upper": 0.3805681641167191,
+     "decision": "unreliable",
+     "n_fail_by_divergence": 0,
+     "source": "~/hrh_v2_stage1_20261008/results/S1_3a_linae_summary.json :: cells['P-Adam|inf']['primary']['CKA']"
+    }
+   }
+  },
+  "proj": {
+   "P-GD-flow": {
+    "256": {
+     "x_log2N_plotted": 6.62,
+     "passes": 48,
+     "n_pairs": 48,
+     "p_hat": 1.0,
+     "cp_lower": 0.9394965906511057,
+     "cp_upper": 1.0,
+     "decision": "reliable",
+     "n_fail_by_divergence": 0,
+     "source": "~/hrh_v2_stage1_20261008/results/S1_3a_linae_summary.json :: cells['P-GD-flow|256']['primary']['proj']"
+    },
+    "4096": {
+     "x_log2N_plotted": 10.620000000000001,
+     "passes": 48,
+     "n_pairs": 48,
+     "p_hat": 1.0,
+     "cp_lower": 0.9394965906511057,
+     "cp_upper": 1.0,
+     "decision": "reliable",
+     "n_fail_by_divergence": 0,
+     "source": "~/hrh_v2_stage1_20261008/results/S1_3a_linae_summary.json :: cells['P-GD-flow|4096']['primary']['proj']"
+    },
+    "65536": {
+     "x_log2N_plotted": 14.620000000000001,
+     "passes": 48,
+     "n_pairs": 48,
+     "p_hat": 1.0,
+     "cp_lower": 0.9394965906511057,
+     "cp_upper": 1.0,
+     "decision": "reliable",
+     "n_fail_by_divergence": 0,
+     "source": "~/hrh_v2_stage1_20261008/results/S1_3a_linae_summary.json :: cells['P-GD-flow|65536']['primary']['proj']"
+    },
+    "inf": {
+     "x_log2N_plotted": 19.12,
+     "passes": 500,
+     "n_pairs": 500,
+     "p_hat": 1.0,
+     "cp_lower": 0.9940264484836504,
+     "cp_upper": 1.0,
+     "decision": "reliable",
+     "n_fail_by_divergence": 0,
+     "source": "~/hrh_v2_stage1_20261008/results/S1_3a_linae_summary.json :: cells['P-GD-flow|inf']['primary']['proj']"
+    }
+   },
+   "small-init": {
+    "256": {
+     "x_log2N_plotted": 7.08,
+     "passes": 48,
+     "n_pairs": 48,
+     "p_hat": 1.0,
+     "cp_lower": 0.9394965906511057,
+     "cp_upper": 1.0,
+     "decision": "reliable",
+     "n_fail_by_divergence": 0,
+     "source": "~/hrh_v2_stage1_20261008/results/S1_3a_linae_summary.json :: cells['small-init|256']['primary']['proj']"
+    },
+    "4096": {
+     "x_log2N_plotted": 11.08,
+     "passes": 48,
+     "n_pairs": 48,
+     "p_hat": 1.0,
+     "cp_lower": 0.9394965906511057,
+     "cp_upper": 1.0,
+     "decision": "reliable",
+     "n_fail_by_divergence": 0,
+     "source": "~/hrh_v2_stage1_20261008/results/S1_3a_linae_summary.json :: cells['small-init|4096']['primary']['proj']"
+    },
+    "65536": {
+     "x_log2N_plotted": 15.08,
+     "passes": 48,
+     "n_pairs": 48,
+     "p_hat": 1.0,
+     "cp_lower": 0.9394965906511057,
+     "cp_upper": 1.0,
+     "decision": "reliable",
+     "n_fail_by_divergence": 0,
+     "source": "~/hrh_v2_stage1_20261008/results/S1_3a_linae_summary.json :: cells['small-init|65536']['primary']['proj']"
+    },
+    "inf": {
+     "x_log2N_plotted": 19.58,
+     "passes": 500,
+     "n_pairs": 500,
+     "p_hat": 1.0,
+     "cp_lower": 0.9940264484836504,
+     "cp_upper": 1.0,
+     "decision": "reliable",
+     "n_fail_by_divergence": 0,
+     "source": "~/hrh_v2_stage1_20261008/results/S1_3a_linae_summary.json :: cells['small-init|inf']['primary']['proj']"
+    }
+   },
+   "WD": {
+    "256": {
+     "x_log2N_plotted": 7.54,
+     "passes": 46,
+     "n_pairs": 48,
+     "p_hat": 0.9583333333333334,
+     "cp_lower": 0.8745855955255197,
+     "cp_upper": 0.9925461601092587,
+     "decision": "inconclusive",
+     "n_fail_by_divergence": 2,
+     "source": "~/hrh_v2_stage1_20261008/results/S1_3a_linae_summary.json :: cells['WD|256']['primary']['proj']"
+    },
+    "4096": {
+     "x_log2N_plotted": 11.54,
+     "passes": 47,
+     "n_pairs": 48,
+     "p_hat": 0.9791666666666666,
+     "cp_lower": 0.9049413753758644,
+     "cp_upper": 0.9989319604609207,
+     "decision": "reliable",
+     "n_fail_by_divergence": 1,
+     "source": "~/hrh_v2_stage1_20261008/results/S1_3a_linae_summary.json :: cells['WD|4096']['primary']['proj']"
+    },
+    "65536": {
+     "x_log2N_plotted": 15.54,
+     "passes": 47,
+     "n_pairs": 48,
+     "p_hat": 0.9791666666666666,
+     "cp_lower": 0.9049413753758644,
+     "cp_upper": 0.9989319604609207,
+     "decision": "reliable",
+     "n_fail_by_divergence": 1,
+     "source": "~/hrh_v2_stage1_20261008/results/S1_3a_linae_summary.json :: cells['WD|65536']['primary']['proj']"
+    },
+    "inf": {
+     "x_log2N_plotted": 20.04,
+     "passes": 488,
+     "n_pairs": 500,
+     "p_hat": 0.976,
+     "cp_lower": 0.9614044211601033,
+     "cp_upper": 0.986094610671322,
+     "decision": "reliable",
+     "n_fail_by_divergence": 12,
+     "source": "~/hrh_v2_stage1_20261008/results/S1_3a_linae_summary.json :: cells['WD|inf']['primary']['proj']"
+    }
+   },
+   "TIED": {
+    "256": {
+     "x_log2N_plotted": 8.0,
+     "passes": 48,
+     "n_pairs": 48,
+     "p_hat": 1.0,
+     "cp_lower": 0.9394965906511057,
+     "cp_upper": 1.0,
+     "decision": "reliable",
+     "n_fail_by_divergence": 0,
+     "source": "~/hrh_v2_stage1_20261008/results/S1_3a_linae_summary.json :: cells['TIED|256']['primary']['proj']"
+    },
+    "4096": {
+     "x_log2N_plotted": 12.0,
+     "passes": 48,
+     "n_pairs": 48,
+     "p_hat": 1.0,
+     "cp_lower": 0.9394965906511057,
+     "cp_upper": 1.0,
+     "decision": "reliable",
+     "n_fail_by_divergence": 0,
+     "source": "~/hrh_v2_stage1_20261008/results/S1_3a_linae_summary.json :: cells['TIED|4096']['primary']['proj']"
+    },
+    "65536": {
+     "x_log2N_plotted": 16.0,
+     "passes": 48,
+     "n_pairs": 48,
+     "p_hat": 1.0,
+     "cp_lower": 0.9394965906511057,
+     "cp_upper": 1.0,
+     "decision": "reliable",
+     "n_fail_by_divergence": 0,
+     "source": "~/hrh_v2_stage1_20261008/results/S1_3a_linae_summary.json :: cells['TIED|65536']['primary']['proj']"
+    },
+    "inf": {
+     "x_log2N_plotted": 20.5,
+     "passes": 500,
+     "n_pairs": 500,
+     "p_hat": 1.0,
+     "cp_lower": 0.9940264484836504,
+     "cp_upper": 1.0,
+     "decision": "reliable",
+     "n_fail_by_divergence": 0,
+     "source": "~/hrh_v2_stage1_20261008/results/S1_3a_linae_summary.json :: cells['TIED|inf']['primary']['proj']"
+    }
+   },
+   "P-GD": {
+    "256": {
+     "x_log2N_plotted": 8.46,
+     "passes": 46,
+     "n_pairs": 48,
+     "p_hat": 0.9583333333333334,
+     "cp_lower": 0.8745855955255197,
+     "cp_upper": 0.9925461601092587,
+     "decision": "inconclusive",
+     "n_fail_by_divergence": 2,
+     "source": "~/hrh_v2_stage1_20261008/results/S1_3a_linae_summary.json :: cells['P-GD|256']['primary']['proj']"
+    },
+    "4096": {
+     "x_log2N_plotted": 12.46,
+     "passes": 47,
+     "n_pairs": 48,
+     "p_hat": 0.9791666666666666,
+     "cp_lower": 0.9049413753758644,
+     "cp_upper": 0.9989319604609207,
+     "decision": "reliable",
+     "n_fail_by_divergence": 1,
+     "source": "~/hrh_v2_stage1_20261008/results/S1_3a_linae_summary.json :: cells['P-GD|4096']['primary']['proj']"
+    },
+    "65536": {
+     "x_log2N_plotted": 16.46,
+     "passes": 47,
+     "n_pairs": 48,
+     "p_hat": 0.9791666666666666,
+     "cp_lower": 0.9049413753758644,
+     "cp_upper": 0.9989319604609207,
+     "decision": "reliable",
+     "n_fail_by_divergence": 1,
+     "source": "~/hrh_v2_stage1_20261008/results/S1_3a_linae_summary.json :: cells['P-GD|65536']['primary']['proj']"
+    },
+    "inf": {
+     "x_log2N_plotted": 20.96,
+     "passes": 486,
+     "n_pairs": 500,
+     "p_hat": 0.972,
+     "cp_lower": 0.9565726565266837,
+     "cp_upper": 0.9829945225344681,
+     "decision": "reliable",
+     "n_fail_by_divergence": 14,
+     "source": "~/hrh_v2_stage1_20261008/results/S1_3a_linae_summary.json :: cells['P-GD|inf']['primary']['proj']"
+    }
+   },
+   "P-SGD": {
+    "256": {
+     "x_log2N_plotted": 8.92,
+     "passes": 48,
+     "n_pairs": 48,
+     "p_hat": 1.0,
+     "cp_lower": 0.9394965906511057,
+     "cp_upper": 1.0,
+     "decision": "reliable",
+     "n_fail_by_divergence": 0,
+     "source": "~/hrh_v2_stage1_20261008/results/S1_3a_linae_summary.json :: cells['P-SGD|256']['primary']['proj']"
+    },
+    "4096": {
+     "x_log2N_plotted": 12.92,
+     "passes": 48,
+     "n_pairs": 48,
+     "p_hat": 1.0,
+     "cp_lower": 0.9394965906511057,
+     "cp_upper": 1.0,
+     "decision": "reliable",
+     "n_fail_by_divergence": 0,
+     "source": "~/hrh_v2_stage1_20261008/results/S1_3a_linae_summary.json :: cells['P-SGD|4096']['primary']['proj']"
+    },
+    "65536": {
+     "x_log2N_plotted": 16.92,
+     "passes": 48,
+     "n_pairs": 48,
+     "p_hat": 1.0,
+     "cp_lower": 0.9394965906511057,
+     "cp_upper": 1.0,
+     "decision": "reliable",
+     "n_fail_by_divergence": 0,
+     "source": "~/hrh_v2_stage1_20261008/results/S1_3a_linae_summary.json :: cells['P-SGD|65536']['primary']['proj']"
+    },
+    "inf": {
+     "x_log2N_plotted": 21.42,
+     "passes": 498,
+     "n_pairs": 500,
+     "p_hat": 0.996,
+     "cp_lower": 0.9874623945903274,
+     "cp_upper": 0.9992888181552688,
+     "decision": "reliable",
+     "n_fail_by_divergence": 2,
+     "source": "~/hrh_v2_stage1_20261008/results/S1_3a_linae_summary.json :: cells['P-SGD|inf']['primary']['proj']"
+    }
+   },
+   "P-Adam": {
+    "256": {
+     "x_log2N_plotted": 9.379999999999999,
+     "passes": 48,
+     "n_pairs": 48,
+     "p_hat": 1.0,
+     "cp_lower": 0.9394965906511057,
+     "cp_upper": 1.0,
+     "decision": "reliable",
+     "n_fail_by_divergence": 0,
+     "source": "~/hrh_v2_stage1_20261008/results/S1_3a_linae_summary.json :: cells['P-Adam|256']['primary']['proj']"
+    },
+    "4096": {
+     "x_log2N_plotted": 13.379999999999999,
+     "passes": 48,
+     "n_pairs": 48,
+     "p_hat": 1.0,
+     "cp_lower": 0.9394965906511057,
+     "cp_upper": 1.0,
+     "decision": "reliable",
+     "n_fail_by_divergence": 0,
+     "source": "~/hrh_v2_stage1_20261008/results/S1_3a_linae_summary.json :: cells['P-Adam|4096']['primary']['proj']"
+    },
+    "65536": {
+     "x_log2N_plotted": 17.38,
+     "passes": 48,
+     "n_pairs": 48,
+     "p_hat": 1.0,
+     "cp_lower": 0.9394965906511057,
+     "cp_upper": 1.0,
+     "decision": "reliable",
+     "n_fail_by_divergence": 0,
+     "source": "~/hrh_v2_stage1_20261008/results/S1_3a_linae_summary.json :: cells['P-Adam|65536']['primary']['proj']"
+    },
+    "inf": {
+     "x_log2N_plotted": 21.88,
+     "passes": 500,
+     "n_pairs": 500,
+     "p_hat": 1.0,
+     "cp_lower": 0.9940264484836504,
+     "cp_upper": 1.0,
+     "decision": "reliable",
+     "n_fail_by_divergence": 0,
+     "source": "~/hrh_v2_stage1_20261008/results/S1_3a_linae_summary.json :: cells['P-Adam|inf']['primary']['proj']"
+    }
+   }
+  }
+ },
+ "panel_e": {
+  "P-GD-flow": {
+   "y_row": 0.0,
+   "row_label": "GD, step 0.002",
+   "covered_by_theorem": true,
+   "cond_q10_50_90": [
+    2.975678985189581,
+    4.660436139874179,
+    7.431444658643004
+   ],
+   "cond_source": "~/hrh_v2_stage1_20261008/results/S1_3a_linae_summary.json :: cells['P-GD-flow|inf']['runs']['kappa_q10_50_90'] (quantiles over non-diverged runs)",
+   "n_runs": 1000,
+   "n_diverged": 0,
+   "n_runs_in_quantiles": 1000,
+   "C_drift_rel_median": 0.0018161147733525,
+   "flow_pred_relerr_median": 0.0010137848660080537,
+   "runs_source": "~/hrh_v2_stage1_20261008/results/S1_3a_linae_summary.json :: cells['P-GD-flow|inf']['runs'][n_runs, n_diverged, C_drift_rel_median, flow_pred_relerr_median]",
+   "predicted_marker": 4.669548815313491,
+   "predicted_source": "median over runs of cond(f(spec C0)), ~/hrh_v2_stage1_20261008/linae/criteria/P-GD-flow_Ninf_runs.csv :: eig_fC0_0..3",
+   "predicted_q10_50_90": [
+    2.983534400137288,
+    4.669548815313491,
+    7.454032694358561
+   ]
+  },
+  "small-init": {
+   "y_row": 1.3,
+   "row_label": "small init.",
+   "covered_by_theorem": true,
+   "cond_q10_50_90": [
+    1.001449571889372,
+    1.002214634081173,
+    1.0033284536730627
+   ],
+   "cond_source": "~/hrh_v2_stage1_20261008/results/S1_3a_linae_summary.json :: cells['small-init|inf']['runs']['kappa_q10_50_90'] (quantiles over non-diverged runs)",
+   "n_runs": 1000,
+   "n_diverged": 0,
+   "n_runs_in_quantiles": 1000,
+   "C_drift_rel_median": 1.18641915404816,
+   "flow_pred_relerr_median": 0.0006510971113867223,
+   "runs_source": "~/hrh_v2_stage1_20261008/results/S1_3a_linae_summary.json :: cells['small-init|inf']['runs'][n_runs, n_diverged, C_drift_rel_median, flow_pred_relerr_median]",
+   "predicted_marker": 1.0014922237059358,
+   "predicted_source": "median over runs of cond(f(spec C0)), ~/hrh_v2_stage1_20261008/linae/criteria/small-init_Ninf_runs.csv :: eig_fC0_0..3",
+   "predicted_q10_50_90": [
+    1.001005228802024,
+    1.0014922237059358,
+    1.002089529141588
+   ]
+  },
+  "WD": {
+   "y_row": 2.6,
+   "row_label": "weight decay",
+   "covered_by_theorem": true,
+   "cond_q10_50_90": [
+    1.0328034378460123,
+    1.032959005177239,
+    1.0331281609999163
+   ],
+   "cond_source": "~/hrh_v2_stage1_20261008/results/S1_3a_linae_summary.json :: cells['WD|inf']['runs']['kappa_q10_50_90'] (quantiles over non-diverged runs)",
+   "n_runs": 1000,
+   "n_diverged": 12,
+   "n_runs_in_quantiles": 988,
+   "C_drift_rel_median": 0.9999008189519004,
+   "flow_pred_relerr_median": 0.9836320766260755,
+   "runs_source": "~/hrh_v2_stage1_20261008/results/S1_3a_linae_summary.json :: cells['WD|inf']['runs'][n_runs, n_diverged, C_drift_rel_median, flow_pred_relerr_median]",
+   "predicted_marker": 1.032894736842105,
+   "predicted_source": "median over non-diverged runs of cond(1 - lambda_wd/lambda_hat_i), ~/hrh_v2_stage1_20261008/linae/runs/WD/Ninf/chunk*.npz :: S_eigs[:, :4]; lambda_wd = ~/hrh_v2_stage1_20261008/results/S1_3a_linae_summary.json :: meta['wd_lambda']",
+   "predicted_q10_50_90": [
+    1.032894736842105,
+    1.032894736842105,
+    1.032894736842105
+   ]
+  },
+  "TIED": {
+   "y_row": 3.9000000000000004,
+   "row_label": "tied weights",
+   "covered_by_theorem": true,
+   "cond_q10_50_90": [
+    1.00000000000015,
+    1.0000000000014453,
+    1.000000000039594
+   ],
+   "cond_source": "~/hrh_v2_stage1_20261008/results/S1_3a_linae_summary.json :: cells['TIED|inf']['runs']['kappa_q10_50_90'] (quantiles over non-diverged runs)",
+   "n_runs": 1000,
+   "n_diverged": 0,
+   "n_runs_in_quantiles": 1000,
+   "C_drift_rel_median": NaN,
+   "flow_pred_relerr_median": 1.4451773111545663e-12,
+   "runs_source": "~/hrh_v2_stage1_20261008/results/S1_3a_linae_summary.json :: cells['TIED|inf']['runs'][n_runs, n_diverged, C_drift_rel_median, flow_pred_relerr_median]",
+   "predicted_marker": 1.0,
+   "predicted_source": "part 3: tied weights W = E^T give E E^T = I on U_hat, cond = 1 exactly",
+   "predicted_q10_50_90": [
+    1.0,
+    1.0,
+    1.0
+   ]
+  },
+  "P-GD": {
+   "y_row": 5.15,
+   "row_label": "GD, step 0.05",
+   "covered_by_theorem": false,
+   "cond_q10_50_90": [
+    2.116778000047608,
+    3.0604271070167224,
+    4.365653064490072
+   ],
+   "cond_source": "~/hrh_v2_stage1_20261008/results/S1_3a_linae_summary.json :: cells['P-GD|inf']['runs']['kappa_q10_50_90'] (quantiles over non-diverged runs)",
+   "n_runs": 1000,
+   "n_diverged": 14,
+   "n_runs_in_quantiles": 986,
+   "C_drift_rel_median": 0.5330300378179753,
+   "flow_pred_relerr_median": 0.21691203673668216,
+   "runs_source": "~/hrh_v2_stage1_20261008/results/S1_3a_linae_summary.json :: cells['P-GD|inf']['runs'][n_runs, n_diverged, C_drift_rel_median, flow_pred_relerr_median]",
+   "predicted_marker": null,
+   "predicted_source": null,
+   "predicted_q10_50_90": null
+  },
+  "P-SGD": {
+   "y_row": 6.15,
+   "row_label": "SGD",
+   "covered_by_theorem": false,
+   "cond_q10_50_90": [
+    1.0669531338496778,
+    1.194041862866131,
+    1.6069692746536512
+   ],
+   "cond_source": "~/hrh_v2_stage1_20261008/results/S1_3a_linae_summary.json :: cells['P-SGD|inf']['runs']['kappa_q10_50_90'] (quantiles over non-diverged runs)",
+   "n_runs": 1000,
+   "n_diverged": 2,
+   "n_runs_in_quantiles": 998,
+   "C_drift_rel_median": 2.358726421678125,
+   "flow_pred_relerr_median": 0.8705178150814497,
+   "runs_source": "~/hrh_v2_stage1_20261008/results/S1_3a_linae_summary.json :: cells['P-SGD|inf']['runs'][n_runs, n_diverged, C_drift_rel_median, flow_pred_relerr_median]",
+   "predicted_marker": null,
+   "predicted_source": null,
+   "predicted_q10_50_90": null
+  },
+  "P-Adam": {
+   "y_row": 7.15,
+   "row_label": "Adam",
+   "covered_by_theorem": false,
+   "cond_q10_50_90": [
+    1.383372885140098,
+    1.5440305759780024,
+    1.728982554218605
+   ],
+   "cond_source": "~/hrh_v2_stage1_20261008/results/S1_3a_linae_summary.json :: cells['P-Adam|inf']['runs']['kappa_q10_50_90'] (quantiles over non-diverged runs)",
+   "n_runs": 1000,
+   "n_diverged": 0,
+   "n_runs_in_quantiles": 1000,
+   "C_drift_rel_median": 1.9297192012280593,
+   "flow_pred_relerr_median": 0.8343429724455391,
+   "runs_source": "~/hrh_v2_stage1_20261008/results/S1_3a_linae_summary.json :: cells['P-Adam|inf']['runs'][n_runs, n_diverged, C_drift_rel_median, flow_pred_relerr_median]",
+   "predicted_marker": null,
+   "predicted_source": null,
+   "predicted_q10_50_90": null
+  }
+ },
+ "panel_e_band": {
+  "cond_f_spec_C0_q10_50_90": [
+   2.983534400137288,
+   4.669548815313491,
+   7.454032694358561
+  ],
+  "n_runs": 1000,
+  "source": "~/hrh_v2_stage1_20261008/linae/criteria/P-GD-flow_Ninf_runs.csv :: eig_fC0_0..3 (non-diverged rows), cond = max/min per run, then quantiles 0.1/0.5/0.9",
+  "crn_check_median_cond_f_spec_C0_same_init": {
+   "P-GD": 4.641789868412518,
+   "P-SGD": 4.6754029345224115,
+   "P-Adam": 4.669548815313491,
+   "WD": 4.645737057123579
+  }
+ },
+ "panel_e_weight_decay_check": {
+  "status": "computed for the figure, not part of the preregistered analysis",
+  "cond_pred_median": 1.032894736842105,
+  "cond_meas_median": 1.032959005177239,
+  "spec_relerr_median": 0.0002784891266984185,
+  "spec_relerr_max": 0.0004881634948701011,
+  "n_runs": 988,
+  "source": "~/hrh_v2_stage1_20261008/linae/runs/WD/Ninf/chunk0..7.npz :: S_eigs, spec_EEt, diverged"
+ },
+ "quoted_in_v4_text_and_caption": {
+  "n_pairs_finite_N": 48,
+  "n_pairs_inf": 500,
+  "n_runs_per_rule_inf": 1000,
+  "P-GD_C_drift_rel_median(53%)": 0.5330300378179753,
+  "P-GD-flow_C_drift_rel_median(0.18%)": 0.0018161147733525,
+  "P-GD-flow_flow_pred_relerr_median(0.1%)": 0.0010137848660080537,
+  "P-GD-flow_cond_q10_50_90(2.98,4.66,7.43)": [
+   2.975678985189581,
+   4.660436139874179,
+   7.431444658643004
+  ],
+  "WD_cond_predicted(1.033)": 1.032894736842105,
+  "P-SGD_cond_median(1.19)": 1.194041862866131,
+  "P-Adam_cond_median(1.54)": 1.5440305759780024,
+  "P-SGD_CKA_passes_inf(322/500)": 322,
+  "P-Adam_CKA_passes_inf(172/500)": 172,
+  "source": "~/hrh_v2_stage1_20261008/results/S1_3a_linae_summary.json :: cells[...]['runs'|'primary']; WD from the chunk*.npz check above"
+ },
+ "prereg_verdicts": {
+  "P1": {
+   "statement": "P-GD: kNN, Gs and CKA unreliable at every N; the largest-N mean is inside the 95% CI of the N=inf plateau.",
+   "verdict": "FALSIFIED",
+   "source": "~/hrh_v2_stage1_20261008/results/S1_3a_linae_summary.json :: verdicts['P1']"
+  },
+  "P1_secondary_flow": {
+   "statement": "(secondary, deviation arm) same as P1 for full-batch GD at lr=0.002 (gradient-flow proxy).",
+   "verdict": "FALSIFIED",
+   "source": "~/hrh_v2_stage1_20261008/results/S1_3a_linae_summary.json :: verdicts['P1_secondary_flow']"
+  },
+  "P2": {
+   "statement": "WD, TIED and small-init: reliable at the largest N (65536), all four criteria.",
+   "verdict": "CONFIRMED",
+   "source": "~/hrh_v2_stage1_20261008/results/S1_3a_linae_summary.json :: verdicts['P2']"
+  },
+  "P2_gauge_criteria_only": {
+   "statement": "(reading check) P2 restricted to kNN, Gs, CKA",
+   "verdict": "CONFIRMED",
+   "source": "~/hrh_v2_stage1_20261008/results/S1_3a_linae_summary.json :: verdicts['P2_gauge_criteria_only']"
+  },
+  "P3": {
+   "statement": "Projector criterion reliable in every arm at the largest N (65536).",
+   "verdict": "CONFIRMED",
+   "source": "~/hrh_v2_stage1_20261008/results/S1_3a_linae_summary.json :: verdicts['P3']"
+  },
+  "P4": {
+   "statement": "P-SGD and P-Adam: no prediction (Ziyin & Chuang self-balancing question); outcome reported.",
+   "verdict": "NO PREDICTION (outcome reported)",
+   "source": "~/hrh_v2_stage1_20261008/results/S1_3a_linae_summary.json :: verdicts['P4']"
+  }
+ },
+ "crosscheck_v5_1": {
+  "path": "~/hrh_v2_figs/v5_1/F_linae_app/numbers.json",
+  "sha256": "7c6fda32cfcc6d713a372afd0c7df67c140bbc131c1985c274bd00034c63dacf",
+  "result": "panels_a_to_d, panel_e_band, panel_e_weight_decay_check, quoted_in_v4_text_and_caption, prereg_verdicts and summary_meta equal the v5.1 numbers.json exactly; panel_e equal except row_label, y_row (geometry) and the prediction range added in v6 r2 (asserted)",
+  "row_labels_v5_1": {
+   "P-GD-flow": "GD, step 0.002 (secondary, part 1)",
+   "small-init": "small init. (part 1)",
+   "P-GD": "GD, step 0.05 (preregistered)"
+  }
+ },
+ "crosscheck_v6": {
+  "path": "~/hrh_v2_figs/v6/F_linae_app/numbers.json",
+  "sha256": "c38c0307d5982be6e82bac353c1e2b2288e2a4611bde6e69089c0bb4c2c0b724",
+  "result": "panels_a_to_d, panel_e (except y_row and row_label), panel_e_band, panel_e_weight_decay_check, quoted_in_v4_text_and_caption, prereg_verdicts, summary_meta and results_text_numbers equal the v6 numbers.json exactly; encoding equal except e, colours and text_tones (asserted)",
+  "row_labels_v6": {
+   "P-GD-flow": "GD, step 0.002 (part 1)",
+   "small-init": "small init. (part 1, $C_0\\approx 0$)",
+   "WD": "weight decay (part 3)",
+   "TIED": "tied weights (part 3)",
+   "P-GD": "GD, step 0.05 ($C$ not conserved)",
+   "P-SGD": "SGD, batch 16",
+   "P-Adam": "Adam, batch 16"
+  },
+  "colour_changes_v6_to_v8": {
+   "P-GD-flow": [
+    "#000000",
+    "#222255"
+   ],
+   "P-GD": [
+    "#000000",
+    "#222255"
+   ]
+  }
+ },
+ "crosscheck_F_gauge_c_prediction_ranges": {
+  "path": "~/hrh_v2_figs/v6/F_gauge/numbers.json",
+  "sha256": "a08bd5362de9c26bab91296da02db82860cba2a794d1a4867246fa08ab91fe1f",
+  "equal_to_1e12": {
+   "P-GD-flow": true,
+   "small-init": true,
+   "WD": true,
+   "TIED": true
+  }
+ },
+ "results_text_numbers": [
+  {
+   "id": "gd_no_regularizer_zero_passes",
+   "printed": "0 of 48 pairs at each finite N and 0 of 500 at N = inf on neighbor sets, G_s and CKA, at step 0.05 (preregistered) and step 0.002; unreliable in all 24 cells",
+   "value": {
+    "P-GD": {
+     "kNN": {
+      "256": "0/48",
+      "4096": "0/48",
+      "65536": "0/48",
+      "inf": "0/500"
+     },
+     "Gs": {
+      "256": "0/48",
+      "4096": "0/48",
+      "65536": "0/48",
+      "inf": "0/500"
+     },
+     "CKA": {
+      "256": "0/48",
+      "4096": "0/48",
+      "65536": "0/48",
+      "inf": "0/500"
+     }
+    },
+    "P-GD-flow": {
+     "kNN": {
+      "256": "0/48",
+      "4096": "0/48",
+      "65536": "0/48",
+      "inf": "0/500"
+     },
+     "Gs": {
+      "256": "0/48",
+      "4096": "0/48",
+      "65536": "0/48",
+      "inf": "0/500"
+     },
+     "CKA": {
+      "256": "0/48",
+      "4096": "0/48",
+      "65536": "0/48",
+      "inf": "0/500"
+     }
+    }
+   },
+   "in_v4": "caption (a-d)",
+   "use_in_results": "Results (a-c): the first half of the message",
+   "source": "~/hrh_v2_stage1_20261008/results/S1_3a_linae_summary.json",
+   "sha256": "7650e6b9c3da19b6700e2366e850222b95f22c21c9dea4a352a40783f8ccfca6",
+   "key": "cells['<P-GD|P-GD-flow>|<256|4096|65536|inf>']['primary']['<kNN|Gs|CKA>'][passes, n_pairs, decision]"
+  },
+  {
+   "id": "regularized_reliable_from_2^12",
+   "printed": "on all four criteria: small init. 48/48, 48/48, 500/500, tied weights 48/48, 48/48, 500/500, weight decay 47/48, 47/48, 488/500 pairs (N = 2^12, 2^16, inf); smallest one-sided lower bound 0.905 (> 0.9)",
+   "value": {
+    "small-init": {
+     "kNN": {
+      "4096": {
+       "passes": 48,
+       "n_pairs": 48,
+       "cp_lower": 0.9394965906511057,
+       "decision": "reliable"
+      },
+      "65536": {
+       "passes": 48,
+       "n_pairs": 48,
+       "cp_lower": 0.9394965906511057,
+       "decision": "reliable"
+      },
+      "inf": {
+       "passes": 500,
+       "n_pairs": 500,
+       "cp_lower": 0.9940264484836504,
+       "decision": "reliable"
+      }
+     },
+     "Gs": {
+      "4096": {
+       "passes": 48,
+       "n_pairs": 48,
+       "cp_lower": 0.9394965906511057,
+       "decision": "reliable"
+      },
+      "65536": {
+       "passes": 48,
+       "n_pairs": 48,
+       "cp_lower": 0.9394965906511057,
+       "decision": "reliable"
+      },
+      "inf": {
+       "passes": 500,
+       "n_pairs": 500,
+       "cp_lower": 0.9940264484836504,
+       "decision": "reliable"
+      }
+     },
+     "CKA": {
+      "4096": {
+       "passes": 48,
+       "n_pairs": 48,
+       "cp_lower": 0.9394965906511057,
+       "decision": "reliable"
+      },
+      "65536": {
+       "passes": 48,
+       "n_pairs": 48,
+       "cp_lower": 0.9394965906511057,
+       "decision": "reliable"
+      },
+      "inf": {
+       "passes": 500,
+       "n_pairs": 500,
+       "cp_lower": 0.9940264484836504,
+       "decision": "reliable"
+      }
+     },
+     "proj": {
+      "4096": {
+       "passes": 48,
+       "n_pairs": 48,
+       "cp_lower": 0.9394965906511057,
+       "decision": "reliable"
+      },
+      "65536": {
+       "passes": 48,
+       "n_pairs": 48,
+       "cp_lower": 0.9394965906511057,
+       "decision": "reliable"
+      },
+      "inf": {
+       "passes": 500,
+       "n_pairs": 500,
+       "cp_lower": 0.9940264484836504,
+       "decision": "reliable"
+      }
+     }
+    },
+    "WD": {
+     "kNN": {
+      "4096": {
+       "passes": 47,
+       "n_pairs": 48,
+       "cp_lower": 0.9049413753758644,
+       "decision": "reliable"
+      },
+      "65536": {
+       "passes": 47,
+       "n_pairs": 48,
+       "cp_lower": 0.9049413753758644,
+       "decision": "reliable"
+      },
+      "inf": {
+       "passes": 488,
+       "n_pairs": 500,
+       "cp_lower": 0.9614044211601033,
+       "decision": "reliable"
+      }
+     },
+     "Gs": {
+      "4096": {
+       "passes": 47,
+       "n_pairs": 48,
+       "cp_lower": 0.9049413753758644,
+       "decision": "reliable"
+      },
+      "65536": {
+       "passes": 47,
+       "n_pairs": 48,
+       "cp_lower": 0.9049413753758644,
+       "decision": "reliable"
+      },
+      "inf": {
+       "passes": 488,
+       "n_pairs": 500,
+       "cp_lower": 0.9614044211601033,
+       "decision": "reliable"
+      }
+     },
+     "CKA": {
+      "4096": {
+       "passes": 47,
+       "n_pairs": 48,
+       "cp_lower": 0.9049413753758644,
+       "decision": "reliable"
+      },
+      "65536": {
+       "passes": 47,
+       "n_pairs": 48,
+       "cp_lower": 0.9049413753758644,
+       "decision": "reliable"
+      },
+      "inf": {
+       "passes": 488,
+       "n_pairs": 500,
+       "cp_lower": 0.9614044211601033,
+       "decision": "reliable"
+      }
+     },
+     "proj": {
+      "4096": {
+       "passes": 47,
+       "n_pairs": 48,
+       "cp_lower": 0.9049413753758644,
+       "decision": "reliable"
+      },
+      "65536": {
+       "passes": 47,
+       "n_pairs": 48,
+       "cp_lower": 0.9049413753758644,
+       "decision": "reliable"
+      },
+      "inf": {
+       "passes": 488,
+       "n_pairs": 500,
+       "cp_lower": 0.9614044211601033,
+       "decision": "reliable"
+      }
+     }
+    },
+    "TIED": {
+     "kNN": {
+      "4096": {
+       "passes": 48,
+       "n_pairs": 48,
+       "cp_lower": 0.9394965906511057,
+       "decision": "reliable"
+      },
+      "65536": {
+       "passes": 48,
+       "n_pairs": 48,
+       "cp_lower": 0.9394965906511057,
+       "decision": "reliable"
+      },
+      "inf": {
+       "passes": 500,
+       "n_pairs": 500,
+       "cp_lower": 0.9940264484836504,
+       "decision": "reliable"
+      }
+     },
+     "Gs": {
+      "4096": {
+       "passes": 48,
+       "n_pairs": 48,
+       "cp_lower": 0.9394965906511057,
+       "decision": "reliable"
+      },
+      "65536": {
+       "passes": 48,
+       "n_pairs": 48,
+       "cp_lower": 0.9394965906511057,
+       "decision": "reliable"
+      },
+      "inf": {
+       "passes": 500,
+       "n_pairs": 500,
+       "cp_lower": 0.9940264484836504,
+       "decision": "reliable"
+      }
+     },
+     "CKA": {
+      "4096": {
+       "passes": 48,
+       "n_pairs": 48,
+       "cp_lower": 0.9394965906511057,
+       "decision": "reliable"
+      },
+      "65536": {
+       "passes": 48,
+       "n_pairs": 48,
+       "cp_lower": 0.9394965906511057,
+       "decision": "reliable"
+      },
+      "inf": {
+       "passes": 500,
+       "n_pairs": 500,
+       "cp_lower": 0.9940264484836504,
+       "decision": "reliable"
+      }
+     },
+     "proj": {
+      "4096": {
+       "passes": 48,
+       "n_pairs": 48,
+       "cp_lower": 0.9394965906511057,
+       "decision": "reliable"
+      },
+      "65536": {
+       "passes": 48,
+       "n_pairs": 48,
+       "cp_lower": 0.9394965906511057,
+       "decision": "reliable"
+      },
+      "inf": {
+       "passes": 500,
+       "n_pairs": 500,
+       "cp_lower": 0.9940264484836504,
+       "decision": "reliable"
+      }
+     }
+    }
+   },
+   "in_v4": "caption (a-d), without counts",
+   "use_in_results": "Results (a-d): the second half of the message",
+   "source": "~/hrh_v2_stage1_20261008/results/S1_3a_linae_summary.json",
+   "sha256": "7650e6b9c3da19b6700e2366e850222b95f22c21c9dea4a352a40783f8ccfca6",
+   "key": "cells['<small-init|WD|TIED>|<4096|65536|inf>']['primary']['<kNN|Gs|CKA|proj>'][passes, n_pairs, cp_lower, decision]"
+  },
+  {
+   "id": "regularized_at_2^8",
+   "printed": "at N = 2^8 the three rules are unreliable on neighbor sets and G_s (0/48 each); on CKA and the projector small init. and tied weights pass 48/48 (reliable) and weight decay 46/48 (inconclusive; both failing pairs contain a diverged run)",
+   "value": {
+    "small-init": {
+     "kNN": {
+      "frac": "0/48",
+      "decision": "unreliable",
+      "n_fail_by_divergence": 0
+     },
+     "Gs": {
+      "frac": "0/48",
+      "decision": "unreliable",
+      "n_fail_by_divergence": 0
+     },
+     "CKA": {
+      "frac": "48/48",
+      "decision": "reliable",
+      "n_fail_by_divergence": 0
+     },
+     "proj": {
+      "frac": "48/48",
+      "decision": "reliable",
+      "n_fail_by_divergence": 0
+     }
+    },
+    "WD": {
+     "kNN": {
+      "frac": "0/48",
+      "decision": "unreliable",
+      "n_fail_by_divergence": 2
+     },
+     "Gs": {
+      "frac": "0/48",
+      "decision": "unreliable",
+      "n_fail_by_divergence": 2
+     },
+     "CKA": {
+      "frac": "46/48",
+      "decision": "inconclusive",
+      "n_fail_by_divergence": 2
+     },
+     "proj": {
+      "frac": "46/48",
+      "decision": "inconclusive",
+      "n_fail_by_divergence": 2
+     }
+    },
+    "TIED": {
+     "kNN": {
+      "frac": "0/48",
+      "decision": "unreliable",
+      "n_fail_by_divergence": 0
+     },
+     "Gs": {
+      "frac": "0/48",
+      "decision": "unreliable",
+      "n_fail_by_divergence": 0
+     },
+     "CKA": {
+      "frac": "48/48",
+      "decision": "reliable",
+      "n_fail_by_divergence": 0
+     },
+     "proj": {
+      "frac": "48/48",
+      "decision": "reliable",
+      "n_fail_by_divergence": 0
+     }
+    }
+   },
+   "in_v4": "not in v4 (visible in a-d)",
+   "use_in_results": "Results (a, b): the onset at 2^12 is on neighbor sets and G_s",
+   "source": "~/hrh_v2_stage1_20261008/results/S1_3a_linae_summary.json",
+   "sha256": "7650e6b9c3da19b6700e2366e850222b95f22c21c9dea4a352a40783f8ccfca6",
+   "key": "cells['<small-init|WD|TIED>|<256>']['primary']['<kNN|Gs|CKA|proj>'][passes, n_pairs, decision, n_fail_by_divergence]"
+  },
+  {
+   "id": "projector_reliable_every_rule",
+   "printed": "reliable for all seven rules at N >= 2^12 (fewest passes 47/48 at 2^12 and 2^16, 486/500 at inf, GD step 0.05); at 2^8 GD step 0.05 and weight decay are inconclusive (46/48, 46/48), the other five reliable",
+   "value": {
+    "P-GD-flow": {
+     "256": {
+      "frac": "48/48",
+      "decision": "reliable"
+     },
+     "4096": {
+      "frac": "48/48",
+      "decision": "reliable"
+     },
+     "65536": {
+      "frac": "48/48",
+      "decision": "reliable"
+     },
+     "inf": {
+      "frac": "500/500",
+      "decision": "reliable"
+     }
+    },
+    "small-init": {
+     "256": {
+      "frac": "48/48",
+      "decision": "reliable"
+     },
+     "4096": {
+      "frac": "48/48",
+      "decision": "reliable"
+     },
+     "65536": {
+      "frac": "48/48",
+      "decision": "reliable"
+     },
+     "inf": {
+      "frac": "500/500",
+      "decision": "reliable"
+     }
+    },
+    "WD": {
+     "256": {
+      "frac": "46/48",
+      "decision": "inconclusive"
+     },
+     "4096": {
+      "frac": "47/48",
+      "decision": "reliable"
+     },
+     "65536": {
+      "frac": "47/48",
+      "decision": "reliable"
+     },
+     "inf": {
+      "frac": "488/500",
+      "decision": "reliable"
+     }
+    },
+    "TIED": {
+     "256": {
+      "frac": "48/48",
+      "decision": "reliable"
+     },
+     "4096": {
+      "frac": "48/48",
+      "decision": "reliable"
+     },
+     "65536": {
+      "frac": "48/48",
+      "decision": "reliable"
+     },
+     "inf": {
+      "frac": "500/500",
+      "decision": "reliable"
+     }
+    },
+    "P-GD": {
+     "256": {
+      "frac": "46/48",
+      "decision": "inconclusive"
+     },
+     "4096": {
+      "frac": "47/48",
+      "decision": "reliable"
+     },
+     "65536": {
+      "frac": "47/48",
+      "decision": "reliable"
+     },
+     "inf": {
+      "frac": "486/500",
+      "decision": "reliable"
+     }
+    },
+    "P-SGD": {
+     "256": {
+      "frac": "48/48",
+      "decision": "reliable"
+     },
+     "4096": {
+      "frac": "48/48",
+      "decision": "reliable"
+     },
+     "65536": {
+      "frac": "48/48",
+      "decision": "reliable"
+     },
+     "inf": {
+      "frac": "498/500",
+      "decision": "reliable"
+     }
+    },
+    "P-Adam": {
+     "256": {
+      "frac": "48/48",
+      "decision": "reliable"
+     },
+     "4096": {
+      "frac": "48/48",
+      "decision": "reliable"
+     },
+     "65536": {
+      "frac": "48/48",
+      "decision": "reliable"
+     },
+     "inf": {
+      "frac": "500/500",
+      "decision": "reliable"
+     }
+    }
+   },
+   "in_v4": "caption (a-d)",
+   "use_in_results": "Results (d): part 4 of the theorem; P3",
+   "source": "~/hrh_v2_stage1_20261008/results/S1_3a_linae_summary.json",
+   "sha256": "7650e6b9c3da19b6700e2366e850222b95f22c21c9dea4a352a40783f8ccfca6",
+   "key": "cells['<P-GD-flow|small-init|WD|TIED|P-GD|P-SGD|P-Adam>|<256|4096|65536|inf>']['primary']['<proj>'][passes, n_pairs, decision]"
+  },
+  {
+   "id": "failures_are_divergences",
+   "printed": "every failing pair at N >= 2^12 (projector, and every criterion for weight decay) contains a diverged run: GD step 0.05 1, 1, 14, weight decay 1, 1, 12 pairs (2^12, 2^16, inf; both at step 0.05), SGD 2 pairs at inf (minibatch phase)",
+   "value": {
+    "failing_pairs": {
+     "WD": {
+      "4096": 1,
+      "65536": 1,
+      "inf": 12
+     },
+     "P-GD": {
+      "4096": 1,
+      "65536": 1,
+      "inf": 14
+     },
+     "P-SGD": {
+      "inf": 2
+     }
+    },
+    "diverged_runs_at_inf": {
+     "WD": {
+      "n_diverged": 12,
+      "stochastic_phase": 0,
+      "gd_or_polish": 12
+     },
+     "P-GD": {
+      "n_diverged": 14,
+      "stochastic_phase": 0,
+      "gd_or_polish": 14
+     },
+     "P-SGD": {
+      "n_diverged": 2,
+      "stochastic_phase": 2,
+      "gd_or_polish": 0
+     }
+    }
+   },
+   "in_v4": "caption (a-d)",
+   "use_in_results": "Results (d) or a footnote",
+   "source": "~/hrh_v2_stage1_20261008/results/S1_3a_linae_summary.json",
+   "sha256": "7650e6b9c3da19b6700e2366e850222b95f22c21c9dea4a352a40783f8ccfca6",
+   "key": "cells['<P-GD-flow|small-init|WD|TIED|P-GD|P-SGD|P-Adam>|<4096|65536|inf>']['primary']['<kNN|Gs|CKA|proj>'][passes, n_pairs, n_fail_by_divergence]; cells['<WD|P-GD|P-SGD>|inf']['runs'][n_diverged, n_diverged_stochastic_phase, n_diverged_gd_or_polish]"
+  },
+  {
+   "id": "sgd_adam_unreliable",
+   "printed": "unreliable on neighbor sets, G_s and CKA at every N; at N = inf SGD passes 164/500 (neighbor sets), 12/500 (G_s), 322/500 (CKA) and Adam 13/500, 0/500, 172/500",
+   "value": {
+    "P-SGD": {
+     "kNN": {
+      "frac": "164/500",
+      "p_hat": 0.328,
+      "cp_upper": 0.364232095185183
+     },
+     "Gs": {
+      "frac": "12/500",
+      "p_hat": 0.024,
+      "cp_upper": 0.038595578839896755
+     },
+     "CKA": {
+      "frac": "322/500",
+      "p_hat": 0.644,
+      "cp_upper": 0.6795195778404732
+     }
+    },
+    "P-Adam": {
+     "kNN": {
+      "frac": "13/500",
+      "p_hat": 0.026,
+      "cp_upper": 0.041019868160438115
+     },
+     "Gs": {
+      "frac": "0/500",
+      "p_hat": 0.0,
+      "cp_upper": 0.005973551516349557
+     },
+     "CKA": {
+      "frac": "172/500",
+      "p_hat": 0.344,
+      "cp_upper": 0.3805681641167191
+     }
+    }
+   },
+   "in_v4": "caption (322 and 172 of 500 on CKA in the v4 text)",
+   "use_in_results": "Results (a-c): rules outside the theorem; P4 (no prediction)",
+   "source": "~/hrh_v2_stage1_20261008/results/S1_3a_linae_summary.json",
+   "sha256": "7650e6b9c3da19b6700e2366e850222b95f22c21c9dea4a352a40783f8ccfca6",
+   "key": "cells['<P-SGD|P-Adam>|<256|4096|65536|inf>']['primary']['<kNN|Gs|CKA>'][passes, n_pairs, decision, p_hat, cp_upper]"
+  },
+  {
+   "id": "runs_per_rule_e",
+   "printed": "1000 runs per rule at N = inf (986 non-diverged for GD step 0.05, 988 weight decay, 998 SGD)",
+   "value": {
+    "P-GD-flow": {
+     "n_runs": 1000,
+     "n_in_quantiles": 1000
+    },
+    "small-init": {
+     "n_runs": 1000,
+     "n_in_quantiles": 1000
+    },
+    "WD": {
+     "n_runs": 1000,
+     "n_in_quantiles": 988
+    },
+    "TIED": {
+     "n_runs": 1000,
+     "n_in_quantiles": 1000
+    },
+    "P-GD": {
+     "n_runs": 1000,
+     "n_in_quantiles": 986
+    },
+    "P-SGD": {
+     "n_runs": 1000,
+     "n_in_quantiles": 998
+    },
+    "P-Adam": {
+     "n_runs": 1000,
+     "n_in_quantiles": 1000
+    }
+   },
+   "in_v4": "caption (e): '1000 runs'",
+   "use_in_results": "Results (e) or the setup paragraph",
+   "source": "~/hrh_v2_stage1_20261008/results/S1_3a_linae_summary.json",
+   "sha256": "7650e6b9c3da19b6700e2366e850222b95f22c21c9dea4a352a40783f8ccfca6",
+   "key": "cells['<P-GD-flow|small-init|WD|TIED|P-GD|P-SGD|P-Adam>|inf']['runs'][n_runs, n_diverged]"
+  },
+  {
+   "id": "C_drift_and_flow_fit",
+   "printed": "relative drift of C: median 0.18% at step 0.002 against 53% at step 0.05; learned spectrum = f(spec C0) to a median relative error of 0.1% at step 0.002",
+   "value": {
+    "C_drift_rel_median": {
+     "P-GD-flow": 0.0018161147733525,
+     "P-GD": 0.5330300378179753
+    },
+    "flow_pred_relerr_median": {
+     "P-GD-flow": 0.0010137848660080537,
+     "P-GD": 0.21691203673668216
+    }
+   },
+   "in_v4": "Appendix F text (Gradient Flow and Other Optimizers)",
+   "use_in_results": "Results (e): why step 0.002 stands in for gradient flow",
+   "source": "~/hrh_v2_stage1_20261008/results/S1_3a_linae_summary.json",
+   "sha256": "7650e6b9c3da19b6700e2366e850222b95f22c21c9dea4a352a40783f8ccfca6",
+   "key": "cells['<P-GD-flow|P-GD>|inf']['runs'][C_drift_rel_median, flow_pred_relerr_median]"
+  },
+  {
+   "id": "cond_flow_vs_band",
+   "printed": "step 0.002: median 4.66 (10-90%: 2.98-7.43); predicted cond f(spec C0) over the same runs: 4.67 (2.98-7.45)",
+   "value": {
+    "measured_q10_50_90": [
+     2.975678985189581,
+     4.660436139874179,
+     7.431444658643004
+    ],
+    "predicted_q10_50_90": [
+     2.983534400137288,
+     4.669548815313491,
+     7.454032694358561
+    ]
+   },
+   "in_v4": "Appendix F text (2.98 / 4.66 / 7.43)",
+   "use_in_results": "Results (e): part 1 holds; the initialization sets the gauge",
+   "source": "~/hrh_v2_stage1_20261008/results/S1_3a_linae_summary.json",
+   "sha256": "7650e6b9c3da19b6700e2366e850222b95f22c21c9dea4a352a40783f8ccfca6",
+   "key": "cells['<P-GD-flow>|inf']['runs'][kappa_q10_50_90]; band: numbers.json panel_e_band (from ~/hrh_v2_stage1_20261008/linae/criteria/P-GD-flow_Ninf_runs.csv :: eig_fC0_0..3)"
+  },
+  {
+   "id": "cond_step005",
+   "printed": "step 0.05 (outside the theorem, C drifts): median 3.06 (10-90%: 2.12-4.37), in the lower part of the range predicted for gradient flow from the same initializations",
+   "value": [
+    2.116778000047608,
+    3.0604271070167224,
+    4.365653064490072
+   ],
+   "in_v4": "not in v4 (visible in e)",
+   "use_in_results": "Results (e), optional",
+   "source": "~/hrh_v2_stage1_20261008/results/S1_3a_linae_summary.json",
+   "sha256": "7650e6b9c3da19b6700e2366e850222b95f22c21c9dea4a352a40783f8ccfca6",
+   "key": "cells['<P-GD>|inf']['runs'][kappa_q10_50_90]"
+  },
+  {
+   "id": "cond_weight_decay",
+   "printed": "predicted (part 3) 1.0329, measured median 1.0330 (10-90%: 1.0328-1.0331); spectra agree to a median relative error of 2.8e-04",
+   "value": {
+    "predicted_median": 1.032894736842105,
+    "measured_q10_50_90": [
+     1.0328034378460123,
+     1.032959005177239,
+     1.0331281609999163
+    ],
+    "spec_relerr_median": 0.0002784891266984185,
+    "status": "computed for the figure, not preregistered"
+   },
+   "in_v4": "caption and Appendix F text (1.033)",
+   "use_in_results": "Results (e): part 3 holds",
+   "source": "~/hrh_v2_stage1_20261008/results/S1_3a_linae_summary.json",
+   "sha256": "7650e6b9c3da19b6700e2366e850222b95f22c21c9dea4a352a40783f8ccfca6",
+   "key": "numbers.json panel_e_weight_decay_check (from ~/hrh_v2_stage1_20261008/linae/runs/WD/Ninf/chunk*.npz :: S_eigs, spec_EEt, diverged; lambda_wd = meta['wd_lambda']); measured: cells['<WD>|inf']['runs'][kappa_q10_50_90]"
+  },
+  {
+   "id": "small_init_C_near_zero",
+   "printed": "small init.: |C| median 0.0024 at the start and 0.0036 at the end (relative drift is large only because C0 is tiny); learned spectrum = f(spec C0) to a median relative error of 0.065%",
+   "value": {
+    "C0_norm_median": 0.00240977089177705,
+    "Cend_norm_median": 0.0035652954693305497,
+    "C_drift_rel_median": 1.18641915404816,
+    "flow_pred_relerr_median": 0.0006510971113867223
+   },
+   "in_v4": "not in v4",
+   "use_in_results": "Results (e) or the caption clause 'from small initialization C stays near zero'",
+   "source": "~/hrh_v2_stage1_20261008/results/S1_3a_linae_summary.json",
+   "sha256": "7650e6b9c3da19b6700e2366e850222b95f22c21c9dea4a352a40783f8ccfca6",
+   "key": "cells['<small-init>|inf']['runs'][C0_norm_median, Cend_norm_median, C_drift_rel_median, flow_pred_relerr_median]"
+  },
+  {
+   "id": "covered_rules_same_step",
+   "printed": "weight decay, tied weights and small init. train with full-batch GD at step 0.05, the preregistered GD step (linae ANALYSIS_PLAN deviation 2)",
+   "value": {
+    "P-GD-flow": {
+     "opt": "gd",
+     "lr": 0.002
+    },
+    "small-init": {
+     "opt": "gd",
+     "lr": 0.05
+    },
+    "WD": {
+     "opt": "gd",
+     "lr": 0.05
+    },
+    "TIED": {
+     "opt": "gd",
+     "lr": 0.05
+    },
+    "P-GD": {
+     "opt": "gd",
+     "lr": 0.05
+    },
+    "P-SGD": {
+     "opt": "sgd",
+     "lr": 0.02
+    },
+    "P-Adam": {
+     "opt": "adam",
+     "lr": 0.001
+    }
+   },
+   "in_v4": "not in v4",
+   "use_in_results": "caption clause and Appendix F setup: why GD at step 0.05 is outside part 1 while these rules are covered",
+   "source": "~/hrh_v2_stage1_20261008/results/S1_3a_linae_summary.json",
+   "sha256": "7650e6b9c3da19b6700e2366e850222b95f22c21c9dea4a352a40783f8ccfca6",
+   "key": "meta['arms'][<rule>][opt, lr]"
+  },
+  {
+   "id": "pred_ranges_e",
+   "printed": "predicted 10-90% over runs: small init. 1.00101-1.00209, weight decay 1.03289-1.03289, tied weights 1",
+   "value": {
+    "P-GD-flow": [
+     2.983534400137288,
+     4.669548815313491,
+     7.454032694358561
+    ],
+    "small-init": [
+     1.001005228802024,
+     1.0014922237059358,
+     1.002089529141588
+    ],
+    "WD": [
+     1.032894736842105,
+     1.032894736842105,
+     1.032894736842105
+    ],
+    "TIED": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "in_v4": "not in v4 (drawn in e)",
+   "use_in_results": "Results (e), optional",
+   "source": "~/hrh_v2_stage1_20261008/results/S1_3a_linae_summary.json",
+   "sha256": "7650e6b9c3da19b6700e2366e850222b95f22c21c9dea4a352a40783f8ccfca6",
+   "key": "numbers.json panel_e['<rule>']['predicted_q10_50_90'] (small init.: ~/hrh_v2_stage1_20261008/linae/criteria/small-init_Ninf_runs.csv :: eig_fC0_0..3; weight decay: ~/hrh_v2_stage1_20261008/linae/runs/WD/Ninf/chunk*.npz :: S_eigs)"
+  },
+  {
+   "id": "cond_tied_and_small_init",
+   "printed": "tied weights: predicted 1, measured median 1 + 1e-12; small init.: predicted median 1.0015, measured median 1.0022 (10-90%: 1.0014-1.0033)",
+   "value": {
+    "TIED": {
+     "predicted": 1.0,
+     "measured_q10_50_90": [
+      1.00000000000015,
+      1.0000000000014453,
+      1.000000000039594
+     ]
+    },
+    "small_init": {
+     "predicted_median": 1.0014922237059358,
+     "measured_q10_50_90": [
+      1.001449571889372,
+      1.002214634081173,
+      1.0033284536730627
+     ]
+    }
+   },
+   "in_v4": "caption (tied weights reach 1); small init. not in v4",
+   "use_in_results": "Results (e)",
+   "source": "~/hrh_v2_stage1_20261008/results/S1_3a_linae_summary.json",
+   "sha256": "7650e6b9c3da19b6700e2366e850222b95f22c21c9dea4a352a40783f8ccfca6",
+   "key": "cells['<TIED|small-init>|inf']['runs'][kappa_q10_50_90]; small-init prediction: numbers.json panel_e['small-init']['predicted_marker'] (median cond f(spec C0) over runs)"
+  },
+  {
+   "id": "cond_sgd_adam",
+   "printed": "SGD median 1.19 (10-90%: 1.07-1.61), Adam 1.54 (1.38-1.73): between the balanced value 1 and the gradient-flow prediction for step 0.002",
+   "value": {
+    "P-SGD": [
+     1.0669531338496778,
+     1.194041862866131,
+     1.6069692746536512
+    ],
+    "P-Adam": [
+     1.383372885140098,
+     1.5440305759780024,
+     1.728982554218605
+    ]
+   },
+   "in_v4": "Appendix F text (1.19, 1.54)",
+   "use_in_results": "Results (e): outside the theorem",
+   "source": "~/hrh_v2_stage1_20261008/results/S1_3a_linae_summary.json",
+   "sha256": "7650e6b9c3da19b6700e2366e850222b95f22c21c9dea4a352a40783f8ccfca6",
+   "key": "cells['<P-SGD|P-Adam>|inf']['runs'][kappa_q10_50_90]"
+  },
+  {
+   "id": "prereg_verdicts",
+   "printed": "P2 and P3 confirmed; P1 falsified on its plateau test only (part b fails on Gs and CKA; part a, unreliable at every N, holds in 12 of 12 cells); the step-0.002 replicate (P1_secondary_flow) is falsified the same way, with part b failing on kNN, Gs, CKA; P4 (SGD, Adam) had no prediction",
+   "value": {
+    "P1": {
+     "verdict": "FALSIFIED",
+     "failed_parts": [
+      [
+       "b",
+       "Gs",
+       null
+      ],
+      [
+       "b",
+       "CKA",
+       null
+      ]
+     ]
+    },
+    "P1_secondary_flow": {
+     "verdict": "FALSIFIED",
+     "failed_parts": [
+      [
+       "b",
+       "kNN",
+       null
+      ],
+      [
+       "b",
+       "Gs",
+       null
+      ],
+      [
+       "b",
+       "CKA",
+       null
+      ]
+     ]
+    },
+    "P2": {
+     "verdict": "CONFIRMED",
+     "failed_parts": []
+    },
+    "P3": {
+     "verdict": "CONFIRMED",
+     "failed_parts": []
+    },
+    "P4": {
+     "verdict": "NO PREDICTION (outcome reported)",
+     "failed_parts": []
+    }
+   },
+   "in_v4": "caption (last sentence)",
+   "use_in_results": "Results or Observation box: status of the predictions",
+   "source": "~/hrh_v2_stage1_20261008/results/S1_3a_linae_summary.json",
+   "sha256": "7650e6b9c3da19b6700e2366e850222b95f22c21c9dea4a352a40783f8ccfca6",
+   "key": "verdicts['<P1|P1_secondary_flow|P2|P3|P4>'][verdict, detail]"
+  }
+ ],
+ "on_panel_numbers": {
+  "decision_levels_a_to_d": {
+   "values": [
+    0.9,
+    0.8
+   ],
+   "status": "preregistered design constants, drawn as grey lines without a label (v8; v6 named them in (d))",
+   "source": "PREREG S1.3a / linae ANALYSIS_PLAN (decision rule)"
+  },
+  "note": "v8: no number is printed on the panels besides tick labels (v6 printed the tolerances under the heads and the pair counts in the a-d x label; both now live in Appendix app:exp-s13a, see MOVED.md)"
+ },
+ "on_panel_numbers_v6": {
+  "xlabel_a_to_d": {
+   "text": "training sample size $N$ (48 disjoint pairs per finite $N$; 500 at $N=\\infty$)",
+   "values": [
+    48,
+    500
+   ],
+   "status": "design constants",
+   "source": "~/hrh_v2_stage1_20261008/results/S1_3a_linae_summary.json",
+   "key": "cells['<rule>|<N>']['primary']['<criterion>']['n_pairs'] (48 for every finite N, 500 at N = inf; asserted for all rules and criteria)"
+  },
+  "tolerances_a_to_d": {
+   "values": {
+    "kNN": 0.05,
+    "Gs": 0.02,
+    "CKA": 0.01,
+    "proj": 0.01
+   },
+   "status": "preregistered design constants",
+   "source": "~/hrh_v2_stage1_20261008/results/S1_3a_linae_summary.json",
+   "key": "meta['eps']"
+  },
+  "decision_levels_d": {
+   "values": [
+    0.9,
+    0.8
+   ],
+   "status": "preregistered design constants",
+   "source": "PREREG S1.3a / linae ANALYSIS_PLAN (decision rule)"
+  },
+  "note": "no result number is printed on the panels"
+ },
+ "caption_v6": "\\caption{\\textbf{In the linear autoencoder, gradient descent without a regularizer stays unreliable at every sample size on the criteria that see the gauge (a--c), whereas weight decay, tied weights, and small initialization are reliable on all four from $N=2^{12}$ (Theorem~\\ref{thm:gauge}).} (a--d) Fraction of disjoint run pairs, differing in initialization and training sample, within the preregistered tolerance against the sample size $N$ ($N=\\infty$ is the population). Bars are one-sided $95\\%$ Clopper--Pearson bounds; grey lines are the decision levels stated in (d). Panels (a--c) test parts~1 to~3; the projector (d) does not see the gauge (part~4) and is the control. (e) Anisotropy of the learned gauge at $N=\\infty$, measured and as predicted by the theorem part in the row label: median and 10th to 90th percentile of runs. Weight decay, tied weights, and small initialization use the preregistered step: part~3 holds at any step, and small initialization keeps the imbalance $C$ of part~1 near zero, which the rules outside the theorem change. Table~\\ref{tab:app-s13a} gives every decision; Figure~\\ref{fig:exp-gauge-case} repeats (b), (d), and (e).}",
+ "caption_lines_at_print": {
+  "v4_caption": 18,
+  "v6_r1_caption": 10,
+  "v6_r2_caption": 11,
+  "how": "tectonic, neurips_2024 [preprint], figure at width=5.5in, refs set to Theorem 2 / Table F.3 / Figure 4, 2026-10-10 (local test build, scratchpad F_linae_app_v6/captest; r2: scratchpad flinae_fix/captest)"
+ },
+ "caption_v6_moved_non_result_text": [
+  "'Runs differ in initialization, training sample, and minibatches, with common random numbers across rules' (v4 caption) -> the setup paragraph of Appendix F (S1.3a), not a result. r2: the caption keeps 'independent initialization and training sample' (part 2 is stated for runs that share a sample); the setup paragraph (arxiv_v4.tex, subsection app:exp-s13a) does not yet say it and needs the sentence in setup_paragraph_sentence_needed",
+  "'with 48 pairs at each finite N and 500 pairs at N = inf' (v4 caption) -> the a-d x label",
+  "'grey lines mark the decision levels 0.9 and 0.8' (v4 caption) -> stated on panel (d)"
+ ],
+ "caption_v6_numbers_check": {
+  "digits_in_caption_outside_refs": [
+   "1",
+   "2",
+   "3",
+   "4",
+   "10",
+   "12",
+   "90",
+   "95"
+  ],
+  "meaning": "2, 12: N = 2^12, a grid value printed on the a-d axis (design constant); 95: one-sided 95% Clopper-Pearson bounds (method constant); 10, 90: percentiles of the bars of e (method constant); 1, 3, 4: parts of the theorem. No result number."
+ },
+ "setup_paragraph_sentence_needed": "Run r draws its own training sample and minibatches at each N, so the two runs of a pair differ in initialization, training sample, and minibatches (at N = inf the sample is the population), and run r uses the same initialization and sample under every rule. [source: ~/hrh_v2_stage1_20261008/linae/ANALYSIS_PLAN.md, lines 10-14: keys S1.3a/data/N={N}/run={r} and S1.3a/init/run={r}, common random numbers]",
+ "caption_v6_variant_rowv3_note": "with the v3 row label 'GD, step 0.002 (parts 1, 2)', replace 'as predicted by the theorem part in the row label' by 'as predicted by part 1 or part 3 of the theorem' (the triangle of that row comes from part 1 only)",
+ "caption_v8": "\\caption{\\textbf{Gradient descent without a regularizer stays unreliable at every sample size on the criteria that see the gauge, whereas weight decay, tied weights, and small initialization become reliable (Theorem~\\ref{thm:gauge}).} (a--d)~Fraction of disjoint pairs of linear-autoencoder runs within tolerance against $N$, with one-sided $95\\%$ Clopper--Pearson bounds and grey decision levels. Dashed lines mark rules outside the theorem, and the projector criterion~(d) is a control that ignores the gauge. (e)~Anisotropy of the learned gauge at $N=\\infty$ as the median and the 10th to 90th percentile of runs, with the predictions for the covered rules in black. Table~\\ref{tab:app-s13a} gives every decision.}",
+ "caption_v8_check": {
+  "digits_outside_refs": [
+   "10",
+   "90",
+   "95"
+  ],
+  "meaning": "10, 90: percentiles of the bars of e; 95: one-sided Clopper-Pearson level (method constants); no result number",
+  "words_total": 100,
+  "words_bold_sentence_before_theorem_ref": 28
+ },
+ "v8": {
+  "revision": "v8 (2026-10-10): v8 style (Tol palette, bold tick labels and axis titles with bold math); the author's rules of 2026-10-10 applied (no setting text on the figure, little text, colour); key in two rows without group heads; panel heads = criterion symbols on the letters' baseline; (e) one row per rule with the rule's name only, no title, no key; caption_v8 (number-free)",
+  "removed_elements": {
+   "key_group_heads": [
+    "covered by the theorem:",
+    "outside the theorem:"
+   ],
+   "a_to_d_tolerance_lines": [
+    "$1-s_N(10)\\leq 0.05$",
+    "$G_s\\leq 0.02$",
+    "$1-\\mathrm{CKA}\\leq 0.01$",
+    "$\\Delta_\\Pi\\leq 0.01$"
+   ],
+   "a_to_d_heads_v6": [
+    "neighbor sets",
+    "distances up to scale",
+    "linear CKA",
+    "projector"
+   ],
+   "a_to_d_xlabel_v6": "training sample size $N$ (48 disjoint pairs per finite $N$; 500 at $N=\\infty$)",
+   "d_annotation": "reliable if / lower bound > 0.9 / unreliable if / upper bound < 0.8",
+   "direct_labels_a_c": [
+    "SGD (a)",
+    "SGD (c)",
+    "Adam (c)",
+    "GD (c)"
+   ],
+   "e_title": "anisotropy of the learned gauge",
+   "e_group_heads": [
+    "covered by the theorem",
+    "outside the theorem"
+   ],
+   "e_key": [
+    "measured",
+    "predicted"
+   ],
+   "e_xlabel_v6": "condition number $\\mathrm{cond}(EE^{\\!\\top}\\!)$ at $N=\\infty$",
+   "row_labels_v6": {
+    "P-GD-flow": "GD, step 0.002 (part 1)",
+    "small-init": "small init. (part 1, $C_0\\approx 0$)",
+    "WD": "weight decay (part 3)",
+    "TIED": "tied weights (part 3)",
+    "P-GD": "GD, step 0.05 ($C$ not conserved)",
+    "P-SGD": "SGD, batch 16",
+    "P-Adam": "Adam, batch 16"
+   }
+  },
+  "kept_elements": "every data series of v6 (7 rules x 4 criteria x 4 sizes, CP bounds, decision levels, columns, axis break; e: 7 measured rows, 4 predictions with their 10-90% ranges; v8 c: no cond = 1 line, as Figure 5 c)",
+  "prediction_part_per_row": {
+   "P-GD-flow": "part 1",
+   "small-init": "part 1",
+   "WD": "part 3",
+   "TIED": "part 3"
+  },
+  "changed_fields": [
+   "panel_e.<rule>.y_row (rows of e without the two group-head rows)",
+   "panel_e.<rule>.row_label",
+   "encoding.e",
+   "encoding.colours (GD #000000 -> #222255)",
+   "encoding.text_tones",
+   "figure.*",
+   "style.*",
+   "figure.* and output.* (r2 render)",
+   "figure.* and output.* (v8 c render)"
+  ],
+  "critic_r2": {
+   "date": "2026-10-10",
+   "changes": [
+    "e x title: '$EE^{\\top}$' -> '$EE^{\\mathrm{T}}$' (\\top has no Liberation Serif glyph and fell back to a thin Computer Modern glyph in the bold title)",
+    "caption: (e) 'with the predictions in black' -> 'with the predictions for the covered rules in black'; (a--d) 'against the sample size $N$' -> 'against $N$'"
+   ],
+   "e_xlabel_r1": "condition number of $EE^{\\top}$",
+   "caption_r1": "\\caption{\\textbf{Gradient descent without a regularizer stays unreliable at every sample size on the criteria that see the gauge, whereas weight decay, tied weights, and small initialization become reliable (Theorem~\\ref{thm:gauge}).} (a--d)~Fraction of disjoint pairs of linear-autoencoder runs within tolerance against the sample size $N$, with one-sided $95\\%$ Clopper--Pearson bounds and grey decision levels. Dashed lines mark rules outside the theorem, and the projector criterion~(d) is a control that ignores the gauge. (e)~Anisotropy of the learned gauge at $N=\\infty$ as the median and the 10th to 90th percentile of runs, with the predictions in black. Table~\\ref{tab:app-s13a} gives every decision.}",
+   "caption_r1_words": 99,
+   "data_unchanged": "every data block asserted equal to v6 / v5.1 / v4 / v3 as in r1",
+   "r1_files": "./_prev_r1_maker/ (maker, outputs, MOVED.md of the maker's r1)"
+  },
+  "consistency_c": {
+   "date": "2026-10-10",
+   "role": "consistency checker across the v8 figures",
+   "changes": [
+    "(e) the cond = 1 line is not drawn (Figure 5 c)",
+    "(e) x title 'condition number of $EE^{\\mathrm{T}}$' -> '$\\mathrm{cond}(EE^{\\mathrm{T}})$' (Figure 5 c)"
+   ],
+   "figure5_maker": {
+    "path": "~/hrh_v2_figs/v8/F_gauge/make_F_gauge.py",
+    "sha256": "825bb26ee903475a622ecf24e7704d3fbbd6857235e05241da71b950774461c2"
+   },
+   "asserts": {
+    "(e) no line at cond = 1 (Figure 5 c dropped it; its maker docstring says so)": true,
+    "(e) x title equals the Figure 5 (c) x title": true,
+    "(e) x title bold": true,
+    "S.check passed (bold ticks and titles, Type 42, >= 7 pt, chromatic data)": true
+   },
+   "r2_files": "./_prev_consistency/ (maker, outputs, MOVED.md of r2)"
+  }
+ },
+ "output": {
+  "pdf": "~/hrh_v2_figs/v8/F_linae_app/F_linae_app.pdf",
+  "pdf_sha256": "a6d239383d92b15b4bfdef3f86519c7bfeed9a201f345a976bbc1503ff1b29ca",
+  "png": "~/hrh_v2_figs/v8/F_linae_app/F_linae_app.png",
+  "png_dpi": 200,
+  "png_sha256": "e9fc3589f3fd592a7182514347caed238a056c3b72145b4862265e9d25aec3b7",
+  "png_renderer": "pdftoppm (S.print_view)",
+  "print_view_100dpi": "~/hrh_v2_figs/v8/F_linae_app/_view_print_100dpi.png",
+  "views_cvd_grey": "~/hrh_v2_figs/v8/F_linae_app/_views_cvd_grey.png"
+ }
+}

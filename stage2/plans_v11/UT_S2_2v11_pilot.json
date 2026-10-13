@@ -1,0 +1,933 @@
+{
+"cohort": "UT_S2_2v11_pilot",
+"runs": [
+{
+"run_id": "S2.2v11-unittest-pilot_MOM_N25000_r000",
+"kind": "gauge_v11",
+"exp": "S2.2v11-unittest-pilot",
+"arm": "MOM",
+"N": 25000,
+"rep": 0,
+"cfg": {
+"head_opt": "mom",
+"init": "def",
+"head_wd": false
+},
+"pilot": true
+},
+{
+"run_id": "S2.2v11-unittest-pilot_WD_N25000_r000",
+"kind": "gauge_v11",
+"exp": "S2.2v11-unittest-pilot",
+"arm": "WD",
+"N": 25000,
+"rep": 0,
+"cfg": {
+"head_opt": "mom",
+"init": "def",
+"head_wd": true
+},
+"pilot": true
+},
+{
+"run_id": "S2.2v11-unittest-pilot_FLOW_N25000_r000",
+"kind": "gauge_v11",
+"exp": "S2.2v11-unittest-pilot",
+"arm": "FLOW",
+"N": 25000,
+"rep": 0,
+"cfg": {
+"head_opt": "heun",
+"init": "def",
+"head_wd": false,
+"K": 8
+},
+"pilot": true
+},
+{
+"run_id": "S2.2v11-unittest-pilot_BAL-FLOW_N25000_r000",
+"kind": "gauge_v11",
+"exp": "S2.2v11-unittest-pilot",
+"arm": "BAL-FLOW",
+"N": 25000,
+"rep": 0,
+"cfg": {
+"head_opt": "heun",
+"init": "bal",
+"head_wd": false,
+"K": 8
+},
+"pilot": true
+},
+{
+"run_id": "S2.2v11-unittest-pilot_SMALL-FLOW_N25000_r000",
+"kind": "gauge_v11",
+"exp": "S2.2v11-unittest-pilot",
+"arm": "SMALL-FLOW",
+"N": 25000,
+"rep": 0,
+"cfg": {
+"head_opt": "heun",
+"init": "small",
+"head_wd": false,
+"K": 8
+},
+"pilot": true
+},
+{
+"run_id": "S2.2v11-unittest-pilot_BAL-MOM_N25000_r000",
+"kind": "gauge_v11",
+"exp": "S2.2v11-unittest-pilot",
+"arm": "BAL-MOM",
+"N": 25000,
+"rep": 0,
+"cfg": {
+"head_opt": "mom",
+"init": "bal",
+"head_wd": false
+},
+"pilot": true
+},
+{
+"run_id": "S2.2v11-unittest-pilot_SMALL-MOM_N25000_r000",
+"kind": "gauge_v11",
+"exp": "S2.2v11-unittest-pilot",
+"arm": "SMALL-MOM",
+"N": 25000,
+"rep": 0,
+"cfg": {
+"head_opt": "mom",
+"init": "small",
+"head_wd": false
+},
+"pilot": true
+},
+{
+"run_id": "S2.2v11-unittest-pilot_SGD-K_N25000_r000",
+"kind": "gauge_v11",
+"exp": "S2.2v11-unittest-pilot",
+"arm": "SGD-K",
+"N": 25000,
+"rep": 0,
+"cfg": {
+"head_opt": "euler",
+"K": 1,
+"init": "def",
+"head_wd": false
+},
+"pilot": true
+},
+{
+"run_id": "S2.2v11-unittest-pilot_MOM_N250000_r000",
+"kind": "gauge_v11",
+"exp": "S2.2v11-unittest-pilot",
+"arm": "MOM",
+"N": 250000,
+"rep": 0,
+"cfg": {
+"head_opt": "mom",
+"init": "def",
+"head_wd": false
+},
+"pilot": true
+},
+{
+"run_id": "S2.2v11-unittest-pilot_WD_N250000_r000",
+"kind": "gauge_v11",
+"exp": "S2.2v11-unittest-pilot",
+"arm": "WD",
+"N": 250000,
+"rep": 0,
+"cfg": {
+"head_opt": "mom",
+"init": "def",
+"head_wd": true
+},
+"pilot": true
+},
+{
+"run_id": "S2.2v11-unittest-pilot_FLOW_N250000_r000",
+"kind": "gauge_v11",
+"exp": "S2.2v11-unittest-pilot",
+"arm": "FLOW",
+"N": 250000,
+"rep": 0,
+"cfg": {
+"head_opt": "heun",
+"init": "def",
+"head_wd": false,
+"K": 8
+},
+"pilot": true
+},
+{
+"run_id": "S2.2v11-unittest-pilot_BAL-FLOW_N250000_r000",
+"kind": "gauge_v11",
+"exp": "S2.2v11-unittest-pilot",
+"arm": "BAL-FLOW",
+"N": 250000,
+"rep": 0,
+"cfg": {
+"head_opt": "heun",
+"init": "bal",
+"head_wd": false,
+"K": 8
+},
+"pilot": true
+},
+{
+"run_id": "S2.2v11-unittest-pilot_SMALL-FLOW_N250000_r000",
+"kind": "gauge_v11",
+"exp": "S2.2v11-unittest-pilot",
+"arm": "SMALL-FLOW",
+"N": 250000,
+"rep": 0,
+"cfg": {
+"head_opt": "heun",
+"init": "small",
+"head_wd": false,
+"K": 8
+},
+"pilot": true
+},
+{
+"run_id": "S2.2v11-unittest-pilot_BAL-MOM_N250000_r000",
+"kind": "gauge_v11",
+"exp": "S2.2v11-unittest-pilot",
+"arm": "BAL-MOM",
+"N": 250000,
+"rep": 0,
+"cfg": {
+"head_opt": "mom",
+"init": "bal",
+"head_wd": false
+},
+"pilot": true
+},
+{
+"run_id": "S2.2v11-unittest-pilot_SMALL-MOM_N250000_r000",
+"kind": "gauge_v11",
+"exp": "S2.2v11-unittest-pilot",
+"arm": "SMALL-MOM",
+"N": 250000,
+"rep": 0,
+"cfg": {
+"head_opt": "mom",
+"init": "small",
+"head_wd": false
+},
+"pilot": true
+},
+{
+"run_id": "S2.2v11-unittest-pilot_SGD-K_N250000_r000",
+"kind": "gauge_v11",
+"exp": "S2.2v11-unittest-pilot",
+"arm": "SGD-K",
+"N": 250000,
+"rep": 0,
+"cfg": {
+"head_opt": "euler",
+"K": 1,
+"init": "def",
+"head_wd": false
+},
+"pilot": true
+},
+{
+"run_id": "S2.2v11-unittest-pilot_MOM_N25000_r001",
+"kind": "gauge_v11",
+"exp": "S2.2v11-unittest-pilot",
+"arm": "MOM",
+"N": 25000,
+"rep": 1,
+"cfg": {
+"head_opt": "mom",
+"init": "def",
+"head_wd": false
+},
+"pilot": true
+},
+{
+"run_id": "S2.2v11-unittest-pilot_WD_N25000_r001",
+"kind": "gauge_v11",
+"exp": "S2.2v11-unittest-pilot",
+"arm": "WD",
+"N": 25000,
+"rep": 1,
+"cfg": {
+"head_opt": "mom",
+"init": "def",
+"head_wd": true
+},
+"pilot": true
+},
+{
+"run_id": "S2.2v11-unittest-pilot_FLOW_N25000_r001",
+"kind": "gauge_v11",
+"exp": "S2.2v11-unittest-pilot",
+"arm": "FLOW",
+"N": 25000,
+"rep": 1,
+"cfg": {
+"head_opt": "heun",
+"init": "def",
+"head_wd": false,
+"K": 8
+},
+"pilot": true
+},
+{
+"run_id": "S2.2v11-unittest-pilot_BAL-FLOW_N25000_r001",
+"kind": "gauge_v11",
+"exp": "S2.2v11-unittest-pilot",
+"arm": "BAL-FLOW",
+"N": 25000,
+"rep": 1,
+"cfg": {
+"head_opt": "heun",
+"init": "bal",
+"head_wd": false,
+"K": 8
+},
+"pilot": true
+},
+{
+"run_id": "S2.2v11-unittest-pilot_SMALL-FLOW_N25000_r001",
+"kind": "gauge_v11",
+"exp": "S2.2v11-unittest-pilot",
+"arm": "SMALL-FLOW",
+"N": 25000,
+"rep": 1,
+"cfg": {
+"head_opt": "heun",
+"init": "small",
+"head_wd": false,
+"K": 8
+},
+"pilot": true
+},
+{
+"run_id": "S2.2v11-unittest-pilot_BAL-MOM_N25000_r001",
+"kind": "gauge_v11",
+"exp": "S2.2v11-unittest-pilot",
+"arm": "BAL-MOM",
+"N": 25000,
+"rep": 1,
+"cfg": {
+"head_opt": "mom",
+"init": "bal",
+"head_wd": false
+},
+"pilot": true
+},
+{
+"run_id": "S2.2v11-unittest-pilot_SMALL-MOM_N25000_r001",
+"kind": "gauge_v11",
+"exp": "S2.2v11-unittest-pilot",
+"arm": "SMALL-MOM",
+"N": 25000,
+"rep": 1,
+"cfg": {
+"head_opt": "mom",
+"init": "small",
+"head_wd": false
+},
+"pilot": true
+},
+{
+"run_id": "S2.2v11-unittest-pilot_SGD-K_N25000_r001",
+"kind": "gauge_v11",
+"exp": "S2.2v11-unittest-pilot",
+"arm": "SGD-K",
+"N": 25000,
+"rep": 1,
+"cfg": {
+"head_opt": "euler",
+"K": 1,
+"init": "def",
+"head_wd": false
+},
+"pilot": true
+},
+{
+"run_id": "S2.2v11-unittest-pilot_MOM_N250000_r001",
+"kind": "gauge_v11",
+"exp": "S2.2v11-unittest-pilot",
+"arm": "MOM",
+"N": 250000,
+"rep": 1,
+"cfg": {
+"head_opt": "mom",
+"init": "def",
+"head_wd": false
+},
+"pilot": true
+},
+{
+"run_id": "S2.2v11-unittest-pilot_WD_N250000_r001",
+"kind": "gauge_v11",
+"exp": "S2.2v11-unittest-pilot",
+"arm": "WD",
+"N": 250000,
+"rep": 1,
+"cfg": {
+"head_opt": "mom",
+"init": "def",
+"head_wd": true
+},
+"pilot": true
+},
+{
+"run_id": "S2.2v11-unittest-pilot_FLOW_N250000_r001",
+"kind": "gauge_v11",
+"exp": "S2.2v11-unittest-pilot",
+"arm": "FLOW",
+"N": 250000,
+"rep": 1,
+"cfg": {
+"head_opt": "heun",
+"init": "def",
+"head_wd": false,
+"K": 8
+},
+"pilot": true
+},
+{
+"run_id": "S2.2v11-unittest-pilot_BAL-FLOW_N250000_r001",
+"kind": "gauge_v11",
+"exp": "S2.2v11-unittest-pilot",
+"arm": "BAL-FLOW",
+"N": 250000,
+"rep": 1,
+"cfg": {
+"head_opt": "heun",
+"init": "bal",
+"head_wd": false,
+"K": 8
+},
+"pilot": true
+},
+{
+"run_id": "S2.2v11-unittest-pilot_SMALL-FLOW_N250000_r001",
+"kind": "gauge_v11",
+"exp": "S2.2v11-unittest-pilot",
+"arm": "SMALL-FLOW",
+"N": 250000,
+"rep": 1,
+"cfg": {
+"head_opt": "heun",
+"init": "small",
+"head_wd": false,
+"K": 8
+},
+"pilot": true
+},
+{
+"run_id": "S2.2v11-unittest-pilot_BAL-MOM_N250000_r001",
+"kind": "gauge_v11",
+"exp": "S2.2v11-unittest-pilot",
+"arm": "BAL-MOM",
+"N": 250000,
+"rep": 1,
+"cfg": {
+"head_opt": "mom",
+"init": "bal",
+"head_wd": false
+},
+"pilot": true
+},
+{
+"run_id": "S2.2v11-unittest-pilot_SMALL-MOM_N250000_r001",
+"kind": "gauge_v11",
+"exp": "S2.2v11-unittest-pilot",
+"arm": "SMALL-MOM",
+"N": 250000,
+"rep": 1,
+"cfg": {
+"head_opt": "mom",
+"init": "small",
+"head_wd": false
+},
+"pilot": true
+},
+{
+"run_id": "S2.2v11-unittest-pilot_SGD-K_N250000_r001",
+"kind": "gauge_v11",
+"exp": "S2.2v11-unittest-pilot",
+"arm": "SGD-K",
+"N": 250000,
+"rep": 1,
+"cfg": {
+"head_opt": "euler",
+"K": 1,
+"init": "def",
+"head_wd": false
+},
+"pilot": true
+},
+{
+"run_id": "S2.2v11-unittest-pilot_MOM_N25000_r002",
+"kind": "gauge_v11",
+"exp": "S2.2v11-unittest-pilot",
+"arm": "MOM",
+"N": 25000,
+"rep": 2,
+"cfg": {
+"head_opt": "mom",
+"init": "def",
+"head_wd": false
+},
+"pilot": true
+},
+{
+"run_id": "S2.2v11-unittest-pilot_WD_N25000_r002",
+"kind": "gauge_v11",
+"exp": "S2.2v11-unittest-pilot",
+"arm": "WD",
+"N": 25000,
+"rep": 2,
+"cfg": {
+"head_opt": "mom",
+"init": "def",
+"head_wd": true
+},
+"pilot": true
+},
+{
+"run_id": "S2.2v11-unittest-pilot_FLOW_N25000_r002",
+"kind": "gauge_v11",
+"exp": "S2.2v11-unittest-pilot",
+"arm": "FLOW",
+"N": 25000,
+"rep": 2,
+"cfg": {
+"head_opt": "heun",
+"init": "def",
+"head_wd": false,
+"K": 8
+},
+"pilot": true
+},
+{
+"run_id": "S2.2v11-unittest-pilot_BAL-FLOW_N25000_r002",
+"kind": "gauge_v11",
+"exp": "S2.2v11-unittest-pilot",
+"arm": "BAL-FLOW",
+"N": 25000,
+"rep": 2,
+"cfg": {
+"head_opt": "heun",
+"init": "bal",
+"head_wd": false,
+"K": 8
+},
+"pilot": true
+},
+{
+"run_id": "S2.2v11-unittest-pilot_SMALL-FLOW_N25000_r002",
+"kind": "gauge_v11",
+"exp": "S2.2v11-unittest-pilot",
+"arm": "SMALL-FLOW",
+"N": 25000,
+"rep": 2,
+"cfg": {
+"head_opt": "heun",
+"init": "small",
+"head_wd": false,
+"K": 8
+},
+"pilot": true
+},
+{
+"run_id": "S2.2v11-unittest-pilot_BAL-MOM_N25000_r002",
+"kind": "gauge_v11",
+"exp": "S2.2v11-unittest-pilot",
+"arm": "BAL-MOM",
+"N": 25000,
+"rep": 2,
+"cfg": {
+"head_opt": "mom",
+"init": "bal",
+"head_wd": false
+},
+"pilot": true
+},
+{
+"run_id": "S2.2v11-unittest-pilot_SMALL-MOM_N25000_r002",
+"kind": "gauge_v11",
+"exp": "S2.2v11-unittest-pilot",
+"arm": "SMALL-MOM",
+"N": 25000,
+"rep": 2,
+"cfg": {
+"head_opt": "mom",
+"init": "small",
+"head_wd": false
+},
+"pilot": true
+},
+{
+"run_id": "S2.2v11-unittest-pilot_SGD-K_N25000_r002",
+"kind": "gauge_v11",
+"exp": "S2.2v11-unittest-pilot",
+"arm": "SGD-K",
+"N": 25000,
+"rep": 2,
+"cfg": {
+"head_opt": "euler",
+"K": 1,
+"init": "def",
+"head_wd": false
+},
+"pilot": true
+},
+{
+"run_id": "S2.2v11-unittest-pilot_MOM_N250000_r002",
+"kind": "gauge_v11",
+"exp": "S2.2v11-unittest-pilot",
+"arm": "MOM",
+"N": 250000,
+"rep": 2,
+"cfg": {
+"head_opt": "mom",
+"init": "def",
+"head_wd": false
+},
+"pilot": true
+},
+{
+"run_id": "S2.2v11-unittest-pilot_WD_N250000_r002",
+"kind": "gauge_v11",
+"exp": "S2.2v11-unittest-pilot",
+"arm": "WD",
+"N": 250000,
+"rep": 2,
+"cfg": {
+"head_opt": "mom",
+"init": "def",
+"head_wd": true
+},
+"pilot": true
+},
+{
+"run_id": "S2.2v11-unittest-pilot_FLOW_N250000_r002",
+"kind": "gauge_v11",
+"exp": "S2.2v11-unittest-pilot",
+"arm": "FLOW",
+"N": 250000,
+"rep": 2,
+"cfg": {
+"head_opt": "heun",
+"init": "def",
+"head_wd": false,
+"K": 8
+},
+"pilot": true
+},
+{
+"run_id": "S2.2v11-unittest-pilot_BAL-FLOW_N250000_r002",
+"kind": "gauge_v11",
+"exp": "S2.2v11-unittest-pilot",
+"arm": "BAL-FLOW",
+"N": 250000,
+"rep": 2,
+"cfg": {
+"head_opt": "heun",
+"init": "bal",
+"head_wd": false,
+"K": 8
+},
+"pilot": true
+},
+{
+"run_id": "S2.2v11-unittest-pilot_SMALL-FLOW_N250000_r002",
+"kind": "gauge_v11",
+"exp": "S2.2v11-unittest-pilot",
+"arm": "SMALL-FLOW",
+"N": 250000,
+"rep": 2,
+"cfg": {
+"head_opt": "heun",
+"init": "small",
+"head_wd": false,
+"K": 8
+},
+"pilot": true
+},
+{
+"run_id": "S2.2v11-unittest-pilot_BAL-MOM_N250000_r002",
+"kind": "gauge_v11",
+"exp": "S2.2v11-unittest-pilot",
+"arm": "BAL-MOM",
+"N": 250000,
+"rep": 2,
+"cfg": {
+"head_opt": "mom",
+"init": "bal",
+"head_wd": false
+},
+"pilot": true
+},
+{
+"run_id": "S2.2v11-unittest-pilot_SMALL-MOM_N250000_r002",
+"kind": "gauge_v11",
+"exp": "S2.2v11-unittest-pilot",
+"arm": "SMALL-MOM",
+"N": 250000,
+"rep": 2,
+"cfg": {
+"head_opt": "mom",
+"init": "small",
+"head_wd": false
+},
+"pilot": true
+},
+{
+"run_id": "S2.2v11-unittest-pilot_SGD-K_N250000_r002",
+"kind": "gauge_v11",
+"exp": "S2.2v11-unittest-pilot",
+"arm": "SGD-K",
+"N": 250000,
+"rep": 2,
+"cfg": {
+"head_opt": "euler",
+"K": 1,
+"init": "def",
+"head_wd": false
+},
+"pilot": true
+},
+{
+"run_id": "S2.2v11-unittest-pilot_MOM_N25000_r003",
+"kind": "gauge_v11",
+"exp": "S2.2v11-unittest-pilot",
+"arm": "MOM",
+"N": 25000,
+"rep": 3,
+"cfg": {
+"head_opt": "mom",
+"init": "def",
+"head_wd": false
+},
+"pilot": true
+},
+{
+"run_id": "S2.2v11-unittest-pilot_WD_N25000_r003",
+"kind": "gauge_v11",
+"exp": "S2.2v11-unittest-pilot",
+"arm": "WD",
+"N": 25000,
+"rep": 3,
+"cfg": {
+"head_opt": "mom",
+"init": "def",
+"head_wd": true
+},
+"pilot": true
+},
+{
+"run_id": "S2.2v11-unittest-pilot_FLOW_N25000_r003",
+"kind": "gauge_v11",
+"exp": "S2.2v11-unittest-pilot",
+"arm": "FLOW",
+"N": 25000,
+"rep": 3,
+"cfg": {
+"head_opt": "heun",
+"init": "def",
+"head_wd": false,
+"K": 8
+},
+"pilot": true
+},
+{
+"run_id": "S2.2v11-unittest-pilot_BAL-FLOW_N25000_r003",
+"kind": "gauge_v11",
+"exp": "S2.2v11-unittest-pilot",
+"arm": "BAL-FLOW",
+"N": 25000,
+"rep": 3,
+"cfg": {
+"head_opt": "heun",
+"init": "bal",
+"head_wd": false,
+"K": 8
+},
+"pilot": true
+},
+{
+"run_id": "S2.2v11-unittest-pilot_SMALL-FLOW_N25000_r003",
+"kind": "gauge_v11",
+"exp": "S2.2v11-unittest-pilot",
+"arm": "SMALL-FLOW",
+"N": 25000,
+"rep": 3,
+"cfg": {
+"head_opt": "heun",
+"init": "small",
+"head_wd": false,
+"K": 8
+},
+"pilot": true
+},
+{
+"run_id": "S2.2v11-unittest-pilot_BAL-MOM_N25000_r003",
+"kind": "gauge_v11",
+"exp": "S2.2v11-unittest-pilot",
+"arm": "BAL-MOM",
+"N": 25000,
+"rep": 3,
+"cfg": {
+"head_opt": "mom",
+"init": "bal",
+"head_wd": false
+},
+"pilot": true
+},
+{
+"run_id": "S2.2v11-unittest-pilot_SMALL-MOM_N25000_r003",
+"kind": "gauge_v11",
+"exp": "S2.2v11-unittest-pilot",
+"arm": "SMALL-MOM",
+"N": 25000,
+"rep": 3,
+"cfg": {
+"head_opt": "mom",
+"init": "small",
+"head_wd": false
+},
+"pilot": true
+},
+{
+"run_id": "S2.2v11-unittest-pilot_SGD-K_N25000_r003",
+"kind": "gauge_v11",
+"exp": "S2.2v11-unittest-pilot",
+"arm": "SGD-K",
+"N": 25000,
+"rep": 3,
+"cfg": {
+"head_opt": "euler",
+"K": 1,
+"init": "def",
+"head_wd": false
+},
+"pilot": true
+},
+{
+"run_id": "S2.2v11-unittest-pilot_MOM_N250000_r003",
+"kind": "gauge_v11",
+"exp": "S2.2v11-unittest-pilot",
+"arm": "MOM",
+"N": 250000,
+"rep": 3,
+"cfg": {
+"head_opt": "mom",
+"init": "def",
+"head_wd": false
+},
+"pilot": true
+},
+{
+"run_id": "S2.2v11-unittest-pilot_WD_N250000_r003",
+"kind": "gauge_v11",
+"exp": "S2.2v11-unittest-pilot",
+"arm": "WD",
+"N": 250000,
+"rep": 3,
+"cfg": {
+"head_opt": "mom",
+"init": "def",
+"head_wd": true
+},
+"pilot": true
+},
+{
+"run_id": "S2.2v11-unittest-pilot_FLOW_N250000_r003",
+"kind": "gauge_v11",
+"exp": "S2.2v11-unittest-pilot",
+"arm": "FLOW",
+"N": 250000,
+"rep": 3,
+"cfg": {
+"head_opt": "heun",
+"init": "def",
+"head_wd": false,
+"K": 8
+},
+"pilot": true
+},
+{
+"run_id": "S2.2v11-unittest-pilot_BAL-FLOW_N250000_r003",
+"kind": "gauge_v11",
+"exp": "S2.2v11-unittest-pilot",
+"arm": "BAL-FLOW",
+"N": 250000,
+"rep": 3,
+"cfg": {
+"head_opt": "heun",
+"init": "bal",
+"head_wd": false,
+"K": 8
+},
+"pilot": true
+},
+{
+"run_id": "S2.2v11-unittest-pilot_SMALL-FLOW_N250000_r003",
+"kind": "gauge_v11",
+"exp": "S2.2v11-unittest-pilot",
+"arm": "SMALL-FLOW",
+"N": 250000,
+"rep": 3,
+"cfg": {
+"head_opt": "heun",
+"init": "small",
+"head_wd": false,
+"K": 8
+},
+"pilot": true
+},
+{
+"run_id": "S2.2v11-unittest-pilot_BAL-MOM_N250000_r003",
+"kind": "gauge_v11",
+"exp": "S2.2v11-unittest-pilot",
+"arm": "BAL-MOM",
+"N": 250000,
+"rep": 3,
+"cfg": {
+"head_opt": "mom",
+"init": "bal",
+"head_wd": false
+},
+"pilot": true
+},
+{
+"run_id": "S2.2v11-unittest-pilot_SMALL-MOM_N250000_r003",
+"kind": "gauge_v11",
+"exp": "S2.2v11-unittest-pilot",
+"arm": "SMALL-MOM",
+"N": 250000,
+"rep": 3,
+"cfg": {
+"head_opt": "mom",
+"init": "small",
+"head_wd": false
+},
+"pilot": true
+},
+{
+"run_id": "S2.2v11-unittest-pilot_SGD-K_N250000_r003",
+"kind": "gauge_v11",
+"exp": "S2.2v11-unittest-pilot",
+"arm": "SGD-K",
+"N": 250000,
+"rep": 3,
+"cfg": {
+"head_opt": "euler",
+"K": 1,
+"init": "def",
+"head_wd": false
+},
+"pilot": true
+}
+]
+}

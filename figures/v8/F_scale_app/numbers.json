@@ -1,0 +1,1644 @@
+{
+ "figure": "F_scale_app",
+ "version": "v8 (hrh_style_v8; N0 not drawn; bold ticks)",
+ "tex_label": "fig:exp-scale",
+ "paper_figure": "Figure F.1 (appendix F, arxiv_v4)",
+ "tex_include_proposed": "figures/exp_v8/F_scale_app.pdf",
+ "created_utc": "2026-10-10T22:21:33Z",
+ "script": "~/hrh_v2_figs/v8/F_scale_app/make_F_scale_app.py",
+ "script_sha256": "d318ff9c614fa5d8389ac1cf83a55fca8c3d41075dd6b19cfa5fc4a891472c7d",
+ "inputs_sha256": {
+  "~/hrh_v2_stage1_20261008/results/S1_1/v11/S1_1_v11_cells_clip.parquet": "878abf0b98e6bb480892c61f2672816ff30b6524a277b81c0c448bb8bc0bcf20",
+  "~/hrh_v2_stage1_20261008/results/S1_1/v11/S1_1_v11_slopes_clip.parquet": "41292e65ff67ddf3b9c4fa0673d7b250a0f1959e3337e0e6660cea2b2834b5f1",
+  "~/hrh_v2_stage1_20261008/results/S1_1/v11/S1_1_v11_drawslopes_clip.parquet": "f04b85a91b46f45c3f021026d4fdc89d8e3e965f9c3b77a7c8e2c493a362cb02",
+  "~/hrh_v2_stage1_20261008/results/S1_1/v11/S1_1_v11_summary.json": "324f6ce3a8efcbe95aecaac8c240f500b08da99613e20836cd3a216459e4bdb2",
+  "~/hrh_v2_figs/v8/_style/hrh_style_v8.py": "fe994067dfefba8c0fe34309a67609e85f82288f0f785e69d2bef98e33fc79a8",
+  "~/hrh_v2_figs/v5/F_scale_app/numbers.json": "e056321305fe3c8b243217a8e89d4d87d81657a7f4a1d1a93037ae3aff328fc1",
+  "~/hrh_v2_figs/v5/F_neighbors/numbers.json": "19c007bdb392f4cafdb714048be56447fc0f60bd01767914eb347876301335f9",
+  "~/hrh_v2_stage1_20261008/analysis/s11/ANALYSIS_PLAN_S11_v1.1.md": "736ec1d4c9d20a843fc895ab895babfc13871aadf4e32d1410707e98d8b5c391"
+ },
+ "font_text": "/usr/share/fonts/truetype/liberation/LiberationSerif-Regular.ttf",
+ "font_math": "mathtext cm",
+ "message": "Read descriptively, the unvalidated crossing law predicts the slope class of every pair at k = 10, but too shallow a slope for vision-language pairs, whereas the affine null N1 predicts every slope too steep.",
+ "style_version": "v8",
+ "orderings_note": "'draw' in the result files = one of 5 hashed nested orderings of the pool ('orderings' in the paper)",
+ "class_names": {
+  "seed-seed": {
+   "paper": "seed",
+   "colour": "#77AADD",
+   "text_colour": "#222222"
+  },
+  "cross-vision": {
+   "paper": "vision",
+   "colour": "#0077BB",
+   "text_colour": "#0077BB"
+  },
+  "cross-modal": {
+   "paper": "vision\u2013language",
+   "colour": "#004488",
+   "text_colour": "#004488"
+  }
+ },
+ "s11_setting": {
+  "summary_mode": "descriptive (PREREG v1.1 D4.7)",
+  "summary_G1": "NOT RUN as a confirmatory test: no eligible estimator (PREREG v1.1 D4.7; plan V1)",
+  "config_spec": {
+   "pre": "prh_clip+l2",
+   "clip_mode": "pool-stored",
+   "dedup": false,
+   "dsrc": "clip-stored",
+   "role": "primary"
+  },
+  "layer": "relative depth 0.5 (PREREG_stage1.md, S1.1 models)",
+  "orderings_per_cell": 5,
+  "pool": "COCO nested pools m = 256..16384",
+  "fit_size": 1024
+ },
+ "n_primary_pairs": {
+  "seed": 4,
+  "vision": 10,
+  "vl": 15
+ },
+ "panel_abc": {
+  "class_median_k10": {
+   "values": {
+    "seed-seed": {
+     "obs": {
+      "256": 0.5476,
+      "512": 0.5372,
+      "1024": 0.5253,
+      "2048": 0.5265,
+      "4096": 0.5266,
+      "8192": 0.5308,
+      "16384": 0.5352
+     },
+     "crossing": {
+      "256": 0.5447,
+      "512": 0.5658,
+      "1024": 0.5478,
+      "2048": 0.5439,
+      "4096": 0.5398,
+      "8192": 0.534,
+      "16384": 0.5332
+     },
+     "N1": {
+      "256": 0.1381,
+      "512": 0.0946,
+      "1024": 0.0654,
+      "2048": 0.0455,
+      "4096": 0.0319,
+      "8192": 0.0224,
+      "16384": 0.0157
+     },
+     "N0": {
+      "256": 0.5253,
+      "512": 0.5253,
+      "1024": 0.5253,
+      "2048": 0.5253,
+      "4096": 0.5253,
+      "8192": 0.5253,
+      "16384": 0.5253
+     }
+    },
+    "cross-vision": {
+     "obs": {
+      "256": 0.2556,
+      "512": 0.2173,
+      "1024": 0.1885,
+      "2048": 0.1628,
+      "4096": 0.1407,
+      "8192": 0.123,
+      "16384": 0.1088
+     },
+     "crossing": {
+      "256": 0.2805,
+      "512": 0.2533,
+      "1024": 0.2282,
+      "2048": 0.1975,
+      "4096": 0.1726,
+      "8192": 0.1543,
+      "16384": 0.1377
+     },
+     "N1": {
+      "256": 0.0749,
+      "512": 0.0436,
+      "1024": 0.0253,
+      "2048": 0.0146,
+      "4096": 0.0084,
+      "8192": 0.0048,
+      "16384": 0.0028
+     },
+     "N0": {
+      "256": 0.1885,
+      "512": 0.1885,
+      "1024": 0.1885,
+      "2048": 0.1885,
+      "4096": 0.1885,
+      "8192": 0.1885,
+      "16384": 0.1885
+     }
+    },
+    "cross-modal": {
+     "obs": {
+      "256": 0.0905,
+      "512": 0.0664,
+      "1024": 0.043,
+      "2048": 0.0277,
+      "4096": 0.0185,
+      "8192": 0.0132,
+      "16384": 0.0085
+     },
+     "crossing": {
+      "256": 0.1377,
+      "512": 0.1175,
+      "1024": 0.1028,
+      "2048": 0.0762,
+      "4096": 0.063,
+      "8192": 0.0613,
+      "16384": 0.0518
+     },
+     "N1": {
+      "256": 0.0462,
+      "512": 0.026,
+      "1024": 0.0158,
+      "2048": 0.0086,
+      "4096": 0.0047,
+      "8192": 0.0025,
+      "16384": 0.0014
+     },
+     "N0": {
+      "256": 0.043,
+      "512": 0.043,
+      "1024": 0.043,
+      "2048": 0.043,
+      "4096": 0.043,
+      "8192": 0.043,
+      "16384": 0.043
+     }
+    }
+   },
+   "source": "~/hrh_v2_stage1_20261008/results/S1_1/v11/S1_1_v11_cells_clip.parquet",
+   "key": "median over the pairs of a class of cells[primary & k==10].{obs, iii-LSlog-EB, N1, N0} by m (each cell = mean over the 5 orderings); obs = thick line, crossing = filled INK dots, N1 = open INK rings, N0 = dashed",
+   "sha256": "878abf0b98e6bb480892c61f2672816ff30b6524a277b81c0c448bb8bc0bcf20"
+  },
+  "fit_size_line": 1024,
+  "definitions": {
+   "crossing": "crossing-law predictor iii-LSlog-EB (unvalidated), from each anchor's distance rows at m = 1024, extrapolated to every m",
+   "N1": "affine null with Gaussian noise fitted at m = 1024 (replaced by N0 where its slope is not positive or it is undefined; plan D4.8)",
+   "N0": "each pair's observed value at m = 1024, held for every m (checked per pair)"
+  }
+ },
+ "panel_d": {
+  "per_pair_k10": {
+   "values": {
+    "augreg_b__bloomz_1b7": {
+     "cls": "cross-modal",
+     "slope_obs": -0.5706,
+     "slope_obs_draw_sd": 0.0138,
+     "slope_crossing": -0.225,
+     "slope_crossing_draw_sd": 0.0073,
+     "slope_N1": -0.7936,
+     "slope_N1_draw_sd": 0.0514,
+     "slope_N0": 0.0
+    },
+    "augreg_b__openllama_3b": {
+     "cls": "cross-modal",
+     "slope_obs": -0.5817,
+     "slope_obs_draw_sd": 0.0377,
+     "slope_crossing": -0.2276,
+     "slope_crossing_draw_sd": 0.0121,
+     "slope_N1": -0.8768,
+     "slope_N1_draw_sd": 0.0354,
+     "slope_N0": 0.0
+    },
+    "augreg_b__pythia410m_s1": {
+     "cls": "cross-modal",
+     "slope_obs": -0.5735,
+     "slope_obs_draw_sd": 0.0219,
+     "slope_crossing": -0.2403,
+     "slope_crossing_draw_sd": 0.013,
+     "slope_N1": -0.8853,
+     "slope_N1_draw_sd": 0.0302,
+     "slope_N0": -0.0
+    },
+    "augreg_b__siglip_b": {
+     "cls": "cross-vision",
+     "slope_obs": -0.2049,
+     "slope_obs_draw_sd": 0.0093,
+     "slope_crossing": -0.1749,
+     "slope_crossing_draw_sd": 0.0108,
+     "slope_N1": -0.5389,
+     "slope_N1_draw_sd": 0.0166,
+     "slope_N0": 0.0
+    },
+    "clip_b__augreg_b": {
+     "cls": "cross-vision",
+     "slope_obs": -0.213,
+     "slope_obs_draw_sd": 0.0154,
+     "slope_crossing": -0.1672,
+     "slope_crossing_draw_sd": 0.0097,
+     "slope_N1": -0.5151,
+     "slope_N1_draw_sd": 0.0222,
+     "slope_N0": -0.0
+    },
+    "clip_b__bloomz_1b7": {
+     "cls": "cross-modal",
+     "slope_obs": -0.5541,
+     "slope_obs_draw_sd": 0.0156,
+     "slope_crossing": -0.2277,
+     "slope_crossing_draw_sd": 0.0219,
+     "slope_N1": -0.9356,
+     "slope_N1_draw_sd": 0.0322,
+     "slope_N0": 0.0
+    },
+    "clip_b__mae_b": {
+     "cls": "cross-vision",
+     "slope_obs": -0.2562,
+     "slope_obs_draw_sd": 0.0219,
+     "slope_crossing": -0.194,
+     "slope_crossing_draw_sd": 0.009,
+     "slope_N1": -0.8367,
+     "slope_N1_draw_sd": 0.0093,
+     "slope_N0": -0.0
+    },
+    "clip_b__openllama_3b": {
+     "cls": "cross-modal",
+     "slope_obs": -0.5459,
+     "slope_obs_draw_sd": 0.0277,
+     "slope_crossing": -0.2369,
+     "slope_crossing_draw_sd": 0.0232,
+     "slope_N1": -0.7501,
+     "slope_N1_draw_sd": 0.4198,
+     "slope_N0": -0.0
+    },
+    "clip_b__pythia410m_s1": {
+     "cls": "cross-modal",
+     "slope_obs": -0.5499,
+     "slope_obs_draw_sd": 0.0161,
+     "slope_crossing": -0.2504,
+     "slope_crossing_draw_sd": 0.0112,
+     "slope_N1": -0.9474,
+     "slope_N1_draw_sd": 0.0232,
+     "slope_N0": 0.0
+    },
+    "clip_b__siglip_b": {
+     "cls": "cross-vision",
+     "slope_obs": -0.2547,
+     "slope_obs_draw_sd": 0.0281,
+     "slope_crossing": -0.2025,
+     "slope_crossing_draw_sd": 0.0108,
+     "slope_N1": -0.7631,
+     "slope_N1_draw_sd": 0.0176,
+     "slope_N0": 0.0
+    },
+    "dinov2_b__augreg_b": {
+     "cls": "cross-vision",
+     "slope_obs": -0.1636,
+     "slope_obs_draw_sd": 0.016,
+     "slope_crossing": -0.1642,
+     "slope_crossing_draw_sd": 0.0071,
+     "slope_N1": -0.89,
+     "slope_N1_draw_sd": 0.0081,
+     "slope_N0": -0.0
+    },
+    "dinov2_b__bloomz_1b7": {
+     "cls": "cross-modal",
+     "slope_obs": -0.5691,
+     "slope_obs_draw_sd": 0.0509,
+     "slope_crossing": -0.2381,
+     "slope_crossing_draw_sd": 0.012,
+     "slope_N1": -0.9516,
+     "slope_N1_draw_sd": 0.0271,
+     "slope_N0": 0.0
+    },
+    "dinov2_b__clip_b": {
+     "cls": "cross-vision",
+     "slope_obs": -0.2103,
+     "slope_obs_draw_sd": 0.0227,
+     "slope_crossing": -0.1892,
+     "slope_crossing_draw_sd": 0.0123,
+     "slope_N1": -0.965,
+     "slope_N1_draw_sd": 0.0055,
+     "slope_N0": -0.0
+    },
+    "dinov2_b__mae_b": {
+     "cls": "cross-vision",
+     "slope_obs": -0.2384,
+     "slope_obs_draw_sd": 0.0161,
+     "slope_crossing": -0.2058,
+     "slope_crossing_draw_sd": 0.0084,
+     "slope_N1": -0.9285,
+     "slope_N1_draw_sd": 0.0048,
+     "slope_N0": 0.0
+    },
+    "dinov2_b__openllama_3b": {
+     "cls": "cross-modal",
+     "slope_obs": -0.6057,
+     "slope_obs_draw_sd": 0.059,
+     "slope_crossing": -0.244,
+     "slope_crossing_draw_sd": 0.0207,
+     "slope_N1": -0.7831,
+     "slope_N1_draw_sd": 0.4378,
+     "slope_N0": 0.0
+    },
+    "dinov2_b__pythia410m_s1": {
+     "cls": "cross-modal",
+     "slope_obs": -0.5924,
+     "slope_obs_draw_sd": 0.058,
+     "slope_crossing": -0.2557,
+     "slope_crossing_draw_sd": 0.016,
+     "slope_N1": -0.9786,
+     "slope_N1_draw_sd": 0.016,
+     "slope_N0": 0.0
+    },
+    "dinov2_b__siglip_b": {
+     "cls": "cross-vision",
+     "slope_obs": -0.2257,
+     "slope_obs_draw_sd": 0.0092,
+     "slope_crossing": -0.1799,
+     "slope_crossing_draw_sd": 0.0102,
+     "slope_N1": -0.8489,
+     "slope_N1_draw_sd": 0.0121,
+     "slope_N0": 0.0
+    },
+    "mae_b__augreg_b": {
+     "cls": "cross-vision",
+     "slope_obs": -0.21,
+     "slope_obs_draw_sd": 0.0169,
+     "slope_crossing": -0.1828,
+     "slope_crossing_draw_sd": 0.0067,
+     "slope_N1": -0.6895,
+     "slope_N1_draw_sd": 0.0144,
+     "slope_N0": 0.0
+    },
+    "mae_b__bloomz_1b7": {
+     "cls": "cross-modal",
+     "slope_obs": -0.6304,
+     "slope_obs_draw_sd": 0.0484,
+     "slope_crossing": -0.2541,
+     "slope_crossing_draw_sd": 0.0153,
+     "slope_N1": -0.8844,
+     "slope_N1_draw_sd": 0.0508,
+     "slope_N0": -0.0
+    },
+    "mae_b__openllama_3b": {
+     "cls": "cross-modal",
+     "slope_obs": -0.663,
+     "slope_obs_draw_sd": 0.0606,
+     "slope_crossing": -0.263,
+     "slope_crossing_draw_sd": 0.0117,
+     "slope_N1": -0.9373,
+     "slope_N1_draw_sd": 0.035,
+     "slope_N0": 0.0
+    },
+    "mae_b__pythia410m_s1": {
+     "cls": "cross-modal",
+     "slope_obs": -0.64,
+     "slope_obs_draw_sd": 0.0307,
+     "slope_crossing": -0.269,
+     "slope_crossing_draw_sd": 0.0141,
+     "slope_N1": -0.9428,
+     "slope_N1_draw_sd": 0.0231,
+     "slope_N0": -0.0
+    },
+    "mae_b__siglip_b": {
+     "cls": "cross-vision",
+     "slope_obs": -0.2143,
+     "slope_obs_draw_sd": 0.015,
+     "slope_crossing": -0.1926,
+     "slope_crossing_draw_sd": 0.0073,
+     "slope_N1": -0.5132,
+     "slope_N1_draw_sd": 0.025,
+     "slope_N0": 0.0
+    },
+    "pythia410m_s1__pythia410m_s2": {
+     "cls": "seed-seed",
+     "slope_obs": -0.0063,
+     "slope_obs_draw_sd": 0.0083,
+     "slope_crossing": -0.0074,
+     "slope_crossing_draw_sd": 0.0071,
+     "slope_N1": -0.4783,
+     "slope_N1_draw_sd": 0.0229,
+     "slope_N0": 0.0
+    },
+    "pythia410m_s3__pythia410m_s4": {
+     "cls": "seed-seed",
+     "slope_obs": -0.0326,
+     "slope_obs_draw_sd": 0.0082,
+     "slope_crossing": -0.0393,
+     "slope_crossing_draw_sd": 0.0062,
+     "slope_N1": -0.6527,
+     "slope_N1_draw_sd": 0.0444,
+     "slope_N0": -0.0
+    },
+    "pythia410m_s5__pythia410m_s6": {
+     "cls": "seed-seed",
+     "slope_obs": -0.0027,
+     "slope_obs_draw_sd": 0.0075,
+     "slope_crossing": -0.0125,
+     "slope_crossing_draw_sd": 0.0043,
+     "slope_N1": -0.6001,
+     "slope_N1_draw_sd": 0.0289,
+     "slope_N0": -0.0
+    },
+    "pythia410m_s7__pythia410m_s8": {
+     "cls": "seed-seed",
+     "slope_obs": -0.0213,
+     "slope_obs_draw_sd": 0.0036,
+     "slope_crossing": -0.0238,
+     "slope_crossing_draw_sd": 0.0011,
+     "slope_N1": -0.1521,
+     "slope_N1_draw_sd": 0.0094,
+     "slope_N0": 0.0
+    },
+    "siglip_b__bloomz_1b7": {
+     "cls": "cross-modal",
+     "slope_obs": -0.5125,
+     "slope_obs_draw_sd": 0.0298,
+     "slope_crossing": -0.2006,
+     "slope_crossing_draw_sd": 0.017,
+     "slope_N1": -0.6801,
+     "slope_N1_draw_sd": 0.0259,
+     "slope_N0": -0.0
+    },
+    "siglip_b__openllama_3b": {
+     "cls": "cross-modal",
+     "slope_obs": -0.512,
+     "slope_obs_draw_sd": 0.0341,
+     "slope_crossing": -0.1986,
+     "slope_crossing_draw_sd": 0.021,
+     "slope_N1": -0.8051,
+     "slope_N1_draw_sd": 0.0117,
+     "slope_N0": 0.0
+    },
+    "siglip_b__pythia410m_s1": {
+     "cls": "cross-modal",
+     "slope_obs": -0.5087,
+     "slope_obs_draw_sd": 0.0235,
+     "slope_crossing": -0.2168,
+     "slope_crossing_draw_sd": 0.0178,
+     "slope_N1": -0.8336,
+     "slope_N1_draw_sd": 0.021,
+     "slope_N0": -0.0
+    }
+   },
+   "source": {
+    "points": {
+     "source": "~/hrh_v2_stage1_20261008/results/S1_1/v11/S1_1_v11_slopes_clip.parquet",
+     "key": "slopes[primary & k==10]: x = slope_obs, filled y = slope_iii-LSlog-EB, open y = slope_N1, N0 = slope_N0 (identically 0, dashed line)",
+     "sha256": "41292e65ff67ddf3b9c4fa0673d7b250a0f1959e3337e0e6660cea2b2834b5f1"
+    },
+    "x_error": {
+     "source": "~/hrh_v2_stage1_20261008/results/S1_1/v11/S1_1_v11_slopes_clip.parquet",
+     "key": "slopes[primary & k==10].slope_obs_draw_sd (+-1 s.d. over the 5 orderings)",
+     "sha256": "41292e65ff67ddf3b9c4fa0673d7b250a0f1959e3337e0e6660cea2b2834b5f1"
+    },
+    "y_error": {
+     "source": "~/hrh_v2_stage1_20261008/results/S1_1/v11/S1_1_v11_drawslopes_clip.parquet",
+     "key": "s.d. (ddof 1) over the 5 orderings of drawslopes[primary & k==10].slope_iii-LSlog-EB and .slope_N1",
+     "sha256": "f04b85a91b46f45c3f021026d4fdc89d8e3e965f9c3b77a7c8e2c493a362cb02"
+    }
+   }
+  },
+  "slope_class_agreement": {
+   "values": {
+    "crossing|k=1": {
+     "seed": "4/4",
+     "vision": "3/10",
+     "vl": "15/15"
+    },
+    "N1|k=1": {
+     "seed": "0/4",
+     "vision": "3/10",
+     "vl": "15/15"
+    },
+    "N0|k=1": {
+     "seed": "4/4",
+     "vision": "7/10",
+     "vl": "0/15"
+    },
+    "crossing|k=10": {
+     "seed": "4/4",
+     "vision": "10/10",
+     "vl": "15/15"
+    },
+    "N1|k=10": {
+     "seed": "0/4",
+     "vision": "10/10",
+     "vl": "15/15"
+    },
+    "N0|k=10": {
+     "seed": "4/4",
+     "vision": "0/10",
+     "vl": "0/15"
+    },
+    "crossing|k=100": {
+     "seed": "3/4",
+     "vision": "10/10",
+     "vl": "15/15"
+    },
+    "N1|k=100": {
+     "seed": "1/4",
+     "vision": "10/10",
+     "vl": "15/15"
+    },
+    "N0|k=100": {
+     "seed": "3/4",
+     "vision": "0/10",
+     "vl": "0/15"
+    }
+   },
+   "source": "~/hrh_v2_stage1_20261008/results/S1_1/v11/S1_1_v11_slopes_clip.parquet",
+   "key": "slopes[primary]: class of the predicted slope (+-0.1 rule) == slope_class, by k and pair class",
+   "sha256": "41292e65ff67ddf3b9c4fa0673d7b250a0f1959e3337e0e6660cea2b2834b5f1"
+  },
+  "slope_class_agreement_k10_total": {
+   "crossing": "29/29",
+   "N1": "25/29",
+   "N0": "4/29"
+  },
+  "sign_agreement_nonflat_units": {
+   "values": {
+    "crossing": "69/69",
+    "N1": "69/69"
+   },
+   "source": "~/hrh_v2_stage1_20261008/results/S1_1/v11/S1_1_v11_slopes_clip.parquet",
+   "key": "slopes[primary & slope_class != flat], all k",
+   "sha256": "41292e65ff67ddf3b9c4fa0673d7b250a0f1959e3337e0e6660cea2b2834b5f1"
+  },
+  "slope_gaps": {
+   "values": {
+    "seed|k=1": {
+     "crossing_minus_obs": {
+      "min": -0.031,
+      "median": -0.013,
+      "max": 0.004,
+      "n_shallower": 1,
+      "n": 4
+     },
+     "N1_minus_obs": {
+      "min": -0.63,
+      "median": -0.558,
+      "max": -0.155,
+      "n_steeper": 4,
+      "n": 4
+     },
+     "median_slope": {
+      "obs": 0.009,
+      "crossing": -0.004,
+      "N1": -0.532
+     }
+    },
+    "vision|k=1": {
+     "crossing_minus_obs": {
+      "min": -0.164,
+      "median": -0.059,
+      "max": 0.005,
+      "n_shallower": 1,
+      "n": 10
+     },
+     "N1_minus_obs": {
+      "min": -0.688,
+      "median": -0.448,
+      "max": -0.34,
+      "n_steeper": 10,
+      "n": 10
+     },
+     "median_slope": {
+      "obs": -0.076,
+      "crossing": -0.138,
+      "N1": -0.547
+     }
+    },
+    "vl|k=1": {
+     "crossing_minus_obs": {
+      "min": 0.235,
+      "median": 0.385,
+      "max": 0.585,
+      "n_shallower": 15,
+      "n": 15
+     },
+     "N1_minus_obs": {
+      "min": -0.125,
+      "median": 0.081,
+      "max": 0.467,
+      "n_steeper": 5,
+      "n": 15
+     },
+     "median_slope": {
+      "obs": -0.522,
+      "crossing": -0.15,
+      "N1": -0.379
+     }
+    },
+    "seed|k=10": {
+     "crossing_minus_obs": {
+      "min": -0.01,
+      "median": -0.005,
+      "max": -0.001,
+      "n_shallower": 0,
+      "n": 4
+     },
+     "N1_minus_obs": {
+      "min": -0.62,
+      "median": -0.535,
+      "max": -0.131,
+      "n_steeper": 4,
+      "n": 4
+     },
+     "median_slope": {
+      "obs": -0.014,
+      "crossing": -0.018,
+      "N1": -0.539
+     }
+    },
+    "vision|k=10": {
+     "crossing_minus_obs": {
+      "min": -0.001,
+      "median": 0.031,
+      "max": 0.062,
+      "n_shallower": 9,
+      "n": 10
+     },
+     "N1_minus_obs": {
+      "min": -0.755,
+      "median": -0.544,
+      "max": -0.299,
+      "n_steeper": 10,
+      "n": 10
+     },
+     "median_slope": {
+      "obs": -0.214,
+      "crossing": -0.186,
+      "N1": -0.8
+     }
+    },
+    "vl|k=10": {
+     "crossing_minus_obs": {
+      "min": 0.292,
+      "median": 0.333,
+      "max": 0.4,
+      "n_shallower": 15,
+      "n": 15
+     },
+     "N1_minus_obs": {
+      "min": -0.397,
+      "median": -0.295,
+      "max": -0.168,
+      "n_steeper": 15,
+      "n": 15
+     },
+     "median_slope": {
+      "obs": -0.571,
+      "crossing": -0.238,
+      "N1": -0.884
+     }
+    },
+    "seed|k=100": {
+     "crossing_minus_obs": {
+      "min": 0.005,
+      "median": 0.048,
+      "max": 0.056,
+      "n_shallower": 4,
+      "n": 4
+     },
+     "N1_minus_obs": {
+      "min": -0.578,
+      "median": -0.527,
+      "max": -0.125,
+      "n_steeper": 4,
+      "n": 4
+     },
+     "median_slope": {
+      "obs": -0.055,
+      "crossing": -0.026,
+      "N1": -0.575
+     }
+    },
+    "vision|k=100": {
+     "crossing_minus_obs": {
+      "min": 0.022,
+      "median": 0.077,
+      "max": 0.123,
+      "n_shallower": 10,
+      "n": 10
+     },
+     "N1_minus_obs": {
+      "min": -0.682,
+      "median": -0.457,
+      "max": -0.213,
+      "n_steeper": 10,
+      "n": 10
+     },
+     "median_slope": {
+      "obs": -0.278,
+      "crossing": -0.209,
+      "N1": -0.791
+     }
+    },
+    "vl|k=100": {
+     "crossing_minus_obs": {
+      "min": 0.114,
+      "median": 0.252,
+      "max": 0.301,
+      "n_shallower": 15,
+      "n": 15
+     },
+     "N1_minus_obs": {
+      "min": -0.389,
+      "median": -0.282,
+      "max": -0.103,
+      "n_steeper": 15,
+      "n": 15
+     },
+     "median_slope": {
+      "obs": -0.598,
+      "crossing": -0.358,
+      "N1": -0.889
+     }
+    }
+   },
+   "source": "~/hrh_v2_stage1_20261008/results/S1_1/v11/S1_1_v11_slopes_clip.parquet",
+   "key": "slopes[primary & k & cls]: slope_iii-LSlog-EB - slope_obs and slope_N1 - slope_obs (positive = shallower than observed)",
+   "sha256": "41292e65ff67ddf3b9c4fa0673d7b250a0f1959e3337e0e6660cea2b2834b5f1"
+  },
+  "n1_undefined_units_set_to_N0": {
+   "values": [
+    "clip_b__openllama_3b@d0:AB",
+    "clip_b__openllama_3b@d0:BA",
+    "dinov2_b__openllama_3b@d3:AB",
+    "dinov2_b__openllama_3b@d3:BA"
+   ],
+   "source": "~/hrh_v2_stage1_20261008/results/S1_1/v11/S1_1_v11_summary.json",
+   "key": "configs.clip.n1_undefined_units (N1 replaced by N0 there)",
+   "sha256": "324f6ce3a8efcbe95aecaac8c240f500b08da99613e20836cd3a216459e4bdb2"
+  },
+  "n_pair_orderings_k10": 145,
+  "long_N1_bars": {
+   "pairs": [
+    "clip_b__openllama_3b",
+    "dinov2_b__openllama_3b"
+   ],
+   "slope_N1_draw_sd": {
+    "clip_b__openllama_3b": 0.4198,
+    "dinov2_b__openllama_3b": 0.4378
+   },
+   "max_other_slope_N1_draw_sd": 0.0514
+  },
+  "level_error_factor": {
+   "values": {
+    "crossing": {
+     "seed": 1.02,
+     "vision": 1.16,
+     "vl": 2.86
+    },
+    "N0": {
+     "seed": 1.04,
+     "vision": 1.24,
+     "vl": 2.26
+    },
+    "N1": {
+     "seed": 8.64,
+     "vision": 8.12,
+     "vl": 4.01
+    }
+   },
+   "source": "~/hrh_v2_stage1_20261008/results/S1_1/v11/S1_1_v11_summary.json",
+   "key": "exp of configs.clip.accuracy.primary.<pred>.<cls>.median_abs_log_ratio (cells with m != 1024 and obs above twice chance)",
+   "sha256": "324f6ce3a8efcbe95aecaac8c240f500b08da99613e20836cd3a216459e4bdb2"
+  }
+ },
+ "asserts": {
+  "obs class medians == v5.1 F.1 panel_a.class_median_obs_k10": true,
+  "obs class medians == Figure 2 (F_neighbors v5) panel_a.class_median_obs_k10 (to 5e-5)": true,
+  "(d) per-pair values == v5.1 F.1 panel_c.per_pair_k10": true,
+  "slope classes at k=10: crossing 29/29, N1 25/29, N0 4/29": true,
+  "== v5.1 panel_c.slope_class_agreement_k10_total": true
+ },
+ "key_row_in": {
+  "y_centre": 2.395,
+  "entries_x_in": {
+   "obs": [
+    0.898,
+    1.528
+   ],
+   "crossing": [
+    1.728,
+    2.504
+   ],
+   "N1": [
+    2.704,
+    3.419
+   ],
+   "fit": [
+    3.619,
+    4.602
+   ]
+  }
+ },
+ "pdf_checks": {
+  "style": "hrh_style_v8",
+  "style_sha256": "fe994067dfefba8c0fe34309a67609e85f82288f0f785e69d2bef98e33fc79a8",
+  "size_in": [
+   5.5,
+   2.48
+  ],
+  "min_text_pt": 7.5,
+  "min_glyph_pt": 7.0,
+  "pdf_glyph_size_counts": {
+   "7": 1,
+   "7.5": 35,
+   "8": 11,
+   "10": 4
+  },
+  "smallest_layout_glyphs": {
+   "mKNN $s_N$ ($k=10$)": 7.0,
+   "seed": 7.5,
+   "256": 7.5,
+   "2048": 7.5,
+   "16,384": 7.5,
+   "0.001": 7.5
+  },
+  "mathtext_shrink_factor": 0.875,
+  "n_type3": 0,
+  "fonts": [
+   "EHSAFH+Cmmi10 (CID TrueType, emb yes)",
+   "HGXURO+Cmr10 (CID TrueType, emb yes)",
+   "CZXPXS+LiberationSerif-Bold (CID TrueType, emb yes)",
+   "XPGECF+LiberationSerif-BoldItalic (CID TrueType, emb yes)",
+   "EIDYWP+LiberationSerif (CID TrueType, emb yes)"
+  ],
+  "low_contrast_text": [],
+  "n_tick_labels_checked": 21,
+  "n_axis_titles_checked": 4,
+  "not_bold_tick_or_axis_labels": [],
+  "bold_text_with_regular_math": [],
+  "data_colours": [
+   "#004488",
+   "#0077BB",
+   "#222222",
+   "#707070",
+   "#77AADD",
+   "#CDCDCD",
+   "#E5E5E5",
+   "#FFFFFF"
+  ],
+  "chromatic_data_colours": [
+   "#004488",
+   "#0077BB",
+   "#77AADD"
+  ],
+  "off_palette_colours": [
+   "#CDCDCD"
+  ],
+  "pdffonts": [
+   "name                                 type              encoding         emb sub uni object ID",
+   "------------------------------------ ----------------- ---------------- --- --- --- ---------",
+   "EHSAFH+Cmmi10                        CID TrueType      Identity-H       yes yes yes     21  0",
+   "HGXURO+Cmr10                         CID TrueType      Identity-H       yes yes yes     28  0",
+   "CZXPXS+LiberationSerif-Bold          CID TrueType      Identity-H       yes yes yes     35  0",
+   "XPGECF+LiberationSerif-BoldItalic    CID TrueType      Identity-H       yes yes yes     42  0",
+   "EIDYWP+LiberationSerif               CID TrueType      Identity-H       yes yes yes     49  0"
+  ]
+ },
+ "png_px": [
+  1100,
+  496
+ ],
+ "glyph_checks": {
+  "min_glyph_pt_by_text": {
+   "mKNN $s_N$ ($k=10$)": 7.0,
+   "seed": 7.5,
+   "256": 7.5,
+   "2048": 7.5,
+   "16,384": 7.5,
+   "0.001": 7.5,
+   "0.01": 7.5,
+   "0.1": 7.5
+  },
+  "min_pdf_Tf_pt": 7.0,
+  "floor_pt": 7.0,
+  "asserted_by": "S.check (hrh_style_v8)"
+ },
+ "layout_audit": {
+  "dpi": 300,
+  "dilation_px": 3,
+  "text_vs_data": {
+   "(a) name": 0,
+   "(b) name": 0,
+   "(c) name": 0,
+   "(d) flat predicted": 0,
+   "(d) flat observed": 0,
+   "(d) y=x": 0,
+   "key handle obs seed": 0,
+   "key handle obs vision": 0,
+   "key handle obs vl": 0,
+   "key obs": 0,
+   "key handle crossing line": 0,
+   "key handle crossing marker": 0,
+   "key crossing": 0,
+   "key handle N1 line": 0,
+   "key handle N1 marker": 0,
+   "key N1": 0,
+   "key handle fit": 0,
+   "key fit": 0
+  },
+  "text_vs_frame": {
+   "(a) name": 0,
+   "(b) name": 0,
+   "(c) name": 0,
+   "(d) flat predicted": 0,
+   "(d) flat observed": 0,
+   "(d) y=x": 0,
+   "key handle obs seed": 0,
+   "key handle obs vision": 0,
+   "key handle obs vl": 0,
+   "key obs": 0,
+   "key handle crossing line": 0,
+   "key handle crossing marker": 0,
+   "key crossing": 0,
+   "key handle N1 line": 0,
+   "key handle N1 marker": 0,
+   "key N1": 0,
+   "key handle fit": 0,
+   "key fit": 0
+  },
+  "text_vs_text": [],
+  "where_in": {},
+  "clearance_pt": {
+   "(a) name": {
+    "data": 6.23,
+    "frame": 24.22
+   },
+   "(b) name": {
+    "data": 5.65,
+    "frame": 16.32
+   },
+   "(c) name": {
+    "data": 5.52,
+    "frame": 7.53
+   },
+   "(d) flat predicted": {
+    "data": 13.56,
+    "frame": 2.16
+   },
+   "(d) flat observed": {
+    "data": 27.49,
+    "frame": 4.08
+   },
+   "(d) y=x": {
+    "data": 2.38,
+    "frame": 30.48
+   },
+   "key handle obs seed": {
+    "data": 34.12,
+    "frame": 40.46
+   },
+   "key handle obs vision": {
+    "data": 35.71,
+    "frame": 35.81
+   },
+   "key handle obs vl": {
+    "data": 37.84,
+    "frame": 31.2
+   },
+   "key obs": {
+    "data": 38.36,
+    "frame": 5.13
+   },
+   "key handle crossing line": {
+    "data": 33.6,
+    "frame": 9.79
+   },
+   "key handle crossing marker": {
+    "data": 31.44,
+    "frame": 12.92
+   },
+   "key crossing": {
+    "data": 33.18,
+    "frame": 9.87
+   },
+   "key handle N1 line": {
+    "data": 33.6,
+    "frame": 7.47
+   },
+   "key handle N1 marker": {
+    "data": 32.57,
+    "frame": 9.16
+   },
+   "key N1": {
+    "data": 31.38,
+    "frame": 14.92
+   },
+   "key handle fit": {
+    "data": 54.44,
+    "frame": 4.11
+   },
+   "key fit": {
+    "data": 42.72,
+    "frame": 12.05
+   }
+  },
+  "text_vs_text_same_key_entry": [
+   [
+    "key handle obs seed",
+    "key handle obs vision",
+    30
+   ],
+   [
+    "key handle obs vision",
+    "key handle obs vl",
+    30
+   ],
+   [
+    "key handle crossing line",
+    "key handle crossing marker",
+    208
+   ],
+   [
+    "key handle N1 line",
+    "key handle N1 marker",
+    164
+   ]
+  ],
+  "frame_text_box_overlaps": [],
+  "text_outside_figure": [],
+  "tick_label_gap_between_panels_in": {
+   "a-b": 0.082,
+   "b-c": 0.082
+  },
+  "gap_c_ticklabels_to_d_frame_text_in": 0.577,
+  "n_annotations": 18,
+  "undeclared_on_band_px": {
+   "(d) y=x": 0
+  },
+  "marker_colour_ink_px": {
+   "seed": {
+    "pair": "pythia410m_s1__pythia410m_s2",
+    "crossing_filled": 233,
+    "N1_ring": 156
+   },
+   "vision": {
+    "pair": "augreg_b__siglip_b",
+    "crossing_filled": 241,
+    "N1_ring": 164
+   },
+   "vl": {
+    "pair": "augreg_b__bloomz_1b7",
+    "crossing_filled": 241,
+    "N1_ring": 164
+   }
+  },
+  "panel_letter_ink_px": {
+   "a": {
+    "letter": 8,
+    "leftmost_element": 6
+   },
+   "d": {
+    "letter": 1076,
+    "leftmost_element": 1074
+   }
+  },
+  "shading_contrast": {
+   "band_on_white": 1.26,
+   "square_on_band": 1.26,
+   "square_on_white": 1.59,
+   "MUTED_on_band": 5.92,
+   "seed_marker_on_square": 1.54,
+   "colours": {
+    "band": "#E5E5E5",
+    "square": "#cdcdcd"
+   }
+  },
+  "result": "clean"
+ },
+ "axes_in": {
+  "a": [
+   0.47,
+   0.37,
+   0.85,
+   1.76
+  ],
+  "b": [
+   1.54,
+   0.37,
+   0.85,
+   1.76
+  ],
+  "c": [
+   2.6100000000000003,
+   0.37,
+   0.85,
+   1.76
+  ],
+  "d": [
+   3.98,
+   0.37,
+   1.49,
+   1.76
+  ],
+  "figure": [
+   5.5,
+   2.48
+  ]
+ },
+ "style": {
+  "style": "hrh_style_v8",
+  "style_sha256": "fe994067dfefba8c0fe34309a67609e85f82288f0f785e69d2bef98e33fc79a8",
+  "pairs": {
+   "seed": "#77AADD",
+   "vision": "#0077BB",
+   "vl": "#004488"
+  },
+  "text_pairs": {
+   "seed": "#222222",
+   "vision": "#0077BB",
+   "vl": "#004488"
+  },
+  "observed_lw_pt": 2.0,
+  "predicted_connector_lw_pt": 1.0,
+  "crossing_ms_pt": 4.6,
+  "crossing_white_edge_pt": 0.5,
+  "N1_ring_ms_pt": 3.2,
+  "N1_ring_edge_pt": 0.9,
+  "N0": "not drawn in v8 (v6: NULL_LINE dashed LW ref)",
+  "fit_line": "NULL_LINE solid LW guide 0.6",
+  "band_fill": "#E5E5E5",
+  "square_fill": "#cdcdcd",
+  "y_equals_x": "dotted NULL_LINE LW ref",
+  "long_N1_bar_lw_pt": 0.6,
+  "panel_letter_x_in": {
+   "a": 0.02,
+   "b": 1.5,
+   "c": 2.57,
+   "d": 3.58
+  }
+ },
+ "results_numbers": [
+  {
+   "id": "T1",
+   "quantity": "fit size of the three predictors",
+   "kind": "design",
+   "value": 1024,
+   "printed": "m = 1024",
+   "source": "~/hrh_v2_stage1_20261008/analysis/s11/ANALYSIS_PLAN_S11_v1.1.md",
+   "key": "line 44",
+   "sha256": "736ec1d4c9d20a843fc895ab895babfc13871aadf4e32d1410707e98d8b5c391",
+   "where": "caption (design constant) and text"
+  },
+  {
+   "id": "T2",
+   "quantity": "flat slope class",
+   "kind": "design",
+   "value": 0.1,
+   "printed": "|slope| below 0.1",
+   "source": "~/hrh_v2_stage1_20261008/analysis/s11/ANALYSIS_PLAN_S11_v1.1.md",
+   "key": "V5 table, line 112",
+   "sha256": "736ec1d4c9d20a843fc895ab895babfc13871aadf4e32d1410707e98d8b5c391",
+   "where": "text (already stated)"
+  },
+  {
+   "id": "T3",
+   "quantity": "slope classes recovered at k = 10",
+   "kind": "result",
+   "value": {
+    "crossing": "29/29",
+    "N1": "25/29",
+    "N0": "4/29"
+   },
+   "printed": "crossing law 29 of 29, N1 25, N0 4",
+   "source": "~/hrh_v2_stage1_20261008/results/S1_1/v11/S1_1_v11_slopes_clip.parquet",
+   "key": "panel_d.slope_class_agreement_k10_total",
+   "sha256": "41292e65ff67ddf3b9c4fa0673d7b250a0f1959e3337e0e6660cea2b2834b5f1",
+   "where": "text (already stated)"
+  },
+  {
+   "id": "T4",
+   "quantity": "slope classes recovered by k and class",
+   "kind": "result",
+   "value": {
+    "crossing|k=1": {
+     "seed": "4/4",
+     "vision": "3/10",
+     "vl": "15/15"
+    },
+    "N1|k=1": {
+     "seed": "0/4",
+     "vision": "3/10",
+     "vl": "15/15"
+    },
+    "N0|k=1": {
+     "seed": "4/4",
+     "vision": "7/10",
+     "vl": "0/15"
+    },
+    "crossing|k=10": {
+     "seed": "4/4",
+     "vision": "10/10",
+     "vl": "15/15"
+    },
+    "N1|k=10": {
+     "seed": "0/4",
+     "vision": "10/10",
+     "vl": "15/15"
+    },
+    "N0|k=10": {
+     "seed": "4/4",
+     "vision": "0/10",
+     "vl": "0/15"
+    },
+    "crossing|k=100": {
+     "seed": "3/4",
+     "vision": "10/10",
+     "vl": "15/15"
+    },
+    "N1|k=100": {
+     "seed": "1/4",
+     "vision": "10/10",
+     "vl": "15/15"
+    },
+    "N0|k=100": {
+     "seed": "3/4",
+     "vision": "0/10",
+     "vl": "0/15"
+    }
+   },
+   "source": "~/hrh_v2_stage1_20261008/results/S1_1/v11/S1_1_v11_slopes_clip.parquet",
+   "key": "panel_d.slope_class_agreement",
+   "sha256": "41292e65ff67ddf3b9c4fa0673d7b250a0f1959e3337e0e6660cea2b2834b5f1",
+   "where": "optional"
+  },
+  {
+   "id": "T5",
+   "quantity": "slope signs right on non-flat pair-k combinations",
+   "kind": "result",
+   "value": {
+    "crossing": "69/69",
+    "N1": "69/69"
+   },
+   "printed": "69 of 69 for both",
+   "source": "~/hrh_v2_stage1_20261008/results/S1_1/v11/S1_1_v11_slopes_clip.parquet",
+   "key": "panel_d.sign_agreement_nonflat_units",
+   "sha256": "41292e65ff67ddf3b9c4fa0673d7b250a0f1959e3337e0e6660cea2b2834b5f1",
+   "where": "text (already stated)"
+  },
+  {
+   "id": "T6",
+   "quantity": "crossing-law minus observed slope at k = 10, per class (min, max)",
+   "kind": "result",
+   "value": {
+    "seed": {
+     "min": -0.01,
+     "median": -0.005,
+     "max": -0.001,
+     "n_shallower": 0,
+     "n": 4
+    },
+    "vision": {
+     "min": -0.001,
+     "median": 0.031,
+     "max": 0.062,
+     "n_shallower": 9,
+     "n": 10
+    },
+    "vl": {
+     "min": 0.292,
+     "median": 0.333,
+     "max": 0.4,
+     "n_shallower": 15,
+     "n": 15
+    }
+   },
+   "printed": "seed \u22120.01 to \u22120.00; vision \u22120.00 to 0.06; vision-language 0.29 to 0.40 (shallower for all 15)",
+   "source": "~/hrh_v2_stage1_20261008/results/S1_1/v11/S1_1_v11_slopes_clip.parquet",
+   "key": "panel_d.slope_gaps.<cls>|k=10.crossing_minus_obs",
+   "sha256": "41292e65ff67ddf3b9c4fa0673d7b250a0f1959e3337e0e6660cea2b2834b5f1",
+   "where": "add"
+  },
+  {
+   "id": "T7",
+   "quantity": "class median slopes at k = 10: observed, crossing law, N1",
+   "kind": "result",
+   "value": {
+    "seed": {
+     "obs": -0.014,
+     "crossing": -0.018,
+     "N1": -0.539
+    },
+    "vision": {
+     "obs": -0.214,
+     "crossing": -0.186,
+     "N1": -0.8
+    },
+    "vl": {
+     "obs": -0.571,
+     "crossing": -0.238,
+     "N1": -0.884
+    }
+   },
+   "printed": "observed \u22120.01 / \u22120.21 / \u22120.57; crossing law \u22120.02 / \u22120.19 / \u22120.24; N1 \u22120.54 / \u22120.80 / \u22120.88",
+   "source": "~/hrh_v2_stage1_20261008/results/S1_1/v11/S1_1_v11_slopes_clip.parquet",
+   "key": "panel_d.slope_gaps.<cls>|k=10.median_slope",
+   "sha256": "41292e65ff67ddf3b9c4fa0673d7b250a0f1959e3337e0e6660cea2b2834b5f1",
+   "where": "vision-language pair already stated; add N1"
+  },
+  {
+   "id": "T8",
+   "quantity": "N1 steeper than observed at k = 10",
+   "kind": "result",
+   "value": {
+    "seed": "4/4",
+    "vision": "10/10",
+    "vl": "15/15"
+   },
+   "printed": "all 29 pairs",
+   "source": "~/hrh_v2_stage1_20261008/results/S1_1/v11/S1_1_v11_slopes_clip.parquet",
+   "key": "panel_d.slope_gaps.<cls>|k=10.N1_minus_obs.n_steeper",
+   "sha256": "41292e65ff67ddf3b9c4fa0673d7b250a0f1959e3337e0e6660cea2b2834b5f1",
+   "where": "add"
+  },
+  {
+   "id": "T9",
+   "quantity": "same comparisons at k = 1 and 100",
+   "kind": "result",
+   "value": {
+    "seed|k=1": {
+     "crossing_minus_obs": {
+      "min": -0.031,
+      "median": -0.013,
+      "max": 0.004,
+      "n_shallower": 1,
+      "n": 4
+     },
+     "N1_minus_obs": {
+      "min": -0.63,
+      "median": -0.558,
+      "max": -0.155,
+      "n_steeper": 4,
+      "n": 4
+     },
+     "median_slope": {
+      "obs": 0.009,
+      "crossing": -0.004,
+      "N1": -0.532
+     }
+    },
+    "vision|k=1": {
+     "crossing_minus_obs": {
+      "min": -0.164,
+      "median": -0.059,
+      "max": 0.005,
+      "n_shallower": 1,
+      "n": 10
+     },
+     "N1_minus_obs": {
+      "min": -0.688,
+      "median": -0.448,
+      "max": -0.34,
+      "n_steeper": 10,
+      "n": 10
+     },
+     "median_slope": {
+      "obs": -0.076,
+      "crossing": -0.138,
+      "N1": -0.547
+     }
+    },
+    "vl|k=1": {
+     "crossing_minus_obs": {
+      "min": 0.235,
+      "median": 0.385,
+      "max": 0.585,
+      "n_shallower": 15,
+      "n": 15
+     },
+     "N1_minus_obs": {
+      "min": -0.125,
+      "median": 0.081,
+      "max": 0.467,
+      "n_steeper": 5,
+      "n": 15
+     },
+     "median_slope": {
+      "obs": -0.522,
+      "crossing": -0.15,
+      "N1": -0.379
+     }
+    },
+    "seed|k=100": {
+     "crossing_minus_obs": {
+      "min": 0.005,
+      "median": 0.048,
+      "max": 0.056,
+      "n_shallower": 4,
+      "n": 4
+     },
+     "N1_minus_obs": {
+      "min": -0.578,
+      "median": -0.527,
+      "max": -0.125,
+      "n_steeper": 4,
+      "n": 4
+     },
+     "median_slope": {
+      "obs": -0.055,
+      "crossing": -0.026,
+      "N1": -0.575
+     }
+    },
+    "vision|k=100": {
+     "crossing_minus_obs": {
+      "min": 0.022,
+      "median": 0.077,
+      "max": 0.123,
+      "n_shallower": 10,
+      "n": 10
+     },
+     "N1_minus_obs": {
+      "min": -0.682,
+      "median": -0.457,
+      "max": -0.213,
+      "n_steeper": 10,
+      "n": 10
+     },
+     "median_slope": {
+      "obs": -0.278,
+      "crossing": -0.209,
+      "N1": -0.791
+     }
+    },
+    "vl|k=100": {
+     "crossing_minus_obs": {
+      "min": 0.114,
+      "median": 0.252,
+      "max": 0.301,
+      "n_shallower": 15,
+      "n": 15
+     },
+     "N1_minus_obs": {
+      "min": -0.389,
+      "median": -0.282,
+      "max": -0.103,
+      "n_steeper": 15,
+      "n": 15
+     },
+     "median_slope": {
+      "obs": -0.598,
+      "crossing": -0.358,
+      "N1": -0.889
+     }
+    }
+   },
+   "note": "at k = 1, N1 is steeper for only 5 of 15 vision-language pairs, so the 'every slope too steep' reading is stated at k = 10",
+   "source": "~/hrh_v2_stage1_20261008/results/S1_1/v11/S1_1_v11_slopes_clip.parquet",
+   "key": "panel_d.slope_gaps",
+   "sha256": "41292e65ff67ddf3b9c4fa0673d7b250a0f1959e3337e0e6660cea2b2834b5f1",
+   "where": "caveat for the text"
+  },
+  {
+   "id": "T10",
+   "quantity": "vision-language class medians at m = 1024 and 16,384: observed, crossing law, N1",
+   "kind": "result",
+   "value": {
+    "obs": {
+     "1024": 0.043,
+     "16384": 0.0085
+    },
+    "crossing": {
+     "1024": 0.1028,
+     "16384": 0.0518
+    },
+    "N1": {
+     "1024": 0.0158,
+     "16384": 0.0014
+    }
+   },
+   "source": "~/hrh_v2_stage1_20261008/results/S1_1/v11/S1_1_v11_cells_clip.parquet",
+   "key": "panel_abc.class_median_k10.values.cross-modal",
+   "sha256": "878abf0b98e6bb480892c61f2672816ff30b6524a277b81c0c448bb8bc0bcf20",
+   "note": "the crossing-law curve already sits above the observed one at the fit size (factor 2.4), and the gap widens to a factor 6.1 at m = 16,384",
+   "where": "optional"
+  },
+  {
+   "id": "T11",
+   "quantity": "median level error factor (cells m != 1024, obs above twice chance)",
+   "kind": "result",
+   "value": {
+    "crossing": {
+     "seed": 1.02,
+     "vision": 1.16,
+     "vl": 2.86
+    },
+    "N0": {
+     "seed": 1.04,
+     "vision": 1.24,
+     "vl": 2.26
+    },
+    "N1": {
+     "seed": 8.64,
+     "vision": 8.12,
+     "vl": 4.01
+    }
+   },
+   "printed": "vision-language: crossing law 2.86, N0 2.26",
+   "source": "~/hrh_v2_stage1_20261008/results/S1_1/v11/S1_1_v11_summary.json",
+   "key": "panel_d.level_error_factor",
+   "sha256": "324f6ce3a8efcbe95aecaac8c240f500b08da99613e20836cd3a216459e4bdb2",
+   "where": "text (already stated, tab:app-s11-accuracy)"
+  },
+  {
+   "id": "T12",
+   "quantity": "pair-orderings with N1 undefined, set to N0 (the two long thin N1 bars in d)",
+   "kind": "result",
+   "value": {
+    "n": 4,
+    "of": 145,
+    "units": [
+     "clip_b__openllama_3b@d0:AB",
+     "clip_b__openllama_3b@d0:BA",
+     "dinov2_b__openllama_3b@d3:AB",
+     "dinov2_b__openllama_3b@d3:BA"
+    ]
+   },
+   "printed": "2 of 145",
+   "source": "~/hrh_v2_stage1_20261008/results/S1_1/v11/S1_1_v11_summary.json",
+   "key": "configs.clip.n1_undefined_units",
+   "sha256": "324f6ce3a8efcbe95aecaac8c240f500b08da99613e20836cd3a216459e4bdb2",
+   "where": "add"
+  },
+  {
+   "id": "T13",
+   "quantity": "status",
+   "kind": "status",
+   "value": "NOT RUN as a confirmatory test: no eligible estimator (PREREG v1.1 D4.7; plan V1)",
+   "printed": "G1 not run; unvalidated; descriptive",
+   "source": "~/hrh_v2_stage1_20261008/results/S1_1/v11/S1_1_v11_summary.json",
+   "key": "G1",
+   "sha256": "324f6ce3a8efcbe95aecaac8c240f500b08da99613e20836cd3a216459e4bdb2",
+   "where": "caption (status words) and text"
+  }
+ ],
+ "caption_proposed_tex": "\\caption{\\textbf{Descriptively, the crossing law recovers every slope class but predicts too shallow vision--language slopes, whereas the affine null N1 predicts every slope too steep (Theorem~\\ref{thm:crossing}).} (a--c) Class medians of mKNN at $k=10$ on nested COCO pools, observed and as predicted from the fit size. (d) Predicted against observed slope of $\\ln s_N$ on $\\ln m$ per pair, $\\pm1$ s.d.\\ over pool orderings. A pair has the right class where the grey bands cross or in the white lower left. The two long thin bars come from orderings where N1 is undefined. Tables~\\ref{tab:app-s11-classes} to~\\ref{tab:app-s11-sens} give the values.}",
+ "caption_word_count": 97,
+ "caption_digits_outside_math_and_refs": [],
+ "caption_math": [
+  "$k=10$",
+  "$\\ln s_N$",
+  "$\\ln m$",
+  "$\\pm1$"
+ ],
+ "on_panel_numbers": [
+  {
+   "panel": "key",
+   "text": "fit size m = 1024",
+   "kind": "design constant"
+  },
+  {
+   "panel": "a, d",
+   "text": "k = 10 (axis labels)",
+   "kind": "design constant"
+  }
+ ],
+ "caption_v8": {
+  "tex": "\\caption{\\textbf{Descriptively, the crossing law recovers every slope class but predicts too shallow vision--language slopes, whereas the affine null N1 predicts every slope too steep (Theorem~\\ref{thm:crossing}).} (a--c) Class medians of mKNN at $k=10$ on nested COCO pools, observed and as predicted from the fit size. (d) Predicted against observed slope of $\\ln s_N$ on $\\ln m$ per pair, $\\pm1$ s.d.\\ over pool orderings. A pair has the right class where the grey bands cross or in the white lower left. The two long thin bars come from orderings where N1 is undefined. Tables~\\ref{tab:app-s11-classes} to~\\ref{tab:app-s11-sens} give the values.}",
+  "sha256": "aa1346294589aff4147d5f9d573c4470b9297c4fa24a2caa069972a6c6c5982d",
+  "checks": {
+   "bold_sentence": "Descriptively, the crossing law recovers every slope class but predicts too shallow vision--language slopes, whereas the affine null N1 predicts every slope too steep (Theorem~\\ref{thm:crossing}).",
+   "bold_words": 24,
+   "caption_words": 94,
+   "max_words": 100,
+   "max_bold_words": 26,
+   "digits_in_bold_outside_names_and_refs": [],
+   "digits_outside_math_and_refs": [],
+   "em_dash": false,
+   "colon_outside_math_and_refs": false,
+   "sentence_ending_on_it": [],
+   "sentence_opening_on_negation": [],
+   "allowed_digits": []
+  }
+ },
+ "asserts_v8": {
+  "style hrh_style_v8 sha256 asserted": true,
+  "N0 not drawn: no dashed line in (a-d)": true,
+  "N0 not drawn: no 'N0' text and no N0 key entry": true,
+  "N0 numbers kept (class medians, slope classes 4/29, level error 2.26)": true,
+  "tick labels and axis titles bold (S.check)": true,
+  "bold math in bold texts (S.check)": true,
+  "chromatic data colours are the three pair classes": true,
+  "crossing law and N1 drawn in INK (theory)": true,
+  "min glyph >= 7 pt": true,
+  "Type 42 only": true,
+  "class names are the only panel titles (no setting header)": true
+ },
+ "finalize_texts_changed": 233,
+ "views": {
+  "print_100dpi": "~/hrh_v2_figs/v8/F_scale_app/_view_print_100dpi.png",
+  "cvd_grey": "~/hrh_v2_figs/v8/F_scale_app/_views_cvd_grey.png"
+ },
+ "outputs": {
+  "~/hrh_v2_figs/v8/F_scale_app/F_scale_app.pdf": "0179ef5943414bd0c173b82df8e7e36af5aaf80c78187349d71d403b5a6152d4",
+  "~/hrh_v2_figs/v8/F_scale_app/F_scale_app.png": "4526d16e22bcd932379a513a8f8b416e93eade07699d2f8c7e4a646cd95ec91f",
+  "~/hrh_v2_figs/v8/F_scale_app/_view_print_100dpi.png": "8ec7fcaeca415eb0bc77d4bfd24465b263f373e73ccbf8adda3bf7d8149076da",
+  "~/hrh_v2_figs/v8/F_scale_app/_views_cvd_grey.png": "20fa2d85a89c294d523656d39ddebd592babd1e8644ae96ebe243c50480ee007"
+ }
+}
