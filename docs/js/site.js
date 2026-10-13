@@ -1,4 +1,4 @@
-/* Page behavior: theme toggle, top bar, current section, reveals, dialogs, copy, math. */
+/* Page behavior: theme toggle, top bar with reading progress, current section, reveals, dialogs, figure stepping, copy, counters, math. */
 (function () {
   "use strict";
   var doc = document.documentElement;
@@ -34,11 +34,23 @@
   var topbar = document.getElementById("topbar");
   var hero = document.getElementById("top");
   var ticking = false;
+  var progress = document.querySelector(".read-progress i");
   function onScroll() {
     ticking = false;
     if (!topbar || !hero) return;
     topbar.classList.toggle("at-top", window.scrollY < 24);
     topbar.classList.toggle("in-hero", window.scrollY < hero.offsetHeight - 140);
+    var max = document.documentElement.scrollHeight - window.innerHeight;
+    if (progress) progress.style.transform = "scaleX(" + (max > 0 ? Math.min(1, window.scrollY / max) : 0).toFixed(4) + ")";
+    chapterFill();
+  }
+  /* the underline of the current chapter fills with the reading progress through that chapter */
+  function chapterFill() {
+    var a = document.querySelector('.chapters a[aria-current="true"]');
+    var s = a && document.querySelector(a.getAttribute("href"));
+    if (!s) return;
+    var p = (window.scrollY + window.innerHeight * 0.42 - s.offsetTop) / s.offsetHeight;
+    a.style.setProperty("--p", Math.max(0.06, Math.min(1, p)).toFixed(3));
   }
   window.addEventListener("scroll", function () { if (!ticking) { ticking = true; requestAnimationFrame(onScroll); } }, { passive: true });
   window.addEventListener("resize", onScroll);
@@ -59,6 +71,7 @@
         }
       } else a.removeAttribute("aria-current");
     });
+    chapterFill();
   }
   if ("IntersectionObserver" in window && sections.length) {
     var io = new IntersectionObserver(function (entries) {
@@ -113,23 +126,45 @@
     if (moreLink) moreLink.addEventListener("click", function () { dlgTerm.close(); });
   }
 
-  // figures: open a larger copy
+  // figures: open a larger copy, then step through all paper figures in page order
   var dlgFig = document.getElementById("dlg-fig");
-  document.querySelectorAll("a.fig-img").forEach(function (a) {
+  var figLinks = Array.prototype.slice.call(document.querySelectorAll("a.fig-img"));
+  var figAt = 0, figOpener = null;
+  function showFig(n) {
+    figAt = (n + figLinks.length) % figLinks.length;
+    var a = figLinks[figAt], img = a.querySelector("img"), big = dlgFig.querySelector("img");
+    big.src = a.getAttribute("href"); big.alt = img ? img.alt : "";
+    var fig = a.closest("figure"), cap = fig && fig.querySelector("figcaption");
+    dlgFig.querySelector("figcaption").innerHTML = cap ? cap.innerHTML : "";
+    var cnt = dlgFig.querySelector(".dlg-count");
+    if (cnt) cnt.textContent = (figAt + 1) + " of " + figLinks.length;
+    var pan = dlgFig.querySelector(".fig-img");
+    if (pan) { pan.scrollLeft = 0; pan.scrollTop = 0; }
+  }
+  function openFig(a, opener) {
+    if (!dlgFig || typeof dlgFig.showModal !== "function") return false;
+    figOpener = opener || a; showFig(figLinks.indexOf(a));
+    if (!dlgFig.open) openDialog(dlgFig);
+    return true;
+  }
+  figLinks.forEach(function (a) {
     a.addEventListener("click", function (ev) {
-      if (!dlgFig || typeof dlgFig.showModal !== "function" || ev.metaKey || ev.ctrlKey) return;
-      ev.preventDefault();
-      var img = a.querySelector("img");
-      var big = dlgFig.querySelector("img");
-      big.src = a.getAttribute("href"); big.alt = img ? img.alt : "";
-      var fig = a.closest("figure");
-      var cap = fig && fig.querySelector("figcaption");
-      dlgFig.querySelector("figcaption").innerHTML = cap ? cap.innerHTML : "";
-      openDialog(dlgFig);
-      var pan = dlgFig.querySelector(".fig-img");
-      if (pan) { pan.scrollLeft = 0; pan.scrollTop = 0; }
+      if (ev.metaKey || ev.ctrlKey) return;
+      if (openFig(a)) ev.preventDefault();
     });
   });
+  document.querySelectorAll("[data-enlarge]").forEach(function (b) {
+    var a = b.closest("figure").querySelector("a.fig-img");
+    if (a) a.tabIndex = -1; // one tab stop per figure: the Enlarge button; the image still opens on click
+    b.addEventListener("click", function () { if (a) openFig(a, b); });
+  });
+  if (dlgFig) {
+    dlgFig.querySelectorAll("[data-step]").forEach(function (b) { b.addEventListener("click", function () { showFig(figAt + (+b.getAttribute("data-step"))); }); });
+    dlgFig.addEventListener("keydown", function (ev) {
+      if (ev.key === "ArrowLeft" || ev.key === "ArrowRight") { ev.preventDefault(); showFig(figAt + (ev.key === "ArrowLeft" ? -1 : 1)); }
+    });
+    dlgFig.addEventListener("close", function () { if (figOpener) { figOpener.focus({ preventScroll: true }); figOpener = null; } });
+  }
 
   /* ---------- copy BibTeX ---------- */
   document.querySelectorAll("[data-copy]").forEach(function (b) {
@@ -165,6 +200,25 @@
       if (plate) { ev.preventDefault(); plate.scrollIntoView({ behavior: REDUCED ? "auto" : "smooth", block: "start" }); }
     }
   });
+
+  /* ---------- the numbers of Section 05 count up once when half visible ---------- */
+  if (!REDUCED && "IntersectionObserver" in window) {
+    var bigs = Array.prototype.filter.call(document.querySelectorAll(".stat .big"), function (b) { return !b.querySelector("sup") && /\d/.test(b.textContent); });
+    var cio = new IntersectionObserver(function (entries) {
+      entries.forEach(function (en) { if (en.isIntersecting) { cio.unobserve(en.target); countUp(en.target); } });
+    }, { threshold: 0.5 });
+    bigs.forEach(function (b) { b.setAttribute("aria-label", b.textContent); cio.observe(b); });
+  }
+  function countUp(b) {
+    var html = b.innerHTML, txt = b.textContent, t0 = performance.now();
+    (function frame(now) {
+      var p = Math.min(1, (now - t0) / 900), e = 1 - Math.pow(1 - p, 3);
+      if (p < 1) {
+        b.textContent = txt.replace(/\d[\d,]*/g, function (s) { return String(Math.round(+s.replace(/,/g, "") * e)).replace(/\B(?=(\d{3})+(?!\d))/g, ","); });
+        requestAnimationFrame(frame);
+      } else b.innerHTML = html;
+    })(t0);
+  }
 
   /* ---------- math ---------- */
   function renderMath() {
