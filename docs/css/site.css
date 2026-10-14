@@ -1220,3 +1220,8 @@ dialog.dlg-fig .dlg-head { align-items: center; }
 /* ---------- results without an Insight column (trim 2026-10-14) ---------- */
 .result-body:not(:has(> :nth-child(2))) { grid-template-columns: minmax(0, 1fr); }
 .result-body:not(:has(> :nth-child(2))) .result-main { max-width: 52rem; }
+
+/* A short sentence beside a side figure: equal columns, sentence centered on the figure (trim 2026-10-14). */
+@media (min-width: 1081px) {
+  .result-body:has(> .result-side) { grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); align-items: center; }
+}
