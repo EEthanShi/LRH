@@ -42,18 +42,18 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400..700&amp;family=Newsreader:ital,opsz,wght@0,6..72,400..700;1,6..72,400..600&amp;display=swap">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.9/katex.min.css" integrity="sha512-fHwaWebuwA7NSF5Qg/af4UeDx9XqUpYpOGgubo3yWu+b2IQR4UeQwbb42Ti7gVAjNtVoI/I9TEoYeu9omwcC6g==" crossorigin="anonymous" referrerpolicy="no-referrer">
-<link rel="stylesheet" href="css/site.css?v=20261014a">
+<link rel="stylesheet" href="css/site.css?v=20261014c">
 
 <script defer src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.9/katex.min.js" integrity="sha512-LQNxIMR5rXv7o+b1l8+N1EZMfhG7iFZ9HhnbJkTp4zjNr5Wvst75AqUeFDxeRUa7l5vEDyUiAip//r+EFLLCyA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 <script defer src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.9/contrib/auto-render.min.js" integrity="sha512-iWiuBS5nt6r60fCz26Nd0Zqe0nbk1ZTIQbl3Kv7kYsX+yKMUFHzjaH2+AnM6vp2Xs+gNmaBAVWJjSmuPw76Efg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-<script defer src="js/lattice.js?v=20261014a"></script>
-<script defer src="js/bend.js?v=20261014a"></script>
-<script defer src="js/site.js?v=20261014a"></script>
-<script defer src="js/viz-common.js?v=20261014a"></script>
-<script defer src="js/viz-calibration.js?v=20261014a"></script>
-<script defer src="js/viz-crossing.js?v=20261014a"></script>
-<script defer src="js/viz-forest.js?v=20261014a"></script>
-<script defer src="js/viz-gauge.js?v=20261014a"></script>
+<script defer src="js/lattice.js?v=20261014c"></script>
+<script defer src="js/bend.js?v=20261014c"></script>
+<script defer src="js/site.js?v=20261014c"></script>
+<script defer src="js/viz-common.js?v=20261014c"></script>
+<script defer src="js/viz-calibration.js?v=20261014c"></script>
+<script defer src="js/viz-crossing.js?v=20261014c"></script>
+<script defer src="js/viz-forest.js?v=20261014c"></script>
+<script defer src="js/viz-gauge.js?v=20261014c"></script>
 </head>
 <body>
 <a class="skip" href="#overview">Skip to content</a>
@@ -175,19 +175,18 @@
 
     <div class="prose lead reveal">
       <p>The Platonic Representation Hypothesis (PRH) holds that increasingly capable models converge toward a common representation. However, recent studies have shown different views on aligning representations via their neighborhoods, spanning trees, and distances.</p>
-      <p>We show that these views can differ because the <a class="term-link" href="#term-criterion">alignment criteria</a> behind them sit at different points of one lattice, and we formalize this explanation as the <span class="key">Lattice Representation Hypothesis (LRH)</span>.</p>
     </div>
 
     <aside class="lrh reveal" aria-label="The Lattice Representation Hypothesis">
       <p class="lrh-label">Lattice Representation Hypothesis (LRH)</p>
-      <p class="lrh-text">In the lattice of alignment criteria, the set of criteria accepting two models describes what is shared by their representations. Studies have conflicting conclusions because they apply criteria at different points of this lattice. For independently trained models, the training procedure and the objective decide the criteria met reliably across runs, each in a different part of the lattice.</p>
+      <p class="lrh-text">In the lattice of <a class="term-link" href="#term-criterion">alignment criteria</a>, the set of criteria accepting two models describes what is shared by their representations. Studies have conflicting conclusions because they apply criteria at different points of this lattice. For independently trained models, the training procedure and the objective decide the criteria met reliably across runs, each in a different part of the lattice.</p>
     </aside>
 
     <div class="bend-grid">
       <div class="bend-text reveal">
-        <h3>An Increasing Link Leaves Every Neighbor Set Unchanged and Lowers CKA</h3>
-        <p>Two representations can differ in many ways, and each criterion detects only some of these differences. In the animation, the squared distances of model B are those of model A passed through the increasing function \(g_t\), which links the limits of an InfoNCE learner and a spectral contrastive learner in <a href="#theorem-3">Theorem 3</a>.</p>
-        <p>Since \(g_t\) keeps the order of all distances, every neighbor set and the spanning tree stay unchanged, while <a class="term-link" href="#term-cka">centered kernel alignment (CKA)</a> falls below one. Such a pair of models can satisfy a neighbor criterion and fail a CKA criterion through this link alone.</p>
+        <h3>An Increasing Link Leaves Every Neighbor Set Unchanged and Can Lower CKA</h3>
+        <p>In the animation, the squared distances of model B are those of model A passed through the increasing link \(g_t\) of <a href="#theorem-3">Theorem 3</a>, which keeps the order of all distances.</p>
+        <p>Every neighbor set and the spanning tree therefore stay unchanged while <a class="term-link" href="#term-cka">CKA</a> falls below one, so this pair of models can satisfy a neighbor criterion and fail a CKA criterion.</p>
         <noscript><p class="note">The interactive example needs JavaScript.</p></noscript>
       </div>
 
@@ -226,20 +225,9 @@
             </div>
           </div>
         </div>
-        <figcaption id="bend-cap">Synthetic example with 48 samples, with the four scores computed live from the two distance matrices. The slider sets the temperature \(t\) in the link \(g_t(D)=2\bigl(1-e^{-D/(2t)}\bigr)\), which curves more strongly at a smaller \(t\).</figcaption>
+        <figcaption id="bend-cap">Synthetic example with 48 samples and live scores. The slider sets the temperature \(t\), and the link curves more strongly at a smaller \(t\).</figcaption>
       </figure>
     </div>
-
-    <h3 class="findings-head reveal">Main Findings</h3>
-    <p class="findings-lead reveal">Under this lattice view, we obtain the following results.</p>
-    <ol class="findings reveal">
-      <li data-study="PRH"><a class="f-link" href="#study-prh"><span class="f-tag"><i></i>PRH</span><span class="f-text">The convergence claimed by the PRH is agreement at the top of the lattice, whereas its evidence comes from neighbor overlap, a criterion near the bottom.</span></a></li>
-      <li data-study="ARH"><a class="f-link" href="#study-arh"><span class="f-tag"><i></i>ARH</span><span class="f-text">The Aristotelian Representation Hypothesis (ARH) restricts the claimed convergence to local neighborhoods because calibration keeps the growth of neighbor overlap with model size but largely removes that of CKA. We show that this removal can come from calibrating a maximum over layers, so global convergence remains open. On LLaMA-1, calibration turned the size trend of CKA from 0.68 into &minus;0.85, a drop predicted from single-model features. With the preprocessing of PRH, the size trend of calibrated CKA keeps its sign at mid depth and at the last layer in all four families.</span></a></li>
-      <li data-study="BPC"><a class="f-link" href="#study-bpc"><span class="f-tag"><i></i>BPC</span><span class="f-text">Back into Plato&rsquo;s Cave (BPC) infers coarse shared structure from the collapse of neighbor overlap on larger evaluation sets, whereas we trace this collapse at least partly to a fixed number of neighbors covering shorter distances. As in BPC, neighbor overlap with sentence encoders (preregistered) and with last-layer vision features (exploratory) stays close to stable at a fixed \(k/m\) for \(k=10\) and \(k=100\).</span></a></li>
-      <li data-study="SOG"><a class="f-link" href="#study-sog"><span class="f-tag"><i></i>SOG</span><span class="f-text">Every minimum spanning tree (MST) contains the nearest-neighbor edge of each sample, and on the studied vision&ndash;language pairs these edges make up about 88% of the shared tree edges. On these pairs, the MST overlap used by Structure over Geometry (SOG) thus mostly repeats one-nearest-neighbor overlap, while the number of other shared edges exceeds its chance level without an established size trend.</span></a></li>
-      <li data-study="train"><a class="f-link" href="#training"><span class="f-tag"><i></i>Training</span><span class="f-text">The training procedure of a linear autoencoder decides whether distances agree across runs by selecting the invertible map undone by its linear head. In a finite contrastive model, two learners trained with different contrastive objectives agree on the order of distances for large samples and differ in geometry, since they learn one relation through different increasing functions.</span></a></li>
-      <li data-study="exp"><a class="f-link" href="#experiments"><span class="f-tag"><i></i>Experiments</span><span class="f-text">Experiments on dozens of pretrained vision and language models and on thousands of runs of both theoretical models support these conclusions.</span></a></li>
-    </ol>
 
     <a class="continue" href="#lattice">
       <span class="sq"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
@@ -260,29 +248,19 @@
       <div class="row reveal">
         <h3>What a Criterion Is</h3>
         <div>
-          <p>An <a class="term-link" href="#term-criterion">alignment criterion</a> is a test that compares how two models represent a shared set of evaluation samples, through one relation among these samples (e.g., the neighbor sets in <a class="term-link" href="#term-mknn">mutual \(k\)-nearest-neighbor overlap (mKNN)</a> or the distances in calibrated <a class="term-link" href="#term-cka">CKA</a>). The criterion accepts the pair of models if the two relations agree within a tolerance under a fixed scale and protocol.</p>
-          <p>An <a class="term-link" href="#term-observable">observable</a> maps the pairwise inner products of the samples in one model to such a relation, and one observable refines another if its value determines the value of the other.</p>
+          <p>An <a class="term-link" href="#term-criterion">alignment criterion</a> is a test that accepts a pair of models if one relation among shared evaluation samples, such as the neighbor sets in <a class="term-link" href="#term-mknn">mKNN</a> or the distances in <a class="term-link" href="#term-cka">CKA</a>, agrees across the two models within a tolerance.</p>
         </div>
       </div>
       <div class="row reveal">
         <h3>Stronger and Weaker Criteria</h3>
         <div>
-          <p>We call one criterion stronger than another if every pair accepted by the first is accepted by the second, so one pair of models can satisfy a criterion and fail a stronger one. If we also count the criterion requiring agreement under both of two criteria (e.g., on both neighbor sets and spanning trees) and the criterion requiring agreement under either, the criteria form a lattice under strength.</p>
-          <p>For criteria with zero tolerance and a common protocol, strength reduces to refinement of the observables, and Proposition 1 of the paper describes this part of the lattice.</p>
-        </div>
-      </div>
-      <div class="row reveal">
-        <h3>Two Branches</h3>
-        <div>
-          <p>Just below all distances lies the observable of CKA, i.e., the distances up to a common rescaling, followed by the observable of the Pearson correlation, i.e., the distances up to a positive affine map. Both determine the order of all distances, below which the lattice splits into two branches, with neighbor sets on one branch and spanning trees on the other.</p>
-          <p>The rankings around every sample leave the minimum spanning tree undetermined, and the tree leaves the neighbor sets undetermined. The two branches share the nearest-neighbor map, which sends each sample to its nearest neighbor and lies below the rankings and the single-linkage dendrogram.</p>
+          <p>We call one criterion stronger than another if every pair accepted by the first is accepted by the second, and the criteria then form a lattice.</p>
         </div>
       </div>
       <div class="row reveal">
         <h3>Scale and Protocol</h3>
         <div>
-          <p>The neighbor count \(k\) and the number \(m\) of samples set the scale of a criterion, i.e., the range of distances over which the two models are compared. A criterion also includes its protocol, i.e., the preprocessing of features, the aggregation of scores over layers, and the <a class="term-link" href="#term-calibration">calibration</a> against randomly paired samples.</p>
-          <p>Figure 1 places the criteria of the four studies on this lattice, together with their scale and protocol.</p>
+          <p>The numbers \(k\) of neighbors and \(m\) of samples set the scale of a criterion, i.e., the range of distances over which the two models are compared. The protocol of a criterion fixes the preprocessing, the combination of the scores of all layer pairs into one score, such as their maximum, and the <a class="term-link" href="#term-calibration">calibration</a>.</p>
         </div>
       </div>
     </div>
@@ -295,7 +273,7 @@
           <img src="assets/fig1_lattice.png" width="2139" height="895" loading="lazy" decoding="async" alt="Figure 1 of the paper: the lattice of alignment criteria from all distances (strongest, left) through CKA, Pearson and the global order, which splits into a branch of rankings, neighbor sets and components and a branch of single linkage and spanning trees, both above the nearest-neighbor map; colored dots mark the criteria measured by PRH, ARH, BPC and SOG, and a table lists the scale and protocol of each study.">
         </picture>
       </a>
-      <figcaption><span class="fig-num">Figure 1.</span> The lattice of alignment criteria for the four studies, from strongest (left) to weakest (right). The open circle marks the criterion behind the claim of PRH and filled circles the criteria applied by each study, and the table lists the scale and protocol of each study.</figcaption>
+      <figcaption><span class="fig-num">Figure 1.</span> The lattice of alignment criteria for the four studies, from strongest (left) to weakest (right).</figcaption>
     </figure>
 
     <p class="take reveal">One pair of models can satisfy a criterion on one branch and fail a criterion on the other.</p>
@@ -312,12 +290,8 @@
   <div class="wrap" data-num="03">
     <header class="sec-head reveal">
       <h2 class="sec-title" id="studies-title"><span class="num" aria-hidden="true">03</span>Four Studies on One Lattice</h2>
-      <p class="sec-claim">Conflicting Conclusions Can Come from Criteria Applied at Different Points of the Lattice</p>
+      <p class="sec-claim">Conflicting Conclusions Can Come from the Scale, the Relation Compared, or the Protocol of a Criterion</p>
     </header>
-
-    <div class="prose lead reveal">
-      <p>The four studies differ in the scale, the observable, and the protocol of their criteria, and thereby apply criteria at different points of the lattice. For each study, we place its criteria on the lattice and explain how the positions of these criteria relate to its conclusion.</p>
-    </div>
 
     <div class="cards">
       <!-- PRH -->
@@ -328,15 +302,14 @@
             <h3 id="prh-h">Agreement on All Distances Is Claimed, and Neighbor Overlap Is Measured</h3>
           </div>
           <div class="card-body">
-          <p>The Platonic Representation Hypothesis (PRH) states that networks trained with different objectives, data, and modalities converge toward a shared statistical model of reality. This claim amounts to agreement under the criterion at the top of the lattice, where the idealized learners of PRH agree on all distances.</p>
-          <p>The evidence of PRH comes from <a class="term-link" href="#term-mknn">mKNN</a>, a criterion near the bottom that compares neighbor sets, so one pair of models can satisfy an mKNN criterion and fail a criterion on all distances.</p>
+          <p>The convergence claimed by PRH amounts to agreement at the top of the lattice, whereas its evidence comes from <a class="term-link" href="#term-mknn">mKNN</a>, a criterion near the bottom that compares neighbor sets.</p>
           <button class="show-on needs-js" type="button" data-show-study="PRH"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 19V5M6 11l6-6 6 6"/></svg>Show on the lattice</button>
           </div>
         </div>
         <figure class="card-fig">
           <div class="lat-static needs-js" data-lattice-static="PRH" data-label="The lattice with the criterion behind the claim of PRH on all distances and the criterion behind its evidence on neighbor sets."></div>
           <noscript><div class="fig-img"><img src="assets/fig1_lattice.png" width="2139" height="895" alt="Figure 1 of the paper, with the criterion behind the claim of PRH on all distances and the criterion applied by PRH on neighbor sets."></div></noscript>
-          <figcaption>The open circle marks the criterion on all distances behind the claim of PRH, and the filled circle marks the neighbor criterion behind its evidence, as in Figure 1.</figcaption>
+          <figcaption>The open circle marks the criterion behind the claim of PRH, and the filled circle the criterion behind its evidence.</figcaption>
         </figure>
       </article>
 
@@ -348,8 +321,7 @@
             <h3 id="arh-h">The Loss of the CKA Trend Can Come from Calibrating a Maximum over Layers</h3>
           </div>
           <div class="card-body">
-          <p>After calibrating scores against randomly paired samples, ARH finds that <a class="term-link" href="#term-cka">CKA</a> largely loses the <a class="term-link" href="#term-trend">size trend</a> kept by mKNN and narrows the claimed convergence to shared local neighborhoods. PRH and ARH thus both report the size trend of mKNN, whose observable lies below the order of all distances, and reach different conclusions about agreement above this order.</p>
-          <p>The <a class="term-link" href="#term-calibration">calibration</a> threshold of the maximum over layers used by ARH follows the largest <a class="term-link" href="#term-baseline">random-pairing baseline</a> over layer pairs, which grows with effective dimension for CKA and stays the same for mKNN. When this baseline grows faster than the layer maximum along a model family, calibration can reverse the size trend on unchanged representations, and the loss of the CKA trend in ARH can come from the protocol.</p>
+          <p>ARH restricts the claimed convergence to local neighborhoods because <a class="term-link" href="#term-calibration">calibration</a> keeps the <a class="term-link" href="#term-trend">size trend</a> of mKNN but largely removes that of <a class="term-link" href="#term-cka">CKA</a>. We show that this removal can come from calibrating a maximum over layers, whose <a class="term-link" href="#term-baseline">chance level</a> grows with effective dimension, so global convergence remains open.</p>
           <div class="card-acts"><button class="show-on needs-js" type="button" data-show-study="ARH"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 19V5M6 11l6-6 6 6"/></svg>Show on the lattice</button><a class="show-on fwd" href="#res-calibration"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 5v14M6 13l6 6 6-6"/></svg>Measurements in Section 05</a></div>
           </div>
         </div>
@@ -357,7 +329,7 @@
           <figure class="viz needs-js" id="viz-cal" aria-labelledby="viz-cal-cap">
             <div class="viz-head">
               <span class="badge">From the paper</span>
-              <p class="viz-hint">Switch between the maximum over layers and a fixed layer at mid depth, and press Replay to move each trend from its raw to its calibrated value.</p>
+              <p class="viz-hint">Choose the layers compared, and press Replay to move each trend from raw to calibrated.</p>
             </div>
             <div class="viz-controls">
               <div class="seg" role="group" aria-label="Layers compared">
@@ -377,9 +349,9 @@
               <summary>Show the values</summary>
               <div class="tbl-scroll"><table><thead><tr><th scope="col">Family</th><th scope="col">Layers</th><th scope="col">CKA, raw</th><th scope="col">CKA, calibrated</th><th scope="col">mKNN, raw</th><th scope="col">mKNN, calibrated</th></tr></thead><tbody><tr><td>BLOOMZ</td><td>maximum</td><td>0.89</td><td>&minus;0.02</td><td>1.00</td><td>1.00</td></tr><tr><td>BLOOMZ</td><td>mid depth</td><td>0.88</td><td>0.70</td><td>0.85</td><td>0.84</td></tr><tr><td>LLaMA-1</td><td>maximum</td><td>0.68</td><td>&minus;0.85</td><td>0.41</td><td>0.38</td></tr><tr><td>LLaMA-1</td><td>mid depth</td><td>1.00</td><td>0.97</td><td>0.82</td><td>0.82</td></tr><tr><td>OpenLLaMA</td><td>maximum</td><td>0.88</td><td>0.18</td><td>1.00</td><td>1.00</td></tr><tr><td>OpenLLaMA</td><td>mid depth</td><td>0.68</td><td>0.50</td><td>0.68</td><td>0.68</td></tr><tr><td>Pythia</td><td>maximum</td><td>0.93</td><td>0.89</td><td>1.00</td><td>1.00</td></tr><tr><td>Pythia</td><td>mid depth</td><td>0.98</td><td>0.96</td><td>0.99</td><td>0.99</td></tr></tbody></table></div>
             </details>
-            <figcaption id="viz-cal-cap">Size trends with the preprocessing of PRH, from the tables in the appendix of the paper. Calibration of the maximum over layers removes or reverses the CKA trend along three of the four families, whereas the mKNN trends and the CKA trends at mid depth keep their sign under calibration.</figcaption>
+            <figcaption id="viz-cal-cap">Size trends with the preprocessing of PRH, from Table F.2 of the paper.</figcaption>
           </figure>
-          <noscript><div class="fig-img"><img src="assets/fig_calibration.png" width="2139" height="1527" loading="lazy" alt="Nine panels from the paper for BLOOMZ, LLaMA-1 and OpenLLaMA: size trends of CKA and mKNN, raw and after subtraction of the permutation mean; the observed layer maximum of CKA above the threshold and the largest predicted baseline, against model size; and the random-pairing CKA baseline of each language-model layer across relative depth."></div></noscript>
+          <noscript><div class="fig-img"><img src="assets/fig_calibration.png" width="2139" height="1527" loading="lazy" alt="Nine panels from the paper for BLOOMZ, LLaMA-1 and OpenLLaMA: size trends of CKA at the layer maximum and at mid depth and of mKNN at the layer maximum, raw, after subtraction of the permutation mean, and calibrated; the observed layer maximum of CKA above the threshold and the largest predicted baseline, against model size; and the random-pairing CKA baseline of each language-model layer across relative depth."></div></noscript>
         </div>
       </article>
 
@@ -391,8 +363,7 @@
             <h3 id="bpc-h">Neighbor Overlap Is Determined by Boundary Crossings at the Scale \(k/m\)</h3>
           </div>
           <div class="card-body">
-          <p>BPC tests the neighbor evidence of PRH on larger evaluation sets and concludes that the shared structure is coarse, since <a class="term-link" href="#term-mknn">mKNN</a> at a fixed \(k\) collapses unless \(k\) grows in proportion to the number of samples.</p>
-          <p>At each sample, the <a class="term-link" href="#term-boundary">neighbor boundary</a> separates the \(k\) nearest neighbors in model A from the other samples, and the loss of neighbor overlap counts the neighbors pushed across this boundary by model B. At a fixed \(k\), this boundary moves closer to each sample on a larger evaluation set, and the collapse of mKNN reported by BPC is therefore at least partly a scale effect. PRH and BPC reach different conclusions from neighbor criteria at different scales.</p>
+          <p>BPC infers coarse shared structure from the collapse of <a class="term-link" href="#term-mknn">mKNN</a> on larger evaluation sets. At a fixed \(k\), a larger evaluation set draws the boundary of the \(k\) nearest neighbors closer to each sample, so this collapse is at least partly a scale effect.</p>
           <div class="card-acts"><button class="show-on needs-js" type="button" data-show-study="BPC"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 19V5M6 11l6-6 6 6"/></svg>Show on the lattice</button><a class="show-on fwd" href="#res-scale"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 5v14M6 13l6 6 6-6"/></svg>Measurements in Section 05</a></div>
           </div>
         </div>
@@ -400,7 +371,7 @@
           <figure class="viz needs-js" id="viz-cross" aria-labelledby="viz-cross-cap">
             <div class="viz-head">
               <span class="badge ill">Theorem 1 &middot; Illustration</span>
-              <p class="viz-hint">Enlarge the evaluation set with the slider, and choose whether \(k\) stays at 10 or grows as \(m/100\).</p>
+              <p class="viz-hint">Enlarge the evaluation set, and choose whether \(k\) stays at 10 or grows as \(m/100\).</p>
             </div>
             <div class="viz-controls">
               <label for="cross-m">Evaluation size</label>
@@ -445,7 +416,7 @@
                 <span><svg class="lg" viewBox="0 0 16 12" aria-hidden="true"><line x1="1" y1="9" x2="15" y2="3" style="stroke:var(--fg-3);stroke-width:1.2"/></svg>shift of a sample in model B</span>
               </div>
             </div>
-            <figcaption id="viz-cross-cap">Synthetic example with 16,384 samples in the unit square, with mKNN computed live over 256 anchors, i.e., the samples whose neighbor sets in models A and B enter the score. The points of model B are those of model A plus independent noise of fixed size. At a fixed \(k\), the neighbor boundary moves inward on a larger evaluation set, so model B pushes more of the \(k\) neighbors across this boundary. Pushed-out and pulled-in samples are counted at the neighbor boundary in model B, where both counts equal the number of replaced neighbors.</figcaption>
+            <figcaption id="viz-cross-cap">Synthetic example in which the points of model B are those of model A plus independent noise, with mKNN computed live over 256 anchors.</figcaption>
           </figure>
           <noscript><div class="fig-img"><img src="assets/fig_scale.png" width="1491" height="661" loading="lazy" alt="Two panels from the paper: mKNN against the evaluation size m on log axes for pairs of seeds, pairs of vision models and vision–language pairs, with a dashed chance line; and the medians of these pairs at k = 1, 10 and 100 against k/m."></div></noscript>
         </div>
@@ -459,8 +430,7 @@
             <h3 id="sog-h">Spanning Trees Contain the Nearest-neighbor Forest</h3>
           </div>
           <div class="card-body">
-          <p>SOG challenges the local view of ARH with the size trend of the <a class="term-link" href="#term-mst">overlap of minimum spanning trees (MSTs)</a>, and finds relational structure converging locally in neighbor sets and globally in MSTs.</p>
-          <p>Every MST contains the <a class="term-link" href="#term-forest">nearest-neighbor forest</a>, which joins each sample to its nearest neighbor and makes up at least half of each tree. The part of the MST trend carried by the shared nearest-neighbor edges depends on the two models through their nearest-neighbor maps alone, as does the trend of one-nearest-neighbor overlap. The MST trend therefore supports global convergence to the extent that the bridges between the trees of the forest carry this trend.</p>
+          <p>SOG infers converging global structure from the size trend of <a class="term-link" href="#term-mst">MST overlap</a>. Every MST contains the edge from each sample to its nearest neighbor, and these edges make up about 88% of the shared tree edges on the studied vision&ndash;language pairs, so MST overlap mostly repeats one-nearest-neighbor overlap on these pairs.</p>
           <div class="card-acts"><button class="show-on needs-js" type="button" data-show-study="SOG"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 19V5M6 11l6-6 6 6"/></svg>Show on the lattice</button><a class="show-on fwd" href="#res-criteria"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 5v14M6 13l6 6 6-6"/></svg>Measurements in Section 05</a></div>
           </div>
         </div>
@@ -468,7 +438,7 @@
           <figure class="viz needs-js" id="viz-forest" aria-labelledby="viz-forest-cap">
             <div class="viz-head">
               <span class="badge ill">Proposition 2 &middot; Illustration</span>
-              <p class="viz-hint">Move the slider to add more noise to model B, or draw a new set of samples.</p>
+              <p class="viz-hint">Add noise to model B with the slider, or draw new samples.</p>
             </div>
             <div class="viz-controls">
               <label for="forest-d">Difference between the models</label>
@@ -481,7 +451,7 @@
               <button type="button" class="tool" data-new><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 7h3.5l9 10H21M3 17h3.5l2.6-2.9M14.9 9.9 17.5 7H21M18 4l3 3-3 3M18 14l3 3-3 3"/></svg>New samples</button>
               <button type="button" class="tool" data-replay><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3.5 12a8.5 8.5 0 1 0 2.6-6.1M3.5 4v4.5H8"/></svg>Replay</button>
             </div>
-            <p class="viz-note" id="viz-forest-note">The points of model B are those of model A plus independent noise, with a standard deviation of \(d\) times the median nearest-neighbor distance in model A.</p>
+            <p class="viz-note" id="viz-forest-note">The points of model B are those of model A plus independent noise of standard deviation \(d\) times the median nearest-neighbor distance in model A.</p>
             <div class="viz-panels">
               <div class="viz-panel">
                 <p class="p-title">Tree of model A</p>
@@ -513,16 +483,11 @@
                 <span><svg class="lg lg-w" viewBox="0 0 26 12" aria-hidden="true"><line x1="0" y1="6" x2="11" y2="6" style="stroke:var(--d-nb);stroke-width:1.4;stroke-dasharray:3.5 3;opacity:.7"/><line x1="15" y1="6" x2="26" y2="6" style="stroke:var(--d-alt);stroke-width:1.4;stroke-dasharray:3.5 3;opacity:.7"/></svg>in one tree alone</span>
               </div>
             </div>
-            <figcaption id="viz-forest-cap">Synthetic example with 72 samples, with both trees and all overlaps computed live from the points of models A and B. Every minimum spanning tree contains the nearest-neighbor forest, so the shared tree edges include every shared nearest-neighbor edge. The bridges between the trees of the forest carry the information in each tree beyond the nearest-neighbor scale.</figcaption>
+            <figcaption id="viz-forest-cap">Synthetic example with 72 samples, with both trees and all overlaps computed live.</figcaption>
           </figure>
           <noscript><div class="fig-img"><img src="assets/fig_mst.png" width="793" height="736" loading="lazy" alt="Scatter plot from the paper: MST overlap against one-nearest-neighbor overlap for vision–language pairs at mid depth (open circles) and at the last layer (filled circles), with the line y = x and the lower bound set by the nearest-neighbor forest as a black line."></div></noscript>
         </div>
       </article>
-    </div>
-
-    <div class="closing reveal">
-      <p>Whether a criterion accepts one pair of fixed representations can change with its scale and its observable, and the protocol of a criterion alone can reverse a size trend along a model family.</p>
-      <p class="take">The conflicting conclusions of the four studies can therefore come from criteria applied at different points of the lattice.</p>
     </div>
 
     <a class="continue" href="#training">
@@ -537,12 +502,11 @@
   <div class="wrap" data-num="04">
     <header class="sec-head reveal">
       <h2 class="sec-title" id="training-title"><span class="num" aria-hidden="true">04</span>What Determines the Criteria Met Reliably across Runs</h2>
-      <p class="sec-claim">The Training Procedure Decides the Criteria Met Reliably in a Linear Autoencoder, and the Objective in a Finite Contrastive Model</p>
+      <p class="sec-claim">The Training Procedure Decides the Criteria Met Reliably in a Linear Autoencoder, and the Objective in a Finite Contrastive Gibbs Model</p>
     </header>
 
     <div class="prose lead reveal">
-      <p>The criteria above compare two fixed representations, whereas repeated training can change the representation of a model. Studies also claim that networks trained with different objectives learn similar representations, so it remains to explore which criteria can be satisfied by a pair of independently trained models.</p>
-      <p><a class="term-link" href="#term-reliable">Agreement under a criterion is reliable</a> if two independently trained runs meet the criterion with probability at least \(1-\delta\). In two theoretical models with explicit minimizers, a linear autoencoder and a finite contrastive model, we show how the training procedure and the objective decide the set of criteria met reliably across runs.</p>
+      <p>Studies also claim that networks trained with different objectives learn similar representations, so we ask which criteria two independently trained models meet reliably, i.e., with high probability over their training runs.</p>
     </div>
 
     <div class="cards">
@@ -553,8 +517,7 @@
             <h3 id="t2-h">The Training Procedure Selects the Gauge of a Linear Head</h3>
           </div>
           <div class="card-body">
-          <p>A model that predicts through a linear head computes the same outputs after an invertible change of its representation compensated in the head, so the task and any amount of its data fix the representation up to such changes. In a linear autoencoder trained by gradient flow, the initialization rather than the data selects this change, called the <a class="term-link" href="#term-gauge">gauge</a>.</p>
-          <p>Two such runs then disagree in geometry at every sample size, whereas weight decay or tied weights fix one gauge and remove this disagreement. For large samples in this model, the training procedure rather than the sample size decides whether two runs reliably meet CKA criteria of small tolerance.</p>
+          <p>Under gradient flow, the initialization of a linear autoencoder selects its gauge, i.e., an invertible change of the representation that its linear head undoes, so two runs disagree on distances at every sample size. Weight decay or tied weights remove this disagreement as the samples grow.</p>
           <div class="card-acts"><a class="show-on fwd" href="#res-gauge"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 5v14M6 13l6 6 6-6"/></svg>Measurements in Section 05</a></div>
           </div>
         </div>
@@ -562,7 +525,7 @@
           <figure class="viz needs-js" id="viz-gauge" aria-labelledby="viz-gauge-cap">
             <div class="viz-head">
               <span class="badge ill">Theorem 2 &middot; Illustration</span>
-              <p class="viz-hint">Choose a training procedure, and under gradient flow move the slider to change the initialization of run B.</p>
+              <p class="viz-hint">Choose a training procedure, and under gradient flow change the initialization of run B with the slider.</p>
             </div>
             <div class="viz-controls">
               <div class="seg" role="group" aria-label="Training procedure">
@@ -579,7 +542,7 @@
               <button type="button" class="tool" data-new><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 7h3.5l9 10H21M3 17h3.5l2.6-2.9M14.9 9.9 17.5 7H21M18 4l3 3-3 3M18 14l3 3-3 3"/></svg>New initialization</button>
               <button type="button" class="tool" data-replay><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3.5 12a8.5 8.5 0 1 0 2.6-6.1M3.5 4v4.5H8"/></svg>Replay</button>
             </div>
-            <p class="viz-note" id="viz-gauge-note">Gradient flow keeps the imbalance \(C=EE^\top-W^\top W\) between the encoder \(E\) and the decoder \(W\) at its initial value, and the eigenvalues of this initial imbalance set those of \(\Omega=V^\top V\) for the gauge \(V\).</p>
+            <p class="viz-note" id="viz-gauge-note">Gradient flow keeps the gauge set by the initial imbalance \(C=EE^\top-W^\top W\) between the encoder \(E\) and the decoder \(W\).</p>
             <div class="viz-panels">
               <div class="viz-panel">
                 <p class="p-title">Run A</p>
@@ -606,7 +569,7 @@
               </div>
             </div>
             <p class="sr-only" aria-live="polite" data-read="sel"></p>
-            <figcaption id="viz-gauge-cap">Synthetic example with 48 samples in the latent plane of a linear autoencoder, with all scores computed live from the representations of the two runs. Run A starts with zero imbalance, so \(\Omega=I\) in run A and the condition number next to the slider is that of \(\Omega\) in run B. A sample counts as certified if the ratio of its fourth to its third smallest squared distance in run A exceeds this condition number, and every certified sample keeps its 3 nearest neighbors in run B. Under gradient flow, the initialization of run B selects a gauge that lowers CKA and can change the neighbor sets of uncertified samples, whereas weight decay or tied weights give both runs the same distances.</figcaption>
+            <figcaption id="viz-gauge-cap">Synthetic example with 48 samples and live scores. A sample is certified if the ratio of its fourth to its third smallest squared distance in run A exceeds cond, and every certified sample keeps its 3 nearest neighbors in run B.</figcaption>
           </figure>
           <noscript><div class="fig-img"><img src="assets/fig_gauge.png" width="2139" height="594" loading="lazy" alt="Three panels from the paper for gradient descent, small initialization, weight decay and tied weights: the fraction of pairs of runs within tolerance against the sample size N, on mean-normalized squared distances and on the projector; and the condition number of the learned EE-transpose with the predictions of the theorem as black triangles."></div></noscript>
         </div>
@@ -619,8 +582,7 @@
             <h3 id="t3-h">The Objective Decides Whether Contrastive Learners Agree beyond the Order of Distances</h3>
           </div>
           <div class="card-body">
-          <p>Learners trained with different objectives can have unique yet different limits, and two such learners can learn one relation through different increasing functions. We prove that this pattern holds for two contrastive objectives in the finite Gibbs model, a finite contrastive model whose population limit is the idealized contrastive learner of PRH.</p>
-          <p>As both samples grow, an InfoNCE learner and a spectral contrastive learner reliably agree on the order of all distances and on every observable below this order, whereas CKA between them tends to a limit below one. For large samples in this model, the objective rather than the sample size decides whether two learners reliably meet criteria on scale-normalized geometry with a small tolerance.</p>
+          <p>In a finite contrastive Gibbs model whose population limit is the idealized contrastive learner of PRH, learners trained with InfoNCE and with the spectral contrastive loss learn one relation through different increasing functions. As their training samples grow, the two learners reliably agree on the order of all distances, whereas CKA between them tends to a limit below one.</p>
           </div>
         </div>
         <figure class="card-fig" id="fig-link">
@@ -631,12 +593,10 @@
               <img src="assets/fig_link.png" width="2139" height="720" loading="lazy" decoding="async" alt="Three panels from the paper: the share of pairs of learners agreeing on the global order against the sample size N, next to the predicted curve; the Gram-matrix entries of the spectral learner against those of the InfoNCE learner, along the link of Theorem 3; and the normalized difference of the two learners against N, before and after the link is undone.">
             </picture>
           </a>
-          <figcaption><b>In the finite Gibbs model of Theorem 3, InfoNCE and spectral learners come to agree on order and differ in geometry by the link of the theorem.</b> (a) Share of pairs with the same global order \(T_E\), against the share predicted before the runs. (b) Density of the Gram-matrix entries of one pair. (c) Median over pairs of the largest difference of mean-normalized distances, before and after the link is undone on the spectral run.</figcaption>
+          <figcaption><b>In the finite Gibbs model of Theorem 3, InfoNCE and spectral learners come to agree on the order of distances and differ in geometry by the link of the theorem.</b></figcaption>
         </figure>
       </article>
     </div>
-
-    <p class="take reveal">Together, the two theorems support the training part of the LRH in the linear autoencoder and in the finite Gibbs model.</p>
 
     <a class="continue" href="#experiments">
       <span class="sq"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
@@ -654,8 +614,7 @@
     </header>
 
     <div class="prose lead reveal">
-      <p>On dozens of pretrained vision and language models, we test whether the scale, the observable, and the protocol of the criteria applied by the four studies account for their conflicting conclusions. Under controlled training, we test the predictions of the two theorems on the gauge selected by the training procedure and on the monotone link set by the objective.</p>
-      <p>We call an experiment preregistered if we fixed its predictions, evaluation settings, and decision rules before the first run and recorded the hash and time of this plan.</p>
+      <p>The <a href="https://eethanshi.github.io/LRH/experiment_record.pdf" target="_blank" rel="noopener">experimental record</a> gives the full details and results of every experiment.</p>
     </div>
 
     <div class="stat-groups">
@@ -663,17 +622,10 @@
         <p class="h3-sans">Pretrained vision and language models</p>
         <div class="stats">
           <div class="stat"><span class="big">17</span><span class="lbl">vision transformers of ARH</span></div>
-          <div class="stat"><span class="big">1,024</span><span class="lbl">image&ndash;caption pairs of WIT used by PRH</span></div>
-          <div class="stat"><span class="big">256 to 16,384</span><span class="lbl">images in the nested COCO evaluation sets</span></div>
-          <div class="stat s2"><span class="big">136</span><span class="lbl">pairs of a vision model and a language model for spanning trees and CKA</span></div>
-          <div class="stat s4"><span class="big">4</span><span class="lbl">language-model families: BLOOMZ (0.56B to 7.1B), LLaMA-1 (7B to 30B), OpenLLaMA (3B to 13B), Pythia (70M to 6.9B)</span></div>
-        </div>
-      </div>
-      <div class="stat-group reveal">
-        <p class="h3-sans">Controlled training</p>
-        <div class="stats stats-2">
-          <div class="stat"><span class="big">2<sup>8</sup> to &infin;</span><span class="lbl">training sample sizes of the linear autoencoder</span></div>
-          <div class="stat"><span class="big">192</span><span class="lbl">runs per learner at each of eight sample sizes from 2<sup>20</sup> to 2<sup>40</sup> examples in the finite Gibbs model</span></div>
+          <div class="stat"><span class="big">1,024</span><span class="lbl">WIT image&ndash;caption pairs used by PRH</span></div>
+          <div class="stat"><span class="big">256 to 16,384</span><span class="lbl">COCO images per evaluation set</span></div>
+          <div class="stat s2"><span class="big">136</span><span class="lbl">vision&ndash;language model pairs</span></div>
+          <div class="stat s4"><span class="big">4</span><span class="lbl">language-model families from 70M to 30B parameters</span></div>
         </div>
       </div>
     </div>
@@ -686,15 +638,8 @@
         </div>
         <div class="result-body">
           <div class="result-main">
-          <p class="frame">To test whether a neighbor criterion at a fixed \(k\) compares two models at a finer scale on a larger evaluation set, we measure mKNN on nested COCO evaluation sets of 256 to 16,384 images.</p>
-          <ul class="nums">
-            <li>At \(k = 10\), the median mKNN of the vision&ndash;language pairs falls from 0.091 to 0.0085 on the COCO evaluation sets.</li>
-            <li>The slope of \(\ln s_N\) on \(\ln m\) is set by the model pair, with medians of &minus;0.57 for vision&ndash;language pairs, &minus;0.21 for pairs of vision models, and &minus;0.01 for pairs of Pythia-410M models, against &minus;1.00 for chance.</li>
-            <li>At a shared \(k/m\), the medians for \(k = 100\) lie within 4% of those for \(k = 10\), whereas those for \(k = 1\) differ by up to 19%.</li>
-            <li>With sentence encoders in place of the language models, mKNN also falls with \(m\) on all 15 pairs, and these pairs pass the preregistered test of stability at a shared \(k/m\) for \(k = 10\) and \(k = 100\).</li>
-          </ul>
+          <p class="frame">At \(k = 10\), the median mKNN of the vision&ndash;language pairs falls from 0.091 to 0.0085 between 256 and 16,384 images, whereas at the same ratio \(k/m\) the medians for \(k = 10\) and \(k = 100\) agree within 4%.</p>
           </div>
-          <p class="take insight"><span class="take-label">Insight 1</span>Our results suggest that the evaluation size sets the scale at which mKNN with a fixed \(k\) compares two models, and that scores at a shared \(k/m\) are comparable across evaluation sets for \(k=10\) and \(k=100\). With sentence encoders in place of language models, a preregistered test confirms that mKNN stays stable at a shared \(k/m\) for both values of \(k\). These findings support our conclusion that the collapse of mKNN reported by BPC comes at least partly from a change of scale.</p>
         </div>
         <figure class="fig-card" id="fig-scale">
           <div class="fig-bar needs-js"><span class="badge">Figure from the paper</span><button type="button" class="tool" data-enlarge><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M15 3h6v6M9 21H3v-6M21 3l-7 7M3 21l7-7"/></svg>Enlarge</button></div>
@@ -704,7 +649,7 @@
               <img src="assets/fig_scale.png" width="1491" height="661" loading="lazy" decoding="async" alt="Two panels from the paper: mKNN against the evaluation size m on log axes for pairs of seeds, pairs of vision models and vision–language pairs, with a dashed chance line; and the medians of these pairs at k = 1, 10 and 100 against k/m.">
             </picture>
           </a>
-          <figcaption><b>Neighbor overlap changes with the evaluation size at a rate set by the model pair.</b> (a) mKNN against the evaluation size \(m\) on growing COCO evaluation sets, for single pairs (thin) and the median of each type of pair (thick). (b) These medians at three values of \(k\) against \(k/m\), with the vertical axis of (a); curves that coincide indicate medians set by \(k/m\) alone.</figcaption>
+          <figcaption>(a) mKNN against the evaluation size \(m\), for single pairs (thin) and the median of each type of pair (thick). (b) These medians at three values of \(k\) against \(k/m\).</figcaption>
         </figure>
       </div>
 
@@ -715,16 +660,9 @@
         </div>
         <div class="result-body">
           <div class="result-main">
-          <p class="frame">Since every MST contains the nearest-neighbor forest, we count the shared MST edges lying in this forest and the shared bridges between its trees on the 136 pairs of a vision model and a language model. A <a class="term-link" href="#term-link">monotone link</a> is one nondecreasing function applied to all squared distances of one model, and the residual is the difference left around this link. To see whether pretrained vision and language representations differ mostly by such a link or by the residual, we fit increasingly flexible maps between their squared distances. We also ask whether a size trend at a fixed depth already depends on the preprocessing of the features.</p>
-          <ul class="nums">
-            <li>On an evaluation set of \(m = 2047\) WIT samples, the nearest-neighbor forest makes up a median 0.875 and 0.889 of the shared MST edges at mid depth and the last layer.</li>
-            <li>The number of shared bridges exceeds its chance level in 93% and 100% of pairs at the two depths, and the size trend of this number along BLOOMZ at the last layer stays unresolved.</li>
-            <li>Beyond an affine fit, a global monotone fit explains a further median 0.0004 and 0.0012 of the squared-distance discrepancy, below the preregistered level of 0.10 in all 136 pairs.</li>
-            <li>At mid depth and after subtraction of their mean under random pairing, the BLOOMZ trends of CKA and mKNN are 0.70 and 0.84 with the preprocessing of PRH, and they reverse to &minus;1.00 and &minus;0.92 under plain \(\ell_2\) normalization.</li>
-          </ul>
+          <p class="frame">Nearest-neighbor edges make up a median 0.875 and 0.889 of the shared MST edges at mid depth and at the last layer. Beyond an affine fit, a fitted monotone link explains a further median of at most 0.0012 of the discrepancy between the squared distances of the two models.</p>
           </div>
           <div class="result-side">
-            <p class="take insight"><span class="take-label">Insight 2</span>Our results suggest that on these pretrained pairs, spanning-tree overlap comes mostly from the nearest-neighbor forest and the deficit \(1-\mathrm{CKA}\) mostly from a residual, rather than from a monotone link.</p>
             <figure class="fig-card" id="fig-mst">
               <div class="fig-bar needs-js"><span class="badge">Figure from the paper</span><button type="button" class="tool" data-enlarge><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M15 3h6v6M9 21H3v-6M21 3l-7 7M3 21l7-7"/></svg>Enlarge</button></div>
               <a class="fig-img narrow" href="assets/fig_mst.png" aria-label="Open a larger copy of the spanning-tree figure">
@@ -733,7 +671,7 @@
                   <img src="assets/fig_mst.png" width="793" height="736" loading="lazy" decoding="async" alt="Scatter plot from the paper: MST overlap against one-nearest-neighbor overlap for vision–language pairs at mid depth (open circles) and at the last layer (filled circles), with the line y = x and the lower bound set by the nearest-neighbor forest as a black line.">
                 </picture>
               </a>
-              <figcaption><b>Spanning-tree overlap tracks one-nearest-neighbor overlap.</b> MST overlap against one-nearest-neighbor overlap for vision&ndash;language model pairs on WIT at two depths, with the lower bound set by the nearest-neighbor forest as a black line.</figcaption>
+              <figcaption><b>Spanning-tree overlap tracks one-nearest-neighbor overlap.</b> The black line is the lower bound set by the nearest-neighbor forest.</figcaption>
             </figure>
           </div>
         </div>
@@ -745,7 +683,7 @@
               <img src="assets/fig_criteria.png" width="2139" height="576" loading="lazy" decoding="async" alt="Three panels from the paper: the cumulative share of the squared-distance discrepancy explained by scale, affine, global monotone and per-row monotone fits, per pair and as a median; and CKA and mKNN relative to the 0.56B BLOOMZ model against model size, under clip plus l2 normalization and under plain l2 normalization.">
             </picture>
           </a>
-          <figcaption><b>Beyond an affine change of scale, pretrained vision and language representations differ by a residual, not a monotone link, and preprocessing can reverse size trends.</b> (a) Share of the squared-distance discrepancy at mid depth explained by increasingly flexible fits, per pair (thin), median (thick), and under a monotone link (dashed). (b, c) CKA and mKNN minus their permutation-null means, as mean &plusmn; s.e. over vision models on log axes.</figcaption>
+          <figcaption><b>Beyond an affine map, pretrained vision and language representations differ by a residual rather than a monotone link, and preprocessing can reverse size trends.</b></figcaption>
         </figure>
       </div>
 
@@ -756,26 +694,18 @@
         </div>
         <div class="result-body">
           <div class="result-main">
-          <p class="frame">Along four language-model families, we test whether the calibration threshold of a layer maximum follows the largest random-pairing baseline. We then compare the change of the CKA trend under calibration with the growth of this baseline relative to the raw score.</p>
-          <ul class="nums">
-            <li>In all four families, the threshold of the layer maximum follows the largest random-pairing baseline, in a post hoc analysis on BLOOMZ and as forecast from single-model features on LLaMA-1, OpenLLaMA, and Pythia.</li>
-            <li>The CKA trend is lost or reversed along BLOOMZ (0.89 to &minus;0.02), LLaMA-1 (0.68 to &minus;0.85), and OpenLLaMA (0.88 to 0.18), where this baseline grows at least as fast as the raw score.</li>
-            <li>The trend is kept along Pythia (0.93 to 0.89), where the raw score grows faster, by 0.024 per doubling of parameters against 0.0063 for the threshold.</li>
-            <li>Given the raw scores, the thresholds forecast from features yield a predicted order after calibration in 30 of the 34 comparisons involving OpenLLaMA 13B and in 352 of the 357 Pythia comparisons, and every predicted order is correct.</li>
-            <li>In every family, the trends of mKNN and debiased CKA move by 0.06 or less under calibration. With the preprocessing of PRH, the calibrated CKA trend keeps its sign at mid depth and at the last layer in all four families.</li>
-          </ul>
+          <p class="frame">In all four families, the calibration threshold of the layer maximum follows the largest random-pairing baseline, and on LLaMA-1 calibration turned the CKA trend from 0.68 into &minus;0.85, a drop predicted from single-model features.</p>
           </div>
-          <p class="take insight"><span class="take-label">Insight 3</span>Our results suggest that the calibration threshold of a layer maximum follows the largest random-pairing baseline. Along the four families, calibration kept the CKA trend where the raw score outgrew this baseline and removed or reversed the trend elsewhere. With the preprocessing of PRH, calibrated CKA at mid depth and at the last layer keeps the sign of its size trend in every family, so global convergence remains open.</p>
         </div>
         <figure class="fig-card" id="fig-calibration">
           <div class="fig-bar needs-js"><span class="badge">Figure from the paper</span><button type="button" class="tool" data-enlarge><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M15 3h6v6M9 21H3v-6M21 3l-7 7M3 21l7-7"/></svg>Enlarge</button></div>
           <a class="fig-img" href="assets/fig_calibration.png" aria-label="Open a larger copy of the calibration figure">
             <picture>
               <source srcset="assets/fig_calibration.webp" type="image/webp">
-              <img src="assets/fig_calibration.png" width="2139" height="1527" loading="lazy" decoding="async" alt="Nine panels from the paper for BLOOMZ, LLaMA-1 and OpenLLaMA: size trends of CKA and mKNN, raw and after subtraction of the permutation mean; the observed layer maximum of CKA above the threshold and the largest predicted baseline, against model size; and the random-pairing CKA baseline of each language-model layer across relative depth.">
+              <img src="assets/fig_calibration.png" width="2139" height="1527" loading="lazy" decoding="async" alt="Nine panels from the paper for BLOOMZ, LLaMA-1 and OpenLLaMA: size trends of CKA at the layer maximum and at mid depth and of mKNN at the layer maximum, raw, after subtraction of the permutation mean, and calibrated; the observed layer maximum of CKA above the threshold and the largest predicted baseline, against model size; and the random-pairing CKA baseline of each language-model layer across relative depth.">
             </picture>
           </a>
-          <figcaption><b>The threshold of a layer maximum follows the largest baseline, so calibration removes or reverses the CKA trend where this baseline keeps pace with raw CKA.</b> (a&ndash;c) Size trends of three scores, raw and after subtraction of the permutation mean. (d&ndash;f) Squares give the threshold \(c_\alpha\) and dashed lines the largest baseline predicted from features, with one scale across the axis break. (g&ndash;i) Random-pairing CKA baseline of each language-model layer, predicted (lines) and measured (dots).</figcaption>
+          <figcaption><b>The threshold of a layer maximum follows the largest baseline, and calibration removes or reverses the CKA trend in the families where this baseline grows at least as fast as raw CKA.</b></figcaption>
         </figure>
       </div>
 
@@ -786,14 +716,8 @@
         </div>
         <div class="result-body">
           <div class="result-main">
-          <p class="frame">We test the predictions of Theorem 2 in a preregistered experiment on the linear autoencoder, at training sample sizes \(N\) from \(2^8\) to the population limit.</p>
-          <ul class="nums">
-            <li>Under gradient descent without a regularizer, the criteria on neighbor sets, mean-normalized squared distances (\(G_s\)), and CKA each accepted 0 of 48 pairs of runs at every finite \(N\) and 0 of 500 at \(N = \infty\).</li>
-            <li>With weight decay, tied weights, or small initialization, agreement under these criteria was reliable for \(N \ge 2^{12}\), and agreement on the column-space projector shared by all global minimizers was reliable at these sizes for every training procedure.</li>
-            <li>Outside the preregistered tests, the median condition number of the learned \(EE^\top\), with \(E\) the encoder, is 4.66 under a small step close to gradient flow, against 4.67 predicted, and 1.0330 under weight decay, against 1.0329 predicted.</li>
-          </ul>
+          <p class="frame">Under gradient descent without a regularizer, 0 of 48 pairs of runs agreed on neighbor sets, mean-normalized squared distances, or CKA at any finite sample size, whereas with weight decay, tied weights, or a small initialization, this agreement was reliable from 2<sup>12</sup> samples.</p>
           </div>
-          <p class="take insight"><span class="take-label">Insight 4</span>Our results confirm the preregistered predictions of Theorem 2 that weight decay and tied weights fix one gauge of the linear autoencoder and that a small initialization keeps \(\Omega=V^\top V\) for the gauge \(V\) close to the identity in both runs. They also suggest that gradient descent at a small step keeps the gauge set by the initialization, which supports the first part of the theorem.</p>
         </div>
         <figure class="fig-card" id="fig-gauge">
           <div class="fig-bar needs-js"><span class="badge">Figure from the paper</span><button type="button" class="tool" data-enlarge><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M15 3h6v6M9 21H3v-6M21 3l-7 7M3 21l7-7"/></svg>Enlarge</button></div>
@@ -803,7 +727,7 @@
               <img src="assets/fig_gauge.png" width="2139" height="594" loading="lazy" decoding="async" alt="Three panels from the paper for gradient descent, small initialization, weight decay and tied weights: the fraction of pairs of runs within tolerance against the sample size N, on mean-normalized squared distances and on the projector; and the condition number of the learned EE-transpose with the predictions of the theorem as black triangles.">
             </picture>
           </a>
-          <figcaption><b>Gradient flow keeps the gauge set by the initialization at every sample size, and weight decay removes the resulting disagreement on mean-normalized squared distances.</b> (a, b) Fraction of pairs of runs within tolerance on mean-normalized squared distances (\(G_s\)) and on the column-space projector shared by all global minimizers, against the sample size \(N\), with grey lines at the levels for reliable and unreliable agreement. (c) Condition number of the learned \(EE^\top\), with the predictions of the theorem in black. GD is gradient descent at a small step close to gradient flow.</figcaption>
+          <figcaption><b>Gradient flow keeps the gauge set by the initial imbalance of a linear head at every sample size, whereas weight decay fixes one gauge.</b></figcaption>
         </figure>
       </div>
 
@@ -814,15 +738,8 @@
         </div>
         <div class="result-body">
           <div class="result-main">
-          <p class="frame">In a preregistered experiment, we compute certified minimizers of the empirical InfoNCE and spectral contrastive risks in the finite Gibbs model. This experiment tests Theorem 3 and our analysis pipeline inside the premises of the theorem, not trained networks.</p>
-          <ul class="nums">
-            <li>Exact agreement across objectives on the order of all distances among eight evaluation samples held in 0 of 96 pairs up to 2<sup>28</sup> examples and in 94 of 96 at 2<sup>34</sup>.</li>
-            <li>The size 2<sup>34</sup> lies near the value \(N^* = 2^{33.75}\) predicted before the runs for agreement in 90% of pairs.</li>
-            <li>At 2<sup>40</sup> examples, the largest difference of mean-normalized distances across objectives settled at a median 0.348, the limit given by the theorem.</li>
-            <li>After Holm correction, all nine preregistered confirmatory predictions held.</li>
-          </ul>
+          <p class="frame">InfoNCE and spectral learners agreed exactly on the order of all distances among eight evaluation samples in 0 of 96 pairs up to 2<sup>28</sup> training examples and in 94 of 96 pairs at 2<sup>34</sup>, near the size predicted before the runs.</p>
           </div>
-          <p class="take insight"><span class="take-label">Insight 5</span>Our results suggest that certified minimizers of InfoNCE and of the spectral contrastive loss in the finite Gibbs model come to agree exactly on the order of distances and differ in geometry by the link, which confirms the preregistered predictions of Theorem 3 inside its premises.</p>
         </div>
       </div>
     </div>
@@ -846,55 +763,31 @@
     <dl class="terms">
       <div class="term reveal" id="term-criterion">
         <dt>Alignment criterion</dt>
-        <dd><p>A test that compares how two models represent a shared set of evaluation samples, through one relation among these samples. The criterion accepts the pair of models if the two relations agree within a tolerance under a fixed scale and protocol.</p></dd>
-      </div>
-      <div class="term reveal" id="term-observable">
-        <dt>Observable</dt>
-        <dd><p>A map from the pairwise inner products of the samples in one model to one relation among the samples, such as all distances, their order, the neighbor sets, or the minimum spanning tree. One observable refines another if its value determines the value of the other.</p></dd>
+        <dd><p>A test that accepts a pair of models if one relation among shared evaluation samples agrees across the two models within a tolerance under a fixed scale and protocol.</p></dd>
       </div>
       <div class="term reveal" id="term-mknn">
         <dt>mKNN</dt>
-        <dd><p>Mutual \(k\)-nearest-neighbor overlap, i.e., the fraction of the \(k\) nearest neighbors of each sample shared by the two models, averaged over the samples, \(s_N=(mk)^{-1}\sum_i|\mathcal N_k^A(i)\cap\mathcal N_k^B(i)|\). At \(k = 1\) this score is the one-nearest-neighbor overlap, and under a random pairing of the samples its expected value is \(k/(m-1)\).</p></dd>
+        <dd><p>Mutual \(k\)-nearest-neighbor overlap, i.e., the fraction of the \(k\) nearest neighbors of each sample shared by the two models, averaged over the samples.</p></dd>
       </div>
       <div class="term reveal" id="term-mst">
         <dt>MST overlap</dt>
-        <dd><p>The fraction of the \(m-1\) edges of the minimum spanning tree (MST) shared by the two models, \(s_{\mathcal T}=|\mathcal T_A\cap\mathcal T_B|/(m-1)\), where each tree joins all samples through edges of smallest total length.</p></dd>
+        <dd><p>The fraction of the edges of the minimum spanning tree (MST) shared by the two models.</p></dd>
       </div>
       <div class="term reveal" id="term-cka">
         <dt>CKA</dt>
-        <dd><p>Linear centered kernel alignment, i.e., the cosine similarity of the two centered Gram matrices of the samples, \(\mathrm{CKA}(K_A,K_B)=\langle\bar K_A,\bar K_B\rangle_F/(\lVert\bar K_A\rVert_F\lVert\bar K_B\rVert_F)\). CKA equals one exactly when the two centered matrices are positive multiples of each other and depends on the distances up to a common rescaling.</p></dd>
+        <dd><p>Linear centered kernel alignment, i.e., the cosine similarity of the two centered Gram matrices, which depends on the distances of each model only up to rescaling.</p></dd>
       </div>
       <div class="term reveal" id="term-calibration">
         <dt>Calibration</dt>
-        <dd><p>A correction of a score by its values after a random permutation of the samples of one model. ARH maps an observed score to \(s_{\rm cal}=[s_{\rm obs}-c_\alpha]_+/(s_{\max}-c_\alpha)\), where \(c_\alpha\) is a high quantile of the scores on the observed and the permuted pairings.</p></dd>
+        <dd><p>A correction of a score by its values after random permutations of the samples of one model.</p></dd>
       </div>
       <div class="term reveal" id="term-baseline">
         <dt>Random-pairing baseline</dt>
-        <dd><p>The expected value of a score under a random permutation of the samples of one model, i.e., its chance level. This baseline is \(k/(m-1)\) for mKNN at every layer pair and grows with the effective dimension of each layer for CKA.</p></dd>
+        <dd><p>The expected value of a score after a random permutation of the samples of one model, i.e., its chance level.</p></dd>
       </div>
       <div class="term reveal" id="term-trend">
         <dt>Size trend</dt>
         <dd><p>The mean over vision models of the Spearman correlation between a score and the size of the language model.</p></dd>
-      </div>
-      <div class="term reveal" id="term-boundary">
-        <dt>Neighbor boundary</dt>
-        <dd><p>At each sample, the boundary that separates its \(k\) nearest neighbors in model A from the other samples. The loss of neighbor overlap at this sample counts the neighbors pushed across this boundary by model B, and at a fixed \(k\) the boundary moves closer to the sample on a larger evaluation set.</p></dd>
-      </div>
-      <div class="term reveal" id="term-forest">
-        <dt>Nearest-neighbor forest</dt>
-        <dd><p>The graph joining each sample to its nearest neighbor. If all distances are distinct, every minimum spanning tree contains this forest, which makes up at least half of the tree. The other edges of the tree are bridges, each joining two trees of the forest.</p></dd>
-      </div>
-      <div class="term reveal" id="term-link">
-        <dt>Monotone link</dt>
-        <dd><p>A nondecreasing function \(\phi\) applied to all squared distances of model A, with the residual \(R=D_B-\phi(D_A)\) as the difference left around this link. A strictly increasing link keeps the order of all distances and thus every neighbor set and spanning tree, whereas CKA depends on this link.</p></dd>
-      </div>
-      <div class="term reveal" id="term-gauge">
-        <dt>Gauge</dt>
-        <dd><p>For a model computing its outputs \(Wh(x)\) through a linear head \(W\), the models \((h,W)\) and \((Vh,WV^{-1})\) with an invertible matrix \(V\) compute the same outputs. The gauge of a model is the matrix \(V\) relating the model to a fixed reference model of its class.</p></dd>
-      </div>
-      <div class="term reveal" id="term-reliable">
-        <dt>Reliable agreement</dt>
-        <dd><p>Agreement under a criterion is reliable if two independently trained runs meet the criterion with probability at least \(1-\delta\). In our experiments, agreement is reliable if the one-sided 95% Clopper&ndash;Pearson lower bound on the fraction of pairs of runs within the tolerance exceeds 0.9.</p></dd>
       </div>
     </dl>
 
@@ -930,11 +823,6 @@
         <span class="lc-sub">BibTeX entry</span>
       </a>
     </div>
-
-    <details class="abstract reveal" id="abstract">
-      <summary><span class="h3-sans">Abstract</span><span class="ab-more" aria-hidden="true">Show</span></summary>
-      <p>The Platonic Representation Hypothesis (PRH) holds that increasingly capable models converge toward a common representation. However, recent studies have shown different views on aligning representations via their neighborhoods, spanning trees, and distances. We show that these views can differ because the alignment criteria behind them sit at different points of one lattice, and we formalize this explanation as the Lattice Representation Hypothesis (LRH). Under the LRH, the convergence claimed by the PRH is agreement at the top of the lattice, whereas its evidence comes from neighbor overlap, a criterion near the bottom. The Aristotelian Representation Hypothesis (ARH) restricts the claimed convergence to local neighborhoods because calibration keeps the growth of neighbor overlap with model size but largely removes that of centered kernel alignment. We show that this removal can come from calibrating a maximum over layers, so global convergence remains open. Back into Plato&rsquo;s Cave (BPC) infers coarse shared structure from the collapse of neighbor overlap on larger evaluation sets, whereas we trace this collapse at least partly to a fixed number of neighbors covering shorter distances. We measure the spanning-tree overlap used by Structure over Geometry (SOG) and show that it mostly repeats one-nearest-neighbor overlap. The LRH also extends to independently trained models, whose training procedure and objective decide the criteria met reliably across runs. We prove this claim for the training procedure in a linear autoencoder and for the objective in a finite contrastive Gibbs model. Experiments on dozens of pretrained vision and language models and on thousands of runs of both theoretical models support these conclusions. We hope this work paves the way toward a general theory of representation hypotheses, with a framework for analyzing these hypotheses and comparing their evidence.</p>
-    </details>
 
     <div class="bib-wrap reveal" id="bibtex">
       <div class="bib-head">
