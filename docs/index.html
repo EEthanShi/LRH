@@ -641,15 +641,15 @@
           <p class="frame">At \(k = 10\), the median mKNN of the vision&ndash;language pairs falls from 0.091 to 0.0085 between 256 and 16,384 images, whereas at the same ratio \(k/m\) the medians for \(k = 10\) and \(k = 100\) agree within 4%.</p>
           </div>
         </div>
-        <figure class="fig-card" id="fig-scale">
+        <figure class="fig-card" id="fig-neighbors">
           <div class="fig-bar needs-js"><span class="badge">Figure from the paper</span><button type="button" class="tool" data-enlarge><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M15 3h6v6M9 21H3v-6M21 3l-7 7M3 21l7-7"/></svg>Enlarge</button></div>
-          <a class="fig-img" href="assets/fig_scale.png" aria-label="Open a larger copy of the evaluation-size figure">
+          <a class="fig-img" href="assets/fig_neighbors.png" aria-label="Open a larger copy of the neighbor-overlap and spanning-tree figure">
             <picture>
-              <source srcset="assets/fig_scale.webp" type="image/webp">
-              <img src="assets/fig_scale.png" width="1491" height="661" loading="lazy" decoding="async" alt="Two panels from the paper: mKNN against the evaluation size m on log axes for pairs of seeds, pairs of vision models and vision–language pairs, with a dashed chance line; and the medians of these pairs at k = 1, 10 and 100 against k/m.">
+              <source srcset="assets/fig_neighbors.webp" type="image/webp">
+              <img src="assets/fig_neighbors.png" width="2139" height="662" loading="lazy" decoding="async" alt="Three panels from the paper: mKNN against the evaluation size m on log axes for pairs of seeds, pairs of vision models and vision–language pairs, with a dashed chance line; the medians of these pairs at k = 1, 10 and 100 against k/m; and MST overlap against one-nearest-neighbor overlap for vision–language pairs at mid depth and at the last layer, with the line y = x and the lower bound set by the nearest-neighbor forest.">
             </picture>
           </a>
-          <figcaption>(a) mKNN against the evaluation size \(m\), for single pairs (thin) and the median of each type of pair (thick). (b) These medians at three values of \(k\) against \(k/m\).</figcaption>
+          <figcaption><b>At a fixed \(k\), neighbor overlap stays flat or falls with the evaluation size according to the model pair, and spanning-tree overlap tracks one-nearest-neighbor overlap.</b> (a) mKNN against \(m\), for single pairs (thin) and the median of each type of pair (thick). (b) These medians at three values of \(k\) against \(k/m\). (c) MST overlap against one-nearest-neighbor overlap for vision&ndash;language model pairs at two depths.</figcaption>
         </figure>
       </div>
 
@@ -660,19 +660,7 @@
         </div>
         <div class="result-body">
           <div class="result-main">
-          <p class="frame">Nearest-neighbor edges make up a median 0.875 and 0.889 of the shared MST edges at mid depth and at the last layer. Beyond an affine fit, a fitted monotone link explains a further median of at most 0.0012 of the discrepancy between the squared distances of the two models.</p>
-          </div>
-          <div class="result-side">
-            <figure class="fig-card" id="fig-mst">
-              <div class="fig-bar needs-js"><span class="badge">Figure from the paper</span><button type="button" class="tool" data-enlarge><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M15 3h6v6M9 21H3v-6M21 3l-7 7M3 21l7-7"/></svg>Enlarge</button></div>
-              <a class="fig-img narrow" href="assets/fig_mst.png" aria-label="Open a larger copy of the spanning-tree figure">
-                <picture>
-                  <source srcset="assets/fig_mst.webp" type="image/webp">
-                  <img src="assets/fig_mst.png" width="793" height="736" loading="lazy" decoding="async" alt="Scatter plot from the paper: MST overlap against one-nearest-neighbor overlap for vision–language pairs at mid depth (open circles) and at the last layer (filled circles), with the line y = x and the lower bound set by the nearest-neighbor forest as a black line.">
-                </picture>
-              </a>
-              <figcaption><b>Spanning-tree overlap tracks one-nearest-neighbor overlap.</b> The black line is the lower bound set by the nearest-neighbor forest.</figcaption>
-            </figure>
+          <p class="frame">Nearest-neighbor edges make up a median 0.875 and 0.889 of the shared MST edges at mid depth and at the last layer (<a href="#fig-neighbors">panel (c) of the figure above</a>). Beyond an affine fit, a fitted monotone link explains a further median of at most 0.0012 of the discrepancy between the squared distances of the two models.</p>
           </div>
         </div>
         <figure class="fig-card" id="fig-criteria">
