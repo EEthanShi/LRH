@@ -2,7 +2,7 @@
 
 **Question.** "Theorem 3 states that a learner minimizing InfoNCE and a learner minimizing the spectral contrastive loss learn one relation through different increasing links in the finite Gibbs model. As both samples grow, exact agreement of the two learners on the order of distances becomes reliable, whereas a criterion on scale-normalized geometry with a small tolerance is asymptotically obstructed." This experiment tests the theorem and the analysis pipeline inside the premises of the theorem.
 
-**Paper.** Section 5.6 (Insight 5), Figure 6, and the finite-Gibbs appendix.
+**Paper.** Section 5.6 (Insight 5), Figure 6, and Appendix F.9.
 
 **Status.** Preregistered, with four hashed amendments; two of them fixed programming errors in the frozen analysis code. The sample size N* at which agreement on the global order reaches 90% of pairs was predicted before the runs (`stage2/s23/results/prestep/frozen_predictions.json`).
 
@@ -31,13 +31,13 @@ On the experiment machine Stage A stopped under contention and was completed und
 
 **Outputs (shipped).** `stage2/s23/results/stageA/REPORT_stageA.md`, `stageA_results.json`, `N_match.json`; independent recompute of the completion `stageA/review_A2/recompute_A2.json` and its scripts; `stage2/s23/results/prestep/frozen_predictions.json`; plotted values in `figures/v8/F_link_top/numbers.json`.
 
-**Compute in the paper.** 12.71 GPU-h (frozen pre-step 2.71; pilots and gates 1.37 and main runs 8.63 for the InfoNCE learner); the spectral learner ran on the CPU.
+**Compute in the experimental record (Table R.2).** 12.71 GPU-h (Gaussian limits of both learners before the first sample 2.71; pilots and gates 1.37 and main runs 8.63 for the InfoNCE learner); the spectral learner ran on the CPU.
 
 **Results and failures.**
 - Both learners return certified minimizers of their exact empirical risks, in 192 runs per learner at each of eight sample sizes from 2<sup>20</sup> to 2<sup>40</sup> examples.
 - Exact agreement across objectives on the order of all distances among eight probe inputs held in 0 of 96 pairs up to 2<sup>28</sup> examples and in 94 of 96 at 2<sup>34</sup>, near the value N* = 2<sup>33.75</sup> predicted before the runs.
-- At 2<sup>40</sup> examples, the largest difference of mean-normalized distances across objectives settled at a median 0.348, the limit given by the theorem. Under the scale-normalized discrepancy all 96 pairs stayed outside the tolerance, whereas under the isotonic discrepancy every pair fell within it.
+- At 2<sup>40</sup> examples, the largest difference of mean-normalized distances across objectives on all 256 inputs settled at a median 0.348, the limit given by the theorem with these inputs as the probes. Under the scale-normalized discrepancy all 96 pairs stayed outside the tolerance, whereas under the isotonic discrepancy every pair fell within it.
 - After Holm correction, all nine preregistered confirmatory predictions held, but two secondary Monte Carlo predictions failed: those of the ratio of the discrepancy across objectives to the mean discrepancy within an objective on neighbor sets and on spanning trees.
 - This experiment tests Theorem 3 and our analysis pipeline inside the premises of the theorem, not trained networks, and the sample size it needs for exact agreement on the global order (about 2<sup>34</sup> examples here) reflects how fine that criterion is rather than a practical training budget.
 
-**Deviations.** We wrote and froze amendments A3 and A4 during the analysis run without first consulting the lead author. The preregistration allows such code fixes when they are recorded before the affected data are opened. The file metadata leave open whether the 418 pair caches written before the A4 freeze were opened in between, and every decision is independent of the answer, since A4 changes one secondary boolean. Every solve was to be certified, with failures kept and counted against the predictions: 44 of 3,456 solves narrowly failed their certificates (39 at 2<sup>25</sup>, 5 in the secondary arm at 2<sup>22</sup>).
+**Deviations.** We wrote and froze amendments A3 and A4 during the analysis run. The preregistration allows such code fixes when they are recorded before the affected data are opened. The file metadata leave open whether the 418 pair caches written before the A4 freeze were opened in between, and every decision is independent of the answer, since A4 changes one secondary boolean. Every solve was to be certified, with failures kept and counted against the predictions: 44 of 3,456 solves narrowly failed their certificates (39 at 2<sup>25</sup>, 5 in the secondary arm at 2<sup>22</sup>).

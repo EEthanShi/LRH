@@ -2,7 +2,7 @@
 
 **Question.** Extract the features on which every pretrained-model experiment is scored. "We compare the 17 vision transformers of ARH with the BLOOMZ, OpenLLaMA, and LLaMA-1 language models on the 1,024 image–caption pairs of WIT used by PRH." The same queue extracts a disjoint WIT selection set and a COCO pool of 16,384 images for the evaluation-size experiment.
 
-**Paper.** Section 5.1 and the protocol appendix.
+**Paper.** Section 5.1 and Appendix F.1.
 
 **Status.** Protocol frozen: `stage1/extract/PROTOCOL.md` (sha256 e013f98b5dd963f4). Every sidecar JSON records the sha256 of every code file used.
 
@@ -31,6 +31,6 @@ scripts/lrh_env.sh bash -c 'cd ~/hrh_v2_stage1_20261008 && venv/bin/python extra
 
 **Outputs.** `stage1/features/<dataset>/` (not shipped; gitignored): item tables, raw float32 features per layer, language-model auxiliaries, and one sidecar JSON per model. `PROTOCOL.md` lists every file.
 
-**Compute in the paper.** 38.7 min on the GPU for 66 model and dataset jobs.
+**Compute in the experimental record (Table R.2).** 38.7 min on the GPU for 66 model and dataset jobs.
 
 **Notes.** Features are stored raw (no clip, no ℓ<sub>2</sub>, no centering); the preprocessing is part of each criterion and is applied at analysis time.

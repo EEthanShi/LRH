@@ -22,7 +22,7 @@ The result files stay where the pipelines wrote them (`stage1/results/`, `stage2
 | Finite Gibbs model: 0 of 96 up to 2<sup>28</sup>, 94 of 96 at 2<sup>34</sup>; median 0.348 at 2<sup>40</sup>; nine of nine confirmatory predictions | [08](../experiments/08_finite_gibbs/README.md) | `stage2/s23/results/stageA/REPORT_stageA.md`, `stageA_results.json`, `N_match.json`; independent recompute `stageA/review_A2/recompute_A2.json` |
 | N* = 2<sup>33.75</sup> predicted before the runs | [08](../experiments/08_finite_gibbs/README.md) | `stage2/s23/results/prestep/frozen_predictions.json` |
 | CIFAR-5m contrastive networks: 64 of 64 pairs disagree on neighbor sets; monotone link removes a median 15% against 100% for the exact link | [09](../experiments/09_contrastive_networks/README.md) | `stage2/results/S2_1/S2_1_report.md`, `s21_summary.json` |
-| Two implementations reproduce PRH, ARH and SOG to within 10<sup>−6</sup> | [00](../experiments/00_criteria_library/README.md) | `stage1/results/verification_report.md`, `stage1/hrhv2_ref/REPORT.md`, `stage1/results/S1_2/g1prime.json` |
+| Our code agrees with the reference implementations of PRH and ARH to 1.67 × 10<sup>−8</sup> and, on three pairs of models at both fixed depths, with the published code of PRH and ARH, and with that of SOG under the preprocessing of PRH, to 10<sup>−6</sup>, except for differences caused by two WIT inputs with identical captions | [00](../experiments/00_criteria_library/README.md) | `stage1/results/verification_report.md`, `stage1/hrhv2_ref/REPORT.md`, `stage1/results/S1_2/g1prime.json` |
 | Known-answer checks on synthetic couplings | [00](../experiments/00_criteria_library/README.md) | `stage1/results/G0_report.md`, `G0_report.json` |
 
 ## Other shipped summaries

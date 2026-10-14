@@ -2,7 +2,7 @@
 
 **Question.** How does the training procedure select the gauge outside the premises of Theorem 2? "We train CIFAR-5m networks with a linear head. The head maps its input features h to coordinates u = Mh ∈ ℝ<sup>9</sup> and outputs y = Wu, and the task fixes u up to a gauge." Two preregistered experiments train this head by momentum without weight decay, with weight decay, or from a small initialization, on N = 25,000 and 250,000 images; the second adds gradient flow of the head (head flow) to separate the gauge kept by gradient flow from the change of C under momentum (Remark 1).
 
-**Paper.** Section 5.5 (Insight 4), Figure 5d and 5e, Figures F.6 and F.7, and the two gauge-network appendices.
+**Paper.** Section 5.5 (Insight 4), Figure 5d and 5e, Figures F.6 and F.7, and Appendices F.8 and F.8.1.
 
 **Status.** Both experiments are preregistered.
 
@@ -41,7 +41,7 @@ scripts/lrh_env.sh bash -c "$S2 && $PY src_v11/pipeline_v11.py run --workers 4 -
 - second experiment: `stage2/results/S2_2_v11/S2_2_v11_report.md`, `S2_2_v11_report_full.md`, `summary.json`, `render/a4_parts.csv`, `render/render_v11.py`
 - plotted values: `figures/v8/F_gauge/numbers.json` (panels d and e), `figures/v8/F_gauge_app/numbers.json`, `figures/v8/F_gauge_v11_app/numbers.json`
 
-**Compute in the paper.** First experiment: 48 pilot + 1,344 runs, 0.17 + 4.74 h summed run time, 2.34 h wall with 4 workers. Second experiment: 1,984 pilot + 2,368 runs, 9.91 + 11.01 h summed run time and 0.43 h engineering, 6 h 38 min wall for the whole pipeline.
+**Compute in the experimental record (Table R.2).** First experiment: 48 pilot + 1,344 runs, 0.17 + 4.74 h summed run time, 2.34 h wall with 4 workers. Second experiment: 1,984 pilot + 2,368 runs, 9.91 + 11.01 h summed run time and 0.43 h engineering, 6 h 38 min wall for the whole pipeline.
 
 **Results and failures.**
 - Under head flow, the imbalance part added 0.54 and 0.59 SD to the G<sub>s</sub> discrepancy at the two sizes, about one fifth of the imbalance part under momentum; momentum created a larger imbalance part than head flow on G<sub>s</sub> and 1 − CKA in 8 of 8 Holm-corrected tests.

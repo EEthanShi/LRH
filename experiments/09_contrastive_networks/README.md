@@ -1,8 +1,8 @@
 # 09 · Contrastive networks on CIFAR-5m
 
-**Question.** Does the prediction of Theorem 3 carry over to trained networks outside its premises? The theorem predicts that InfoNCE and the spectral contrastive loss learn one relation through different increasing links, so that their representations agree on every order-based criterion and disagree on scale-normalized geometry. The networks share an airbench94 trunk with a projector to a 128-dimensional embedding; InfoNCE uses a cosine critic at temperature 0.2 (arm A) and 0.5 (arm A′), and the spectral contrastive loss (arm B) uses the ball projection of HaoChen et al. Each arm trains 64 runs on N = 50,000 and 500,000 images at a budget of five million images seen.
+**Question.** Does the prediction of Theorem 3 carry over to trained networks outside its premises? The theorem predicts that InfoNCE and the spectral contrastive loss learn one relation through different increasing links, so that, as both samples grow, their representations agree on every order-based criterion and fail criteria on scale-normalized geometry with a small tolerance. The networks share an airbench94 trunk with a projector to a 128-dimensional embedding; InfoNCE uses a cosine critic at temperature 0.2 (arm A) and 0.5 (arm A′), and the spectral contrastive loss (arm B) uses the ball projection of HaoChen et al. Each arm trains 64 runs on N = 50,000 and 500,000 images at a budget of five million images seen.
 
-**Paper.** Section 5.6, Figures F.8 and F.9, and the contrastive-network appendix.
+**Paper.** Section 5.6, Figure F.8, Appendix F.10 and Table F.3, and Figure R.9 of the experimental record.
 
 **Status.** Preregistered; the prediction failed.
 
@@ -26,8 +26,8 @@ scripts/lrh_env.sh bash -c "$S2 && OMP_NUM_THREADS=1 $PY src/analyze.py s21 --jo
 
 **Outputs (shipped).** `stage2/results/S2_1/S2_1_report.md`, `s21_summary.json`; recompute scripts in `stage2/results/review_final/s21-recompute/`; plotted values in `figures/v8/F_link_net/numbers.json` and `figures/v8/F_link_app/numbers.json`.
 
-**Compute in the paper.** 48 pilot + 448 runs, 5.05 + 30.38 h summed run time, 1.57 + 7.52 h wall.
+**Compute in the experimental record (Table R.2).** 48 pilot + 448 runs, 5.05 + 30.38 h summed run time, 1.57 + 7.52 h wall.
 
 **Results.** "The preregistered prediction failed in CIFAR-5m networks outside these premises, where at 500,000 images all 64 pairs of InfoNCE and spectral runs disagree even on neighbor sets and a fitted monotone link removes a median 15% of the residual left by an affine map, against 100% for the exact link of the theorem applied to an InfoNCE Gram matrix as a positive control." Both secondary predictions failed as well: the prediction derived from the co-occurrence lemma, since more data did not shrink the log-distance error of near pairs of images faster than that of far pairs, and the prediction of a fitted link exponent in [2.5, 10].
 
-**Deviations.** The unconstrained spectral loss diverged at every learning rate tried, so the spectral arm uses the ball projection, which was active on every evaluated input, and the arm trains on the unit sphere. The paper records the design errors of the Stage-2 preregistration that concern this experiment (the temperature item assumed a pure rescaling, and the falsification threshold of 0.2 on the warp share rejects the sharp link of the theorem at the InfoNCE temperature 0.2); each leaves every number and decision unchanged.
+**Deviations.** The unconstrained spectral loss diverged at every learning rate tried, so the spectral arm uses the ball projection, which was active on every evaluated input, and the arm trains on the unit sphere. The paper records the design errors of the Stage-2 preregistration that concern this experiment (the temperature item assumed a pure rescaling, and the falsification threshold of 0.2 on the warp share rules out the sharp link of the theorem but not a general monotone link); each leaves every number and decision unchanged.
